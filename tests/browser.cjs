@@ -27,6 +27,9 @@ fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,
    const wasPaused=live&&await page.evaluate(()=>window.lab.state.paused);
    if(live&&!wasPaused){await page.click('#pause');await waitFor(()=>window.lab.state.paused);}
    const time=live?await page.evaluate(()=>window.lab.state.time):null;
+   // Two RAF callbacks can both occur while an older GPU frame is in flight.
+   // Request a new frame of this paused pose and wait for its actual GPU fence.
+   if(live)assert.equal(await page.evaluate(()=>window.lab.renderCurrentFrame()),true);
    await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
    await page.screenshot({path:out+'/'+name+'.png',fullPage:true});
    if(live&&!wasPaused){await page.click('#pause');await waitFor(t=>window.lab.state.time>t,time);}
@@ -50,6 +53,12 @@ fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,
   await page.selectOption('#objective-select','1');
   await waitFor(()=>window.lab.state.objective?.magnification===40,null,{timeout:15000});
   checks.push({check:'Real Nikon stage motion and objective indexing, without cross-origin isolation',passed:true});
+  await page.click('#contact-view');
+  await waitFor(()=>document.getElementById('contact-view').getAttribute('aria-pressed')==='true'&&window.lab.contactShapes?.shapes.length>0);
+  assert.ok(await page.evaluate(()=>window.lab.contactShapes.shapes.some(x=>x.body==='carriage_x')));
+  await page.click('#contact-view');
+  assert.equal(await page.locator('#contact-view').getAttribute('aria-pressed'),'false');
+  checks.push({check:'Contact shapes load lazily and toggle independently of the visual instrument',passed:true});
   await page.click('#reset');
   await page.click('#enable-camera');
   await waitFor(()=>document.getElementById('specimen-image').naturalWidth===256,null,{timeout:180000});
@@ -78,6 +87,12 @@ fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,
     await screenshot(asset);
     checks.push({check:asset+' detailed GLB and live physics load',passed:true});
     if(asset==='transfer'){
+     assert.equal(await page.evaluate(()=>window.lab.contactShapes),undefined);
+     await page.click('#contact-view');
+     await waitFor(()=>window.lab.contactShapes?.shapes.some(x=>x.body==='sample_x'));
+     await screenshot('transfer-contact-shapes');
+     await page.click('#contact-view');
+     checks.push({check:'Transfer contact overlay replaces prior instrument data and renders',passed:true});
      const slider=async(name,value)=>page.locator('input[data-read="'+name+'"]').evaluate((el,value)=>{el.value=value;el.dispatchEvent(new Event('change',{bubbles:true}));},value);
      const lock=page.locator('input[data-read="rotation_lock_angle"]');
      await slider('sample_theta_angle','12');

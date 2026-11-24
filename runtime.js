@@ -3,7 +3,7 @@ export class BrowserRuntime {
   constructor(onState,onStatus,onError){this.onState=onState;this.onStatus=onStatus;this.onError=onError;this.pending=new Map();this.next=0;}
   async open(item){
     this.close();
-    this.worker=new Worker(new URL('./worker.js?v=realism4',import.meta.url),{type:'module'});
+    this.worker=new Worker(new URL('./worker.js?v=contact1',import.meta.url),{type:'module'});
     this.worker.onmessage=({data})=>{
       if(data.type==='state')this.onState(data.state);
       if(data.type==='status')this.onStatus(data.message);

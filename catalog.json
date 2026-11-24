@@ -6,8 +6,8 @@
       "title": "Nikon Eclipse E1000",
       "folder": "000",
       "model": "e1000",
-      "glb": "./assets/nikon/model.glb?v=realism4",
-      "preview": "./assets/nikon/preview.jpg?v=realism4",
+      "glb": "./assets/nikon/model.glb?v=contact1",
+      "preview": "./assets/nikon/preview.jpg?v=contact1",
       "size": 30841116,
       "controls": [],
       "links": {},
@@ -51,8 +51,8 @@
           "baseline": "image fiducial feedback"
         }
       ],
-      "render": "./assets/nikon/render.png?v=realism4",
-      "detail_render": "./assets/nikon/detail.png?v=realism4",
+      "render": "./assets/nikon/render.png?v=contact1",
+      "detail_render": "./assets/nikon/detail.png?v=contact1",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -70,24 +70,25 @@
       "render_views": [
         {
           "label": "Operator view",
-          "url": "./assets/nikon/operator_view.png?v=realism4"
+          "url": "./assets/nikon/operator_view.png?v=contact1"
         },
         {
           "label": "Optical head",
-          "url": "./assets/nikon/optical_head.png?v=realism4"
+          "url": "./assets/nikon/optical_head.png?v=contact1"
         }
       ],
-      "physics": "./assets/nikon/physics.xml?v=realism4",
-      "metadata": "./assets/nikon/metadata.json?v=realism4"
+      "physics": "./assets/nikon/physics.xml?v=contact1",
+      "metadata": "./assets/nikon/metadata.json?v=contact1",
+      "collision": "./assets/nikon/collision.json?v=contact1"
     },
     {
       "id": "transfer",
       "title": "Dry-transfer station",
       "folder": "001_transfer_stage",
       "model": "transfer_station",
-      "glb": "./assets/transfer/model.glb?v=realism4",
-      "preview": "./assets/transfer/preview.jpg?v=realism4",
-      "size": 52184056,
+      "glb": "./assets/transfer/model.glb?v=contact1",
+      "preview": "./assets/transfer/preview.jpg?v=contact1",
+      "size": 55445916,
       "controls": [
         {
           "name": "Camera / eyepiece split",
@@ -172,7 +173,11 @@
           "units": "rad",
           "kp": 5,
           "kv": 0.3,
-          "force": 0.5
+          "force": 0.5,
+          "operating_limits": [
+            -1.5707963267948966,
+            1.5707963267948966
+          ]
         },
         {
           "name": "Stamp X",
@@ -455,6 +460,20 @@
                 32.8,
                 47
               ]
+            },
+            "vacuum_valve_outlet": {
+              "pos_mm": [
+                -266,
+                118,
+                40
+              ]
+            },
+            "heater_host_terminal": {
+              "pos_mm": [
+                18,
+                180,
+                29
+              ]
             }
           }
         },
@@ -479,11 +498,12 @@
               1
             ],
             "damping": 30,
-            "frictionloss": 2,
+            "frictionloss": 8.0,
             "range": [
               -0.025,
               0.025
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 3,
           "inertia": null,
@@ -588,7 +608,8 @@
             "range": [
               0,
               0.012
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.018,
           "inertia": null,
@@ -647,7 +668,8 @@
             "range": [
               -3.141592653589793,
               3.141592653589793
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.4,
           "inertia": null,
@@ -830,7 +852,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -921,7 +944,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.012,
           "inertia": [
@@ -957,7 +981,8 @@
             "range": [
               -157.07963267948966,
               157.07963267948966
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.024,
           "inertia": [
@@ -1020,7 +1045,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -1129,7 +1155,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.012,
           "inertia": [
@@ -1165,7 +1192,8 @@
             "range": [
               -157.07963267948966,
               157.07963267948966
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.024,
           "inertia": [
@@ -1228,7 +1256,8 @@
             "range": [
               -0.04363323129985824,
               0.04363323129985824
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.1,
           "inertia": null,
@@ -1260,7 +1289,8 @@
             "range": [
               0,
               1.5707963267948966
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.018,
           "inertia": [
@@ -1323,7 +1353,8 @@
             "range": [
               -0.002,
               0.002
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.01,
           "inertia": [
@@ -1359,7 +1390,8 @@
             "range": [
               -17.830912588144816,
               17.830912588144816
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.02,
           "inertia": [
@@ -1422,7 +1454,8 @@
             "range": [
               -3.141592653589793,
               3.141592653589793
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -1517,6 +1550,20 @@
                 0,
                 49.25
               ]
+            },
+            "heater_electrical_inlet": {
+              "pos_mm": [
+                -36,
+                8,
+                40
+              ]
+            },
+            "workholder_vacuum_inlet": {
+              "pos_mm": [
+                0,
+                32,
+                42
+              ]
             }
           }
         },
@@ -1545,7 +1592,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -1636,7 +1684,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.012,
           "inertia": [
@@ -1672,7 +1721,8 @@
             "range": [
               -157.07963267948966,
               157.07963267948966
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.024,
           "inertia": [
@@ -1735,7 +1785,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -1864,7 +1915,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.012,
           "inertia": [
@@ -1900,7 +1952,8 @@
             "range": [
               -157.07963267948966,
               157.07963267948966
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.024,
           "inertia": [
@@ -1963,7 +2016,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -2073,7 +2127,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.012,
           "inertia": [
@@ -2105,11 +2160,12 @@
               1.0
             ],
             "damping": 1e-05,
-            "frictionloss": 5e-06,
+            "frictionloss": 0.00015,
             "range": [
               -157.07963267948966,
               157.07963267948966
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.024,
           "inertia": [
@@ -2172,7 +2228,8 @@
             "range": [
               -0.0872665,
               0.0872665
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.12,
           "inertia": null,
@@ -2291,7 +2348,8 @@
             "range": [
               -0.0032,
               0.0032
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.012,
           "inertia": [
@@ -2327,7 +2385,8 @@
             "range": [
               -38.38179489312529,
               38.38179489312529
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.02,
           "inertia": [
@@ -2390,7 +2449,8 @@
             "range": [
               0,
               4.71238898038469
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.02,
           "inertia": [
@@ -2453,7 +2513,8 @@
             "range": [
               0,
               0.35
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.012,
           "inertia": [
@@ -2509,8 +2570,8 @@
           "tolerance_m": 0.00015
         }
       ],
-      "render": "./assets/transfer/render.png?v=realism4",
-      "detail_render": "./assets/transfer/detail.png?v=realism4",
+      "render": "./assets/transfer/render.png?v=contact1",
+      "detail_render": "./assets/transfer/detail.png?v=contact1",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -2528,31 +2589,32 @@
       "render_views": [
         {
           "label": "Illuminator and fiber",
-          "url": "./assets/transfer/illumination.png?v=realism4"
+          "url": "./assets/transfer/illumination.png?v=contact1"
         },
         {
           "label": "Rotation stage",
-          "url": "./assets/transfer/rotation_detail.png?v=realism4"
+          "url": "./assets/transfer/rotation_detail.png?v=contact1"
         },
         {
           "label": "Stamp positioning stages",
-          "url": "./assets/transfer/stamp_stage.png?v=realism4"
+          "url": "./assets/transfer/stamp_stage.png?v=contact1"
         },
         {
           "label": "Optical head",
-          "url": "./assets/transfer/optical_head.png?v=realism4"
+          "url": "./assets/transfer/optical_head.png?v=contact1"
         }
       ],
-      "physics": "./assets/transfer/physics.xml?v=realism4",
-      "metadata": "./assets/transfer/metadata.json?v=realism4"
+      "physics": "./assets/transfer/physics.xml?v=contact1",
+      "metadata": "./assets/transfer/metadata.json?v=contact1",
+      "collision": "./assets/transfer/collision.json?v=contact1"
     },
     {
       "id": "probe",
       "title": "Manual probe station",
       "folder": "002_probe_station",
       "model": "probe_station",
-      "glb": "./assets/probe/model.glb?v=realism4",
-      "preview": "./assets/probe/preview.jpg?v=realism4",
+      "glb": "./assets/probe/model.glb?v=contact1",
+      "preview": "./assets/probe/preview.jpg?v=contact1",
       "size": 25470592,
       "controls": [
         {
@@ -2935,7 +2997,8 @@
             "range": [
               -0.02,
               0.02
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 2.6,
           "inertia": null,
@@ -3047,7 +3110,8 @@
             "range": [
               0,
               0.012
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.018,
           "inertia": null,
@@ -3106,7 +3170,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -3178,7 +3243,8 @@
             "range": [
               -157.07963267948966,
               157.07963267948966
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.025,
           "inertia": [
@@ -3241,7 +3307,8 @@
             "range": [
               -0.0125,
               0.0125
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -3312,7 +3379,8 @@
             "range": [
               -157.07963267948966,
               157.07963267948966
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.025,
           "inertia": [
@@ -3375,7 +3443,8 @@
             "range": [
               -0.35,
               0.35
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.4,
           "inertia": null,
@@ -3486,7 +3555,8 @@
             "range": [
               -0.006,
               0.006
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -3558,7 +3628,8 @@
             "range": [
               -75.39822368615503,
               75.39822368615503
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.025,
           "inertia": [
@@ -3621,7 +3692,8 @@
             "range": [
               -0.006,
               0.006
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -3693,7 +3765,8 @@
             "range": [
               -75.39822368615503,
               75.39822368615503
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.025,
           "inertia": [
@@ -3756,7 +3829,8 @@
             "range": [
               -0.006,
               0.006
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -3882,7 +3956,8 @@
             "range": [
               -75.39822368615503,
               75.39822368615503
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.025,
           "inertia": [
@@ -3945,7 +4020,8 @@
             "range": [
               -0.006,
               0.006
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -4017,7 +4093,8 @@
             "range": [
               -75.39822368615503,
               75.39822368615503
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.025,
           "inertia": [
@@ -4080,7 +4157,8 @@
             "range": [
               -0.006,
               0.006
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -4152,7 +4230,8 @@
             "range": [
               -75.39822368615503,
               75.39822368615503
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.025,
           "inertia": [
@@ -4215,7 +4294,8 @@
             "range": [
               -0.006,
               0.006
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.35,
           "inertia": null,
@@ -4341,7 +4421,8 @@
             "range": [
               -75.39822368615503,
               75.39822368615503
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.025,
           "inertia": [
@@ -4396,8 +4477,8 @@
           "tolerance_m": 8e-05
         }
       ],
-      "render": "./assets/probe/render.png?v=realism4",
-      "detail_render": "./assets/probe/detail.png?v=realism4",
+      "render": "./assets/probe/render.png?v=contact1",
+      "detail_render": "./assets/probe/detail.png?v=contact1",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -4415,23 +4496,24 @@
       "render_views": [
         {
           "label": "Optical head",
-          "url": "./assets/probe/optical_head.png?v=realism4"
+          "url": "./assets/probe/optical_head.png?v=contact1"
         },
         {
           "label": "Probe manipulator",
-          "url": "./assets/probe/left_manipulator.png?v=realism4"
+          "url": "./assets/probe/left_manipulator.png?v=contact1"
         }
       ],
-      "physics": "./assets/probe/physics.xml?v=realism4",
-      "metadata": "./assets/probe/metadata.json?v=realism4"
+      "physics": "./assets/probe/physics.xml?v=contact1",
+      "metadata": "./assets/probe/metadata.json?v=contact1",
+      "collision": "./assets/probe/collision.json?v=contact1"
     },
     {
       "id": "zeiss",
       "title": "Zeiss Axioskop",
       "folder": "003_zeiss",
       "model": "zeiss_upright",
-      "glb": "./assets/zeiss/model.glb?v=realism4",
-      "preview": "./assets/zeiss/preview.jpg?v=realism4",
+      "glb": "./assets/zeiss/model.glb?v=contact1",
+      "preview": "./assets/zeiss/preview.jpg?v=contact1",
       "size": 27154048,
       "controls": [
         {
@@ -4652,7 +4734,8 @@
             "range": [
               -0.01,
               0.007
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 1.4,
           "inertia": null,
@@ -4742,7 +4825,8 @@
             "range": [
               -8,
               8
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.08,
           "inertia": null,
@@ -4826,7 +4910,8 @@
             "range": [
               -0.025,
               0.025
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.4,
           "inertia": null,
@@ -4981,7 +5066,8 @@
             "range": [
               -0.035,
               0.035
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.5,
           "inertia": null,
@@ -5212,7 +5298,8 @@
             "range": [
               -12,
               12
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.08,
           "inertia": null,
@@ -5271,7 +5358,8 @@
             "range": [
               -12,
               12
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.08,
           "inertia": null,
@@ -5330,7 +5418,8 @@
             "range": [
               -3.141592653589793,
               3.141592653589793
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.45,
           "inertia": null,
@@ -5577,7 +5666,8 @@
             "range": [
               0,
               0.012
-            ]
+            ],
+            "solimpfriction": ".99999 .999999 .000001 .5 2"
           },
           "mass": 0.015,
           "inertia": null,
@@ -5637,8 +5727,8 @@
           "requires_finish": true
         }
       ],
-      "render": "./assets/zeiss/render.png?v=realism4",
-      "detail_render": "./assets/zeiss/detail.png?v=realism4",
+      "render": "./assets/zeiss/render.png?v=contact1",
+      "detail_render": "./assets/zeiss/detail.png?v=contact1",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -5656,23 +5746,24 @@
       "render_views": [
         {
           "label": "Optical head",
-          "url": "./assets/zeiss/optical_head.png?v=realism4"
+          "url": "./assets/zeiss/optical_head.png?v=contact1"
         },
         {
           "label": "Stage and condenser",
-          "url": "./assets/zeiss/condenser.png?v=realism4"
+          "url": "./assets/zeiss/condenser.png?v=contact1"
         }
       ],
-      "physics": "./assets/zeiss/physics.xml?v=realism4",
-      "metadata": "./assets/zeiss/metadata.json?v=realism4"
+      "physics": "./assets/zeiss/physics.xml?v=contact1",
+      "metadata": "./assets/zeiss/metadata.json?v=contact1",
+      "collision": "./assets/zeiss/collision.json?v=contact1"
     },
     {
       "id": "bonder",
       "title": "West\u00b7Bond 7700",
       "folder": "004_wire_bonder",
       "model": "wire_bonder",
-      "glb": "./assets/bonder/model.glb?v=realism4",
-      "preview": "./assets/bonder/preview.jpg?v=realism4",
+      "glb": "./assets/bonder/model.glb?v=contact1",
+      "preview": "./assets/bonder/preview.jpg?v=contact1",
       "size": 40119228,
       "controls": [
         {
@@ -6403,37 +6494,38 @@
           "tolerance_m": 0.0002
         }
       ],
-      "render": "./assets/bonder/render.png?v=realism4",
-      "detail_render": "./assets/bonder/detail.png?v=realism4",
+      "render": "./assets/bonder/render.png?v=contact1",
+      "detail_render": "./assets/bonder/detail.png?v=contact1",
       "specimen_camera": false,
       "render_views": [
         {
           "label": "Bonding head",
-          "url": "./assets/bonder/head_detail.png?v=realism4"
+          "url": "./assets/bonder/head_detail.png?v=contact1"
         },
         {
           "label": "Optical head",
-          "url": "./assets/bonder/optical_head.png?v=realism4"
+          "url": "./assets/bonder/optical_head.png?v=contact1"
         },
         {
           "label": "Heated workholder",
-          "url": "./assets/bonder/heater_detail.png?v=realism4"
+          "url": "./assets/bonder/heater_detail.png?v=contact1"
         },
         {
           "label": "Rear connections",
-          "url": "./assets/bonder/rear_service.png?v=realism4"
+          "url": "./assets/bonder/rear_service.png?v=contact1"
         }
       ],
-      "physics": "./assets/bonder/physics.xml?v=realism4",
-      "metadata": "./assets/bonder/metadata.json?v=realism4"
+      "physics": "./assets/bonder/physics.xml?v=contact1",
+      "metadata": "./assets/bonder/metadata.json?v=contact1",
+      "collision": "./assets/bonder/collision.json?v=contact1"
     },
     {
       "id": "afm",
       "title": "Asylum Cypher S",
       "folder": "005_afm",
       "model": "cypher_s",
-      "glb": "./assets/afm/model.glb?v=realism4",
-      "preview": "./assets/afm/preview.jpg?v=realism4",
+      "glb": "./assets/afm/model.glb?v=contact1",
+      "preview": "./assets/afm/preview.jpg?v=contact1",
       "size": 26950380,
       "controls": [
         {
@@ -7639,33 +7731,34 @@
           "seconds": 20
         }
       ],
-      "render": "./assets/afm/render.png?v=realism4",
-      "detail_render": "./assets/afm/detail.png?v=realism4",
+      "render": "./assets/afm/render.png?v=contact1",
+      "detail_render": "./assets/afm/detail.png?v=contact1",
       "specimen_camera": false,
       "render_views": [
         {
           "label": "Door release",
-          "url": "./assets/afm/door_release.png?v=realism4"
+          "url": "./assets/afm/door_release.png?v=contact1"
         },
         {
           "label": "Open scanner",
-          "url": "./assets/afm/open_scanner.png?v=realism4"
+          "url": "./assets/afm/open_scanner.png?v=contact1"
         },
         {
           "label": "Scanner release",
-          "url": "./assets/afm/scanner_release.png?v=realism4"
+          "url": "./assets/afm/scanner_release.png?v=contact1"
         }
       ],
-      "physics": "./assets/afm/physics.xml?v=realism4",
-      "metadata": "./assets/afm/metadata.json?v=realism4"
+      "physics": "./assets/afm/physics.xml?v=contact1",
+      "metadata": "./assets/afm/metadata.json?v=contact1",
+      "collision": "./assets/afm/collision.json?v=contact1"
     },
     {
       "id": "tweezers",
       "title": "Spring tweezers",
       "folder": "006_tweezers",
       "model": "spring_tweezers",
-      "glb": "./assets/tweezers/model.glb?v=realism4",
-      "preview": "./assets/tweezers/preview.jpg?v=realism4",
+      "glb": "./assets/tweezers/model.glb?v=contact1",
+      "preview": "./assets/tweezers/preview.jpg?v=contact1",
       "size": 6768524,
       "controls": [
         {
@@ -9941,17 +10034,18 @@
           "tolerance_m": 0.001
         }
       ],
-      "render": "./assets/tweezers/render.png?v=realism4",
-      "detail_render": "./assets/tweezers/detail.png?v=realism4",
+      "render": "./assets/tweezers/render.png?v=contact1",
+      "detail_render": "./assets/tweezers/detail.png?v=contact1",
       "specimen_camera": false,
       "render_views": [
         {
           "label": "Measured chip placement",
-          "url": "./assets/tweezers/placement.png?v=realism4"
+          "url": "./assets/tweezers/placement.png?v=contact1"
         }
       ],
-      "physics": "./assets/tweezers/physics.xml?v=realism4",
-      "metadata": "./assets/tweezers/metadata.json?v=realism4"
+      "physics": "./assets/tweezers/physics.xml?v=contact1",
+      "metadata": "./assets/tweezers/metadata.json?v=contact1",
+      "collision": "./assets/tweezers/collision.json?v=contact1"
     }
   ]
 }

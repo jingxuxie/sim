@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "task": "transfer.gripper_turn_sample_x",
+  "files": {
+    "PANDA_LICENSE": {
+      "bytes": 10173,
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+    },
+    "PANDA_SOURCE.json": {
+      "bytes": 3145,
+      "sha256": "48bac2acea9d58a99cc93643f7ce60dc773fea39b85e6c1d6412f83c5ddbc86a"
+    },
+    "README.md": {
+      "bytes": 3001,
+      "sha256": "e1b34774e16a8873a9857afc646ce90a19411b07ad75c1b10e8472b1af67acf0"
+    },
+    "contact_task.mp4": {
+      "bytes": 1030498,
+      "sha256": "030e5d6427fa93ea5ae7f1a92db76172e443d29542374c4ecbb4b06e76d79e53"
+    },
+    "model.glb": {
+      "bytes": 56087400,
+      "sha256": "f0891f3b34c3464ee36d71ce5c15167b70eedf07c4cf8c7f6b84d1f63052ab81"
+    },
+    "portable.tar.gz": {
+      "bytes": 311014,
+      "sha256": "34bc570f12e03e862b50b66a7626c9f452cf8a0463cba853f7d5fb63f3748d15"
+    },
+    "preview.png": {
+      "bytes": 6035338,
+      "sha256": "fd844d94cf292db3722df7d52f0529b654a0a3adbf7da4a1198d721f7831bd03"
+    },
+    "render_report.json": {
+      "bytes": 646,
+      "sha256": "024f3b8dbfe327d40e66bc96b8bbcd8fb4f4128e1903a1d9bf26fb92520f74fd"
+    },
+    "trajectory.json": {
+      "bytes": 2710953,
+      "sha256": "2ac6b53684a83673023f439ffde23307c8fa40ff8af966d2d3ee50a89de2ebc2"
+    },
+    "validation/contact/seed_0/report.json": {
+      "bytes": 4180,
+      "sha256": "fe7310140b01b24798f9fe0d59b58e6926718bee0106093eb37b739888a6f977"
+    },
+    "validation/contact/seed_11/report.json": {
+      "bytes": 4185,
+      "sha256": "35235b11c313bcf3112018317164a9fd93d1c798d59c081079b3ac9e178e38bd"
+    },
+    "validation/contact/seed_37/report.json": {
+      "bytes": 4156,
+      "sha256": "6d7b58174782433e5a9c0503a687d2ecdb88e3a598a8a41e6702edd330ea5b7c"
+    },
+    "validation/contacts_disabled/seed_0/report.json": {
+      "bytes": 4031,
+      "sha256": "5a6d2c256a2b443ab5f6e7a05d30aeb5ccbd3489b8f8b5ffc0b4e3f1a4bc2fde"
+    },
+    "validation/contacts_disabled/seed_11/report.json": {
+      "bytes": 4036,
+      "sha256": "99e4cdd33e80ff18713692231e854b79661ebb15794e20e2a319134a1fceb640"
+    },
+    "validation/contacts_disabled/seed_37/report.json": {
+      "bytes": 4033,
+      "sha256": "c6eea6862c2d2c2a2953e489f1689925a09f703279019707012f864bbf63acc4"
+    },
+    "validation/glb_alignment.json": {
+      "bytes": 599,
+      "sha256": "5d30d77d1650517aaf9cb9e2570ae680a2107d979749e4d4f63c227f03c01096"
+    },
+    "validation/missed_grasp/seed_0/report.json": {
+      "bytes": 4028,
+      "sha256": "a98d54f62e079faa38fb716e291a304a415b87e69f7ba8f7a94642c51c07db9a"
+    },
+    "validation/missed_grasp/seed_11/report.json": {
+      "bytes": 4033,
+      "sha256": "e1ee00225e9740fa40f42287805d54a78d25766369436a069b6e0a406329184f"
+    },
+    "validation/missed_grasp/seed_37/report.json": {
+      "bytes": 4030,
+      "sha256": "11c77e0fe99572693eabc06f92499cbf1c94473badd04b95769b5a96dfada332"
+    },
+    "validation/no_turn/seed_0/report.json": {
+      "bytes": 4181,
+      "sha256": "9680eee6ba1480138b64143362a365e55e10396ffeab947d619941c2e7a5d18d"
+    },
+    "validation/no_turn/seed_11/report.json": {
+      "bytes": 4186,
+      "sha256": "4816bf41dc54bd9196d5e1741d730f78c3b9a292d5a88be27f594da17769698e"
+    },
+    "validation/no_turn/seed_37/report.json": {
+      "bytes": 4184,
+      "sha256": "d483b181d85bcde14ada4ab3fee3ae6a36ae8f8e30ae274bb3e79916e32ba629"
+    },
+    "validation/portable_summary.json": {
+      "bytes": 2030,
+      "sha256": "071899210c7c1763530cb8f5341f8353e74463f4b8d9b4f40e9b477c55c9daee"
+    },
+    "validation/portable_verification.json": {
+      "bytes": 494,
+      "sha256": "36a361829e9aa8b406443a8c514a046a01562f103e4bb4bcd0c63b6149cab6e4"
+    },
+    "validation/summary.json": {
+      "bytes": 5103,
+      "sha256": "4d50b7391c0c57d0d9aa8a357068175f3ee46d94012d00cf9c28d3fb22f848f2"
+    },
+    "video_report.json": {
+      "bytes": 408,
+      "sha256": "a48dbbf8c4aa9572cd05a458d3c413fa266c4f1bc5fcc05cb2b331c2bb7da368"
+    },
+    "visuals_report.json": {
+      "bytes": 1029,
+      "sha256": "f5b77e0df93ff743db0f4095b58f82ceab4f5355180547345de927cd06b5d410"
+    }
+  },
+  "scope": "Native gripper contact benchmark with Cartesian wrist; no full arm/browser robot control",
+  "native_positive_trials": 3,
+  "native_negative_controls": 9,
+  "portable_checks": 4
+}

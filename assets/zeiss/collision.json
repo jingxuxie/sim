@@ -1,0 +1,1234 @@
+{
+  "units": "SI",
+  "coordinates": "MuJoCo Z-up; local to named body",
+  "physics_sha256": "598801935f197bc5c9652aae57a1b8a9a5227aa86b33a7602df59d020c303259",
+  "shapes": [
+    {
+      "name": "base__Foot_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.027,
+        0.022
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.065,
+        0.151,
+        0.02
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Spine_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.076,
+        0.172
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.055,
+        0.045,
+        0.1315
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Upper_arm_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.006,
+        0.309
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.055,
+        0.1055,
+        0.0315
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Lateral_epi_filter_track",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.091,
+        -0.047,
+        0.309
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.049,
+        0.028,
+        0.0135
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Black_4FL_slider",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.139,
+        -0.047,
+        0.306
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.031,
+        0.027,
+        0.011
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__External_lamp_supply",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.203,
+        0.1,
+        0.036
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0535,
+        0.072,
+        0.036
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "focus__Focus_saddle",
+      "body": "focus",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.022,
+        0.153
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0555,
+        0.018,
+        0.032
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "focus__Stage_support_fork",
+      "body": "focus",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.037,
+        0.151
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0635,
+        0.0535,
+        0.0085
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "focus__Condenser_carrier",
+      "body": "focus",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.07,
+        0.125
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.032,
+        0.015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_y__Y_runner_side_-1",
+      "body": "stage_y",
+      "type": "box",
+      "pos": [
+        -0.0605,
+        0.0,
+        -0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0245,
+        0.065,
+        0.0045
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_y__Y_runner_end_-1",
+      "body": "stage_y",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.0435,
+        -0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.036,
+        0.0215,
+        0.0045
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_y__Y_runner_side_1",
+      "body": "stage_y",
+      "type": "box",
+      "pos": [
+        0.0605,
+        0.0,
+        -0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0245,
+        0.065,
+        0.0045
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_y__Y_runner_end_1",
+      "body": "stage_y",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0435,
+        -0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.036,
+        0.0215,
+        0.0045
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_y__XY_control_bracket_foot",
+      "body": "stage_y",
+      "type": "box",
+      "pos": [
+        0.099,
+        0.051,
+        -0.007
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.026,
+        0.0125,
+        0.0045
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_y__XY_control_gear_housing",
+      "body": "stage_y",
+      "type": "box",
+      "pos": [
+        0.118,
+        0.051,
+        -0.004
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.014,
+        0.013,
+        0.004
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__Black_mechanical_stage_side_-1",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        -0.0675,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0335,
+        0.077,
+        0.007
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__Black_mechanical_stage_end_-1",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.04875,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.034,
+        0.02825,
+        0.007
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__Black_mechanical_stage_side_1",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        0.0675,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0335,
+        0.077,
+        0.007
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__Black_mechanical_stage_end_1",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.04875,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.034,
+        0.02825,
+        0.007
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_side_-1",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        -0.03825,
+        0.0,
+        0.0082
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.01025,
+        0.032,
+        0.0009
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_end_-1",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.02325,
+        0.0082
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.028,
+        0.00875,
+        0.0009
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_side_1",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        0.03825,
+        0.0,
+        0.0082
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.01025,
+        0.032,
+        0.0009
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_end_1",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.02325,
+        0.0082
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.028,
+        0.00875,
+        0.0009
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__Glass_sample_slide",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.0089
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0375,
+        0.0125,
+        0.0005
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x__device_chip",
+      "body": "stage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.0097
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0045,
+        0.0045,
+        0.0002
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_x_knob__stage_x_knob_grip",
+      "body": "stage_x_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0115,
+        0.009,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_y_knob__stage_y_knob_grip",
+      "body": "stage_y_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0135,
+        0.009,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "focus_wheel__focus_wheel_grip",
+      "body": "focus_wheel",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.029,
+        0.012,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "focus_wheel__Opposite_coarse_focus_contact",
+      "body": "focus_wheel",
+      "type": "cylinder",
+      "pos": [
+        -0.154,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.029,
+        0.012,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "turret__Silver_nosepiece",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.049,
+        0.0075,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_barrel",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.03801573497,
+        -0.03613857606
+      ],
+      "quat": [
+        0.12186934340242568,
+        0.9925461516416563,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.012,
+        0.029,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_barrel_2",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.03604007177,
+        -0.01171012917,
+        -0.0356534282
+      ],
+      "quat": [
+        0.12186934338161517,
+        0.30671362860691426,
+        0.943967485229504,
+        -0.0
+      ],
+      "size": [
+        0.012,
+        0.0285,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_barrel_3",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.02134970151,
+        0.02938534317,
+        -0.02934650598
+      ],
+      "quat": [
+        0.12186934340979022,
+        -0.8029867045258035,
+        0.5834039899517801,
+        0.0
+      ],
+      "size": [
+        0.012,
+        0.022,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_barrel_4",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.02198959307,
+        0.03026607833,
+        -0.03371283675
+      ],
+      "quat": [
+        0.12186934340979022,
+        -0.8029867045258035,
+        -0.5834039899517801,
+        0.0
+      ],
+      "size": [
+        0.012,
+        0.0265,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_barrel_5",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.03627015316,
+        -0.01178488715,
+        -0.03662372393
+      ],
+      "quat": [
+        0.12186934338161517,
+        0.30671362860691426,
+        -0.943967485229504,
+        0.0
+      ],
+      "size": [
+        0.012,
+        0.0295,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "light_path_selector__Phototube_beam_selector_grip",
+      "body": "light_path_selector",
+      "type": "cylinder",
+      "pos": [
+        0.011,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0045,
+        0.0045,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    }
+  ],
+  "bodies": {
+    "base": {
+      "mass_kg": 0.0,
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": true
+    },
+    "focus": {
+      "mass_kg": 1.4,
+      "diagonal_inertia_kg_m2": [
+        0.001715,
+        0.001715,
+        0.001715
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "stage_y": {
+      "mass_kg": 0.4,
+      "diagonal_inertia_kg_m2": [
+        0.00049,
+        0.00049,
+        0.00049
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "stage_x": {
+      "mass_kg": 0.5,
+      "diagonal_inertia_kg_m2": [
+        0.0006125,
+        0.0006125,
+        0.0006125
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "stage_x_knob": {
+      "mass_kg": 0.08,
+      "diagonal_inertia_kg_m2": [
+        9.8e-05,
+        9.8e-05,
+        9.8e-05
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "stage_y_knob": {
+      "mass_kg": 0.08,
+      "diagonal_inertia_kg_m2": [
+        9.8e-05,
+        9.8e-05,
+        9.8e-05
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "focus_wheel": {
+      "mass_kg": 0.08,
+      "diagonal_inertia_kg_m2": [
+        9.8e-05,
+        9.8e-05,
+        9.8e-05
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "turret": {
+      "mass_kg": 0.45,
+      "diagonal_inertia_kg_m2": [
+        0.00055125,
+        0.00055125,
+        0.00055125
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "light_path_selector": {
+      "mass_kg": 0.015,
+      "diagonal_inertia_kg_m2": [
+        1.8375e-05,
+        1.8375e-05,
+        1.8375e-05
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    }
+  },
+  "note": "Contact shapes used by physics. Detailed visual surfaces can extend beyond them. Fixed instrument bases are anchored; cable bending is visual only."
+}

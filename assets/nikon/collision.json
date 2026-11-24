@@ -1,0 +1,1921 @@
+{
+  "units": "SI",
+  "coordinates": "MuJoCo Z-up; local to named body",
+  "physics_sha256": "b5b8c9e5dbd3f9077bfc8726e94828b7723b6eb5b18480f5d3029d379e76c4ee",
+  "shapes": [
+    {
+      "name": "shell_base",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.001,
+        0.026
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0755,
+        0.139,
+        0.019
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_stabilizer",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.102,
+        0.024
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.115,
+        0.0335,
+        0.0175
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_column",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.089,
+        0.15
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0705,
+        0.056,
+        0.103
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_bridge",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.016,
+        0.272
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.071,
+        0.1255,
+        0.03
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_epi_roof",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.015,
+        0.319
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0725,
+        0.126,
+        0.0195
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_head",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.081,
+        0.359
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.056,
+        0.05,
+        0.024
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_binocular_prism",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.152,
+        0.332
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0505,
+        0.0235,
+        0.0195
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_camera_body",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.076,
+        0.479
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.023,
+        0.026,
+        0.017
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_gearbox",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.049,
+        0.244
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0475,
+        0.0435,
+        0.0125
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_dic_module",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.076,
+        -0.057,
+        0.25
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0145,
+        0.0335,
+        0.0205
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_illuminator",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.222,
+        0.274
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0265,
+        0.014,
+        0.021
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "shell_lower_lamp",
+      "body": "stand",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.164,
+        0.044
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.035,
+        0.022,
+        0.0335
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "camera_adapter",
+      "body": "stand",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.076,
+        0.424
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.021,
+        0.0365,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "eyepiece_-1",
+      "body": "stand",
+      "type": "cylinder",
+      "pos": [
+        -0.031,
+        -0.1867083196,
+        0.3389967654
+      ],
+      "quat": [
+        0.8191520442806921,
+        0.5735764363628993,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.02,
+        0.037,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "eyepiece_1",
+      "body": "stand",
+      "type": "cylinder",
+      "pos": [
+        0.031,
+        -0.1867083196,
+        0.3389967654
+      ],
+      "quat": [
+        0.8191520442806921,
+        0.5735764363628993,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.02,
+        0.037,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "epi_coupler",
+      "body": "stand",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.175,
+        0.273
+      ],
+      "quat": [
+        0.7071067811865476,
+        -0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.021,
+        0.03,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "field_lens",
+      "body": "stand",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.062,
+        0.062
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.024,
+        0.011,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "lift_guide",
+      "body": "lift",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.025,
+        0.13
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.043,
+        0.0115,
+        0.031
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_gearbox",
+      "body": "lift",
+      "type": "box",
+      "pos": [
+        0.094,
+        -0.06,
+        0.118
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0175,
+        0.034,
+        0.0135
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "fork_-1",
+      "body": "lift",
+      "type": "box",
+      "pos": [
+        -0.06,
+        -0.042,
+        0.128
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0075,
+        0.0515,
+        0.0095
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "fork_1",
+      "body": "lift",
+      "type": "box",
+      "pos": [
+        0.06,
+        -0.042,
+        0.128
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0075,
+        0.0515,
+        0.0095
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "motor_module_0",
+      "body": "lift",
+      "type": "box",
+      "pos": [
+        0.081,
+        -0.111,
+        0.128
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.02,
+        0.018,
+        0.016
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "motor_endcap_0",
+      "body": "lift",
+      "type": "cylinder",
+      "pos": [
+        0.081,
+        -0.111,
+        0.107
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.013,
+        0.006,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "motor_module_1",
+      "body": "lift",
+      "type": "box",
+      "pos": [
+        0.081,
+        -0.015,
+        0.128
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.02,
+        0.018,
+        0.016
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "motor_endcap_1",
+      "body": "lift",
+      "type": "cylinder",
+      "pos": [
+        0.081,
+        -0.015,
+        0.107
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.013,
+        0.006,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stage_connector",
+      "body": "lift",
+      "type": "box",
+      "pos": [
+        0.107,
+        -0.063,
+        0.111
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0035,
+        0.0205,
+        0.017
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "condenser",
+      "body": "lift",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.062,
+        0.105
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.019,
+        0.0245,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "bearing_side-1",
+      "body": "carriage_y",
+      "type": "box",
+      "pos": [
+        -0.07125,
+        -0.062,
+        0.142
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.01725,
+        0.058,
+        0.0035
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "bearing_end-1",
+      "body": "carriage_y",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.109,
+        0.142
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.054,
+        0.011,
+        0.0035
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "bearing_side1",
+      "body": "carriage_y",
+      "type": "box",
+      "pos": [
+        0.07125,
+        -0.062,
+        0.142
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.01725,
+        0.058,
+        0.0035
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "bearing_end1",
+      "body": "carriage_y",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.015,
+        0.142
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.054,
+        0.011,
+        0.0035
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "deck_side-1",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        -0.080625,
+        -0.062,
+        0.151
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025625,
+        0.073,
+        0.005
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "deck_end-1",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.11675,
+        0.151
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.055,
+        0.01825,
+        0.005
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "deck_side1",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        0.080625,
+        -0.062,
+        0.151
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025625,
+        0.073,
+        0.005
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "deck_end1",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.00725,
+        0.151
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.055,
+        0.01825,
+        0.005
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "carrier_side-1",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        -0.04475,
+        -0.062,
+        0.1564
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.01175,
+        0.039,
+        0.0004
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "carrier_end-1",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.089,
+        0.1564
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.033,
+        0.012,
+        0.0004
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "carrier_side1",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        0.04475,
+        -0.062,
+        0.1564
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.01175,
+        0.039,
+        0.0004
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "carrier_end1",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.035,
+        0.1564
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.033,
+        0.012,
+        0.0004
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "stepper_cover",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        0.072,
+        -0.094,
+        0.142
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.017,
+        0.028,
+        0.0065
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "slide_glass",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.062,
+        0.1572
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0375,
+        0.0125,
+        0.0005
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "substrate",
+      "body": "carriage_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.062,
+        0.15785
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0065,
+        0.006,
+        0.00015
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 4,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "knob_y_grip",
+      "body": "knob_y",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.013,
+        0.0105,
+        0.0
+      ],
+      "friction": [
+        1.05,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "knob_x_grip",
+      "body": "knob_x",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0096,
+        0.0115,
+        0.0
+      ],
+      "friction": [
+        1.05,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "coarse_grip",
+      "body": "coarse",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.024,
+        0.008,
+        0.0
+      ],
+      "friction": [
+        1.05,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "fine_grip",
+      "body": "fine",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0153,
+        0.008,
+        0.0
+      ],
+      "friction": [
+        1.05,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "turret_grip",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0054
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0504,
+        0.0045,
+        0.0
+      ],
+      "friction": [
+        1.0,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "objective_0_barrel",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.04395919874,
+        -0.02333951066
+      ],
+      "quat": [
+        0.1822355254708628,
+        0.9832549075678995,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.01235,
+        0.025,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 8,
+      "conaffinity": 5,
+      "condim": 4
+    },
+    {
+      "name": "objective_0_nose",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.05453105325,
+        -0.05088013324
+      ],
+      "quat": [
+        0.1822355254708628,
+        0.9832549075678995,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.00825,
+        0.0045,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 8,
+      "conaffinity": 5,
+      "condim": 4
+    },
+    {
+      "name": "objective_1_barrel",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.0344177176,
+        -0.02744721389,
+        -0.02350288724
+      ],
+      "quat": [
+        0.18223552551829444,
+        0.6130494075161484,
+        -0.7687396420005738,
+        0.0
+      ],
+      "size": [
+        0.01235,
+        0.025175,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 8,
+      "conaffinity": 5,
+      "condim": 4
+    },
+    {
+      "name": "objective_1_nose",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.04273215837,
+        -0.03407775915,
+        -0.05120688639
+      ],
+      "quat": [
+        0.18223552551829444,
+        0.6130494075161484,
+        -0.7687396420005738,
+        0.0
+      ],
+      "size": [
+        0.00825,
+        0.0045,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 8,
+      "conaffinity": 5,
+      "condim": 4
+    },
+    {
+      "name": "cap_2",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.03517062568,
+        0.008027465801,
+        -0.002800741279
+      ],
+      "quat": [
+        0.18223552547208827,
+        -0.2187948003673516,
+        -0.9586026541733143,
+        0.0
+      ],
+      "size": [
+        0.0123,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "cap_3",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.01565240095,
+        0.03250254547,
+        -0.002800741279
+      ],
+      "quat": [
+        0.1822355254882979,
+        -0.885882060961643,
+        -0.4266183157300632,
+        0.0
+      ],
+      "size": [
+        0.0123,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "cap_4",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.01565240095,
+        0.03250254547,
+        -0.002800741279
+      ],
+      "quat": [
+        0.1822355254882979,
+        -0.885882060961643,
+        0.4266183157300632,
+        0.0
+      ],
+      "size": [
+        0.0123,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "objective_5_barrel",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.04006198651,
+        0.009143886993,
+        -0.01587086725
+      ],
+      "quat": [
+        0.18223552547208827,
+        -0.2187948003673516,
+        0.9586026541733143,
+        0.0
+      ],
+      "size": [
+        0.01235,
+        0.017,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 8,
+      "conaffinity": 5,
+      "condim": 4
+    },
+    {
+      "name": "objective_5_nose",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.04757371922,
+        0.01085839097,
+        -0.03594284642
+      ],
+      "quat": [
+        0.18223552547208827,
+        -0.2187948003673516,
+        0.9586026541733143,
+        0.0
+      ],
+      "size": [
+        0.00825,
+        0.0045,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 8,
+      "conaffinity": 5,
+      "condim": 4
+    },
+    {
+      "name": "objective_6_barrel",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.03338804381,
+        -0.02662607644,
+        -0.02007197917
+      ],
+      "quat": [
+        0.18223552551829444,
+        0.6130494075161484,
+        0.7687396420005738,
+        -0.0
+      ],
+      "size": [
+        0.01235,
+        0.0215,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 8,
+      "conaffinity": 5,
+      "condim": 4
+    },
+    {
+      "name": "objective_6_nose",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.04067281079,
+        -0.03243548425,
+        -0.04434507026
+      ],
+      "quat": [
+        0.18223552551829444,
+        0.6130494075161484,
+        0.7687396420005738,
+        -0.0
+      ],
+      "size": [
+        0.00825,
+        0.0045,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 8,
+      "conaffinity": 5,
+      "condim": 4
+    },
+    {
+      "name": "light_path_grip",
+      "body": "light_path_selector",
+      "type": "cylinder",
+      "pos": [
+        0.016,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0043,
+        0.0045,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    }
+  ],
+  "bodies": {
+    "stand": {
+      "mass_kg": 0.0,
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": true
+    },
+    "lift": {
+      "mass_kg": 0.82,
+      "diagonal_inertia_kg_m2": [
+        0.0011,
+        0.0012,
+        0.0014
+      ],
+      "inertia_position": [
+        0.0,
+        -0.05,
+        0.143
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "carriage_y": {
+      "mass_kg": 0.31,
+      "diagonal_inertia_kg_m2": [
+        0.0011,
+        0.0012,
+        0.0014
+      ],
+      "inertia_position": [
+        0.0,
+        -0.05,
+        0.143
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "carriage_x": {
+      "mass_kg": 0.41,
+      "diagonal_inertia_kg_m2": [
+        0.0011,
+        0.0012,
+        0.0014
+      ],
+      "inertia_position": [
+        0.0,
+        -0.05,
+        0.143
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "knob_y": {
+      "mass_kg": 0.035,
+      "diagonal_inertia_kg_m2": [
+        4e-06,
+        4e-06,
+        4e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "knob_x": {
+      "mass_kg": 0.035,
+      "diagonal_inertia_kg_m2": [
+        4e-06,
+        4e-06,
+        4e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "coarse": {
+      "mass_kg": 0.035,
+      "diagonal_inertia_kg_m2": [
+        4e-06,
+        4e-06,
+        4e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "fine": {
+      "mass_kg": 0.035,
+      "diagonal_inertia_kg_m2": [
+        4e-06,
+        4e-06,
+        4e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "turret": {
+      "mass_kg": 0.38,
+      "diagonal_inertia_kg_m2": [
+        0.00018,
+        0.00018,
+        0.00027
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        -0.013
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "light_path_selector": {
+      "mass_kg": 0.012,
+      "diagonal_inertia_kg_m2": [
+        1e-07,
+        2e-07,
+        2e-07
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    }
+  },
+  "note": "Contact shapes used by physics. Detailed visual surfaces can extend beyond them. Fixed instrument bases are anchored; cable bending is visual only."
+}

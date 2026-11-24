@@ -11,6 +11,7 @@
 | OpenBLAS | 0.3.26, official Pyodide archive | BSD license and bundled notices inside the distributed archive |
 | CPython | Distributed by Pyodide 0.28.3 | Python Software Foundation license; see `vendor/pyodide/PYTHON-LICENSE.txt` |
 | Studio Small 09 environment | Poly Haven, Greg Zaal; https://polyhaven.com/a/studio_small_09 | [CC0 and source](assets/lighting/LICENSE.txt) |
+| Panda gripper geometry and inertials | MuJoCo Menagerie, pinned commit `eea4c7431b63da8278b0ff31638e0b0e941cec0e`; https://github.com/google-deepmind/mujoco_menagerie | [Apache 2.0](robotics/PANDA_LICENSE); [source fingerprints](robotics/PANDA_SOURCE.json) |
 
 The package hashes for Pyodide's libraries are recorded in
 `vendor/pyodide/pyodide-lock.json`. Dependencies are unmodified upstream distributions.

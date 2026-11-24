@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "method": "Count orange pixels in the instrument viewport after waiting for a newly requested GPU frame to complete; compare normal and enabled contact-shape views.",
+  "browser_checked_utc": "2026-11-24T18:35:03.200Z",
+  "views": [
+    {
+      "file": "ui_transfer.png",
+      "sha256": "5ec5d0771fcebd88df3005f79b784c3230bbd96212c80fda6f52f41858f6bbdc",
+      "orange_pixels": 0
+    },
+    {
+      "file": "ui_contact_shapes.png",
+      "sha256": "d7c965099675fc54e8929cba9e0925833e604c2e6b436dc6c97f92fe5afb1a7c",
+      "orange_pixels": 29083
+    }
+  ]
+}

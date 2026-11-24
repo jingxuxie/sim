@@ -23,7 +23,37 @@ export class Simulation {
     }
     const byId=Object.values(this.joints);
     for(let i=0;i<m.nu;i++)this.drives[byId[m.actuator_trnid[2*i]].name]=i;
+    this.fixtureTracking=this.trackingSpecs();
     this.reset();
+  }
+  trackingSpecs(){
+    // Explicit fixture motors compensate the load reflected through the screw
+    // train. Robot compositions remove these motors; no external wrench or
+    // joint-position write is introduced by this controller.
+    if(!this.meta.contact_mechanics)return [];
+    const graph=new Map(),add=(a,b,ratio)=>{if(!graph.has(a))graph.set(a,[]);graph.get(a).push([b,ratio]);};
+    for(const c of this.meta.couplings||[])if(c.ratio){add(c.input,c.output,c.ratio);add(c.output,c.input,1/c.ratio);}
+    const specs=[];
+    for(const [name,actuator] of Object.entries(this.drives)){
+      const coarseRing=this.asset==='transfer'&&name==='sample_theta_angle';
+      if(!coarseRing&&(!graph.has(name)||this.joints[name].type!==this.mj.mjtJoint.mjJNT_SLIDE.value))continue;
+      const weights=new Map([[name,1]]),queue=[name];
+      while(queue.length){const node=queue.pop();for(const [neighbor,scale] of graph.get(node)||[])if(!weights.has(neighbor)){weights.set(neighbor,weights.get(node)*scale);queue.push(neighbor);}}
+      const terms=[...weights].map(([node,weight])=>({dof:this.joints[node].dofadr[0],weight}));
+      specs.push({name,actuator,terms,friction:terms.reduce((sum,x)=>sum+this.m.dof_frictionloss[x.dof]*Math.abs(x.weight),0),gain:this.asset==='zeiss'&&name==='focus_travel'?15:1,smoothingWidth:coarseRing?1e-4:2e-7});
+    }
+    return specs;
+  }
+  trackFixtures(){
+    const m=this.m,d=this.d,stride=m.actuator_gainprm.length/m.nu;
+    for(const spec of this.fixtureTracking){
+      const q=this.q(spec.name),error=this.targets[spec.name]-q,i=spec.actuator;
+      const load=spec.terms.reduce((sum,x)=>sum+x.weight*(d.qfrc_bias[x.dof]-d.qfrc_gravcomp[x.dof]),0);
+      const friction=spec.friction*Math.tanh(error/spec.smoothingWidth),kp=m.actuator_gainprm[i*stride];
+      let control=q+spec.gain*error+(load+friction)/kp;
+      if(m.actuator_ctrllimited[i])control=clamp(control,m.actuator_ctrlrange[2*i],m.actuator_ctrlrange[2*i+1]);
+      d.ctrl[i]=control; // MuJoCo still enforces the authored actuator force range.
+    }
   }
   dispose(){this.force.delete();this.d.delete();this.m.delete();}
   q(name){return this.d.qpos[this.joints[name].qposadr[0]];}
@@ -68,6 +98,8 @@ export class Simulation {
         const locked=this.q('rotation_lock_angle')>=this.meta.rotation_mechanism.lock_threshold_rad;
         if(name==='sample_theta_angle'&&locked)reason='Release the rotation clamp before coarse rotation';
         if(name==='rotation_fine_knob_angle'&&!locked)reason='Lock the coarse rotation before fine adjustment';
+        const envelope=this.meta.service_envelope;
+        if(envelope&&name===envelope.coarse_joint&&(value<envelope.coarse_range_rad[0]||value>envelope.coarse_range_rad[1]))reason=envelope.reason;
       }
       if(this.asset==='afm'){
         if(name==='door_angle'&&value<-.04&&this.q('door_latch_angle')<.5&&this.q('door_angle')>-.04)reason='Release enclosure latch first';
@@ -119,6 +151,7 @@ export class Simulation {
         d.ctrl[i]+=clamp(this.targets[name]-d.ctrl[i],-rate*dt,rate*dt);
       }else d.ctrl[i]=this.targets[name];
     }
+    this.trackFixtures();
     if(this.asset==='tweezers'){
       const pos=d.mocap_pos,delta=this.mocapTarget.map((x,i)=>x-pos[i]),fraction=Math.min(1,.025*dt/Math.max(Math.hypot(...delta),1e-12));
       for(let i=0;i<3;i++)pos[i]+=delta[i]*fraction;
@@ -171,12 +204,13 @@ export class Simulation {
       poses:Object.fromEntries(Object.values(this.bodies).filter(b=>b.id).map(b=>[b.name,{p:Array.from(d.xpos.slice(b.id*3,b.id*3+3)),q:Array.from(d.xquat.slice(b.id*4,b.id*4+4))}])),
       objective:this.objective(),contacts:this.contacts(),warnings:this.warnings(),guard_events:this.guardEvents,
       targets:{...this.targets},mocap_target:[...this.mocapTarget],mocap_quat_target:[...this.quatTarget],
-      arrays:{qpos:Array.from(d.qpos),qvel:Array.from(d.qvel),xpos:Array.from(d.xpos),xmat:Array.from(d.xmat),site_xmat:Array.from(d.site_xmat)}};
+      arrays:{qpos:Array.from(d.qpos),qvel:Array.from(d.qvel),ctrl:Array.from(d.ctrl),xpos:Array.from(d.xpos),xmat:Array.from(d.xmat),site_xmat:Array.from(d.site_xmat)}};
   }
   metadata(){return {asset:this.asset,meta:this.meta,joints:this.joints,bodies:this.bodies,sites:this.sites,geoms:this.geoms,drives:this.drives};}
   applyReset(patch){
     // Used only by task.reset to set seeded initial conditions, never by a policy.
     this.d.qpos.set(patch.qpos);this.targets={...patch.targets};
+    if(patch.ctrl)this.d.ctrl.set(patch.ctrl);
     if(this.asset==='nikon'){this.prev=[this.q('coarse_angle'),this.q('fine_angle')];this.zcmd=this.q('stage_z');}
     this.mj.mj_forward(this.m,this.d);return this.snapshot();
   }

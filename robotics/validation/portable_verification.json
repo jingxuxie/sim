@@ -1,0 +1,25 @@
+{
+  "portable_passed": true,
+  "all_metrics_identical": true,
+  "comparisons": [
+    {
+      "mode": "contact",
+      "exact_match": true
+    },
+    {
+      "mode": "contacts_disabled",
+      "exact_match": true
+    },
+    {
+      "mode": "missed_grasp",
+      "exact_match": true
+    },
+    {
+      "mode": "no_turn",
+      "exact_match": true
+    }
+  ],
+  "package": "portable.tar.gz",
+  "native_summary": "validation/summary.json",
+  "portable_summary": "validation/portable_summary.json"
+}

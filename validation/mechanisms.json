@@ -1,7 +1,7 @@
 {
-  "url": "http://127.0.0.1:18768/publish/github-sim/",
+  "url": "http://127.0.0.1:18769/",
   "engine": "MuJoCo 4.0.1 WASM",
-  "checked_utc": "2026-11-24T10:01:30.210Z",
+  "checked_utc": "2026-11-24T18:29:42.342Z",
   "checks": [
     {
       "check": "AFM locked door and scanner commands rejected",
@@ -95,7 +95,7 @@
     {
       "check": "zeiss eyepiece actual image pixels at 0 m",
       "passed": true,
-      "pixel_sum": 20767592
+      "pixel_sum": 20569172
     },
     {
       "check": "zeiss optical routing 0.006 m",
@@ -106,12 +106,12 @@
     {
       "check": "zeiss camera actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 14901208
+      "pixel_sum": 14698257
     },
     {
       "check": "zeiss eyepiece actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 14901931
+      "pixel_sum": 14696211
     },
     {
       "check": "zeiss optical routing 0.012 m",
@@ -122,7 +122,7 @@
     {
       "check": "zeiss camera actual image pixels at 0.012 m",
       "passed": true,
-      "pixel_sum": 20765513
+      "pixel_sum": 20567910
     },
     {
       "check": "zeiss eyepiece actual image pixels at 0.012 m",
@@ -137,7 +137,7 @@
       "check": "transfer optical routing 0 m",
       "passed": true,
       "camera_throughput": 0,
-      "eyepiece_throughput": 0.9999999999271086
+      "eyepiece_throughput": 0.9999999999925161
     },
     {
       "check": "transfer camera actual image pixels at 0 m",
@@ -147,34 +147,34 @@
     {
       "check": "transfer eyepiece actual image pixels at 0 m",
       "passed": true,
-      "pixel_sum": 20561758
+      "pixel_sum": 20388169
     },
     {
       "check": "transfer optical routing 0.006 m",
       "passed": true,
-      "camera_throughput": 0.49999999996326977,
-      "eyepiece_throughput": 0.49999999996326977
+      "camera_throughput": 0.49999999998965705,
+      "eyepiece_throughput": 0.49999999998965705
     },
     {
       "check": "transfer camera actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 14719295
+      "pixel_sum": 14570791
     },
     {
       "check": "transfer eyepiece actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 14720339
+      "pixel_sum": 14570669
     },
     {
       "check": "transfer optical routing 0.012 m",
       "passed": true,
-      "camera_throughput": 0.9999999999265395,
+      "camera_throughput": 0.9999999999658155,
       "eyepiece_throughput": 0
     },
     {
       "check": "transfer camera actual image pixels at 0.012 m",
       "passed": true,
-      "pixel_sum": 20563597
+      "pixel_sum": 20386645
     },
     {
       "check": "transfer eyepiece actual image pixels at 0.012 m",
@@ -199,7 +199,7 @@
     {
       "check": "probe eyepiece actual image pixels at 0 m",
       "passed": true,
-      "pixel_sum": 19162804
+      "pixel_sum": 19162608
     },
     {
       "check": "probe optical routing 0.006 m",
@@ -210,12 +210,12 @@
     {
       "check": "probe camera actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 13599365
+      "pixel_sum": 13600857
     },
     {
       "check": "probe eyepiece actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 13598080
+      "pixel_sum": 13599502
     },
     {
       "check": "probe optical routing 0.012 m",
@@ -226,7 +226,7 @@
     {
       "check": "probe camera actual image pixels at 0.012 m",
       "passed": true,
-      "pixel_sum": 19162771
+      "pixel_sum": 19162559
     },
     {
       "check": "probe eyepiece actual image pixels at 0.012 m",
@@ -238,18 +238,65 @@
       "passed": true
     },
     {
+      "check": "Transfer attached-service envelope rejects unsupported coarse rotation",
+      "passed": true
+    },
+    {
+      "check": "Transfer attached-service envelope accepts its boundary",
+      "passed": true
+    },
+    {
       "check": "Transfer fine micrometer requires the coarse clamp",
       "passed": true
     },
     {
       "check": "Transfer released coarse ring rotates",
-      "passed": true
+      "passed": true,
+      "measured_rad": 0.19999722951470814,
+      "target_rad": 0.2,
+      "q": {
+        "scope_focus_travel": -0.000001780925344775066,
+        "light_path_travel": 0.012,
+        "objective_angle": 7.085941233604759e-12,
+        "sample_x_travel": 5.3423623385452346e-8,
+        "sample_y_travel": -3.242440985781168e-8,
+        "sample_fine_angle": -1.966615717511097e-9,
+        "rotation_lock_angle": -1.9678749235228172e-16,
+        "sample_theta_angle": 0.19999722951470814,
+        "rotation_fine_spindle_travel": -8.675743986138045e-11,
+        "rotation_fine_knob_angle": -7.660098791889556e-7,
+        "sample_y_spindle_travel": 3.243603236090641e-8,
+        "sample_y_angle": -0.00040745937107669394,
+        "sample_x_spindle_travel": -5.3435065491074544e-8,
+        "sample_x_angle": 0.0006713430612338825,
+        "stamp_x_travel": -2.9983370629311822e-24,
+        "stamp_y_travel": -2.1791186071704816e-23,
+        "stamp_z_travel": 1.5556871913173128e-9,
+        "stamp_tilt_angle": -0.00013872049596547664,
+        "goniometer_spindle_travel": -0.000005710453904833458,
+        "goniometer_knob_angle": -0.061007133502739286,
+        "stamp_z_spindle_travel": -2.9941562628972777e-9,
+        "stamp_z_angle": 0.000019549966358706487,
+        "stamp_y_spindle_travel": 2.0134303334649476e-23,
+        "stamp_y_angle": -2.5413978448687785e-19,
+        "stamp_x_spindle_travel": -3.180939225087297e-24,
+        "stamp_x_angle": -3.988337025738142e-20,
+        "illumination_angle": 4.712388980246155,
+        "illumination_power_angle": 0.35
+      },
+      "guards": [
+        {
+          "time": 0,
+          "control": "rotation_fine_knob_angle",
+          "reason": "Lock the coarse rotation before fine adjustment"
+        }
+      ]
     },
     {
       "check": "Transfer locked ring holds while tangent micrometer turns",
       "passed": true,
-      "coarse_rad": 0.20000000043713193,
-      "fine_rad": 0.015375296841492787
+      "coarse_rad": 0.20000691103475005,
+      "fine_rad": 0.015376007936190273
     },
     {
       "check": "Transfer fine spindle advances 0.635 mm per turn",
@@ -262,7 +309,7 @@
     {
       "check": "Transfer dimmer changes measured optical throughput",
       "passed": true,
-      "throughput": 0.10000175563952943
+      "throughput": 0.1
     },
     {
       "check": "Transfer source power blacks out microscope",

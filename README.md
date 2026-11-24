@@ -21,9 +21,12 @@ their own simulation; this is not a shared remote desktop or a recorded animatio
 5. **Rendered still / Rendered detail** shows the high-resolution Blender artwork.
    **More rendered views** opens additional mechanism close-ups.
    **Full instrument / Working area** returns to the live 3D view.
+6. **Contact shapes** overlays the actual MuJoCo collision geometry in orange.
+   This shows where a robot can make physical contact, including the difference
+   between detailed visible surfaces and simplified collision shapes.
 
 Existing task recordings show earlier reconstructions. Use the live viewer and
-current rendered stills to inspect revision 4.
+current rendered stills to inspect the latest models.
 
 The gallery is lightweight and remains visible without JavaScript. Only the selected
 instrument is downloaded (about 6–52 MB including geometry and textures). The runtime adds about 23 MB when you open an instrument; task policies and optical
@@ -47,6 +50,47 @@ The 18 baselines are instrument-level fixture controllers, not learned robot pol
 Success uses measured joint state, sites, contacts, force limits and held tolerances.
 The chip is a free body: contact and friction carry it, not a scripted position update.
 
+## Physics and robot contact
+
+The instruments contain MuJoCo rigid bodies, masses, inertias, joints, friction
+and collision shapes. Instrument bases are anchored to the bench. Most detailed
+surface meshes are visual geometry; collision proxies approximate their surfaces.
+Standard robot collision masks can contact the instrument proxies, while many
+instrument-to-instrument contacts are suppressed. The orange **Contact shapes**
+view exposes this coverage; it does not add collisions to decorative geometry.
+
+The transfer, probe and Zeiss screw constraints use input-angle coordinates to
+avoid numerical softness at very small metres-per-radian ratios. Estimated
+holding friction remains passive when fixture actuators are disabled. These
+properties have not been calibrated against laboratory torque/force measurements.
+Some passive mechanisms still drift: with drives disabled, the transfer optical
+head moved 24 µm and the goniometer tilted 0.23° over 20 seconds. These remaining
+limitations are recorded in the [passive-mechanics audit](validation/passive_mechanics.json).
+
+Transfer and probe optical focus handwheels remain visual parts: the head slides
+have physics, but these wheels do not yet transmit robot contact to focus motion.
+The Nikon coarse/fine wheels use a powered encoder-to-focus abstraction. Flexible
+hoses follow measured joint motion visually; they do not simulate contact, strain,
+tension or fluid flow. Robot manipulation must be validated for each target and
+approach, rather than inferred from the appearance of its mesh.
+
+[Run the parallel-gripper benchmark](robotics/README.md): a Panda gripper grasps
+the transfer station's sample-X micrometer, turns it −15°, releases and retracts.
+All instrument drives are removed. Three contact trials reached the −20.833 µm
+stage target within 0.131 µm, while nine causal controls correctly failed.
+This is an executable native MuJoCo task with a Cartesian wrist fixture; a full
+arm and a browser-live robot controller are not included. The linked package
+includes commands, licensed geometry, measured trajectories and validation.
+
+The transfer vacuum and heater lines now terminate in separate fittings and
+follow XY plus rotation. Their declared attached-service envelope is ±90° coarse
+rotation plus ±2.5° fine adjustment, with the stamp retracted. A sampled
+1,539-pose sweep found no intersections; the minimum conservative gap was
+0.589 mm. Larger rotations require rerouting or disconnecting services, which
+is outside the current cable model. All three gripper trajectories were also
+checked against the deformed visual hoses, with at least 10.13 mm clearance.
+[Hose clearance evidence](validation/transfer_hose/summary.json).
+
 ## Visual revision 4
 
 [Compare previous and rebuilt instruments](assets/revision4-comparison.jpg).
@@ -66,7 +110,7 @@ Overview images are 3840×3200; new details are 2560×2160. The live GLBs use th
 
 The transfer source power and dimmer affect microscope images. The dimmer represents a 10–100% relative illumination range; its zero setting is the powered minimum. The coarse ring turns with the clamp released; locking it engages the fine micrometer. Fiber and probe cables follow measured joint motion through visual deformation, without cable contact or strain simulation.
 
-[Delivery audit](validation/realism4.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
+[Delivery audit](validation/contact1.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
 
 ## Implementation
 
@@ -100,8 +144,8 @@ not ultrasonic welding or metallurgical bond formation.
 
 The browser port was revalidated independently of the native 3.3.7 engine:
 54/54 positive episodes across seeds 0, 1 and 2; 18 no-action controls with zero
-false positives; 58 mechanical/optical checks; 12 flexible-cable geometry checks;
-and 16 interactive-page checks covering all seven detailed models, controls and
+false positives; 60 mechanical/optical checks; 28 flexible-cable geometry checks;
+28 compiled-contact-overlay checks; and 18 interactive-page checks covering all seven detailed models, controls and
 gallery fallbacks. A complete 20-second tweezer placement was inspected at
 every 1 ms step: 20,000 steps, zero unintended tool/work-surface contacts.
 

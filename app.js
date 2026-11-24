@@ -1,15 +1,16 @@
-import {FlexibleDetails} from './flexible-details.js?v=realism4';
-import {BrowserRuntime} from './runtime.js?v=realism4';
+import {FlexibleDetails} from './flexible-details.js?v=contact1';
+import {ContactOverlay} from './contact-overlay.js?v=contact1';
+import {BrowserRuntime} from './runtime.js?v=contact1';
 window.viewerBooted=true;
 const $=id=>document.getElementById(id), fmt=(x,d=3)=>Number(x).toFixed(d);
 let instruments=[],current=null,renderer=null,scene,camera,orbit,model=null,ground=null,THREE,ready=false,selection=0,lastState=null,photograph=false;
-let flexibleDetails;
+let flexibleDetails,contactOverlay;
 let viewDirty=true,poseNodes={},inspectionLight,composer,occlusion,studio,renderFrames=0,modelAbort=null;const baseURL=new URL('./',location.href).href;
 let gpuFrame=null,completedFrame=0,gpuSyncSupported=true,modelLoading=false;
 function error(message){$('error').hidden=!message;$('error').textContent=message;}
 let physicsReady=false,cameraEnabled=false,operationBusy=false;
 const runtime=new BrowserRuntime(s=>state(s),message=>{$('physics-status').textContent=message;},message=>error('Simulator stopped: '+message));
-window.lab={runtime,get state(){return lastState;},get rendering(){return{submitted:renderFrames,completed:completedFrame,pending:!!gpuFrame};}};
+window.lab={runtime,get state(){return lastState;},get rendering(){return{submitted:renderFrames,completed:completedFrame,pending:!!gpuFrame};},get contactShapes(){return contactOverlay?.data;},renderCurrentFrame(){if(!renderer||photograph||modelLoading)return Promise.resolve(false);viewDirty=true;return finishFrame(renderFrames+1,selection);}};
 function frameReady(){
  const gl=renderer.getContext();
  if(gl.isContextLost()){if(gpuFrame)gl.deleteSync(gpuFrame.sync);gpuFrame=null;viewDirty=true;return false;}
@@ -70,7 +71,7 @@ async function setup3D(){
  // Bound AO to subtle local cavity shading. It must not paint dark silhouettes
  // around the model or treat transmissive glazing as an opaque wall.
  occlusion.ssaoMaterial.fragmentShader=occlusion.ssaoMaterial.fragmentShader.replace('1.0 - occlusion','1.0 - 0.28 * occlusion');
- const renderAO=occlusion.render.bind(occlusion);occlusion.render=(...args)=>{const hidden=[];scene.traverse(o=>{if(o.isMesh&&o.visible&&(o===studio.contact||[].concat(o.material).some(m=>(m.transmission||0)>.1||(m.transparent&&m.opacity<.45)))){hidden.push(o);o.visible=false;}});try{renderAO(...args);}finally{for(const o of hidden)o.visible=true;}};
+ const renderAO=occlusion.render.bind(occlusion);occlusion.render=(...args)=>{const hidden=[];scene.traverse(o=>{if(o.isMesh&&o.visible&&(o===studio.contact||o.userData.physicsOverlay||[].concat(o.material).some(m=>(m.transmission||0)>.1||(m.transparent&&m.opacity<.45)))){hidden.push(o);o.visible=false;}});try{renderAO(...args);}finally{for(const o of hidden)o.visible=true;}};
  composer.addPass(occlusion);const output=new effects[3].OutputPass();
  // A moderate photographic contrast look after AgX, before display transfer.
  // This preserves the imported surface maps and keeps black coatings black.
@@ -102,7 +103,7 @@ async function modelBytes(url,token){const c=new AbortController();modelAbort=c;
  for(;;){const {done,value}=await reader.read();if(done)break;clearTimeout(timer);timer=setTimeout(()=>c.abort(),20000);chunks.push(value);count+=value.length;if(token===selection)$('model-status').textContent='Loading model '+Math.round(100*count/total)+'% · '+fmt(count/1048576,1)+' MB';}
  const bytes=new Uint8Array(count);let at=0;for(const v of chunks){bytes.set(v,at);at+=v.length;}return bytes.buffer;}finally{clearTimeout(timer);if(modelAbort===c)modelAbort=null;}}
 function updateDemo(){const task=current?.tasks.find(t=>t.id===$('task').value),url=task?.demo||current?.demo;$('recorded-demo').hidden=!url;if(url)$('recorded-demo').href=url;$('recorded-demo').textContent=task?.demo?'Watch this task’s recording ↗':'Watch instrument demonstration ↗';$('confirm-focus').hidden=!task?.requires_finish;}
-async function openInstrument(item){const token=++selection;modelAbort?.abort();current=item;physicsReady=false;cameraEnabled=false;operationBusy=false;$('enable-camera').hidden=false;$('specimen-image').hidden=true;lastState=null;photograph=false;$('gallery').hidden=true;$('workspace').hidden=false;$('title').textContent=item.title;$('poster').src=item.preview;$('full-render').href=item.render;$('poster').hidden=false;$('model-status').textContent='Starting 3D view…';$('task-status').textContent='Ready to explore';error('');buildControls(item);$('specimen-panel').hidden=!item.specimen_camera;$('specimen-image').removeAttribute('src');$('specimen-caption').textContent='Enable the image to load the optical simulator. Synthetic specimen; estimated optics.';
+async function openInstrument(item){const token=++selection;contactOverlay?.dispose();contactOverlay=null;modelAbort?.abort();current=item;physicsReady=false;cameraEnabled=false;operationBusy=false;$('enable-camera').hidden=false;$('specimen-image').hidden=true;lastState=null;photograph=false;$('gallery').hidden=true;$('workspace').hidden=false;$('title').textContent=item.title;$('poster').src=item.preview;$('full-render').href=item.render;$('poster').hidden=false;$('model-status').textContent='Starting 3D view…';$('task-status').textContent='Ready to explore';error('');buildControls(item);$('specimen-panel').hidden=!item.specimen_camera;$('specimen-image').removeAttribute('src');$('specimen-caption').textContent='Enable the image to load the optical simulator. Synthetic specimen; estimated optics.';
  $('task').replaceChildren(...item.tasks.map(t=>{const o=document.createElement('option');o.value=t.id;o.textContent=t.title;return o;}));
  updateDemo();
  for(const e of $('workspace').querySelectorAll('aside button,aside input,aside select'))e.disabled=true;
@@ -120,7 +121,7 @@ async function openInstrument(item){const token=++selection;modelAbort?.abort();
   model=gltf.scene;model.traverse(o=>{if(o.isMesh){o.castShadow=![].concat(o.material).some(m=>(m.transmission||0)>.1||(m.transparent&&m.opacity<.45));o.receiveShadow=true;for(const m of [].concat(o.material)){for(const key of ['map','normalMap','roughnessMap','metalnessMap','aoMap'])if(m[key])m[key].anisotropy=Math.min(8,renderer.capabilities.getMaxAnisotropy());}}});scene.add(model);flexibleDetails.attach(model);poseNodes={};model.traverse(o=>poseNodes[o.name]=o);studio.fit(new THREE.Box3().setFromObject(model));cameraView();if(lastState){applyPoses(lastState.poses);flexibleDetails.update(lastState.q);}$('poster').hidden=false;
   // Keep the preview visible until the initial GPU frame actually completes.
   if(gpuFrame&&!await finishFrame(gpuFrame.id,token))return;
-  studio.update(model,true);syncProjection();if(!await finishFrame(renderView(),token))return;$('poster').hidden=!photograph;$('model-status').textContent='3D view ready';viewDirty=true;
+  studio.update(model,true);syncProjection();if(!await finishFrame(renderView(),token))return;$('poster').hidden=!photograph;$('model-status').textContent='3D view ready';$('contact-view').disabled=!item.collision;viewDirty=true;
  }catch(e){if(token!==selection)return;console.error(e);$('model-status').textContent='3D view unavailable: '+e.message+'. The preview remains available. Try a current browser with WebGL enabled.';error('3D loading stopped. Return to All instruments and reopen it to retry.');}
  finally{if(token===selection)modelLoading=false;}
 }
@@ -138,7 +139,27 @@ function buildRenderViews(item){
  select.hidden=!item.render_views?.length;select.value='';
  select.onchange=()=>{if(!select.value)return;photograph=true;$('poster').src=select.value;$('poster').alt='Static Blender render: '+select.selectedOptions[0].textContent;$('poster').hidden=false;$('full-render').href=select.value;};
 }
-function buildControls(item){buildRenderViews(item);$('controls').replaceChildren();let list=item.controls.map(c=>({name:c.name,joint:item.links[c.link].joint.name,read:item.links[c.link].joint.name,limits:item.links[c.link].joint.range||[-6.283,6.283],scale:c.display_scale??(c.units==='m'?1000:180/Math.PI),unit:c.display_unit??(c.units==='m'?'mm':'°'),toggle:c.ui==='toggle',offLabel:c.off_label,onLabel:c.on_label}));if(item.id==='nikon')list=nikonControls.map(([name,joint,read,lo,hi])=>({name,joint,read,limits:[lo,hi],scale:1/(2*Math.PI),unit:'turn'}));
+function buildContactView(){
+ let button=$('contact-view');
+ if(!button){button=document.createElement('button');button.id='contact-view';button.title='Orange wireframes show the collision shapes used by MuJoCo. Detailed visual surfaces may extend beyond them.';$('detail').after(button);}
+ button.textContent='Contact shapes';button.setAttribute('aria-pressed','false');button.disabled=true;
+ button.onclick=async()=>{
+  const token=selection;button.disabled=true;
+  try{
+   if(!contactOverlay){
+    const response=await fetch(current.collision,{signal:AbortSignal.timeout(15000)});if(!response.ok)throw Error('HTTP '+response.status);
+    const data=await response.json();if(token!==selection)return;
+    contactOverlay=new ContactOverlay(THREE,scene,data);contactOverlay.update(lastState?.poses);
+   }
+   contactOverlay.root.visible=!contactOverlay.root.visible;
+   button.setAttribute('aria-pressed',String(contactOverlay.root.visible));
+   button.textContent=contactOverlay.root.visible?'Hide contact shapes':'Contact shapes';
+   photograph=false;$('poster').hidden=true;viewDirty=true;
+  }catch(e){if(token===selection)error('Contact shapes unavailable: '+e.message);}
+  finally{if(token===selection)button.disabled=false;}
+ };
+}
+function buildControls(item){buildRenderViews(item);buildContactView();$('controls').replaceChildren();let list=item.controls.map(c=>({name:c.name,joint:item.links[c.link].joint.name,read:item.links[c.link].joint.name,limits:c.operating_limits||item.links[c.link].joint.range||[-6.283,6.283],scale:c.display_scale??(c.units==='m'?1000:180/Math.PI),unit:c.display_unit??(c.units==='m'?'mm':'°'),toggle:c.ui==='toggle',offLabel:c.off_label,onLabel:c.on_label}));if(item.id==='nikon')list=nikonControls.map(([name,joint,read,lo,hi])=>({name,joint,read,limits:[lo,hi],scale:1/(2*Math.PI),unit:'turn'}));
  if(item.id==='nikon'){const row=document.createElement('div');row.className='control';const label=document.createElement('label');label.textContent='Objective turret';label.htmlFor='objective-select';const select=document.createElement('select');select.id='objective-select';for(const [i,mag] of ['20×','40×','Empty port','Empty port','Empty port','4×','10×'].entries()){const o=document.createElement('option');o.value=i;o.textContent=(i+1)+' · '+mag;select.append(o);}select.onchange=()=>send('command',{action:{turret:+select.value}});row.append(label,select);$('controls').append(row);}
  list=list.filter(c=>c.joint!=='light_path_travel');
  if(item.light_path){const row=document.createElement('div');row.className='control';const label=document.createElement('label');label.textContent='Camera / eyepiece split';label.htmlFor='light-path-select';const select=document.createElement('select');select.id='light-path-select';for(const [i,fraction] of item.light_path.camera_fractions.entries()){const option=document.createElement('option');option.value=item.light_path.positions_m[i];option.textContent=Math.round(fraction*100)+'% camera · '+Math.round((1-fraction)*100)+'% eye';select.append(option);}select.value=.012;select.title=item.light_path.calibration;select.onchange=()=>send('command',{action:{light_path_travel:+select.value}});row.append(label,select);$('controls').append(row);}
@@ -146,7 +167,7 @@ function buildControls(item){buildRenderViews(item);$('controls').replaceChildre
  if(item.id==='tweezers')for(const [i,name] of ['Tool roll','Tool pitch','Tool yaw'].entries())list.push({name,read:'tool_rotation_'+i,rotationAxis:i,limits:i===2?[-Math.PI,Math.PI]:[-Math.PI/4,Math.PI/4],scale:180/Math.PI,unit:'°'});
  for(const c of list){const row=document.createElement('div');row.className='control';const label=document.createElement('label'),text=document.createElement('span'),out=document.createElement('output');text.textContent=c.name;label.append(text,out);const input=document.createElement('input');input.type='range';input.min=c.limits[0]*c.scale;input.max=c.limits[1]*c.scale;input.step=(input.max-input.min)/(c.toggle?1:1500);input.value=0;input.dataset.toggle=String(!!c.toggle);input.dataset.offLabel=c.offLabel||'Off';input.dataset.onLabel=c.onLabel||'On';input.setAttribute('aria-label',c.name);input.dataset.read=c.read;input.dataset.scale=c.scale;input.dataset.unit=c.unit;if(c.axis!==undefined)input.dataset.fixtureAxis=c.axis;if(c.rotationAxis!==undefined)input.dataset.rotationAxis=c.rotationAxis;input.oninput=()=>{out.textContent=controlText(input,+input.value);};input.onchange=()=>{let action;if(c.rotationAxis!==undefined){const q=lastState?.poses?.tool?.q??[1,0,0,0];const e=new THREE.Euler().setFromQuaternion(new THREE.Quaternion(q[1],q[2],q[3],q[0]),'ZYX');e[['x','y','z'][c.rotationAxis]]=+input.value/c.scale;const result=new THREE.Quaternion().setFromEuler(e);action={tool_quaternion:[result.w,result.x,result.y,result.z]};}else if(c.axis!==undefined){const p=[...(lastState?.poses?.tool?.p??[0,0,.012])];p[c.axis]=+input.value/c.scale;action={tool_position:p};}else action={[c.joint]:+input.value/c.scale};send('command',{action});};row.append(label,input);$('controls').append(row);}
 }
-function state(s){if(!current||s.asset!==current.id)return;lastState=s;applyPoses(s.poses);if(flexibleDetails?.update(s.q)){viewDirty=true;if(renderer)renderer.shadowMap.needsUpdate=true;}$('connection').textContent='Live MuJoCo · in your browser';
+function state(s){if(!current||s.asset!==current.id)return;lastState=s;applyPoses(s.poses);contactOverlay?.update(s.poses);if(flexibleDetails?.update(s.q)){viewDirty=true;if(renderer)renderer.shadowMap.needsUpdate=true;}$('connection').textContent='Live MuJoCo · in your browser';
  for(const input of $('controls').querySelectorAll('input')){let val=input.dataset.fixtureAxis!==undefined?s.poses?.tool?.p[+input.dataset.fixtureAxis]:s.q[input.dataset.read];if(input.dataset.rotationAxis!==undefined&&THREE&&s.poses?.tool){const q=s.poses.tool.q;const e=new THREE.Euler().setFromQuaternion(new THREE.Quaternion(q[1],q[2],q[3],q[0]),'ZYX');val=e[['x','y','z'][+input.dataset.rotationAxis]];}if(val===undefined)continue;if(document.activeElement!==input)input.value=val*input.dataset.scale;input.previousSibling.lastChild.textContent=controlText(input,val*input.dataset.scale);}
  if(s.objective?.indexed&&$('objective-select')&&document.activeElement!==$('objective-select'))$('objective-select').value=s.objective.station-1;
  const splitter=$('light-path-select');if(splitter&&document.activeElement!==splitter){const travel=s.q.light_path_travel;const nearest=current.light_path.positions_m.reduce((a,b)=>Math.abs(b-travel)<Math.abs(a-travel)?b:a);splitter.value=Math.abs(nearest-travel)<.0005?String(nearest):'';}

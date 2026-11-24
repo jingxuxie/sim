@@ -1,0 +1,1773 @@
+{
+  "units": "SI",
+  "coordinates": "MuJoCo Z-up; local to named body",
+  "physics_sha256": "84ed586a796c7a45260498ac5c549ea2058c67a9aa222e1deb9958de4bf59fe8",
+  "shapes": [
+    {
+      "name": "base__Orange_cast_foundation",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.015,
+        0.021
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.235,
+        0.208,
+        0.021
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Round_platen_support",
+      "body": "base",
+      "type": "cylinder",
+      "pos": [
+        -0.184,
+        -0.123,
+        0.081
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.03,
+        0.041,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Round_platen_support_2",
+      "body": "base",
+      "type": "cylinder",
+      "pos": [
+        -0.184,
+        0.115,
+        0.081
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.03,
+        0.041,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Ground_steel_side_platen",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.181,
+        -0.003,
+        0.138
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.052,
+        0.168,
+        0.0075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Round_platen_support_3",
+      "body": "base",
+      "type": "cylinder",
+      "pos": [
+        0.184,
+        -0.123,
+        0.081
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.03,
+        0.041,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Round_platen_support_4",
+      "body": "base",
+      "type": "cylinder",
+      "pos": [
+        0.184,
+        0.115,
+        0.081
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.03,
+        0.041,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Ground_steel_side_platen_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.181,
+        -0.003,
+        0.138
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.052,
+        0.168,
+        0.0075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rear_bridge",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.144,
+        0.138
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.139,
+        0.028,
+        0.0075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Microscope_upright",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.152,
+        0.3
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.108,
+        0.02,
+        0.151
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__chuck_x_fixed_race",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.028,
+        0.048
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.065,
+        0.0755,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__left_x_fixed_race",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.163,
+        -0.028,
+        0.1485
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.038,
+        0.038,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__right_x_fixed_race",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.163,
+        -0.028,
+        0.1485
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.038,
+        0.038,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Focus_carriage_bridge",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.07,
+        -0.012
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.046,
+        0.045,
+        0.054
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Mitutoyo_optical_housing_envelope",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.035,
+        -0.013
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0555,
+        0.061,
+        0.0845
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Objective_barrel",
+      "body": "optic_focus",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.057,
+        -0.143
+      ],
+      "quat": [
+        6.123233995736766e-17,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.013,
+        0.031,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "light_path_selector__Photo_path_selector_grip",
+      "body": "light_path_selector",
+      "type": "cylinder",
+      "pos": [
+        0.016,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.007,
+        0.0045,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_x__chuck_x_moving_table",
+      "body": "chuck_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.062,
+        0.0735,
+        0.0075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_x__chuck_y_fixed_race",
+      "body": "chuck_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.013
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0575,
+        0.065,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_y__chuck_y_moving_table",
+      "body": "chuck_y",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0545,
+        0.063,
+        0.0075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_y__Chuck_lift_drum",
+      "body": "chuck_y",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.031
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.043,
+        0.0245,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_theta__Vacuum_chuck",
+      "body": "chuck_theta",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.052,
+        0.0085,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_theta__Sample_clamp_block",
+      "body": "chuck_theta",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.019
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0295,
+        0.0225,
+        0.0085
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_theta__device_chip",
+      "body": "chuck_theta",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.028
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.006,
+        0.00025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_y_knob__chuck_y_grip",
+      "body": "chuck_y_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.014,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_x_knob__chuck_x_grip",
+      "body": "chuck_x_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.008,
+        0.014,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_x__left_x_moving_table",
+      "body": "left_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.035,
+        0.036,
+        0.007
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_x__left_y_fixed_race",
+      "body": "left_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.012
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0315,
+        0.0325,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_y__left_y_moving_table",
+      "body": "left_y",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0285,
+        0.0305,
+        0.0055
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_y__left_z_fixed_race",
+      "body": "left_y",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.009
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.024,
+        0.0255,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_z__left_z_moving_table",
+      "body": "left_z",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.021,
+        0.0235,
+        0.0075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_z__Needle_holder_bracket",
+      "body": "left_z",
+      "type": "box",
+      "pos": [
+        0.025,
+        0.0,
+        0.01
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.0185,
+        0.015
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_z__Probe_shank",
+      "body": "left_z",
+      "type": "capsule",
+      "pos": [
+        0.1055,
+        0.0,
+        -0.00975
+      ],
+      "quat": [
+        0.59423155166801,
+        -0.0,
+        0.804294015271921,
+        0.0
+      ],
+      "size": [
+        0.0004,
+        0.05601589691,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_z__Probe_tip",
+      "body": "left_z",
+      "type": "sphere",
+      "pos": [
+        0.16,
+        0.0,
+        -0.0265
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00012,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.4,
+        0.0001,
+        1e-05
+      ],
+      "contype": 1,
+      "conaffinity": 3,
+      "condim": 4
+    },
+    {
+      "name": "left_z_knob__left_z_grip",
+      "body": "left_z_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.014,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_y_knob__left_y_grip",
+      "body": "left_y_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.008,
+        0.014,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_x_knob__left_x_grip",
+      "body": "left_x_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.014,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_x__right_x_moving_table",
+      "body": "right_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.035,
+        0.036,
+        0.007
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_x__right_y_fixed_race",
+      "body": "right_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.012
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0315,
+        0.0325,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_y__right_y_moving_table",
+      "body": "right_y",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0285,
+        0.0305,
+        0.0055
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_y__right_z_fixed_race",
+      "body": "right_y",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.009
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.024,
+        0.0255,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_z__right_z_moving_table",
+      "body": "right_z",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.021,
+        0.0235,
+        0.0075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_z__Needle_holder_bracket",
+      "body": "right_z",
+      "type": "box",
+      "pos": [
+        -0.025,
+        0.0,
+        0.01
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.0185,
+        0.015
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_z__Probe_shank",
+      "body": "right_z",
+      "type": "capsule",
+      "pos": [
+        -0.1055,
+        0.0,
+        -0.00975
+      ],
+      "quat": [
+        0.59423155166801,
+        -0.0,
+        -0.804294015271921,
+        0.0
+      ],
+      "size": [
+        0.0004,
+        0.05601589691,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_z__Probe_tip",
+      "body": "right_z",
+      "type": "sphere",
+      "pos": [
+        -0.16,
+        0.0,
+        -0.0265
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00012,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.4,
+        0.0001,
+        1e-05
+      ],
+      "contype": 1,
+      "conaffinity": 3,
+      "condim": 4
+    },
+    {
+      "name": "right_z_knob__right_z_grip",
+      "body": "right_z_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.014,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_y_knob__right_y_grip",
+      "body": "right_y_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.008,
+        0.014,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_x_knob__right_x_grip",
+      "body": "right_x_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.014,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    }
+  ],
+  "bodies": {
+    "base": {
+      "mass_kg": 0.0,
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": true
+    },
+    "optic_focus": {
+      "mass_kg": 2.6,
+      "diagonal_inertia_kg_m2": [
+        0.003185,
+        0.003185,
+        0.003185
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "light_path_selector": {
+      "mass_kg": 0.018,
+      "diagonal_inertia_kg_m2": [
+        2.205e-05,
+        2.205e-05,
+        2.205e-05
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "chuck_x": {
+      "mass_kg": 0.35,
+      "diagonal_inertia_kg_m2": [
+        0.00042875,
+        0.00042875,
+        0.00042875
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "chuck_y": {
+      "mass_kg": 0.35,
+      "diagonal_inertia_kg_m2": [
+        0.00042875,
+        0.00042875,
+        0.00042875
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "chuck_theta": {
+      "mass_kg": 0.4,
+      "diagonal_inertia_kg_m2": [
+        0.00049,
+        0.00049,
+        0.00049
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "chuck_y_knob": {
+      "mass_kg": 0.025,
+      "diagonal_inertia_kg_m2": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "chuck_x_knob": {
+      "mass_kg": 0.025,
+      "diagonal_inertia_kg_m2": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "left_x": {
+      "mass_kg": 0.35,
+      "diagonal_inertia_kg_m2": [
+        0.00042875,
+        0.00042875,
+        0.00042875
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "left_y": {
+      "mass_kg": 0.35,
+      "diagonal_inertia_kg_m2": [
+        0.00042875,
+        0.00042875,
+        0.00042875
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "left_z": {
+      "mass_kg": 0.35,
+      "diagonal_inertia_kg_m2": [
+        0.00042875,
+        0.00042875,
+        0.00042875
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "left_z_knob": {
+      "mass_kg": 0.025,
+      "diagonal_inertia_kg_m2": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "left_y_knob": {
+      "mass_kg": 0.025,
+      "diagonal_inertia_kg_m2": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "left_x_knob": {
+      "mass_kg": 0.025,
+      "diagonal_inertia_kg_m2": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "right_x": {
+      "mass_kg": 0.35,
+      "diagonal_inertia_kg_m2": [
+        0.00042875,
+        0.00042875,
+        0.00042875
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "right_y": {
+      "mass_kg": 0.35,
+      "diagonal_inertia_kg_m2": [
+        0.00042875,
+        0.00042875,
+        0.00042875
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "right_z": {
+      "mass_kg": 0.35,
+      "diagonal_inertia_kg_m2": [
+        0.00042875,
+        0.00042875,
+        0.00042875
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "right_z_knob": {
+      "mass_kg": 0.025,
+      "diagonal_inertia_kg_m2": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "right_y_knob": {
+      "mass_kg": 0.025,
+      "diagonal_inertia_kg_m2": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "right_x_knob": {
+      "mass_kg": 0.025,
+      "diagonal_inertia_kg_m2": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    }
+  },
+  "note": "Contact shapes used by physics. Detailed visual surfaces can extend beyond them. Fixed instrument bases are anchored; cable bending is visual only."
+}

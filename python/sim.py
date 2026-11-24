@@ -40,6 +40,7 @@ class Simulation:
         if asset != self.info['asset']: raise ValueError('Load the requested instrument first')
         self.asset = asset
         self.meta = self.info['meta']
+        self.drives = self.info['drives']
         self.m = Model(self.info)
         self.d = Data(self)
         self.controller = NS(objective=lambda: self.latest['objective']) if asset == 'nikon' else None
@@ -77,7 +78,7 @@ class Simulation:
 
 def forward(model, data):
     sim = data.sim
-    sim.refresh(call('applyReset', qpos=data.qpos.tolist(), targets=sim.targets))
+    sim.refresh(call('applyReset', qpos=data.qpos.tolist(), ctrl=data.ctrl.tolist(), targets=sim.targets))
 
 
 # The unchanged task reset calls only mj_forward. All dynamics are real MuJoCo

@@ -36,17 +36,32 @@ class InstrumentTask:
         self.finish_requested=False
         rng=np.random.default_rng(seed);self.goal=rng.uniform([- .006,-.004],[.006,.004]);self.focus_goal=float(rng.uniform(-.0006,.0006));self.objective=int(rng.choice([1,5,6]));self.max_force=0
         if self.name=='nikon.image_center':self.goal=rng.uniform(-.00012,.00012,2)
+        seeded_pose={}
         if self.name.startswith('transfer'):
             for key,val in zip(['sample_x_travel','sample_y_travel'],rng.uniform(-.002,.002,2)):
-                self.sim.d.qpos[self.sim.m.joint(key).qposadr[0]]=val
-                angle=key.replace('_travel','_angle');self.sim.d.qpos[self.sim.m.joint(angle).qposadr[0]]=val/(.0005/math.tau)
-                self.sim.targets[key]=float(val)
+                seeded_pose[key]=float(val)
         if self.name.startswith('probe'):
             self.goal=rng.uniform(-.001,.001,2)
             for k,v in zip(['chuck_x_travel','chuck_y_travel'],self.goal):
-                self.sim.d.qpos[self.sim.m.joint(k).qposadr[0]]=v
-                self.sim.d.qpos[self.sim.m.joint(k.replace('_travel','_angle')).qposadr[0]]=v/(.0005/math.tau)
-                self.sim.targets[k]=float(v)
+                seeded_pose[k]=float(v)
+        # Seed the complete screw assembly, including translating spindles.
+        # These are reset-time initial conditions; policies never assign qpos.
+        graph={}
+        for coupling in self.sim.meta.get('couplings',[]):
+            i,o,r=coupling['input'],coupling['output'],coupling['ratio']
+            if r:
+                graph.setdefault(i,[]).append((o,r));graph.setdefault(o,[]).append((i,1/r))
+        pending=list(seeded_pose)
+        while pending:
+            name=pending.pop()
+            for other,ratio in graph.get(name,[]):
+                value=seeded_pose[name]*ratio
+                if other not in seeded_pose:seeded_pose[other]=value;pending.append(other)
+                elif not math.isclose(seeded_pose[other],value,rel_tol=1e-10,abs_tol=1e-12):raise ValueError('Inconsistent coupled reset pose')
+        for name,value in seeded_pose.items():
+            self.sim.d.qpos[self.sim.m.joint(name).qposadr[0]]=value
+            if name in self.sim.drives:
+                self.sim.targets[name]=value;self.sim.d.ctrl[self.sim.drives[name]]=value
         import mujoco as mj
         mj.mj_forward(self.sim.m,self.sim.d)
         self.initial_chip_z=self.sim.site('device_chip_center')[2] if self.sim.asset=='tweezers' else 0
@@ -171,12 +186,14 @@ class InstrumentTask:
         if n=='nikon.focus':return dict(coarse=float(self.focus_goal/.005*math.tau))
         if n=='nikon.objective':return dict(turret=self.objective)
         if n=='zeiss.center':return dict(stage_x_travel=float(self.goal[0]),stage_y_travel=float(self.goal[1]))
-        if n=='zeiss.focus':return dict(focus_travel=s.targets['focus_travel']+.5*(self.focus_goal-s.q('focus_travel')))
+        if n=='zeiss.focus':return dict(focus_travel=self.focus_goal)
         if n.startswith('transfer'):
             d=s.site('stamp_contact')-s.site('transfer_target')
             act={k:s.q(k)-float(err)*.7 for k,err in zip(['stamp_x_travel','stamp_y_travel'],d[:2])}
             if n.endswith('touch'):
-                gap=.00002 if t>3 and 'stamp_contact' not in self.visited else .004
+                # The contact site is the stamp's lower surface; seek 5 um of
+                # soft contact, then retract on the measured contact event.
+                gap=-.000005 if t>3 and 'stamp_contact' not in self.visited else .004
                 act['stamp_z_travel']=s.q('stamp_z_travel')+float(np.clip(gap-d[2],-.0002,.0002))
             return act
         if n.startswith('probe'):
@@ -185,7 +202,9 @@ class InstrumentTask:
                 d=s.site(side+'_tip')-s.site(side+'_pad')
                 for k,err in zip(['x','y'],d[:2]):act[side+'_'+k+'_travel']=s.q(side+'_'+k+'_travel')-float(err)*.7
                 if n.endswith('touch'):
-                    gap=.00009 if t<5 and not all(x+'_contact' in self.visited for x in ('left','right')) else .0012
+                    # The 120 um tip sphere first touches at a 96 um site gap.
+                    # A 90 um target seeks light contact, then both tips retract.
+                    gap=.00009 if not all(x+'_contact' in self.visited for x in ('left','right')) else .0012
                     key=side+'_z_travel';act[key]=s.q(key)+float(np.clip(gap-d[2],-.00002,.00002))
                 else:
                     # Initial observation-alignment challenge is in goal targets on the sample.

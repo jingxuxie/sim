@@ -1,91 +1,226 @@
 {
-  "url": "http://127.0.0.1:18768/publish/github-sim/",
-  "native_sources": false,
+  "url": "http://127.0.0.1:18769/",
+  "started_utc": "2026-11-24T18:08:57.329Z",
   "checks": [
     {
-      "check": "transfer Connected_flexible_fiber_sheath travel -1",
+      "check": "transfer Connected_flexible_fiber_sheath translation -1 rotation 0",
       "passed": true,
       "max_vertex_error_m": 2.9802322387695312e-8,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 6024,
       "moving_vertices": 6048
     },
     {
-      "check": "transfer Connected_flexible_fiber_sheath travel 1",
+      "check": "transfer Connected_flexible_fiber_sheath translation 1 rotation 0",
       "passed": true,
       "max_vertex_error_m": 2.9802322387695312e-8,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 6024,
       "moving_vertices": 6048
     },
     {
-      "check": "transfer Connected_flexible_fiber_sheath travel 0",
+      "check": "transfer Connected_flexible_fiber_sheath translation 0 rotation 0",
       "passed": true,
       "max_vertex_error_m": 0,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 6024,
       "moving_vertices": 6048
     },
     {
-      "check": "transfer Routed_flexible_camera_cable travel -1",
+      "check": "transfer Routed_flexible_camera_cable translation -1 rotation 0",
       "passed": true,
       "max_vertex_error_m": 2.9802322387695312e-8,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 5536,
       "moving_vertices": 5600
     },
     {
-      "check": "transfer Routed_flexible_camera_cable travel 1",
+      "check": "transfer Routed_flexible_camera_cable translation 1 rotation 0",
       "passed": true,
       "max_vertex_error_m": 2.9802322387695312e-8,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 5536,
       "moving_vertices": 5600
     },
     {
-      "check": "transfer Routed_flexible_camera_cable travel 0",
+      "check": "transfer Routed_flexible_camera_cable translation 0 rotation 0",
       "passed": true,
       "max_vertex_error_m": 0,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 5536,
       "moving_vertices": 5600
     },
     {
-      "check": "probe left_flexible_triax_service_loop travel -1",
+      "check": "transfer Routed_heater_electrical_lead translation -1 rotation -1",
       "passed": true,
-      "max_vertex_error_m": 1.5215917100636724e-8,
+      "max_vertex_error_m": 1.0103938268609182e-8,
+      "native_attachment_error_m": 1.1254789451726967e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation -1 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 7.831465643050314e-9,
+      "native_attachment_error_m": 1.1254789451030585e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 1 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 9.48670171740553e-9,
+      "native_attachment_error_m": 1.1254789451726967e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 1 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 5.100350675766477e-9,
+      "native_attachment_error_m": 1.1254789451292907e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 0 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 1.0285606968387414e-8,
+      "native_attachment_error_m": 1.1254789451154425e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 0 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 5.1950755477040846e-9,
+      "native_attachment_error_m": 1.1254789451030585e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 0 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 1.3877787807814457e-17,
+      "native_attachment_error_m": 1.1254789451916133e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation -1 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 9.276470903888595e-9,
+      "native_attachment_error_m": 4.406336611984393e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation -1 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 1.0109395566296991e-8,
+      "native_attachment_error_m": 4.406336599981447e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 1 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 9.409108003755746e-9,
+      "native_attachment_error_m": 4.406336608378532e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 1 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 9.200348106591165e-9,
+      "native_attachment_error_m": 4.406336606625593e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 0 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 9.286109248833997e-9,
+      "native_attachment_error_m": 4.4063366047726705e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 0 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 7.887970596841182e-9,
+      "native_attachment_error_m": 4.406336603214893e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 0 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 1.3877787807814457e-17,
+      "native_attachment_error_m": 4.4063366101375315e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592
+    },
+    {
+      "check": "transfer returns to rest without accumulated deformation",
+      "passed": true,
+      "max_local_error_m": 0
+    },
+    {
+      "check": "probe left_flexible_triax_service_loop translation -1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 1.5215917079756294e-8,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 714,
       "moving_vertices": 742
     },
     {
-      "check": "probe left_flexible_triax_service_loop travel 1",
+      "check": "probe left_flexible_triax_service_loop translation 1 rotation 0",
       "passed": true,
       "max_vertex_error_m": 1.1175870895385742e-8,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 714,
       "moving_vertices": 742
     },
     {
-      "check": "probe left_flexible_triax_service_loop travel 0",
+      "check": "probe left_flexible_triax_service_loop translation 0 rotation 0",
       "passed": true,
       "max_vertex_error_m": 0,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 714,
       "moving_vertices": 742
     },
     {
-      "check": "probe right_flexible_triax_service_loop travel -1",
+      "check": "probe right_flexible_triax_service_loop translation -1 rotation 0",
       "passed": true,
-      "max_vertex_error_m": 1.0878174267699248e-8,
+      "max_vertex_error_m": 1.0878174264814466e-8,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 714,
       "moving_vertices": 742
     },
     {
-      "check": "probe right_flexible_triax_service_loop travel 1",
+      "check": "probe right_flexible_triax_service_loop translation 1 rotation 0",
       "passed": true,
-      "max_vertex_error_m": 1.4969786929807438e-8,
+      "max_vertex_error_m": 1.4969786938344594e-8,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 714,
       "moving_vertices": 742
     },
     {
-      "check": "probe right_flexible_triax_service_loop travel 0",
+      "check": "probe right_flexible_triax_service_loop translation 0 rotation 0",
       "passed": true,
       "max_vertex_error_m": 0,
+      "native_attachment_error_m": 0,
       "fixed_vertices": 714,
       "moving_vertices": 742
+    },
+    {
+      "check": "probe returns to rest without accumulated deformation",
+      "passed": true,
+      "max_local_error_m": 0
     }
   ],
-  "passed": true
+  "passed": true,
+  "checked_utc": "2026-11-24T18:09:00.544Z"
 }

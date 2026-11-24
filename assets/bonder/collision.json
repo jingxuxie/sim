@@ -1,0 +1,592 @@
+{
+  "units": "SI",
+  "coordinates": "MuJoCo Z-up; local to named body",
+  "physics_sha256": "5189808a21706951586fa2163a589101f0f218aba39969ddf5b49ad8e7ee315d",
+  "shapes": [
+    {
+      "name": "base__Rear_cast_instrument_foot",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.106,
+        0.019
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.2795,
+        0.119,
+        0.019
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Adjustable_platform_pedestal",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.049,
+        -0.139,
+        0.017
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.199,
+        0.136,
+        0.017
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Work_platform_casting",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.049,
+        -0.139,
+        0.042
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.2,
+        0.137,
+        0.0065
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Stainless_working_deck",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.049,
+        -0.139,
+        0.049
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1935,
+        0.1305,
+        0.002
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Console_roof",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.1,
+        0.294
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.2675,
+        0.109,
+        0.005
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Console_back",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.207,
+        0.167
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.2675,
+        0.005,
+        0.125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Microscope_rear_pedestal",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.012,
+        0.089,
+        0.321
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.041,
+        0.049,
+        0.0295
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Heater_ceramic_pedestal",
+      "body": "base",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.109,
+        0.068
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.026,
+        0.017,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Workholder_metal_platen",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.109,
+        0.087
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.039,
+        0.036,
+        0.00475
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Workholder_rear_clamp",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.087,
+        0.093
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.014,
+        0.0115,
+        0.00125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__device_chip",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.11,
+        0.092
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.005,
+        0.00025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "tool_z__Tool_yoke_cheek",
+      "body": "tool_z",
+      "type": "box",
+      "pos": [
+        -0.026,
+        -0.003,
+        0.02
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.003,
+        0.003,
+        0.018
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "tool_z__Tool_yoke_cheek_2",
+      "body": "tool_z",
+      "type": "box",
+      "pos": [
+        0.026,
+        -0.003,
+        0.02
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.003,
+        0.003,
+        0.018
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "tool_z__Tool_yoke_upper_bar",
+      "body": "tool_z",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.003,
+        0.035
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.028,
+        0.003,
+        0.003
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "tool_z__Tool_yoke_lower_bar",
+      "body": "tool_z",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.003,
+        0.004
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.003,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "tool_z__Bond_wedge_contact",
+      "body": "tool_z",
+      "type": "sphere",
+      "pos": [
+        0.0,
+        0.0,
+        -0.01815
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00014,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 1,
+      "conaffinity": 3,
+      "condim": 4
+    },
+    {
+      "name": "handle_z__Long_independent_hand_lever",
+      "body": "handle_z",
+      "type": "cylinder",
+      "pos": [
+        0.0205,
+        -0.1165,
+        -0.004
+      ],
+      "quat": [
+        0.6929192431722705,
+        0.7058895607381119,
+        0.1469110291384663,
+        -0.0
+      ],
+      "size": [
+        0.0053,
+        0.1006901187,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 1,
+      "conaffinity": 3,
+      "condim": 4
+    },
+    {
+      "name": "handle_z__Manual_ball_handle",
+      "body": "handle_z",
+      "type": "sphere",
+      "pos": [
+        0.043,
+        -0.228,
+        0.003
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.02,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 1,
+      "conaffinity": 3,
+      "condim": 4
+    }
+  ],
+  "bodies": {
+    "base": {
+      "mass_kg": 0.0,
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": true
+    },
+    "tool_z": {
+      "mass_kg": 0.07,
+      "diagonal_inertia_kg_m2": [
+        8.575e-05,
+        8.575e-05,
+        8.575e-05
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "handle_z": {
+      "mass_kg": 0.12,
+      "diagonal_inertia_kg_m2": [
+        0.000147,
+        0.000147,
+        0.000147
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    }
+  },
+  "note": "Contact shapes used by physics. Detailed visual surfaces can extend beyond them. Fixed instrument bases are anchored; cable bending is visual only."
+}

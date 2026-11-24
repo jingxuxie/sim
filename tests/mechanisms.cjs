@@ -11,7 +11,7 @@ fs.mkdirSync(out,{recursive:true});
   const result=await page.evaluate(async()=>{
    const {BrowserRuntime}=await import('./runtime.js'),catalog=JSON.parse(document.getElementById('instrument-catalog').textContent).instruments;
    const rt=new BrowserRuntime(()=>{},()=>{},e=>console.error(e)),checks=[];
-   const check=(name,ok,evidence={})=>{checks.push({check:name,passed:!!ok,...evidence});if(!ok)throw Error(name);};
+   const check=(name,ok,evidence={})=>{checks.push({check:name,passed:!!ok,...evidence});if(!ok)throw Error(name+' '+JSON.stringify(evidence));};
    const open=async id=>{await rt.open(catalog.find(x=>x.id===id));return rt.request('step',{seconds:.05});};
    const step=(action,seconds=1)=>rt.request('step',{action,seconds});
    await open('afm');
@@ -54,11 +54,18 @@ fs.mkdirSync(out,{recursive:true});
     }
    }
    await open('transfer');
+   await rt.request('command',{action:{sample_theta_angle:Math.PI}});
+   s=await rt.request('snapshot');
+   check('Transfer attached-service envelope rejects unsupported coarse rotation',s.targets.sample_theta_angle===0&&s.guard_events.at(-1).reason.includes('Attached'));
+   const edge=await rt.request('command',{action:{sample_theta_angle:-Math.PI/2}});
+   s=await rt.request('snapshot');
+   check('Transfer attached-service envelope accepts its boundary',s.targets.sample_theta_angle===-Math.PI/2);
+   await rt.request('reset');
    let accepted=await rt.request('command',{action:{rotation_fine_knob_angle:2*Math.PI}});
    s=await rt.request('snapshot');
    check('Transfer fine micrometer requires the coarse clamp',s.targets.rotation_fine_knob_angle===0&&s.guard_events.at(-1).reason.includes('Lock the coarse'));
    s=await step({sample_theta_angle:.2},1.5);const coarse=s.q.sample_theta_angle;
-   check('Transfer released coarse ring rotates',Math.abs(coarse-.2)<.003);
+   check('Transfer released coarse ring rotates',Math.abs(coarse-.2)<.003,{measured_rad:coarse,target_rad:.2,q:s.q,targets:s.targets,guards:s.guard_events});
    await step({rotation_lock_angle:Math.PI/2},1.5);
    accepted=await rt.request('command',{action:{sample_theta_angle:.4}});
    s=await step({rotation_fine_knob_angle:2*Math.PI},2);

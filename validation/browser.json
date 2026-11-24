@@ -1,15 +1,19 @@
 {
-  "url": "http://127.0.0.1:18768/",
-  "started_utc": "2026-11-24T10:28:28.030Z",
-  "checked_utc": "2026-11-24T10:29:59.304Z",
+  "url": "http://127.0.0.1:18771/",
+  "started_utc": "2026-11-24T18:33:02.312Z",
+  "checked_utc": "2026-11-24T18:35:03.200Z",
   "checks": [
     {
       "check": "Static gallery, all seven instruments, no eager runtime/model downloads",
-      "ms": 62,
+      "ms": 78,
       "passed": true
     },
     {
       "check": "Real Nikon stage motion and objective indexing, without cross-origin isolation",
+      "passed": true
+    },
+    {
+      "check": "Contact shapes load lazily and toggle independently of the visual instrument",
       "passed": true
     },
     {
@@ -26,6 +30,10 @@
     },
     {
       "check": "transfer detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "Transfer contact overlay replaces prior instrument data and renders",
       "passed": true
     },
     {

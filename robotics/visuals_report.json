@@ -1,0 +1,21 @@
+{
+  "task": "transfer.gripper_turn_sample_x",
+  "scope": "Four-axis Cartesian fixture; no articulated arm",
+  "trajectory_sha256": "2ac6b53684a83673023f439ffde23307c8fa40ff8af966d2d3ee50a89de2ebc2",
+  "instrument_blend_sha256": "919ebcdf7bd17e5657d49acf9d61d5a244d14e5df6ebdfba63d63e69b3ff8e0e",
+  "instrument_xml_sha256": "3804e84b6a92e1fdf93d15f7e1c8c90d01597adc2629ed09263e4ad4f878ae03",
+  "robot_vendor_sha256": "48bac2acea9d58a99cc93643f7ce60dc773fea39b85e6c1d6412f83c5ddbc86a",
+  "initial_pose_time_s": 0.02000000000000001,
+  "assets": {
+    "transfer_gripper.blend": {
+      "bytes": 81082690,
+      "sha256": "fa46a46540d4c943938ac3099578f9ebbfee100f8be4c9bc807f4d42117ae6e8"
+    },
+    "transfer_gripper.glb": {
+      "bytes": 56087400,
+      "sha256": "f0891f3b34c3464ee36d71ce5c15167b70eedf07c4cf8c7f6b84d1f63052ab81"
+    }
+  },
+  "materials": "Menagerie source colors with estimated PBR finish; no measured reflectance",
+  "playback": "Articulated body hierarchy; transforms must come from measured physics frames"
+}

@@ -6,7 +6,7 @@
       "success": true,
       "failure": null,
       "duration_s": 0.92,
-      "wall_s": 0.09,
+      "wall_s": 0.089,
       "metrics": {
         "success": true,
         "failure": null,
@@ -22,7 +22,7 @@
       "success": true,
       "failure": null,
       "duration_s": 1.44,
-      "wall_s": 0.127,
+      "wall_s": 0.125,
       "metrics": {
         "success": true,
         "failure": null,
@@ -38,7 +38,7 @@
       "success": true,
       "failure": null,
       "duration_s": 0.46,
-      "wall_s": 0.037,
+      "wall_s": 0.036,
       "metrics": {
         "success": true,
         "failure": null,
@@ -53,7 +53,7 @@
       "success": true,
       "failure": null,
       "duration_s": 45.6,
-      "wall_s": 9.222,
+      "wall_s": 9.987,
       "metrics": {
         "success": true,
         "failure": null,
@@ -89,7 +89,7 @@
       "success": true,
       "failure": null,
       "duration_s": 2.52,
-      "wall_s": 0.931,
+      "wall_s": 0.91,
       "metrics": {
         "success": true,
         "failure": null,
@@ -104,14 +104,14 @@
       "seed": 0,
       "success": true,
       "failure": null,
-      "duration_s": 0.32,
-      "wall_s": 0.044,
+      "duration_s": 0.7,
+      "wall_s": 0.149,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 5.391027792259781e-05,
-        "gap_m": 0.007077345555046299
+        "error_m": 2.3350159517815893e-05,
+        "gap_m": 0.007241642639229856
       },
       "events": [],
       "controller": "bench fixture"
@@ -121,19 +121,19 @@
       "seed": 0,
       "success": true,
       "failure": null,
-      "duration_s": 4.04,
-      "wall_s": 0.491,
+      "duration_s": 8.06,
+      "wall_s": 1.685,
       "metrics": {
         "success": true,
         "failure": null,
-        "peak_contact_N": 0.1558967422082204,
-        "error_m": 3.7767520180874516e-05,
-        "gap_m": 0.0030675580656315538
+        "peak_contact_N": 0.23939408987779434,
+        "error_m": 1.0767746630139022e-07,
+        "gap_m": 0.00238165716111044
       },
       "events": [
         {
           "event": "stamp_contact",
-          "time": 3.38
+          "time": 6.16
         }
       ],
       "controller": "bench fixture"
@@ -143,13 +143,13 @@
       "seed": 0,
       "success": true,
       "failure": null,
-      "duration_s": 1.86,
-      "wall_s": 0.173,
+      "duration_s": 0.74,
+      "wall_s": 0.149,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 7.686806861856914e-05,
+        "error_m": 4.777329032213717e-05,
         "gap_m": 0.00022599999999997622
       },
       "events": [],
@@ -160,23 +160,23 @@
       "seed": 0,
       "success": true,
       "failure": null,
-      "duration_s": 2.92,
-      "wall_s": 0.273,
+      "duration_s": 6.74,
+      "wall_s": 1.355,
       "metrics": {
         "success": true,
         "failure": null,
-        "peak_contact_N": 0.08253817142454169,
-        "error_m": 6.655661992537498e-05,
-        "gap_m": 0.0008524865296640205
+        "peak_contact_N": 0.5433754338308189,
+        "error_m": 4.411953239200577e-08,
+        "gap_m": 0.0008374878077406778
       },
       "events": [
         {
           "event": "left_contact",
-          "time": 0.34
+          "time": 1.08
         },
         {
           "event": "right_contact",
-          "time": 0.34
+          "time": 1.08
         }
       ],
       "controller": "bench fixture"
@@ -186,13 +186,13 @@
       "seed": 0,
       "success": true,
       "failure": null,
-      "duration_s": 2.32,
-      "wall_s": 0.157,
+      "duration_s": 0.74,
+      "wall_s": 0.085,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.00012189796356106227
+        "error_m": 2.2209695727150956e-05
       },
       "events": [],
       "controller": "bench fixture"
@@ -202,13 +202,13 @@
       "seed": 0,
       "success": true,
       "failure": null,
-      "duration_s": 0.64,
-      "wall_s": 0.046,
+      "duration_s": 0.92,
+      "wall_s": 0.104,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 1.651337912110919e-06
+        "defocus_m": 5.138643419647006e-07
       },
       "events": [],
       "controller": "bench fixture"
@@ -218,13 +218,13 @@
       "seed": 0,
       "success": true,
       "failure": null,
-      "duration_s": 23.38,
-      "wall_s": 6.363,
+      "duration_s": 17.08,
+      "wall_s": 6.65,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 1.3517407087611667e-06,
+        "defocus_m": 7.867580798935798e-08,
         "objective_indexed": true,
         "camera_throughput": 1.0,
         "focus_submitted": true
@@ -232,19 +232,19 @@
       "events": [
         {
           "event": "image_focus_scan_1_complete",
-          "time": 12.7
+          "time": 8.3
         },
         {
           "event": "image_focus_scan_2_complete",
-          "time": 18.52
+          "time": 12.8
         },
         {
           "event": "image_focus_scan_3_complete",
-          "time": 21.5
+          "time": 15.44
         },
         {
           "event": "image_focus_scan_4_complete",
-          "time": 23.08
+          "time": 16.78
         }
       ],
       "controller": "image sharpness search"
@@ -255,7 +255,7 @@
       "success": true,
       "failure": null,
       "duration_s": 2.48,
-      "wall_s": 0.162,
+      "wall_s": 0.154,
       "metrics": {
         "success": true,
         "failure": null,
@@ -274,7 +274,7 @@
       "success": true,
       "failure": null,
       "duration_s": 12.88,
-      "wall_s": 0.827,
+      "wall_s": 0.767,
       "metrics": {
         "success": true,
         "failure": null,
@@ -306,7 +306,7 @@
       "success": true,
       "failure": null,
       "duration_s": 7.6,
-      "wall_s": 1.007,
+      "wall_s": 1.021,
       "metrics": {
         "success": true,
         "failure": null,
@@ -328,7 +328,7 @@
       "success": true,
       "failure": null,
       "duration_s": 16.46,
-      "wall_s": 2.209,
+      "wall_s": 2.204,
       "metrics": {
         "success": true,
         "failure": null,
@@ -350,7 +350,7 @@
       "success": true,
       "failure": null,
       "duration_s": 3.62,
-      "wall_s": 0.397,
+      "wall_s": 0.406,
       "metrics": {
         "success": true,
         "failure": null,
@@ -383,7 +383,7 @@
       "success": true,
       "failure": null,
       "duration_s": 12.54,
-      "wall_s": 1.368,
+      "wall_s": 1.392,
       "metrics": {
         "success": true,
         "failure": null,
@@ -433,7 +433,7 @@
       "success": true,
       "failure": null,
       "duration_s": 0.84,
-      "wall_s": 0.077,
+      "wall_s": 0.076,
       "metrics": {
         "success": true,
         "failure": null,
@@ -480,7 +480,7 @@
       "success": true,
       "failure": null,
       "duration_s": 45.38,
-      "wall_s": 7.019,
+      "wall_s": 6.904,
       "metrics": {
         "success": true,
         "failure": null,
@@ -516,7 +516,7 @@
       "success": true,
       "failure": null,
       "duration_s": 2.24,
-      "wall_s": 0.824,
+      "wall_s": 0.816,
       "metrics": {
         "success": true,
         "failure": null,
@@ -531,14 +531,14 @@
       "seed": 11,
       "success": true,
       "failure": null,
-      "duration_s": 0.32,
-      "wall_s": 0.039,
+      "duration_s": 0.7,
+      "wall_s": 0.148,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 5.837612501282891e-05,
-        "gap_m": 0.007077345555046299
+        "error_m": 2.5736484186344443e-05,
+        "gap_m": 0.007241642639229828
       },
       "events": [],
       "controller": "bench fixture"
@@ -548,19 +548,19 @@
       "seed": 11,
       "success": true,
       "failure": null,
-      "duration_s": 4.04,
-      "wall_s": 0.489,
+      "duration_s": 8.06,
+      "wall_s": 1.687,
       "metrics": {
         "success": true,
         "failure": null,
-        "peak_contact_N": 0.15605651592423148,
-        "error_m": 4.0239238895435605e-05,
-        "gap_m": 0.0030675645415571273
+        "peak_contact_N": 0.23939507965761142,
+        "error_m": 1.0529019019955433e-07,
+        "gap_m": 0.0023816570588523767
       },
       "events": [
         {
           "event": "stamp_contact",
-          "time": 3.38
+          "time": 6.16
         }
       ],
       "controller": "bench fixture"
@@ -570,13 +570,13 @@
       "seed": 11,
       "success": true,
       "failure": null,
-      "duration_s": 2.04,
-      "wall_s": 0.185,
+      "duration_s": 0.76,
+      "wall_s": 0.153,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 7.680807509375657e-05,
+        "error_m": 4.503416802309108e-05,
         "gap_m": 0.00022599999999997622
       },
       "events": [],
@@ -587,23 +587,23 @@
       "seed": 11,
       "success": true,
       "failure": null,
-      "duration_s": 2.92,
-      "wall_s": 0.269,
+      "duration_s": 6.74,
+      "wall_s": 1.352,
       "metrics": {
         "success": true,
         "failure": null,
-        "peak_contact_N": 0.08255180008961864,
-        "error_m": 6.813957294413173e-05,
-        "gap_m": 0.0008524865296640205
+        "peak_contact_N": 0.5433754338294836,
+        "error_m": 4.414516766465436e-08,
+        "gap_m": 0.0008374878077406778
       },
       "events": [
         {
           "event": "left_contact",
-          "time": 0.34
+          "time": 1.08
         },
         {
           "event": "right_contact",
-          "time": 0.34
+          "time": 1.08
         }
       ],
       "controller": "bench fixture"
@@ -613,13 +613,13 @@
       "seed": 11,
       "success": true,
       "failure": null,
-      "duration_s": 2.14,
-      "wall_s": 0.142,
+      "duration_s": 0.98,
+      "wall_s": 0.113,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.0001207321154240358
+        "error_m": 2.2010513534791074e-05
       },
       "events": [],
       "controller": "bench fixture"
@@ -629,13 +629,13 @@
       "seed": 11,
       "success": true,
       "failure": null,
-      "duration_s": 0.54,
-      "wall_s": 0.035,
+      "duration_s": 0.58,
+      "wall_s": 0.066,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 6.144418405131425e-07
+        "defocus_m": 5.194277567353872e-07
       },
       "events": [],
       "controller": "bench fixture"
@@ -645,13 +645,13 @@
       "seed": 11,
       "success": true,
       "failure": null,
-      "duration_s": 21.38,
-      "wall_s": 4.459,
+      "duration_s": 16.58,
+      "wall_s": 4.929,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 4.4206964384426025e-07,
+        "defocus_m": 6.542055050288986e-08,
         "objective_indexed": true,
         "camera_throughput": 1.0,
         "focus_submitted": true
@@ -659,19 +659,19 @@
       "events": [
         {
           "event": "image_focus_scan_1_complete",
-          "time": 12.7
+          "time": 8.3
         },
         {
           "event": "image_focus_scan_2_complete",
-          "time": 17.2
+          "time": 12.2
         },
         {
           "event": "image_focus_scan_3_complete",
-          "time": 19.64
+          "time": 14.88
         },
         {
           "event": "image_focus_scan_4_complete",
-          "time": 21.02
+          "time": 16.22
         }
       ],
       "controller": "image sharpness search"
@@ -682,7 +682,7 @@
       "success": true,
       "failure": null,
       "duration_s": 2.48,
-      "wall_s": 0.16,
+      "wall_s": 0.153,
       "metrics": {
         "success": true,
         "failure": null,
@@ -701,7 +701,7 @@
       "success": true,
       "failure": null,
       "duration_s": 12.88,
-      "wall_s": 0.801,
+      "wall_s": 0.783,
       "metrics": {
         "success": true,
         "failure": null,
@@ -733,7 +733,7 @@
       "success": true,
       "failure": null,
       "duration_s": 7.6,
-      "wall_s": 1.02,
+      "wall_s": 1.023,
       "metrics": {
         "success": true,
         "failure": null,
@@ -755,7 +755,7 @@
       "success": true,
       "failure": null,
       "duration_s": 16.46,
-      "wall_s": 2.188,
+      "wall_s": 2.209,
       "metrics": {
         "success": true,
         "failure": null,
@@ -777,7 +777,7 @@
       "success": true,
       "failure": null,
       "duration_s": 3.62,
-      "wall_s": 0.395,
+      "wall_s": 0.404,
       "metrics": {
         "success": true,
         "failure": null,
@@ -810,7 +810,7 @@
       "success": true,
       "failure": null,
       "duration_s": 12.54,
-      "wall_s": 1.356,
+      "wall_s": 1.396,
       "metrics": {
         "success": true,
         "failure": null,
@@ -860,7 +860,7 @@
       "success": true,
       "failure": null,
       "duration_s": 0.92,
-      "wall_s": 0.088,
+      "wall_s": 0.089,
       "metrics": {
         "success": true,
         "failure": null,
@@ -876,7 +876,7 @@
       "success": true,
       "failure": null,
       "duration_s": 1.42,
-      "wall_s": 0.12,
+      "wall_s": 0.119,
       "metrics": {
         "success": true,
         "failure": null,
@@ -907,7 +907,7 @@
       "success": true,
       "failure": null,
       "duration_s": 45.32,
-      "wall_s": 8.481,
+      "wall_s": 8.325,
       "metrics": {
         "success": true,
         "failure": null,
@@ -943,7 +943,7 @@
       "success": true,
       "failure": null,
       "duration_s": 1.38,
-      "wall_s": 0.523,
+      "wall_s": 0.5,
       "metrics": {
         "success": true,
         "failure": null,
@@ -958,14 +958,14 @@
       "seed": 37,
       "success": true,
       "failure": null,
-      "duration_s": 0.32,
-      "wall_s": 0.042,
+      "duration_s": 0.62,
+      "wall_s": 0.131,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 2.4752601490304686e-05,
-        "gap_m": 0.007077345555046299
+        "error_m": 6.191271446853501e-06,
+        "gap_m": 0.007242089523056661
       },
       "events": [],
       "controller": "bench fixture"
@@ -975,19 +975,19 @@
       "seed": 37,
       "success": true,
       "failure": null,
-      "duration_s": 4.04,
-      "wall_s": 0.5,
+      "duration_s": 8.06,
+      "wall_s": 1.661,
       "metrics": {
         "success": true,
         "failure": null,
-        "peak_contact_N": 0.15601544204743728,
-        "error_m": 1.6123070116604097e-05,
-        "gap_m": 0.0030675631594034303
+        "peak_contact_N": 0.23939515091181676,
+        "error_m": 1.0520823833038401e-07,
+        "gap_m": 0.0023816570511166757
       },
       "events": [
         {
           "event": "stamp_contact",
-          "time": 3.38
+          "time": 6.16
         }
       ],
       "controller": "bench fixture"
@@ -997,13 +997,13 @@
       "seed": 37,
       "success": true,
       "failure": null,
-      "duration_s": 0.34,
-      "wall_s": 0.034,
+      "duration_s": 0.74,
+      "wall_s": 0.15,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 7.667658672646384e-05,
+        "error_m": 4.15925019404204e-05,
         "gap_m": 0.00022599999999997622
       },
       "events": [],
@@ -1014,23 +1014,23 @@
       "seed": 37,
       "success": true,
       "failure": null,
-      "duration_s": 2.92,
-      "wall_s": 0.277,
+      "duration_s": 6.74,
+      "wall_s": 1.347,
       "metrics": {
         "success": true,
         "failure": null,
-        "peak_contact_N": 0.08253817142454192,
-        "error_m": 5.903990524074401e-05,
-        "gap_m": 0.0008524865296640205
+        "peak_contact_N": 0.5433754338297075,
+        "error_m": 4.38070926072429e-08,
+        "gap_m": 0.00083748780774065
       },
       "events": [
         {
           "event": "left_contact",
-          "time": 0.34
+          "time": 1.08
         },
         {
           "event": "right_contact",
-          "time": 0.34
+          "time": 1.08
         }
       ],
       "controller": "bench fixture"
@@ -1040,13 +1040,13 @@
       "seed": 37,
       "success": true,
       "failure": null,
-      "duration_s": 2.32,
-      "wall_s": 0.158,
+      "duration_s": 0.78,
+      "wall_s": 0.089,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.00012235361711140921
+        "error_m": 2.165867887940416e-05
       },
       "events": [],
       "controller": "bench fixture"
@@ -1056,13 +1056,13 @@
       "seed": 37,
       "success": true,
       "failure": null,
-      "duration_s": 0.62,
-      "wall_s": 0.042,
+      "duration_s": 0.88,
+      "wall_s": 0.099,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 1.3802967596295013e-06
+        "defocus_m": 5.378440583503384e-07
       },
       "events": [],
       "controller": "bench fixture"
@@ -1072,13 +1072,13 @@
       "seed": 37,
       "success": true,
       "failure": null,
-      "duration_s": 23.32,
-      "wall_s": 6.359,
+      "duration_s": 17.08,
+      "wall_s": 6.424,
       "metrics": {
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 6.761804670370576e-07,
+        "defocus_m": 1.8673027233902066e-07,
         "objective_indexed": true,
         "camera_throughput": 1.0,
         "focus_submitted": true
@@ -1086,19 +1086,19 @@
       "events": [
         {
           "event": "image_focus_scan_1_complete",
-          "time": 12.7
+          "time": 8.3
         },
         {
           "event": "image_focus_scan_2_complete",
-          "time": 18.52
+          "time": 12.72
         },
         {
           "event": "image_focus_scan_3_complete",
-          "time": 21.46
+          "time": 15.44
         },
         {
           "event": "image_focus_scan_4_complete",
-          "time": 22.98
+          "time": 16.74
         }
       ],
       "controller": "image sharpness search"
@@ -1109,7 +1109,7 @@
       "success": true,
       "failure": null,
       "duration_s": 2.48,
-      "wall_s": 0.161,
+      "wall_s": 0.152,
       "metrics": {
         "success": true,
         "failure": null,
@@ -1128,7 +1128,7 @@
       "success": true,
       "failure": null,
       "duration_s": 12.88,
-      "wall_s": 0.813,
+      "wall_s": 0.785,
       "metrics": {
         "success": true,
         "failure": null,
@@ -1160,7 +1160,7 @@
       "success": true,
       "failure": null,
       "duration_s": 7.6,
-      "wall_s": 1.027,
+      "wall_s": 1.021,
       "metrics": {
         "success": true,
         "failure": null,
@@ -1182,7 +1182,7 @@
       "success": true,
       "failure": null,
       "duration_s": 16.46,
-      "wall_s": 2.211,
+      "wall_s": 2.191,
       "metrics": {
         "success": true,
         "failure": null,
@@ -1204,7 +1204,7 @@
       "success": true,
       "failure": null,
       "duration_s": 3.62,
-      "wall_s": 0.397,
+      "wall_s": 0.403,
       "metrics": {
         "success": true,
         "failure": null,
@@ -1237,7 +1237,7 @@
       "success": true,
       "failure": null,
       "duration_s": 12.54,
-      "wall_s": 1.37,
+      "wall_s": 1.388,
       "metrics": {
         "success": true,
         "failure": null,
@@ -1289,7 +1289,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 8.0,
-      "wall_s": 0.596,
+      "wall_s": 0.582,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1305,7 +1305,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 8.0,
-      "wall_s": 0.585,
+      "wall_s": 0.57,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1321,7 +1321,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 8.0,
-      "wall_s": 0.583,
+      "wall_s": 0.568,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1336,7 +1336,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 60.02,
-      "wall_s": 4.469,
+      "wall_s": 4.355,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1355,7 +1355,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 12.02,
-      "wall_s": 0.889,
+      "wall_s": 0.864,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1371,13 +1371,13 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 12.02,
-      "wall_s": 1.4,
+      "wall_s": 2.406,
       "metrics": {
         "success": false,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.0022209170986987087,
-        "gap_m": 0.007035747062594744
+        "error_m": 0.0022194119468442693,
+        "gap_m": 0.007214011453713254
       },
       "events": [],
       "controller": "no-action negative control"
@@ -1388,13 +1388,13 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 20.0,
-      "wall_s": 2.279,
+      "wall_s": 4.041,
       "metrics": {
         "success": false,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.002221239239769282,
-        "gap_m": 0.007029801798653451
+        "error_m": 0.0022197011507339376,
+        "gap_m": 0.007208691242359427
       },
       "events": [],
       "controller": "no-action negative control"
@@ -1405,12 +1405,12 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 10.02,
-      "wall_s": 0.829,
+      "wall_s": 1.92,
       "metrics": {
         "success": false,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.003413334382801953,
+        "error_m": 0.003413334382801864,
         "gap_m": 0.00022599999999997622
       },
       "events": [],
@@ -1422,12 +1422,12 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 12.02,
-      "wall_s": 1.013,
+      "wall_s": 2.303,
       "metrics": {
         "success": false,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.003413334382801953,
+        "error_m": 0.003413334382801864,
         "gap_m": 0.00022599999999997622
       },
       "events": [],
@@ -1439,7 +1439,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 10.02,
-      "wall_s": 0.639,
+      "wall_s": 1.083,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1455,12 +1455,12 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 10.02,
-      "wall_s": 0.635,
+      "wall_s": 1.073,
       "metrics": {
         "success": false,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 0.0004159620894122762
+        "defocus_m": 0.00012179802914802894
       },
       "events": [],
       "controller": "no-action negative control"
@@ -1471,12 +1471,12 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 45.02,
-      "wall_s": 2.917,
+      "wall_s": 4.969,
       "metrics": {
         "success": false,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 0.000536159054616285,
+        "defocus_m": 0.00012179802914802894,
         "objective_indexed": true,
         "camera_throughput": 1.0,
         "focus_submitted": false
@@ -1490,7 +1490,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 8.0,
-      "wall_s": 0.474,
+      "wall_s": 0.447,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1509,7 +1509,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 14.02,
-      "wall_s": 0.831,
+      "wall_s": 0.758,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1528,7 +1528,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 14.02,
-      "wall_s": 1.877,
+      "wall_s": 1.865,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1545,7 +1545,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 20.0,
-      "wall_s": 2.67,
+      "wall_s": 2.656,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1562,7 +1562,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 12.02,
-      "wall_s": 1.243,
+      "wall_s": 1.262,
       "metrics": {
         "success": false,
         "failure": null,
@@ -1586,7 +1586,7 @@
       "success": false,
       "failure": "timeout",
       "duration_s": 20.0,
-      "wall_s": 2.065,
+      "wall_s": 2.092,
       "metrics": {
         "success": false,
         "failure": null,

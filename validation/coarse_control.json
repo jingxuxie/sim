@@ -1,0 +1,92 @@
+{
+  "events": [
+    {
+      "action": {
+        "sample_theta_angle": 3.141592653589793
+      },
+      "accepted": {},
+      "guards": [
+        {
+          "time": 0.0,
+          "control": "sample_theta_angle",
+          "reason": "Attached heater and vacuum services: re-route or disconnect services before larger rotations; cable loads are not simulated."
+        }
+      ]
+    },
+    {
+      "action": {
+        "sample_theta_angle": -1.5707963267948966
+      },
+      "accepted": {
+        "sample_theta_angle": -1.5707963267948966
+      },
+      "guards": [
+        {
+          "time": 0.0,
+          "control": "sample_theta_angle",
+          "reason": "Attached heater and vacuum services: re-route or disconnect services before larger rotations; cable loads are not simulated."
+        }
+      ]
+    },
+    {
+      "action": {
+        "rotation_fine_knob_angle": 0.25
+      },
+      "accepted": {},
+      "guards": [
+        {
+          "time": 0.0,
+          "control": "rotation_fine_knob_angle",
+          "reason": "Lock the coarse rotation before fine adjustment"
+        }
+      ]
+    }
+  ],
+  "q": 0.19997779287534648,
+  "target": 0.2,
+  "error_rad": 2.2207124653533805e-05,
+  "qvel": 4.273755533586845e-05,
+  "frictionloss": 0.02,
+  "motor_force": 0.004476369490941545,
+  "coarse_lock_active": false,
+  "fine_lock_active": true,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "nonzero_clamp": {
+    "held_angle_rad": 0.19998242934602464,
+    "after_angle_rad": 0.19998243195599,
+    "coarse_drift_rad": 2.609965354949395e-09,
+    "rejected_coarse_command": {},
+    "accepted_fine_command": {
+      "rotation_fine_knob_angle": 1.5
+    },
+    "fine_angle_rad": 0.003669139807659002
+  },
+  "inputs_sha256": {
+    "benchmarks/sim.py": "9aa6fa10d60c5f7f30aa6af6a3717da35a651c9b7d45a4d0a7a3c5bd955b5bbc",
+    "benchmarks/fixture_control.py": "1180cf8b9e7d5785650c5ecb0bf4189a444fe0c16c6029607145f221ccf90c44",
+    "001_transfer_stage/transfer_station.xml": "3804e84b6a92e1fdf93d15f7e1c8c90d01597adc2629ed09263e4ad4f878ae03",
+    "001_transfer_stage/asset.json": "b5bb479a2af76343befe8685467029df70f62d757191eef3d17a2938562ccbe4"
+  },
+  "checks": {
+    "coarse_released_tracks_target": true,
+    "attached_envelope_rejects_pi": true,
+    "attached_envelope_accepts_minus_pi_over_2": true,
+    "unlocked_fine_command_rejected": true,
+    "nonzero_coarse_clamp_holds": true,
+    "locked_coarse_command_rejected": true,
+    "locked_fine_adjustment_moves": true,
+    "no_applied_wrench": true,
+    "no_warnings": true,
+    "inputs_unchanged": true
+  },
+  "passed": true
+}

@@ -68,8 +68,10 @@
       <geom name="base__Fiber-Lite_housing" type="box" pos="0.41 0.14 0.063" size="0.08636 0.1054 0.062" class="contact" />
       <geom name="base__Vacuum_valve_mounting_plate" type="box" pos="-0.236 0.118 0.028" size="0.029 0.024 0.0035" class="contact" />
       <site name="illumination_source_port" pos="0.45 0.0328 0.047" size=".0006" group="4" rgba=".1 .8 .4 1" />
+      <site name="vacuum_valve_outlet" pos="-0.266 0.118 0.04" size=".0006" group="4" rgba=".1 .8 .4 1" />
+      <site name="heater_host_terminal" pos="0.018 0.18 0.029" size=".0006" group="4" rgba=".1 .8 .4 1" />
       <body name="scope_focus" pos="-0.105 0.044 0.364" euler="0 0 0" gravcomp="1">
-        <joint name="scope_focus_travel" type="slide" axis="0 0 1" damping="30" frictionloss="2" range="-0.025 0.025" />
+        <joint name="scope_focus_travel" type="slide" axis="0 0 1" damping="30" frictionloss="8.0" range="-0.025 0.025" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="3" pos="0 0 0" diaginertia="0.003675 0.003675 0.003675" />
         <geom name="scope_focus__Motic_focus_carriage_bridge" type="box" pos="0 0.053 0.005" size="0.054 0.031 0.052" class="contact" />
         <geom name="scope_focus__Motic_optical_envelope" type="box" pos="0 -0.028 0" size="0.056 0.056 0.069" class="contact" />
@@ -77,13 +79,13 @@
         <site name="optical_axis" pos="0 -0.064 -0.09" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <site name="illumination_microscope_port" pos="0.032 0.024 0.111" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <body name="light_path_selector" pos="0.063 -0.004 0.029" euler="0 0 0">
-          <joint name="light_path_travel" type="slide" axis="1 0 0" damping="3" frictionloss="0.12" range="0 0.012" />
+          <joint name="light_path_travel" type="slide" axis="1 0 0" damping="3" frictionloss="0.12" range="0 0.012" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.018" pos="0 0 0" diaginertia="2.205e-05 2.205e-05 2.205e-05" />
           <geom name="light_path_selector__Camera-path_selector_grip" type="cylinder" pos="0.008 0 0" size="0.006 0.0045" zaxis="1 0 0" class="contact" />
           <site name="light_path_grip" pos="0.013 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
         </body>
         <body name="objective_turret" pos="0 -0.0378426113 -0.09" euler="0.3263765701 0 0">
-          <joint name="objective_angle" type="hinge" axis="0 0 1" damping="0.05" frictionloss="0.005" range="-3.141592654 3.141592654" />
+          <joint name="objective_angle" type="hinge" axis="0 0 1" damping="0.05" frictionloss="0.005" range="-3.141592654 3.141592654" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.4" pos="0 0 0" diaginertia="0.00049 0.00049 0.00049" />
           <geom name="objective_turret__Industrial_objective_nosepiece" type="cylinder" pos="0 0 0" size="0.049 0.008" zaxis="0 0 1" class="contact" />
           <geom name="objective_turret__Objective_barrel" type="cylinder" pos="0 -0.04238176117 -0.04362596486" size="0.015 0.0355" zaxis="0 -0.3206129906 -0.9472102777" class="contact" />
@@ -103,29 +105,29 @@
         </body>
       </body>
       <body name="sample_x" pos="-0.105 -0.02 0.04" euler="0 0 0" gravcomp="1">
-        <joint name="sample_x_travel" type="slide" axis="1 0 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" />
+        <joint name="sample_x_travel" type="slide" axis="1 0 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
         <geom name="sample_x__sample_x_moving_drilled_plate" type="box" pos="0 0 0.0075" size="0.052 0.047 0.003" class="contact" />
         <geom name="sample_x__sample_x_relieved_carrier_core" type="box" pos="0 0 -0.0008" size="0.0355 0.039 0.0055" class="contact" />
         <geom name="sample_x__sample_y_fixed_sole" type="box" pos="0 0 0.012" size="0.051 0.048 0.0025" class="contact" />
         <body name="sample_y" pos="0 0 0.023" euler="0 0 0" gravcomp="1">
-          <joint name="sample_y_travel" type="slide" axis="0 1 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" />
+          <joint name="sample_y_travel" type="slide" axis="0 1 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
           <geom name="sample_y__sample_y_moving_drilled_plate" type="box" pos="0 0 0.008" size="0.047 0.044 0.003" class="contact" />
           <geom name="sample_y__sample_y_relieved_carrier_core" type="box" pos="0 0 -0.0008" size="0.0275 0.039 0.0055" class="contact" />
           <geom name="sample_y__481-A_slotted_square_sole" type="box" pos="0 0 0.0224" size="0.0413 0.04065 0.0032" class="contact" />
           <geom name="sample_y__481-A_stationary_black_barrel" type="cylinder" pos="0 0 0.036" size="0.0366 0.013" zaxis="0 0 1" class="contact" />
           <body name="sample_fine" pos="0 0 0.051" euler="0 0 0">
-            <joint name="sample_fine_angle" type="hinge" axis="0 0 1" damping="0.035" frictionloss="0.01" range="-0.0436332313 0.0436332313" />
+            <joint name="sample_fine_angle" type="hinge" axis="0 0 1" damping="0.035" frictionloss="0.01" range="-0.0436332313 0.0436332313" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.1" pos="0 0 0" diaginertia="0.0001225 0.0001225 0.0001225" />
             <body name="rotation_clamp" pos="-0.021 -0.035 -0.01" euler="0 0 0">
-              <joint name="rotation_lock_angle" type="hinge" axis="0 -1 0" damping="0.012" frictionloss="0.008" range="0 1.570796327" />
+              <joint name="rotation_lock_angle" type="hinge" axis="0 -1 0" damping="0.012" frictionloss="0.008" range="0 1.570796327" solimpfriction=".99999 .999999 .000001 .5 2" />
               <inertial mass="0.018" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
               <geom name="rotation_clamp__Coarse_rotation_locking_thumbscrew" type="cylinder" pos="0 -0.005 0" size="0.007 0.0065" zaxis="0 -1 0" class="contact" />
               <site name="rotation_lock_grip" pos="0 -0.005 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
             </body>
             <body name="sample_theta" pos="0 0 0" euler="0 0 0">
-              <joint name="sample_theta_angle" type="hinge" axis="0 0 1" damping="0.035" frictionloss="0.02" range="-3.141592654 3.141592654" />
+              <joint name="sample_theta_angle" type="hinge" axis="0 0 1" damping="0.035" frictionloss="0.02" range="-3.141592654 3.141592654" solimpfriction=".99999 .999999 .000001 .5 2" />
               <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
               <geom name="sample_theta__481-A_rotating_top" type="cylinder" pos="0 0 0" size="0.0366 0.0032" zaxis="0 0 1" class="contact" />
               <geom name="sample_theta__Heater_support" type="box" pos="0 0 0.027" size="0.033 0.029 0.007" class="contact" />
@@ -133,13 +135,15 @@
               <geom name="sample_theta__device_chip" type="box" pos="0 0 0.049" size="0.005 0.005 0.00025" class="contact" />
               <site name="device_chip_center" pos="0 0 0.04925" size=".0006" group="4" rgba=".1 .8 .4 1" />
               <site name="transfer_target" pos="0 0 0.04925" size=".0006" group="4" rgba=".1 .8 .4 1" />
+              <site name="heater_electrical_inlet" pos="-0.036 0.008 0.04" size=".0006" group="4" rgba=".1 .8 .4 1" />
+              <site name="workholder_vacuum_inlet" pos="0 0.032 0.042" size=".0006" group="4" rgba=".1 .8 .4 1" />
             </body>
           </body>
           <body name="rotation_fine_spindle" pos="0.039 -0.014 0.036" euler="0 0 0">
-            <joint name="rotation_fine_spindle_travel" type="slide" axis="0 -1 0" damping="0.03" frictionloss="0.001" range="-0.002 0.002" />
+            <joint name="rotation_fine_spindle_travel" type="slide" axis="0 -1 0" damping="0.03" frictionloss="0.001" range="-0.002 0.002" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.01" pos="0 0 0" diaginertia="1e-07 1e-07 1e-07" />
             <body name="rotation_fine_knob" pos="0 -0.034 0" euler="0 0 0">
-              <joint name="rotation_fine_knob_angle" type="hinge" axis="0 -1 0" damping="4e-05" frictionloss="1e-05" range="-17.83091259 17.83091259" />
+              <joint name="rotation_fine_knob_angle" type="hinge" axis="0 -1 0" damping="4e-05" frictionloss="1e-05" range="-17.83091259 17.83091259" solimpfriction=".99999 .999999 .000001 .5 2" />
               <inertial mass="0.02" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
               <geom name="rotation_fine_knob__481-A_fine_thimble" type="cylinder" pos="0 0 0" size="0.0062 0.0135" zaxis="0 -1 0" class="contact" />
               <site name="rotation_fine_grip" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -147,10 +151,10 @@
           </body>
         </body>
         <body name="sample_y_spindle" pos="0 -0.054 0.018" euler="0 0 0">
-          <joint name="sample_y_spindle_travel" type="slide" axis="0 -1 0" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" />
+          <joint name="sample_y_spindle_travel" type="slide" axis="0 -1 0" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.012" pos="0 0 0" diaginertia="1e-07 1e-07 1e-07" />
           <body name="sample_y_knob" pos="0 -0.034 0" euler="0 0 0">
-            <joint name="sample_y_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" />
+            <joint name="sample_y_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.024" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
             <geom name="sample_y_knob__sample_y_grip" type="cylinder" pos="0 0 0" size="0.011 0.018" zaxis="0 -1 0" class="contact" />
             <site name="sample_y_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -158,23 +162,23 @@
         </body>
       </body>
       <body name="sample_x_spindle" pos="-0.167 -0.02 0.035" euler="0 0 0">
-        <joint name="sample_x_spindle_travel" type="slide" axis="-1 0 0" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" />
+        <joint name="sample_x_spindle_travel" type="slide" axis="-1 0 0" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.012" pos="0 0 0" diaginertia="1e-07 1e-07 1e-07" />
         <body name="sample_x_knob" pos="-0.034 0 0" euler="0 0 0">
-          <joint name="sample_x_angle" type="hinge" axis="-1 0 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" />
+          <joint name="sample_x_angle" type="hinge" axis="-1 0 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.024" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
           <geom name="sample_x_knob__sample_x_grip" type="cylinder" pos="0 0 0" size="0.011 0.018" zaxis="-1 0 0" class="contact" />
           <site name="sample_x_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
         </body>
       </body>
       <body name="stamp_x" pos="0.15 -0.02 0.094" euler="0 0 0" gravcomp="1">
-        <joint name="stamp_x_travel" type="slide" axis="1 0 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" />
+        <joint name="stamp_x_travel" type="slide" axis="1 0 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
         <geom name="stamp_x__stamp_x_moving_drilled_plate" type="box" pos="0 0 0.0085" size="0.0585 0.0465 0.003" class="contact" />
         <geom name="stamp_x__stamp_x_relieved_carrier_core" type="box" pos="0 0 -0.0008" size="0.042 0.0385 0.0055" class="contact" />
         <geom name="stamp_x__stamp_y_fixed_sole" type="box" pos="0 0 0.016" size="0.0555 0.0475 0.0025" class="contact" />
         <body name="stamp_y" pos="0 0 0.027" euler="0 0 0" gravcomp="1">
-          <joint name="stamp_y_travel" type="slide" axis="0 1 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" />
+          <joint name="stamp_y_travel" type="slide" axis="0 1 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
           <geom name="stamp_y__stamp_y_moving_drilled_plate" type="box" pos="0 0 0.008" size="0.0515 0.0435 0.003" class="contact" />
           <geom name="stamp_y__stamp_y_relieved_carrier_core" type="box" pos="0 0 -0.0008" size="0.027 0.0435 0.0055" class="contact" />
@@ -182,14 +186,14 @@
           <geom name="stamp_y__stamp_z_upright_guide_column" type="box" pos="-0.0445 0.008 0.031" size="0.006 0.0345 0.0115" class="contact" />
           <geom name="stamp_y__stamp_z_upright_guide_column_2" type="box" pos="0.0445 0.008 0.031" size="0.006 0.0345 0.0115" class="contact" />
           <body name="stamp_z" pos="0 0 0.051" euler="0 0 0" gravcomp="1">
-            <joint name="stamp_z_travel" type="slide" axis="0 0 1" damping="10" frictionloss="0.5" range="-0.0125 0.0125" />
+            <joint name="stamp_z_travel" type="slide" axis="0 0 1" damping="10" frictionloss="0.5" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
             <geom name="stamp_z__stamp_z_drilled_lift_table" type="box" pos="0 0 0.012" size="0.0525 0.0445 0.004" class="contact" />
             <geom name="stamp_z__stamp_z_internal_lift_carrier" type="box" pos="0 0 0.001" size="0.037 0.0285 0.015" class="contact" />
             <geom name="stamp_z__Vertical_face_plate" type="box" pos="-0.06 0 0.011" size="0.007 0.045 0.047" class="contact" />
             <geom name="stamp_z__GON40-L_fixed_block" type="box" pos="-0.0725 0 0.01" size="0.0075 0.02 0.02" class="contact" />
             <body name="stamp_tilt" pos="-0.12 0 0.01" euler="0 0 0">
-              <joint name="stamp_tilt_angle" type="hinge" axis="0 1 0" damping="0.03" frictionloss="0.005" range="-0.0872665 0.0872665" />
+              <joint name="stamp_tilt_angle" type="hinge" axis="0 1 0" damping="0.03" frictionloss="0.005" range="-0.0872665 0.0872665" solimpfriction=".99999 .999999 .000001 .5 2" />
               <inertial mass="0.12" pos="0 0 0" diaginertia="0.000147 0.000147 0.000147" />
               <geom name="stamp_tilt__Goniometer_moving_face" type="box" pos="0.0375 0 0" size="0.0025 0.02 0.02" class="contact" />
               <geom name="stamp_tilt__Horizontal_stamp_support" type="box" pos="-0.036 0 -0.013" size="0.073 0.0215 0.0025" class="contact" />
@@ -198,10 +202,10 @@
               <site name="stamp_contact" pos="-0.135 0 -0.0115" size=".0006" group="4" rgba=".1 .8 .4 1" />
             </body>
             <body name="goniometer_spindle" pos="-0.073 0 0.044" euler="0 0 0">
-              <joint name="goniometer_spindle_travel" type="slide" axis="0 0 1" damping="0.03" frictionloss="0.001" range="-0.0032 0.0032" />
+              <joint name="goniometer_spindle_travel" type="slide" axis="0 0 1" damping="0.03" frictionloss="0.001" range="-0.0032 0.0032" solimpfriction=".99999 .999999 .000001 .5 2" />
               <inertial mass="0.012" pos="0 0 0" diaginertia="1e-07 1e-07 1e-07" />
               <body name="goniometer_knob" pos="0 0 0.014" euler="0 0 0">
-                <joint name="goniometer_knob_angle" type="hinge" axis="0 0 1" damping="4e-05" frictionloss="1e-05" range="-38.38179489 38.38179489" />
+                <joint name="goniometer_knob_angle" type="hinge" axis="0 0 1" damping="4e-05" frictionloss="1e-05" range="-38.38179489 38.38179489" solimpfriction=".99999 .999999 .000001 .5 2" />
                 <inertial mass="0.02" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
                 <geom name="goniometer_knob__Goniometer_fine_adjustment_knob" type="cylinder" pos="0 0 0" size="0.01 0.0035" zaxis="0 0 1" class="contact" />
                 <site name="goniometer_grip" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -209,10 +213,10 @@
             </body>
           </body>
           <body name="stamp_z_spindle" pos="-0.0625 -0.0425 0.035" euler="0 0 0">
-            <joint name="stamp_z_spindle_travel" type="slide" axis="0 0 1" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" />
+            <joint name="stamp_z_spindle_travel" type="slide" axis="0 0 1" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.012" pos="0 0 0" diaginertia="1e-07 1e-07 1e-07" />
             <body name="stamp_z_knob" pos="0 0 0.034" euler="0 0 0">
-              <joint name="stamp_z_angle" type="hinge" axis="0 0 1" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" />
+              <joint name="stamp_z_angle" type="hinge" axis="0 0 1" damping="1e-05" frictionloss="0.00015" range="-157.0796327 157.0796327" solimpfriction=".99999 .999999 .000001 .5 2" />
               <inertial mass="0.024" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
               <geom name="stamp_z_knob__stamp_z_grip" type="cylinder" pos="0 0 0" size="0.008 0.018" zaxis="0 0 1" class="contact" />
               <site name="stamp_z_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -220,10 +224,10 @@
           </body>
         </body>
         <body name="stamp_y_spindle" pos="0 -0.0535 0.022" euler="0 0 0">
-          <joint name="stamp_y_spindle_travel" type="slide" axis="0 -1 0" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" />
+          <joint name="stamp_y_spindle_travel" type="slide" axis="0 -1 0" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.012" pos="0 0 0" diaginertia="1e-07 1e-07 1e-07" />
           <body name="stamp_y_knob" pos="0 -0.034 0" euler="0 0 0">
-            <joint name="stamp_y_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" />
+            <joint name="stamp_y_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.024" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
             <geom name="stamp_y_knob__stamp_y_grip" type="cylinder" pos="0 0 0" size="0.008 0.018" zaxis="0 -1 0" class="contact" />
             <site name="stamp_y_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -231,23 +235,23 @@
         </body>
       </body>
       <body name="stamp_x_spindle" pos="0.2185 -0.02 0.089" euler="0 0 0">
-        <joint name="stamp_x_spindle_travel" type="slide" axis="1 0 0" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" />
+        <joint name="stamp_x_spindle_travel" type="slide" axis="1 0 0" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.012" pos="0 0 0" diaginertia="1e-07 1e-07 1e-07" />
         <body name="stamp_x_knob" pos="0.034 0 0" euler="0 0 0">
-          <joint name="stamp_x_angle" type="hinge" axis="1 0 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" />
+          <joint name="stamp_x_angle" type="hinge" axis="1 0 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.024" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
           <geom name="stamp_x_knob__stamp_x_grip" type="cylinder" pos="0 0 0" size="0.008 0.018" zaxis="1 0 0" class="contact" />
           <site name="stamp_x_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
         </body>
       </body>
       <body name="illuminator_dimmer" pos="0.361 0.03944703674 0.08788057709" euler="1.325817823 -0 0">
-        <joint name="illumination_angle" type="hinge" axis="0 0 1" damping="0.02" frictionloss="0.01" range="0 4.71238898" />
+        <joint name="illumination_angle" type="hinge" axis="0 0 1" damping="0.02" frictionloss="0.01" range="0 4.71238898" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.02" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
         <geom name="illuminator_dimmer__Illuminator_intensity_knob" type="cylinder" pos="0 0 0.004" size="0.01 0.005" zaxis="0 0 1" class="contact" />
         <site name="illumination_grip" pos="0 0 0.008" size=".0006" group="4" rgba=".1 .8 .4 1" />
       </body>
       <body name="illuminator_power" pos="0.395 0.0341 0.026" euler="0 0 0">
-        <joint name="illumination_power_angle" type="hinge" axis="1 0 0" damping="0.012" frictionloss="0.008" range="0 0.35" />
+        <joint name="illumination_power_angle" type="hinge" axis="1 0 0" damping="0.012" frictionloss="0.008" range="0 0.35" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.012" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
         <geom name="illuminator_power__Illuminator_rocker" type="box" pos="0 -0.002 0" size="0.007 0.0025 0.011" class="contact" />
         <site name="illumination_power_contact" pos="0 -0.005 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -301,21 +305,21 @@
     <jointpos name="illumination_power_angle_position" joint="illumination_power_angle" />
   </sensor>
   <equality>
-    <joint name="sample_x_spindle_translation" joint1="sample_x_spindle_travel" joint2="sample_x_travel" polycoef="0 -1 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="sample_x_screw" joint1="sample_x_travel" joint2="sample_x_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="sample_y_spindle_translation" joint1="sample_y_spindle_travel" joint2="sample_y_travel" polycoef="0 -1 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="sample_y_screw" joint1="sample_y_travel" joint2="sample_y_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="rotation_fine_spindle_translation" joint1="rotation_fine_spindle_travel" joint2="sample_fine_angle" polycoef="0 0.0413 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="rotation_tangent_screw" joint1="sample_fine_angle" joint2="rotation_fine_knob_angle" polycoef="0 0.00244705542 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="stamp_x_spindle_translation" joint1="stamp_x_spindle_travel" joint2="stamp_x_travel" polycoef="0 1 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="stamp_x_screw" joint1="stamp_x_travel" joint2="stamp_x_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="stamp_y_spindle_translation" joint1="stamp_y_spindle_travel" joint2="stamp_y_travel" polycoef="0 -1 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="stamp_y_screw" joint1="stamp_y_travel" joint2="stamp_y_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="stamp_z_spindle_translation" joint1="stamp_z_spindle_travel" joint2="stamp_z_travel" polycoef="0 1 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="stamp_z_screw" joint1="stamp_z_travel" joint2="stamp_z_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="goniometer_spindle_translation" joint1="goniometer_spindle_travel" joint2="stamp_tilt_angle" polycoef="0 0.035 0 0 0" solref=".002 1" solimp=".9999 .99999 .00001" />
-    <joint name="goniometer_tangent_screw" joint1="stamp_tilt_angle" joint2="goniometer_knob_angle" polycoef="0 0.002273642044 0 0 0" solref=".002 1" solimp=".9999 .99999 .00001" />
-    <joint name="rotation_coarse_lock" joint1="sample_theta_angle" polycoef="0 0 0 0 0" active="true" solref=".002 1" solimp=".99 .999 .0001" />
-    <joint name="rotation_fine_lock" joint1="sample_fine_angle" polycoef="0 0 0 0 0" active="true" solref=".002 1" solimp=".99 .999 .0001" />
+    <joint name="sample_x_spindle_translation" joint1="sample_x_spindle_travel" joint2="sample_x_travel" polycoef="0 -1 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="sample_x_screw" joint1="sample_x_angle" joint2="sample_x_travel" polycoef="0 12566.370614359172 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="sample_y_spindle_translation" joint1="sample_y_spindle_travel" joint2="sample_y_travel" polycoef="0 -1 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="sample_y_screw" joint1="sample_y_angle" joint2="sample_y_travel" polycoef="0 12566.370614359172 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="rotation_fine_spindle_translation" joint1="rotation_fine_spindle_travel" joint2="sample_fine_angle" polycoef="0 0.0413 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="rotation_tangent_screw" joint1="rotation_fine_knob_angle" joint2="sample_fine_angle" polycoef="0 408.65441446695581 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="stamp_x_spindle_translation" joint1="stamp_x_spindle_travel" joint2="stamp_x_travel" polycoef="0 1 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="stamp_x_screw" joint1="stamp_x_angle" joint2="stamp_x_travel" polycoef="0 12566.370614359172 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="stamp_y_spindle_translation" joint1="stamp_y_spindle_travel" joint2="stamp_y_travel" polycoef="0 -1 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="stamp_y_screw" joint1="stamp_y_angle" joint2="stamp_y_travel" polycoef="0 12566.370614359172 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="stamp_z_spindle_translation" joint1="stamp_z_spindle_travel" joint2="stamp_z_travel" polycoef="0 1 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="stamp_z_screw" joint1="stamp_z_angle" joint2="stamp_z_travel" polycoef="0 12566.370614359172 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="goniometer_spindle_translation" joint1="goniometer_spindle_travel" joint2="stamp_tilt_angle" polycoef="0 0.035 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="goniometer_tangent_screw" joint1="goniometer_knob_angle" joint2="stamp_tilt_angle" polycoef="0 439.82297150257108 0 0 0" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="rotation_coarse_lock" joint1="sample_theta_angle" polycoef="0 0 0 0 0" active="true" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
+    <joint name="rotation_fine_lock" joint1="sample_fine_angle" polycoef="0 0 0 0 0" active="true" solref=".002 1" solimp=".99999 .999999 .000001 .5 2" />
   </equality>
 </mujoco>

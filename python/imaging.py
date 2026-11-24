@@ -328,7 +328,7 @@ class AutofocusController:
         self.capture=capture;self.position=focus_position;self.asset=asset
         self.candidates=list(np.linspace(-.0007,.0007,15));self.samples=[]
         self.round=0;self.target=self.candidates.pop(0);self.settled=0;self.done=False
-        self.history=[];self.drive=0.
+        self.history=[]
 
     def action(self):
         if not self.done:
@@ -344,10 +344,10 @@ class AutofocusController:
                     else:self.target=best;self.done=True
                 if self.candidates:self.target=float(self.candidates.pop(0))
         if self.asset=='nikon':return {'coarse':self.target/.005*math.tau}
-        # Encoder feedback compensates the load on the estimated Zeiss focus rack.
-        # This loop uses only proprioception; the desired focal plane remains hidden.
-        self.drive+=float(np.clip(.5*(self.target-self.position()),-.00004,.00004))
-        return {'focus_travel':self.drive}
+        # The explicit fixture tracker handles the rack load within its existing
+        # force budget. The image search specifies position, not an accumulated
+        # motor bias; the desired focal plane remains hidden from this policy.
+        return {'focus_travel':self.target}
 
 class ImageCenterController:
     """Center the synthetic fiducial using pixels and calibrated stage gearing."""

@@ -1,0 +1,98 @@
+{
+  "task": "transfer.gripper_turn_sample_x",
+  "mode": "missed_grasp",
+  "seed": 11,
+  "success": false,
+  "duration_s": 11.999999999998789,
+  "target_knob_angle_rad": -0.2617993877991494,
+  "target_stage_displacement_m": -2.0833333333333333e-05,
+  "measured_stage_displacement_m": 6.704487247233115e-18,
+  "final_stage_error_m": 2.0833333333340038e-05,
+  "measured_knob_angle_rad": 8.424768760114623e-14,
+  "bilateral_contact_steps": 0,
+  "turn_bilateral_contact_steps": 0,
+  "peak_normal_force_N": 0.0,
+  "peak_penetration_m": 0.0,
+  "robot_peak_actuator_forces": {
+    "wrist_x_drive": 0.0,
+    "wrist_y_drive": 0.1404168834619826,
+    "wrist_z_drive": 0.7415534317765422,
+    "wrist_roll_drive": 0.014591103134983525,
+    "panda_grip": 0.03267505678399152
+  },
+  "max_screw_residual_m": 7.183054449748863e-19,
+  "last_half_second_stage_range_m": 8.822193114359928e-19,
+  "final_stage_speed_m_s": -5.204694752942728e-21,
+  "peak_instrument_actuator_force": 0.0,
+  "peak_instrument_applied_generalized_force": 0.0,
+  "peak_instrument_applied_body_wrench": 0.0,
+  "instrument_actuator_count": 0,
+  "robot_actuator_count": 5,
+  "unintended_contact_count": 0,
+  "unintended_contacts": [],
+  "released_at_s": 6.500000000000505,
+  "final": {
+    "time_s": 11.999999999998789,
+    "stage_x_m": 6.704487247233115e-18,
+    "knob_angle_rad": 8.424768760114623e-14,
+    "wrist_roll_rad": -0.2617993877991414,
+    "wrist_xyz_m": [
+      0.0,
+      -1.9040372212810807e-17,
+      0.034999999999999934
+    ],
+    "finger_positions_m": [
+      0.03500000000029056,
+      0.03500000000029056
+    ],
+    "contact_N": {
+      "left": 0.0,
+      "right": 0.0,
+      "unintended_N": 0.0
+    },
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "events": [
+    {
+      "event": "released",
+      "time_s": 6.500000000000505
+    }
+  ],
+  "initial_wrist_offset_m": [
+    -0.06,
+    -0.00014857191889232016,
+    -2.8885502395401734e-07
+  ],
+  "robot": "Franka Panda parallel gripper",
+  "wrist": "Four-axis Cartesian fixture; no articulated arm",
+  "mujoco_version": "3.3.7",
+  "inputs_before": {
+    "robotics/gripper_task.py": "33b5a23152f4b077bdf081d660f4591fa4739ae73aab69ed5e3409215ec2addd",
+    "robotics/build_gripper_scene.py": "20fedce2379d8900786c04e3c5ad8117dac3f365f59a2bbcccbb5fbcfa92cd66",
+    "001_transfer_stage/transfer_station.xml": "3804e84b6a92e1fdf93d15f7e1c8c90d01597adc2629ed09263e4ad4f878ae03",
+    "001_transfer_stage/asset.json": "b5bb479a2af76343befe8685467029df70f62d757191eef3d17a2938562ccbe4",
+    "robotics/assets/panda_gripper/SOURCE.json": "48bac2acea9d58a99cc93643f7ce60dc773fea39b85e6c1d6412f83c5ddbc86a",
+    "robotics/assets/panda_gripper/panda.xml": "c047a49f3c770ff2393e2a74f7e0fbd9d99080a305407254f8ff53ac053cde3b",
+    "robotics/assets/panda_gripper/LICENSE": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "robotics/assets/panda_gripper/assets/hand.stl": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+    "robotics/assets/panda_gripper/assets/hand_0.obj": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+    "robotics/assets/panda_gripper/assets/hand_1.obj": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+    "robotics/assets/panda_gripper/assets/hand_2.obj": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+    "robotics/assets/panda_gripper/assets/hand_3.obj": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+    "robotics/assets/panda_gripper/assets/hand_4.obj": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+    "robotics/assets/panda_gripper/assets/finger_0.obj": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+    "robotics/assets/panda_gripper/assets/finger_1.obj": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44"
+  },
+  "inputs_unchanged": true,
+  "scene_sha256": "50df74851395158cd93cd08ba2c5c137bcc16cfd22ad75ec0f1e7d1362194ba9",
+  "scene_unchanged": true
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "task": "transfer.gripper_turn_sample_x",
+  "seeds": [
+    0
+  ],
+  "trials": [
+    {
+      "mode": "contact",
+      "seed": 0,
+      "check_passed": true,
+      "task_success": true,
+      "stage_displacement_um": -20.86191216929412,
+      "goal_error_um": 0.02857883596078483,
+      "peak_normal_force_N": 0.11793775317177686,
+      "max_penetration_um": 17.61500383179383,
+      "unintended_contact_count": 0,
+      "report": "contact/seed_0/report.json"
+    },
+    {
+      "mode": "contacts_disabled",
+      "seed": 0,
+      "check_passed": true,
+      "task_success": false,
+      "stage_displacement_um": 6.704487247233115e-12,
+      "goal_error_um": 20.833333333340036,
+      "peak_normal_force_N": 0.0,
+      "max_penetration_um": 0.0,
+      "unintended_contact_count": 0,
+      "report": "contacts_disabled/seed_0/report.json"
+    },
+    {
+      "mode": "missed_grasp",
+      "seed": 0,
+      "check_passed": true,
+      "task_success": false,
+      "stage_displacement_um": 6.704487247233115e-12,
+      "goal_error_um": 20.833333333340036,
+      "peak_normal_force_N": 0.0,
+      "max_penetration_um": 0.0,
+      "unintended_contact_count": 0,
+      "report": "missed_grasp/seed_0/report.json"
+    },
+    {
+      "mode": "no_turn",
+      "seed": 0,
+      "check_passed": true,
+      "task_success": false,
+      "stage_displacement_um": 0.0030142874751117313,
+      "goal_error_um": 20.836347620808446,
+      "peak_normal_force_N": 0.11793775317177686,
+      "max_penetration_um": 17.61500383179383,
+      "unintended_contact_count": 0,
+      "report": "no_turn/seed_0/report.json"
+    }
+  ],
+  "negative_control_tolerance_um": 1,
+  "scope": "Native MuJoCo contact task; Cartesian wrist fixture, no articulated arm",
+  "limitations": [
+    "Estimated instrument inertias and friction; not measured calibration",
+    "Flexible hoses are visual only; separate swept visual clearance audit required",
+    "Robot benchmark is native Python, not a browser robot controller"
+  ]
+}

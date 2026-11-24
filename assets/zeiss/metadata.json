@@ -170,7 +170,8 @@
         "range": [
           -0.01,
           0.007
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 1.4,
       "inertia": null,
@@ -260,7 +261,8 @@
         "range": [
           -8,
           8
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.08,
       "inertia": null,
@@ -344,7 +346,8 @@
         "range": [
           -0.025,
           0.025
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.4,
       "inertia": null,
@@ -499,7 +502,8 @@
         "range": [
           -0.035,
           0.035
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.5,
       "inertia": null,
@@ -730,7 +734,8 @@
         "range": [
           -12,
           12
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.08,
       "inertia": null,
@@ -789,7 +794,8 @@
         "range": [
           -12,
           12
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.08,
       "inertia": null,
@@ -848,7 +854,8 @@
         "range": [
           -3.141592653589793,
           3.141592653589793
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.45,
       "inertia": null,
@@ -1095,7 +1102,8 @@
         "range": [
           0,
           0.012
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.015,
       "inertia": null,
@@ -1188,19 +1196,25 @@
       "name": "focus_rack",
       "output": "focus_travel",
       "input": "focus_wheel_angle",
-      "ratio": 0.0006366197723675814
+      "ratio": 0.0006366197723675814,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "stage_x_rack",
       "output": "stage_x_travel",
       "input": "stage_x_knob_angle",
-      "ratio": 0.0025464790894703256
+      "ratio": 0.0025464790894703256,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "stage_y_rack",
       "output": "stage_y_travel",
       "input": "stage_y_knob_angle",
-      "ratio": 0.0025464790894703256
+      "ratio": 0.0025464790894703256,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     }
   ],
   "identity": "Zeiss Axioskop marking visible in photo254; head variant, complete objective inventory and socket count partly provisional",
@@ -1267,5 +1281,20 @@
     "focus_target",
     "change_magnification"
   ],
-  "assumptions": "Five sockets and objective order are modeling choices. Scale, focus pitch and loads estimated from photographs."
+  "assumptions": "Five sockets and objective order are modeling choices. Scale, focus pitch and loads estimated from photographs.",
+  "contact_mechanics": {
+    "version": 1,
+    "passive_runtime": "benchmarks.sim.Simulation(asset, fixtures=False)",
+    "coupling_relation": "output = ratio * input; input/output/ratio metadata remains unchanged",
+    "small_ratio_constraint_coordinates": "input joint (XML joint1=input, joint2=output, coefficient=1/ratio)",
+    "normalization_threshold": 0.01,
+    "equality_and_friction_solimp": ".99999 .999999 .000001 .5 2",
+    "friction_overrides": {},
+    "friction_units": "N m for hinge joints, N for slide joints",
+    "calibration": "Numerical stabilization with estimated friction; no measured torque, compliance, backlash, or mass calibration is claimed.",
+    "scope": "Preserves geometry, masses, inertias, existing gravity compensation, and active fixture forces. Adds no holding actuators or position overwrites.",
+    "limitations": [
+      "Flexible hoses and fibers are visual surfaces without cable contact or strain physics."
+    ]
+  }
 }

@@ -218,6 +218,20 @@
             32.8,
             47
           ]
+        },
+        "vacuum_valve_outlet": {
+          "pos_mm": [
+            -266,
+            118,
+            40
+          ]
+        },
+        "heater_host_terminal": {
+          "pos_mm": [
+            18,
+            180,
+            29
+          ]
         }
       }
     },
@@ -242,11 +256,12 @@
           1
         ],
         "damping": 30,
-        "frictionloss": 2,
+        "frictionloss": 8.0,
         "range": [
           -0.025,
           0.025
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 3,
       "inertia": null,
@@ -351,7 +366,8 @@
         "range": [
           0,
           0.012
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.018,
       "inertia": null,
@@ -410,7 +426,8 @@
         "range": [
           -3.141592653589793,
           3.141592653589793
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.4,
       "inertia": null,
@@ -593,7 +610,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -684,7 +702,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.012,
       "inertia": [
@@ -720,7 +739,8 @@
         "range": [
           -157.07963267948966,
           157.07963267948966
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.024,
       "inertia": [
@@ -783,7 +803,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -892,7 +913,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.012,
       "inertia": [
@@ -928,7 +950,8 @@
         "range": [
           -157.07963267948966,
           157.07963267948966
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.024,
       "inertia": [
@@ -991,7 +1014,8 @@
         "range": [
           -0.04363323129985824,
           0.04363323129985824
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.1,
       "inertia": null,
@@ -1023,7 +1047,8 @@
         "range": [
           0,
           1.5707963267948966
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.018,
       "inertia": [
@@ -1086,7 +1111,8 @@
         "range": [
           -0.002,
           0.002
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.01,
       "inertia": [
@@ -1122,7 +1148,8 @@
         "range": [
           -17.830912588144816,
           17.830912588144816
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.02,
       "inertia": [
@@ -1185,7 +1212,8 @@
         "range": [
           -3.141592653589793,
           3.141592653589793
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -1280,6 +1308,20 @@
             0,
             49.25
           ]
+        },
+        "heater_electrical_inlet": {
+          "pos_mm": [
+            -36,
+            8,
+            40
+          ]
+        },
+        "workholder_vacuum_inlet": {
+          "pos_mm": [
+            0,
+            32,
+            42
+          ]
         }
       }
     },
@@ -1308,7 +1350,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -1399,7 +1442,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.012,
       "inertia": [
@@ -1435,7 +1479,8 @@
         "range": [
           -157.07963267948966,
           157.07963267948966
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.024,
       "inertia": [
@@ -1498,7 +1543,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -1627,7 +1673,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.012,
       "inertia": [
@@ -1663,7 +1710,8 @@
         "range": [
           -157.07963267948966,
           157.07963267948966
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.024,
       "inertia": [
@@ -1726,7 +1774,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -1836,7 +1885,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.012,
       "inertia": [
@@ -1868,11 +1918,12 @@
           1.0
         ],
         "damping": 1e-05,
-        "frictionloss": 5e-06,
+        "frictionloss": 0.00015,
         "range": [
           -157.07963267948966,
           157.07963267948966
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.024,
       "inertia": [
@@ -1935,7 +1986,8 @@
         "range": [
           -0.0872665,
           0.0872665
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.12,
       "inertia": null,
@@ -2054,7 +2106,8 @@
         "range": [
           -0.0032,
           0.0032
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.012,
       "inertia": [
@@ -2090,7 +2143,8 @@
         "range": [
           -38.38179489312529,
           38.38179489312529
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.02,
       "inertia": [
@@ -2153,7 +2207,8 @@
         "range": [
           0,
           4.71238898038469
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.02,
       "inertia": [
@@ -2216,7 +2271,8 @@
         "range": [
           0,
           0.35
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.012,
       "inertia": [
@@ -2340,7 +2396,11 @@
       "units": "rad",
       "kp": 5,
       "kv": 0.3,
-      "force": 0.5
+      "force": 0.5,
+      "operating_limits": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ]
     },
     {
       "name": "Stamp X",
@@ -2414,87 +2474,106 @@
       "name": "sample_x_spindle_translation",
       "input": "sample_x_travel",
       "output": "sample_x_spindle_travel",
-      "ratio": -1
+      "ratio": -1,
+      "solimp": ".99999 .999999 .000001 .5 2"
     },
     {
       "name": "sample_x_screw",
       "input": "sample_x_angle",
       "output": "sample_x_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "sample_y_spindle_translation",
       "input": "sample_y_travel",
       "output": "sample_y_spindle_travel",
-      "ratio": -1
+      "ratio": -1,
+      "solimp": ".99999 .999999 .000001 .5 2"
     },
     {
       "name": "sample_y_screw",
       "input": "sample_y_angle",
       "output": "sample_y_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "rotation_fine_spindle_translation",
       "input": "sample_fine_angle",
       "output": "rotation_fine_spindle_travel",
-      "ratio": 0.0413
+      "ratio": 0.0413,
+      "solimp": ".99999 .999999 .000001 .5 2"
     },
     {
       "name": "rotation_tangent_screw",
       "input": "rotation_fine_knob_angle",
       "output": "sample_fine_angle",
-      "ratio": 0.0024470554204201822
+      "ratio": 0.0024470554204201822,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "stamp_x_spindle_translation",
       "input": "stamp_x_travel",
       "output": "stamp_x_spindle_travel",
-      "ratio": 1
+      "ratio": 1,
+      "solimp": ".99999 .999999 .000001 .5 2"
     },
     {
       "name": "stamp_x_screw",
       "input": "stamp_x_angle",
       "output": "stamp_x_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "stamp_y_spindle_translation",
       "input": "stamp_y_travel",
       "output": "stamp_y_spindle_travel",
-      "ratio": -1
+      "ratio": -1,
+      "solimp": ".99999 .999999 .000001 .5 2"
     },
     {
       "name": "stamp_y_screw",
       "input": "stamp_y_angle",
       "output": "stamp_y_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "stamp_z_spindle_translation",
       "input": "stamp_z_travel",
       "output": "stamp_z_spindle_travel",
-      "ratio": 1
+      "ratio": 1,
+      "solimp": ".99999 .999999 .000001 .5 2"
     },
     {
       "name": "stamp_z_screw",
       "input": "stamp_z_angle",
       "output": "stamp_z_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "goniometer_spindle_translation",
       "input": "stamp_tilt_angle",
       "output": "goniometer_spindle_travel",
       "ratio": 0.035,
-      "solimp": ".9999 .99999 .00001"
+      "solimp": ".99999 .999999 .000001 .5 2"
     },
     {
       "name": "goniometer_tangent_screw",
       "input": "goniometer_knob_angle",
       "output": "stamp_tilt_angle",
       "ratio": 0.002273642044169933,
-      "solimp": ".9999 .99999 .00001"
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     }
   ],
   "identity": "Motic PSM-1000, Newport 481-A, GON40-L and Fiber-Lite MI-150",
@@ -2569,14 +2648,80 @@
     "length_mm": 932.2632665636938,
     "focus_joint": "scope_focus_travel"
   },
+  "workholder_services": {
+    "model": "Visual slack service loops; all unmeasured routes/connectors are reconstructions, not strain/contact models.",
+    "blue": {
+      "mesh": "Routed workholder vacuum hose",
+      "radius_m": 0.0018000000000000002,
+      "rest_length_m": 0.7658844550041332,
+      "fixed_until_fraction": 0.5966957509243791,
+      "rigid_from_fraction": 0.7442375886802978,
+      "endpoints_m": [
+        [
+          -0.26600000262260437,
+          0.11800000816583633,
+          0.04000000283122063
+        ],
+        [
+          -0.10500000417232513,
+          0.012000000104308128,
+          0.15600000321865082
+        ]
+      ]
+    },
+    "heater": {
+      "mesh": "Routed heater electrical lead",
+      "radius_m": 0.0033,
+      "rest_length_m": 0.5867053549502552,
+      "fixed_until_fraction": 0.3920196024450824,
+      "rigid_from_fraction": 0.6749554894271853,
+      "endpoints_m": [
+        [
+          0.018000001087784767,
+          0.18000000715255737,
+          0.029000001028180122
+        ],
+        [
+          -0.14100000262260437,
+          -0.012000000104308128,
+          0.15400001406669617
+        ]
+      ]
+    },
+    "translation_joints": [
+      "sample_x_travel",
+      "sample_y_travel"
+    ],
+    "rotation_joints": [
+      "sample_theta_angle",
+      "sample_fine_angle"
+    ]
+  },
+  "service_envelope": {
+    "coarse_joint": "sample_theta_angle",
+    "coarse_range_rad": [
+      -1.5707963267948966,
+      1.5707963267948966
+    ],
+    "fine_joint": "sample_fine_angle",
+    "fine_range_rad": [
+      -0.04363323129985824,
+      0.04363323129985824
+    ],
+    "reason": "Attached heater and vacuum services: re-route or disconnect services before larger rotations; cable loads are not simulated.",
+    "basis": "Tested operating envelope for reconstructed attached-service routes, not a calibrated hardware hard stop.",
+    "stamp_setup": "Rest/retracted configuration; stamp approach into these routes requires a separate clearance check."
+  },
   "locks": [
     {
       "name": "rotation_coarse_lock",
-      "joint": "sample_theta_angle"
+      "joint": "sample_theta_angle",
+      "solimp": ".99999 .999999 .000001 .5 2"
     },
     {
       "name": "rotation_fine_lock",
-      "joint": "sample_fine_angle"
+      "joint": "sample_fine_angle",
+      "solimp": ".99999 .999999 .000001 .5 2"
     }
   ],
   "geometry_revision": "realism4",
@@ -2651,5 +2796,24 @@
     "contact_and_retract",
     "rotate_sample"
   ],
-  "assumptions": "Stage screw pitch 0.5 mm/rev and unmarked carriage travel estimated. Goniometer range \u00b15 degrees from Newport. Glass/stamp contact is rigid; adhesion is a separate surrogate."
+  "assumptions": "Stage screw pitch 0.5 mm/rev and unmarked carriage travel estimated. Goniometer range \u00b15 degrees from Newport. Glass/stamp contact is rigid; adhesion is a separate surrogate.",
+  "contact_mechanics": {
+    "version": 1,
+    "passive_runtime": "benchmarks.sim.Simulation(asset, fixtures=False)",
+    "coupling_relation": "output = ratio * input; input/output/ratio metadata remains unchanged",
+    "small_ratio_constraint_coordinates": "input joint (XML joint1=input, joint2=output, coefficient=1/ratio)",
+    "normalization_threshold": 0.01,
+    "equality_and_friction_solimp": ".99999 .999999 .000001 .5 2",
+    "friction_overrides": {
+      "stamp_z_angle": 0.00015,
+      "scope_focus_travel": 8.0
+    },
+    "friction_units": "N m for hinge joints, N for slide joints",
+    "calibration": "Numerical stabilization with estimated friction; no measured torque, compliance, backlash, or mass calibration is claimed.",
+    "scope": "Preserves geometry, masses, inertias, existing gravity compensation, and active fixture forces. Adds no holding actuators or position overwrites.",
+    "limitations": [
+      "Flexible hoses and fibers are visual surfaces without cable contact or strain physics.",
+      "Optical focus handwheels are fixed visual geometry; the optical-head slide has physics but no rotary handwheel transmission."
+    ]
+  }
 }

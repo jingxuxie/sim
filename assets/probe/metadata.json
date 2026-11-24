@@ -272,7 +272,8 @@
         "range": [
           -0.02,
           0.02
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 2.6,
       "inertia": null,
@@ -384,7 +385,8 @@
         "range": [
           0,
           0.012
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.018,
       "inertia": null,
@@ -443,7 +445,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -515,7 +518,8 @@
         "range": [
           -157.07963267948966,
           157.07963267948966
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.025,
       "inertia": [
@@ -578,7 +582,8 @@
         "range": [
           -0.0125,
           0.0125
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -649,7 +654,8 @@
         "range": [
           -157.07963267948966,
           157.07963267948966
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.025,
       "inertia": [
@@ -712,7 +718,8 @@
         "range": [
           -0.35,
           0.35
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.4,
       "inertia": null,
@@ -823,7 +830,8 @@
         "range": [
           -0.006,
           0.006
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -895,7 +903,8 @@
         "range": [
           -75.39822368615503,
           75.39822368615503
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.025,
       "inertia": [
@@ -958,7 +967,8 @@
         "range": [
           -0.006,
           0.006
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -1030,7 +1040,8 @@
         "range": [
           -75.39822368615503,
           75.39822368615503
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.025,
       "inertia": [
@@ -1093,7 +1104,8 @@
         "range": [
           -0.006,
           0.006
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -1219,7 +1231,8 @@
         "range": [
           -75.39822368615503,
           75.39822368615503
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.025,
       "inertia": [
@@ -1282,7 +1295,8 @@
         "range": [
           -0.006,
           0.006
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -1354,7 +1368,8 @@
         "range": [
           -75.39822368615503,
           75.39822368615503
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.025,
       "inertia": [
@@ -1417,7 +1432,8 @@
         "range": [
           -0.006,
           0.006
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -1489,7 +1505,8 @@
         "range": [
           -75.39822368615503,
           75.39822368615503
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.025,
       "inertia": [
@@ -1552,7 +1569,8 @@
         "range": [
           -0.006,
           0.006
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.35,
       "inertia": null,
@@ -1678,7 +1696,8 @@
         "range": [
           -75.39822368615503,
           75.39822368615503
-        ]
+        ],
+        "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
       "mass": 0.025,
       "inertia": [
@@ -1835,49 +1854,65 @@
       "name": "chuck_x_screw",
       "input": "chuck_x_angle",
       "output": "chuck_x_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "chuck_y_screw",
       "input": "chuck_y_angle",
       "output": "chuck_y_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "left_x_screw",
       "input": "left_x_angle",
       "output": "left_x_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "left_y_screw",
       "input": "left_y_angle",
       "output": "left_y_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "left_z_screw",
       "input": "left_z_angle",
       "output": "left_z_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "right_x_screw",
       "input": "right_x_angle",
       "output": "right_x_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "right_y_screw",
       "input": "right_y_angle",
       "output": "right_y_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     },
     {
       "name": "right_z_screw",
       "input": "right_z_angle",
       "output": "right_z_travel",
-      "ratio": 7.957747154594768e-05
+      "ratio": 7.957747154594768e-05,
+      "solimp": ".99999 .999999 .000001 .5 2",
+      "constraint_coordinates": "input"
     }
   ],
   "identity": "Mitutoyo optics visible; orange stand manufacturer unverified",
@@ -1917,5 +1952,21 @@
     "touchdown_and_retract",
     "four_wire_contact_surrogate"
   ],
-  "assumptions": "Unmarked stage pitches/travel estimated. Needle 120 \u00b5m contact radius is a numerically stable coarse proxy; electrical response is modeled separately."
+  "assumptions": "Unmarked stage pitches/travel estimated. Needle 120 \u00b5m contact radius is a numerically stable coarse proxy; electrical response is modeled separately.",
+  "contact_mechanics": {
+    "version": 1,
+    "passive_runtime": "benchmarks.sim.Simulation(asset, fixtures=False)",
+    "coupling_relation": "output = ratio * input; input/output/ratio metadata remains unchanged",
+    "small_ratio_constraint_coordinates": "input joint (XML joint1=input, joint2=output, coefficient=1/ratio)",
+    "normalization_threshold": 0.01,
+    "equality_and_friction_solimp": ".99999 .999999 .000001 .5 2",
+    "friction_overrides": {},
+    "friction_units": "N m for hinge joints, N for slide joints",
+    "calibration": "Numerical stabilization with estimated friction; no measured torque, compliance, backlash, or mass calibration is claimed.",
+    "scope": "Preserves geometry, masses, inertias, existing gravity compensation, and active fixture forces. Adds no holding actuators or position overwrites.",
+    "limitations": [
+      "Flexible hoses and fibers are visual surfaces without cable contact or strain physics.",
+      "Optical focus handwheels are fixed visual geometry; the optical-head slide has physics but no rotary handwheel transmission."
+    ]
+  }
 }
