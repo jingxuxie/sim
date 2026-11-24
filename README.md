@@ -24,6 +24,12 @@ their own simulation; this is not a shared remote desktop or a recorded animatio
 6. **Contact shapes** overlays the actual MuJoCo collision geometry in orange.
    This shows where a robot can make physical contact, including the difference
    between detailed visible surfaces and simplified collision shapes.
+7. **View quality → Photo quality** pauses physics at the current measured pose
+   and progressively traces soft shadows, reflections and light bounce. Drag to
+   orbit; the view responds immediately and refines again after movement stops.
+   Operating an instrument returns to **Interactive** and resumes live controls.
+   Switching the quality selector back releases an automatic photo pause; a
+   pause you requested yourself is preserved.
 
 Existing task recordings show earlier reconstructions. Use the live viewer and
 current rendered stills to inspect the latest models.
@@ -33,6 +39,28 @@ instrument is downloaded (about 6–52 MB including geometry and textures). The 
 imaging load another 20 MB on first use. These files are cached by the browser. Use a current desktop
 Chrome or Edge with WebAssembly and WebGL enabled. Complex optics
 and contacts can run slower than real time; the displayed clock is simulation time.
+
+The ordinary interactive view now uses the same rectangular studio lights,
+environment orientation and floor finish as the Blender stills. Photo quality
+adds multiple light bounces and self-shadowing using the actual current 3D scene.
+It is not a pre-rendered photograph. It requires WebGL 2 floating-point targets
+and is most useful on a desktop GPU; initial preparation and refinement can be
+slow on software graphics. Early samples are noisy; a gentle edge-preserving
+display filter reduces grain as sampling progresses. The last interactive frame
+remains visible during preparation. Initial shader compilation can temporarily
+delay input on some graphics drivers.
+
+Photo quality is capped at 512 samples and approximately 1.5 megapixels to bound
+GPU work. The image continues improving while stationary; refinement can take
+minutes, especially on software graphics. You can orbit or return to Interactive
+at any time. Blender stills retain higher resolution, more light bounces and
+stronger offline denoising, so the two renderers will not produce identical images. Photo quality
+is intended for inspecting a stationary pose; live task operation uses the
+interactive renderer.
+The browser path tracer retains the exported color, roughness and normal maps;
+brushed-metal anisotropy uses an isotropic approximation in this mode.
+
+[Compare the previous 3D view, improved live lighting, and Photo quality](validation/photo1/comparison.jpg).
 
 ## Instruments and tasks
 
@@ -110,7 +138,7 @@ Overview images are 3840×3200; new details are 2560×2160. The live GLBs use th
 
 The transfer source power and dimmer affect microscope images. The dimmer represents a 10–100% relative illumination range; its zero setting is the powered minimum. The coarse ring turns with the clamp released; locking it engages the fine micrometer. Fiber and probe cables follow measured joint motion through visual deformation, without cable contact or strain simulation.
 
-[Delivery audit](validation/contact1.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
+[Delivery audit](validation/photo1.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
 
 ## Implementation
 
@@ -129,6 +157,10 @@ The transfer source power and dimmer affect microscope images. The dimmer repres
   GPU frame submission is bounded, and the preview remains visible until the first
   rendered frame completes. Static still views stop background 3D rendering.
   Full-resolution Blender renders are separate static views, labeled in the UI.
+- Optional `progressive-renderer.js` loads a locally pinned WebGL path tracer only
+  when requested. A dedicated worker builds the ray-intersection acceleration
+  structure. Photo geometry is copied from the measured pose; camera changes
+  reset accumulated samples, and changing instruments releases the photo scene.
 - All runtime dependencies are served from this repository. No CDN, custom response
   headers, cross-origin isolation, or running service is required.
 
@@ -154,6 +186,14 @@ physics, mechanism, cable and browser reports alongside it. The native engine
 also passes 54/54 episodes across seeds 0, 11 and 37, with 18 no-action controls.
 These are fixture benchmark checks on estimated instrument models, not
 physical-lab calibration results.
+
+The rendering update adds [photo-mode browser checks](validation/photo1/rendering.json),
+[pause/cancellation checks](validation/photo1/lifecycle.json),
+[all-seven-instrument tracing checks](validation/photo1/all_models.json), and
+[micrometre-scale ray-intersection regression checks](validation/photo1/intersection.json).
+Physics and instrument assets are unchanged from the contact-manipulation release;
+the current summary verifies their hashes before carrying forward that physics
+evidence. Rendering checks cover the current photo and interactive modes.
 
 ## Develop and publish
 

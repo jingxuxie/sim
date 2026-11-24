@@ -1,0 +1,271 @@
+{
+  "passed": true,
+  "visual_quality_accepted": true,
+  "reviewed_utc": "2026-11-24T20:09:03.601460+00:00",
+  "captures": [
+    {
+      "asset": "transfer",
+      "report": "transfer_capture.json",
+      "sources_match_current_public_files": true,
+      "sources": {
+        "/app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+        "/studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796",
+        "/progressive-renderer.js": "6c022390035c7f6f3992c382102f3c11fd88edc5e6eb76713e5a9218dd9afcc2",
+        "/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85",
+        "/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1"
+      },
+      "views": [
+        {
+          "file": "transfer-overview.png",
+          "samples": 512,
+          "pixel_size": [
+            1245,
+            1020
+          ],
+          "sha256": "81c7da3fc16d15e5e17351ae12781a500c80bd3ef743cc6b337d96f01d3b69ab",
+          "refinement_ms": 150215,
+          "raw_file": "transfer-overview-raw.png",
+          "same_buffer_raw_filtered_samples": 512
+        },
+        {
+          "file": "transfer-detail.png",
+          "samples": 512,
+          "pixel_size": [
+            1245,
+            1020
+          ],
+          "sha256": "a253263c316b6be77a39fa328620f282e135d2363e1699fc3d6f13642bb2c85e",
+          "refinement_ms": 138143,
+          "raw_file": "transfer-detail-raw.png",
+          "same_buffer_raw_filtered_samples": 512
+        }
+      ],
+      "graphics": {
+        "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)",
+        "vendor": "Google Inc. (NVIDIA)"
+      }
+    },
+    {
+      "asset": "probe",
+      "report": "probe_capture.json",
+      "sources_match_current_public_files": true,
+      "sources": {
+        "/app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+        "/studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796",
+        "/progressive-renderer.js": "6c022390035c7f6f3992c382102f3c11fd88edc5e6eb76713e5a9218dd9afcc2",
+        "/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1",
+        "/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85"
+      },
+      "views": [
+        {
+          "file": "probe-overview.png",
+          "samples": 512,
+          "pixel_size": [
+            1245,
+            1020
+          ],
+          "sha256": "4f87743f5e6c572e3e0257065c4cb7c24d5c133fa2e8c2e73af774e4b43ababd",
+          "refinement_ms": 140786,
+          "raw_file": "probe-overview-raw.png",
+          "same_buffer_raw_filtered_samples": 512
+        },
+        {
+          "file": "probe-detail.png",
+          "samples": 512,
+          "pixel_size": [
+            1245,
+            1020
+          ],
+          "sha256": "ebaf100c97d1da63a64b405899ce53952780559c6469a947bad1975fb59c78fa",
+          "refinement_ms": 136774,
+          "raw_file": "probe-detail-raw.png",
+          "same_buffer_raw_filtered_samples": 512
+        }
+      ],
+      "graphics": {
+        "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)",
+        "vendor": "Google Inc. (NVIDIA)"
+      }
+    },
+    {
+      "asset": "nikon",
+      "report": "nikon_capture.json",
+      "sources_match_current_public_files": true,
+      "sources": {
+        "/app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+        "/studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796",
+        "/progressive-renderer.js": "6c022390035c7f6f3992c382102f3c11fd88edc5e6eb76713e5a9218dd9afcc2",
+        "/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85",
+        "/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1"
+      },
+      "views": [
+        {
+          "file": "nikon-overview.png",
+          "samples": 512,
+          "pixel_size": [
+            1245,
+            1020
+          ],
+          "sha256": "c34d7b605fcb23072e1ccdb139ed3aa5dc5220f55438940bebf26fde6102bd0e",
+          "refinement_ms": 142811,
+          "raw_file": "nikon-overview-raw.png",
+          "same_buffer_raw_filtered_samples": 512
+        },
+        {
+          "file": "nikon-detail.png",
+          "samples": 512,
+          "pixel_size": [
+            1245,
+            1020
+          ],
+          "sha256": "e07e2ab3ac731df06b02f984498b962dee694db472161023955cd907d8b66932",
+          "refinement_ms": 146839,
+          "raw_file": "nikon-detail-raw.png",
+          "same_buffer_raw_filtered_samples": 512
+        }
+      ],
+      "graphics": {
+        "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)",
+        "vendor": "Google Inc. (NVIDIA)"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "final-comparison.jpg",
+      "sha256": "c39abc4036d2ae1ff8cbbdf0174582c07371b05756e6be7c7afcf6a5bd149335",
+      "source_crop": [
+        0,
+        165,
+        1245,
+        930
+      ],
+      "sources": [
+        {
+          "asset": "transfer",
+          "view": "overview",
+          "kind": "baseline",
+          "sha256": "5c14b1c6e94ecc21e12c958184ed659bdd33ec47dbdd302bad997053fd313a60"
+        },
+        {
+          "asset": "transfer",
+          "view": "overview",
+          "kind": "final_live",
+          "sha256": "db05866d28278564f1da736878cba5780fd084cf58fb229191015b3308e0934c"
+        },
+        {
+          "asset": "transfer",
+          "view": "overview",
+          "kind": "photo_final",
+          "sha256": "81c7da3fc16d15e5e17351ae12781a500c80bd3ef743cc6b337d96f01d3b69ab"
+        },
+        {
+          "asset": "transfer",
+          "view": "detail",
+          "kind": "baseline",
+          "sha256": "df6621d2c2da25088d9a3c2d43e4e51290c510ad949cc4fe6f8f2d1a58609c22"
+        },
+        {
+          "asset": "transfer",
+          "view": "detail",
+          "kind": "final_live",
+          "sha256": "7c7d43392b99b12220da78148cc999e5e256b1b822b0392397817becd5ab8d5b"
+        },
+        {
+          "asset": "transfer",
+          "view": "detail",
+          "kind": "photo_final",
+          "sha256": "a253263c316b6be77a39fa328620f282e135d2363e1699fc3d6f13642bb2c85e"
+        }
+      ]
+    },
+    {
+      "file": "all-instruments-comparison.jpg",
+      "sha256": "911910297f3e461f42bc4d8b4885a795fcb7a13c717c6b5d2efb64b9341edf41",
+      "source_crop": [
+        0,
+        165,
+        1245,
+        930
+      ],
+      "sources": [
+        {
+          "asset": "transfer",
+          "view": "detail",
+          "kind": "baseline",
+          "sha256": "df6621d2c2da25088d9a3c2d43e4e51290c510ad949cc4fe6f8f2d1a58609c22"
+        },
+        {
+          "asset": "transfer",
+          "view": "detail",
+          "kind": "final_live",
+          "sha256": "7c7d43392b99b12220da78148cc999e5e256b1b822b0392397817becd5ab8d5b"
+        },
+        {
+          "asset": "transfer",
+          "view": "detail",
+          "kind": "photo_final",
+          "sha256": "a253263c316b6be77a39fa328620f282e135d2363e1699fc3d6f13642bb2c85e"
+        },
+        {
+          "asset": "probe",
+          "view": "detail",
+          "kind": "baseline",
+          "sha256": "059c76cfdab233517d8b8e6257790d7c2fa9bf04b8b07cc0d42b3d6a162657bd"
+        },
+        {
+          "asset": "probe",
+          "view": "detail",
+          "kind": "final_live",
+          "sha256": "b91f3c19dff4b878de532b89b5fdea23fd93a0f0183a0fdebdf88abd40c209d2"
+        },
+        {
+          "asset": "probe",
+          "view": "detail",
+          "kind": "photo_final",
+          "sha256": "ebaf100c97d1da63a64b405899ce53952780559c6469a947bad1975fb59c78fa"
+        },
+        {
+          "asset": "nikon",
+          "view": "detail",
+          "kind": "baseline",
+          "sha256": "a9a849576eab009519eeaebbc73083cafde01046969e33fa03160a1a840a6fc5"
+        },
+        {
+          "asset": "nikon",
+          "view": "detail",
+          "kind": "final_live",
+          "sha256": "18a8237b0c68d94927873d4d158e1c58d64be616d0dfaa2f9d2ba317f750f342"
+        },
+        {
+          "asset": "nikon",
+          "view": "detail",
+          "kind": "photo_final",
+          "sha256": "e07e2ab3ac731df06b02f984498b962dee694db472161023955cd907d8b66932"
+        }
+      ]
+    }
+  ],
+  "interactive_sources": {
+    "/app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+    "/studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796"
+  },
+  "previous_interactive_sources": {
+    "app.js": "b8e3ba00846c65ab8da375e4d08ab736495ab404d21addca5bcc0dfa78644a59",
+    "studio-renderer.js": "8999d687b24a7dadb170c316a89dfa67bb6fb524c9b7feb1af847a066d27bc8e"
+  },
+  "comparison_file": "final-comparison.jpg",
+  "comparison_sha256": "c39abc4036d2ae1ff8cbbdf0174582c07371b05756e6be7c7afcf6a5bd149335",
+  "findings": [
+    "Final 512-sample views preserve silver objective barrels, braided fiber reflections, curved black-housing highlights, stage self-reflections, contact shadows, and soft cast shadows.",
+    "Text labels, objective color bands, and micrometer knurling remain readable; the final two-stage denoiser avoids the blocky enlargement seen in the early prototype.",
+    "All six final views use 1245 by 1020 actual ray-traced pixels and 512 samples, with the photographed instrument pose paused. No static Blender still is substituted.",
+    "Raw and filtered captures use the same completed 512-sample radiance buffer. Display contrast is applied equally to both.",
+    "Current live-mode screenshots and all final photo captures match the current published source file fingerprints."
+  ],
+  "limitations": [
+    "Photo quality is progressive and pauses physics; camera motion restarts refinement, and instrument controls return to Interactive.",
+    "The still image remains a separate Blender Cycles render. Browser materials approximate anisotropic finishes, use a finite bounce budget and a simpler denoiser, and retain some fine sampling noise.",
+    "Timing evidence is from an A100 GPU at the recorded viewport and is not a performance guarantee for visitors. The gallery and ordinary interactive mode do not require the path tracer."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)",
+  "runs": [
+    {
+      "variant": "corrected",
+      "name": "A ray offset1\u00b5m away from its source face must not hit behind itself",
+      "hit": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "variant": "corrected",
+      "name": "A ray toward a face1\u00b5m ahead must hit",
+      "hit": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "variant": "corrected",
+      "name": "A ray in a2\u00b5m gap reaches the upper plate1\u00b5m ahead",
+      "hit": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "variant": "corrected",
+      "name": "The same gap ray cannot hit the lower plate behind it",
+      "hit": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "variant": "corrected",
+      "name": "Dimensionless barycentric edge tolerance remains available",
+      "hit": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "variant": "corrected",
+      "name": "A point outside that edge tolerance misses",
+      "hit": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "variant": "original-distance-tolerance",
+      "name": "A ray offset1\u00b5m away from its source face must not hit behind itself",
+      "hit": true,
+      "expected": false,
+      "passed": false
+    },
+    {
+      "variant": "original-distance-tolerance",
+      "name": "A ray toward a face1\u00b5m ahead must hit",
+      "hit": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "variant": "original-distance-tolerance",
+      "name": "A ray in a2\u00b5m gap reaches the upper plate1\u00b5m ahead",
+      "hit": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "variant": "original-distance-tolerance",
+      "name": "The same gap ray cannot hit the lower plate behind it",
+      "hit": true,
+      "expected": false,
+      "passed": false
+    },
+    {
+      "variant": "original-distance-tolerance",
+      "name": "Dimensionless barycentric edge tolerance remains available",
+      "hit": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "variant": "original-distance-tolerance",
+      "name": "A point outside that edge tolerance misses",
+      "hit": false,
+      "expected": false,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "shader_sha256": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1",
+  "checked_utc": "2026-11-24T19:46:20.540Z"
+}

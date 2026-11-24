@@ -1,0 +1,397 @@
+{
+  "asset": "transfer",
+  "goal": 512,
+  "url": "http://127.0.0.1:18787/",
+  "started_utc": "2026-11-24T19:56:05.718Z",
+  "passed": true,
+  "views": [
+    {
+      "file": "transfer-overview.png",
+      "elapsed_ms": 150215,
+      "quality": {
+        "mode": "photo",
+        "generation": 3,
+        "ready": true,
+        "samples": 512,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 132,
+          "triangles": 1042586,
+          "uvRemaps": 6,
+          "mixedUVMaterials": 0,
+          "prepareMs": 5037,
+          "width": 1245,
+          "height": 1020,
+          "samples": 512,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      },
+      "state": {
+        "q": {
+          "scope_focus_travel": -6.040024604108072e-08,
+          "light_path_travel": 0.012,
+          "objective_angle": 5.256744266326226e-22,
+          "sample_x_travel": 4.604485436646367e-17,
+          "sample_y_travel": -3.142369040343828e-17,
+          "sample_fine_angle": -2.1411049161698743e-14,
+          "rotation_lock_angle": 9.912641605209084e-22,
+          "sample_theta_angle": 7.108967866690568e-12,
+          "rotation_fine_spindle_travel": -2.1733308572613475e-15,
+          "rotation_fine_knob_angle": 9.09633166801823e-13,
+          "sample_y_spindle_travel": 2.0459735174311755e-17,
+          "sample_y_angle": -2.571415758222863e-13,
+          "sample_x_spindle_travel": -3.389885101959844e-17,
+          "sample_x_angle": 4.2602925414177034e-13,
+          "stamp_x_travel": 4.2367631290805475e-26,
+          "stamp_y_travel": -2.7344714615569705e-33,
+          "stamp_z_travel": 2.5409681171363737e-11,
+          "stamp_tilt_angle": -1.1334726829801984e-05,
+          "goniometer_spindle_travel": -1.2486696577729302e-06,
+          "goniometer_knob_angle": -0.004938783992508496,
+          "stamp_z_spindle_travel": -4.0520025311266894e-09,
+          "stamp_z_angle": 3.2014093448271704e-07,
+          "stamp_y_spindle_travel": 3.4624440665290265e-33,
+          "stamp_y_angle": -4.346751198630684e-29,
+          "stamp_x_spindle_travel": 4.2340856867757427e-26,
+          "stamp_x_angle": 8.790288763556686e-22,
+          "illumination_angle": 4.712388980384235,
+          "illumination_power_angle": 0.35
+        },
+        "paused": true
+      },
+      "checkpoints": [
+        {
+          "target": 128,
+          "file": "transfer-overview-spp128.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 3,
+            "ready": true,
+            "samples": 131.3125,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 132,
+              "triangles": 1042586,
+              "uvRemaps": 6,
+              "mixedUVMaterials": 0,
+              "prepareMs": 5037,
+              "width": 1245,
+              "height": 1020,
+              "samples": 131.3125,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "elapsed_ms": 42569,
+          "sha256": "88050fbe6b1f8c4afe8e07f33b126f5b1dea949d436bb66887e3978d0cf17e29"
+        },
+        {
+          "target": 256,
+          "file": "transfer-overview-spp256.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 3,
+            "ready": true,
+            "samples": 257.125,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 132,
+              "triangles": 1042586,
+              "uvRemaps": 6,
+              "mixedUVMaterials": 0,
+              "prepareMs": 5037,
+              "width": 1245,
+              "height": 1020,
+              "samples": 257.125,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "elapsed_ms": 78073,
+          "sha256": "b183ed31c4a8f9194de6a63b504583ce28b2fba199fc3b1fe9ebc4f7e3dcfa32"
+        },
+        {
+          "target": 512,
+          "file": "transfer-overview-spp512.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 3,
+            "ready": true,
+            "samples": 512,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 132,
+              "triangles": 1042586,
+              "uvRemaps": 6,
+              "mixedUVMaterials": 0,
+              "prepareMs": 5037,
+              "width": 1245,
+              "height": 1020,
+              "samples": 512,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "elapsed_ms": 149726,
+          "sha256": "81c7da3fc16d15e5e17351ae12781a500c80bd3ef743cc6b337d96f01d3b69ab"
+        }
+      ],
+      "sha256": "81c7da3fc16d15e5e17351ae12781a500c80bd3ef743cc6b337d96f01d3b69ab",
+      "raw": {
+        "file": "transfer-overview-raw.png",
+        "quality": {
+          "mode": "photo",
+          "generation": 3,
+          "ready": true,
+          "samples": 512,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 132,
+            "triangles": 1042586,
+            "uvRemaps": 6,
+            "mixedUVMaterials": 0,
+            "prepareMs": 5037,
+            "width": 1245,
+            "height": 1020,
+            "samples": 512,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        },
+        "sha256": "d1c162fff9192e20a64e694bd62ed34faa9b458987d819fdebec03193669693e"
+      }
+    },
+    {
+      "file": "transfer-detail.png",
+      "elapsed_ms": 138143,
+      "quality": {
+        "mode": "photo",
+        "generation": 4,
+        "ready": true,
+        "samples": 512,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 132,
+          "triangles": 1042586,
+          "uvRemaps": 6,
+          "mixedUVMaterials": 0,
+          "prepareMs": 5037,
+          "width": 1245,
+          "height": 1020,
+          "samples": 512,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      },
+      "state": {
+        "q": {
+          "scope_focus_travel": -6.040024604108072e-08,
+          "light_path_travel": 0.012,
+          "objective_angle": 5.256744266326226e-22,
+          "sample_x_travel": 4.604485436646367e-17,
+          "sample_y_travel": -3.142369040343828e-17,
+          "sample_fine_angle": -2.1411049161698743e-14,
+          "rotation_lock_angle": 9.912641605209084e-22,
+          "sample_theta_angle": 7.108967866690568e-12,
+          "rotation_fine_spindle_travel": -2.1733308572613475e-15,
+          "rotation_fine_knob_angle": 9.09633166801823e-13,
+          "sample_y_spindle_travel": 2.0459735174311755e-17,
+          "sample_y_angle": -2.571415758222863e-13,
+          "sample_x_spindle_travel": -3.389885101959844e-17,
+          "sample_x_angle": 4.2602925414177034e-13,
+          "stamp_x_travel": 4.2367631290805475e-26,
+          "stamp_y_travel": -2.7344714615569705e-33,
+          "stamp_z_travel": 2.5409681171363737e-11,
+          "stamp_tilt_angle": -1.1334726829801984e-05,
+          "goniometer_spindle_travel": -1.2486696577729302e-06,
+          "goniometer_knob_angle": -0.004938783992508496,
+          "stamp_z_spindle_travel": -4.0520025311266894e-09,
+          "stamp_z_angle": 3.2014093448271704e-07,
+          "stamp_y_spindle_travel": 3.4624440665290265e-33,
+          "stamp_y_angle": -4.346751198630684e-29,
+          "stamp_x_spindle_travel": 4.2340856867757427e-26,
+          "stamp_x_angle": 8.790288763556686e-22,
+          "illumination_angle": 4.712388980384235,
+          "illumination_power_angle": 0.35
+        },
+        "paused": true
+      },
+      "checkpoints": [
+        {
+          "target": 128,
+          "file": "transfer-detail-spp128.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 4,
+            "ready": true,
+            "samples": 130.6875,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 132,
+              "triangles": 1042586,
+              "uvRemaps": 6,
+              "mixedUVMaterials": 0,
+              "prepareMs": 5037,
+              "width": 1245,
+              "height": 1020,
+              "samples": 130.6875,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "elapsed_ms": 34521,
+          "sha256": "365482e6c1a4bf532d340fda00cbfdcdaee7436bda4fff02f9e013aebc2cebf2"
+        },
+        {
+          "target": 256,
+          "file": "transfer-detail-spp256.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 4,
+            "ready": true,
+            "samples": 259.3125,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 132,
+              "triangles": 1042586,
+              "uvRemaps": 6,
+              "mixedUVMaterials": 0,
+              "prepareMs": 5037,
+              "width": 1245,
+              "height": 1020,
+              "samples": 259.3125,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "elapsed_ms": 69046,
+          "sha256": "13d79c4399494401a4159a1a8dc110a65736eab3b75e108b4c311e588f060d49"
+        },
+        {
+          "target": 512,
+          "file": "transfer-detail-spp512.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 4,
+            "ready": true,
+            "samples": 512,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 132,
+              "triangles": 1042586,
+              "uvRemaps": 6,
+              "mixedUVMaterials": 0,
+              "prepareMs": 5037,
+              "width": 1245,
+              "height": 1020,
+              "samples": 512,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "elapsed_ms": 137667,
+          "sha256": "a253263c316b6be77a39fa328620f282e135d2363e1699fc3d6f13642bb2c85e"
+        }
+      ],
+      "sha256": "a253263c316b6be77a39fa328620f282e135d2363e1699fc3d6f13642bb2c85e",
+      "raw": {
+        "file": "transfer-detail-raw.png",
+        "quality": {
+          "mode": "photo",
+          "generation": 4,
+          "ready": true,
+          "samples": 512,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 132,
+            "triangles": 1042586,
+            "uvRemaps": 6,
+            "mixedUVMaterials": 0,
+            "prepareMs": 5037,
+            "width": 1245,
+            "height": 1020,
+            "samples": 512,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        },
+        "sha256": "c779f6687412c27627cf26a49393f92fbed9872e344224d198bf56f12b4bfd8e"
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "sources": {
+    "/app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+    "/studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796",
+    "/progressive-renderer.js": "6c022390035c7f6f3992c382102f3c11fd88edc5e6eb76713e5a9218dd9afcc2",
+    "/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85",
+    "/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1"
+  },
+  "graphics": {
+    "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "checked_utc": "2026-11-24T20:01:03.320Z"
+}

@@ -1,0 +1,2830 @@
+{
+  "revision": "photo1",
+  "schema_version": 1,
+  "checked_utc": "2026-11-24T19:55:02.856869+00:00",
+  "scope": "Six revised instruments and the unchanged Nikon visual baseline; current native/browser physics, portable PBR data, flexible detail metadata and still-image provenance.",
+  "checks": [
+    {
+      "name": "static_gallery_and_embedded_catalog",
+      "passed": true,
+      "embedded_catalog_matches": true,
+      "static_cards_match": true,
+      "instrument_cards": 7,
+      "index_sha256": "bf4a453e04afe7407e50e9bb1fabf6717196022ea7e4076318b7071e27199881"
+    },
+    {
+      "name": "shared_python_sources",
+      "passed": true,
+      "files": [
+        {
+          "file": "python/tasks.py",
+          "sha256": "a59eb817e9963cde7bdad3ec41069ab3eb8b40155ba8f2cae4c3d5ef4df22993"
+        },
+        {
+          "file": "python/imaging.py",
+          "sha256": "a2d5c1addbfc340c7f11641658b7cad93038fdd2bbd80cffd5a3d0fbb1516b34"
+        },
+        {
+          "file": "python/optics.py",
+          "sha256": "d2db3d8195f7e5e540e364e7d87cb76bcb26bdafb53d14903c21452aa06151c0"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "nikon",
+      "checks": [
+        {
+          "name": "portable_exports",
+          "passed": true,
+          "public_glb_matches_native": true,
+          "metadata_matches_native": true,
+          "nikon_visual_baseline_unchanged": true,
+          "additional_render_views": 2,
+          "metadata_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+        },
+        {
+          "name": "native_browser_physics",
+          "passed": true,
+          "structurally_equivalent": true,
+          "equivalence": "Current native XML after removing only visual-class geoms, mesh declarations and compiler.meshdir",
+          "expected_tweezer_fixture": false,
+          "normalized_structure_sha256": "6e7da7d6ff0001cc652dafd09b1409a606d258963856646f2c4a559247bb500c",
+          "joints": 9,
+          "bodies": 10,
+          "contact_geometries": 59,
+          "explicit_inertias": 9,
+          "sites": 22,
+          "equalities": 2
+        },
+        {
+          "name": "compiled_contact_overlay",
+          "passed": true,
+          "shapes": 59,
+          "bodies": 10,
+          "physics_sha256": "b5b8c9e5dbd3f9077bfc8726e94828b7723b6eb5b18480f5d3029d379e76c4ee"
+        },
+        {
+          "name": "material_maps_and_uvs",
+          "passed": true,
+          "embedded_images": 32,
+          "finished_material_variants": 20,
+          "checked_uv_bindings": 165,
+          "primitives": 71,
+          "maps_match_authored_pixels": true,
+          "finite_geometry_and_bound_uvs": true,
+          "repeat_samplers": true,
+          "materials": [
+            {
+              "name": "charcoal",
+              "family": "black_coating",
+              "metadata_sha256": "3d6b3cf6cb6d5bfd5a190f137294ddf6fd4fb5d46209dd203e27be5ed56a74de",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "edge",
+              "family": "enamel",
+              "metadata_sha256": "e08b9ed3ccd767517871a73b5618b938c4d9aa4f3a5dd18e67b38b348dc4b05c",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "gun",
+              "family": "anodized",
+              "metadata_sha256": "dfaaa88b1c59223a198469f888aa35b26a0617105cf6eb2a1f6bd2c125efbfb8",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "rubber",
+              "family": "rubber",
+              "metadata_sha256": "b6e1f6ece212b361f1a6f1628c3cdb0b521e4d534fe486a4dedbeb91d2f445f7",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "black",
+              "family": "black_coating",
+              "metadata_sha256": "f49efdef97fa08d0ecd13b43792058b494a48720b333ec6cde645ff1704052f3",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "metal",
+              "family": "machined",
+              "metadata_sha256": "3c355c58f34702ff3956bbd8075b2579e315d188dce855129a4fbfb9491bf79e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "brass",
+              "family": "machined",
+              "metadata_sha256": "d325e3bc09b7572fcc68ca0acc7c1fd3fed1b0b51ec83339bf763f199039a07b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bright",
+              "family": "polished",
+              "metadata_sha256": "1317bcf3bbb6c2f1fd462b733b8f091b706456cdc4ee7617f4d8fd938ce5fe9e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "sleeve",
+              "family": "rubber",
+              "metadata_sha256": "647beac7076844d030f9110a74740f640ae8a450adbbea1c9523b8f1fe8689dc",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "wire",
+              "family": "rubber",
+              "metadata_sha256": "285ee6ab7b3d9aca4ce6e34ae4d3f977cc66c6ad623535ff74b28e75aa862209",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "blue",
+              "family": "anodized",
+              "metadata_sha256": "01ff0a0ea37d3952087de5e6c9daaefbdef7d655c41690144acf4dfa6c004595",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "green",
+              "family": "satin_paint",
+              "metadata_sha256": "e51d441c82dc1927ca8e1e8c071a4571ec672845274d2ea97ad26e37ad7a0fae",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "red",
+              "family": "satin_paint",
+              "metadata_sha256": "f50acb783a71a7f634bda30f03efecc6ca57b22bb689187dd6b07822513c6d68",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "yellow",
+              "family": "satin_paint",
+              "metadata_sha256": "e38ba4d3e7e8f4f011a9f33f7917e761f32c0bdc3ada098871f336f67f775c01",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bluecam",
+              "family": "anodized",
+              "metadata_sha256": "b4d58bba47eb76fae01941c2823bc2ae39bc30dfeaf49297ee4e89829c23560d",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "cream",
+              "family": "enamel",
+              "metadata_sha256": "0174696e889918ed9a3ce4a6a5982a9dcbf7e06d59152fa4cc3e688d65150a11",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "enamel",
+              "family": "enamel",
+              "metadata_sha256": "007cab9191d63c780cad71fd9c168990594948ecfe1fdb8bb5c6a4bbd2f465ed",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "red",
+              "family": "satin_paint",
+              "metadata_sha256": "f50acb783a71a7f634bda30f03efecc6ca57b22bb689187dd6b07822513c6d68",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "violet",
+              "family": "satin_paint",
+              "metadata_sha256": "9e8d595c4d17573f6ebe987beb3f664e7d9da45d3fbebaf9eeb1d57d2ffb6816",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "wire",
+              "family": "rubber",
+              "metadata_sha256": "285ee6ab7b3d9aca4ce6e34ae4d3f977cc66c6ad623535ff74b28e75aa862209",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "morph_free_flexible_details",
+          "passed": true,
+          "morph_free": true,
+          "flexible_meshes": 0,
+          "details": [],
+          "model": "Joint-driven visual deformation; no cable contact or strain dynamics"
+        },
+        {
+          "name": "preview_provenance",
+          "passed": true,
+          "source_scene_sha256": "659bfb458fe729b613298881879083e9cdc35092216a8957cb6087de586f0fb7",
+          "reports": [
+            {
+              "file": "validation/realism3_promoted.json",
+              "sha256": "d8f8dcc5254900790d1ef50fce652c806bc8c6c0815d8d15913a00671629a3fd"
+            }
+          ],
+          "renders": [
+            {
+              "file": "lab_view.png",
+              "camera": "01 | Lab side",
+              "resolution": [
+                3840,
+                3200
+              ],
+              "samples": 256,
+              "sha256": "863cd4b89bea7386e71aea3c2844fd9ad24c830fb279d92111d289dcbb8c8a5e",
+              "public_png_sha256": "ebfbf11c10607e8f367cd50f33a92c3dfcdaadfd4561785241fd133a75650eee",
+              "source_report": "validation/realism3_promoted.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "operator_view.png",
+              "camera": "02 | Operator view",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "0f7428c902afff774e18e17f1db76c02c5acd56dce83505fb1f443e83f65c486",
+              "public_png_sha256": "8bbfe5aa6f38aaa2fc6207034af646e7bde7b58549344ea42321de1427c6a654",
+              "source_report": "validation/realism3_promoted.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "controls.png",
+              "camera": "03 | Mechanics",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "8bd18a7e1542c533df7aca11156eb8c161f8bad8d7c9978454b55950d2a23816",
+              "public_png_sha256": "7da4667d94ae0d4af925c63426ab9a214986be31046eaf253e2ffc5b69acac84",
+              "source_report": "validation/realism3_promoted.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "optical_head.png",
+              "camera": "04 | Optical head",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "8df7e26c7b87531425d1be8435708d18ae01976a2b3a9053e963b28e24980ef9",
+              "public_png_sha256": "73d7c2a76b4da43d3a4a25d98399cff1a9a80a9c16c8fc50e616e9666337b7a8",
+              "source_report": "validation/realism3_promoted.json",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "delivered_pngs": [
+            {
+              "file": "assets/nikon/detail.png",
+              "sha256": "7da4667d94ae0d4af925c63426ab9a214986be31046eaf253e2ffc5b69acac84",
+              "source_preview": "controls.png",
+              "source_sha256": "8bd18a7e1542c533df7aca11156eb8c161f8bad8d7c9978454b55950d2a23816"
+            },
+            {
+              "file": "assets/nikon/operator_view.png",
+              "sha256": "8bbfe5aa6f38aaa2fc6207034af646e7bde7b58549344ea42321de1427c6a654",
+              "source_preview": "operator_view.png",
+              "source_sha256": "0f7428c902afff774e18e17f1db76c02c5acd56dce83505fb1f443e83f65c486"
+            },
+            {
+              "file": "assets/nikon/optical_head.png",
+              "sha256": "73d7c2a76b4da43d3a4a25d98399cff1a9a80a9c16c8fc50e616e9666337b7a8",
+              "source_preview": "optical_head.png",
+              "source_sha256": "8df7e26c7b87531425d1be8435708d18ae01976a2b3a9053e963b28e24980ef9"
+            },
+            {
+              "file": "assets/nikon/render.png",
+              "sha256": "ebfbf11c10607e8f367cd50f33a92c3dfcdaadfd4561785241fd133a75650eee",
+              "source_preview": "lab_view.png",
+              "source_sha256": "863cd4b89bea7386e71aea3c2844fd9ad24c830fb279d92111d289dcbb8c8a5e"
+            }
+          ],
+          "png_delivery_transform": "Remove tEXt, zTXt and iTXt chunks; preserve all other PNG chunks byte-for-byte, including IDAT and color metadata.",
+          "thumbnail": {
+            "source_png_sha256": "863cd4b89bea7386e71aea3c2844fd9ad24c830fb279d92111d289dcbb8c8a5e",
+            "sha256": "9d0687286b653ef97fda969a2cc466bc889d6e32a42b8a2a8c1aac1bd0e5d0ba",
+            "dimensions": [
+              1200,
+              1000
+            ],
+            "recipe": {
+              "maximum_size": [
+                1200,
+                1000
+              ],
+              "resampling": "LANCZOS",
+              "jpeg_quality": 92,
+              "optimize": true
+            },
+            "decoded_pixels_match_recipe": true
+          },
+          "all_delivered_pngs_match_current_sources": true
+        }
+      ],
+      "scene_sha256": "659bfb458fe729b613298881879083e9cdc35092216a8957cb6087de586f0fb7",
+      "glb_sha256": "7f4db3fc874352a0eacabb75ec96c8acdf99cded3edbdcc2b3fae7bf59e81b0c",
+      "glb_bytes": 30841116,
+      "native_physics_sha256": "592d5d14dfaac2aaa5d5ee850522b86e6ce4d5fa04001ef674ed99ea2c1899b3",
+      "browser_physics_sha256": "b5b8c9e5dbd3f9077bfc8726e94828b7723b6eb5b18480f5d3029d379e76c4ee",
+      "glb": "assets/nikon/model.glb",
+      "passed": true
+    },
+    {
+      "id": "transfer",
+      "checks": [
+        {
+          "name": "portable_exports",
+          "passed": true,
+          "public_glb_matches_native": true,
+          "metadata_matches_native": true,
+          "nikon_visual_baseline_unchanged": false,
+          "additional_render_views": 4,
+          "metadata_sha256": "b5bb479a2af76343befe8685467029df70f62d757191eef3d17a2938562ccbe4"
+        },
+        {
+          "name": "native_browser_physics",
+          "passed": true,
+          "structurally_equivalent": true,
+          "equivalence": "Current native XML after removing only visual-class geoms, mesh declarations and compiler.meshdir",
+          "expected_tweezer_fixture": false,
+          "normalized_structure_sha256": "de8bfb47be4cb4d333f58b563bf1a8ef2007a0d7d47d9f121b1bf132959ca62b",
+          "joints": 28,
+          "bodies": 29,
+          "contact_geometries": 55,
+          "explicit_inertias": 28,
+          "sites": 32,
+          "equalities": 16
+        },
+        {
+          "name": "compiled_contact_overlay",
+          "passed": true,
+          "shapes": 55,
+          "bodies": 21,
+          "physics_sha256": "0fbd5245e5a9725ea5fba0de9bec5cfb97900c20b6f5186d99f99d69476aceb2"
+        },
+        {
+          "name": "material_maps_and_uvs",
+          "passed": true,
+          "embedded_images": 36,
+          "finished_material_variants": 25,
+          "checked_uv_bindings": 309,
+          "primitives": 131,
+          "maps_match_authored_pixels": true,
+          "finite_geometry_and_bound_uvs": true,
+          "repeat_samplers": true,
+          "materials": [
+            {
+              "name": "alloy",
+              "family": "brushed",
+              "metadata_sha256": "e68ca4a234ea12c5120a35793d1baa867e5709844fd412bbeb17a879f12e4969",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "black",
+              "family": "black_coating",
+              "metadata_sha256": "a409a097893984793ebd209e19148bfeba9f69585000aedfa99211fcfa632c2a",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bluepaint",
+              "family": "satin_paint",
+              "metadata_sha256": "18dbc4101306a7736c79e93fe903111a5d42f1d23eb04ab5bd3df44c9fed6cd6",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bronze",
+              "family": "machined",
+              "metadata_sha256": "45219b3b07e707b3a6cbeacc92de44b953e9759e44192136b1771e3f40a55370",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "brushed",
+              "family": "brushed",
+              "metadata_sha256": "5c9814104e01a59deaa9a34891777760079f3e4ffefb76ba177d3a2ec17b76ce",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "darkmetal",
+              "family": "anodized",
+              "metadata_sha256": "0ade7ef58163693c8231855ed2f98cdc476b61444c465524d918f883b89c5f6b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "graphite",
+              "family": "black_coating",
+              "metadata_sha256": "450e9babda6102d92540719edde2a02003316f9f22927f98107030f5647f1692",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "ivory",
+              "family": "enamel",
+              "metadata_sha256": "f182d1ac8e45d7a1f5c7d861c814cc1386fdf2c5501f8da56ef2840a32446075",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "red",
+              "family": "satin_paint",
+              "metadata_sha256": "5bcdee5ad3e9e79a75f09d628e5c1fef9c87043725aa5df3024b978f88f72f7e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "rubber",
+              "family": "rubber",
+              "metadata_sha256": "4b362e0f4fd2a7bc3498ad313bb17e5c8a920a1bc9065b2bd3eca6ab0fa8d059",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "steel",
+              "family": "machined",
+              "metadata_sha256": "eb309b27bc5ee50eeaca3375eaec1c2fdce35c10d9fc020e7fcc33adbb920224",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "wire",
+              "family": "rubber",
+              "metadata_sha256": "7006c35bd45d8f80e317271773dfb744c3f3b4137b591f99c4bb977cea03acb6",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "yellow",
+              "family": "satin_paint",
+              "metadata_sha256": "56e4e35ff28d45d6967237f1fb8f596cde6aee0337d897c918492dd26a3b5542",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "wire",
+              "family": "rubber",
+              "metadata_sha256": "7006c35bd45d8f80e317271773dfb744c3f3b4137b591f99c4bb977cea03acb6",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "cyan",
+              "family": "anodized",
+              "metadata_sha256": "38de13cfbaeb2a42f48d49224f7369e51917f79f09174c893a945f21cf921fb4",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "gold",
+              "family": "machined",
+              "metadata_sha256": "01327853c0bf5e1bc457accfa919baf5319e7344a1bba529a08b108f96c6ac1f",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "steel",
+              "family": "machined",
+              "metadata_sha256": "eb309b27bc5ee50eeaca3375eaec1c2fdce35c10d9fc020e7fcc33adbb920224",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "violet",
+              "family": "satin_paint",
+              "metadata_sha256": "752b8f2c3e5d0214c1d5a40fda95046948f5cb595099eaf6429e151d89ea1a74",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "etched",
+              "family": "brushed",
+              "metadata_sha256": "d6875bbdd53aa5ce51aae9ee72e0fd876e2064c295045da44230747ea537f08c",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "blue",
+              "family": "anodized",
+              "metadata_sha256": "0642a4c70e9234c5021bbbe16b0025ff6bd3cd5e0f420ba5b6b387aad4a3c496",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "green",
+              "family": "satin_paint",
+              "metadata_sha256": "34259f561c73020d151a11d9d72329ee353a9d1cc2719d0fa43dc0b7336cac56",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "red",
+              "family": "satin_paint",
+              "metadata_sha256": "5bcdee5ad3e9e79a75f09d628e5c1fef9c87043725aa5df3024b978f88f72f7e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "ceramic",
+              "family": "ceramic",
+              "metadata_sha256": "a2dc6c5b815aed3fb27a1c7886f4f78a4f476ba38ca493e95dd143354b479e9b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bronze",
+              "family": "machined",
+              "metadata_sha256": "45219b3b07e707b3a6cbeacc92de44b953e9759e44192136b1771e3f40a55370",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "violet",
+              "family": "satin_paint",
+              "metadata_sha256": "752b8f2c3e5d0214c1d5a40fda95046948f5cb595099eaf6429e151d89ea1a74",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "morph_free_flexible_details",
+          "passed": true,
+          "morph_free": true,
+          "flexible_meshes": 4,
+          "details": [
+            {
+              "name": "Connected flexible fiber sheath",
+              "joints": [
+                "scope_focus_travel"
+              ],
+              "path_points": 74,
+              "rest_path_length_m": 0.9310323591746924,
+              "weight_window": [
+                0.08,
+                0.92
+              ],
+              "rotation_joints": [],
+              "vertices": 74624
+            },
+            {
+              "name": "Routed flexible camera cable",
+              "joints": [
+                "scope_focus_travel"
+              ],
+              "path_points": 69,
+              "rest_path_length_m": 0.866051360525498,
+              "weight_window": [
+                0.08,
+                0.92
+              ],
+              "rotation_joints": [],
+              "vertices": 69370
+            },
+            {
+              "name": "Routed heater electrical lead",
+              "joints": [
+                "sample_x_travel",
+                "sample_y_travel"
+              ],
+              "path_points": 588,
+              "rest_path_length_m": 0.5866553529106159,
+              "weight_window": [
+                0.3920196024450824,
+                0.6749554894271853
+              ],
+              "rotation_joints": [
+                "sample_theta_angle",
+                "sample_fine_angle"
+              ],
+              "vertices": 37387
+            },
+            {
+              "name": "Routed workholder vacuum hose",
+              "joints": [
+                "sample_x_travel",
+                "sample_y_travel"
+              ],
+              "path_points": 767,
+              "rest_path_length_m": 0.765844582678103,
+              "weight_window": [
+                0.5966957509243791,
+                0.7442375886802978
+              ],
+              "rotation_joints": [
+                "sample_theta_angle",
+                "sample_fine_angle"
+              ],
+              "vertices": 49056
+            }
+          ],
+          "model": "Joint-driven visual deformation; no cable contact or strain dynamics"
+        },
+        {
+          "name": "preview_provenance",
+          "passed": true,
+          "source_scene_sha256": "919ebcdf7bd17e5657d49acf9d61d5a244d14e5df6ebdfba63d63e69b3ff8e0e",
+          "reports": [
+            {
+              "file": "001_transfer_stage/previews/render_report.json",
+              "sha256": "4b9fcf3bb544bfec23218ec37ba3b84386b65547f45881f86f6aa5e2d82b5116",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "validation/contact1_transfer_render/main/render_report.json",
+              "sha256": "fc5781bfbed753789b75deec17161f4fae33c597565f7d85965d4687ebbdad4b",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "validation/contact1_transfer_render/details/render_report.json",
+              "sha256": "c5bfe76bdf85632057489545549a42f35c4abd1642baa3acac007b6593000bc1",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "renders": [
+            {
+              "file": "overview.png",
+              "camera": "overview",
+              "resolution": [
+                3840,
+                3200
+              ],
+              "samples": 256,
+              "sha256": "63f98b73328f99821262c954d47ecad71a9710b3f7cfdf041a5b8b71043673d4",
+              "public_png_sha256": "5c6c138f7816f7e81bf1f50c501d6078ea73bbbd4578e80d6da5b016bbd65db3",
+              "source_report": "validation/contact1_transfer_render/main/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "mechanisms.png",
+              "camera": "mechanisms",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "71c8a5cdf2c81e5915ca84bf5b02bd5a8e4be9e32b90c7e905d41d9dfc5fc0b5",
+              "public_png_sha256": "88ff7e413e9af158608cc7266dcf6cb1aaa486e8768432f9b1b66c9bcf94e416",
+              "source_report": "validation/contact1_transfer_render/main/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "rotation_detail.png",
+              "camera": "rotation_detail",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "b91a2a2014e6848774f91ad297662bf61b3bf6cc1aea361ae9b5cb0a4c236093",
+              "public_png_sha256": "76b00cba7f927cecccc664eadaf049f94c47ca3e7e46151cffc7c2a957adc56e",
+              "source_report": "validation/contact1_transfer_render/main/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "illumination.png",
+              "camera": "illumination",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "4aae6f2e73b52d5adf5346b7146d57fc67b3c63f355eef1ff7eb63a4993b3360",
+              "public_png_sha256": "311121a268b9892cf02e7410c4cbe6044ef01179997e43ad8da7c69acb94d7d7",
+              "source_report": "validation/contact1_transfer_render/details/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "stamp_stage.png",
+              "camera": "stamp_stage",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "cf73e55caac5393fccb677b691d978b24505353e5072741be4927475d5582750",
+              "public_png_sha256": "c48e870bcd7bd103b0f565662c02adfbb02539a964190477e569c044d22a6d1b",
+              "source_report": "validation/contact1_transfer_render/details/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "optical_head.png",
+              "camera": "optical_head",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "a7d7dd72db9adbb69506748ef2beb6a49691f1b615405c068d03da8db4f65270",
+              "public_png_sha256": "97efbcbbff83e6f2129d3ff77cac6540d2968a48141ddc8df599ebcf1f113ba9",
+              "source_report": "validation/contact1_transfer_render/details/render_report.json",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "delivered_pngs": [
+            {
+              "file": "assets/transfer/detail.png",
+              "sha256": "88ff7e413e9af158608cc7266dcf6cb1aaa486e8768432f9b1b66c9bcf94e416",
+              "source_preview": "mechanisms.png",
+              "source_sha256": "71c8a5cdf2c81e5915ca84bf5b02bd5a8e4be9e32b90c7e905d41d9dfc5fc0b5"
+            },
+            {
+              "file": "assets/transfer/illumination.png",
+              "sha256": "311121a268b9892cf02e7410c4cbe6044ef01179997e43ad8da7c69acb94d7d7",
+              "source_preview": "illumination.png",
+              "source_sha256": "4aae6f2e73b52d5adf5346b7146d57fc67b3c63f355eef1ff7eb63a4993b3360"
+            },
+            {
+              "file": "assets/transfer/optical_head.png",
+              "sha256": "97efbcbbff83e6f2129d3ff77cac6540d2968a48141ddc8df599ebcf1f113ba9",
+              "source_preview": "optical_head.png",
+              "source_sha256": "a7d7dd72db9adbb69506748ef2beb6a49691f1b615405c068d03da8db4f65270"
+            },
+            {
+              "file": "assets/transfer/render.png",
+              "sha256": "5c6c138f7816f7e81bf1f50c501d6078ea73bbbd4578e80d6da5b016bbd65db3",
+              "source_preview": "overview.png",
+              "source_sha256": "63f98b73328f99821262c954d47ecad71a9710b3f7cfdf041a5b8b71043673d4"
+            },
+            {
+              "file": "assets/transfer/rotation_detail.png",
+              "sha256": "76b00cba7f927cecccc664eadaf049f94c47ca3e7e46151cffc7c2a957adc56e",
+              "source_preview": "rotation_detail.png",
+              "source_sha256": "b91a2a2014e6848774f91ad297662bf61b3bf6cc1aea361ae9b5cb0a4c236093"
+            },
+            {
+              "file": "assets/transfer/stamp_stage.png",
+              "sha256": "c48e870bcd7bd103b0f565662c02adfbb02539a964190477e569c044d22a6d1b",
+              "source_preview": "stamp_stage.png",
+              "source_sha256": "cf73e55caac5393fccb677b691d978b24505353e5072741be4927475d5582750"
+            }
+          ],
+          "png_delivery_transform": "Remove tEXt, zTXt and iTXt chunks; preserve all other PNG chunks byte-for-byte, including IDAT and color metadata.",
+          "thumbnail": {
+            "source_png_sha256": "63f98b73328f99821262c954d47ecad71a9710b3f7cfdf041a5b8b71043673d4",
+            "sha256": "cfc482ebeeb9fddffb0fa176dd653f0c514d74bc73aa45038e7fec9a2d5ad2a2",
+            "dimensions": [
+              1200,
+              1000
+            ],
+            "recipe": {
+              "maximum_size": [
+                1200,
+                1000
+              ],
+              "resampling": "LANCZOS",
+              "jpeg_quality": 92,
+              "optimize": true
+            },
+            "decoded_pixels_match_recipe": true
+          },
+          "all_delivered_pngs_match_current_sources": true
+        }
+      ],
+      "scene_sha256": "919ebcdf7bd17e5657d49acf9d61d5a244d14e5df6ebdfba63d63e69b3ff8e0e",
+      "glb_sha256": "cd1f987acec2eed6516bd0c82f82cda8ff6e1498b30a56a2e4d1adabb55075b7",
+      "glb_bytes": 55445916,
+      "native_physics_sha256": "3804e84b6a92e1fdf93d15f7e1c8c90d01597adc2629ed09263e4ad4f878ae03",
+      "browser_physics_sha256": "0fbd5245e5a9725ea5fba0de9bec5cfb97900c20b6f5186d99f99d69476aceb2",
+      "glb": "assets/transfer/model.glb",
+      "passed": true
+    },
+    {
+      "id": "probe",
+      "checks": [
+        {
+          "name": "portable_exports",
+          "passed": true,
+          "public_glb_matches_native": true,
+          "metadata_matches_native": true,
+          "nikon_visual_baseline_unchanged": false,
+          "additional_render_views": 2,
+          "metadata_sha256": "d0e103933bbfd16564623dfac180f2f6971678dc6cd0bf402760f132ee372821"
+        },
+        {
+          "name": "native_browser_physics",
+          "passed": true,
+          "structurally_equivalent": true,
+          "equivalence": "Current native XML after removing only visual-class geoms, mesh declarations and compiler.meshdir",
+          "expected_tweezer_fixture": false,
+          "normalized_structure_sha256": "a458bf5bc5c5e5c11296a35125dc0571466fb4d2592f72dab48b104e29b763a5",
+          "joints": 19,
+          "bodies": 20,
+          "contact_geometries": 47,
+          "explicit_inertias": 19,
+          "sites": 19,
+          "equalities": 8
+        },
+        {
+          "name": "compiled_contact_overlay",
+          "passed": true,
+          "shapes": 47,
+          "bodies": 20,
+          "physics_sha256": "84ed586a796c7a45260498ac5c549ea2058c67a9aa222e1deb9958de4bf59fe8"
+        },
+        {
+          "name": "material_maps_and_uvs",
+          "passed": true,
+          "embedded_images": 29,
+          "finished_material_variants": 16,
+          "checked_uv_bindings": 249,
+          "primitives": 112,
+          "maps_match_authored_pixels": true,
+          "finite_geometry_and_bound_uvs": true,
+          "repeat_samplers": true,
+          "materials": [
+            {
+              "name": "black",
+              "family": "black_coating",
+              "metadata_sha256": "a409a097893984793ebd209e19148bfeba9f69585000aedfa99211fcfa632c2a",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bronze",
+              "family": "machined",
+              "metadata_sha256": "45219b3b07e707b3a6cbeacc92de44b953e9759e44192136b1771e3f40a55370",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "brushed",
+              "family": "brushed",
+              "metadata_sha256": "5c9814104e01a59deaa9a34891777760079f3e4ffefb76ba177d3a2ec17b76ce",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "darkmetal",
+              "family": "anodized",
+              "metadata_sha256": "0ade7ef58163693c8231855ed2f98cdc476b61444c465524d918f883b89c5f6b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "graphite",
+              "family": "black_coating",
+              "metadata_sha256": "450e9babda6102d92540719edde2a02003316f9f22927f98107030f5647f1692",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "green",
+              "family": "satin_paint",
+              "metadata_sha256": "34259f561c73020d151a11d9d72329ee353a9d1cc2719d0fa43dc0b7336cac56",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "orange",
+              "family": "satin_paint",
+              "metadata_sha256": "9f489f9810f8592e3aabb08556b2856b646620b43bb627bae17ec76b24edeb66",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "red",
+              "family": "satin_paint",
+              "metadata_sha256": "5bcdee5ad3e9e79a75f09d628e5c1fef9c87043725aa5df3024b978f88f72f7e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "rubber",
+              "family": "rubber",
+              "metadata_sha256": "4b362e0f4fd2a7bc3498ad313bb17e5c8a920a1bc9065b2bd3eca6ab0fa8d059",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "steel",
+              "family": "machined",
+              "metadata_sha256": "eb309b27bc5ee50eeaca3375eaec1c2fdce35c10d9fc020e7fcc33adbb920224",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "yellow",
+              "family": "satin_paint",
+              "metadata_sha256": "56e4e35ff28d45d6967237f1fb8f596cde6aee0337d897c918492dd26a3b5542",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "gold",
+              "family": "machined",
+              "metadata_sha256": "01327853c0bf5e1bc457accfa919baf5319e7344a1bba529a08b108f96c6ac1f",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "violet",
+              "family": "satin_paint",
+              "metadata_sha256": "752b8f2c3e5d0214c1d5a40fda95046948f5cb595099eaf6429e151d89ea1a74",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "black",
+              "family": "black_coating",
+              "metadata_sha256": "a409a097893984793ebd209e19148bfeba9f69585000aedfa99211fcfa632c2a",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "ceramic",
+              "family": "ceramic",
+              "metadata_sha256": "a2dc6c5b815aed3fb27a1c7886f4f78a4f476ba38ca493e95dd143354b479e9b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "blue",
+              "family": "anodized",
+              "metadata_sha256": "0642a4c70e9234c5021bbbe16b0025ff6bd3cd5e0f420ba5b6b387aad4a3c496",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "morph_free_flexible_details",
+          "passed": true,
+          "morph_free": true,
+          "flexible_meshes": 2,
+          "details": [
+            {
+              "name": "left flexible triax service loop",
+              "joints": [
+                "left_x_travel",
+                "left_y_travel",
+                "left_z_travel"
+              ],
+              "path_points": 54,
+              "rest_path_length_m": 0.5063641788347272,
+              "weight_window": [
+                0.08,
+                0.92
+              ],
+              "rotation_joints": [],
+              "vertices": 8904
+            },
+            {
+              "name": "right flexible triax service loop",
+              "joints": [
+                "right_x_travel",
+                "right_y_travel",
+                "right_z_travel"
+              ],
+              "path_points": 54,
+              "rest_path_length_m": 0.5063641788347272,
+              "weight_window": [
+                0.08,
+                0.92
+              ],
+              "rotation_joints": [],
+              "vertices": 8904
+            }
+          ],
+          "model": "Joint-driven visual deformation; no cable contact or strain dynamics"
+        },
+        {
+          "name": "preview_provenance",
+          "passed": true,
+          "source_scene_sha256": "4cb91a542d59983530752d8f9b48997ad3474eb19bf4fc644af1ed38544c0935",
+          "reports": [
+            {
+              "file": "002_probe_station/previews/render_report.json",
+              "sha256": "f5f291c3d1d84f89db85ac194db8f782f975c1ee28e80f866119aa34dfd48bc9",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "renders": [
+            {
+              "file": "overview.png",
+              "camera": "overview",
+              "resolution": [
+                3840,
+                3200
+              ],
+              "samples": 256,
+              "sha256": "ff0f1de8ab9b7a06344f13671deb59e445d4a48efac342dd8c69a878e70221d3",
+              "public_png_sha256": "a7dd47bc140cb6f2682d7337bd63c33a1aedb53f278e14ca811e700d0acb9b7a",
+              "source_report": "002_probe_station/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "probing.png",
+              "camera": "probing",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "41f8413e88a3bef67968146488a6237200f2f2c69c3bb2250f288dabe646854e",
+              "public_png_sha256": "b8b804033ae4e3abbf1234a6193ea71200e6af67efa4719fddf9816022786496",
+              "source_report": "002_probe_station/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "optical_head.png",
+              "camera": "optical_head",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "b4926af4879efb692dbf694bda54fba739b39ed0be8187ac1f8c3662751256e9",
+              "public_png_sha256": "54ce56d9d0b8a625b0b34bae516be826f2aef40965b0d930cf527006c6c183f8",
+              "source_report": "002_probe_station/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "left_manipulator.png",
+              "camera": "left_manipulator",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "c95e78f64f45ee5b135283ff543857aa117fd8da5349b6f7a25495c428ae8de2",
+              "public_png_sha256": "5c43abea99534a08b7e6b1134bb76970274328a06987a9559d6e8bfb97e2ff00",
+              "source_report": "002_probe_station/previews/render_report.json",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "delivered_pngs": [
+            {
+              "file": "assets/probe/detail.png",
+              "sha256": "b8b804033ae4e3abbf1234a6193ea71200e6af67efa4719fddf9816022786496",
+              "source_preview": "probing.png",
+              "source_sha256": "41f8413e88a3bef67968146488a6237200f2f2c69c3bb2250f288dabe646854e"
+            },
+            {
+              "file": "assets/probe/left_manipulator.png",
+              "sha256": "5c43abea99534a08b7e6b1134bb76970274328a06987a9559d6e8bfb97e2ff00",
+              "source_preview": "left_manipulator.png",
+              "source_sha256": "c95e78f64f45ee5b135283ff543857aa117fd8da5349b6f7a25495c428ae8de2"
+            },
+            {
+              "file": "assets/probe/optical_head.png",
+              "sha256": "54ce56d9d0b8a625b0b34bae516be826f2aef40965b0d930cf527006c6c183f8",
+              "source_preview": "optical_head.png",
+              "source_sha256": "b4926af4879efb692dbf694bda54fba739b39ed0be8187ac1f8c3662751256e9"
+            },
+            {
+              "file": "assets/probe/render.png",
+              "sha256": "a7dd47bc140cb6f2682d7337bd63c33a1aedb53f278e14ca811e700d0acb9b7a",
+              "source_preview": "overview.png",
+              "source_sha256": "ff0f1de8ab9b7a06344f13671deb59e445d4a48efac342dd8c69a878e70221d3"
+            }
+          ],
+          "png_delivery_transform": "Remove tEXt, zTXt and iTXt chunks; preserve all other PNG chunks byte-for-byte, including IDAT and color metadata.",
+          "thumbnail": {
+            "source_png_sha256": "ff0f1de8ab9b7a06344f13671deb59e445d4a48efac342dd8c69a878e70221d3",
+            "sha256": "02144d9a8d6bc76870bf1ae497d7ddea5c9937974b4414a325ac8fb28a37b223",
+            "dimensions": [
+              1200,
+              1000
+            ],
+            "recipe": {
+              "maximum_size": [
+                1200,
+                1000
+              ],
+              "resampling": "LANCZOS",
+              "jpeg_quality": 92,
+              "optimize": true
+            },
+            "decoded_pixels_match_recipe": true
+          },
+          "all_delivered_pngs_match_current_sources": true
+        }
+      ],
+      "scene_sha256": "4cb91a542d59983530752d8f9b48997ad3474eb19bf4fc644af1ed38544c0935",
+      "glb_sha256": "e8b6959266a494772f4e225f40bef77b3dd8545e0856cbf8a6941b7ab650cc11",
+      "glb_bytes": 25470592,
+      "native_physics_sha256": "9d923fe66f5a9eb3e7456e6a9fe8baee36e32b6c1d4838cd07e36c448f9c8180",
+      "browser_physics_sha256": "84ed586a796c7a45260498ac5c549ea2058c67a9aa222e1deb9958de4bf59fe8",
+      "glb": "assets/probe/model.glb",
+      "passed": true
+    },
+    {
+      "id": "zeiss",
+      "checks": [
+        {
+          "name": "portable_exports",
+          "passed": true,
+          "public_glb_matches_native": true,
+          "metadata_matches_native": true,
+          "nikon_visual_baseline_unchanged": false,
+          "additional_render_views": 2,
+          "metadata_sha256": "455be0b0f2bd6f9eacb967073fde292ed7130349ee1cab2ffb2dcfc629f2dd46"
+        },
+        {
+          "name": "native_browser_physics",
+          "passed": true,
+          "structurally_equivalent": true,
+          "equivalence": "Current native XML after removing only visual-class geoms, mesh declarations and compiler.meshdir",
+          "expected_tweezer_fixture": false,
+          "normalized_structure_sha256": "7064311a01c4aa2ca396017cd4f854f8a180c3c5deb193f127477ad8dc0a87fb",
+          "joints": 8,
+          "bodies": 9,
+          "contact_geometries": 36,
+          "explicit_inertias": 8,
+          "sites": 23,
+          "equalities": 3
+        },
+        {
+          "name": "compiled_contact_overlay",
+          "passed": true,
+          "shapes": 36,
+          "bodies": 9,
+          "physics_sha256": "598801935f197bc5c9652aae57a1b8a9a5227aa86b33a7602df59d020c303259"
+        },
+        {
+          "name": "material_maps_and_uvs",
+          "passed": true,
+          "embedded_images": 31,
+          "finished_material_variants": 17,
+          "checked_uv_bindings": 135,
+          "primitives": 64,
+          "maps_match_authored_pixels": true,
+          "finite_geometry_and_bound_uvs": true,
+          "repeat_samplers": true,
+          "materials": [
+            {
+              "name": "black",
+              "family": "black_coating",
+              "metadata_sha256": "a409a097893984793ebd209e19148bfeba9f69585000aedfa99211fcfa632c2a",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "brushed",
+              "family": "brushed",
+              "metadata_sha256": "5c9814104e01a59deaa9a34891777760079f3e4ffefb76ba177d3a2ec17b76ce",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "cyan",
+              "family": "anodized",
+              "metadata_sha256": "38de13cfbaeb2a42f48d49224f7369e51917f79f09174c893a945f21cf921fb4",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "darkmetal",
+              "family": "anodized",
+              "metadata_sha256": "0ade7ef58163693c8231855ed2f98cdc476b61444c465524d918f883b89c5f6b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "graphite",
+              "family": "black_coating",
+              "metadata_sha256": "450e9babda6102d92540719edde2a02003316f9f22927f98107030f5647f1692",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "green",
+              "family": "satin_paint",
+              "metadata_sha256": "34259f561c73020d151a11d9d72329ee353a9d1cc2719d0fa43dc0b7336cac56",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "ivory",
+              "family": "enamel",
+              "metadata_sha256": "f182d1ac8e45d7a1f5c7d861c814cc1386fdf2c5501f8da56ef2840a32446075",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "rubber",
+              "family": "rubber",
+              "metadata_sha256": "4b362e0f4fd2a7bc3498ad313bb17e5c8a920a1bc9065b2bd3eca6ab0fa8d059",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "steel",
+              "family": "machined",
+              "metadata_sha256": "eb309b27bc5ee50eeaca3375eaec1c2fdce35c10d9fc020e7fcc33adbb920224",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "wire",
+              "family": "rubber",
+              "metadata_sha256": "7006c35bd45d8f80e317271773dfb744c3f3b4137b591f99c4bb977cea03acb6",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bronze",
+              "family": "machined",
+              "metadata_sha256": "45219b3b07e707b3a6cbeacc92de44b953e9759e44192136b1771e3f40a55370",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "gold",
+              "family": "machined",
+              "metadata_sha256": "01327853c0bf5e1bc457accfa919baf5319e7344a1bba529a08b108f96c6ac1f",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "violet",
+              "family": "satin_paint",
+              "metadata_sha256": "752b8f2c3e5d0214c1d5a40fda95046948f5cb595099eaf6429e151d89ea1a74",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "etched",
+              "family": "brushed",
+              "metadata_sha256": "d6875bbdd53aa5ce51aae9ee72e0fd876e2064c295045da44230747ea537f08c",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "blue",
+              "family": "anodized",
+              "metadata_sha256": "0642a4c70e9234c5021bbbe16b0025ff6bd3cd5e0f420ba5b6b387aad4a3c496",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "red",
+              "family": "satin_paint",
+              "metadata_sha256": "5bcdee5ad3e9e79a75f09d628e5c1fef9c87043725aa5df3024b978f88f72f7e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "yellow",
+              "family": "satin_paint",
+              "metadata_sha256": "56e4e35ff28d45d6967237f1fb8f596cde6aee0337d897c918492dd26a3b5542",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "morph_free_flexible_details",
+          "passed": true,
+          "morph_free": true,
+          "flexible_meshes": 0,
+          "details": [],
+          "model": "Joint-driven visual deformation; no cable contact or strain dynamics"
+        },
+        {
+          "name": "preview_provenance",
+          "passed": true,
+          "source_scene_sha256": "893b7179b1a847a8df50456a6aff5895f15892b3a1ac1c3396c3c13f2bada682",
+          "reports": [
+            {
+              "file": "003_zeiss/previews/render_report.json",
+              "sha256": "a2bdf35ff78ff322b7ffe73e00b9d89bef0a1dc5bb70abf99eb1afa1e9077419",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "renders": [
+            {
+              "file": "overview.png",
+              "camera": "overview",
+              "resolution": [
+                3840,
+                3200
+              ],
+              "samples": 256,
+              "sha256": "640d760e63b57e46225d419dac2c59d8a76641d79d2371b0b7ec9a3d5747dfd1",
+              "public_png_sha256": "554cd516d7dd968f29a187927e91c82ca5e6cb6214b4dd8210d626e9ded76dae",
+              "source_report": "003_zeiss/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "stage.png",
+              "camera": "stage",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "f3d8b7f320cd62c13d504023325a8e1377880f367adf3b7e90f54e1ebf2a92dc",
+              "public_png_sha256": "7dbdc1352de614c942f7966d66bebf5d87dd7902921af81ca095b9f134025ade",
+              "source_report": "003_zeiss/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "optical_head.png",
+              "camera": "optical_head",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "8723e3c93b54fab36a4d1a980fe20d2357be318b39aa5721813f89fe7db6f0cb",
+              "public_png_sha256": "e6d502c8bf8746dd5dc0e03530a017715558f49c0e43f4c62d2028a69c08644c",
+              "source_report": "003_zeiss/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "condenser.png",
+              "camera": "condenser",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "471a8b6f6496772c4be4e0d11af459264e03fb5050d454292aecaf697639dc05",
+              "public_png_sha256": "ee2651ae349a81d98471012e0b47305695ef78818ebc1b86742611b9fe222aae",
+              "source_report": "003_zeiss/previews/render_report.json",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "delivered_pngs": [
+            {
+              "file": "assets/zeiss/condenser.png",
+              "sha256": "ee2651ae349a81d98471012e0b47305695ef78818ebc1b86742611b9fe222aae",
+              "source_preview": "condenser.png",
+              "source_sha256": "471a8b6f6496772c4be4e0d11af459264e03fb5050d454292aecaf697639dc05"
+            },
+            {
+              "file": "assets/zeiss/detail.png",
+              "sha256": "7dbdc1352de614c942f7966d66bebf5d87dd7902921af81ca095b9f134025ade",
+              "source_preview": "stage.png",
+              "source_sha256": "f3d8b7f320cd62c13d504023325a8e1377880f367adf3b7e90f54e1ebf2a92dc"
+            },
+            {
+              "file": "assets/zeiss/optical_head.png",
+              "sha256": "e6d502c8bf8746dd5dc0e03530a017715558f49c0e43f4c62d2028a69c08644c",
+              "source_preview": "optical_head.png",
+              "source_sha256": "8723e3c93b54fab36a4d1a980fe20d2357be318b39aa5721813f89fe7db6f0cb"
+            },
+            {
+              "file": "assets/zeiss/render.png",
+              "sha256": "554cd516d7dd968f29a187927e91c82ca5e6cb6214b4dd8210d626e9ded76dae",
+              "source_preview": "overview.png",
+              "source_sha256": "640d760e63b57e46225d419dac2c59d8a76641d79d2371b0b7ec9a3d5747dfd1"
+            }
+          ],
+          "png_delivery_transform": "Remove tEXt, zTXt and iTXt chunks; preserve all other PNG chunks byte-for-byte, including IDAT and color metadata.",
+          "thumbnail": {
+            "source_png_sha256": "640d760e63b57e46225d419dac2c59d8a76641d79d2371b0b7ec9a3d5747dfd1",
+            "sha256": "8b896a85a9094b39c53254faac7707990f713d659279386217312f7ee2507436",
+            "dimensions": [
+              1200,
+              1000
+            ],
+            "recipe": {
+              "maximum_size": [
+                1200,
+                1000
+              ],
+              "resampling": "LANCZOS",
+              "jpeg_quality": 92,
+              "optimize": true
+            },
+            "decoded_pixels_match_recipe": true
+          },
+          "all_delivered_pngs_match_current_sources": true
+        }
+      ],
+      "scene_sha256": "893b7179b1a847a8df50456a6aff5895f15892b3a1ac1c3396c3c13f2bada682",
+      "glb_sha256": "4963dc467bb77769a2493a78a8683644dcd903e6278c88447c6ca1bda44343f4",
+      "glb_bytes": 27154048,
+      "native_physics_sha256": "09ba95d48f9e5d4b322beb789ccc15b08864454c1726d9becd0034ed46c08131",
+      "browser_physics_sha256": "598801935f197bc5c9652aae57a1b8a9a5227aa86b33a7602df59d020c303259",
+      "glb": "assets/zeiss/model.glb",
+      "passed": true
+    },
+    {
+      "id": "bonder",
+      "checks": [
+        {
+          "name": "portable_exports",
+          "passed": true,
+          "public_glb_matches_native": true,
+          "metadata_matches_native": true,
+          "nikon_visual_baseline_unchanged": false,
+          "additional_render_views": 4,
+          "metadata_sha256": "629bb325eff8c53cbc5e71bc42e980f4b5ce66ea69a59fb1212009c63743a22d"
+        },
+        {
+          "name": "native_browser_physics",
+          "passed": true,
+          "structurally_equivalent": true,
+          "equivalence": "Current native XML after removing only visual-class geoms, mesh declarations and compiler.meshdir",
+          "expected_tweezer_fixture": false,
+          "normalized_structure_sha256": "6cec159ddfad755917c51652842d444f07b3e6fd268574cdf2b4515e2d373f67",
+          "joints": 7,
+          "bodies": 8,
+          "contact_geometries": 18,
+          "explicit_inertias": 7,
+          "sites": 10,
+          "equalities": 3
+        },
+        {
+          "name": "compiled_contact_overlay",
+          "passed": true,
+          "shapes": 18,
+          "bodies": 3,
+          "physics_sha256": "5189808a21706951586fa2163a589101f0f218aba39969ddf5b49ad8e7ee315d"
+        },
+        {
+          "name": "material_maps_and_uvs",
+          "passed": true,
+          "embedded_images": 36,
+          "finished_material_variants": 22,
+          "checked_uv_bindings": 102,
+          "primitives": 45,
+          "maps_match_authored_pixels": true,
+          "finite_geometry_and_bound_uvs": true,
+          "repeat_samplers": true,
+          "materials": [
+            {
+              "name": "black",
+              "family": "black_coating",
+              "metadata_sha256": "a409a097893984793ebd209e19148bfeba9f69585000aedfa99211fcfa632c2a",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bonder_panel",
+              "family": "satin_paint",
+              "metadata_sha256": "dbb5db2e07d307de3192daf29b6d1c7d0461b368e7f978a71b0e4d836fada513",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "brushed",
+              "family": "brushed",
+              "metadata_sha256": "5c9814104e01a59deaa9a34891777760079f3e4ffefb76ba177d3a2ec17b76ce",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "ceramic",
+              "family": "ceramic",
+              "metadata_sha256": "a2dc6c5b815aed3fb27a1c7886f4f78a4f476ba38ca493e95dd143354b479e9b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "darkmetal",
+              "family": "anodized",
+              "metadata_sha256": "0ade7ef58163693c8231855ed2f98cdc476b61444c465524d918f883b89c5f6b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "gold",
+              "family": "machined",
+              "metadata_sha256": "01327853c0bf5e1bc457accfa919baf5319e7344a1bba529a08b108f96c6ac1f",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "graphite",
+              "family": "black_coating",
+              "metadata_sha256": "450e9babda6102d92540719edde2a02003316f9f22927f98107030f5647f1692",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "ivory",
+              "family": "enamel",
+              "metadata_sha256": "f182d1ac8e45d7a1f5c7d861c814cc1386fdf2c5501f8da56ef2840a32446075",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "red",
+              "family": "satin_paint",
+              "metadata_sha256": "5bcdee5ad3e9e79a75f09d628e5c1fef9c87043725aa5df3024b978f88f72f7e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "rubber",
+              "family": "rubber",
+              "metadata_sha256": "4b362e0f4fd2a7bc3498ad313bb17e5c8a920a1bc9065b2bd3eca6ab0fa8d059",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "steel",
+              "family": "machined",
+              "metadata_sha256": "eb309b27bc5ee50eeaca3375eaec1c2fdce35c10d9fc020e7fcc33adbb920224",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "vermiculite",
+              "family": "insulation",
+              "metadata_sha256": "b859266496e64afa72898061af1196a4bab74fb802ab4d38719ac2e4949147d1",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "violet",
+              "family": "satin_paint",
+              "metadata_sha256": "752b8f2c3e5d0214c1d5a40fda95046948f5cb595099eaf6429e151d89ea1a74",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "warm",
+              "family": "enamel",
+              "metadata_sha256": "3baab03a3688a287cc5d5f3af8b00841970fe2e5cde38ce042809999b1cbb91e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "wire",
+              "family": "rubber",
+              "metadata_sha256": "7006c35bd45d8f80e317271773dfb744c3f3b4137b591f99c4bb977cea03acb6",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "yellow",
+              "family": "satin_paint",
+              "metadata_sha256": "56e4e35ff28d45d6967237f1fb8f596cde6aee0337d897c918492dd26a3b5542",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "warm",
+              "family": "enamel",
+              "metadata_sha256": "3baab03a3688a287cc5d5f3af8b00841970fe2e5cde38ce042809999b1cbb91e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "graphite",
+              "family": "black_coating",
+              "metadata_sha256": "450e9babda6102d92540719edde2a02003316f9f22927f98107030f5647f1692",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "alloy",
+              "family": "brushed",
+              "metadata_sha256": "e68ca4a234ea12c5120a35793d1baa867e5709844fd412bbeb17a879f12e4969",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bronze",
+              "family": "machined",
+              "metadata_sha256": "45219b3b07e707b3a6cbeacc92de44b953e9759e44192136b1771e3f40a55370",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "gold",
+              "family": "machined",
+              "metadata_sha256": "01327853c0bf5e1bc457accfa919baf5319e7344a1bba529a08b108f96c6ac1f",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "ivory",
+              "family": "enamel",
+              "metadata_sha256": "f182d1ac8e45d7a1f5c7d861c814cc1386fdf2c5501f8da56ef2840a32446075",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "morph_free_flexible_details",
+          "passed": true,
+          "morph_free": true,
+          "flexible_meshes": 0,
+          "details": [],
+          "model": "Joint-driven visual deformation; no cable contact or strain dynamics"
+        },
+        {
+          "name": "preview_provenance",
+          "passed": true,
+          "source_scene_sha256": "4bd07776849c709c689bef1ba7482a5d9f5eba6b8b1f9e96eb2c1029db84741c",
+          "reports": [
+            {
+              "file": "004_wire_bonder/previews/render_report.json",
+              "sha256": "46f5225e1f7029ea14248fe652fc06f9689bd77063336bd8256748e8bdd34b14",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "renders": [
+            {
+              "file": "overview.png",
+              "camera": "overview",
+              "resolution": [
+                3840,
+                3200
+              ],
+              "samples": 256,
+              "sha256": "03c07ab72812bc04a463efa5d6b5c62afffe3b2b1309a58c9dd9f09af58cd22d",
+              "public_png_sha256": "1cff70334f71cd1a5058b6a7b240fb6815910f58a8cfbad7649a591a50ae8d78",
+              "source_report": "004_wire_bonder/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "tool.png",
+              "camera": "tool",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "4667fba7d337a0939fac3cc7d4302d67bda3b9e21ea91ec6b88e560879ae700f",
+              "public_png_sha256": "22d2acd25cd7ce402416954b478556e1fab61584ffcc853985fd699ae9a286e3",
+              "source_report": "004_wire_bonder/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "head_detail.png",
+              "camera": "head_detail",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "e6cd81cbba55bc1a782105fd82960f1e84b998e79d19b999503655fd9990a032",
+              "public_png_sha256": "30fda326e64c4797bd208b8d195cf99b9871eaef64b71a895fd4d5bcabf8e3c6",
+              "source_report": "004_wire_bonder/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "optical_head.png",
+              "camera": "optical_head",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "36b060defe146aed8e81d7eeb0f62aff18a0104e24ab9e283a2dd850d8443035",
+              "public_png_sha256": "6accb16528b5ab5960dc6eea5ec22c0e2c5fec410b6f8475a5cef178f6b39d39",
+              "source_report": "004_wire_bonder/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "heater_detail.png",
+              "camera": "heater_detail",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "9677d5538a26bb2cd3f4aa6dc17caf7ec326d8036685aece7a78176818d27f33",
+              "public_png_sha256": "9c4358f4767de5045378d48291bf104c3b84ae502024f197ee1650a177b63db2",
+              "source_report": "004_wire_bonder/previews/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "rear_service.png",
+              "camera": "rear_service",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "c08964dfc08739f5c1a4cba09a9e877b11b29b68d3b324ad310c3b863d02dff1",
+              "public_png_sha256": "48618a9880a9249fe78374a764581a1985e83a455e61344f45e0f7c4ac65ef03",
+              "source_report": "004_wire_bonder/previews/render_report.json",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "delivered_pngs": [
+            {
+              "file": "assets/bonder/detail.png",
+              "sha256": "22d2acd25cd7ce402416954b478556e1fab61584ffcc853985fd699ae9a286e3",
+              "source_preview": "tool.png",
+              "source_sha256": "4667fba7d337a0939fac3cc7d4302d67bda3b9e21ea91ec6b88e560879ae700f"
+            },
+            {
+              "file": "assets/bonder/head_detail.png",
+              "sha256": "30fda326e64c4797bd208b8d195cf99b9871eaef64b71a895fd4d5bcabf8e3c6",
+              "source_preview": "head_detail.png",
+              "source_sha256": "e6cd81cbba55bc1a782105fd82960f1e84b998e79d19b999503655fd9990a032"
+            },
+            {
+              "file": "assets/bonder/heater_detail.png",
+              "sha256": "9c4358f4767de5045378d48291bf104c3b84ae502024f197ee1650a177b63db2",
+              "source_preview": "heater_detail.png",
+              "source_sha256": "9677d5538a26bb2cd3f4aa6dc17caf7ec326d8036685aece7a78176818d27f33"
+            },
+            {
+              "file": "assets/bonder/optical_head.png",
+              "sha256": "6accb16528b5ab5960dc6eea5ec22c0e2c5fec410b6f8475a5cef178f6b39d39",
+              "source_preview": "optical_head.png",
+              "source_sha256": "36b060defe146aed8e81d7eeb0f62aff18a0104e24ab9e283a2dd850d8443035"
+            },
+            {
+              "file": "assets/bonder/rear_service.png",
+              "sha256": "48618a9880a9249fe78374a764581a1985e83a455e61344f45e0f7c4ac65ef03",
+              "source_preview": "rear_service.png",
+              "source_sha256": "c08964dfc08739f5c1a4cba09a9e877b11b29b68d3b324ad310c3b863d02dff1"
+            },
+            {
+              "file": "assets/bonder/render.png",
+              "sha256": "1cff70334f71cd1a5058b6a7b240fb6815910f58a8cfbad7649a591a50ae8d78",
+              "source_preview": "overview.png",
+              "source_sha256": "03c07ab72812bc04a463efa5d6b5c62afffe3b2b1309a58c9dd9f09af58cd22d"
+            }
+          ],
+          "png_delivery_transform": "Remove tEXt, zTXt and iTXt chunks; preserve all other PNG chunks byte-for-byte, including IDAT and color metadata.",
+          "thumbnail": {
+            "source_png_sha256": "03c07ab72812bc04a463efa5d6b5c62afffe3b2b1309a58c9dd9f09af58cd22d",
+            "sha256": "1a1c84ee4b29c5cf22afd81473ade2daf14eb8a1f408f7c5d440f915e5bd5f58",
+            "dimensions": [
+              1200,
+              1000
+            ],
+            "recipe": {
+              "maximum_size": [
+                1200,
+                1000
+              ],
+              "resampling": "LANCZOS",
+              "jpeg_quality": 92,
+              "optimize": true
+            },
+            "decoded_pixels_match_recipe": true
+          },
+          "all_delivered_pngs_match_current_sources": true
+        }
+      ],
+      "scene_sha256": "4bd07776849c709c689bef1ba7482a5d9f5eba6b8b1f9e96eb2c1029db84741c",
+      "glb_sha256": "093d331c31c1697b72f1e1621a56babeb4c69ecfeb80d6f07325a64e1221ced6",
+      "glb_bytes": 40119228,
+      "native_physics_sha256": "d5f7b127263a9a5f5e63741dce0bd605770e95bd5db275ae18208459c6a15175",
+      "browser_physics_sha256": "5189808a21706951586fa2163a589101f0f218aba39969ddf5b49ad8e7ee315d",
+      "glb": "assets/bonder/model.glb",
+      "passed": true
+    },
+    {
+      "id": "afm",
+      "checks": [
+        {
+          "name": "portable_exports",
+          "passed": true,
+          "public_glb_matches_native": true,
+          "metadata_matches_native": true,
+          "nikon_visual_baseline_unchanged": false,
+          "additional_render_views": 3,
+          "metadata_sha256": "fc44f091e0b38e422505bedabc737963b596fc59d5ac16bb8f394d85b802e152"
+        },
+        {
+          "name": "native_browser_physics",
+          "passed": true,
+          "structurally_equivalent": true,
+          "equivalence": "Current native XML after removing only visual-class geoms, mesh declarations and compiler.meshdir",
+          "expected_tweezer_fixture": false,
+          "normalized_structure_sha256": "3462bec1214ff8340c1b0988262b88cb7640597d16b11411994bdc4950e8bdca",
+          "joints": 7,
+          "bodies": 8,
+          "contact_geometries": 43,
+          "explicit_inertias": 7,
+          "sites": 8,
+          "equalities": 2
+        },
+        {
+          "name": "compiled_contact_overlay",
+          "passed": true,
+          "shapes": 43,
+          "bodies": 8,
+          "physics_sha256": "83deaa689e9be8eb19005f5fa71f5b5adc7f5890cd98233d65c086f321a8be44"
+        },
+        {
+          "name": "material_maps_and_uvs",
+          "passed": true,
+          "embedded_images": 35,
+          "finished_material_variants": 24,
+          "checked_uv_bindings": 177,
+          "primitives": 74,
+          "maps_match_authored_pixels": true,
+          "finite_geometry_and_bound_uvs": true,
+          "repeat_samplers": true,
+          "materials": [
+            {
+              "name": "afm_satin_shell",
+              "family": "satin_paint",
+              "metadata_sha256": "fd8abcddafd2c1fc93b2dc043172ba60a2fd36410d621a488bd71b9c4436a105",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "alloy",
+              "family": "brushed",
+              "metadata_sha256": "e68ca4a234ea12c5120a35793d1baa867e5709844fd412bbeb17a879f12e4969",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "black",
+              "family": "black_coating",
+              "metadata_sha256": "a409a097893984793ebd209e19148bfeba9f69585000aedfa99211fcfa632c2a",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bluepaint",
+              "family": "satin_paint",
+              "metadata_sha256": "18dbc4101306a7736c79e93fe903111a5d42f1d23eb04ab5bd3df44c9fed6cd6",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "bronze",
+              "family": "machined",
+              "metadata_sha256": "45219b3b07e707b3a6cbeacc92de44b953e9759e44192136b1771e3f40a55370",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "brushed",
+              "family": "brushed",
+              "metadata_sha256": "5c9814104e01a59deaa9a34891777760079f3e4ffefb76ba177d3a2ec17b76ce",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "copper",
+              "family": "machined",
+              "metadata_sha256": "3557dd6e18ec897cf995feb9357a11f2bb661ba99eea585585fd9ea4b93ceeb3",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "cyan",
+              "family": "anodized",
+              "metadata_sha256": "38de13cfbaeb2a42f48d49224f7369e51917f79f09174c893a945f21cf921fb4",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "darkmetal",
+              "family": "anodized",
+              "metadata_sha256": "0ade7ef58163693c8231855ed2f98cdc476b61444c465524d918f883b89c5f6b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "etched",
+              "family": "brushed",
+              "metadata_sha256": "d6875bbdd53aa5ce51aae9ee72e0fd876e2064c295045da44230747ea537f08c",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "graphite",
+              "family": "black_coating",
+              "metadata_sha256": "450e9babda6102d92540719edde2a02003316f9f22927f98107030f5647f1692",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "green",
+              "family": "satin_paint",
+              "metadata_sha256": "34259f561c73020d151a11d9d72329ee353a9d1cc2719d0fa43dc0b7336cac56",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "ivory",
+              "family": "enamel",
+              "metadata_sha256": "f182d1ac8e45d7a1f5c7d861c814cc1386fdf2c5501f8da56ef2840a32446075",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "red",
+              "family": "satin_paint",
+              "metadata_sha256": "5bcdee5ad3e9e79a75f09d628e5c1fef9c87043725aa5df3024b978f88f72f7e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "rubber",
+              "family": "rubber",
+              "metadata_sha256": "4b362e0f4fd2a7bc3498ad313bb17e5c8a920a1bc9065b2bd3eca6ab0fa8d059",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "steel",
+              "family": "machined",
+              "metadata_sha256": "eb309b27bc5ee50eeaca3375eaec1c2fdce35c10d9fc020e7fcc33adbb920224",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "white",
+              "family": "enamel",
+              "metadata_sha256": "bb6bb2ae369d709cde5582f3a4c7e6d5731a5528ab4945841ef0e035c0eeabce",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "wire",
+              "family": "rubber",
+              "metadata_sha256": "7006c35bd45d8f80e317271773dfb744c3f3b4137b591f99c4bb977cea03acb6",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "yellow",
+              "family": "satin_paint",
+              "metadata_sha256": "56e4e35ff28d45d6967237f1fb8f596cde6aee0337d897c918492dd26a3b5542",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "alloy",
+              "family": "brushed",
+              "metadata_sha256": "e68ca4a234ea12c5120a35793d1baa867e5709844fd412bbeb17a879f12e4969",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "purple",
+              "family": "satin_paint",
+              "metadata_sha256": "311e137ffab50d23c36bbc622c73a770923f76def1bd47fd76694cb3ab167b60",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "gold",
+              "family": "machined",
+              "metadata_sha256": "01327853c0bf5e1bc457accfa919baf5319e7344a1bba529a08b108f96c6ac1f",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "red",
+              "family": "satin_paint",
+              "metadata_sha256": "5bcdee5ad3e9e79a75f09d628e5c1fef9c87043725aa5df3024b978f88f72f7e",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "brushed",
+              "family": "brushed",
+              "metadata_sha256": "5c9814104e01a59deaa9a34891777760079f3e4ffefb76ba177d3a2ec17b76ce",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "morph_free_flexible_details",
+          "passed": true,
+          "morph_free": true,
+          "flexible_meshes": 0,
+          "details": [],
+          "model": "Joint-driven visual deformation; no cable contact or strain dynamics"
+        },
+        {
+          "name": "preview_provenance",
+          "passed": true,
+          "source_scene_sha256": "f9473a2e4f9554bc90f9524658d2da6c596224eda87eae53ff870f1c009edbc7",
+          "reports": [
+            {
+              "file": "005_afm/previews/realism4_render_report.json",
+              "sha256": "e668e2b0dc09156b216e3ab03e953e7339c46ff6e0a5d2d6f9b3b9e4a08885e1",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "validation/realism4_afm/final_closed/render_report.json",
+              "sha256": "011ecda47e0c271429266393107f79d66284ff4f072efff481b3d89ac808efbc",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "validation/realism4_afm/final_open/render_report.json",
+              "sha256": "061e69475eb5c885349914d0b572b49f589a3f35b0cfd556a4652ca099ccd4d9",
+              "inspection_joint_positions": {},
+              "measured_trajectory": {
+                "file": "demos/afm.access/trajectory.json",
+                "sha256": "8079f9b784acf215288a308a6a84f54eaab8d83e010efe815b30c9c723927460",
+                "frame": 189,
+                "frame_sha256": "ce969b721f60c35891eb4af9f7c71e35e2e26fb9f2e022dc55f49c58312428e0",
+                "time_s": 7.6
+              }
+            }
+          ],
+          "renders": [
+            {
+              "file": "overview.png",
+              "camera": "overview",
+              "resolution": [
+                3840,
+                3200
+              ],
+              "samples": 256,
+              "sha256": "5244f338bedcf80d5dd0be4b059ffe8160f6d82b9587e74ea52ade5888fb73dc",
+              "public_png_sha256": "83e0b33930fac2b9c23ec7cd3be92a7fe194dd8bdd8168b5a55b3de4115f9cba",
+              "source_report": "validation/realism4_afm/final_closed/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "door_release.png",
+              "camera": "door_release_detail",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "083969a7cb1f49baa13b66004b4ad02f17a0a636271e18494d4225d738dc02be",
+              "public_png_sha256": "8a11d0e97eab2c1c40db929835bca8a9ed4a664ad94fe2bfe3f9b46d047f74cc",
+              "source_report": "validation/realism4_afm/final_closed/render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "open_scanner.png",
+              "camera": "front",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "3fc81fb0c21171469d265566403c9d9848efc501f821f463192f060def47851f",
+              "public_png_sha256": "e5d8a6af718d37b9d107b61a6ce21fdfcd8d037758a035e7debab998b865b013",
+              "source_report": "validation/realism4_afm/final_open/render_report.json",
+              "inspection_joint_positions": {},
+              "measured_trajectory": {
+                "file": "demos/afm.access/trajectory.json",
+                "sha256": "8079f9b784acf215288a308a6a84f54eaab8d83e010efe815b30c9c723927460",
+                "frame": 189,
+                "frame_sha256": "ce969b721f60c35891eb4af9f7c71e35e2e26fb9f2e022dc55f49c58312428e0",
+                "time_s": 7.6
+              }
+            },
+            {
+              "file": "scanner_release.png",
+              "camera": "scanner_release_detail",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "fa88e788e2c2f260b7be838dd2bdcf64d14899f486f6d1123bfc82236040d0b1",
+              "public_png_sha256": "ab59d0f974b5b0750e6b2780bddcf94529b5c7ec20566dceef28e7688bfdc998",
+              "source_report": "validation/realism4_afm/final_open/render_report.json",
+              "inspection_joint_positions": {},
+              "measured_trajectory": {
+                "file": "demos/afm.access/trajectory.json",
+                "sha256": "8079f9b784acf215288a308a6a84f54eaab8d83e010efe815b30c9c723927460",
+                "frame": 189,
+                "frame_sha256": "ce969b721f60c35891eb4af9f7c71e35e2e26fb9f2e022dc55f49c58312428e0",
+                "time_s": 7.6
+              }
+            },
+            {
+              "file": "front.png",
+              "camera": "front",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "3fc81fb0c21171469d265566403c9d9848efc501f821f463192f060def47851f",
+              "public_png_sha256": "e5d8a6af718d37b9d107b61a6ce21fdfcd8d037758a035e7debab998b865b013",
+              "source_report": "validation/realism4_afm/final_open/render_report.json",
+              "inspection_joint_positions": {},
+              "measured_trajectory": {
+                "file": "demos/afm.access/trajectory.json",
+                "sha256": "8079f9b784acf215288a308a6a84f54eaab8d83e010efe815b30c9c723927460",
+                "frame": 189,
+                "frame_sha256": "ce969b721f60c35891eb4af9f7c71e35e2e26fb9f2e022dc55f49c58312428e0",
+                "time_s": 7.6
+              },
+              "alias_of": "open_scanner.png",
+              "alias_manifest": "005_afm/previews/realism4_render_report.json"
+            }
+          ],
+          "delivered_pngs": [
+            {
+              "file": "assets/afm/detail.png",
+              "sha256": "e5d8a6af718d37b9d107b61a6ce21fdfcd8d037758a035e7debab998b865b013",
+              "source_preview": "front.png",
+              "source_sha256": "3fc81fb0c21171469d265566403c9d9848efc501f821f463192f060def47851f"
+            },
+            {
+              "file": "assets/afm/door_release.png",
+              "sha256": "8a11d0e97eab2c1c40db929835bca8a9ed4a664ad94fe2bfe3f9b46d047f74cc",
+              "source_preview": "door_release.png",
+              "source_sha256": "083969a7cb1f49baa13b66004b4ad02f17a0a636271e18494d4225d738dc02be"
+            },
+            {
+              "file": "assets/afm/open_scanner.png",
+              "sha256": "e5d8a6af718d37b9d107b61a6ce21fdfcd8d037758a035e7debab998b865b013",
+              "source_preview": "front.png",
+              "source_sha256": "3fc81fb0c21171469d265566403c9d9848efc501f821f463192f060def47851f"
+            },
+            {
+              "file": "assets/afm/render.png",
+              "sha256": "83e0b33930fac2b9c23ec7cd3be92a7fe194dd8bdd8168b5a55b3de4115f9cba",
+              "source_preview": "overview.png",
+              "source_sha256": "5244f338bedcf80d5dd0be4b059ffe8160f6d82b9587e74ea52ade5888fb73dc"
+            },
+            {
+              "file": "assets/afm/scanner_release.png",
+              "sha256": "ab59d0f974b5b0750e6b2780bddcf94529b5c7ec20566dceef28e7688bfdc998",
+              "source_preview": "scanner_release.png",
+              "source_sha256": "fa88e788e2c2f260b7be838dd2bdcf64d14899f486f6d1123bfc82236040d0b1"
+            }
+          ],
+          "png_delivery_transform": "Remove tEXt, zTXt and iTXt chunks; preserve all other PNG chunks byte-for-byte, including IDAT and color metadata.",
+          "thumbnail": {
+            "source_png_sha256": "5244f338bedcf80d5dd0be4b059ffe8160f6d82b9587e74ea52ade5888fb73dc",
+            "sha256": "5d8b4275dc5d8ca97524162e179d2cbbc5aec04a9a16daad1479b565a222c196",
+            "dimensions": [
+              1200,
+              1000
+            ],
+            "recipe": {
+              "maximum_size": [
+                1200,
+                1000
+              ],
+              "resampling": "LANCZOS",
+              "jpeg_quality": 90,
+              "optimize": true
+            },
+            "decoded_pixels_match_recipe": true
+          },
+          "all_delivered_pngs_match_current_sources": true
+        }
+      ],
+      "scene_sha256": "f9473a2e4f9554bc90f9524658d2da6c596224eda87eae53ff870f1c009edbc7",
+      "glb_sha256": "01942050cedecf5a741508804c79c3fd55df61f7241f47ae97de704679940b03",
+      "glb_bytes": 26950380,
+      "native_physics_sha256": "63e8464ea60ca1e45509f34089bd40f93c5a337849a9c697dd9b9c5585a4157f",
+      "browser_physics_sha256": "83deaa689e9be8eb19005f5fa71f5b5adc7f5890cd98233d65c086f321a8be44",
+      "glb": "assets/afm/model.glb",
+      "passed": true
+    },
+    {
+      "id": "tweezers",
+      "checks": [
+        {
+          "name": "portable_exports",
+          "passed": true,
+          "public_glb_matches_native": true,
+          "metadata_matches_native": true,
+          "nikon_visual_baseline_unchanged": false,
+          "additional_render_views": 1,
+          "metadata_sha256": "1bd0fd55e1d9efc74b9dcb71c2d62cf6d81fc75f25a1a3e6a8ea7a4bbffac7c8"
+        },
+        {
+          "name": "native_browser_physics",
+          "passed": true,
+          "structurally_equivalent": true,
+          "equivalence": "Current native XML after removing only visual-class geoms, mesh declarations and compiler.meshdir",
+          "expected_tweezer_fixture": true,
+          "normalized_structure_sha256": "95b1c111dfbbbd51379f31ef1bbf19b306954bd863c8179c4b5129367ce2d4d9",
+          "joints": 4,
+          "bodies": 6,
+          "contact_geometries": 93,
+          "explicit_inertias": 4,
+          "sites": 6,
+          "equalities": 1
+        },
+        {
+          "name": "compiled_contact_overlay",
+          "passed": true,
+          "shapes": 93,
+          "bodies": 5,
+          "physics_sha256": "12920dcc9cb2d6d72e59259023b4f12eb3c14fe2b6858cc307e53667d86979e4"
+        },
+        {
+          "name": "material_maps_and_uvs",
+          "passed": true,
+          "embedded_images": 19,
+          "finished_material_variants": 7,
+          "checked_uv_bindings": 36,
+          "primitives": 17,
+          "maps_match_authored_pixels": true,
+          "finite_geometry_and_bound_uvs": true,
+          "repeat_samplers": true,
+          "materials": [
+            {
+              "name": "brushed",
+              "family": "brushed",
+              "metadata_sha256": "5c9814104e01a59deaa9a34891777760079f3e4ffefb76ba177d3a2ec17b76ce",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "ceramic",
+              "family": "ceramic",
+              "metadata_sha256": "a2dc6c5b815aed3fb27a1c7886f4f78a4f476ba38ca493e95dd143354b479e9b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "cutting_mat_blue",
+              "family": "rubber",
+              "metadata_sha256": "6d2a12621ebb83b84afa8c5d6a69e630e696e9142f2d092f670a4c13b616f691",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "steel",
+              "family": "machined",
+              "metadata_sha256": "eb309b27bc5ee50eeaca3375eaec1c2fdce35c10d9fc020e7fcc33adbb920224",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "gold",
+              "family": "machined",
+              "metadata_sha256": "01327853c0bf5e1bc457accfa919baf5319e7344a1bba529a08b108f96c6ac1f",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "violet",
+              "family": "satin_paint",
+              "metadata_sha256": "752b8f2c3e5d0214c1d5a40fda95046948f5cb595099eaf6429e151d89ea1a74",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            },
+            {
+              "name": "darkmetal",
+              "family": "anodized",
+              "metadata_sha256": "0ade7ef58163693c8231855ed2f98cdc476b61444c465524d918f883b89c5f6b",
+              "maximum_channel_byte_error": {
+                "albedo": 0,
+                "orm": 0,
+                "normal": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "morph_free_flexible_details",
+          "passed": true,
+          "morph_free": true,
+          "flexible_meshes": 0,
+          "details": [],
+          "model": "Joint-driven visual deformation; no cable contact or strain dynamics"
+        },
+        {
+          "name": "preview_provenance",
+          "passed": true,
+          "source_scene_sha256": "b89c238d314123892c30b2617fb4ad10c4eefb656f20b7c2c962993a2a459b12",
+          "reports": [
+            {
+              "file": "006_tweezers/previews/realism4_render_report.json",
+              "sha256": "f6f3a5e59268b542f7e352ad5d2632506d20f7919e33d7d8953ad1df9db6cb07",
+              "inspection_joint_positions": {}
+            }
+          ],
+          "renders": [
+            {
+              "file": "overview.png",
+              "camera": "overview",
+              "resolution": [
+                3840,
+                3200
+              ],
+              "samples": 256,
+              "sha256": "dad4e424236b8d8cbcf8675326dd5f7f65f576acd9566aceff16367131f10f7e",
+              "public_png_sha256": "23ed421d7469d6456244feea983a3ddf702319fa64619d2dea5ab9c4b3e9dad2",
+              "source_report": "006_tweezers/previews/realism4_render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "tips.png",
+              "camera": "tips",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "6e82accc152c35fd965a483bf2baf0a4a2bb820b304b761c44945cf6f7ecc7b7",
+              "public_png_sha256": "c7048a2a6737ed6f9e3fb3a6c0e293fdcf0b43148688e43756a4b79e3f3b7b3c",
+              "source_report": "006_tweezers/previews/realism4_render_report.json",
+              "inspection_joint_positions": {}
+            },
+            {
+              "file": "placement.png",
+              "camera": "tips",
+              "resolution": [
+                2560,
+                2160
+              ],
+              "samples": 192,
+              "sha256": "4e9bf3dcfcf5ab120ae6e01ebc9e6da82607cf0be08cdd80555ddb8c45ae641f",
+              "public_png_sha256": "ecaf6efa6bbc3e7cc1d6e89745d02ce28002388d8809f3ce2ea27aba5c211704",
+              "focus_override": {
+                "body": "chip",
+                "world_position_m": [
+                  0.06200079619884491,
+                  0.02399817295372486,
+                  0.009459198452532291
+                ],
+                "focus_distance_m": 0.17018906772136688,
+                "method": "Distance projected onto the camera optical axis"
+              },
+              "source_report": "006_tweezers/previews/realism4_render_report.json",
+              "inspection_joint_positions": {},
+              "measured_trajectory": {
+                "file": "demos/tweezers.place/trajectory.json",
+                "sha256": "a73fa81dbef6a4085ecf716b38ad6f2cb76dd952a65d3223513e2ad4904cfc14",
+                "frame": 268,
+                "frame_sha256": "075438b33bb12b7aa647e5d3f199c82634589d8550681ca787e28abdd07dd646",
+                "time_s": 10.76
+              }
+            }
+          ],
+          "delivered_pngs": [
+            {
+              "file": "assets/tweezers/detail.png",
+              "sha256": "c7048a2a6737ed6f9e3fb3a6c0e293fdcf0b43148688e43756a4b79e3f3b7b3c",
+              "source_preview": "tips.png",
+              "source_sha256": "6e82accc152c35fd965a483bf2baf0a4a2bb820b304b761c44945cf6f7ecc7b7"
+            },
+            {
+              "file": "assets/tweezers/placement.png",
+              "sha256": "ecaf6efa6bbc3e7cc1d6e89745d02ce28002388d8809f3ce2ea27aba5c211704",
+              "source_preview": "placement.png",
+              "source_sha256": "4e9bf3dcfcf5ab120ae6e01ebc9e6da82607cf0be08cdd80555ddb8c45ae641f"
+            },
+            {
+              "file": "assets/tweezers/render.png",
+              "sha256": "23ed421d7469d6456244feea983a3ddf702319fa64619d2dea5ab9c4b3e9dad2",
+              "source_preview": "overview.png",
+              "source_sha256": "dad4e424236b8d8cbcf8675326dd5f7f65f576acd9566aceff16367131f10f7e"
+            }
+          ],
+          "png_delivery_transform": "Remove tEXt, zTXt and iTXt chunks; preserve all other PNG chunks byte-for-byte, including IDAT and color metadata.",
+          "thumbnail": {
+            "source_png_sha256": "dad4e424236b8d8cbcf8675326dd5f7f65f576acd9566aceff16367131f10f7e",
+            "sha256": "cb218d2a88e582e194461d4116ce0704d029e1d843d30421e16c254248660c83",
+            "dimensions": [
+              1200,
+              1000
+            ],
+            "recipe": {
+              "maximum_size": [
+                1200,
+                1000
+              ],
+              "resampling": "LANCZOS",
+              "jpeg_quality": 90,
+              "optimize": true
+            },
+            "decoded_pixels_match_recipe": true
+          },
+          "all_delivered_pngs_match_current_sources": true
+        }
+      ],
+      "scene_sha256": "b89c238d314123892c30b2617fb4ad10c4eefb656f20b7c2c962993a2a459b12",
+      "glb_sha256": "2c79f0f4df2e8a547597144156b3e4ef368cecb295bdf31ce03d6e5ca9525e6e",
+      "glb_bytes": 6768524,
+      "native_physics_sha256": "c35d760566844f3c53827904d4bf373ad6f08e803c5c972a84f8d876a011d35b",
+      "browser_physics_sha256": "12920dcc9cb2d6d72e59259023b4f12eb3c14fe2b6858cc307e53667d86979e4",
+      "glb": "assets/tweezers/model.glb",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Structural XML parity does not establish native/browser numerical equivalence or successful benchmark execution.",
+    "Image hashes, resolution and sampling establish provenance; perceived realism still requires visual review.",
+    "Dimensions, hidden construction and material parameters remain estimates unless independently calibrated.",
+    "Flexible details use visual deformation; cable contact, strain and fluid dynamics are not simulated."
+  ],
+  "nikon_visual_baseline_manifest_sha256": "d8f8dcc5254900790d1ef50fce652c806bc8c6c0815d8d15913a00671629a3fd",
+  "catalog_sha256": "c48e379917683e14778d6696480e683136f9f6d45aa91471a21026a9e7918153",
+  "runtime_fingerprints": {
+    "app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+    "runtime.js": "d5318ed974199c50795c1e8f2b3a31463b50815492f3628d859641a604a9c29e",
+    "worker.js": "6298188b51e9102751856f39437844d9b3e9754c4da9f01217907231e4e8abc0",
+    "physics.js": "af65707e239703dbdac62c6c4c9fa78aee09d625d84ceb004793212e287bfc0b",
+    "studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796",
+    "flexible-details.js": "91bc047df9fb127551d6034256ee50638271fb1f38999c9cee4706e1852e75f1",
+    "contact-overlay.js": "f58ad34fb84eedef538c68fdb24d13c30ce28d20ffe23685ec13e727f6d10e83"
+  },
+  "passed": true,
+  "verified_still_count": 31
+}

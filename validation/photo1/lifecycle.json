@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-11-24T19:53:48.740Z",
+  "source_sha256": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+  "checks": [
+    {
+      "check": "Photo auto-pause is undone on return to Interactive",
+      "passed": true
+    },
+    {
+      "check": "Explicit user pause survives Photo entry and exit",
+      "passed": true
+    },
+    {
+      "check": "Cancellation before queued pause sends no toggle",
+      "passed": true
+    },
+    {
+      "check": "Cancellation during in-flight pause waits and restores running physics",
+      "passed": true
+    },
+    {
+      "check": "Pause clicked during automatic pause remains explicitly paused",
+      "passed": true
+    },
+    {
+      "check": "Resume clicked in Photo resumes once",
+      "passed": true
+    },
+    {
+      "check": "Instrument command cancels preparation and resumes via the command",
+      "passed": true
+    },
+    {
+      "check": "Compile failure undoes only automatic pause",
+      "passed": true
+    },
+    {
+      "check": "Switching instruments discards old pause reply and restoration",
+      "passed": true
+    },
+    {
+      "check": "Rapid cancel/re-enter serializes restore before next photo pause",
+      "passed": true
+    },
+    {
+      "check": "Quality remains disabled until both model and physics are ready",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

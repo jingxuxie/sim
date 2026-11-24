@@ -1,0 +1,191 @@
+{
+  "asset": "probe",
+  "goal": 512,
+  "url": "http://127.0.0.1:18788/",
+  "started_utc": "2026-11-24T19:56:05.720Z",
+  "passed": true,
+  "views": [
+    {
+      "file": "probe-overview.png",
+      "elapsed_ms": 140786,
+      "quality": {
+        "mode": "photo",
+        "generation": 3,
+        "ready": true,
+        "samples": 512,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 113,
+          "triangles": 628518,
+          "uvRemaps": 1,
+          "mixedUVMaterials": 0,
+          "prepareMs": 2965.600000023842,
+          "width": 1245,
+          "height": 1020,
+          "samples": 512,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      },
+      "state": {
+        "q": {
+          "optic_focus_travel": -7.855818860232323e-10,
+          "light_path_travel": 0.012,
+          "chuck_x_travel": 1.6544019697700084e-20,
+          "chuck_y_travel": -3.6662726024323866e-18,
+          "chuck_theta_angle": -4.242426088301007e-52,
+          "chuck_y_angle": 1.780980804315887e-16,
+          "chuck_x_angle": -1.3912298521429573e-18,
+          "left_x_travel": 4.292660318309636e-19,
+          "left_y_travel": 5.1576198067884455e-26,
+          "left_z_travel": 2.0509342328748223e-63,
+          "left_z_angle": 3.0695263010022905e-59,
+          "left_y_angle": 7.484418527238391e-22,
+          "left_x_angle": 1.4606106852938898e-17,
+          "right_x_travel": -4.2926603179180075e-19,
+          "right_y_travel": 0,
+          "right_z_travel": 0,
+          "right_z_angle": 0,
+          "right_y_angle": 0,
+          "right_x_angle": -1.4606106860107123e-17
+        },
+        "paused": true
+      },
+      "checkpoints": [],
+      "sha256": "4f87743f5e6c572e3e0257065c4cb7c24d5c133fa2e8c2e73af774e4b43ababd",
+      "raw": {
+        "file": "probe-overview-raw.png",
+        "quality": {
+          "mode": "photo",
+          "generation": 3,
+          "ready": true,
+          "samples": 512,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 113,
+            "triangles": 628518,
+            "uvRemaps": 1,
+            "mixedUVMaterials": 0,
+            "prepareMs": 2965.600000023842,
+            "width": 1245,
+            "height": 1020,
+            "samples": 512,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        },
+        "sha256": "701ecd24a0cdbef76a3edf00e25b811355b2b2c6ef6e06bad947669a14073a01"
+      }
+    },
+    {
+      "file": "probe-detail.png",
+      "elapsed_ms": 136774,
+      "quality": {
+        "mode": "photo",
+        "generation": 4,
+        "ready": true,
+        "samples": 512,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 113,
+          "triangles": 628518,
+          "uvRemaps": 1,
+          "mixedUVMaterials": 0,
+          "prepareMs": 2965.600000023842,
+          "width": 1245,
+          "height": 1020,
+          "samples": 512,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      },
+      "state": {
+        "q": {
+          "optic_focus_travel": -7.855818860232323e-10,
+          "light_path_travel": 0.012,
+          "chuck_x_travel": 1.6544019697700084e-20,
+          "chuck_y_travel": -3.6662726024323866e-18,
+          "chuck_theta_angle": -4.242426088301007e-52,
+          "chuck_y_angle": 1.780980804315887e-16,
+          "chuck_x_angle": -1.3912298521429573e-18,
+          "left_x_travel": 4.292660318309636e-19,
+          "left_y_travel": 5.1576198067884455e-26,
+          "left_z_travel": 2.0509342328748223e-63,
+          "left_z_angle": 3.0695263010022905e-59,
+          "left_y_angle": 7.484418527238391e-22,
+          "left_x_angle": 1.4606106852938898e-17,
+          "right_x_travel": -4.2926603179180075e-19,
+          "right_y_travel": 0,
+          "right_z_travel": 0,
+          "right_z_angle": 0,
+          "right_y_angle": 0,
+          "right_x_angle": -1.4606106860107123e-17
+        },
+        "paused": true
+      },
+      "checkpoints": [],
+      "sha256": "ebaf100c97d1da63a64b405899ce53952780559c6469a947bad1975fb59c78fa",
+      "raw": {
+        "file": "probe-detail-raw.png",
+        "quality": {
+          "mode": "photo",
+          "generation": 4,
+          "ready": true,
+          "samples": 512,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 113,
+            "triangles": 628518,
+            "uvRemaps": 1,
+            "mixedUVMaterials": 0,
+            "prepareMs": 2965.600000023842,
+            "width": 1245,
+            "height": 1020,
+            "samples": 512,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        },
+        "sha256": "72323ee218ed55429aa72b50a6b79d087d5ae1552593fbcdcdd632ae86b6e3ba"
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "sources": {
+    "/app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+    "/studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796",
+    "/progressive-renderer.js": "6c022390035c7f6f3992c382102f3c11fd88edc5e6eb76713e5a9218dd9afcc2",
+    "/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1",
+    "/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85"
+  },
+  "graphics": {
+    "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "checked_utc": "2026-11-24T20:00:51.815Z"
+}

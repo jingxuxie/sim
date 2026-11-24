@@ -1,0 +1,45 @@
+{
+  "packages": {
+    "three-gpu-pathtracer": "0.0.23",
+    "three-mesh-bvh": "0.7.4"
+  },
+  "source": "https://registry.npmjs.org/",
+  "license": "MIT and embedded BSD-2-Clause denoiser; license files included",
+  "changes": [
+    "Relative module URLs point at the locally pinned Three.js r160, Pass.js and BVH module.",
+    "Pathtracer defaults missing Scene environment/background rotations to identity for Three r160 compatibility.",
+    "Unused source-map links removed.",
+    "Texture-array allocations expose their owning render target disposal hook for optional-view cleanup.",
+    "GPU triangle intersection retains dimensionless barycentric edge tolerance 1e-5 but uses separate metre-distance tolerance 1e-8, below the instrument renderer ray-origin bias 1e-6. This prevents backward self-intersections from blackening curved surfaces."
+  ],
+  "files": [
+    {
+      "file": "pathtracer.module.js",
+      "package": "three-gpu-pathtracer",
+      "upstream_file": "build/index.module.js",
+      "upstream_sha256": "ab9d976a596107b04ae4010be0e7e4fb3147b84dfee8536c7db9b7e69189548c",
+      "sha256": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85"
+    },
+    {
+      "file": "bvh.module.js",
+      "package": "three-mesh-bvh",
+      "upstream_file": "build/index.module.js",
+      "upstream_sha256": "56c4511480fcd0e3c3125a473ffdbf6f5e2a8d0d6ab23a869260c124cec62814",
+      "sha256": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1"
+    },
+    {
+      "file": "bvh.worker.js",
+      "package": "three-mesh-bvh",
+      "upstream_file": "src/workers/generateMeshBVH.worker.js",
+      "upstream_sha256": "bbb644cb7a94c8558eeb54a4f34c424fe05bb12c6b794b4279e258b276873d73",
+      "sha256": "acc8d97a32342bfa5fc37b4aa8f2c4e01452397070864920db4d429191c847a6"
+    }
+  ],
+  "third_party": {
+    "component": "glslSmartDeNoise in DenoiseMaterial (bundled by three-gpu-pathtracer)",
+    "source": "https://github.com/BrutPitt/glslSmartDeNoise/blob/master/license.txt",
+    "license": "BSD-2-Clause",
+    "license_file": "glslSmartDeNoise-LICENSE.txt",
+    "license_sha256": "21a3765a40bd9e5a32e66c1e21802528a7393b8e939f63dcf46a09fc4ac584e0"
+  }
+}

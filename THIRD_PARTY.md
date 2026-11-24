@@ -4,6 +4,9 @@
 | --- | --- | --- |
 | MuJoCo | Official `@mujoco/mujoco` 4.0.1, single-thread WebAssembly; https://github.com/google-deepmind/mujoco | [Apache 2.0](vendor/mujoco/LICENSE) |
 | Three.js and addons | r160 (0.160.0) | [MIT](vendor/three/THREE-LICENSE.txt) |
+| three-gpu-pathtracer | 0.0.23; https://github.com/gkjohnson/three-gpu-pathtracer | [MIT](vendor/pathtracer/three-gpu-pathtracer-LICENSE.txt) |
+| three-mesh-bvh | 0.7.4; https://github.com/gkjohnson/three-mesh-bvh | [MIT](vendor/pathtracer/three-mesh-bvh-LICENSE.txt) |
+| glslSmartDeNoise | Embedded display denoiser in three-gpu-pathtracer; https://github.com/BrutPitt/glslSmartDeNoise | [BSD 2-Clause](vendor/pathtracer/glslSmartDeNoise-LICENSE.txt) |
 | Pyodide | 0.28.3; https://github.com/pyodide/pyodide | [MPL 2.0](vendor/pyodide/LICENSE) |
 | NumPy | 2.2.5, official Pyodide wheel | BSD license and bundled notices inside the distributed wheel |
 | SciPy | 1.14.1, official Pyodide wheel | BSD license and bundled notices inside the distributed wheel |
@@ -14,7 +17,10 @@
 | Panda gripper geometry and inertials | MuJoCo Menagerie, pinned commit `eea4c7431b63da8278b0ff31638e0b0e941cec0e`; https://github.com/google-deepmind/mujoco_menagerie | [Apache 2.0](robotics/PANDA_LICENSE); [source fingerprints](robotics/PANDA_SOURCE.json) |
 
 The package hashes for Pyodide's libraries are recorded in
-`vendor/pyodide/pyodide-lock.json`. Dependencies are unmodified upstream distributions.
+`vendor/pyodide/pyodide-lock.json`. The path-tracing dependencies have small
+compatibility, local import, ray-intersection tolerance and resource-cleanup changes recorded with upstream
+and delivered hashes in [their manifest](vendor/pathtracer/manifest.json).
+Other dependencies are unmodified upstream distributions.
 Third-party licenses apply to those components independently of the instrument
 reconstructions. Product names identify the reference instruments; this project is
 not an OEM CAD release or manufacturer-endorsed simulator.

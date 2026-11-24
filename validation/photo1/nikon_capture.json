@@ -1,0 +1,171 @@
+{
+  "asset": "nikon",
+  "goal": 512,
+  "url": "http://127.0.0.1:18788/",
+  "started_utc": "2026-11-24T20:00:52.741Z",
+  "passed": true,
+  "views": [
+    {
+      "file": "nikon-overview.png",
+      "elapsed_ms": 142811,
+      "quality": {
+        "mode": "photo",
+        "generation": 3,
+        "ready": true,
+        "samples": 512,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 72,
+          "triangles": 447128,
+          "uvRemaps": 3,
+          "mixedUVMaterials": 0,
+          "prepareMs": 2379.4000000953674,
+          "width": 1245,
+          "height": 1020,
+          "samples": 512,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      },
+      "state": {
+        "q": {
+          "stage_z": -1.0423922578737642e-20,
+          "stage_y": 0,
+          "stage_x": 0,
+          "y_angle": 0,
+          "x_angle": 0,
+          "coarse_angle": 0,
+          "fine_angle": 0,
+          "turret_angle": 0,
+          "light_path_travel": 0.012
+        },
+        "paused": true
+      },
+      "checkpoints": [],
+      "sha256": "c34d7b605fcb23072e1ccdb139ed3aa5dc5220f55438940bebf26fde6102bd0e",
+      "raw": {
+        "file": "nikon-overview-raw.png",
+        "quality": {
+          "mode": "photo",
+          "generation": 3,
+          "ready": true,
+          "samples": 512,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 72,
+            "triangles": 447128,
+            "uvRemaps": 3,
+            "mixedUVMaterials": 0,
+            "prepareMs": 2379.4000000953674,
+            "width": 1245,
+            "height": 1020,
+            "samples": 512,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        },
+        "sha256": "f5df56be5826c9b2d639c3f35f4bc0fd136887d06c34fb67ba3b07fed404c21d"
+      }
+    },
+    {
+      "file": "nikon-detail.png",
+      "elapsed_ms": 146839,
+      "quality": {
+        "mode": "photo",
+        "generation": 4,
+        "ready": true,
+        "samples": 512,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 72,
+          "triangles": 447128,
+          "uvRemaps": 3,
+          "mixedUVMaterials": 0,
+          "prepareMs": 2379.4000000953674,
+          "width": 1245,
+          "height": 1020,
+          "samples": 512,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      },
+      "state": {
+        "q": {
+          "stage_z": -1.0423922578737642e-20,
+          "stage_y": 0,
+          "stage_x": 0,
+          "y_angle": 0,
+          "x_angle": 0,
+          "coarse_angle": 0,
+          "fine_angle": 0,
+          "turret_angle": 0,
+          "light_path_travel": 0.012
+        },
+        "paused": true
+      },
+      "checkpoints": [],
+      "sha256": "e07e2ab3ac731df06b02f984498b962dee694db472161023955cd907d8b66932",
+      "raw": {
+        "file": "nikon-detail-raw.png",
+        "quality": {
+          "mode": "photo",
+          "generation": 4,
+          "ready": true,
+          "samples": 512,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 72,
+            "triangles": 447128,
+            "uvRemaps": 3,
+            "mixedUVMaterials": 0,
+            "prepareMs": 2379.4000000953674,
+            "width": 1245,
+            "height": 1020,
+            "samples": 512,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        },
+        "sha256": "9c9b0ec591e927010a667115284bdd01c4e04b210416e1f2121b7eaaa4e5b3b3"
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "sources": {
+    "/app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+    "/studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796",
+    "/progressive-renderer.js": "6c022390035c7f6f3992c382102f3c11fd88edc5e6eb76713e5a9218dd9afcc2",
+    "/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85",
+    "/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1"
+  },
+  "graphics": {
+    "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "checked_utc": "2026-11-24T20:05:50.713Z"
+}

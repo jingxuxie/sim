@@ -42,11 +42,20 @@ for item in catalog['instruments']:
                 image = gltf['images'][gltf['textures'][texture['index']]['source']]
                 assert 'bufferView' in image and 'uri' not in image, (item['id'], 'external texture')
             assert not material['extras'].get('realism3_map_metadata', '').startswith('/'), item['id']
-for name in ('index.html', 'app.js', 'runtime.js', 'worker.js', 'physics.js', 'flexible-details.js', 'contact-overlay.js'):
+for name in ('index.html', 'app.js', 'runtime.js', 'worker.js', 'physics.js', 'flexible-details.js', 'contact-overlay.js', 'studio-renderer.js', 'progressive-renderer.js'):
     text = (ROOT/name).read_text()
     assert '/api/' not in text, name
     assert '/sdf/' not in text, name
     assert '="/' not in text, name
+photo_vendor = ROOT/'vendor/pathtracer'
+photo_manifest = json.loads((photo_vendor/'manifest.json').read_text())
+assert photo_manifest['packages'] == {'three-gpu-pathtracer': '0.0.23', 'three-mesh-bvh': '0.7.4'}
+for item in photo_manifest['files']:
+    assert '..' not in Path(item['file']).parts and not Path(item['file']).is_absolute()
+    assert hashlib.sha256((photo_vendor/item['file']).read_bytes()).hexdigest() == item['sha256'], item['file']
+for license_name in ('three-gpu-pathtracer-LICENSE.txt', 'three-mesh-bvh-LICENSE.txt'):
+    assert 'MIT' in (photo_vendor/license_name).read_text()
+assert (ROOT/'vendor/three/RectAreaLightUniformsLib.js').is_file()
 lock = json.loads((ROOT/'vendor/pyodide/pyodide-lock.json').read_text())
 for name in ('numpy', 'scipy', 'pillow', 'libopenblas'):
     pkg = lock['packages'][name]

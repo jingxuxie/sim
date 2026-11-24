@@ -1,0 +1,256 @@
+{
+  "started_utc": "2026-11-24T19:55:02.883Z",
+  "passed": true,
+  "models": [
+    {
+      "asset": "transfer",
+      "ms": 11614,
+      "quality": {
+        "mode": "photo",
+        "generation": 3,
+        "ready": true,
+        "samples": 8.1875,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 132,
+          "triangles": 1042586,
+          "uvRemaps": 6,
+          "mixedUVMaterials": 0,
+          "prepareMs": 5010.799999952316,
+          "width": 925,
+          "height": 820,
+          "samples": 8.1875,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      }
+    },
+    {
+      "asset": "nikon",
+      "ms": 7291,
+      "quality": {
+        "mode": "photo",
+        "generation": 7,
+        "ready": true,
+        "samples": 8.1875,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 72,
+          "triangles": 447128,
+          "uvRemaps": 3,
+          "mixedUVMaterials": 0,
+          "prepareMs": 2331.2999999523163,
+          "width": 925,
+          "height": 820,
+          "samples": 8.1875,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      }
+    },
+    {
+      "asset": "probe",
+      "ms": 7810,
+      "quality": {
+        "mode": "photo",
+        "generation": 11,
+        "ready": true,
+        "samples": 8.3125,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 113,
+          "triangles": 628518,
+          "uvRemaps": 1,
+          "mixedUVMaterials": 0,
+          "prepareMs": 2915.1999999284744,
+          "width": 925,
+          "height": 820,
+          "samples": 8.3125,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      }
+    },
+    {
+      "asset": "zeiss",
+      "ms": 7565,
+      "quality": {
+        "mode": "photo",
+        "generation": 15,
+        "ready": true,
+        "samples": 8.375,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 65,
+          "triangles": 537422,
+          "uvRemaps": 1,
+          "mixedUVMaterials": 0,
+          "prepareMs": 2623.7000000476837,
+          "width": 925,
+          "height": 820,
+          "samples": 8.375,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      }
+    },
+    {
+      "asset": "bonder",
+      "ms": 7540,
+      "quality": {
+        "mode": "photo",
+        "generation": 19,
+        "ready": true,
+        "samples": 8.4375,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 46,
+          "triangles": 517018,
+          "uvRemaps": 7,
+          "mixedUVMaterials": 0,
+          "prepareMs": 2587.6999999284744,
+          "width": 925,
+          "height": 820,
+          "samples": 8.4375,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      }
+    },
+    {
+      "asset": "afm",
+      "ms": 7378,
+      "quality": {
+        "mode": "photo",
+        "generation": 23,
+        "ready": true,
+        "samples": 8.375,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 75,
+          "triangles": 483092,
+          "uvRemaps": 8,
+          "mixedUVMaterials": 0,
+          "prepareMs": 2369.0999999046326,
+          "width": 925,
+          "height": 820,
+          "samples": 8.375,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      }
+    },
+    {
+      "asset": "tweezers",
+      "ms": 4965,
+      "quality": {
+        "mode": "photo",
+        "generation": 27,
+        "ready": true,
+        "samples": 8.1875,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 18,
+          "triangles": 40446,
+          "uvRemaps": 1,
+          "mixedUVMaterials": 0,
+          "prepareMs": 397.5,
+          "width": 925,
+          "height": 820,
+          "samples": 8.1875,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": true,
+          "photographicContrast": 1.28
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "sources": {
+    "/app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+    "/studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796",
+    "/progressive-renderer.js": "6c022390035c7f6f3992c382102f3c11fd88edc5e6eb76713e5a9218dd9afcc2",
+    "/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85",
+    "/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1"
+  },
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "extensions": [
+      "EXT_clip_control",
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_conservative_depth",
+      "EXT_depth_clamp",
+      "EXT_disjoint_timer_query_webgl2",
+      "EXT_float_blend",
+      "EXT_polygon_offset_clamp",
+      "EXT_render_snorm",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "EXT_texture_mirror_clamp_to_edge",
+      "EXT_texture_norm16",
+      "NV_shader_noperspective_interpolation",
+      "OES_draw_buffers_indexed",
+      "OES_sample_variables",
+      "OES_shader_multisample_interpolation",
+      "OES_texture_float_linear",
+      "OVR_multiview2",
+      "WEBGL_blend_func_extended",
+      "WEBGL_clip_cull_distance",
+      "WEBGL_compressed_texture_s3tc",
+      "WEBGL_compressed_texture_s3tc_srgb",
+      "WEBGL_debug_renderer_info",
+      "WEBGL_debug_shaders",
+      "WEBGL_lose_context",
+      "WEBGL_multi_draw",
+      "WEBGL_polygon_mode",
+      "WEBGL_stencil_texturing"
+    ],
+    "crossOriginIsolated": false
+  },
+  "checked_utc": "2026-11-24T19:55:57.731Z"
+}

@@ -1,0 +1,180 @@
+{
+  "url": "http://127.0.0.1:18789/",
+  "started_utc": "2026-11-24T19:57:04.197Z",
+  "checks": [
+    {
+      "check": "Gallery remains independent of path-tracing downloads",
+      "passed": true
+    },
+    {
+      "check": "Default live mode retains actual instrument geometry without ray-tracing cost",
+      "passed": true,
+      "view": {
+        "file": "quality-live-transfer.png",
+        "sha256": "af282c55f6bad25635fff08427f106fe217f3ef793085596cf54f2e28eb42c18",
+        "quality": {
+          "mode": "interactive",
+          "generation": 1,
+          "ready": false,
+          "samples": 0,
+          "limit": 512,
+          "preparing": false
+        }
+      }
+    },
+    {
+      "check": "Photo mode pauses physics and accumulates actual 3D samples with no still-image substitution",
+      "passed": true,
+      "ms": 48221,
+      "view": {
+        "file": "quality-photo-transfer.png",
+        "sha256": "9a7e97c09b7e0014d8d746822872ff938bbc1bf283fba18898b167b3d8064098",
+        "quality": {
+          "mode": "photo",
+          "generation": 3,
+          "ready": true,
+          "samples": 2.1875,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 132,
+            "triangles": 1042586,
+            "uvRemaps": 6,
+            "mixedUVMaterials": 0,
+            "prepareMs": 8075.600000143051,
+            "width": 925,
+            "height": 820,
+            "samples": 2.1875,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        }
+      }
+    },
+    {
+      "check": "Orbit resets accumulation and renders a different 3D viewpoint",
+      "passed": true,
+      "before": {
+        "mode": "photo",
+        "generation": 3,
+        "ready": true,
+        "samples": 2.1875,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 132,
+          "triangles": 1042586,
+          "uvRemaps": 6,
+          "mixedUVMaterials": 0,
+          "prepareMs": 8075.600000143051,
+          "width": 925,
+          "height": 820,
+          "samples": 2.1875,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": false,
+          "photographicContrast": 1.28
+        }
+      },
+      "dragged": {
+        "mode": "photo",
+        "generation": 19,
+        "ready": true,
+        "samples": 2.1875,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 132,
+          "triangles": 1042586,
+          "uvRemaps": 6,
+          "mixedUVMaterials": 0,
+          "prepareMs": 8075.600000143051,
+          "width": 925,
+          "height": 820,
+          "samples": 2.1875,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": false,
+          "photographicContrast": 1.28
+        }
+      },
+      "view": {
+        "file": "quality-photo-orbit.png",
+        "sha256": "2bd0a6e7e3ab6dd0efd8cd1ab4103c9cd5dfdd3881cb71436c2ed6c9ff9835f7",
+        "quality": {
+          "mode": "photo",
+          "generation": 111,
+          "ready": true,
+          "samples": 2.1875,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 132,
+            "triangles": 1042586,
+            "uvRemaps": 6,
+            "mixedUVMaterials": 0,
+            "prepareMs": 8075.600000143051,
+            "width": 925,
+            "height": 820,
+            "samples": 2.1875,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        }
+      }
+    },
+    {
+      "check": "An instrument command exits refinement, resumes live physics, and moves the stage",
+      "passed": true
+    },
+    {
+      "check": "Canceling refinement preserves a pause explicitly requested by the user",
+      "passed": true
+    },
+    {
+      "check": "Switching instruments disposes the previous photo scene and keeps live controls working",
+      "passed": true
+    },
+    {
+      "check": "No browser exceptions or failed HTTP responses",
+      "passed": true
+    },
+    {
+      "check": "Canceling before an automatic pause reply arrives restores live simulation",
+      "passed": true
+    },
+    {
+      "check": "module download failed falls back to interactive rendering and preserves pause intent",
+      "passed": true,
+      "error_banner_hidden": true
+    },
+    {
+      "check": "floating-point targets unavailable falls back to interactive rendering and preserves pause intent",
+      "passed": true,
+      "error_banner_hidden": true
+    },
+    {
+      "check": "Switching instruments during acceleration preparation cancels the previous scene safely",
+      "passed": true,
+      "error_banner_hidden": true
+    }
+  ],
+  "passed": true,
+  "checked_utc": "2026-11-24T20:00:14.645Z"
+}

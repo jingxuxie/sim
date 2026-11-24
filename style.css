@@ -15,3 +15,5 @@ a.card{display:block;text-decoration:none;color:inherit}
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #307b65;outline-offset:3px}
 
 .view-buttons select{width:auto;max-width:15rem;font-size:14px;background-color:#f7faf4ed}
+
+.render-quality{border-bottom:1px solid #d2dcd1;padding-bottom:14px;margin-bottom:20px}.render-quality .small{margin:8px 0 0}#render-quality-status{color:#315d48;min-height:1.5em}
