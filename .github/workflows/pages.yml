@@ -5,25 +5,45 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Validate portable bundle
         run: python3 scripts/check_bundle.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Wait for uploaded artifact metadata
+        uses: actions/github-script@v8
+        with:
+          script: |
+            for (let attempt = 0; attempt < 15; attempt++) {
+              const response = await github.rest.actions.listWorkflowRunArtifacts({
+                ...context.repo, run_id: context.runId
+              });
+              if (response.data.artifacts.some(a => a.name === 'github-pages' && !a.expired)) {
+                core.info('The Pages artifact is available.');
+                return;
+              }
+              await new Promise(resolve => setTimeout(resolve, 2000));
+            }
+            core.setFailed('The uploaded Pages artifact has not appeared in the API.');
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
