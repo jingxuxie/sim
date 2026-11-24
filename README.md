@@ -22,7 +22,7 @@ their own simulation; this is not a shared remote desktop or a recorded animatio
    **Full instrument / Working area** returns to the live 3D view.
 
 The gallery is lightweight and remains visible without JavaScript. Only the selected
-instrument is downloaded (about 1–40 MB of geometry). The runtime adds about 23 MB when you open an instrument; task policies and optical
+instrument is downloaded (about 5–44 MB including geometry and textures). The runtime adds about 23 MB when you open an instrument; task policies and optical
 imaging load another 20 MB on first use. These files are cached by the browser. Use a current desktop
 Chrome or Edge with WebAssembly and WebGL enabled. Complex optics
 and contacts can run slower than real time; the displayed clock is simulation time.
@@ -42,6 +42,28 @@ and contacts can run slower than real time; the displayed clock is simulation ti
 The 18 baselines are instrument-level fixture controllers, not learned robot policies.
 Success uses measured joint state, sites, contacts, force limits and held tolerances.
 The chip is a free body: contact and friction carry it, not a scripted position update.
+
+## Visual revision 3
+
+The Nikon now has a rounded, photo-referenced head, lavender fascia, separate
+binocular prisms, central Nikon bridge, hollow eyepieces with recessed glass,
+filter/shutter panel, detailed stage connectors, objective markings and revised
+cable/tape geometry. The filter/shutter buttons are visual details; the existing
+XY, focus, turret and camera/eye controls remain the active simulated mechanisms.
+
+All seven instruments now carry embedded color, roughness and normal textures,
+with directional metal finishes. The same maps drive Blender and the live view.
+The browser also has revised room reflections, contact shadows and tone mapping;
+the gallery links to new 3840 × 3200 overview renders and detailed close-ups.
+These changes improve the reconstruction's appearance; they do not establish
+photographic identity or calibrated material properties.
+
+Additional renders: [Nikon optical head](assets/nikon/optical_head.png),
+[operator view](assets/nikon/operator_view.png), [AFM door release](assets/afm/door_release.png),
+[open enclosure](assets/afm/open_scanner.png), and [scanner release](assets/afm/scanner_release.png).
+
+[Visual revision checks](validation/realism3.json) record the delivered asset
+hashes, texture checks, unchanged physics and final browser regression results.
 
 ## Implementation
 

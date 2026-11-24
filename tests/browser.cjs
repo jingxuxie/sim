@@ -62,7 +62,7 @@ const checks=[];
   await page.close();
   for(const scenario of ['javascript disabled','application unavailable','worker unavailable']){
    const p=await browser.newPage({javaScriptEnabled:scenario!=='javascript disabled'});
-   if(scenario==='application unavailable')await p.route('**/app.js',r=>r.abort());
+   if(scenario==='application unavailable')await p.route('**/app.js*',r=>r.abort());
    if(scenario==='worker unavailable')await p.route('**/worker.js',r=>r.abort());
    await p.goto(url,{waitUntil:'domcontentloaded'});await p.waitForSelector('.card');
    assert.equal(await p.locator('.card').count(),7);

@@ -1,8 +1,10 @@
 """Check that the static bundle is complete and deployable under a subpath."""
 import hashlib
 import json
+import struct
 from pathlib import Path
 import xml.etree.ElementTree as ET
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 catalog = json.loads((ROOT / 'catalog.json').read_text())
@@ -11,13 +13,31 @@ assert sum(len(x['tasks']) for x in catalog['instruments']) == 18
 for item in catalog['instruments']:
     for key in ('glb', 'preview', 'render', 'detail_render', 'physics', 'metadata'):
         assert item[key].startswith('./'), (item['id'], key)
-        assert (ROOT/item[key]).is_file(), (item['id'], key)
+        assert (ROOT/urlsplit(item[key]).path).is_file(), (item['id'], key)
     xml = ET.parse(ROOT/item['physics']).getroot()
     assert xml.find('compiler').get('inertiafromgeom') == 'false'
     assert float(xml.find('option').get('timestep')) == .001
     assert not list(xml.iter('mesh'))
     assert all('mesh' not in g.attrib for g in xml.iter('geom'))
-    assert (ROOT/item['glb']).read_bytes()[:4] == b'glTF'
+    data = (ROOT/item['glb']).read_bytes()
+    assert data[:4] == b'glTF'
+    gltf = json.loads(data[20:20 + struct.unpack_from('<I', data, 12)[0]])
+    finished = {i for i, material in enumerate(gltf['materials'])
+                if material.get('extras', {}).get('realism3_version')}
+    assert finished, (item['id'], 'portable surface finishes missing')
+    for mesh in gltf['meshes']:
+        for primitive in mesh['primitives']:
+            if primitive.get('material') not in finished:
+                continue
+            material = gltf['materials'][primitive['material']]
+            pbr = material['pbrMetallicRoughness']
+            # Check the actual exported maps and the UV set used by each draw.
+            for texture in (pbr['baseColorTexture'], pbr['metallicRoughnessTexture'], material['normalTexture']):
+                uv = texture.get('extensions', {}).get('KHR_texture_transform', {}).get('texCoord', texture.get('texCoord', 0))
+                assert 'TEXCOORD_' + str(uv) in primitive['attributes'], (item['id'], material['name'], uv)
+                image = gltf['images'][gltf['textures'][texture['index']]['source']]
+                assert 'bufferView' in image and 'uri' not in image, (item['id'], 'external texture')
+            assert not material['extras'].get('realism3_map_metadata', '').startswith('/'), item['id']
 for name in ('index.html', 'app.js', 'runtime.js', 'worker.js', 'physics.js'):
     text = (ROOT/name).read_text()
     assert '/api/' not in text, name

@@ -1,0 +1,64 @@
+{
+  "url": "http://127.0.0.1:18768/github-sim/",
+  "checked_utc": "2026-11-24T07:57:48.666Z",
+  "checks": [
+    {
+      "check": "Static gallery, all seven instruments, no eager runtime/model downloads",
+      "ms": 64,
+      "passed": true
+    },
+    {
+      "check": "Real Nikon stage motion and objective indexing, without cross-origin isolation",
+      "passed": true
+    },
+    {
+      "check": "Live microscope image; measured splitter routes light to eyepieces and blacks out camera",
+      "passed": true
+    },
+    {
+      "check": "Run baseline button executes a live task and reports measured success",
+      "passed": true
+    },
+    {
+      "check": "Pause, resume and return to responsive gallery",
+      "passed": true
+    },
+    {
+      "check": "transfer detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "probe detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "zeiss detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "bonder detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "afm detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "tweezers detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "javascript disabled leaves gallery accessible",
+      "passed": true
+    },
+    {
+      "check": "application unavailable leaves gallery accessible",
+      "passed": true
+    },
+    {
+      "check": "worker unavailable leaves gallery accessible",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

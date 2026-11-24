@@ -7,8 +7,8 @@
       "folder": "000",
       "model": "e1000",
       "glb": "./assets/nikon/model.glb",
-      "preview": "./assets/nikon/preview.jpg",
-      "size": 9539316,
+      "preview": "./assets/nikon/preview.jpg?v=realism3",
+      "size": 30841116,
       "controls": [],
       "links": {},
       "tasks": [
@@ -51,8 +51,8 @@
           "baseline": "image fiducial feedback"
         }
       ],
-      "render": "./assets/nikon/render.png",
-      "detail_render": "./assets/nikon/detail.png",
+      "render": "./assets/nikon/render.png?v=realism3",
+      "detail_render": "./assets/nikon/detail.png?v=realism3",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -76,8 +76,8 @@
       "folder": "001_transfer_stage",
       "model": "transfer_station",
       "glb": "./assets/transfer/model.glb",
-      "preview": "./assets/transfer/preview.jpg",
-      "size": 41626104,
+      "preview": "./assets/transfer/preview.jpg?v=realism3",
+      "size": 43913652,
       "controls": [
         {
           "name": "Camera / eyepiece split",
@@ -1663,8 +1663,8 @@
           "tolerance_m": 0.00015
         }
       ],
-      "render": "./assets/transfer/render.png",
-      "detail_render": "./assets/transfer/detail.png",
+      "render": "./assets/transfer/render.png?v=realism3",
+      "detail_render": "./assets/transfer/detail.png?v=realism3",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -1688,8 +1688,8 @@
       "folder": "002_probe_station",
       "model": "probe_station",
       "glb": "./assets/probe/model.glb",
-      "preview": "./assets/probe/preview.jpg",
-      "size": 24635808,
+      "preview": "./assets/probe/preview.jpg?v=realism3",
+      "size": 26931044,
       "controls": [
         {
           "name": "Eyepiece / camera path",
@@ -3532,8 +3532,8 @@
           "tolerance_m": 8e-05
         }
       ],
-      "render": "./assets/probe/render.png",
-      "detail_render": "./assets/probe/detail.png",
+      "render": "./assets/probe/render.png?v=realism3",
+      "detail_render": "./assets/probe/detail.png?v=realism3",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -3557,8 +3557,8 @@
       "folder": "003_zeiss",
       "model": "zeiss_upright",
       "glb": "./assets/zeiss/model.glb",
-      "preview": "./assets/zeiss/preview.jpg",
-      "size": 12675840,
+      "preview": "./assets/zeiss/preview.jpg?v=realism3",
+      "size": 18076484,
       "controls": [
         {
           "name": "Stage focus",
@@ -4738,8 +4738,8 @@
           "requires_finish": true
         }
       ],
-      "render": "./assets/zeiss/render.png",
-      "detail_render": "./assets/zeiss/detail.png",
+      "render": "./assets/zeiss/render.png?v=realism3",
+      "detail_render": "./assets/zeiss/detail.png?v=realism3",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -4763,8 +4763,8 @@
       "folder": "004_wire_bonder",
       "model": "wire_bonder",
       "glb": "./assets/bonder/model.glb",
-      "preview": "./assets/bonder/preview.jpg",
-      "size": 11443988,
+      "preview": "./assets/bonder/preview.jpg?v=realism3",
+      "size": 21090584,
       "controls": [
         {
           "name": "Stereo focus",
@@ -5475,8 +5475,8 @@
           "tolerance_m": 0.0002
         }
       ],
-      "render": "./assets/bonder/render.png",
-      "detail_render": "./assets/bonder/detail.png",
+      "render": "./assets/bonder/render.png?v=realism3",
+      "detail_render": "./assets/bonder/detail.png?v=realism3",
       "specimen_camera": false,
       "physics": "./assets/bonder/physics.xml",
       "metadata": "./assets/bonder/metadata.json"
@@ -5487,8 +5487,8 @@
       "folder": "005_afm",
       "model": "cypher_s",
       "glb": "./assets/afm/model.glb",
-      "preview": "./assets/afm/preview.jpg",
-      "size": 14802468,
+      "preview": "./assets/afm/preview.jpg?v=realism3",
+      "size": 20161220,
       "controls": [
         {
           "name": "Door release",
@@ -6693,8 +6693,8 @@
           "seconds": 20
         }
       ],
-      "render": "./assets/afm/render.png",
-      "detail_render": "./assets/afm/detail.png",
+      "render": "./assets/afm/render.png?v=realism3",
+      "detail_render": "./assets/afm/detail.png?v=realism3",
       "specimen_camera": false,
       "physics": "./assets/afm/physics.xml",
       "metadata": "./assets/afm/metadata.json"
@@ -6705,8 +6705,8 @@
       "folder": "006_tweezers",
       "model": "spring_tweezers",
       "glb": "./assets/tweezers/model.glb",
-      "preview": "./assets/tweezers/preview.jpg",
-      "size": 1278676,
+      "preview": "./assets/tweezers/preview.jpg?v=realism3",
+      "size": 5166188,
       "controls": [
         {
           "name": "Jaw Left",
@@ -8981,8 +8981,8 @@
           "tolerance_m": 0.001
         }
       ],
-      "render": "./assets/tweezers/render.png",
-      "detail_render": "./assets/tweezers/detail.png",
+      "render": "./assets/tweezers/render.png?v=realism3",
+      "detail_render": "./assets/tweezers/detail.png?v=realism3",
       "specimen_camera": false,
       "physics": "./assets/tweezers/physics.xml",
       "metadata": "./assets/tweezers/metadata.json"

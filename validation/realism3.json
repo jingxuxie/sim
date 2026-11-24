@@ -1,0 +1,505 @@
+{
+  "revision": "realism3",
+  "checked_utc": "2026-11-24T08:11:34.183906+00:00",
+  "baseline_commit": "0fcf37af5c1f6aee83750811a8c9aa130be75c38",
+  "assets": [
+    {
+      "id": "nikon",
+      "scene_sha256": "659bfb458fe729b613298881879083e9cdc35092216a8957cb6087de586f0fb7",
+      "glb_sha256": "7f4db3fc874352a0eacabb75ec96c8acdf99cded3edbdcc2b3fae7bf59e81b0c",
+      "glb_bytes": 30841116,
+      "renders": [
+        {
+          "file": "lab_view.png",
+          "camera": "01 | Lab side",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "samples": 256,
+          "sha256": "863cd4b89bea7386e71aea3c2844fd9ad24c830fb279d92111d289dcbb8c8a5e"
+        },
+        {
+          "file": "operator_view.png",
+          "camera": "02 | Operator view",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "0f7428c902afff774e18e17f1db76c02c5acd56dce83505fb1f443e83f65c486"
+        },
+        {
+          "file": "controls.png",
+          "camera": "03 | Mechanics",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "8bd18a7e1542c533df7aca11156eb8c161f8bad8d7c9978454b55950d2a23816"
+        },
+        {
+          "file": "optical_head.png",
+          "camera": "04 | Optical head",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "8df7e26c7b87531425d1be8435708d18ae01976a2b3a9053e963b28e24980ef9"
+        }
+      ],
+      "texture_validation": {
+        "embedded_images": 32,
+        "finished_material_variants": 20,
+        "maximum_source_map_pixel_error": 0,
+        "uv_bindings_and_repeat_samplers_verified": true
+      },
+      "glb": "assets/nikon/model.glb"
+    },
+    {
+      "id": "transfer",
+      "scene_sha256": "1087751dd1537643c09f8eb622edba5b50c418566ef070b233bc6903236fc3c8",
+      "glb_sha256": "e9e4cb15fede42fb7bbae927a60e56459c48ba3899fd998031bc04728477aeef",
+      "glb_bytes": 43913652,
+      "renders": [
+        {
+          "file": "overview.png",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "samples": 256,
+          "sha256": "33058c9f0d26afb441c8e1f513d31935afda28bf2dba43a07d4c7157f7223e03"
+        },
+        {
+          "file": "mechanisms.png",
+          "camera": "mechanisms",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "3787428c6264d1a88c0a9314b8cfd93fdff3ff9533ca0dd976d9913942d87262"
+        }
+      ],
+      "texture_validation": {
+        "embedded_images": 32,
+        "finished_material_variants": 19,
+        "maximum_source_map_pixel_error": 0,
+        "uv_bindings_and_repeat_samplers_verified": true
+      },
+      "glb": "assets/transfer/model.glb"
+    },
+    {
+      "id": "probe",
+      "scene_sha256": "b523786ee12573d0ef41686077e478be79b8ffc27c5e0520e299aea6f350e30e",
+      "glb_sha256": "b68339e6f0d8538b05e21d0755865c6cc7a3ff3a32272aee16cdb1f68e5bd901",
+      "glb_bytes": 26931044,
+      "renders": [
+        {
+          "file": "overview.png",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "samples": 256,
+          "sha256": "a45e77fd6f52437fce1d60a088a168baed879d932d222ff0b693cbfdce9de2ed"
+        },
+        {
+          "file": "probing.png",
+          "camera": "probing",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "80755d255367d89a13513ea54b0f768538ce8cc9eabe460b4f426d1f1178a976"
+        }
+      ],
+      "texture_validation": {
+        "embedded_images": 30,
+        "finished_material_variants": 16,
+        "maximum_source_map_pixel_error": 0,
+        "uv_bindings_and_repeat_samplers_verified": true
+      },
+      "glb": "assets/probe/model.glb"
+    },
+    {
+      "id": "zeiss",
+      "scene_sha256": "82938839b1b2da4fc14dcd882c745c259465dc2476ecc1e6451a9fb6373e12dd",
+      "glb_sha256": "1bbf9c502dbd079c83c8420654c0a325d91b7790af7fa792fc1cec24afecec0a",
+      "glb_bytes": 18076484,
+      "renders": [
+        {
+          "file": "overview.png",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "samples": 256,
+          "sha256": "9e0d1f7333eade4b6d774df4336b789bf92a97b2f8245d042d3ea9be5f48cee3"
+        },
+        {
+          "file": "stage.png",
+          "camera": "stage",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "9afb6efb5d9344a092c61697b7f34390577401631387f4bc0d7c01db96cadc90"
+        }
+      ],
+      "texture_validation": {
+        "embedded_images": 30,
+        "finished_material_variants": 16,
+        "maximum_source_map_pixel_error": 0,
+        "uv_bindings_and_repeat_samplers_verified": true
+      },
+      "glb": "assets/zeiss/model.glb"
+    },
+    {
+      "id": "bonder",
+      "scene_sha256": "6efe8934ace553a7ca4352dd55176d2240b32ff3ee4b4d8eaf69f562e92f6075",
+      "glb_sha256": "371618b221961531149ca0e7e43fd846b9bc2a1c7f0ff162a19b5294bfd6d022",
+      "glb_bytes": 21090584,
+      "renders": [
+        {
+          "file": "overview.png",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "samples": 256,
+          "sha256": "efc27d5a70905b37ff6e5d2c157321e994ad34a9fcbc9acecce17bf034e43a78"
+        },
+        {
+          "file": "tool.png",
+          "camera": "tool",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "d7d0841f5e38d1eb02ec798fffc62b1c1152303bcdb3cb64adc570bc5d9a4c4a"
+        }
+      ],
+      "texture_validation": {
+        "embedded_images": 35,
+        "finished_material_variants": 20,
+        "maximum_source_map_pixel_error": 0,
+        "uv_bindings_and_repeat_samplers_verified": true
+      },
+      "glb": "assets/bonder/model.glb"
+    },
+    {
+      "id": "afm",
+      "scene_sha256": "def754ec7127a8ef83dc2fec46ae8df2765352660c271e7bcf30e03fe9b68b50",
+      "glb_sha256": "36b2b4438e51124d5ed774777c1b482c9ea57fa742531e7b79013fa3538e9747",
+      "glb_bytes": 20161220,
+      "renders": [
+        {
+          "file": "overview.png",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "samples": 256,
+          "sha256": "1209e5c4a98de63e6d951cd21fdc669cea9eff808545acdfdc9572bb0a058a0e"
+        },
+        {
+          "file": "front.png",
+          "camera": "front",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "0f241002bd120dfe75631b8654f32b4cd5dbc41b5bdf44d4b0fbc6213ef3b13c"
+        },
+        {
+          "file": "door_release.png",
+          "camera": "door_release_detail",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "1737819767093f84def4307459d66663284ddc9e7bd8685a0bbcfe13cd5d3e56"
+        },
+        {
+          "file": "open_scanner.png",
+          "camera": "front",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "e47b71be6336f780b07d276ca8327a435acac3bd7810ca212ba5f50714dc4100",
+          "pose_source_sha256": "8079f9b784acf215288a308a6a84f54eaab8d83e010efe815b30c9c723927460",
+          "pose_frame": 189
+        },
+        {
+          "file": "scanner_release.png",
+          "camera": "scanner_release_detail",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "80d8c2fbc415c7db3aa5221d7eb8f586d4c8188988f30a68bdaf151dbf8ba808",
+          "pose_source_sha256": "8079f9b784acf215288a308a6a84f54eaab8d83e010efe815b30c9c723927460",
+          "pose_frame": 189
+        }
+      ],
+      "texture_validation": {
+        "embedded_images": 34,
+        "finished_material_variants": 24,
+        "maximum_source_map_pixel_error": 0,
+        "uv_bindings_and_repeat_samplers_verified": true
+      },
+      "glb": "assets/afm/model.glb"
+    },
+    {
+      "id": "tweezers",
+      "scene_sha256": "409dc37681db36a971e75d67c9939f4aa7212f5c1dfbde18680d551a55d80613",
+      "glb_sha256": "f828eea774cedcb5cb470f7b7ca097d009e9958e632b542076a691703a4e7452",
+      "glb_bytes": 5166188,
+      "renders": [
+        {
+          "file": "overview.png",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "samples": 256,
+          "sha256": "774defe092cedbbe796217e2b32291a45b2b07f43c038ebc167f34f529fc1156"
+        },
+        {
+          "file": "tips.png",
+          "camera": "tips",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "samples": 192,
+          "sha256": "49f939d82dd89f3e3cf77a9de83f0a33e8574ff77a1c6600d242b21fe28e050f"
+        }
+      ],
+      "texture_validation": {
+        "embedded_images": 16,
+        "finished_material_variants": 6,
+        "maximum_source_map_pixel_error": 0,
+        "uv_bindings_and_repeat_samplers_verified": true
+      },
+      "glb": "assets/tweezers/model.glb"
+    }
+  ],
+  "scope": "Photo-referenced Nikon geometry, shared portable PBR finishes, live rendering and new presentation stills.",
+  "still_count": 19,
+  "overview_resolution": [
+    3840,
+    3200
+  ],
+  "browser": {
+    "passed": true,
+    "checks": 14,
+    "report": "realism3-browser.json"
+  },
+  "final_nikon_browser": {
+    "passed": true,
+    "checks": 8,
+    "report": "realism3-nikon-browser.json",
+    "note": "Focused rerun after the final cast-shell normal/bevel correction; other six models unchanged."
+  },
+  "source_fingerprints": {
+    "app.js": "ad3a70570198f41d379c04c754587e10b05b28f2f3860fe3f283e193bd44e9c0",
+    "studio-renderer.js": "8999d687b24a7dadb170c316a89dfa67bb6fb524c9b7feb1af847a066d27bc8e"
+  },
+  "unchanged_simulation_files": [
+    {
+      "file": "runtime.js",
+      "sha256": "aeb603d831f90b2de4a98e84ff9b8bebfaaac4fa78bc44737a04e0484db47fa1"
+    },
+    {
+      "file": "worker.js",
+      "sha256": "a9aa01bbbfa0992b42568964d748787a76e7ec50fa1401d5d790e69fdcc07ab5"
+    },
+    {
+      "file": "physics.js",
+      "sha256": "412382c51340ce221b7a9bee7fe78bd23dcd3e7598bdbacff11a1aa41027064b"
+    },
+    {
+      "file": "python/session.py",
+      "sha256": "4bbb089539b94e3debfb56174ec475f0e98408f254c49dfadb2caeab1a7b030f"
+    },
+    {
+      "file": "python/sim.py",
+      "sha256": "65580f8378f32014a755763e9eab894c08360debde3934ed9f483a6cc882ae11"
+    },
+    {
+      "file": "python/optics.py",
+      "sha256": "d2db3d8195f7e5e540e364e7d87cb76bcb26bdafb53d14903c21452aa06151c0"
+    },
+    {
+      "file": "python/tasks.py",
+      "sha256": "2d80743c53718bf9baac24a12c52740e6e569e49ae930e993b59ceb3c30ae022"
+    },
+    {
+      "file": "python/imaging.py",
+      "sha256": "6350747255518579391a4a1f7519593120958532c1350c1a8cab1035745af675"
+    },
+    {
+      "file": "assets/afm/physics.xml",
+      "sha256": "2b5c9c6414990d83e9c9fcda408df301d1274f9c6f5ef4bee4939a0c171e6d0c"
+    },
+    {
+      "file": "assets/transfer/physics.xml",
+      "sha256": "771e724d803f6aacc09d50318cff1d4952641f301ff55d078db1b92db48f71cb"
+    },
+    {
+      "file": "assets/bonder/physics.xml",
+      "sha256": "ad64dcaf486726cf992956bbb4bf98bc3b81adfd2026e5ae77463da957d3eb2a"
+    },
+    {
+      "file": "assets/zeiss/physics.xml",
+      "sha256": "4bb627799b4b0bf1e1d8315a581e844297a107115ee049b09745c46a11c4f62c"
+    },
+    {
+      "file": "assets/tweezers/physics.xml",
+      "sha256": "43c5969fd5cdef0b1682b89655812c267b822d286daf0580a8266e50c1d40808"
+    },
+    {
+      "file": "assets/nikon/physics.xml",
+      "sha256": "b5b8c9e5dbd3f9077bfc8726e94828b7723b6eb5b18480f5d3029d379e76c4ee"
+    },
+    {
+      "file": "assets/probe/physics.xml",
+      "sha256": "9d2e8a5c2cb4ef8b6bcbf31b3a9a7bdc8e6d459875c3199a3a343d497f71dabe"
+    },
+    {
+      "file": "assets/afm/metadata.json",
+      "sha256": "f2df4a7bb6a774e4b38365d37e4004d6c46e22dcc0668e0cd26f51a2d01e1fe7"
+    },
+    {
+      "file": "assets/transfer/metadata.json",
+      "sha256": "2b22e515a4d83d6643713b33d10fc577b6c23ca9faf2f59765e25eacbfa4dd46"
+    },
+    {
+      "file": "assets/bonder/metadata.json",
+      "sha256": "809d0bb9245cb9af1027108c080ebe31b66d6970645f33cf2faba848b575511a"
+    },
+    {
+      "file": "assets/zeiss/metadata.json",
+      "sha256": "a35f377a165d2d1c7d7637980a20f84d7a7d4824d94d565d70ded2c6a271e4c2"
+    },
+    {
+      "file": "assets/tweezers/metadata.json",
+      "sha256": "0ddbdf631ae37521861b9537b858a8ac0680354bd71ba8926a9f47f9651e7f0e"
+    },
+    {
+      "file": "assets/nikon/metadata.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "file": "assets/probe/metadata.json",
+      "sha256": "e2012a889565d37d0950575631f7f5eaf8a86da8d99c31b5c6bc1927532e0b0f"
+    }
+  ],
+  "nikon_geometry_preservation": {
+    "links": {
+      "before_count": 11,
+      "after_count": 11,
+      "equal": true,
+      "changed": []
+    },
+    "interfaces": {
+      "before_count": 6,
+      "after_count": 6,
+      "equal": true,
+      "changed": []
+    },
+    "front_glasses": {
+      "before_count": 4,
+      "after_count": 4,
+      "equal": true,
+      "changed": []
+    }
+  },
+  "native_nikon_physics_unchanged": {
+    "physical_model_unchanged": true,
+    "physical_signature": "ec5d6683baa8a6a6b98aa232166c61bb7dd2bd9e9ee26e0b1e9c18d85880e6d2",
+    "visual_mesh_groups": 71
+  },
+  "renderer_lifecycle": [
+    {
+      "check": "Paused instrument performs no repeated rendering or contact-shadow work",
+      "frames": 6,
+      "contact_updates": 2,
+      "passed": true
+    },
+    {
+      "check": "Measured handle motion reaches rendered transforms and refreshes contact shadows",
+      "translation_m": 0.019980958178700853,
+      "contact_updates": 1,
+      "passed": true
+    },
+    {
+      "check": "Overview AO projection matches camera",
+      "near": 0.015429140061140061,
+      "passed": true
+    },
+    {
+      "check": "Working-area zoom updates near plane and AO projection",
+      "near": 0.006943113027513028,
+      "passed": true
+    },
+    {
+      "check": "Viewport resizing updates both projection matrices",
+      "near": 0.006943113027513028,
+      "passed": true
+    },
+    {
+      "check": "Repeated switches release model geometry and texture allocations",
+      "bonder": [
+        {
+          "geometries": 47,
+          "textures": 51
+        },
+        {
+          "geometries": 47,
+          "textures": 51
+        }
+      ],
+      "tweezers": [
+        {
+          "geometries": 19,
+          "textures": 32
+        },
+        {
+          "geometries": 19,
+          "textures": 32
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Leaving during a delayed model download aborts it without replacing the next instrument or leaking allocations",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Dimensions, hidden construction and material properties remain estimates.",
+    "Nikon filter/shutter fascia buttons are visual details; active mechanism scope is unchanged.",
+    "The previous motion videos retain revision 2 artwork; this release refreshes live models and stills.",
+    "Visual review is qualitative; no numerical photorealism or hardware-calibration claim is made."
+  ]
+}
