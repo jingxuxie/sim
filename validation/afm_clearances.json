@@ -1,0 +1,614 @@
+{
+  "revision": "realism4",
+  "source_sha256": "f9473a2e4f9554bc90f9524658d2da6c596224eda87eae53ff870f1c009edbc7",
+  "drawer_samples": [
+    {
+      "travel_m": 0.0,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.005,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.01,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.015,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.02,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.025,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.03,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.034999999999999996,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.04,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.045,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.05,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.055,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.06,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.065,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.06999999999999999,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.075,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.08,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.08499999999999999,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.09,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.095,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.1,
+      "intersections": []
+    },
+    {
+      "travel_m": 0.10500000000000001,
+      "intersections": []
+    }
+  ],
+  "scanner_release_samples": [
+    {
+      "angle_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.09642857142857143,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.19285714285714287,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.2892857142857143,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.38571428571428573,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.48214285714285715,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.5785714285714286,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.675,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.7714285714285715,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.8678571428571429,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.9642857142857143,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.0607142857142857,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.1571428571428573,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.2535714285714286,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.35,
+      "intersections": []
+    }
+  ],
+  "door_samples": [
+    {
+      "angle_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.1,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.2,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.3,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.4,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.5,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.6,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.7,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.8,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.9,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.0,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.1,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.2,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.3,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.4,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.5,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.6,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.7,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.8,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.9,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.0,
+      "intersections": []
+    }
+  ],
+  "door_release_samples": [
+    {
+      "angle_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.09642857142857143,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.19285714285714287,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.2892857142857143,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.38571428571428573,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.48214285714285715,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.5785714285714286,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.675,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.7714285714285715,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.8678571428571429,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.9642857142857143,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.0607142857142857,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.1571428571428573,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.2535714285714286,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.35,
+      "intersections": []
+    }
+  ],
+  "inspected_drawer_parts": [
+    "Drawer silver underpan",
+    "Handle concealed fixing head",
+    "Handle concealed fixing hex recess",
+    "Handle concealed fixing head.001",
+    "Handle concealed fixing hex recess.001",
+    "Drawer lower dovetail",
+    "Drawer side coupling plate",
+    "Scanner side fixing head",
+    "Scanner side fixing hex recess",
+    "Scanner side fixing head.001",
+    "Scanner side fixing hex recess.001",
+    "Drawer lower dovetail.001",
+    "Drawer side coupling plate.001",
+    "Scanner side fixing head.002",
+    "Scanner side fixing hex recess.002",
+    "Scanner side fixing head.003",
+    "Scanner side fixing hex recess.003",
+    "Scanner connector collar",
+    "Scanner connector knurled retainer",
+    "Scanner connector hub",
+    "Cypher S badge surround",
+    "Cypher S badge",
+    "Accessory socket block",
+    "USB socket outer",
+    "USB socket inner",
+    "USB plastic tongue",
+    "USB spring contact",
+    "USB spring contact.001",
+    "USB spring contact.002",
+    "USB spring contact.003",
+    "Accessory block screw head",
+    "Accessory block screw hex recess",
+    "Accessory block screw head.001",
+    "Accessory block screw hex recess.001",
+    "Cantilever docking socket",
+    "Cantilever dovetail rail",
+    "Cantilever dovetail rail.001",
+    "Scanner formed front skin",
+    "Scanner folded side skin",
+    "Scanner folded skin return",
+    "Scanner folded side skin.001",
+    "Scanner folded skin return.001",
+    "Scanner rear service panel",
+    "Scanner rear service fixing head",
+    "Scanner rear service fixing hex recess",
+    "Scanner rear service fixing head.001",
+    "Scanner rear service fixing hex recess.001",
+    "Scanner rear service fixing head.002",
+    "Scanner rear service fixing hex recess.002",
+    "Scanner rear service fixing head.003",
+    "Scanner rear service fixing hex recess.003",
+    "Scanner top rolled front lip",
+    "Scanner deck machined plate",
+    "Scanner deck edge seam",
+    "Asymmetric scanner working plate",
+    "Working plate captive fixing countersink",
+    "Working plate captive fixing recessed hex",
+    "Working plate captive fixing countersink.001",
+    "Working plate captive fixing recessed hex.001",
+    "Working plate captive fixing countersink.002",
+    "Working plate captive fixing recessed hex.002",
+    "Working plate captive fixing countersink.003",
+    "Working plate captive fixing recessed hex.003",
+    "Working plate captive fixing countersink.004",
+    "Working plate captive fixing recessed hex.004",
+    "Working plate captive fixing countersink.005",
+    "Working plate captive fixing recessed hex.005",
+    "Deck corner fixing countersink",
+    "Deck corner fixing recessed hex",
+    "Deck corner fixing countersink.001",
+    "Deck corner fixing recessed hex.001",
+    "Deck corner fixing countersink.002",
+    "Deck corner fixing recessed hex.002",
+    "Deck corner fixing countersink.003",
+    "Deck corner fixing recessed hex.003",
+    "Deck threaded accessory bore",
+    "Accessory bore dark floor",
+    "Deck threaded accessory bore.001",
+    "Accessory bore dark floor.001",
+    "Deck threaded accessory bore.002",
+    "Accessory bore dark floor.002",
+    "Machined sample socket rim",
+    "Sample socket recessed floor",
+    "Sample socket witness ring",
+    "Scanner cast pull handle",
+    "Handle recessed mounting bridge",
+    "Handle machined ear land",
+    "Handle recessed mounting bridge.001",
+    "Handle machined ear land.001",
+    "Handle rear shadow cavity",
+    "Drawer guide moving bearing land",
+    "Drawer guide moving bearing land.001",
+    "Drawer guide wiper",
+    "Drawer guide moving rear stop",
+    "Drawer guide moving bearing land.002",
+    "Drawer guide moving bearing land.003",
+    "Drawer guide wiper.001",
+    "Drawer guide moving rear stop.001",
+    "Connector retainer thrust washer",
+    "Connector mating thread crest",
+    "Connector mating thread crest.001",
+    "Connector mating thread crest.002",
+    "Scanner USB rolled shield",
+    "USB shell retention dimple",
+    "USB shell retention dimple.001",
+    "Triangular laser notice border.001",
+    "Triangular laser notice yellow field.001",
+    "Laser warning beam center.001",
+    "Laser warning radial beam.008",
+    "Laser warning radial beam.009",
+    "Laser warning radial beam.010",
+    "Laser warning radial beam.011",
+    "Laser warning radial beam.012",
+    "Laser warning radial beam.013",
+    "Laser warning radial beam.014",
+    "Laser warning radial beam.015"
+  ],
+  "fixed_parts": [
+    "Brushed interior side",
+    "Brushed interior side.001",
+    "Acoustic mesh backing",
+    "Acoustic mesh horizontal strand",
+    "Acoustic mesh horizontal strand.001",
+    "Acoustic mesh horizontal strand.002",
+    "Acoustic mesh horizontal strand.003",
+    "Acoustic mesh horizontal strand.004",
+    "Acoustic mesh horizontal strand.005",
+    "Acoustic mesh horizontal strand.006",
+    "Acoustic mesh horizontal strand.007",
+    "Acoustic mesh horizontal strand.008",
+    "Acoustic mesh horizontal strand.009",
+    "Acoustic mesh horizontal strand.010",
+    "Acoustic mesh horizontal strand.011",
+    "Acoustic mesh horizontal strand.012",
+    "Acoustic mesh horizontal strand.013",
+    "Acoustic mesh horizontal strand.014",
+    "Acoustic mesh horizontal strand.015",
+    "Acoustic mesh horizontal strand.016",
+    "Acoustic mesh horizontal strand.017",
+    "Acoustic mesh horizontal strand.018",
+    "Acoustic mesh horizontal strand.019",
+    "Acoustic mesh horizontal strand.020",
+    "Acoustic mesh horizontal strand.021",
+    "Acoustic mesh horizontal strand.022",
+    "Acoustic mesh horizontal strand.023",
+    "Acoustic mesh horizontal strand.024",
+    "Acoustic mesh horizontal strand.025",
+    "Acoustic mesh horizontal strand.026",
+    "Acoustic mesh horizontal strand.027",
+    "Acoustic mesh horizontal strand.028",
+    "Acoustic mesh horizontal strand.029",
+    "Acoustic mesh horizontal strand.030",
+    "Acoustic mesh horizontal strand.031",
+    "Acoustic mesh horizontal strand.032",
+    "Acoustic mesh horizontal strand.033",
+    "Acoustic mesh horizontal strand.034",
+    "Acoustic mesh horizontal strand.035",
+    "Acoustic mesh horizontal strand.036",
+    "Acoustic mesh horizontal strand.037",
+    "Acoustic mesh horizontal strand.038",
+    "Acoustic mesh horizontal strand.039",
+    "Acoustic mesh horizontal strand.040",
+    "Acoustic mesh horizontal strand.041",
+    "Acoustic mesh horizontal strand.042",
+    "Acoustic mesh horizontal strand.043",
+    "Acoustic mesh horizontal strand.044",
+    "Acoustic mesh horizontal strand.045",
+    "Acoustic mesh horizontal strand.046",
+    "Acoustic mesh horizontal strand.047",
+    "Acoustic mesh horizontal strand.048",
+    "Acoustic mesh horizontal strand.049",
+    "Acoustic mesh horizontal strand.050",
+    "Acoustic mesh horizontal strand.051",
+    "Acoustic mesh horizontal strand.052",
+    "Acoustic mesh horizontal strand.053",
+    "Acoustic mesh horizontal strand.054",
+    "Acoustic mesh horizontal strand.055",
+    "Acoustic mesh horizontal strand.056",
+    "Acoustic mesh horizontal strand.057",
+    "Acoustic mesh horizontal strand.058",
+    "Acoustic mesh horizontal strand.059",
+    "Acoustic mesh horizontal strand.060",
+    "Acoustic mesh horizontal strand.061",
+    "Acoustic mesh horizontal strand.062",
+    "Acoustic mesh horizontal strand.063",
+    "Acoustic mesh horizontal strand.064",
+    "Acoustic mesh horizontal strand.065",
+    "Acoustic mesh horizontal strand.066",
+    "Acoustic mesh horizontal strand.067",
+    "Acoustic mesh horizontal strand.068",
+    "Acoustic mesh horizontal strand.069",
+    "Acoustic mesh horizontal strand.070",
+    "Acoustic mesh horizontal strand.071",
+    "Acoustic mesh horizontal strand.072",
+    "Acoustic mesh horizontal strand.073",
+    "Acoustic mesh horizontal strand.074",
+    "Acoustic mesh horizontal strand.075",
+    "Acoustic mesh horizontal strand.076",
+    "Acoustic mesh horizontal strand.077",
+    "Acoustic mesh horizontal strand.078",
+    "Acoustic mesh horizontal strand.079",
+    "Acoustic mesh vertical strand",
+    "Acoustic mesh vertical strand.001",
+    "Acoustic mesh vertical strand.002",
+    "Acoustic mesh vertical strand.003",
+    "Acoustic mesh vertical strand.004",
+    "Acoustic mesh vertical strand.005",
+    "Acoustic mesh vertical strand.006",
+    "Acoustic mesh vertical strand.007",
+    "Acoustic mesh vertical strand.008",
+    "Acoustic mesh vertical strand.009",
+    "Acoustic mesh vertical strand.010",
+    "Acoustic mesh vertical strand.011",
+    "Acoustic mesh vertical strand.012",
+    "Acoustic mesh vertical strand.013",
+    "Acoustic mesh vertical strand.014",
+    "Acoustic mesh vertical strand.015",
+    "Acoustic mesh vertical strand.016",
+    "Acoustic mesh vertical strand.017",
+    "Acoustic mesh vertical strand.018",
+    "Acoustic mesh vertical strand.019",
+    "Acoustic mesh vertical strand.020",
+    "Acoustic mesh vertical strand.021",
+    "Acoustic mesh vertical strand.022",
+    "Acoustic mesh vertical strand.023",
+    "Acoustic mesh vertical strand.024",
+    "Acoustic mesh vertical strand.025",
+    "Acoustic mesh vertical strand.026",
+    "Acoustic mesh vertical strand.027",
+    "Acoustic mesh vertical strand.028",
+    "Acoustic mesh vertical strand.029",
+    "Acoustic mesh vertical strand.030",
+    "Acoustic mesh vertical strand.031",
+    "Acoustic mesh vertical strand.032",
+    "Acoustic mesh vertical strand.033",
+    "Acoustic mesh vertical strand.034",
+    "Acoustic mesh vertical strand.035",
+    "Acoustic mesh vertical strand.036",
+    "Acoustic mesh vertical strand.037",
+    "Acoustic mesh vertical strand.038",
+    "Acoustic mesh vertical strand.039",
+    "Acoustic mesh vertical strand.040",
+    "Acoustic mesh vertical strand.041",
+    "Acoustic mesh vertical strand.042",
+    "Acoustic mesh vertical strand.043",
+    "Acoustic mesh vertical strand.044",
+    "Acoustic mesh vertical strand.045",
+    "Acoustic mesh vertical strand.046",
+    "Acoustic mesh vertical strand.047",
+    "Acoustic mesh vertical strand.048",
+    "Acoustic mesh vertical strand.049",
+    "Acoustic mesh vertical strand.050",
+    "Acoustic mesh vertical strand.051",
+    "Acoustic mesh vertical strand.052",
+    "Acoustic mesh vertical strand.053",
+    "Acoustic mesh vertical strand.054",
+    "Acoustic mesh vertical strand.055",
+    "Acoustic mesh vertical strand.056",
+    "Acoustic mesh vertical strand.057",
+    "Acoustic mesh vertical strand.058",
+    "Acoustic mesh vertical strand.059",
+    "Scanner gantry foot",
+    "Machined vertical column",
+    "Engage guide polished strip",
+    "Engage guide polished strip.001",
+    "Engage guide central slot",
+    "Scanner docking stanchion",
+    "Docking stanchion upper shoulder",
+    "Docking foot raised front",
+    "Scanner gantry foot.001",
+    "Machined vertical column.001",
+    "Engage guide polished strip.002",
+    "Engage guide polished strip.003",
+    "Engage guide central slot.001",
+    "Scanner docking stanchion.001",
+    "Docking stanchion upper shoulder.001",
+    "Docking foot raised front.001",
+    "Drawer rail",
+    "Dovetail rail wearing land",
+    "Dovetail rail wearing land.001",
+    "Rear rail end stop",
+    "Drawer rail.001",
+    "Dovetail rail wearing land.002",
+    "Dovetail rail wearing land.003",
+    "Rear rail end stop.001",
+    "Formed acoustic side skin",
+    "Formed acoustic side skin.001",
+    "Stepped engage column cover",
+    "Column lower cover seam",
+    "Stepped engage column cover.001",
+    "Column lower cover seam.001",
+    "Optical head lower cross casting",
+    "Fixed guide channel wall",
+    "Fixed guide channel wall.001",
+    "Fixed guide front end cover",
+    "Fixed guide channel wall.002",
+    "Fixed guide channel wall.003",
+    "Fixed guide front end cover.001",
+    "Scanner connector stationary socket",
+    "Scanner connector socket face"
+  ],
+  "samples_with_intersections": {
+    "drawer_samples": 0,
+    "scanner_release_samples": 0,
+    "door_samples": 0,
+    "door_release_samples": 0
+  },
+  "passed": true,
+  "scope": "Discrete triangle-surface intersection sweeps for drawer/release parts and adjacent fixed castings, rails and covers. Bearing spindle/cam engagement and compressed gaskets are excluded; no continuous-time clearance claim."
+}

@@ -182,7 +182,7 @@
           "size_mm": [
             39.0,
             36.0,
-            4.5
+            4.75
           ],
           "axis": [
             0,
@@ -196,12 +196,12 @@
           "pos_mm": [
             0,
             -87,
-            94.8
+            93
           ],
           "size_mm": [
-            24.5,
-            4.0,
-            3.2
+            14,
+            11.5,
+            1.25
           ],
           "axis": [
             0,
@@ -401,14 +401,14 @@
           "name": "Tool yoke cheek",
           "type": "box",
           "pos_mm": [
-            -23,
+            -26,
             -3,
-            19
+            20
           ],
           "size_mm": [
-            3.5,
+            3.0,
             3,
-            17
+            18
           ],
           "axis": [
             0,
@@ -420,14 +420,14 @@
           "name": "Tool yoke cheek",
           "type": "box",
           "pos_mm": [
-            23,
+            26,
             -3,
-            19
+            20
           ],
           "size_mm": [
-            3.5,
+            3.0,
             3,
-            17
+            18
           ],
           "axis": [
             0,
@@ -441,7 +441,26 @@
           "pos_mm": [
             0,
             -3,
-            34
+            35
+          ],
+          "size_mm": [
+            28,
+            3,
+            3
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Tool yoke lower bar",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -3,
+            4
           ],
           "size_mm": [
             25,
@@ -719,7 +738,15 @@
     }
   ],
   "identity": "West\u00b7Bond 7700-series architecture; exact installed D/E suffix and convertible head unverified",
-  "reconstruction": "Upper central tip head and lower-right hand lever reconstructed as separate assemblies from lab photos 265, 267 and 268, checked against West\u00b7Bond 7700D/E references.",
+  "reconstruction": "Realism4: photo-specific SZ51 curved optical shell/focus fork, machined head cheeks and asymmetric yoke, wire clamp/feed and threaded flanged spool, slotted heater clamp, rounded access openings, crossed lower linkage detail and service hardware. Lab photos 266, 268, 269, 270 and the manipulation video are primary; 7700D/E references establish architecture.",
+  "geometry_revision": "realism4",
+  "source_photo_ids": [
+    "wire_bonder_265",
+    "wire_bonder_266",
+    "wire_bonder_268",
+    "wire_bonder_269",
+    "wire_bonder_270"
+  ],
   "task_candidates": [
     "align_bond_pad",
     "two_point_wire_bond",

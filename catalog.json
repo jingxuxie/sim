@@ -6,8 +6,8 @@
       "title": "Nikon Eclipse E1000",
       "folder": "000",
       "model": "e1000",
-      "glb": "./assets/nikon/model.glb",
-      "preview": "./assets/nikon/preview.jpg?v=realism3",
+      "glb": "./assets/nikon/model.glb?v=realism4",
+      "preview": "./assets/nikon/preview.jpg?v=realism4",
       "size": 30841116,
       "controls": [],
       "links": {},
@@ -51,8 +51,8 @@
           "baseline": "image fiducial feedback"
         }
       ],
-      "render": "./assets/nikon/render.png?v=realism3",
-      "detail_render": "./assets/nikon/detail.png?v=realism3",
+      "render": "./assets/nikon/render.png?v=realism4",
+      "detail_render": "./assets/nikon/detail.png?v=realism4",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -67,17 +67,27 @@
         ],
         "calibration": "Nikon ratios read from supplied head photo; other head ratios and selector travel are estimates"
       },
-      "physics": "./assets/nikon/physics.xml",
-      "metadata": "./assets/nikon/metadata.json"
+      "render_views": [
+        {
+          "label": "Operator view",
+          "url": "./assets/nikon/operator_view.png?v=realism4"
+        },
+        {
+          "label": "Optical head",
+          "url": "./assets/nikon/optical_head.png?v=realism4"
+        }
+      ],
+      "physics": "./assets/nikon/physics.xml?v=realism4",
+      "metadata": "./assets/nikon/metadata.json?v=realism4"
     },
     {
       "id": "transfer",
       "title": "Dry-transfer station",
       "folder": "001_transfer_stage",
       "model": "transfer_station",
-      "glb": "./assets/transfer/model.glb",
-      "preview": "./assets/transfer/preview.jpg?v=realism3",
-      "size": 43913652,
+      "glb": "./assets/transfer/model.glb?v=realism4",
+      "preview": "./assets/transfer/preview.jpg?v=realism4",
+      "size": 52184056,
       "controls": [
         {
           "name": "Camera / eyepiece split",
@@ -130,7 +140,32 @@
           "force": 25
         },
         {
-          "name": "Sample rotation",
+          "name": "Rotation clamp",
+          "link": "rotation_clamp",
+          "kind": "position",
+          "limits": null,
+          "units": "rad",
+          "kp": 0.6,
+          "kv": 0.05,
+          "force": 0.12,
+          "ui": "toggle",
+          "off_label": "Released",
+          "on_label": "Locked"
+        },
+        {
+          "name": "Rotation fine micrometer",
+          "link": "rotation_fine_knob",
+          "kind": "position",
+          "limits": null,
+          "units": "rad",
+          "kp": 0.018,
+          "kv": 0.002,
+          "force": 0.025,
+          "display_scale": 0.15915494309189535,
+          "display_unit": "turn"
+        },
+        {
+          "name": "Sample coarse rotation",
           "link": "sample_theta",
           "kind": "position",
           "limits": null,
@@ -175,9 +210,34 @@
           "kind": "position",
           "limits": null,
           "units": "rad",
-          "kp": 2,
-          "kv": 0.14,
-          "force": 0.25
+          "kp": 20,
+          "kv": 1.2,
+          "force": 1
+        },
+        {
+          "name": "Light intensity",
+          "link": "illuminator_dimmer",
+          "kind": "position",
+          "limits": null,
+          "units": "rad",
+          "kp": 0.45,
+          "kv": 0.05,
+          "force": 0.1,
+          "display_scale": 21.22065907891938,
+          "display_unit": "%"
+        },
+        {
+          "name": "Illuminator power",
+          "link": "illuminator_power",
+          "kind": "position",
+          "limits": null,
+          "units": "rad",
+          "kp": 0.4,
+          "kv": 0.04,
+          "force": 0.08,
+          "ui": "toggle",
+          "off_label": "Off",
+          "on_label": "On"
         }
       ],
       "links": {
@@ -236,34 +296,15 @@
               ]
             },
             {
-              "name": "Microscope mast",
+              "name": "Wide black microscope extrusion",
               "type": "box",
               "pos_mm": [
-                -163,
+                -105,
                 142,
                 258
               ],
               "size_mm": [
-                19.0,
-                27.0,
-                205.0
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ]
-            },
-            {
-              "name": "Microscope mast",
-              "type": "box",
-              "pos_mm": [
-                -47,
-                142,
-                258
-              ],
-              "size_mm": [
-                19.0,
+                65.0,
                 27.0,
                 205.0
               ],
@@ -293,16 +334,16 @@
               ]
             },
             {
-              "name": "sample_x fixed race",
+              "name": "sample_x fixed sole",
               "type": "box",
               "pos_mm": [
-                -105,
-                -20,
+                -105.0,
+                -20.0,
                 29.5
               ],
               "size_mm": [
-                65.0,
-                60.0,
+                56.0,
+                51.0,
                 2.5
               ],
               "axis": [
@@ -350,11 +391,11 @@
               ]
             },
             {
-              "name": "stamp_x fixed race",
+              "name": "stamp_x fixed sole",
               "type": "box",
               "pos_mm": [
-                150,
-                -20,
+                150.0,
+                -20.0,
                 82.5
               ],
               "size_mm": [
@@ -367,9 +408,55 @@
                 0,
                 1
               ]
+            },
+            {
+              "name": "Fiber-Lite housing",
+              "type": "box",
+              "pos_mm": [
+                410,
+                140,
+                63
+              ],
+              "size_mm": [
+                86.36,
+                105.4,
+                62
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Vacuum valve mounting plate",
+              "type": "box",
+              "pos_mm": [
+                -236,
+                118,
+                28
+              ],
+              "size_mm": [
+                29.0,
+                24.0,
+                3.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
             }
           ],
-          "sites": {}
+          "sites": {
+            "illumination_source_port": {
+              "pos_mm": [
+                450,
+                32.8,
+                47
+              ]
+            }
+          }
         },
         "scope_focus": {
           "parent": "base",
@@ -464,6 +551,13 @@
                 0,
                 -64,
                 -90.0
+              ]
+            },
+            "illumination_microscope_port": {
+              "pos_mm": [
+                32,
+                24,
+                111
               ]
             }
           },
@@ -585,7 +679,7 @@
                 -43.62596485998402
               ],
               "size_mm": [
-                15,
+                15.0,
                 35.5
               ],
               "axis": [
@@ -603,7 +697,7 @@
                 -41.25793916561895
               ],
               "size_mm": [
-                15,
+                15.0,
                 33.0
               ],
               "axis": [
@@ -621,7 +715,7 @@
                 -37.94270319350785
               ],
               "size_mm": [
-                15,
+                15.0,
                 29.5
               ],
               "axis": [
@@ -714,9 +808,9 @@
         "sample_x": {
           "parent": "base",
           "pos_mm": [
-            -105,
-            -20,
-            40
+            -105.0,
+            -20.0,
+            40.0
           ],
           "euler": [
             0,
@@ -742,17 +836,17 @@
           "inertia": null,
           "collisions": [
             {
-              "name": "sample_x moving table",
+              "name": "sample_x moving drilled plate",
               "type": "box",
               "pos_mm": [
                 0,
                 0,
-                3
+                7.5
               ],
               "size_mm": [
-                62.0,
-                58.0,
-                8.0
+                52.0,
+                47.0,
+                3.0
               ],
               "axis": [
                 0,
@@ -761,16 +855,35 @@
               ]
             },
             {
-              "name": "sample_y fixed race",
+              "name": "sample_x relieved carrier core",
               "type": "box",
               "pos_mm": [
                 0,
                 0,
+                -0.8
+              ],
+              "size_mm": [
+                35.5,
+                39.0,
+                5.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "sample_y fixed sole",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                0.0,
                 12.0
               ],
               "size_mm": [
-                56.0,
-                52.0,
+                51.0,
+                48.0,
                 2.5
               ],
               "axis": [
@@ -783,12 +896,48 @@
           "sites": {},
           "gravity_compensated": true
         },
-        "sample_x_knob": {
+        "sample_x_spindle": {
           "parent": "base",
           "pos_mm": [
-            -208.0,
+            -167.0,
             -20.0,
-            40.0
+            35.0
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "sample_x_spindle_travel",
+            "type": "slide",
+            "axis": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "damping": 0.03,
+            "frictionloss": 0.001,
+            "range": [
+              -0.0125,
+              0.0125
+            ]
+          },
+          "mass": 0.012,
+          "inertia": [
+            1e-07,
+            1e-07,
+            1e-07
+          ],
+          "collisions": [],
+          "sites": {}
+        },
+        "sample_x_knob": {
+          "parent": "sample_x_spindle",
+          "pos_mm": [
+            -34.0,
+            0.0,
+            0.0
           ],
           "euler": [
             0,
@@ -799,9 +948,9 @@
             "name": "sample_x_angle",
             "type": "hinge",
             "axis": [
-              -1,
-              0,
-              0
+              -1.0,
+              0.0,
+              0.0
             ],
             "damping": 1e-05,
             "frictionloss": 5e-06,
@@ -810,7 +959,7 @@
               157.07963267948966
             ]
           },
-          "mass": 0.025,
+          "mass": 0.024,
           "inertia": [
             1e-06,
             1e-06,
@@ -826,13 +975,13 @@
                 0
               ],
               "size_mm": [
-                8,
-                14
+                11,
+                18
               ],
               "axis": [
-                -1,
-                0,
-                0
+                -1.0,
+                0.0,
+                0.0
               ]
             }
           ],
@@ -849,9 +998,9 @@
         "sample_y": {
           "parent": "sample_x",
           "pos_mm": [
-            0,
-            0,
-            23
+            0.0,
+            0.0,
+            23.0
           ],
           "euler": [
             0,
@@ -877,17 +1026,17 @@
           "inertia": null,
           "collisions": [
             {
-              "name": "sample_y moving table",
+              "name": "sample_y moving drilled plate",
               "type": "box",
               "pos_mm": [
                 0,
                 0,
-                3
+                8.0
               ],
               "size_mm": [
-                53.0,
-                50.0,
-                8.5
+                47.0,
+                44.0,
+                3.0
               ],
               "axis": [
                 0,
@@ -896,16 +1045,54 @@
               ]
             },
             {
-              "name": "481-A fixed base",
+              "name": "sample_y relieved carrier core",
+              "type": "box",
+              "pos_mm": [
+                0,
+                0,
+                -0.8
+              ],
+              "size_mm": [
+                27.5,
+                39.0,
+                5.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "481-A slotted square sole",
+              "type": "box",
+              "pos_mm": [
+                0,
+                0,
+                22.4
+              ],
+              "size_mm": [
+                41.3,
+                40.65,
+                3.2
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "481-A stationary black barrel",
               "type": "cylinder",
               "pos_mm": [
                 0,
                 0,
-                32
+                36
               ],
               "size_mm": [
-                51,
-                15.5
+                36.6,
+                13.0
               ],
               "axis": [
                 0,
@@ -917,12 +1104,48 @@
           "sites": {},
           "gravity_compensated": true
         },
-        "sample_y_knob": {
+        "sample_y_spindle": {
           "parent": "sample_x",
           "pos_mm": [
             0.0,
-            -90.0,
-            23.0
+            -54.0,
+            18.0
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "sample_y_spindle_travel",
+            "type": "slide",
+            "axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "damping": 0.03,
+            "frictionloss": 0.001,
+            "range": [
+              -0.0125,
+              0.0125
+            ]
+          },
+          "mass": 0.012,
+          "inertia": [
+            1e-07,
+            1e-07,
+            1e-07
+          ],
+          "collisions": [],
+          "sites": {}
+        },
+        "sample_y_knob": {
+          "parent": "sample_y_spindle",
+          "pos_mm": [
+            0.0,
+            -34.0,
+            0.0
           ],
           "euler": [
             0,
@@ -933,9 +1156,9 @@
             "name": "sample_y_angle",
             "type": "hinge",
             "axis": [
-              0,
-              -1,
-              0
+              0.0,
+              -1.0,
+              0.0
             ],
             "damping": 1e-05,
             "frictionloss": 5e-06,
@@ -944,7 +1167,7 @@
               157.07963267948966
             ]
           },
-          "mass": 0.025,
+          "mass": 0.024,
           "inertia": [
             1e-06,
             1e-06,
@@ -960,13 +1183,13 @@
                 0
               ],
               "size_mm": [
-                8,
-                14
+                11,
+                18
               ],
               "axis": [
-                0,
-                -1,
-                0
+                0.0,
+                -1.0,
+                0.0
               ]
             }
           ],
@@ -980,12 +1203,206 @@
             }
           }
         },
-        "sample_theta": {
+        "sample_fine": {
           "parent": "sample_y",
           "pos_mm": [
             0,
             0,
             51
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "sample_fine_angle",
+            "type": "hinge",
+            "axis": [
+              0,
+              0,
+              1
+            ],
+            "damping": 0.035,
+            "frictionloss": 0.01,
+            "range": [
+              -0.04363323129985824,
+              0.04363323129985824
+            ]
+          },
+          "mass": 0.1,
+          "inertia": null,
+          "collisions": [],
+          "sites": {}
+        },
+        "rotation_clamp": {
+          "parent": "sample_fine",
+          "pos_mm": [
+            -21,
+            -35,
+            -10
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "rotation_lock_angle",
+            "type": "hinge",
+            "axis": [
+              0,
+              -1,
+              0
+            ],
+            "damping": 0.012,
+            "frictionloss": 0.008,
+            "range": [
+              0,
+              1.5707963267948966
+            ]
+          },
+          "mass": 0.018,
+          "inertia": [
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "collisions": [
+            {
+              "name": "Coarse rotation locking thumbscrew",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                -5,
+                0
+              ],
+              "size_mm": [
+                7,
+                6.5
+              ],
+              "axis": [
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "sites": {
+            "rotation_lock_grip": {
+              "pos_mm": [
+                0,
+                -5,
+                0
+              ]
+            }
+          }
+        },
+        "rotation_fine_spindle": {
+          "parent": "sample_y",
+          "pos_mm": [
+            39,
+            -14,
+            36
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "rotation_fine_spindle_travel",
+            "type": "slide",
+            "axis": [
+              0,
+              -1,
+              0
+            ],
+            "damping": 0.03,
+            "frictionloss": 0.001,
+            "range": [
+              -0.002,
+              0.002
+            ]
+          },
+          "mass": 0.01,
+          "inertia": [
+            1e-07,
+            1e-07,
+            1e-07
+          ],
+          "collisions": [],
+          "sites": {}
+        },
+        "rotation_fine_knob": {
+          "parent": "rotation_fine_spindle",
+          "pos_mm": [
+            0.0,
+            -34.0,
+            0.0
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "rotation_fine_knob_angle",
+            "type": "hinge",
+            "axis": [
+              0,
+              -1,
+              0
+            ],
+            "damping": 4e-05,
+            "frictionloss": 1e-05,
+            "range": [
+              -17.830912588144816,
+              17.830912588144816
+            ]
+          },
+          "mass": 0.02,
+          "inertia": [
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "collisions": [
+            {
+              "name": "481-A fine thimble",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                0,
+                0
+              ],
+              "size_mm": [
+                6.2,
+                13.5
+              ],
+              "axis": [
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "sites": {
+            "rotation_fine_grip": {
+              "pos_mm": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "sample_theta": {
+          "parent": "sample_fine",
+          "pos_mm": [
+            0,
+            0,
+            0
           ],
           "euler": [
             0,
@@ -1007,7 +1424,7 @@
               3.141592653589793
             ]
           },
-          "mass": 0.45,
+          "mass": 0.35,
           "inertia": null,
           "collisions": [
             {
@@ -1019,8 +1436,8 @@
                 0
               ],
               "size_mm": [
-                51,
-                5.5
+                36.6,
+                3.2
               ],
               "axis": [
                 0,
@@ -1037,8 +1454,8 @@
                 27
               ],
               "size_mm": [
-                39.5,
-                34.5,
+                33.0,
+                29.0,
                 7.0
               ],
               "axis": [
@@ -1056,8 +1473,8 @@
                 41
               ],
               "size_mm": [
-                25.5,
-                22.5,
+                21.5,
+                19.5,
                 7.0
               ],
               "axis": [
@@ -1106,9 +1523,9 @@
         "stamp_x": {
           "parent": "base",
           "pos_mm": [
-            150,
-            -20,
-            94
+            150.0,
+            -20.0,
+            94.0
           ],
           "euler": [
             0,
@@ -1134,17 +1551,17 @@
           "inertia": null,
           "collisions": [
             {
-              "name": "stamp_x moving table",
+              "name": "stamp_x moving drilled plate",
               "type": "box",
               "pos_mm": [
                 0,
                 0,
-                3
+                8.5
               ],
               "size_mm": [
-                59.5,
-                48.5,
-                9.0
+                58.5,
+                46.5,
+                3.0
               ],
               "axis": [
                 0,
@@ -1153,11 +1570,30 @@
               ]
             },
             {
-              "name": "stamp_y fixed race",
+              "name": "stamp_x relieved carrier core",
               "type": "box",
               "pos_mm": [
                 0,
                 0,
+                -0.8
+              ],
+              "size_mm": [
+                42.0,
+                38.5,
+                5.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_y fixed sole",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                0.0,
                 16.0
               ],
               "size_mm": [
@@ -1175,12 +1611,48 @@
           "sites": {},
           "gravity_compensated": true
         },
-        "stamp_x_knob": {
+        "stamp_x_spindle": {
           "parent": "base",
           "pos_mm": [
-            250.5,
+            218.5,
             -20.0,
-            94.0
+            89.0
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "stamp_x_spindle_travel",
+            "type": "slide",
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "damping": 0.03,
+            "frictionloss": 0.001,
+            "range": [
+              -0.0125,
+              0.0125
+            ]
+          },
+          "mass": 0.012,
+          "inertia": [
+            1e-07,
+            1e-07,
+            1e-07
+          ],
+          "collisions": [],
+          "sites": {}
+        },
+        "stamp_x_knob": {
+          "parent": "stamp_x_spindle",
+          "pos_mm": [
+            34.0,
+            0.0,
+            0.0
           ],
           "euler": [
             0,
@@ -1191,9 +1663,9 @@
             "name": "stamp_x_angle",
             "type": "hinge",
             "axis": [
-              1,
-              0,
-              0
+              1.0,
+              0.0,
+              0.0
             ],
             "damping": 1e-05,
             "frictionloss": 5e-06,
@@ -1202,7 +1674,7 @@
               157.07963267948966
             ]
           },
-          "mass": 0.025,
+          "mass": 0.024,
           "inertia": [
             1e-06,
             1e-06,
@@ -1219,12 +1691,12 @@
               ],
               "size_mm": [
                 8,
-                14
+                18
               ],
               "axis": [
-                1,
-                0,
-                0
+                1.0,
+                0.0,
+                0.0
               ]
             }
           ],
@@ -1241,9 +1713,9 @@
         "stamp_y": {
           "parent": "stamp_x",
           "pos_mm": [
-            0,
-            0,
-            27
+            0.0,
+            0.0,
+            27.0
           ],
           "euler": [
             0,
@@ -1269,17 +1741,17 @@
           "inertia": null,
           "collisions": [
             {
-              "name": "stamp_y moving table",
+              "name": "stamp_y moving drilled plate",
               "type": "box",
               "pos_mm": [
                 0,
                 0,
-                3
+                8.0
               ],
               "size_mm": [
-                52.5,
-                45.5,
-                8.5
+                51.5,
+                43.5,
+                3.0
               ],
               "axis": [
                 0,
@@ -1288,17 +1760,74 @@
               ]
             },
             {
-              "name": "stamp_z fixed race",
+              "name": "stamp_y relieved carrier core",
               "type": "box",
               "pos_mm": [
                 0,
                 0,
-                35.0
+                -0.8
+              ],
+              "size_mm": [
+                27.0,
+                43.5,
+                5.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_z fixed lower crossmember",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                0.0,
+                17.0
               ],
               "size_mm": [
                 52.5,
                 44.5,
-                2.5
+                4.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_z upright guide column",
+              "type": "box",
+              "pos_mm": [
+                -44.5,
+                8.0,
+                31.0
+              ],
+              "size_mm": [
+                6.0,
+                34.5,
+                11.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_z upright guide column",
+              "type": "box",
+              "pos_mm": [
+                44.5,
+                8.0,
+                31.0
+              ],
+              "size_mm": [
+                6.0,
+                34.5,
+                11.5
               ],
               "axis": [
                 0,
@@ -1310,12 +1839,48 @@
           "sites": {},
           "gravity_compensated": true
         },
-        "stamp_y_knob": {
+        "stamp_y_spindle": {
           "parent": "stamp_x",
           "pos_mm": [
             0.0,
-            -85.5,
-            27.0
+            -53.5,
+            22.0
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "stamp_y_spindle_travel",
+            "type": "slide",
+            "axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "damping": 0.03,
+            "frictionloss": 0.001,
+            "range": [
+              -0.0125,
+              0.0125
+            ]
+          },
+          "mass": 0.012,
+          "inertia": [
+            1e-07,
+            1e-07,
+            1e-07
+          ],
+          "collisions": [],
+          "sites": {}
+        },
+        "stamp_y_knob": {
+          "parent": "stamp_y_spindle",
+          "pos_mm": [
+            0.0,
+            -34.0,
+            0.0
           ],
           "euler": [
             0,
@@ -1326,9 +1891,9 @@
             "name": "stamp_y_angle",
             "type": "hinge",
             "axis": [
-              0,
-              -1,
-              0
+              0.0,
+              -1.0,
+              0.0
             ],
             "damping": 1e-05,
             "frictionloss": 5e-06,
@@ -1337,7 +1902,7 @@
               157.07963267948966
             ]
           },
-          "mass": 0.025,
+          "mass": 0.024,
           "inertia": [
             1e-06,
             1e-06,
@@ -1354,12 +1919,12 @@
               ],
               "size_mm": [
                 8,
-                14
+                18
               ],
               "axis": [
-                0,
-                -1,
-                0
+                0.0,
+                -1.0,
+                0.0
               ]
             }
           ],
@@ -1376,9 +1941,9 @@
         "stamp_z": {
           "parent": "stamp_y",
           "pos_mm": [
-            0,
-            0,
-            51
+            0.0,
+            0.0,
+            51.0
           ],
           "euler": [
             0,
@@ -1404,17 +1969,36 @@
           "inertia": null,
           "collisions": [
             {
-              "name": "stamp_z moving table",
+              "name": "stamp_z drilled lift table",
               "type": "box",
               "pos_mm": [
                 0,
                 0,
-                3
+                12
               ],
               "size_mm": [
-                49.5,
-                42.5,
-                13.5
+                52.5,
+                44.5,
+                4.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_z internal lift carrier",
+              "type": "box",
+              "pos_mm": [
+                0,
+                0,
+                1
+              ],
+              "size_mm": [
+                37.0,
+                28.5,
+                15.0
               ],
               "axis": [
                 0,
@@ -1445,14 +2029,14 @@
               "name": "GON40-L fixed block",
               "type": "box",
               "pos_mm": [
-                -75,
+                -72.5,
                 0,
                 10
               ],
               "size_mm": [
-                9.5,
-                21.0,
-                21.0
+                7.5,
+                20.0,
+                20.0
               ],
               "axis": [
                 0,
@@ -1464,12 +2048,48 @@
           "sites": {},
           "gravity_compensated": true
         },
-        "stamp_z_knob": {
+        "stamp_z_spindle": {
           "parent": "stamp_y",
           "pos_mm": [
-            33,
-            -49,
-            54
+            -62.5,
+            -42.5,
+            35.0
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "stamp_z_spindle_travel",
+            "type": "slide",
+            "axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "damping": 0.03,
+            "frictionloss": 0.001,
+            "range": [
+              -0.0125,
+              0.0125
+            ]
+          },
+          "mass": 0.012,
+          "inertia": [
+            1e-07,
+            1e-07,
+            1e-07
+          ],
+          "collisions": [],
+          "sites": {}
+        },
+        "stamp_z_knob": {
+          "parent": "stamp_z_spindle",
+          "pos_mm": [
+            0.0,
+            0.0,
+            34.0
           ],
           "euler": [
             0,
@@ -1480,9 +2100,9 @@
             "name": "stamp_z_angle",
             "type": "hinge",
             "axis": [
-              0,
-              0,
-              1
+              0.0,
+              0.0,
+              1.0
             ],
             "damping": 1e-05,
             "frictionloss": 5e-06,
@@ -1491,7 +2111,7 @@
               157.07963267948966
             ]
           },
-          "mass": 0.025,
+          "mass": 0.024,
           "inertia": [
             1e-06,
             1e-06,
@@ -1508,12 +2128,12 @@
               ],
               "size_mm": [
                 8,
-                14
+                18
               ],
               "axis": [
-                0,
-                0,
-                1
+                0.0,
+                0.0,
+                1.0
               ]
             }
           ],
@@ -1530,9 +2150,9 @@
         "stamp_tilt": {
           "parent": "stamp_z",
           "pos_mm": [
-            -83,
-            0,
-            10
+            -120.0,
+            0.0,
+            10.0
           ],
           "euler": [
             0,
@@ -1561,13 +2181,13 @@
               "name": "Goniometer moving face",
               "type": "box",
               "pos_mm": [
-                -4,
-                0,
-                0
+                37.5,
+                0.0,
+                0.0
               ],
               "size_mm": [
-                4.0,
-                21.0,
+                2.5,
+                20.0,
                 20.0
               ],
               "axis": [
@@ -1580,9 +2200,9 @@
               "name": "Horizontal stamp support",
               "type": "box",
               "pos_mm": [
-                -73,
-                0,
-                -13
+                -36.0,
+                0.0,
+                -13.0
               ],
               "size_mm": [
                 73.0,
@@ -1599,9 +2219,9 @@
               "name": "Glass stamp slide",
               "type": "box",
               "pos_mm": [
-                -139,
-                0,
-                -10
+                -102.0,
+                0.0,
+                -10.0
               ],
               "size_mm": [
                 37.5,
@@ -1618,9 +2238,9 @@
               "name": "Stamp silicone pad",
               "type": "box",
               "pos_mm": [
-                -172,
-                0,
-                -11
+                -135.0,
+                0.0,
+                -11.0
               ],
               "size_mm": [
                 7.0,
@@ -1639,9 +2259,235 @@
           "sites": {
             "stamp_contact": {
               "pos_mm": [
-                -172,
-                0,
+                -135.0,
+                0.0,
                 -11.5
+              ]
+            }
+          }
+        },
+        "goniometer_spindle": {
+          "parent": "stamp_z",
+          "pos_mm": [
+            -73,
+            0,
+            44
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "goniometer_spindle_travel",
+            "type": "slide",
+            "axis": [
+              0,
+              0,
+              1
+            ],
+            "damping": 0.03,
+            "frictionloss": 0.001,
+            "range": [
+              -0.0032,
+              0.0032
+            ]
+          },
+          "mass": 0.012,
+          "inertia": [
+            1e-07,
+            1e-07,
+            1e-07
+          ],
+          "collisions": [],
+          "sites": {}
+        },
+        "goniometer_knob": {
+          "parent": "goniometer_spindle",
+          "pos_mm": [
+            0,
+            0,
+            14
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "goniometer_knob_angle",
+            "type": "hinge",
+            "axis": [
+              0,
+              0,
+              1
+            ],
+            "damping": 4e-05,
+            "frictionloss": 1e-05,
+            "range": [
+              -38.38179489312529,
+              38.38179489312529
+            ]
+          },
+          "mass": 0.02,
+          "inertia": [
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "collisions": [
+            {
+              "name": "Goniometer fine adjustment knob",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                0,
+                0
+              ],
+              "size_mm": [
+                10,
+                3.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            }
+          ],
+          "sites": {
+            "goniometer_grip": {
+              "pos_mm": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "illuminator_dimmer": {
+          "parent": "base",
+          "pos_mm": [
+            361.0,
+            39.44703674316406,
+            87.88057708740234
+          ],
+          "euler": [
+            1.3258178234100342,
+            -0.0,
+            0.0
+          ],
+          "joint": {
+            "name": "illumination_angle",
+            "type": "hinge",
+            "axis": [
+              0,
+              0,
+              1
+            ],
+            "damping": 0.02,
+            "frictionloss": 0.01,
+            "range": [
+              0,
+              4.71238898038469
+            ]
+          },
+          "mass": 0.02,
+          "inertia": [
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "collisions": [
+            {
+              "name": "Illuminator intensity knob",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                0,
+                4
+              ],
+              "size_mm": [
+                10,
+                5.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            }
+          ],
+          "sites": {
+            "illumination_grip": {
+              "pos_mm": [
+                0,
+                0,
+                8
+              ]
+            }
+          }
+        },
+        "illuminator_power": {
+          "parent": "base",
+          "pos_mm": [
+            395,
+            34.099999999999994,
+            26
+          ],
+          "euler": [
+            0,
+            0,
+            0
+          ],
+          "joint": {
+            "name": "illumination_power_angle",
+            "type": "hinge",
+            "axis": [
+              1,
+              0,
+              0
+            ],
+            "damping": 0.012,
+            "frictionloss": 0.008,
+            "range": [
+              0,
+              0.35
+            ]
+          },
+          "mass": 0.012,
+          "inertia": [
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "collisions": [
+            {
+              "name": "Illuminator rocker",
+              "type": "box",
+              "pos_mm": [
+                0,
+                -2,
+                0
+              ],
+              "size_mm": [
+                7.0,
+                2.5,
+                11.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            }
+          ],
+          "sites": {
+            "illumination_power_contact": {
+              "pos_mm": [
+                0,
+                -5,
+                0
               ]
             }
           }
@@ -1663,8 +2509,8 @@
           "tolerance_m": 0.00015
         }
       ],
-      "render": "./assets/transfer/render.png?v=realism3",
-      "detail_render": "./assets/transfer/detail.png?v=realism3",
+      "render": "./assets/transfer/render.png?v=realism4",
+      "detail_render": "./assets/transfer/detail.png?v=realism4",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -1679,17 +2525,35 @@
         ],
         "calibration": "Nikon ratios read from supplied head photo; other head ratios and selector travel are estimates"
       },
-      "physics": "./assets/transfer/physics.xml",
-      "metadata": "./assets/transfer/metadata.json"
+      "render_views": [
+        {
+          "label": "Illuminator and fiber",
+          "url": "./assets/transfer/illumination.png?v=realism4"
+        },
+        {
+          "label": "Rotation stage",
+          "url": "./assets/transfer/rotation_detail.png?v=realism4"
+        },
+        {
+          "label": "Stamp positioning stages",
+          "url": "./assets/transfer/stamp_stage.png?v=realism4"
+        },
+        {
+          "label": "Optical head",
+          "url": "./assets/transfer/optical_head.png?v=realism4"
+        }
+      ],
+      "physics": "./assets/transfer/physics.xml?v=realism4",
+      "metadata": "./assets/transfer/metadata.json?v=realism4"
     },
     {
       "id": "probe",
       "title": "Manual probe station",
       "folder": "002_probe_station",
       "model": "probe_station",
-      "glb": "./assets/probe/model.glb",
-      "preview": "./assets/probe/preview.jpg?v=realism3",
-      "size": 26931044,
+      "glb": "./assets/probe/model.glb?v=realism4",
+      "preview": "./assets/probe/preview.jpg?v=realism4",
+      "size": 25470592,
       "controls": [
         {
           "name": "Eyepiece / camera path",
@@ -3532,8 +4396,8 @@
           "tolerance_m": 8e-05
         }
       ],
-      "render": "./assets/probe/render.png?v=realism3",
-      "detail_render": "./assets/probe/detail.png?v=realism3",
+      "render": "./assets/probe/render.png?v=realism4",
+      "detail_render": "./assets/probe/detail.png?v=realism4",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -3548,17 +4412,27 @@
         ],
         "calibration": "Nikon ratios read from supplied head photo; other head ratios and selector travel are estimates"
       },
-      "physics": "./assets/probe/physics.xml",
-      "metadata": "./assets/probe/metadata.json"
+      "render_views": [
+        {
+          "label": "Optical head",
+          "url": "./assets/probe/optical_head.png?v=realism4"
+        },
+        {
+          "label": "Probe manipulator",
+          "url": "./assets/probe/left_manipulator.png?v=realism4"
+        }
+      ],
+      "physics": "./assets/probe/physics.xml?v=realism4",
+      "metadata": "./assets/probe/metadata.json?v=realism4"
     },
     {
       "id": "zeiss",
-      "title": "Zeiss upright",
+      "title": "Zeiss Axioskop",
       "folder": "003_zeiss",
       "model": "zeiss_upright",
-      "glb": "./assets/zeiss/model.glb",
-      "preview": "./assets/zeiss/preview.jpg?v=realism3",
-      "size": 18076484,
+      "glb": "./assets/zeiss/model.glb?v=realism4",
+      "preview": "./assets/zeiss/preview.jpg?v=realism4",
+      "size": 27154048,
       "controls": [
         {
           "name": "Stage focus",
@@ -3890,12 +4764,37 @@
                 0,
                 0
               ]
+            },
+            {
+              "name": "Opposite coarse focus contact",
+              "type": "cylinder",
+              "pos_mm": [
+                -154,
+                0,
+                0
+              ],
+              "size_mm": [
+                29,
+                12
+              ],
+              "axis": [
+                -1,
+                0,
+                0
+              ]
             }
           ],
           "sites": {
             "focus_wheel_grip_site": {
               "pos_mm": [
                 0,
+                0,
+                0
+              ]
+            },
+            "opposite_focus_grip_site": {
+              "pos_mm": [
+                -154,
                 0,
                 0
               ]
@@ -4012,12 +4911,12 @@
               "name": "XY control bracket foot",
               "type": "box",
               "pos_mm": [
-                91,
+                99,
                 51,
                 -7
               ],
               "size_mm": [
-                21.0,
+                26,
                 12.5,
                 4.5
               ],
@@ -4031,14 +4930,14 @@
               "name": "XY control gear housing",
               "type": "box",
               "pos_mm": [
-                103,
+                118,
                 51,
-                -17
+                -4
               ],
               "size_mm": [
-                14.0,
-                13.0,
-                12.5
+                14,
+                13,
+                4
               ],
               "axis": [
                 0,
@@ -4050,9 +4949,9 @@
           "sites": {
             "xy_control_mount": {
               "pos_mm": [
-                103,
+                118,
                 51,
-                -15
+                -9
               ]
             }
           }
@@ -4291,9 +5190,9 @@
         "stage_x_knob": {
           "parent": "stage_y",
           "pos_mm": [
-            103,
+            118,
             51,
-            -45
+            -70
           ],
           "euler": [
             0,
@@ -4350,9 +5249,9 @@
         "stage_y_knob": {
           "parent": "stage_y",
           "pos_mm": [
-            103,
+            118,
             51,
-            -25
+            -50
           ],
           "euler": [
             0,
@@ -4738,8 +5637,8 @@
           "requires_finish": true
         }
       ],
-      "render": "./assets/zeiss/render.png?v=realism3",
-      "detail_render": "./assets/zeiss/detail.png?v=realism3",
+      "render": "./assets/zeiss/render.png?v=realism4",
+      "detail_render": "./assets/zeiss/detail.png?v=realism4",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -4754,17 +5653,27 @@
         ],
         "calibration": "Nikon ratios read from supplied head photo; other head ratios and selector travel are estimates"
       },
-      "physics": "./assets/zeiss/physics.xml",
-      "metadata": "./assets/zeiss/metadata.json"
+      "render_views": [
+        {
+          "label": "Optical head",
+          "url": "./assets/zeiss/optical_head.png?v=realism4"
+        },
+        {
+          "label": "Stage and condenser",
+          "url": "./assets/zeiss/condenser.png?v=realism4"
+        }
+      ],
+      "physics": "./assets/zeiss/physics.xml?v=realism4",
+      "metadata": "./assets/zeiss/metadata.json?v=realism4"
     },
     {
       "id": "bonder",
-      "title": "West\u00b7Bond wire bonder",
+      "title": "West\u00b7Bond 7700",
       "folder": "004_wire_bonder",
       "model": "wire_bonder",
-      "glb": "./assets/bonder/model.glb",
-      "preview": "./assets/bonder/preview.jpg?v=realism3",
-      "size": 21090584,
+      "glb": "./assets/bonder/model.glb?v=realism4",
+      "preview": "./assets/bonder/preview.jpg?v=realism4",
+      "size": 40119228,
       "controls": [
         {
           "name": "Stereo focus",
@@ -4986,7 +5895,7 @@
               "size_mm": [
                 39.0,
                 36.0,
-                4.5
+                4.75
               ],
               "axis": [
                 0,
@@ -5000,12 +5909,12 @@
               "pos_mm": [
                 0,
                 -87,
-                94.8
+                93
               ],
               "size_mm": [
-                24.5,
-                4.0,
-                3.2
+                14,
+                11.5,
+                1.25
               ],
               "axis": [
                 0,
@@ -5205,14 +6114,14 @@
               "name": "Tool yoke cheek",
               "type": "box",
               "pos_mm": [
-                -23,
+                -26,
                 -3,
-                19
+                20
               ],
               "size_mm": [
-                3.5,
+                3.0,
                 3,
-                17
+                18
               ],
               "axis": [
                 0,
@@ -5224,14 +6133,14 @@
               "name": "Tool yoke cheek",
               "type": "box",
               "pos_mm": [
-                23,
+                26,
                 -3,
-                19
+                20
               ],
               "size_mm": [
-                3.5,
+                3.0,
                 3,
-                17
+                18
               ],
               "axis": [
                 0,
@@ -5245,7 +6154,26 @@
               "pos_mm": [
                 0,
                 -3,
-                34
+                35
+              ],
+              "size_mm": [
+                28,
+                3,
+                3
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Tool yoke lower bar",
+              "type": "box",
+              "pos_mm": [
+                0,
+                -3,
+                4
               ],
               "size_mm": [
                 25,
@@ -5475,20 +6403,38 @@
           "tolerance_m": 0.0002
         }
       ],
-      "render": "./assets/bonder/render.png?v=realism3",
-      "detail_render": "./assets/bonder/detail.png?v=realism3",
+      "render": "./assets/bonder/render.png?v=realism4",
+      "detail_render": "./assets/bonder/detail.png?v=realism4",
       "specimen_camera": false,
-      "physics": "./assets/bonder/physics.xml",
-      "metadata": "./assets/bonder/metadata.json"
+      "render_views": [
+        {
+          "label": "Bonding head",
+          "url": "./assets/bonder/head_detail.png?v=realism4"
+        },
+        {
+          "label": "Optical head",
+          "url": "./assets/bonder/optical_head.png?v=realism4"
+        },
+        {
+          "label": "Heated workholder",
+          "url": "./assets/bonder/heater_detail.png?v=realism4"
+        },
+        {
+          "label": "Rear connections",
+          "url": "./assets/bonder/rear_service.png?v=realism4"
+        }
+      ],
+      "physics": "./assets/bonder/physics.xml?v=realism4",
+      "metadata": "./assets/bonder/metadata.json?v=realism4"
     },
     {
       "id": "afm",
       "title": "Asylum Cypher S",
       "folder": "005_afm",
       "model": "cypher_s",
-      "glb": "./assets/afm/model.glb",
-      "preview": "./assets/afm/preview.jpg?v=realism3",
-      "size": 20161220,
+      "glb": "./assets/afm/model.glb?v=realism4",
+      "preview": "./assets/afm/preview.jpg?v=realism4",
+      "size": 26950380,
       "controls": [
         {
           "name": "Door release",
@@ -6693,20 +7639,34 @@
           "seconds": 20
         }
       ],
-      "render": "./assets/afm/render.png?v=realism3",
-      "detail_render": "./assets/afm/detail.png?v=realism3",
+      "render": "./assets/afm/render.png?v=realism4",
+      "detail_render": "./assets/afm/detail.png?v=realism4",
       "specimen_camera": false,
-      "physics": "./assets/afm/physics.xml",
-      "metadata": "./assets/afm/metadata.json"
+      "render_views": [
+        {
+          "label": "Door release",
+          "url": "./assets/afm/door_release.png?v=realism4"
+        },
+        {
+          "label": "Open scanner",
+          "url": "./assets/afm/open_scanner.png?v=realism4"
+        },
+        {
+          "label": "Scanner release",
+          "url": "./assets/afm/scanner_release.png?v=realism4"
+        }
+      ],
+      "physics": "./assets/afm/physics.xml?v=realism4",
+      "metadata": "./assets/afm/metadata.json?v=realism4"
     },
     {
       "id": "tweezers",
       "title": "Spring tweezers",
       "folder": "006_tweezers",
       "model": "spring_tweezers",
-      "glb": "./assets/tweezers/model.glb",
-      "preview": "./assets/tweezers/preview.jpg?v=realism3",
-      "size": 5166188,
+      "glb": "./assets/tweezers/model.glb?v=realism4",
+      "preview": "./assets/tweezers/preview.jpg?v=realism4",
+      "size": 6768524,
       "controls": [
         {
           "name": "Jaw Left",
@@ -8981,11 +9941,17 @@
           "tolerance_m": 0.001
         }
       ],
-      "render": "./assets/tweezers/render.png?v=realism3",
-      "detail_render": "./assets/tweezers/detail.png?v=realism3",
+      "render": "./assets/tweezers/render.png?v=realism4",
+      "detail_render": "./assets/tweezers/detail.png?v=realism4",
       "specimen_camera": false,
-      "physics": "./assets/tweezers/physics.xml",
-      "metadata": "./assets/tweezers/metadata.json"
+      "render_views": [
+        {
+          "label": "Measured chip placement",
+          "url": "./assets/tweezers/placement.png?v=realism4"
+        }
+      ],
+      "physics": "./assets/tweezers/physics.xml?v=realism4",
+      "metadata": "./assets/tweezers/metadata.json?v=realism4"
     }
   ]
 }

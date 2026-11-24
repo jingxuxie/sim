@@ -1,6 +1,6 @@
 {
   "name": "zeiss_upright",
-  "title": "Zeiss \u00b7 reflected-light upright",
+  "title": "Zeiss Axioskop \u00b7 reflected-light upright",
   "units": "m",
   "source_units": "mm",
   "links": {
@@ -282,12 +282,37 @@
             0,
             0
           ]
+        },
+        {
+          "name": "Opposite coarse focus contact",
+          "type": "cylinder",
+          "pos_mm": [
+            -154,
+            0,
+            0
+          ],
+          "size_mm": [
+            29,
+            12
+          ],
+          "axis": [
+            -1,
+            0,
+            0
+          ]
         }
       ],
       "sites": {
         "focus_wheel_grip_site": {
           "pos_mm": [
             0,
+            0,
+            0
+          ]
+        },
+        "opposite_focus_grip_site": {
+          "pos_mm": [
+            -154,
             0,
             0
           ]
@@ -404,12 +429,12 @@
           "name": "XY control bracket foot",
           "type": "box",
           "pos_mm": [
-            91,
+            99,
             51,
             -7
           ],
           "size_mm": [
-            21.0,
+            26,
             12.5,
             4.5
           ],
@@ -423,14 +448,14 @@
           "name": "XY control gear housing",
           "type": "box",
           "pos_mm": [
-            103,
+            118,
             51,
-            -17
+            -4
           ],
           "size_mm": [
-            14.0,
-            13.0,
-            12.5
+            14,
+            13,
+            4
           ],
           "axis": [
             0,
@@ -442,9 +467,9 @@
       "sites": {
         "xy_control_mount": {
           "pos_mm": [
-            103,
+            118,
             51,
-            -15
+            -9
           ]
         }
       }
@@ -683,9 +708,9 @@
     "stage_x_knob": {
       "parent": "stage_y",
       "pos_mm": [
-        103,
+        118,
         51,
-        -45
+        -70
       ],
       "euler": [
         0,
@@ -742,9 +767,9 @@
     "stage_y_knob": {
       "parent": "stage_y",
       "pos_mm": [
-        103,
+        118,
         51,
-        -25
+        -50
       ],
       "euler": [
         0,
@@ -1178,7 +1203,10 @@
       "ratio": 0.0025464790894703256
     }
   ],
-  "identity": "Zeiss West Germany visible; exact model and socket count unverified",
+  "identity": "Zeiss Axioskop marking visible in photo254; head variant, complete objective inventory and socket count partly provisional",
+  "geometry_revision": "realism4",
+  "geometry_basis": "Photo254/255/256/257/261/262: sloping stand, elongated binocular prisms, nosepiece carrier, condenser hardware and ventilated lamp tower; dimensions remain estimates",
+  "control_geometry_correction": "XY gear housing slimmed; both XY grip links moved+15 mm X/-25 mm Z to remove housing overlap and clear focus wheel across Y travel. Couplings and sample/objective sites unchanged. Opposite focus grip contact added on same existing focus-wheel joint.",
   "imaging": {
     "objective_joint": "turret_angle",
     "objective_count": 5,

@@ -19,10 +19,14 @@ their own simulation; this is not a shared remote desktop or a recorded animatio
 4. For microscopes, select **Enable microscope image** and choose the camera or
    eyepiece port. Focus, objective seating and light routing affect the image.
 5. **Rendered still / Rendered detail** shows the high-resolution Blender artwork.
+   **More rendered views** opens additional mechanism close-ups.
    **Full instrument / Working area** returns to the live 3D view.
 
+Existing task recordings show earlier reconstructions. Use the live viewer and
+current rendered stills to inspect revision 4.
+
 The gallery is lightweight and remains visible without JavaScript. Only the selected
-instrument is downloaded (about 5–44 MB including geometry and textures). The runtime adds about 23 MB when you open an instrument; task policies and optical
+instrument is downloaded (about 6–52 MB including geometry and textures). The runtime adds about 23 MB when you open an instrument; task policies and optical
 imaging load another 20 MB on first use. These files are cached by the browser. Use a current desktop
 Chrome or Edge with WebAssembly and WebGL enabled. Complex optics
 and contacts can run slower than real time; the displayed clock is simulation time.
@@ -32,10 +36,10 @@ and contacts can run slower than real time; the displayed clock is simulation ti
 | Instrument | Live mechanisms and tasks |
 | --- | --- |
 | Nikon Eclipse E1000 | Geared XY knobs, coarse/fine focus, seven objective stations, camera/eye selector; centering, focusing, indexing and image-feedback tasks |
-| Dry-transfer station | Sample and stamp positioning, upright working objective, focus and optical selector; alignment and contact/retraction |
+| Dry-transfer station | Screw-driven sample/stamp stages, coarse clamp and fine rotation micrometer, goniometer, external illuminator and light routing; alignment and contact/retraction |
 | Manual probe station | Chuck, two probe manipulators and microscope; pad alignment and measured two-tip contact/retraction |
-| Zeiss upright | XY stage and connected controls, focus, objective turret and light routing; centering and focusing |
-| West·Bond wire bonder | Separate hand lever and wedge head with 8:1 motion coupling; alignment and two-pad contact sequence |
+| Zeiss Axioskop | XY stage and connected controls, focus, objective turret and light routing; centering and focusing |
+| West·Bond 7700 | Separate hand lever and wedge head with 8:1 motion coupling; alignment and two-pad contact sequence |
 | Asylum Cypher S | Enclosure release, door, scanner release and drawer with interlocks; access and complete open/close cycle |
 | Spring tweezers | Two compliant jaws and a moving fixture; contact-based chip grasp, lift and tray placement |
 
@@ -43,27 +47,26 @@ The 18 baselines are instrument-level fixture controllers, not learned robot pol
 Success uses measured joint state, sites, contacts, force limits and held tolerances.
 The chip is a free body: contact and friction carry it, not a scripted position update.
 
-## Visual revision 3
+## Visual revision 4
 
-The Nikon now has a rounded, photo-referenced head, lavender fascia, separate
-binocular prisms, central Nikon bridge, hollow eyepieces with recessed glass,
-filter/shutter panel, detailed stage connectors, objective markings and revised
-cable/tape geometry. The filter/shutter buttons are visual details; the existing
-XY, focus, turret and camera/eye controls remain the active simulated mechanisms.
+[Compare previous and rebuilt instruments](assets/revision4-comparison.jpg).
 
-All seven instruments now carry embedded color, roughness and normal textures,
-with directional metal finishes. The same maps drive Blender and the live view.
-The browser also has revised room reflections, contact shadows and tone mapping;
-the gallery links to new 3840 × 3200 overview renders and detailed close-ups.
-These changes improve the reconstruction's appearance; they do not establish
-photographic identity or calibrated material properties.
+This revision rebuilds all six non-Nikon instruments. Their moving geometry, housings, fasteners, graduated controls and service connections are reconstructed from the supplied lab references. Nikon retains its revision-3 reconstruction.
 
-Additional renders: [Nikon optical head](assets/nikon/optical_head.png),
-[operator view](assets/nikon/operator_view.png), [AFM door release](assets/afm/door_release.png),
-[open enclosure](assets/afm/open_scanner.png), and [scanner release](assets/afm/scanner_release.png).
+| Instrument | Main corrections |
+| --- | --- |
+| Transfer station | Separate Fiber-Lite MI-150 source; ferrules and continuous guide into the microscope; physically separated XY races and hollow Z lift; 73.2 mm Newport 481-A with separate coarse lock/fine micrometer; GON40-L remote pivot and adjustment knob; distinct Mitutoyo barrel; complete camera cable |
+| Probe station | Different left/right manipulator assemblies, carrier clamps, rear optical mounting enclosure, slot hardware and flexible triax leads; photographed 5×/0.14 objective used by the camera model |
+| Zeiss Axioskop | Cast stand profile, prism lobes, objective carrier, reflected-light housing, specimen holder and condenser support; connected XY knob assembly with checked focus-wheel clearance |
+| West·Bond 7700 | Separate head and hand lever, asymmetric tool pivots/clamp, spool support, Olympus-style microscope yoke, heated workholder and service panels |
+| Cypher S AFM | Formed enclosure cheeks and console, upper opening, scanner deck and guides, recessed handle, separate releases, gasket and docking connections; corrected opening clearances |
+| Tweezers | Continuous beveled spring blades, rounded laminated heel and fitted label; contact-based chip delivery into the tray |
 
-[Visual revision checks](validation/realism3.json) record the delivered asset
-hashes, texture checks, unchanged physics and final browser regression results.
+Overview images are 3840×3200; new details are 2560×2160. The live GLBs use the same surface maps. From an instrument, choose **More rendered views** to inspect the source/fiber, rotation stage, manipulators, optics, releases or measured chip placement.
+
+The transfer source power and dimmer affect microscope images. The dimmer represents a 10–100% relative illumination range; its zero setting is the powered minimum. The coarse ring turns with the clamp released; locking it engages the fine micrometer. Fiber and probe cables follow measured joint motion through visual deformation, without cable contact or strain simulation.
+
+[Delivery audit](validation/realism4.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
 
 ## Implementation
 
@@ -79,6 +82,8 @@ hashes, texture checks, unchanged physics and final browser regression results.
   contact shapes. Noncolliding visual meshes are omitted from this XML only;
   the detailed hierarchy and materials are in `model.glb`.
 - Three.js renders measured body poses with PBR materials, room lighting and shadows.
+  GPU frame submission is bounded, and the preview remains visible until the first
+  rendered frame completes. Static still views stop background 3D rendering.
   Full-resolution Blender renders are separate static views, labeled in the UI.
 - All runtime dependencies are served from this repository. No CDN, custom response
   headers, cross-origin isolation, or running service is required.
@@ -95,20 +100,23 @@ not ultrasonic welding or metallurgical bond formation.
 
 The browser port was revalidated independently of the native 3.3.7 engine:
 54/54 positive episodes across seeds 0, 1 and 2; 18 no-action controls with zero
-false positives; 48 mechanical/optical checks; and all seven detailed models loaded
-in the interactive page. A complete 20-second tweezer placement was inspected at
+false positives; 58 mechanical/optical checks; 12 flexible-cable geometry checks;
+and 16 interactive-page checks covering all seven detailed models, controls and
+gallery fallbacks. A complete 20-second tweezer placement was inspected at
 every 1 ms step: 20,000 steps, zero unintended tool/work-surface contacts.
 
 [Recorded results](validation/summary.json) include links by filename to the full
-physics, mechanism and browser reports alongside it. These are fixture benchmark
-checks on estimated instrument models, not physical-lab calibration results.
+physics, mechanism, cable and browser reports alongside it. The native engine
+also passes 54/54 episodes across seeds 0, 11 and 37, with 18 no-action controls.
+These are fixture benchmark checks on estimated instrument models, not
+physical-lab calibration results.
 
 ## Develop and publish
 
 Serve the checkout over HTTP (opening `index.html` as `file://` cannot load workers):
 
 ```sh
-python3 -m http.server 8000
+python3 scripts/serve.py --port 8000
 ```
 
 Open `http://localhost:8000/`. There is no build or dependency installation for the

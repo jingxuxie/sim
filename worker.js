@@ -1,5 +1,5 @@
 import loadMuJoCo from './vendor/mujoco/mujoco.js';
-import {Simulation} from './physics.js';
+import {Simulation} from './physics.js?v=realism4';
 import {loadPyodide} from './vendor/pyodide/pyodide.mjs';
 
 let sim, py, pythonCore, pythonLoading, task=false, auto=false, paused=false, lastTick=performance.now(), lastPost=0, lastState;
@@ -40,7 +40,7 @@ async function loadPython(){
     status('Loading task and optical simulator (first use, about 20 MB)…');
     const runtime=await loadPythonCore();
     await runtime.loadPackage(['numpy','scipy','pillow'],{messageCallback:message=>status(message)});
-    const sources=await Promise.all(['sim.py','tasks.py','imaging.py','optics.py','session.py'].map(async name=>[name,await fetchText(new URL('./python/'+name,import.meta.url))]));
+    const sources=await Promise.all(['sim.py','tasks.py','imaging.py','optics.py','session.py'].map(async name=>[name,await fetchText(new URL('./python/'+name+'?v=realism4',import.meta.url))]));
     runtime.FS.mkdirTree('/app');for(const [name,source] of sources)runtime.FS.writeFile('/app/'+name,source);
     runtime.runPython("import sys\nsys.path.insert(0, '/app')\nimport session");py=runtime;
     status('Task and optical simulator ready');

@@ -53,6 +53,9 @@
     <material name="etched" rgba="0.6156862745 0.6705882353 0.6941176471 1" specular="0.325" shininess="0.5" />
     <material name="tape" rgba="0.8352941176 0.8235294118 0.7490196078 1" specular="0.255" shininess="0.5" />
     <material name="vermiculite" rgba="0.4509803922 0.3843137255 0.2549019608 1" specular="0.26" shininess="0.5" />
+    <material name="afm_satin_shell" rgba="0.7960784314 0.8039215686 0.7843137255 1" specular="0.33" shininess="0.5" />
+    <material name="led.diffuser" rgba="0.7098039216 0.8431372549 1 1" specular="0.25" shininess="0.5" />
+    <material name="label.warning" rgba="0.9098039216 0.8 0.262745098 1" specular="0.25" shininess="0.5" />
   </asset>
   <worldbody>
     <light pos=".4 -.5 1.1" dir="-.3 .4 -1" diffuse=".75 .74 .71" />

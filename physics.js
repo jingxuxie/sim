@@ -33,6 +33,10 @@ export class Simulation {
     this.mocapTarget=[0,0,.012];this.quatTarget=[1,0,0,0];this.fixtureTargets={};this.turretTarget=null;
     this.prev=[0,0];this.zcmd=0;
     if(this.joints.light_path_travel){this.d.qpos[this.joints.light_path_travel.qposadr[0]]=.012;this.targets.light_path_travel=.012;this.d.ctrl[this.drives.light_path_travel]=.012;}
+    for(const [name,value] of Object.entries(this.meta.initial_joint_positions||{})){
+      this.d.qpos[this.joints[name].qposadr[0]]=value;
+      if(name in this.drives){this.targets[name]=value;this.d.ctrl[this.drives[name]]=value;}
+    }
     if(this.asset==='tweezers'){
       this.d.mocap_pos.set(this.mocapTarget);this.d.mocap_quat.set(this.quatTarget);
       this.d.qpos.set(this.quatTarget,this.joints.tool_free.qposadr[0]+3);
@@ -60,6 +64,11 @@ export class Simulation {
       }
       if(!(name in this.drives))throw Error('Unknown fixture actuator: '+name);
       let reason;
+      if(this.asset==='transfer'&&this.meta.rotation_mechanism){
+        const locked=this.q('rotation_lock_angle')>=this.meta.rotation_mechanism.lock_threshold_rad;
+        if(name==='sample_theta_angle'&&locked)reason='Release the rotation clamp before coarse rotation';
+        if(name==='rotation_fine_knob_angle'&&!locked)reason='Lock the coarse rotation before fine adjustment';
+      }
       if(this.asset==='afm'){
         if(name==='door_angle'&&value<-.04&&this.q('door_latch_angle')<.5&&this.q('door_angle')>-.04)reason='Release enclosure latch first';
         if(name==='drawer_travel'&&value>.004&&(this.q('scanner_latch_angle')<.65||this.q('door_angle')>-1.1))reason='Open door and release scanner latch first';
@@ -74,11 +83,17 @@ export class Simulation {
   }
   lock(name,active){
     const i=this.equalities[name].id;
-    if(active&&!this.lockPrev[name])this.m.eq_data[i*11]=this.d.qpos[this.m.jnt_qposadr[this.m.eq_obj1id[i]]];
+    // MuJoCo 4 stores 12 values per equality (native 3.x used 11).
+    // Use the runtime constant so a clamp holds the measured position.
+    if(active&&!this.lockPrev[name])this.m.eq_data[i*this.mj.mjNEQDATA]=this.d.qpos[this.m.jnt_qposadr[this.m.eq_obj1id[i]]];
     this.d.eq_active[i]=active?1:0;this.lockPrev[name]=active;
   }
   beforeStep(){
     const d=this.d,dt=this.opt.timestep;
+    if(this.asset==='transfer'&&this.meta.rotation_mechanism){
+      const locked=this.q('rotation_lock_angle')>=this.meta.rotation_mechanism.lock_threshold_rad;
+      this.lock('rotation_coarse_lock',locked);this.lock('rotation_fine_lock',!locked);
+    }
     if(this.asset==='afm'){
       const door=this.q('door_angle'),out=this.q('drawer_travel')>.005;
       this.lock('door_lock',(this.q('door_latch_angle')<.5&&door>-.04)||(out&&door>-1.15));

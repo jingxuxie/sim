@@ -1,0 +1,440 @@
+{
+  "asset": "zeiss",
+  "source_sha256": "893b7179b1a847a8df50456a6aff5895f15892b3a1ac1c3396c3c13f2bada682",
+  "method": "Evaluated visual mesh triangle intersections after Blender joint-driver/shape-key evaluation; bounds reject disjoint pairs.",
+  "scope": "Affected exterior geometry only; shaft/bearing assembly interfaces and pre-existing unsafe objective/sample contact excluded.",
+  "poses": [
+    {
+      "stage_y_mm": -25,
+      "focus_mm": -10,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 30,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -25,
+      "focus_mm": -5.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 30,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -25,
+      "focus_mm": -1.5,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 30,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -25,
+      "focus_mm": 2.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 30,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -25,
+      "focus_mm": 7,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 30,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -18.75,
+      "focus_mm": -10,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 50,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -18.75,
+      "focus_mm": -5.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 50,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -18.75,
+      "focus_mm": -1.5,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 50,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -18.75,
+      "focus_mm": 2.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 50,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -18.75,
+      "focus_mm": 7,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 50,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -12.5,
+      "focus_mm": -10,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 72,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -12.5,
+      "focus_mm": -5.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 72,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -12.5,
+      "focus_mm": -1.5,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 72,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -12.5,
+      "focus_mm": 2.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 72,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -12.5,
+      "focus_mm": 7,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 72,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -6.25,
+      "focus_mm": -10,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -6.25,
+      "focus_mm": -5.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -6.25,
+      "focus_mm": -1.5,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -6.25,
+      "focus_mm": 2.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": -6.25,
+      "focus_mm": 7,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 0,
+      "focus_mm": -10,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 0,
+      "focus_mm": -5.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 0,
+      "focus_mm": -1.5,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 0,
+      "focus_mm": 2.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 0,
+      "focus_mm": 7,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 6.25,
+      "focus_mm": -10,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 6.25,
+      "focus_mm": -5.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 6.25,
+      "focus_mm": -1.5,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 6.25,
+      "focus_mm": 2.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 6.25,
+      "focus_mm": 7,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 12.5,
+      "focus_mm": -10,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 12.5,
+      "focus_mm": -5.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 12.5,
+      "focus_mm": -1.5,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 12.5,
+      "focus_mm": 2.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 12.5,
+      "focus_mm": 7,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 18.75,
+      "focus_mm": -10,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 18.75,
+      "focus_mm": -5.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 18.75,
+      "focus_mm": -1.5,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 18.75,
+      "focus_mm": 2.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 18.75,
+      "focus_mm": 7,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 25,
+      "focus_mm": -10,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 25,
+      "focus_mm": -5.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 25,
+      "focus_mm": -1.5,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 25,
+      "focus_mm": 2.75,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    },
+    {
+      "stage_y_mm": 25,
+      "focus_mm": 7,
+      "fine_wheel_axial_gap_mm": 4.49998676776886,
+      "broad_phase_candidates": 88,
+      "intersections": []
+    }
+  ],
+  "intentional_interfaces_excluded": [
+    "Long XY fixed spindle sleeve",
+    "XY spindle upper shoulder",
+    "XY concentric inner shaft"
+  ],
+  "tested_grips": [
+    "Scale index.040",
+    "Scale index.041",
+    "Scale index.042",
+    "Scale index.043",
+    "Scale index.044",
+    "Scale index.045",
+    "Scale index.046",
+    "Scale index.047",
+    "Scale index.048",
+    "Scale index.049",
+    "Scale index.050",
+    "Scale index.051",
+    "Scale index.052",
+    "Scale index.053",
+    "Scale index.054",
+    "Scale index.055",
+    "Scale index.056",
+    "Scale index.057",
+    "Scale index.058",
+    "Scale index.059",
+    "Scale index.060",
+    "Scale index.061",
+    "Scale index.062",
+    "Scale index.063",
+    "Scale index.064",
+    "Scale index.065",
+    "Scale index.066",
+    "Scale index.067",
+    "Scale index.068",
+    "Scale index.069",
+    "Scale index.070",
+    "Scale index.071",
+    "Scale index.072",
+    "Scale index.073",
+    "Scale index.074",
+    "Scale index.075",
+    "Scale index.076",
+    "Scale index.077",
+    "Scale index.078",
+    "Scale index.079",
+    "Scale index.080",
+    "Scale index.081",
+    "Scale index.082",
+    "Scale index.083",
+    "Scale index.084",
+    "Scale index.085",
+    "Scale index.086",
+    "Scale index.087",
+    "Scale index.088",
+    "Scale index.089",
+    "Scale index.090",
+    "Scale index.091",
+    "Scale index.092",
+    "Scale index.093",
+    "Scale index.094",
+    "Scale index.095",
+    "Scale index.096",
+    "Scale index.097",
+    "Scale index.098",
+    "Scale index.099",
+    "Scale index.100",
+    "Scale index.101",
+    "Scale index.102",
+    "Scale index.103",
+    "Scale index.104",
+    "Scale index.105",
+    "Scale index.106",
+    "Scale index.107",
+    "Scale index.108",
+    "Scale index.109",
+    "Scale index.110",
+    "Scale index.111",
+    "Scale index.112",
+    "Scale index.113",
+    "Scale index.114",
+    "Scale index.115",
+    "Scale index.116",
+    "Scale index.117",
+    "Scale index.118",
+    "Scale index.119",
+    "Stage X control mark",
+    "Stage X end cap",
+    "Stage Y control mark",
+    "Stage Y end cap",
+    "stage_x_knob cap",
+    "stage_x_knob grip",
+    "stage_y_knob cap",
+    "stage_y_knob grip"
+  ],
+  "travel_grid": {
+    "stage_y_mm": [
+      -25,
+      -18.75,
+      -12.5,
+      -6.25,
+      0,
+      6.25,
+      12.5,
+      18.75,
+      25
+    ],
+    "focus_mm": [
+      -10,
+      -5.75,
+      -1.5,
+      2.75,
+      7
+    ]
+  },
+  "minimum_fine_wheel_axial_gap_mm": 4.49998676776886,
+  "passed": true
+}

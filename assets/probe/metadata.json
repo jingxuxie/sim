@@ -1883,9 +1883,14 @@
   "identity": "Mitutoyo optics visible; orange stand manufacturer unverified",
   "imaging": {
     "magnifications": [
-      10
+      5
     ],
     "objective_count": 1,
+    "objective_na_by_mag": {
+      "5": 0.14
+    },
+    "objective_identification": "Mitutoyo M Plan Apo 5x / 0.14 marking readable in reference246; dimensions, sensor/relay scale and working distance remain estimates",
+    "objective_na_provenance": "Nominal 0.14 NA read from fitted objective marking in private reference246; the image PSF is an uncalibrated scalar surrogate",
     "sample_site": "device_chip_center",
     "camera_fractions": [
       0,
@@ -1900,6 +1905,8 @@
     "splitter_basis": "Unidentified trinocular head; intermediate ratio and travel are estimates",
     "source_width_m": 0.012
   },
+  "geometry_revision": "realism4",
+  "geometry_basis": "Photo243/245/246/247: slotted optical frame, tapered head, asymmetric covered manipulators, rack handwheel and chuck hardware; new static detail dimensions are estimates",
   "estimated_dimensions_mm": [
     470,
     416,

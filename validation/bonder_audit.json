@@ -1,0 +1,119 @@
+{
+  "revision": "realism4",
+  "checks": {
+    "same_link_names": true,
+    "preserved_parent": true,
+    "preserved_pos_mm": true,
+    "preserved_euler": true,
+    "preserved_joint": true,
+    "preserved_mass": true,
+    "preserved_inertia": true,
+    "preserved_sites": true,
+    "same_couplings": true,
+    "same_controls": true,
+    "chip_supported_without_gap": true,
+    "portable_pbr_maps_survive": true,
+    "optics_remain_transmissive": true,
+    "named_uvs_survive": true,
+    "physics_meshes_exist": true,
+    "no_initial_contacts": true,
+    "tip_handle_physically_separate": true,
+    "inspection_perpendicular_to_stage": true,
+    "inspection_axis_over_sample": true,
+    "eight_to_one_bidirectional": true,
+    "both_baselines_succeed": true,
+    "handle_remains_clear": true,
+    "no_unexpected_contacts": true
+  },
+  "passed": true,
+  "episodes": [
+    {
+      "task": "bonder.align",
+      "success": true,
+      "duration_s": 2.479999999999838,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.190776574950112e-07,
+        "active_pad": 1,
+        "first_pad_distance_m": 8.190776574950112e-07,
+        "gap_m": 0.0023999999999999994
+      },
+      "events": [],
+      "min_handle_workholder_clearance_m": 0.10796635197484915,
+      "handle_contact_count": 0,
+      "unexpected_contact_count": 0
+    },
+    {
+      "task": "bonder.two_bonds",
+      "success": true,
+      "duration_s": 12.8799999999983,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.16116549341340528,
+        "error_m": 4.055349805964781e-15,
+        "active_pad": 2,
+        "first_pad_distance_m": 0.005999999999995944,
+        "gap_m": 0.0013671578313638189
+      },
+      "events": [
+        {
+          "event": "bond_1_contact",
+          "time": 4.14
+        },
+        {
+          "event": "between_bonds_retracted",
+          "time": 5.34
+        },
+        {
+          "event": "bond_2_contact",
+          "time": 11.8
+        }
+      ],
+      "min_handle_workholder_clearance_m": 0.10795994812433679,
+      "handle_contact_count": 0,
+      "unexpected_contact_count": 0
+    }
+  ],
+  "reduction_ratios": [
+    0.12499999934114042,
+    0.1250000000742251
+  ],
+  "geometry": {
+    "previous_triangles": 255824,
+    "new_triangles": 517016,
+    "web_mesh_count": 45,
+    "pbr_mapped_materials": [
+      "black",
+      "bonder_panel",
+      "brushed",
+      "ceramic",
+      "darkmetal",
+      "gold",
+      "graphite",
+      "ivory",
+      "red",
+      "rubber",
+      "steel",
+      "vermiculite",
+      "violet",
+      "warm",
+      "wire",
+      "yellow",
+      "warm",
+      "graphite",
+      "alloy",
+      "bronze",
+      "gold",
+      "ivory"
+    ],
+    "glb_sha256": "093d331c31c1697b72f1e1621a56babeb4c69ecfeb80d6f07325a64e1221ced6"
+  },
+  "collider_changes": [
+    "Platen top raised 0.25 mm to support the unchanged chip underside.",
+    "Rear solid clamp replaced by the photographed 2.5 mm slotted spring clamp envelope.",
+    "Yoke cheeks/top/bottom updated to the new machined outline; tip contact is unchanged."
+  ]
+}

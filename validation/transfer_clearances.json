@@ -1,0 +1,1501 @@
+{
+  "source_blend": "transfer_station.blend",
+  "source_sha256": "f3048ccd2463d7ddebde6a785cf14a22c6d3db897ae5017b78e277486b11336d",
+  "audit_script_sha256": "7700afe49c014161c16a1abb408ffa901c59d8ad3b4e8bb0a181140a5d77e326",
+  "metadata_sha256": "795e68b4af29175f97e43a87b3ecc2a91341b97c0a7ce7c8165b639d3338a4a5",
+  "stages": [
+    {
+      "stage": "sample_x",
+      "joint": "sample_x_travel",
+      "continuous_range_m": [
+        -0.0125,
+        0.0125
+      ],
+      "moving_meshes": 7,
+      "fixed_meshes": 5,
+      "minimum_swept_envelope_clearance_mm": 0.999997556209567,
+      "maximum_driver_translation_error_mm": 1.1920928955772014e-05,
+      "passed": true,
+      "pairs": [
+        {
+          "moving": "sample_x moving drilled plate substrate",
+          "fixed": "sample_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 12.500002980232239,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate substrate",
+          "fixed": "sample_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate substrate",
+          "fixed": "sample_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate substrate",
+          "fixed": "sample_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 2.500005066394806,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate substrate",
+          "fixed": "sample_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 2.500005066394806,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X",
+          "fixed": "sample_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 12.500002980232239,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X",
+          "fixed": "sample_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X",
+          "fixed": "sample_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X",
+          "fixed": "sample_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 2.500005066394806,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X",
+          "fixed": "sample_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 74.64187023889785,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y",
+          "fixed": "sample_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 12.500002980232239,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y",
+          "fixed": "sample_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y",
+          "fixed": "sample_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 66.41694522836565,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y",
+          "fixed": "sample_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 2.500005066394806,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y",
+          "fixed": "sample_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 2.500005066394806,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X.001",
+          "fixed": "sample_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 12.500002980232239,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X.001",
+          "fixed": "sample_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X.001",
+          "fixed": "sample_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X.001",
+          "fixed": "sample_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 74.64188513169863,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin X.001",
+          "fixed": "sample_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 2.500005066394806,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y.001",
+          "fixed": "sample_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 12.500002980232239,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y.001",
+          "fixed": "sample_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 66.41694522836565,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y.001",
+          "fixed": "sample_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y.001",
+          "fixed": "sample_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 2.500005066394806,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate margin Y.001",
+          "fixed": "sample_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 2.500005066394806,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate drilled surface",
+          "fixed": "sample_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 12.700002640485764,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate drilled surface",
+          "fixed": "sample_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 15.692358401647663,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate drilled surface",
+          "fixed": "sample_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 15.692354698282024,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate drilled surface",
+          "fixed": "sample_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 2.7000047266483307,
+          "passed": true
+        },
+        {
+          "moving": "sample_x moving drilled plate drilled surface",
+          "fixed": "sample_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 2.7000047266483307,
+          "passed": true
+        },
+        {
+          "moving": "sample_x relieved carrier core",
+          "fixed": "sample_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 1.7000027000904083,
+          "passed": true
+        },
+        {
+          "moving": "sample_x relieved carrier core",
+          "fixed": "sample_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 2.0000040531158447,
+          "passed": true
+        },
+        {
+          "moving": "sample_x relieved carrier core",
+          "fixed": "sample_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 2.0000003278255463,
+          "passed": true
+        },
+        {
+          "moving": "sample_x relieved carrier core",
+          "fixed": "sample_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 1.00000500679015,
+          "passed": true
+        },
+        {
+          "moving": "sample_x relieved carrier core",
+          "fixed": "sample_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 0.999997556209567,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "stage": "sample_y",
+      "joint": "sample_y_travel",
+      "continuous_range_m": [
+        -0.0125,
+        0.0125
+      ],
+      "moving_meshes": 7,
+      "fixed_meshes": 5,
+      "minimum_swept_envelope_clearance_mm": 0.9999975562095635,
+      "maximum_driver_translation_error_mm": 2.980232238075642e-06,
+      "passed": true,
+      "pairs": [
+        {
+          "moving": "sample_y moving drilled plate substrate",
+          "fixed": "sample_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.50000873208046,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate substrate",
+          "fixed": "sample_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000104904174805,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate substrate",
+          "fixed": "sample_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000104904174805,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate substrate",
+          "fixed": "sample_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 3.000006079673767,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate substrate",
+          "fixed": "sample_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 3.000006079673767,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X",
+          "fixed": "sample_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.50000873208046,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X",
+          "fixed": "sample_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 66.41694725880483,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X",
+          "fixed": "sample_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000104904174805,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X",
+          "fixed": "sample_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 3.000006079673767,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X",
+          "fixed": "sample_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 3.000006079673767,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y",
+          "fixed": "sample_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.50000873208046,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y",
+          "fixed": "sample_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 15.671946338559913,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y",
+          "fixed": "sample_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 15.671946338559913,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y",
+          "fixed": "sample_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 3.000006079673767,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y",
+          "fixed": "sample_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 53.98342454373938,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X.001",
+          "fixed": "sample_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.50000873208046,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X.001",
+          "fixed": "sample_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000104904174805,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X.001",
+          "fixed": "sample_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 66.41694725880483,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X.001",
+          "fixed": "sample_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 3.000006079673767,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin X.001",
+          "fixed": "sample_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 3.000006079673767,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y.001",
+          "fixed": "sample_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.50000873208046,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y.001",
+          "fixed": "sample_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 15.671946338559913,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y.001",
+          "fixed": "sample_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 15.671946338559913,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y.001",
+          "fixed": "sample_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 53.98342454373938,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate margin Y.001",
+          "fixed": "sample_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 3.000006079673767,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate drilled surface",
+          "fixed": "sample_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.700004667043686,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate drilled surface",
+          "fixed": "sample_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 15.692351398489478,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate drilled surface",
+          "fixed": "sample_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 15.692351398489478,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate drilled surface",
+          "fixed": "sample_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 4.455335034527095,
+          "passed": true
+        },
+        {
+          "moving": "sample_y moving drilled plate drilled surface",
+          "fixed": "sample_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 4.455335034527092,
+          "passed": true
+        },
+        {
+          "moving": "sample_y relieved carrier core",
+          "fixed": "sample_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 2.200007438659668,
+          "passed": true
+        },
+        {
+          "moving": "sample_y relieved carrier core",
+          "fixed": "sample_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.9999966025352478,
+          "passed": true
+        },
+        {
+          "moving": "sample_y relieved carrier core",
+          "fixed": "sample_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 2.0000040531158447,
+          "passed": true
+        },
+        {
+          "moving": "sample_y relieved carrier core",
+          "fixed": "sample_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 0.999997556209567,
+          "passed": true
+        },
+        {
+          "moving": "sample_y relieved carrier core",
+          "fixed": "sample_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 0.9999975562095635,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "stage": "stamp_x",
+      "joint": "stamp_x_travel",
+      "continuous_range_m": [
+        -0.0125,
+        0.0125
+      ],
+      "moving_meshes": 7,
+      "fixed_meshes": 5,
+      "minimum_swept_envelope_clearance_mm": 0.999997556209567,
+      "maximum_driver_translation_error_mm": 1.1920928955772014e-05,
+      "passed": true,
+      "pairs": [
+        {
+          "moving": "stamp_x moving drilled plate substrate",
+          "fixed": "stamp_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 14.500007033348083,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate substrate",
+          "fixed": "stamp_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate substrate",
+          "fixed": "stamp_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate substrate",
+          "fixed": "stamp_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 3.4999996423721313,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate substrate",
+          "fixed": "stamp_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 3.4999996423721313,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X",
+          "fixed": "stamp_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 14.500007033348083,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X",
+          "fixed": "stamp_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X",
+          "fixed": "stamp_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X",
+          "fixed": "stamp_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 3.4999996423721313,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X",
+          "fixed": "stamp_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 81.17548635915406,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y",
+          "fixed": "stamp_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 14.500007033348083,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y",
+          "fixed": "stamp_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y",
+          "fixed": "stamp_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 65.91707085323264,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y",
+          "fixed": "stamp_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 6.021624646529116,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y",
+          "fixed": "stamp_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 6.021624646529104,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X.001",
+          "fixed": "stamp_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 14.500007033348083,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X.001",
+          "fixed": "stamp_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X.001",
+          "fixed": "stamp_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X.001",
+          "fixed": "stamp_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 81.17549380280599,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin X.001",
+          "fixed": "stamp_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 3.4999996423721313,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y.001",
+          "fixed": "stamp_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 14.500007033348083,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y.001",
+          "fixed": "stamp_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 65.91707178431405,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y.001",
+          "fixed": "stamp_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y.001",
+          "fixed": "stamp_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 6.021624646529116,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate margin Y.001",
+          "fixed": "stamp_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 6.021624646529104,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate drilled surface",
+          "fixed": "stamp_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 14.70000296831131,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate drilled surface",
+          "fixed": "stamp_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 15.195396198738655,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate drilled surface",
+          "fixed": "stamp_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 15.19539434778685,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate drilled surface",
+          "fixed": "stamp_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 6.140027130182981,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x moving drilled plate drilled surface",
+          "fixed": "stamp_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 6.140027130182969,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x relieved carrier core",
+          "fixed": "stamp_x fixed sole",
+          "minimum_swept_envelope_clearance_mm": 2.7000010013580322,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x relieved carrier core",
+          "fixed": "stamp_x ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.9999966025352478,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x relieved carrier core",
+          "fixed": "stamp_x ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.999998465180397,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x relieved carrier core",
+          "fixed": "stamp_x race end stop",
+          "minimum_swept_envelope_clearance_mm": 0.999997556209567,
+          "passed": true
+        },
+        {
+          "moving": "stamp_x relieved carrier core",
+          "fixed": "stamp_x race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 1.00000500679015,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "stage": "stamp_y",
+      "joint": "stamp_y_travel",
+      "continuous_range_m": [
+        -0.0125,
+        0.0125
+      ],
+      "moving_meshes": 7,
+      "fixed_meshes": 5,
+      "minimum_swept_envelope_clearance_mm": 0.9999938309192685,
+      "maximum_driver_translation_error_mm": 2.980232238075642e-06,
+      "passed": true,
+      "pairs": [
+        {
+          "moving": "stamp_y moving drilled plate substrate",
+          "fixed": "stamp_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.499997556209564,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate substrate",
+          "fixed": "stamp_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.4999955892562866,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate substrate",
+          "fixed": "stamp_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.4999955892562866,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate substrate",
+          "fixed": "stamp_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 2.99999862909317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate substrate",
+          "fixed": "stamp_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 2.99999862909317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X",
+          "fixed": "stamp_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.499997556209564,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X",
+          "fixed": "stamp_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 83.61344787347284,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X",
+          "fixed": "stamp_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.4999955892562866,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X",
+          "fixed": "stamp_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 2.99999862909317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X",
+          "fixed": "stamp_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 2.99999862909317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y",
+          "fixed": "stamp_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.499997556209564,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y",
+          "fixed": "stamp_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 7.55048712713247,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y",
+          "fixed": "stamp_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 7.550494429208572,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y",
+          "fixed": "stamp_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 2.99999862909317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y",
+          "fixed": "stamp_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 53.48420673043008,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X.001",
+          "fixed": "stamp_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.499997556209564,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X.001",
+          "fixed": "stamp_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.4999955892562866,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X.001",
+          "fixed": "stamp_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 83.61346277223602,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X.001",
+          "fixed": "stamp_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 2.99999862909317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin X.001",
+          "fixed": "stamp_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 2.99999862909317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y.001",
+          "fixed": "stamp_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.499997556209564,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y.001",
+          "fixed": "stamp_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 7.55048712713247,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y.001",
+          "fixed": "stamp_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 7.550494429208572,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y.001",
+          "fixed": "stamp_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 53.484203011004716,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate margin Y.001",
+          "fixed": "stamp_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 2.99999862909317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate drilled surface",
+          "fixed": "stamp_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 13.700000941753387,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate drilled surface",
+          "fixed": "stamp_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 7.592750858781437,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate drilled surface",
+          "fixed": "stamp_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 7.592758120211837,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate drilled surface",
+          "fixed": "stamp_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 4.123106283377717,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y moving drilled plate drilled surface",
+          "fixed": "stamp_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 4.123106283377715,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y relieved carrier core",
+          "fixed": "stamp_y fixed sole",
+          "minimum_swept_envelope_clearance_mm": 2.199999988079071,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y relieved carrier core",
+          "fixed": "stamp_y ground raceway",
+          "minimum_swept_envelope_clearance_mm": 1.9999891519546509,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y relieved carrier core",
+          "fixed": "stamp_y ground raceway.001",
+          "minimum_swept_envelope_clearance_mm": 1.9999966025352478,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y relieved carrier core",
+          "fixed": "stamp_y race end stop",
+          "minimum_swept_envelope_clearance_mm": 0.9999938309192685,
+          "passed": true
+        },
+        {
+          "moving": "stamp_y relieved carrier core",
+          "fixed": "stamp_y race end stop.001",
+          "minimum_swept_envelope_clearance_mm": 0.9999975562095635,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "stage": "stamp_z",
+      "joint": "stamp_z_travel",
+      "continuous_range_m": [
+        -0.0125,
+        0.0125
+      ],
+      "moving_meshes": 13,
+      "fixed_meshes": 5,
+      "minimum_swept_envelope_clearance_mm": 0.49999356269836426,
+      "maximum_driver_translation_error_mm": 2.980232238075642e-06,
+      "passed": true,
+      "pairs": [
+        {
+          "moving": "stamp_z drilled lift table substrate",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 25.50000250339507,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table substrate",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 3.9999961853027233,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table substrate",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 4.999998211860646,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table substrate",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 3.9999961853027233,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table substrate",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 4.999998211860646,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 27.49999165534972,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 5.999985337257375,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 6.999987363815297,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 76.83462672666278,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 77.06856620422823,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 27.49999165534972,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 6.013303875883006,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 7.420400348539825,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 6.013303380281985,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 7.420400348539825,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X.001",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 27.49999165534972,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X.001",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 76.83463415449188,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X.001",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 77.06856620422823,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X.001",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 5.999985337257375,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin X.001",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 6.999987363815297,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y.001",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 27.49999165534972,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y.001",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 6.013303875883006,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y.001",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 7.021561445946955,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y.001",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 6.013303380281985,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table margin Y.001",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 7.021561445946955,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table drilled surface",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 27.699995040893544,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table drilled surface",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 6.2128785292542235,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table drilled surface",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 7.220967306150317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table drilled surface",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 6.212878049573264,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z drilled lift table drilled surface",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 7.220967306150317,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z internal lift carrier",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 3.500002622604359,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z internal lift carrier",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 1.5000030398368835,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z internal lift carrier",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 1.650005578994751,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z internal lift carrier",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 1.4999955892562866,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z internal lift carrier",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 1.650005578994751,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 4.500004649162282,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 0.5000010132789612,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 0.6500035524368286,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 68.49999725818634,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 68.6500072479248,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 3.500002622604359,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 0.7999986410140991,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 11.549986898899078,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 89.79999274015427,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 89.95000272989273,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe.001",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 4.500004649162282,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe.001",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 68.50001960992813,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe.001",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 68.650022149086,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe.001",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 0.49999356269836426,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z moving bearing shoe.001",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 0.6500035524368286,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side.001",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 3.500002622604359,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side.001",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 89.80000764131546,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side.001",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 89.95001018047333,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side.001",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 0.800013542175293,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt side.001",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 11.549994349479675,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt rear",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 3.500002622604359,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt rear",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 0.7999986410140991,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt rear",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 4.2999982833862305,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt rear",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 0.7999986410140991,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z lift skirt rear",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 4.2999982833862305,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z front face land",
+          "fixed": "stamp_z fixed lower crossmember",
+          "minimum_swept_envelope_clearance_mm": 4.500004649162282,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z front face land",
+          "fixed": "stamp_z upright guide column",
+          "minimum_swept_envelope_clearance_mm": 16.14999771118164,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z front face land",
+          "fixed": "stamp_z vertical bearing channel",
+          "minimum_swept_envelope_clearance_mm": 19.65000107884407,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z front face land",
+          "fixed": "stamp_z upright guide column.001",
+          "minimum_swept_envelope_clearance_mm": 16.14999771118164,
+          "passed": true
+        },
+        {
+          "moving": "stamp_z front face land",
+          "fixed": "stamp_z vertical bearing channel.001",
+          "minimum_swept_envelope_clearance_mm": 19.65000107884407,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "method": "Conservative continuous swept bounds from evaluated named meshes; actual endpoint driver verification",
+  "limitations": [
+    "This checks selected stage structural solids, not all assembly parts or collision proxies.",
+    "Cable checks establish terminal attachment and deformation; full cable routing/contact is not audited.",
+    "Positive AABB clearance proves separation; an overlap is a conservative failure that needs geometric review."
+  ],
+  "cables": {
+    "passed": true,
+    "tested_focus_range_m": [
+      -0.025,
+      0.025
+    ],
+    "lateral_and_outward_tolerance_mm": 0.05,
+    "camera_host_plug_intended_embed_limit_mm": 0.6,
+    "approach_angles_are_diagnostics": true,
+    "checks": [
+      {
+        "cable": "Connected flexible fiber sheath",
+        "end": "start",
+        "connector": "Fiber source terminal ferrule",
+        "focus_travel_m": -0.025,
+        "endpoint_error_mm": 2.293444216883645e-06,
+        "outward_axial_offset_mm": -1.1641532182693481e-06,
+        "lateral_error_mm": 1.9760145901157094e-06,
+        "allowed_connector_embed_mm": 0.05,
+        "deformation_error_mm": 1.8771406608397488e-06,
+        "approach_angle_deg": 5.488993716184866,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Connected flexible fiber sheath",
+        "end": "end",
+        "connector": "Motic light-guide terminal",
+        "focus_travel_m": -0.025,
+        "endpoint_error_mm": 3.400284100981184e-05,
+        "outward_axial_offset_mm": 3.3527612686157227e-05,
+        "lateral_error_mm": 5.6650140604919006e-06,
+        "allowed_connector_embed_mm": 0.05,
+        "deformation_error_mm": 3.0549651718953443e-06,
+        "approach_angle_deg": 13.202884181982794,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Routed flexible camera cable",
+        "end": "start",
+        "connector": "Free USB host connector",
+        "focus_travel_m": -0.025,
+        "endpoint_error_mm": 0.49999728803121785,
+        "outward_axial_offset_mm": -0.4999972879886627,
+        "lateral_error_mm": 6.52341438742443e-06,
+        "allowed_connector_embed_mm": 0.6,
+        "deformation_error_mm": 7.5121716619011374e-06,
+        "approach_angle_deg": 2.4549670393132943,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Routed flexible camera cable",
+        "end": "end",
+        "connector": "Camera plug strain relief",
+        "focus_travel_m": -0.025,
+        "endpoint_error_mm": 5.9624056799841865e-05,
+        "outward_axial_offset_mm": 1.5133991837501526e-06,
+        "lateral_error_mm": 5.960484688497566e-05,
+        "allowed_connector_embed_mm": 0.05,
+        "deformation_error_mm": 2.384441574900245e-05,
+        "approach_angle_deg": 4.052818919484574,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Connected flexible fiber sheath",
+        "end": "start",
+        "connector": "Fiber source terminal ferrule",
+        "focus_travel_m": 0.0,
+        "endpoint_error_mm": 2.293444216883645e-06,
+        "outward_axial_offset_mm": -1.1641532182693481e-06,
+        "lateral_error_mm": 1.9760145901157094e-06,
+        "allowed_connector_embed_mm": 0.05,
+        "deformation_error_mm": 1.8771406608397488e-06,
+        "approach_angle_deg": 5.488993716184866,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Connected flexible fiber sheath",
+        "end": "end",
+        "connector": "Motic light-guide terminal",
+        "focus_travel_m": 0.0,
+        "endpoint_error_mm": 2.8508208440642742e-05,
+        "outward_axial_offset_mm": 2.7939677238464355e-05,
+        "lateral_error_mm": 5.6650140604919006e-06,
+        "allowed_connector_embed_mm": 0.05,
+        "deformation_error_mm": 2.7939677238464355e-06,
+        "approach_angle_deg": 13.202976787855128,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Routed flexible camera cable",
+        "end": "start",
+        "connector": "Free USB host connector",
+        "focus_travel_m": 0.0,
+        "endpoint_error_mm": 0.49999728803121785,
+        "outward_axial_offset_mm": -0.4999972879886627,
+        "lateral_error_mm": 6.52341438742443e-06,
+        "allowed_connector_embed_mm": 0.6,
+        "deformation_error_mm": 7.5121716619011374e-06,
+        "approach_angle_deg": 2.4549670393132943,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Routed flexible camera cable",
+        "end": "end",
+        "connector": "Camera plug strain relief",
+        "focus_travel_m": 0.0,
+        "endpoint_error_mm": 1.5213383812513174e-06,
+        "outward_axial_offset_mm": 1.5133991837501526e-06,
+        "lateral_error_mm": 1.5522042678961512e-07,
+        "allowed_connector_embed_mm": 0.05,
+        "deformation_error_mm": 3.4924596548080444e-07,
+        "approach_angle_deg": 4.052818919484574,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Connected flexible fiber sheath",
+        "end": "start",
+        "connector": "Fiber source terminal ferrule",
+        "focus_travel_m": 0.025,
+        "endpoint_error_mm": 2.293444216883645e-06,
+        "outward_axial_offset_mm": -1.1641532182693481e-06,
+        "lateral_error_mm": 1.9760145901157094e-06,
+        "allowed_connector_embed_mm": 0.05,
+        "deformation_error_mm": 1.8771406608397488e-06,
+        "approach_angle_deg": 5.488993716184866,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Connected flexible fiber sheath",
+        "end": "end",
+        "connector": "Motic light-guide terminal",
+        "focus_travel_m": 0.025,
+        "endpoint_error_mm": 2.3058463638909063e-05,
+        "outward_axial_offset_mm": 2.2351741790771484e-05,
+        "lateral_error_mm": 5.6650140604919006e-06,
+        "allowed_connector_embed_mm": 0.05,
+        "deformation_error_mm": 2.560713729679048e-06,
+        "approach_angle_deg": 13.203069395003455,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Routed flexible camera cable",
+        "end": "start",
+        "connector": "Free USB host connector",
+        "focus_travel_m": 0.025,
+        "endpoint_error_mm": 0.49999728803121785,
+        "outward_axial_offset_mm": -0.4999972879886627,
+        "lateral_error_mm": 6.52341438742443e-06,
+        "allowed_connector_embed_mm": 0.6,
+        "deformation_error_mm": 7.5121716619011374e-06,
+        "approach_angle_deg": 2.4549670393132943,
+        "approach_within_30_degrees": true,
+        "passed": true
+      },
+      {
+        "cable": "Routed flexible camera cable",
+        "end": "end",
+        "connector": "Camera plug strain relief",
+        "focus_travel_m": 0.025,
+        "endpoint_error_mm": 1.5213383812513174e-06,
+        "outward_axial_offset_mm": 1.5133991837501526e-06,
+        "lateral_error_mm": 1.5522042678961512e-07,
+        "allowed_connector_embed_mm": 0.05,
+        "deformation_error_mm": 2.384441574900245e-05,
+        "approach_angle_deg": 4.052818919484574,
+        "approach_within_30_degrees": true,
+        "passed": true
+      }
+    ]
+  },
+  "source_unchanged_during_audit": true,
+  "passed": true
+}

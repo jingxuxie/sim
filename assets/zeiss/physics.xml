@@ -77,9 +77,9 @@
           <geom name="stage_y__Y_runner_end_-1" type="box" pos="0 -0.0435 -0.003" size="0.036 0.0215 0.0045" class="contact" />
           <geom name="stage_y__Y_runner_side_1" type="box" pos="0.0605 0 -0.003" size="0.0245 0.065 0.0045" class="contact" />
           <geom name="stage_y__Y_runner_end_1" type="box" pos="0 0.0435 -0.003" size="0.036 0.0215 0.0045" class="contact" />
-          <geom name="stage_y__XY_control_bracket_foot" type="box" pos="0.091 0.051 -0.007" size="0.021 0.0125 0.0045" class="contact" />
-          <geom name="stage_y__XY_control_gear_housing" type="box" pos="0.103 0.051 -0.017" size="0.014 0.013 0.0125" class="contact" />
-          <site name="xy_control_mount" pos="0.103 0.051 -0.015" size=".0006" group="4" rgba=".1 .8 .4 1" />
+          <geom name="stage_y__XY_control_bracket_foot" type="box" pos="0.099 0.051 -0.007" size="0.026 0.0125 0.0045" class="contact" />
+          <geom name="stage_y__XY_control_gear_housing" type="box" pos="0.118 0.051 -0.004" size="0.014 0.013 0.004" class="contact" />
+          <site name="xy_control_mount" pos="0.118 0.051 -0.009" size=".0006" group="4" rgba=".1 .8 .4 1" />
           <body name="stage_x" pos="0 0 0.006" euler="0 0 0">
             <joint name="stage_x_travel" type="slide" axis="1 0 0" damping="20" frictionloss="0.6" range="-0.035 0.035" />
             <inertial mass="0.5" pos="0 0 0" diaginertia="0.0006125 0.0006125 0.0006125" />
@@ -95,13 +95,13 @@
             <geom name="stage_x__device_chip" type="box" pos="0 0 0.0097" size="0.0045 0.0045 0.0002" class="contact" />
             <site name="device_chip_center" pos="0 0 0.0099" size=".0006" group="4" rgba=".1 .8 .4 1" />
           </body>
-          <body name="stage_x_knob" pos="0.103 0.051 -0.045" euler="0 0 0">
+          <body name="stage_x_knob" pos="0.118 0.051 -0.07" euler="0 0 0">
             <joint name="stage_x_knob_angle" type="hinge" axis="0 0 1" damping="0.015" frictionloss="0.007" range="-12 12" />
             <inertial mass="0.08" pos="0 0 0" diaginertia="9.8e-05 9.8e-05 9.8e-05" />
             <geom name="stage_x_knob__stage_x_knob_grip" type="cylinder" pos="0 0 0" size="0.0115 0.009" zaxis="0 0 1" class="contact" />
             <site name="stage_x_knob_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
           </body>
-          <body name="stage_y_knob" pos="0.103 0.051 -0.025" euler="0 0 0">
+          <body name="stage_y_knob" pos="0.118 0.051 -0.05" euler="0 0 0">
             <joint name="stage_y_knob_angle" type="hinge" axis="0 0 1" damping="0.015" frictionloss="0.007" range="-12 12" />
             <inertial mass="0.08" pos="0 0 0" diaginertia="9.8e-05 9.8e-05 9.8e-05" />
             <geom name="stage_y_knob__stage_y_knob_grip" type="cylinder" pos="0 0 0" size="0.0135 0.009" zaxis="0 0 1" class="contact" />
@@ -113,7 +113,9 @@
         <joint name="focus_wheel_angle" type="hinge" axis="1 0 0" damping="0.015" frictionloss="0.007" range="-8 8" />
         <inertial mass="0.08" pos="0 0 0" diaginertia="9.8e-05 9.8e-05 9.8e-05" />
         <geom name="focus_wheel__focus_wheel_grip" type="cylinder" pos="0 0 0" size="0.029 0.012" zaxis="1 0 0" class="contact" />
+        <geom name="focus_wheel__Opposite_coarse_focus_contact" type="cylinder" pos="-0.154 0 0" size="0.029 0.012" zaxis="-1 0 0" class="contact" />
         <site name="focus_wheel_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        <site name="opposite_focus_grip_site" pos="-0.154 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
       </body>
       <body name="turret" pos="0 -0.04185620765 0.262" euler="0.2443460953 0 0">
         <joint name="turret_angle" type="hinge" axis="0 0 1" damping="0.04" frictionloss="0.005" range="-3.141592654 3.141592654" />

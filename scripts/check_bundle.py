@@ -14,12 +14,12 @@ for item in catalog['instruments']:
     for key in ('glb', 'preview', 'render', 'detail_render', 'physics', 'metadata'):
         assert item[key].startswith('./'), (item['id'], key)
         assert (ROOT/urlsplit(item[key]).path).is_file(), (item['id'], key)
-    xml = ET.parse(ROOT/item['physics']).getroot()
+    xml = ET.parse(ROOT/urlsplit(item['physics']).path).getroot()
     assert xml.find('compiler').get('inertiafromgeom') == 'false'
     assert float(xml.find('option').get('timestep')) == .001
     assert not list(xml.iter('mesh'))
     assert all('mesh' not in g.attrib for g in xml.iter('geom'))
-    data = (ROOT/item['glb']).read_bytes()
+    data = (ROOT/urlsplit(item['glb']).path).read_bytes()
     assert data[:4] == b'glTF'
     gltf = json.loads(data[20:20 + struct.unpack_from('<I', data, 12)[0]])
     finished = {i for i, material in enumerate(gltf['materials'])
@@ -38,7 +38,7 @@ for item in catalog['instruments']:
                 image = gltf['images'][gltf['textures'][texture['index']]['source']]
                 assert 'bufferView' in image and 'uri' not in image, (item['id'], 'external texture')
             assert not material['extras'].get('realism3_map_metadata', '').startswith('/'), item['id']
-for name in ('index.html', 'app.js', 'runtime.js', 'worker.js', 'physics.js'):
+for name in ('index.html', 'app.js', 'runtime.js', 'worker.js', 'physics.js', 'flexible-details.js'):
     text = (ROOT/name).read_text()
     assert '/api/' not in text, name
     assert '/sdf/' not in text, name

@@ -53,12 +53,20 @@ def optical_path_state(sim, channel='camera'):
     camera=float(fractions[k]) if seated else 0.;eye=1.-camera if seated else 0.
     objective_indexed,mag=_objective_state(sim)
     present=mag is not None;indexed=objective_indexed and seated and present
-    cam_throughput=camera if objective_indexed and present else 0.
-    eye_throughput=eye if objective_indexed and present else 0.
+    illumination=meta.get('illumination');source_fraction=1.;source_on=True
+    if illumination:
+        source_on=sim.q(illumination['power_joint'])>=illumination['power_threshold_rad']
+        lo,hi=illumination['intensity_range']
+        level=float(np.clip((sim.q(illumination['intensity_joint'])-lo)/(hi-lo),0,1))
+        minimum=illumination['minimum_fraction']
+        source_fraction=(minimum+(1-minimum)*level) if source_on else 0.
+    cam_throughput=camera*source_fraction if objective_indexed and present else 0.
+    eye_throughput=eye*source_fraction if objective_indexed and present else 0.
     throughput=cam_throughput if channel=='camera' else eye_throughput
     if not objective_indexed:status='objective_in_transit'
     elif not present:status='empty_objective_port'
     elif not seated:status='splitter_in_transit'
+    elif not source_on:status='illuminator_off'
     elif throughput==0:status=channel+'_port_dark'
     else:status='image_available'
     return dict(channel=channel,indexed=bool(indexed),objective_indexed=bool(objective_indexed),
@@ -66,6 +74,7 @@ def optical_path_state(sim, channel='camera'):
                 splitter_detent=k if seated else None,splitter_tolerance_m=tolerance,
                 camera_fraction=camera,eyepiece_fraction=eye,camera_throughput=cam_throughput,
                 eyepiece_throughput=eye_throughput,throughput=throughput,
+                illumination_fraction=source_fraction,illuminator_on=bool(source_on),
                 blocked_fraction=1.-cam_throughput-eye_throughput,optical_status=status,
                 splitter_model='discrete prism ports; blackout between detent windows')
 
@@ -144,7 +153,7 @@ class MicroscopeCamera:
     def __init__(self, asset, source=None, source_width_m=None, size=256, seed=0,
                  sensor_width_m=.013, photons=50000, noise=True):
         if asset not in ('nikon','zeiss','transfer','probe'):raise ValueError('No microscope camera for '+asset)
-        self.asset=asset;self.size=int(size)
+        self.asset=asset;self.size=int(size);self.objective_na=dict(OBJECTIVES)
         self.width_m=float(source_width_m if source_width_m is not None else (.012 if asset=='probe' else .002))
         if self.size<32 or self.size>1024 or not math.isfinite(self.width_m) or self.width_m<=0:raise ValueError('Invalid camera dimensions')
         if sensor_width_m<=0 or photons<=0:raise ValueError('Sensor width and photon budget must be positive')
@@ -164,6 +173,10 @@ class MicroscopeCamera:
         self.background=tuple(np.uint8(np.median(np.asarray(self.source).reshape(-1,3),axis=0)))
 
     def configuration(self, sim):
+        for key,value in sim.meta.get('imaging',{}).get('objective_na_by_mag',{}).items():
+            value=float(value)
+            if not math.isfinite(value) or not 0<value<1:raise ValueError('Invalid air-objective numerical aperture')
+            self.objective_na[int(key)]=value
         indexed,mag=_objective_state(sim);mag=mag if indexed else None
         if self.asset=='nikon':xy=[sim.q('stage_x'),sim.q('stage_y')];z=sim.q('stage_z')
         elif self.asset=='zeiss':xy=[sim.q('stage_x_travel'),sim.q('stage_y_travel')];z=sim.q('focus_travel')
@@ -192,7 +205,7 @@ class MicroscopeCamera:
                                   routing=optical_path_state(sim,channel),rotation_rad=rotation,probe_geometry=geometry)
 
     def _specimen_linear(self,mag,xy,defocus_m,target_stage_xy,rotation_rad):
-        size=self.size;na=OBJECTIVES[mag];pixel=self.sensor_width_m/mag/size
+        size=self.size;na=self.objective_na[mag];pixel=self.sensor_width_m/mag/size
         z=round(defocus_m/1e-7)*1e-7
         blur_radius=abs(z)*na/math.sqrt(1-na*na)
         if blur_radius>pixel*size*2:
@@ -292,7 +305,7 @@ class MicroscopeCamera:
                                   splitter_model='sensor-state replay without a measured selector'))
         meta.update(route)
         if mag is not None:
-            na=OBJECTIVES[mag];pixel=self.sensor_width_m/mag/size
+            na=self.objective_na[mag];pixel=self.sensor_width_m/mag/size
             meta.update(na=na,pixel_m=pixel,field_width_m=pixel*size)
         if mag is None or route['throughput']<=0:
             status='no indexed objective' if mag is None else route['optical_status'].replace('_',' ')

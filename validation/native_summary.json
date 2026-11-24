@@ -1,0 +1,47 @@
+{
+  "revision": "realism4",
+  "checks": [
+    {
+      "name": "suite",
+      "returncode": 0,
+      "passed": true,
+      "elapsed_s": 182.85677524586208,
+      "report": "native_suite.json",
+      "report_sha256": "8ccc809a859f70037a04e1e45ef5b9be8e6a718f58e64ac38a6ed63ab68f0bfe",
+      "native_script": "benchmarks/validate_suite.py"
+    },
+    {
+      "name": "imaging",
+      "returncode": 0,
+      "passed": true,
+      "elapsed_s": 6.284463056828827,
+      "report": "native_imaging.json",
+      "report_sha256": "b0999605ba414bf8122d45a0acbb6c4846a197da3211a9b6ced0537a2aa6dbdf",
+      "native_script": "benchmarks/validate_imaging.py"
+    },
+    {
+      "name": "microscope_geometry",
+      "returncode": 0,
+      "passed": true,
+      "elapsed_s": 7.73670075298287,
+      "report": "microscope_geometry.json",
+      "report_sha256": "821137e0e52d60516e8c1ad739ea1ada8e95b69c8edba27374f3e876c8fa8772",
+      "native_script": "validation/microscope_corrections/check_geometry.py"
+    },
+    {
+      "name": "transfer_mechanisms",
+      "returncode": 0,
+      "passed": true,
+      "elapsed_s": 10.799704679986462,
+      "report": "transfer_mechanisms.json",
+      "report_sha256": "c0bb326e45399bb2cf21a75b948c080fae6126b7797ff44c1c151db1175b5139",
+      "native_script": "validation/realism4_transfer/check_mechanisms.py"
+    }
+  ],
+  "input_files": 582,
+  "changed_inputs": [],
+  "unchanged_inputs": true,
+  "passed": true,
+  "inputs_before_sha256": "d14766db296620488b854c4c230597f0f0961cc612ee79ffdc83613d513340d3",
+  "inputs_after_sha256": "d14766db296620488b854c4c230597f0f0961cc612ee79ffdc83613d513340d3"
+}

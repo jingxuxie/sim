@@ -1,0 +1,1830 @@
+{
+  "asset": "probe",
+  "source_sha256": "4cb91a542d59983530752d8f9b48997ad3474eb19bf4fc644af1ed38544c0935",
+  "method": "Evaluated visual mesh triangle intersections after Blender joint-driver/shape-key evaluation; bounds reject disjoint pairs.",
+  "scope": "Affected exterior geometry only; shaft/bearing assembly interfaces and pre-existing unsafe objective/sample contact excluded.",
+  "poses": [
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 572,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 572,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 586,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 586,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 4.214684851089403e-05,
+        "right": 4.214684851089403e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 590,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 4.214684851089403e-05,
+        "right": 4.214684851089403e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 590,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 571,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 10,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 571,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 10,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 585,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 8,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 585,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 8,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 4.214684851089403e-05,
+        "right": 4.214684851089403e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 589,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 4.214684851089403e-05,
+        "right": 4.214684851089403e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 589,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 570,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 570,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 584,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 584,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 4.214684851089403e-05,
+        "right": 4.214684851089403e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 588,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 4.214684851089403e-05,
+        "right": 4.214684851089403e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 588,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 570,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 570,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.1073424255447017e-05,
+        "right": 2.1073424255447017e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 584,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.1073424255447017e-05,
+        "right": 2.1073424255447017e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 584,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 588,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 588,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 569,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 10,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 569,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 10,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.1073424255447017e-05,
+        "right": 2.1073424255447017e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 583,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 8,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.1073424255447017e-05,
+        "right": 2.1073424255447017e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 583,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 8,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 587,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 587,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 568,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 568,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.1073424255447017e-05,
+        "right": 2.1073424255447017e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 582,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.1073424255447017e-05,
+        "right": 2.1073424255447017e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 582,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 586,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 3.332000937312528e-05,
+        "right": 3.332000937312528e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 586,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 569,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 569,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 583,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 583,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 587,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 587,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 568,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 10,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 568,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 10,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 582,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 8,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 582,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 8,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 586,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 586,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 567,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 567,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 11,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 581,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 1.4901161193847656e-05,
+        "right": 1.4901161193847656e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 581,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 9,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 585,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "cable_endpoint_errors_mm": {
+        "left": 2.9802322387695312e-05,
+        "right": 2.9802322387695312e-05
+      },
+      "fixed_tail_errors_mm": {
+        "left": 1.580506819158526e-05,
+        "right": 3.054965188141303e-05
+      },
+      "cables": {
+        "broad_phase_candidates": 585,
+        "intersections": []
+      },
+      "covers": {
+        "broad_phase_candidates": 7,
+        "intersections": []
+      },
+      "optical_housings": {
+        "broad_phase_candidates": 0,
+        "intersections": []
+      }
+    }
+  ],
+  "travel_grid": {
+    "manipulator_xyz_mm": [
+      -6,
+      0,
+      6
+    ],
+    "optical_focus_mm": [
+      -20,
+      20
+    ]
+  },
+  "intentional_interfaces_excluded": [
+    "Each cable/own loose plug and holder strain-relief insertion.",
+    "Covered manipulator shell over its own internal slide, spindle bearing, and needle-holder fastenings."
+  ],
+  "tested_covers": [
+    "Angled green needle-carrier board",
+    "Cascade removable side casing",
+    "Cascade removable side casing.001",
+    "Compact right probe top cover",
+    "Covered Cascade top plate",
+    "Right probe upright jaw",
+    "Vertical carrier clamp"
+  ],
+  "tested_optical_housings": [
+    "Blank optical side cover",
+    "Mitutoyo central binocular bridge",
+    "Mitutoyo separate angular prism",
+    "Mitutoyo separate angular prism.001",
+    "Mitutoyo sloping prism enclosure",
+    "Optical module access-cover reveal",
+    "Optical module access-cover reveal.001",
+    "Slotted optical side cover",
+    "Slotted optical side cover.001",
+    "Slotted optical side cover.002",
+    "Slotted optical side cover.003",
+    "Slotted optical side cover.004"
+  ],
+  "fixed_BNC_ring_to_foundation_gap_mm": 0.9,
+  "passed": true
+}

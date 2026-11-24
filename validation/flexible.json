@@ -1,0 +1,91 @@
+{
+  "url": "http://127.0.0.1:18768/publish/github-sim/",
+  "native_sources": false,
+  "checks": [
+    {
+      "check": "transfer Connected_flexible_fiber_sheath travel -1",
+      "passed": true,
+      "max_vertex_error_m": 2.9802322387695312e-8,
+      "fixed_vertices": 6024,
+      "moving_vertices": 6048
+    },
+    {
+      "check": "transfer Connected_flexible_fiber_sheath travel 1",
+      "passed": true,
+      "max_vertex_error_m": 2.9802322387695312e-8,
+      "fixed_vertices": 6024,
+      "moving_vertices": 6048
+    },
+    {
+      "check": "transfer Connected_flexible_fiber_sheath travel 0",
+      "passed": true,
+      "max_vertex_error_m": 0,
+      "fixed_vertices": 6024,
+      "moving_vertices": 6048
+    },
+    {
+      "check": "transfer Routed_flexible_camera_cable travel -1",
+      "passed": true,
+      "max_vertex_error_m": 2.9802322387695312e-8,
+      "fixed_vertices": 5536,
+      "moving_vertices": 5600
+    },
+    {
+      "check": "transfer Routed_flexible_camera_cable travel 1",
+      "passed": true,
+      "max_vertex_error_m": 2.9802322387695312e-8,
+      "fixed_vertices": 5536,
+      "moving_vertices": 5600
+    },
+    {
+      "check": "transfer Routed_flexible_camera_cable travel 0",
+      "passed": true,
+      "max_vertex_error_m": 0,
+      "fixed_vertices": 5536,
+      "moving_vertices": 5600
+    },
+    {
+      "check": "probe left_flexible_triax_service_loop travel -1",
+      "passed": true,
+      "max_vertex_error_m": 1.5215917100636724e-8,
+      "fixed_vertices": 714,
+      "moving_vertices": 742
+    },
+    {
+      "check": "probe left_flexible_triax_service_loop travel 1",
+      "passed": true,
+      "max_vertex_error_m": 1.1175870895385742e-8,
+      "fixed_vertices": 714,
+      "moving_vertices": 742
+    },
+    {
+      "check": "probe left_flexible_triax_service_loop travel 0",
+      "passed": true,
+      "max_vertex_error_m": 0,
+      "fixed_vertices": 714,
+      "moving_vertices": 742
+    },
+    {
+      "check": "probe right_flexible_triax_service_loop travel -1",
+      "passed": true,
+      "max_vertex_error_m": 1.0878174267699248e-8,
+      "fixed_vertices": 714,
+      "moving_vertices": 742
+    },
+    {
+      "check": "probe right_flexible_triax_service_loop travel 1",
+      "passed": true,
+      "max_vertex_error_m": 1.4969786929807438e-8,
+      "fixed_vertices": 714,
+      "moving_vertices": 742
+    },
+    {
+      "check": "probe right_flexible_triax_service_loop travel 0",
+      "passed": true,
+      "max_vertex_error_m": 0,
+      "fixed_vertices": 714,
+      "moving_vertices": 742
+    }
+  ],
+  "passed": true
+}

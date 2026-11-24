@@ -1,7 +1,7 @@
 {
-  "url": "http://127.0.0.1:18767/github-sim/",
+  "url": "http://127.0.0.1:18768/publish/github-sim/",
   "engine": "MuJoCo 4.0.1 WASM",
-  "checked_utc": "2026-11-24T06:29:57.353Z",
+  "checked_utc": "2026-11-24T10:01:30.210Z",
   "checks": [
     {
       "check": "AFM locked door and scanner commands rejected",
@@ -137,7 +137,7 @@
       "check": "transfer optical routing 0 m",
       "passed": true,
       "camera_throughput": 0,
-      "eyepiece_throughput": 1
+      "eyepiece_throughput": 0.9999999999271086
     },
     {
       "check": "transfer camera actual image pixels at 0 m",
@@ -147,34 +147,34 @@
     {
       "check": "transfer eyepiece actual image pixels at 0 m",
       "passed": true,
-      "pixel_sum": 20561675
+      "pixel_sum": 20561758
     },
     {
       "check": "transfer optical routing 0.006 m",
       "passed": true,
-      "camera_throughput": 0.5,
-      "eyepiece_throughput": 0.5
+      "camera_throughput": 0.49999999996326977,
+      "eyepiece_throughput": 0.49999999996326977
     },
     {
       "check": "transfer camera actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 14721484
+      "pixel_sum": 14719295
     },
     {
       "check": "transfer eyepiece actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 14720474
+      "pixel_sum": 14720339
     },
     {
       "check": "transfer optical routing 0.012 m",
       "passed": true,
-      "camera_throughput": 1,
+      "camera_throughput": 0.9999999999265395,
       "eyepiece_throughput": 0
     },
     {
       "check": "transfer camera actual image pixels at 0.012 m",
       "passed": true,
-      "pixel_sum": 20563660
+      "pixel_sum": 20563597
     },
     {
       "check": "transfer eyepiece actual image pixels at 0.012 m",
@@ -199,7 +199,7 @@
     {
       "check": "probe eyepiece actual image pixels at 0 m",
       "passed": true,
-      "pixel_sum": 20972703
+      "pixel_sum": 19162804
     },
     {
       "check": "probe optical routing 0.006 m",
@@ -210,12 +210,12 @@
     {
       "check": "probe camera actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 14969860
+      "pixel_sum": 13599365
     },
     {
       "check": "probe eyepiece actual image pixels at 0.006 m",
       "passed": true,
-      "pixel_sum": 14969005
+      "pixel_sum": 13598080
     },
     {
       "check": "probe optical routing 0.012 m",
@@ -226,7 +226,7 @@
     {
       "check": "probe camera actual image pixels at 0.012 m",
       "passed": true,
-      "pixel_sum": 20974149
+      "pixel_sum": 19162771
     },
     {
       "check": "probe eyepiece actual image pixels at 0.012 m",
@@ -235,6 +235,49 @@
     },
     {
       "check": "probe selector transit blocks image",
+      "passed": true
+    },
+    {
+      "check": "Transfer fine micrometer requires the coarse clamp",
+      "passed": true
+    },
+    {
+      "check": "Transfer released coarse ring rotates",
+      "passed": true
+    },
+    {
+      "check": "Transfer locked ring holds while tangent micrometer turns",
+      "passed": true,
+      "coarse_rad": 0.20000000043713193,
+      "fine_rad": 0.015375296841492787
+    },
+    {
+      "check": "Transfer fine spindle advances 0.635 mm per turn",
+      "passed": true
+    },
+    {
+      "check": "Transfer released clamp disengages fine adjustment",
+      "passed": true
+    },
+    {
+      "check": "Transfer dimmer changes measured optical throughput",
+      "passed": true,
+      "throughput": 0.10000175563952943
+    },
+    {
+      "check": "Transfer source power blacks out microscope",
+      "passed": true
+    },
+    {
+      "check": "Transfer source restores full illumination",
+      "passed": true
+    },
+    {
+      "check": "Transfer tilt drives the visible goniometer screw",
+      "passed": true
+    },
+    {
+      "check": "Probe image uses the photographed 5× / NA 0.14 objective",
       "passed": true
     },
     {

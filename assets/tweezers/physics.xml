@@ -53,6 +53,8 @@
     <material name="etched" rgba="0.6156862745 0.6705882353 0.6941176471 1" specular="0.325" shininess="0.5" />
     <material name="tape" rgba="0.8352941176 0.8235294118 0.7490196078 1" specular="0.255" shininess="0.5" />
     <material name="vermiculite" rgba="0.4509803922 0.3843137255 0.2549019608 1" specular="0.26" shininess="0.5" />
+    <material name="cutting_mat_blue" rgba="0.1176470588 0.4274509804 0.5960784314 1" specular="0.25" shininess="0.5" />
+    <material name="label" rgba="0.5294117647 0.6862745098 0.6274509804 1" specular="0.25" shininess="0.5" />
   </asset>
   <worldbody>
     <light pos=".4 -.5 1.1" dir="-.3 .4 -1" diffuse=".75 .74 .71" />

@@ -1,12 +1,12 @@
 {
-  "url": "http://127.0.0.1:18767/github-sim/",
+  "url": "http://127.0.0.1:18768/publish/github-sim/",
   "engine": "MuJoCo 4.0.1 WASM",
-  "checked_utc": "2026-11-24T06:32:41.560Z",
+  "checked_utc": "2026-11-24T10:04:00.836Z",
   "reports": [
     {
       "task": "nikon.center",
       "seed": 0,
-      "wall_ms": 3753,
+      "wall_ms": 3722,
       "success": true,
       "failure": null,
       "time": 0.9200000000000007,
@@ -30,7 +30,7 @@
     {
       "task": "nikon.center",
       "seed": 1,
-      "wall_ms": 137,
+      "wall_ms": 136,
       "success": true,
       "failure": null,
       "time": 0.8200000000000006,
@@ -54,7 +54,7 @@
     {
       "task": "nikon.center",
       "seed": 2,
-      "wall_ms": 175,
+      "wall_ms": 150,
       "success": true,
       "failure": null,
       "time": 0.9400000000000007,
@@ -78,7 +78,7 @@
     {
       "task": "nikon.focus",
       "seed": 0,
-      "wall_ms": 208,
+      "wall_ms": 207,
       "success": true,
       "failure": null,
       "time": 1.4399999999999522,
@@ -102,7 +102,7 @@
     {
       "task": "nikon.focus",
       "seed": 1,
-      "wall_ms": 202,
+      "wall_ms": 195,
       "success": true,
       "failure": null,
       "time": 1.4199999999999544,
@@ -126,7 +126,7 @@
     {
       "task": "nikon.focus",
       "seed": 2,
-      "wall_ms": 214,
+      "wall_ms": 189,
       "success": true,
       "failure": null,
       "time": 1.3999999999999566,
@@ -150,7 +150,7 @@
     {
       "task": "nikon.objective",
       "seed": 0,
-      "wall_ms": 69,
+      "wall_ms": 68,
       "success": true,
       "failure": null,
       "time": 0.46000000000000035,
@@ -196,7 +196,7 @@
     {
       "task": "nikon.objective",
       "seed": 2,
-      "wall_ms": 84,
+      "wall_ms": 82,
       "success": true,
       "failure": null,
       "time": 0.5800000000000004,
@@ -219,7 +219,7 @@
     {
       "task": "nikon.image_focus",
       "seed": 0,
-      "wall_ms": 15936,
+      "wall_ms": 15904,
       "success": true,
       "failure": null,
       "time": 45.599999999984426,
@@ -263,7 +263,7 @@
     {
       "task": "nikon.image_focus",
       "seed": 1,
-      "wall_ms": 14251,
+      "wall_ms": 14395,
       "success": true,
       "failure": null,
       "time": 45.67999999998424,
@@ -307,7 +307,7 @@
     {
       "task": "nikon.image_focus",
       "seed": 2,
-      "wall_ms": 13601,
+      "wall_ms": 13625,
       "success": true,
       "failure": null,
       "time": 45.299999999985125,
@@ -351,7 +351,7 @@
     {
       "task": "nikon.image_center",
       "seed": 0,
-      "wall_ms": 1895,
+      "wall_ms": 1887,
       "success": true,
       "failure": null,
       "time": 2.5199999999998335,
@@ -375,7 +375,7 @@
     {
       "task": "nikon.image_center",
       "seed": 1,
-      "wall_ms": 1102,
+      "wall_ms": 1095,
       "success": true,
       "failure": null,
       "time": 1.4399999999999522,
@@ -399,7 +399,7 @@
     {
       "task": "nikon.image_center",
       "seed": 2,
-      "wall_ms": 1536,
+      "wall_ms": 1504,
       "success": true,
       "failure": null,
       "time": 2.059999999999884,
@@ -423,7 +423,7 @@
     {
       "task": "transfer.align",
       "seed": 0,
-      "wall_ms": 3606,
+      "wall_ms": 3639,
       "success": true,
       "failure": null,
       "time": 0.32000000000000023,
@@ -431,8 +431,8 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.00005211627528097198,
-        "gap_m": 0.007153849839977272
+        "error_m": 0.00005391027681713743,
+        "gap_m": 0.007077345555044523
       },
       "events": [],
       "warnings": [
@@ -448,7 +448,7 @@
     {
       "task": "transfer.align",
       "seed": 1,
-      "wall_ms": 70,
+      "wall_ms": 98,
       "success": true,
       "failure": null,
       "time": 0.32000000000000023,
@@ -456,8 +456,8 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.00002140236336805649,
-        "gap_m": 0.007153849839977272
+        "error_m": 0.000026605702792685918,
+        "gap_m": 0.007077345487842696
       },
       "events": [],
       "warnings": [
@@ -473,7 +473,7 @@
     {
       "task": "transfer.align",
       "seed": 2,
-      "wall_ms": 67,
+      "wall_ms": 99,
       "success": true,
       "failure": null,
       "time": 0.32000000000000023,
@@ -481,8 +481,8 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "error_m": 0.000029745041467136542,
-        "gap_m": 0.007153849839977272
+        "error_m": 0.00003291557351174609,
+        "gap_m": 0.007077345476926705
       },
       "events": [],
       "warnings": [
@@ -498,21 +498,21 @@
     {
       "task": "transfer.touch",
       "seed": 0,
-      "wall_ms": 1484,
+      "wall_ms": 1061,
       "success": true,
       "failure": null,
-      "time": 8.220000000000883,
+      "time": 4.039999999999684,
       "metrics": {
         "success": true,
         "failure": null,
-        "peak_contact_N": 0.00533877459625625,
-        "error_m": 0.00002447524403992414,
-        "gap_m": 0.003068655736003373
+        "peak_contact_N": 0.16477884486797315,
+        "error_m": 0.000037766728501163213,
+        "gap_m": 0.0030691778459450703
       },
       "events": [
         {
           "event": "stamp_contact",
-          "time": 7.56
+          "time": 3.38
         }
       ],
       "warnings": [
@@ -528,21 +528,21 @@
     {
       "task": "transfer.touch",
       "seed": 1,
-      "wall_ms": 1401,
+      "wall_ms": 1025,
       "success": true,
       "failure": null,
-      "time": 8.140000000000928,
+      "time": 4.039999999999684,
       "metrics": {
         "success": true,
         "failure": null,
-        "peak_contact_N": 0.005097955891244138,
-        "error_m": 0.000014351534510123913,
-        "gap_m": 0.0030956067993068437
+        "peak_contact_N": 0.1649017994018363,
+        "error_m": 0.00001758872068335778,
+        "gap_m": 0.003069186429199261
       },
       "events": [
         {
           "event": "stamp_contact",
-          "time": 7.48
+          "time": 3.38
         }
       ],
       "warnings": [
@@ -558,21 +558,21 @@
     {
       "task": "transfer.touch",
       "seed": 2,
-      "wall_ms": 1380,
+      "wall_ms": 1020,
       "success": true,
       "failure": null,
-      "time": 8.120000000000939,
+      "time": 4.039999999999684,
       "metrics": {
         "success": true,
         "failure": null,
-        "peak_contact_N": 0.005104453165198645,
-        "error_m": 0.000015470225751336718,
-        "gap_m": 0.003102220557333807
+        "peak_contact_N": 0.1648266934641586,
+        "error_m": 0.000020389435332592048,
+        "gap_m": 0.00306918081534166
       },
       "events": [
         {
           "event": "stamp_contact",
-          "time": 7.46
+          "time": 3.38
         }
       ],
       "warnings": [
@@ -588,7 +588,7 @@
     {
       "task": "probe.align",
       "seed": 0,
-      "wall_ms": 3929,
+      "wall_ms": 3946,
       "success": true,
       "failure": null,
       "time": 1.859999999999906,
@@ -613,7 +613,7 @@
     {
       "task": "probe.align",
       "seed": 1,
-      "wall_ms": 73,
+      "wall_ms": 76,
       "success": true,
       "failure": null,
       "time": 0.34000000000000025,
@@ -638,7 +638,7 @@
     {
       "task": "probe.align",
       "seed": 2,
-      "wall_ms": 73,
+      "wall_ms": 72,
       "success": true,
       "failure": null,
       "time": 0.34000000000000025,
@@ -663,7 +663,7 @@
     {
       "task": "probe.touch",
       "seed": 0,
-      "wall_ms": 556,
+      "wall_ms": 575,
       "success": true,
       "failure": null,
       "time": 2.9199999999997894,
@@ -697,7 +697,7 @@
     {
       "task": "probe.touch",
       "seed": 1,
-      "wall_ms": 553,
+      "wall_ms": 546,
       "success": true,
       "failure": null,
       "time": 2.9199999999997894,
@@ -731,7 +731,7 @@
     {
       "task": "probe.touch",
       "seed": 2,
-      "wall_ms": 541,
+      "wall_ms": 536,
       "success": true,
       "failure": null,
       "time": 2.9199999999997894,
@@ -765,7 +765,7 @@
     {
       "task": "zeiss.center",
       "seed": 0,
-      "wall_ms": 3854,
+      "wall_ms": 3873,
       "success": true,
       "failure": null,
       "time": 2.3199999999998555,
@@ -789,7 +789,7 @@
     {
       "task": "zeiss.center",
       "seed": 1,
-      "wall_ms": 303,
+      "wall_ms": 309,
       "success": true,
       "failure": null,
       "time": 2.1199999999998775,
@@ -813,7 +813,7 @@
     {
       "task": "zeiss.center",
       "seed": 2,
-      "wall_ms": 326,
+      "wall_ms": 337,
       "success": true,
       "failure": null,
       "time": 2.379999999999849,
@@ -837,7 +837,7 @@
     {
       "task": "zeiss.focus",
       "seed": 0,
-      "wall_ms": 89,
+      "wall_ms": 85,
       "success": true,
       "failure": null,
       "time": 0.6400000000000005,
@@ -845,7 +845,7 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 0.000001651337997589093
+        "defocus_m": 0.0000016513379975894183
       },
       "events": [],
       "warnings": [
@@ -861,7 +861,7 @@
     {
       "task": "zeiss.focus",
       "seed": 1,
-      "wall_ms": 70,
+      "wall_ms": 66,
       "success": true,
       "failure": null,
       "time": 0.5000000000000003,
@@ -885,7 +885,7 @@
     {
       "task": "zeiss.focus",
       "seed": 2,
-      "wall_ms": 91,
+      "wall_ms": 84,
       "success": true,
       "failure": null,
       "time": 0.6600000000000005,
@@ -909,7 +909,7 @@
     {
       "task": "zeiss.image_focus",
       "seed": 0,
-      "wall_ms": 12973,
+      "wall_ms": 12855,
       "success": true,
       "failure": null,
       "time": 23.38000000000559,
@@ -917,7 +917,7 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 0.0000013517433691447988,
+        "defocus_m": 0.0000013517433691449072,
         "objective_indexed": true,
         "camera_throughput": 1,
         "focus_submitted": true
@@ -953,7 +953,7 @@
     {
       "task": "zeiss.image_focus",
       "seed": 1,
-      "wall_ms": 11302,
+      "wall_ms": 11176,
       "success": true,
       "failure": null,
       "time": 22.800000000004882,
@@ -961,7 +961,7 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 6.099032768140168e-7,
+        "defocus_m": 6.099032768141794e-7,
         "objective_indexed": true,
         "camera_throughput": 1,
         "focus_submitted": true
@@ -997,7 +997,7 @@
     {
       "task": "zeiss.image_focus",
       "seed": 2,
-      "wall_ms": 10542,
+      "wall_ms": 10411,
       "success": true,
       "failure": null,
       "time": 20.920000000002585,
@@ -1005,7 +1005,7 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0,
-        "defocus_m": 5.981078246237244e-7,
+        "defocus_m": 5.981078246237786e-7,
         "objective_indexed": true,
         "camera_throughput": 1,
         "focus_submitted": true
@@ -1041,7 +1041,7 @@
     {
       "task": "bonder.align",
       "seed": 0,
-      "wall_ms": 3909,
+      "wall_ms": 3828,
       "success": true,
       "failure": null,
       "time": 2.479999999999838,
@@ -1068,7 +1068,7 @@
     {
       "task": "bonder.align",
       "seed": 1,
-      "wall_ms": 270,
+      "wall_ms": 268,
       "success": true,
       "failure": null,
       "time": 2.479999999999838,
@@ -1095,7 +1095,7 @@
     {
       "task": "bonder.align",
       "seed": 2,
-      "wall_ms": 257,
+      "wall_ms": 256,
       "success": true,
       "failure": null,
       "time": 2.479999999999838,
@@ -1122,7 +1122,7 @@
     {
       "task": "bonder.two_bonds",
       "seed": 0,
-      "wall_ms": 1302,
+      "wall_ms": 1270,
       "success": true,
       "failure": null,
       "time": 12.8799999999983,
@@ -1162,7 +1162,7 @@
     {
       "task": "bonder.two_bonds",
       "seed": 1,
-      "wall_ms": 1264,
+      "wall_ms": 1262,
       "success": true,
       "failure": null,
       "time": 12.8799999999983,
@@ -1202,7 +1202,7 @@
     {
       "task": "bonder.two_bonds",
       "seed": 2,
-      "wall_ms": 1274,
+      "wall_ms": 1261,
       "success": true,
       "failure": null,
       "time": 12.8799999999983,
@@ -1242,7 +1242,7 @@
     {
       "task": "afm.access",
       "seed": 0,
-      "wall_ms": 4662,
+      "wall_ms": 4704,
       "success": true,
       "failure": null,
       "time": 7.600000000000873,
@@ -1272,7 +1272,7 @@
     {
       "task": "afm.access",
       "seed": 1,
-      "wall_ms": 1027,
+      "wall_ms": 1032,
       "success": true,
       "failure": null,
       "time": 7.600000000000873,
@@ -1302,7 +1302,7 @@
     {
       "task": "afm.access",
       "seed": 2,
-      "wall_ms": 1011,
+      "wall_ms": 1023,
       "success": true,
       "failure": null,
       "time": 7.600000000000873,
@@ -1332,7 +1332,7 @@
     {
       "task": "afm.cycle",
       "seed": 0,
-      "wall_ms": 2230,
+      "wall_ms": 2205,
       "success": true,
       "failure": null,
       "time": 16.459999999997134,
@@ -1340,7 +1340,7 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0.004248120409895025,
-        "drawer_m": 1.0565164746354458e-14,
+        "drawer_m": 1.6258956854689102e-12,
         "door_rad": -0.0016194771473241065
       },
       "events": [
@@ -1362,7 +1362,7 @@
     {
       "task": "afm.cycle",
       "seed": 1,
-      "wall_ms": 2221,
+      "wall_ms": 2232,
       "success": true,
       "failure": null,
       "time": 16.459999999997134,
@@ -1370,7 +1370,7 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0.004248120409895025,
-        "drawer_m": 1.0565164746354458e-14,
+        "drawer_m": 1.6258956854689102e-12,
         "door_rad": -0.0016194771473241065
       },
       "events": [
@@ -1392,7 +1392,7 @@
     {
       "task": "afm.cycle",
       "seed": 2,
-      "wall_ms": 2230,
+      "wall_ms": 2182,
       "success": true,
       "failure": null,
       "time": 16.459999999997134,
@@ -1400,7 +1400,7 @@
         "success": true,
         "failure": null,
         "peak_contact_N": 0.004248120409895025,
-        "drawer_m": 1.0565164746354458e-14,
+        "drawer_m": 1.6258956854689102e-12,
         "door_rad": -0.0016194771473241065
       },
       "events": [
@@ -1422,7 +1422,7 @@
     {
       "task": "tweezers.pick",
       "seed": 0,
-      "wall_ms": 4223,
+      "wall_ms": 4128,
       "success": true,
       "failure": null,
       "time": 3.6199999999997123,
@@ -1463,7 +1463,7 @@
     {
       "task": "tweezers.pick",
       "seed": 1,
-      "wall_ms": 568,
+      "wall_ms": 559,
       "success": true,
       "failure": null,
       "time": 3.6199999999997123,
@@ -1504,7 +1504,7 @@
     {
       "task": "tweezers.pick",
       "seed": 2,
-      "wall_ms": 572,
+      "wall_ms": 539,
       "success": true,
       "failure": null,
       "time": 3.6199999999997123,
@@ -1545,7 +1545,7 @@
     {
       "task": "tweezers.place",
       "seed": 0,
-      "wall_ms": 1894,
+      "wall_ms": 1853,
       "success": true,
       "failure": null,
       "time": 12.53999999999849,
@@ -1603,7 +1603,7 @@
     {
       "task": "tweezers.place",
       "seed": 1,
-      "wall_ms": 1880,
+      "wall_ms": 1853,
       "success": true,
       "failure": null,
       "time": 12.53999999999849,
@@ -1661,7 +1661,7 @@
     {
       "task": "tweezers.place",
       "seed": 2,
-      "wall_ms": 1875,
+      "wall_ms": 1821,
       "success": true,
       "failure": null,
       "time": 12.53999999999849,

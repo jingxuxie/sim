@@ -31,7 +31,9 @@ fs.mkdirSync(out,{recursive:true});
      await step({light_path_travel:position},.6);
      const cam=await rt.request('specimen',{channel:'camera'}),eye=await rt.request('specimen',{channel:'eyepiece'});
      const fraction=position===0?0:position===.012?1:asset==='nikon'?.8:.5;
-     check(asset+' optical routing '+position+' m',cam.throughput===fraction&&eye.throughput===1-fraction&&cam.indexed&&eye.indexed,{camera_throughput:cam.throughput,eyepiece_throughput:eye.throughput});
+     // XML range serialization and source-knob settling introduce tiny
+     // floating-point differences even at full illumination.
+     check(asset+' optical routing '+position+' m',Math.abs(cam.throughput-fraction)<1e-8&&Math.abs(eye.throughput-(1-fraction))<1e-8&&cam.indexed&&eye.indexed,{camera_throughput:cam.throughput,eyepiece_throughput:eye.throughput});
      for(const [channel,frame] of [['camera',cam],['eyepiece',eye]]){
       const image=new Image();image.src=frame.image;await image.decode();
       const canvas=document.createElement('canvas');canvas.width=canvas.height=256;const ctx=canvas.getContext('2d');ctx.drawImage(image,0,0);
@@ -51,6 +53,32 @@ fs.mkdirSync(out,{recursive:true});
      check('Measured Nikon focus changes specimen sharpness',focused.sharpness>defocused.sharpness*2,{focused:focused.sharpness,defocused:defocused.sharpness});
     }
    }
+   await open('transfer');
+   let accepted=await rt.request('command',{action:{rotation_fine_knob_angle:2*Math.PI}});
+   s=await rt.request('snapshot');
+   check('Transfer fine micrometer requires the coarse clamp',s.targets.rotation_fine_knob_angle===0&&s.guard_events.at(-1).reason.includes('Lock the coarse'));
+   s=await step({sample_theta_angle:.2},1.5);const coarse=s.q.sample_theta_angle;
+   check('Transfer released coarse ring rotates',Math.abs(coarse-.2)<.003);
+   await step({rotation_lock_angle:Math.PI/2},1.5);
+   accepted=await rt.request('command',{action:{sample_theta_angle:.4}});
+   s=await step({rotation_fine_knob_angle:2*Math.PI},2);
+   const expected=.000635/.0413;
+   check('Transfer locked ring holds while tangent micrometer turns',accepted.guard_events.at(-1).reason.includes('Release the rotation')&&Math.abs(s.q.sample_theta_angle-coarse)<.003&&Math.abs(s.q.sample_fine_angle-expected)<.0004,{coarse_rad:s.q.sample_theta_angle,fine_rad:s.q.sample_fine_angle});
+   check('Transfer fine spindle advances 0.635 mm per turn',Math.abs(s.q.rotation_fine_spindle_travel-.000635)<.00002);
+   await step({rotation_lock_angle:0},1.5);
+   accepted=await rt.request('command',{action:{rotation_fine_knob_angle:0}});
+   check('Transfer released clamp disengages fine adjustment',accepted.guard_events.at(-1).reason.includes('Lock the coarse'));
+   await rt.request('reset');await step({illumination_angle:0},2.5);
+   let frame=await rt.request('specimen',{channel:'camera'});
+   check('Transfer dimmer changes measured optical throughput',Math.abs(frame.throughput-.1)<.002,{throughput:frame.throughput});
+   await step({illumination_power_angle:0},1.5);frame=await rt.request('specimen',{channel:'camera'});
+   check('Transfer source power blacks out microscope',frame.throughput===0&&frame.optical_status==='illuminator_off');
+   await step({illumination_power_angle:.35,illumination_angle:1.5*Math.PI},2.5);frame=await rt.request('specimen',{channel:'camera'});
+   check('Transfer source restores full illumination',frame.throughput>.998);
+   s=await step({stamp_tilt_angle:.035},3);
+   check('Transfer tilt drives the visible goniometer screw',Math.abs(s.q.stamp_tilt_angle-.035)<.0015&&Math.abs(s.q.goniometer_knob_angle*.0005/(2*Math.PI*.035)-s.q.stamp_tilt_angle)<.0001);
+   await open('probe');frame=await rt.request('specimen',{channel:'camera'});
+   check('Probe image uses the photographed 5× / NA 0.14 objective',frame.magnification===5&&frame.na===.14);
    await open('tweezers');await step({jaw_left_angle:-1e9},.01);s=await rt.request('snapshot');
    check('Jaw command clamps to physical actuator range',s.targets.jaw_left_angle>=-.052);
    let rejected=false;try{await rt.request('command',{action:{jaw_left_angle:NaN}});}catch{rejected=true;}
