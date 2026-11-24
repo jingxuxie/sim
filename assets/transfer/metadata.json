@@ -1,0 +1,1670 @@
+{
+  "name": "transfer_station",
+  "title": "Motic / Newport \u00b7 dry-transfer station",
+  "units": "m",
+  "source_units": "mm",
+  "links": {
+    "base": {
+      "parent": null,
+      "pos_mm": [
+        0,
+        0,
+        0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": null,
+      "mass": 0.15,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Optical breadboard",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            12
+          ],
+          "size_mm": [
+            305.0,
+            230.0,
+            12.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Microscope mounting foot",
+          "type": "box",
+          "pos_mm": [
+            -100,
+            122,
+            39
+          ],
+          "size_mm": [
+            90.0,
+            60.0,
+            15.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Microscope mast",
+          "type": "box",
+          "pos_mm": [
+            -163,
+            142,
+            258
+          ],
+          "size_mm": [
+            19.0,
+            27.0,
+            205.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Microscope mast",
+          "type": "box",
+          "pos_mm": [
+            -47,
+            142,
+            258
+          ],
+          "size_mm": [
+            19.0,
+            27.0,
+            205.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Head focus guide",
+          "type": "box",
+          "pos_mm": [
+            -105,
+            117,
+            370
+          ],
+          "size_mm": [
+            58.0,
+            23.5,
+            99.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "sample_x fixed race",
+          "type": "box",
+          "pos_mm": [
+            -105,
+            -20,
+            29.5
+          ],
+          "size_mm": [
+            65.0,
+            60.0,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Extrusion beam",
+          "type": "box",
+          "pos_mm": [
+            150,
+            -70,
+            42
+          ],
+          "size_mm": [
+            69.0,
+            168.5,
+            18.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Rail carriage",
+          "type": "box",
+          "pos_mm": [
+            150,
+            10,
+            71
+          ],
+          "size_mm": [
+            84.0,
+            66.5,
+            9.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "stamp_x fixed race",
+          "type": "box",
+          "pos_mm": [
+            150,
+            -20,
+            82.5
+          ],
+          "size_mm": [
+            62.5,
+            50.5,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {}
+    },
+    "scope_focus": {
+      "parent": "base",
+      "pos_mm": [
+        -105,
+        44,
+        364
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "scope_focus_travel",
+        "type": "slide",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 30,
+        "frictionloss": 2,
+        "range": [
+          -0.025,
+          0.025
+        ]
+      },
+      "mass": 3,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Motic focus carriage bridge",
+          "type": "box",
+          "pos_mm": [
+            0,
+            53,
+            5
+          ],
+          "size_mm": [
+            54.0,
+            31.0,
+            52.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Motic optical envelope",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -28,
+            0
+          ],
+          "size_mm": [
+            56,
+            56,
+            69
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Nosepiece stationary dovetail bearing",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            -44.25487110744339,
+            -71.05579444507943
+          ],
+          "size_mm": [
+            31,
+            11.0
+          ],
+          "axis": [
+            0,
+            -0.32061299058567627,
+            0.9472102777460288
+          ]
+        }
+      ],
+      "sites": {
+        "optical_axis": {
+          "pos_mm": [
+            0,
+            -64,
+            -90.0
+          ]
+        }
+      },
+      "gravity_compensated": true
+    },
+    "light_path_selector": {
+      "parent": "scope_focus",
+      "pos_mm": [
+        63,
+        -4,
+        29
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "light_path_travel",
+        "type": "slide",
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "damping": 3,
+        "frictionloss": 0.12,
+        "range": [
+          0,
+          0.012
+        ]
+      },
+      "mass": 0.018,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Camera-path selector grip",
+          "type": "cylinder",
+          "pos_mm": [
+            8,
+            0,
+            0
+          ],
+          "size_mm": [
+            6,
+            4.5
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "sites": {
+        "light_path_grip": {
+          "pos_mm": [
+            13,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "objective_turret": {
+      "parent": "scope_focus",
+      "pos_mm": [
+        0,
+        -37.84261129572987,
+        -90.0
+      ],
+      "euler": [
+        0.32637657012293964,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "objective_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 0.05,
+        "frictionloss": 0.005,
+        "range": [
+          -3.141592653589793,
+          3.141592653589793
+        ]
+      },
+      "mass": 0.4,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Industrial objective nosepiece",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            49,
+            8.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Objective barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -42.38176116579151,
+            -43.62596485998402
+          ],
+          "size_mm": [
+            15,
+            35.5
+          ],
+          "axis": [
+            0.0,
+            -0.32061299058567627,
+            -0.9472102777460288
+          ]
+        },
+        {
+          "name": "Objective barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            41.58022868932731,
+            -2.5460546986099825e-15,
+            -41.25793916561895
+          ],
+          "size_mm": [
+            15,
+            33.0
+          ],
+          "axis": [
+            0.32061299058567627,
+            -1.9631883634290447e-17,
+            -0.9472102777460288
+          ]
+        },
+        {
+          "name": "Objective barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            4.954686211779931e-15,
+            40.45808322227745,
+            -37.94270319350785
+          ],
+          "size_mm": [
+            15,
+            29.5
+          ],
+          "axis": [
+            3.9263767268580894e-17,
+            0.32061299058567627,
+            -0.9472102777460288
+          ]
+        }
+      ],
+      "sites": {
+        "objective_seat_0": {
+          "pos_mm": [
+            0.0,
+            -31.0,
+            -10.0
+          ]
+        },
+        "objective_axis_0": {
+          "pos_mm": [
+            0.0,
+            -63.06129905856763,
+            -104.72102777460289
+          ]
+        },
+        "objective_tip_0": {
+          "pos_mm": [
+            0.0,
+            -53.76352233158302,
+            -77.25192971996805
+          ]
+        },
+        "objective_seat_1": {
+          "pos_mm": [
+            31.0,
+            -1.8982025386783976e-15,
+            -10.0
+          ]
+        },
+        "objective_axis_1": {
+          "pos_mm": [
+            63.06129905856763,
+            -3.861390902107443e-15,
+            -104.72102777460289
+          ]
+        },
+        "objective_tip_1": {
+          "pos_mm": [
+            52.160457378654634,
+            -3.193906858541567e-15,
+            -72.5158783312379
+          ]
+        },
+        "objective_seat_2": {
+          "pos_mm": [
+            3.796405077356795e-15,
+            31.0,
+            -10.0
+          ]
+        },
+        "objective_axis_2": {
+          "pos_mm": [
+            7.722781804214885e-15,
+            63.06129905856763,
+            -104.72102777460289
+          ]
+        },
+        "objective_tip_2": {
+          "pos_mm": [
+            6.112967346203068e-15,
+            49.916166444554904,
+            -65.8854063870157
+          ]
+        },
+        "objective_seat_3": {
+          "pos_mm": [
+            -31.0,
+            5.694607616035192e-15,
+            -10.0
+          ]
+        },
+        "objective_axis_3": {
+          "pos_mm": [
+            -63.06129905856763,
+            1.1584172706322325e-14,
+            -104.72102777460289
+          ]
+        }
+      }
+    },
+    "sample_x": {
+      "parent": "base",
+      "pos_mm": [
+        -105,
+        -20,
+        40
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "sample_x_travel",
+        "type": "slide",
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "damping": 10,
+        "frictionloss": 0.5,
+        "range": [
+          -0.0125,
+          0.0125
+        ]
+      },
+      "mass": 0.35,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "sample_x moving table",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            3
+          ],
+          "size_mm": [
+            62.0,
+            58.0,
+            8.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "sample_y fixed race",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            12.0
+          ],
+          "size_mm": [
+            56.0,
+            52.0,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {},
+      "gravity_compensated": true
+    },
+    "sample_x_knob": {
+      "parent": "base",
+      "pos_mm": [
+        -208.0,
+        -20.0,
+        40.0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "sample_x_angle",
+        "type": "hinge",
+        "axis": [
+          -1,
+          0,
+          0
+        ],
+        "damping": 1e-05,
+        "frictionloss": 5e-06,
+        "range": [
+          -157.07963267948966,
+          157.07963267948966
+        ]
+      },
+      "mass": 0.025,
+      "inertia": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "collisions": [
+        {
+          "name": "sample_x_grip",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            8,
+            14
+          ],
+          "axis": [
+            -1,
+            0,
+            0
+          ]
+        }
+      ],
+      "sites": {
+        "sample_x_grip_site": {
+          "pos_mm": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "sample_y": {
+      "parent": "sample_x",
+      "pos_mm": [
+        0,
+        0,
+        23
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "sample_y_travel",
+        "type": "slide",
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "damping": 10,
+        "frictionloss": 0.5,
+        "range": [
+          -0.0125,
+          0.0125
+        ]
+      },
+      "mass": 0.35,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "sample_y moving table",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            3
+          ],
+          "size_mm": [
+            53.0,
+            50.0,
+            8.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "481-A fixed base",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            32
+          ],
+          "size_mm": [
+            51,
+            15.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {},
+      "gravity_compensated": true
+    },
+    "sample_y_knob": {
+      "parent": "sample_x",
+      "pos_mm": [
+        0.0,
+        -90.0,
+        23.0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "sample_y_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          -1,
+          0
+        ],
+        "damping": 1e-05,
+        "frictionloss": 5e-06,
+        "range": [
+          -157.07963267948966,
+          157.07963267948966
+        ]
+      },
+      "mass": 0.025,
+      "inertia": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "collisions": [
+        {
+          "name": "sample_y_grip",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            8,
+            14
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ]
+        }
+      ],
+      "sites": {
+        "sample_y_grip_site": {
+          "pos_mm": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "sample_theta": {
+      "parent": "sample_y",
+      "pos_mm": [
+        0,
+        0,
+        51
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "sample_theta_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 0.035,
+        "frictionloss": 0.02,
+        "range": [
+          -3.141592653589793,
+          3.141592653589793
+        ]
+      },
+      "mass": 0.45,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "481-A rotating top",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            51,
+            5.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Heater support",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            27
+          ],
+          "size_mm": [
+            39.5,
+            34.5,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Heated workholder",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            41
+          ],
+          "size_mm": [
+            25.5,
+            22.5,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "device_chip",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            49
+          ],
+          "size_mm": [
+            5.0,
+            5.0,
+            0.25
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "device_chip_center": {
+          "pos_mm": [
+            0,
+            0,
+            49.25
+          ]
+        },
+        "transfer_target": {
+          "pos_mm": [
+            0,
+            0,
+            49.25
+          ]
+        }
+      }
+    },
+    "stamp_x": {
+      "parent": "base",
+      "pos_mm": [
+        150,
+        -20,
+        94
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stamp_x_travel",
+        "type": "slide",
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "damping": 10,
+        "frictionloss": 0.5,
+        "range": [
+          -0.0125,
+          0.0125
+        ]
+      },
+      "mass": 0.35,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "stamp_x moving table",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            3
+          ],
+          "size_mm": [
+            59.5,
+            48.5,
+            9.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "stamp_y fixed race",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            16.0
+          ],
+          "size_mm": [
+            55.5,
+            47.5,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {},
+      "gravity_compensated": true
+    },
+    "stamp_x_knob": {
+      "parent": "base",
+      "pos_mm": [
+        250.5,
+        -20.0,
+        94.0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stamp_x_angle",
+        "type": "hinge",
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "damping": 1e-05,
+        "frictionloss": 5e-06,
+        "range": [
+          -157.07963267948966,
+          157.07963267948966
+        ]
+      },
+      "mass": 0.025,
+      "inertia": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "collisions": [
+        {
+          "name": "stamp_x_grip",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            8,
+            14
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "sites": {
+        "stamp_x_grip_site": {
+          "pos_mm": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "stamp_y": {
+      "parent": "stamp_x",
+      "pos_mm": [
+        0,
+        0,
+        27
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stamp_y_travel",
+        "type": "slide",
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "damping": 10,
+        "frictionloss": 0.5,
+        "range": [
+          -0.0125,
+          0.0125
+        ]
+      },
+      "mass": 0.35,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "stamp_y moving table",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            3
+          ],
+          "size_mm": [
+            52.5,
+            45.5,
+            8.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "stamp_z fixed race",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            35.0
+          ],
+          "size_mm": [
+            52.5,
+            44.5,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {},
+      "gravity_compensated": true
+    },
+    "stamp_y_knob": {
+      "parent": "stamp_x",
+      "pos_mm": [
+        0.0,
+        -85.5,
+        27.0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stamp_y_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          -1,
+          0
+        ],
+        "damping": 1e-05,
+        "frictionloss": 5e-06,
+        "range": [
+          -157.07963267948966,
+          157.07963267948966
+        ]
+      },
+      "mass": 0.025,
+      "inertia": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "collisions": [
+        {
+          "name": "stamp_y_grip",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            8,
+            14
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ]
+        }
+      ],
+      "sites": {
+        "stamp_y_grip_site": {
+          "pos_mm": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "stamp_z": {
+      "parent": "stamp_y",
+      "pos_mm": [
+        0,
+        0,
+        51
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stamp_z_travel",
+        "type": "slide",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 10,
+        "frictionloss": 0.5,
+        "range": [
+          -0.0125,
+          0.0125
+        ]
+      },
+      "mass": 0.35,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "stamp_z moving table",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            3
+          ],
+          "size_mm": [
+            49.5,
+            42.5,
+            13.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Vertical face plate",
+          "type": "box",
+          "pos_mm": [
+            -60,
+            0,
+            11
+          ],
+          "size_mm": [
+            7.0,
+            45.0,
+            47.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "GON40-L fixed block",
+          "type": "box",
+          "pos_mm": [
+            -75,
+            0,
+            10
+          ],
+          "size_mm": [
+            9.5,
+            21.0,
+            21.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {},
+      "gravity_compensated": true
+    },
+    "stamp_z_knob": {
+      "parent": "stamp_y",
+      "pos_mm": [
+        33,
+        -49,
+        54
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stamp_z_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 1e-05,
+        "frictionloss": 5e-06,
+        "range": [
+          -157.07963267948966,
+          157.07963267948966
+        ]
+      },
+      "mass": 0.025,
+      "inertia": [
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "collisions": [
+        {
+          "name": "stamp_z_grip",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            8,
+            14
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "stamp_z_grip_site": {
+          "pos_mm": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "stamp_tilt": {
+      "parent": "stamp_z",
+      "pos_mm": [
+        -83,
+        0,
+        10
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stamp_tilt_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "damping": 0.03,
+        "frictionloss": 0.005,
+        "range": [
+          -0.0872665,
+          0.0872665
+        ]
+      },
+      "mass": 0.12,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Goniometer moving face",
+          "type": "box",
+          "pos_mm": [
+            -4,
+            0,
+            0
+          ],
+          "size_mm": [
+            4.0,
+            21.0,
+            20.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Horizontal stamp support",
+          "type": "box",
+          "pos_mm": [
+            -73,
+            0,
+            -13
+          ],
+          "size_mm": [
+            73.0,
+            21.5,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Glass stamp slide",
+          "type": "box",
+          "pos_mm": [
+            -139,
+            0,
+            -10
+          ],
+          "size_mm": [
+            37.5,
+            12.5,
+            0.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Stamp silicone pad",
+          "type": "box",
+          "pos_mm": [
+            -172,
+            0,
+            -11
+          ],
+          "size_mm": [
+            7.0,
+            7.0,
+            0.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 1,
+          "conaffinity": 3
+        }
+      ],
+      "sites": {
+        "stamp_contact": {
+          "pos_mm": [
+            -172,
+            0,
+            -11.5
+          ]
+        }
+      }
+    }
+  },
+  "controls": [
+    {
+      "name": "Camera / eyepiece split",
+      "link": "light_path_selector",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 1600,
+      "kv": 12,
+      "force": 4
+    },
+    {
+      "name": "Microscope focus",
+      "link": "scope_focus",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 18000,
+      "kv": 200,
+      "force": 80
+    },
+    {
+      "name": "Objective selector",
+      "link": "objective_turret",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "kp": 5,
+      "kv": 0.4,
+      "force": 0.8
+    },
+    {
+      "name": "Sample X",
+      "link": "sample_x",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 12000,
+      "kv": 100,
+      "force": 25
+    },
+    {
+      "name": "Sample Y",
+      "link": "sample_y",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 12000,
+      "kv": 100,
+      "force": 25
+    },
+    {
+      "name": "Sample rotation",
+      "link": "sample_theta",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "kp": 5,
+      "kv": 0.3,
+      "force": 0.5
+    },
+    {
+      "name": "Stamp X",
+      "link": "stamp_x",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 12000,
+      "kv": 100,
+      "force": 25
+    },
+    {
+      "name": "Stamp Y",
+      "link": "stamp_y",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 12000,
+      "kv": 100,
+      "force": 25
+    },
+    {
+      "name": "Stamp Z",
+      "link": "stamp_z",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 12000,
+      "kv": 100,
+      "force": 25
+    },
+    {
+      "name": "Stamp tilt",
+      "link": "stamp_tilt",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "kp": 2,
+      "kv": 0.14,
+      "force": 0.25
+    }
+  ],
+  "reference_group": "transfer_stage",
+  "couplings": [
+    {
+      "name": "sample_x_screw",
+      "input": "sample_x_angle",
+      "output": "sample_x_travel",
+      "ratio": 7.957747154594768e-05
+    },
+    {
+      "name": "sample_y_screw",
+      "input": "sample_y_angle",
+      "output": "sample_y_travel",
+      "ratio": 7.957747154594768e-05
+    },
+    {
+      "name": "stamp_x_screw",
+      "input": "stamp_x_angle",
+      "output": "stamp_x_travel",
+      "ratio": 7.957747154594768e-05
+    },
+    {
+      "name": "stamp_y_screw",
+      "input": "stamp_y_angle",
+      "output": "stamp_y_travel",
+      "ratio": 7.957747154594768e-05
+    },
+    {
+      "name": "stamp_z_screw",
+      "input": "stamp_z_angle",
+      "output": "stamp_z_travel",
+      "ratio": 7.957747154594768e-05
+    }
+  ],
+  "identity": "Motic PSM-1000, Newport 481-A and GON40-L visible in photos",
+  "imaging": {
+    "objective_joint": "objective_angle",
+    "objective_count": 4,
+    "objective_magnifications": [
+      10,
+      20,
+      50,
+      null
+    ],
+    "objective_index_angles_rad": [
+      0,
+      -1.5707963267948966,
+      3.141592653589793,
+      1.5707963267948966
+    ],
+    "objective_index_tolerance_rad": 0.025,
+    "objective_seat_sites": [
+      "objective_seat_0",
+      "objective_seat_1",
+      "objective_seat_2",
+      "objective_seat_3"
+    ],
+    "objective_axis_sites": [
+      "objective_axis_0",
+      "objective_axis_1",
+      "objective_axis_2",
+      "objective_axis_3"
+    ],
+    "objective_tip_sites": [
+      "objective_tip_0",
+      "objective_tip_1",
+      "objective_tip_2",
+      null
+    ],
+    "optical_axis_site": "optical_axis",
+    "sample_surface_site": "transfer_target",
+    "objective_bearing_tilt_rad": 0.32637657012293964,
+    "light_path_joint": "light_path_travel",
+    "light_path_positions_m": [
+      0,
+      0.006,
+      0.012
+    ],
+    "camera_fractions": [
+      0,
+      0.5,
+      1
+    ],
+    "light_path_calibration": "Three-position selector is a declared approximation to the photographed head; exact fitted splitter version unverified."
+  },
+  "estimated_dimensions_mm": [
+    610,
+    460,
+    600
+  ],
+  "task_candidates": [
+    "align_stamp",
+    "contact_and_retract",
+    "rotate_sample"
+  ],
+  "assumptions": "Stage screw pitch 0.5 mm/rev and unmarked carriage travel estimated. Goniometer range \u00b15 degrees from Newport. Glass/stamp contact is rigid; adhesion is a separate surrogate."
+}

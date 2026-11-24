@@ -1,0 +1,11 @@
+small_empty_room_1_1k.hdr
+Source: https://polyhaven.com/a/small_empty_room_1
+Download: https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/small_empty_room_1_1k.hdr
+License: CC0 — https://polyhaven.com/license
+Retrieved 2026-11-23. Used only for lighting and reflections.
+
+studio_small_09_4k.hdr and studio_small_09_1k.hdr
+Source: https://polyhaven.com/a/studio_small_09
+Download: https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/studio_small_09_4k.hdr
+License: CC0 — https://polyhaven.com/license
+Retrieved 2026-11-23. Neutral photographic illumination and reflections.

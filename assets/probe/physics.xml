@@ -1,0 +1,248 @@
+<mujoco model="probe_station">
+  <compiler angle="radian" autolimits="true" inertiafromgeom="false" fusestatic="false" />
+  <option timestep=".001" integrator="implicitfast" iterations="80" tolerance="1e-10" cone="elliptic">
+    <flag multiccd="enable" />
+  </option>
+  <statistic center="0 0 .2" extent=".65" />
+  <visual>
+    <global offwidth="1280" offheight="1120" />
+  </visual>
+  <default>
+    <default class="visual">
+      <geom type="mesh" group="2" contype="0" conaffinity="0" density="0" />
+    </default>
+    <default class="contact">
+      <geom group="3" contype="2" conaffinity="1" rgba=".8 .3 .1 .3" condim="4" friction=".8 .002 .0001" solref=".003 1" solimp=".95 .995 .0001" />
+    </default>
+  </default>
+  <asset>
+    <material name="ivory" rgba="0.8470588235 0.8352941176 0.7882352941 1" specular="0.29" shininess="0.5" />
+    <material name="white" rgba="0.9019607843 0.9019607843 0.8745098039 1" specular="0.29" shininess="0.5" />
+    <material name="warm" rgba="0.8588235294 0.8274509804 0.7294117647 1" specular="0.29" shininess="0.5" />
+    <material name="alloy" rgba="0.7254901961 0.7607843137 0.7803921569 1" specular="0.675" shininess="0.5" />
+    <material name="steel" rgba="0.8196078431 0.8392156863 0.8470588235 1" specular="0.71" shininess="0.5" />
+    <material name="brushed" rgba="0.6705882353 0.7098039216 0.7215686275 1" specular="0.6699999999999999" shininess="0.5" />
+    <material name="darkmetal" rgba="0.2666666667 0.2862745098 0.3254901961 1" specular="0.625" shininess="0.5" />
+    <material name="black" rgba="0.09019607843 0.1058823529 0.1254901961 1" specular="0.38" shininess="0.5" />
+    <material name="rubber" rgba="0.0862745098 0.1019607843 0.1176470588 1" specular="0.255" shininess="0.5" />
+    <material name="graphite" rgba="0.2039215686 0.2196078431 0.231372549 1" specular="0.42000000000000004" shininess="0.5" />
+    <material name="purple" rgba="0.1607843137 0.2 0.4039215686 1" specular="0.275" shininess="0.5" />
+    <material name="blue" rgba="0.1607843137 0.337254902 0.5450980392 1" specular="0.5" shininess="0.5" />
+    <material name="cyan" rgba="0.1725490196 0.5725490196 0.768627451 1" specular="0.49" shininess="0.5" />
+    <material name="bluepaint" rgba="0.1137254902 0.3294117647 0.5607843137 1" specular="0.38" shininess="0.5" />
+    <material name="bronze" rgba="0.6901960784 0.5921568627 0.3882352941 1" specular="0.65" shininess="0.5" />
+    <material name="orange" rgba="0.7098039216 0.2941176471 0.1647058824 1" specular="0.36" shininess="0.5" />
+    <material name="copper" rgba="0.7333333333 0.5098039216 0.4039215686 1" specular="0.625" shininess="0.5" />
+    <material name="gold" rgba="0.7882352941 0.6509803922 0.3254901961 1" specular="0.655" shininess="0.5" />
+    <material name="ink" rgba="0.08235294118 0.1137254902 0.1450980392 1" specular="0.265" shininess="0.5" />
+    <material name="paper" rgba="0.9333333333 0.9176470588 0.8705882353 1" specular="0.255" shininess="0.5" />
+    <material name="red" rgba="0.7411764706 0.2470588235 0.1803921569 1" specular="0.35" shininess="0.5" />
+    <material name="green" rgba="0.1568627451 0.4666666667 0.2862745098 1" specular="0.37" shininess="0.5" />
+    <material name="yellow" rgba="0.8470588235 0.7215686275 0.1725490196 1" specular="0.355" shininess="0.5" />
+    <material name="violet" rgba="0.4 0.3764705882 0.631372549 1" specular="0.375" shininess="0.5" />
+    <material name="optic" rgba="0.1607843137 0.231372549 0.3333333333 1" specular="0.45" shininess="0.5" />
+    <material name="glass" rgba="0.631372549 0.7568627451 0.7725490196 1" specular="0.275" shininess="0.5" />
+    <material name="window" rgba="0.2 0.3058823529 0.2509803922 1" specular="0.295" shininess="0.5" />
+    <material name="led" rgba="0.4862745098 0.8862745098 0.5843137255 1" specular="0.3" shininess="0.5" />
+    <material name="screen" rgba="0.2823529412 0.4 0.231372549 1" specular="0.275" shininess="0.5" />
+    <material name="screenink" rgba="0.09411764706 0.1764705882 0.1294117647 1" specular="0.25" shininess="0.5" />
+    <material name="ceramic" rgba="0.9019607843 0.8745098039 0.7921568627 1" specular="0.26" shininess="0.5" />
+    <material name="wafer" rgba="0.2431372549 0.2509803922 0.3607843137 1" specular="0.6" shininess="0.5" />
+    <material name="wire" rgba="0.1607843137 0.1803921569 0.1960784314 1" specular="0.3" shininess="0.5" />
+    <material name="foil" rgba="0.7019607843 0.7215686275 0.737254902 1" specular="0.7" shininess="0.5" />
+    <material name="etched" rgba="0.6156862745 0.6705882353 0.6941176471 1" specular="0.325" shininess="0.5" />
+    <material name="tape" rgba="0.8352941176 0.8235294118 0.7490196078 1" specular="0.255" shininess="0.5" />
+    <material name="vermiculite" rgba="0.4509803922 0.3843137255 0.2549019608 1" specular="0.26" shininess="0.5" />
+  </asset>
+  <worldbody>
+    <light pos=".4 -.5 1.1" dir="-.3 .4 -1" diffuse=".75 .74 .71" />
+    <body name="base" pos="0 0 0" euler="0 0 0">
+      <geom name="base__Orange_cast_foundation" type="box" pos="0 0.015 0.021" size="0.235 0.208 0.021" class="contact" />
+      <geom name="base__Round_platen_support" type="cylinder" pos="-0.184 -0.123 0.081" size="0.03 0.041" zaxis="0 0 1" class="contact" />
+      <geom name="base__Round_platen_support_2" type="cylinder" pos="-0.184 0.115 0.081" size="0.03 0.041" zaxis="0 0 1" class="contact" />
+      <geom name="base__Ground_steel_side_platen" type="box" pos="-0.181 -0.003 0.138" size="0.052 0.168 0.0075" class="contact" />
+      <geom name="base__Round_platen_support_3" type="cylinder" pos="0.184 -0.123 0.081" size="0.03 0.041" zaxis="0 0 1" class="contact" />
+      <geom name="base__Round_platen_support_4" type="cylinder" pos="0.184 0.115 0.081" size="0.03 0.041" zaxis="0 0 1" class="contact" />
+      <geom name="base__Ground_steel_side_platen_2" type="box" pos="0.181 -0.003 0.138" size="0.052 0.168 0.0075" class="contact" />
+      <geom name="base__Rear_bridge" type="box" pos="0 0.144 0.138" size="0.139 0.028 0.0075" class="contact" />
+      <geom name="base__Microscope_upright" type="box" pos="0 0.152 0.3" size="0.108 0.02 0.151" class="contact" />
+      <geom name="base__chuck_x_fixed_race" type="box" pos="0 -0.028 0.048" size="0.065 0.0755 0.0025" class="contact" />
+      <geom name="base__left_x_fixed_race" type="box" pos="-0.163 -0.028 0.1485" size="0.038 0.038 0.0025" class="contact" />
+      <geom name="base__right_x_fixed_race" type="box" pos="0.163 -0.028 0.1485" size="0.038 0.038 0.0025" class="contact" />
+      <body name="optic_focus" pos="0 0.029 0.366" euler="0 0 0" gravcomp="1">
+        <joint name="optic_focus_travel" type="slide" axis="0 0 1" damping="40" frictionloss="2" range="-0.02 0.02" />
+        <inertial mass="2.6" pos="0 0 0" diaginertia="0.003185 0.003185 0.003185" />
+        <geom name="optic_focus__Focus_carriage_bridge" type="box" pos="0 0.07 -0.012" size="0.046 0.045 0.054" class="contact" />
+        <geom name="optic_focus__Mitutoyo_optical_housing_envelope" type="box" pos="0 -0.035 -0.013" size="0.0555 0.061 0.0845" class="contact" />
+        <geom name="optic_focus__Objective_barrel" type="cylinder" pos="0 -0.057 -0.143" size="0.013 0.031" zaxis="0 0 -1" class="contact" />
+        <site name="inspection_axis" pos="0 -0.057 -0.174" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        <site name="objective_seat_0" pos="0 -0.057 -0.112" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        <site name="objective_tip_0" pos="0 -0.057 -0.174" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        <body name="light_path_selector" pos="0.061 -0.02 0.024" euler="0 0 0">
+          <joint name="light_path_travel" type="slide" axis="1 0 0" damping="2" frictionloss="0.15" range="0 0.012" />
+          <inertial mass="0.018" pos="0 0 0" diaginertia="2.205e-05 2.205e-05 2.205e-05" />
+          <geom name="light_path_selector__Photo_path_selector_grip" type="cylinder" pos="0.016 0 0" size="0.007 0.0045" zaxis="1 0 0" class="contact" />
+          <site name="light_path_grip_site" pos="0.016 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        </body>
+      </body>
+      <body name="chuck_x" pos="0 -0.028 0.058" euler="0 0 0" gravcomp="1">
+        <joint name="chuck_x_travel" type="slide" axis="1 0 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" />
+        <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
+        <geom name="chuck_x__chuck_x_moving_table" type="box" pos="0 0 0.003" size="0.062 0.0735 0.0075" class="contact" />
+        <geom name="chuck_x__chuck_y_fixed_race" type="box" pos="0 0 0.013" size="0.0575 0.065 0.0025" class="contact" />
+        <body name="chuck_y" pos="0 0 0.023" euler="0 0 0" gravcomp="1">
+          <joint name="chuck_y_travel" type="slide" axis="0 1 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" />
+          <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
+          <geom name="chuck_y__chuck_y_moving_table" type="box" pos="0 0 0.003" size="0.0545 0.063 0.0075" class="contact" />
+          <geom name="chuck_y__Chuck_lift_drum" type="cylinder" pos="0 0 0.031" size="0.043 0.0245" zaxis="0 0 1" class="contact" />
+          <body name="chuck_theta" pos="0 0 0.061" euler="0 0 0">
+            <joint name="chuck_theta_angle" type="hinge" axis="0 0 1" damping="0.04" frictionloss="0.01" range="-0.35 0.35" />
+            <inertial mass="0.4" pos="0 0 0" diaginertia="0.00049 0.00049 0.00049" />
+            <geom name="chuck_theta__Vacuum_chuck" type="cylinder" pos="0 0 0" size="0.052 0.0085" zaxis="0 0 1" class="contact" />
+            <geom name="chuck_theta__Sample_clamp_block" type="box" pos="0 0 0.019" size="0.0295 0.0225 0.0085" class="contact" />
+            <geom name="chuck_theta__device_chip" type="box" pos="0 0 0.028" size="0.006 0.006 0.00025" class="contact" />
+            <site name="device_chip_center" pos="0 0 0.02825" size=".0006" group="4" rgba=".1 .8 .4 1" />
+            <site name="left_pad" pos="-0.0004 0 0.028274" size=".0006" group="4" rgba=".1 .8 .4 1" />
+            <site name="right_pad" pos="0.0004 0 0.028274" size=".0006" group="4" rgba=".1 .8 .4 1" />
+          </body>
+        </body>
+        <body name="chuck_y_knob" pos="-0.0955 0 0.023" euler="0 0 0">
+          <joint name="chuck_y_angle" type="hinge" axis="-1 0 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" />
+          <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
+          <geom name="chuck_y_knob__chuck_y_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="-1 0 0" class="contact" />
+          <site name="chuck_y_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        </body>
+      </body>
+      <body name="chuck_x_knob" pos="0 -0.1415 0.058" euler="0 0 0">
+        <joint name="chuck_x_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" />
+        <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
+        <geom name="chuck_x_knob__chuck_x_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 -1 0" class="contact" />
+        <site name="chuck_x_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+      </body>
+      <body name="left_x" pos="-0.163 -0.028 0.158" euler="0 0 0" gravcomp="1">
+        <joint name="left_x_travel" type="slide" axis="1 0 0" damping="10" frictionloss="0.5" range="-0.006 0.006" />
+        <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
+        <geom name="left_x__left_x_moving_table" type="box" pos="0 0 0.003" size="0.035 0.036 0.007" class="contact" />
+        <geom name="left_x__left_y_fixed_race" type="box" pos="0 0 0.012" size="0.0315 0.0325 0.0025" class="contact" />
+        <body name="left_y" pos="0 0 0.02" euler="0 0 0" gravcomp="1">
+          <joint name="left_y_travel" type="slide" axis="0 1 0" damping="10" frictionloss="0.5" range="-0.006 0.006" />
+          <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
+          <geom name="left_y__left_y_moving_table" type="box" pos="0 0 0.003" size="0.0285 0.0305 0.0055" class="contact" />
+          <geom name="left_y__left_z_fixed_race" type="box" pos="0 0 0.009" size="0.024 0.0255 0.0025" class="contact" />
+          <body name="left_z" pos="0 0 0.019" euler="0 0 0" gravcomp="1">
+            <joint name="left_z_travel" type="slide" axis="0 0 1" damping="10" frictionloss="0.5" range="-0.006 0.006" />
+            <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
+            <geom name="left_z__left_z_moving_table" type="box" pos="0 0 0.003" size="0.021 0.0235 0.0075" class="contact" />
+            <geom name="left_z__Needle_holder_bracket" type="box" pos="0.025 0 0.01" size="0.006 0.0185 0.015" class="contact" />
+            <geom name="left_z__Probe_shank" type="capsule" pos="0.1055 0 -0.00975" size="0.0004 0.05601589691" zaxis="0.9558737874 0 -0.293777734" class="contact" />
+            <geom name="left_z__Probe_tip" type="sphere" contype="1" conaffinity="3" solref=".004 1" friction=".4 .0001 .00001" pos="0.16 0 -0.0265" size="0.00012" zaxis="0 0 1" class="contact" />
+            <site name="left_tip" pos="0.16 0 -0.0265" size=".0006" group="4" rgba=".1 .8 .4 1" />
+            <site name="left_shank_start" pos="0.051 0 0.007" size=".0006" group="4" rgba=".1 .8 .4 1" />
+          </body>
+          <body name="left_z_knob" pos="-0.022 0 0.064" euler="0 0 0">
+            <joint name="left_z_angle" type="hinge" axis="0 0 1" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" />
+            <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
+            <geom name="left_z_knob__left_z_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 0 1" class="contact" />
+            <site name="left_z_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+          </body>
+        </body>
+        <body name="left_y_knob" pos="0 -0.0705 0.02" euler="0 0 0">
+          <joint name="left_y_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" />
+          <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
+          <geom name="left_y_knob__left_y_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 -1 0" class="contact" />
+          <site name="left_y_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        </body>
+      </body>
+      <body name="left_x_knob" pos="-0.239 -0.028 0.158" euler="0 0 0">
+        <joint name="left_x_angle" type="hinge" axis="-1 0 0" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" />
+        <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
+        <geom name="left_x_knob__left_x_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="-1 0 0" class="contact" />
+        <site name="left_x_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+      </body>
+      <body name="right_x" pos="0.163 -0.028 0.158" euler="0 0 0" gravcomp="1">
+        <joint name="right_x_travel" type="slide" axis="1 0 0" damping="10" frictionloss="0.5" range="-0.006 0.006" />
+        <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
+        <geom name="right_x__right_x_moving_table" type="box" pos="0 0 0.003" size="0.035 0.036 0.007" class="contact" />
+        <geom name="right_x__right_y_fixed_race" type="box" pos="0 0 0.012" size="0.0315 0.0325 0.0025" class="contact" />
+        <body name="right_y" pos="0 0 0.02" euler="0 0 0" gravcomp="1">
+          <joint name="right_y_travel" type="slide" axis="0 1 0" damping="10" frictionloss="0.5" range="-0.006 0.006" />
+          <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
+          <geom name="right_y__right_y_moving_table" type="box" pos="0 0 0.003" size="0.0285 0.0305 0.0055" class="contact" />
+          <geom name="right_y__right_z_fixed_race" type="box" pos="0 0 0.009" size="0.024 0.0255 0.0025" class="contact" />
+          <body name="right_z" pos="0 0 0.019" euler="0 0 0" gravcomp="1">
+            <joint name="right_z_travel" type="slide" axis="0 0 1" damping="10" frictionloss="0.5" range="-0.006 0.006" />
+            <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
+            <geom name="right_z__right_z_moving_table" type="box" pos="0 0 0.003" size="0.021 0.0235 0.0075" class="contact" />
+            <geom name="right_z__Needle_holder_bracket" type="box" pos="-0.025 0 0.01" size="0.006 0.0185 0.015" class="contact" />
+            <geom name="right_z__Probe_shank" type="capsule" pos="-0.1055 0 -0.00975" size="0.0004 0.05601589691" zaxis="-0.9558737874 0 -0.293777734" class="contact" />
+            <geom name="right_z__Probe_tip" type="sphere" contype="1" conaffinity="3" solref=".004 1" friction=".4 .0001 .00001" pos="-0.16 0 -0.0265" size="0.00012" zaxis="0 0 1" class="contact" />
+            <site name="right_tip" pos="-0.16 0 -0.0265" size=".0006" group="4" rgba=".1 .8 .4 1" />
+            <site name="right_shank_start" pos="-0.051 0 0.007" size=".0006" group="4" rgba=".1 .8 .4 1" />
+          </body>
+          <body name="right_z_knob" pos="0.022 0 0.064" euler="0 0 0">
+            <joint name="right_z_angle" type="hinge" axis="0 0 1" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" />
+            <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
+            <geom name="right_z_knob__right_z_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 0 1" class="contact" />
+            <site name="right_z_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+          </body>
+        </body>
+        <body name="right_y_knob" pos="0 -0.0705 0.02" euler="0 0 0">
+          <joint name="right_y_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" />
+          <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
+          <geom name="right_y_knob__right_y_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 -1 0" class="contact" />
+          <site name="right_y_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        </body>
+      </body>
+      <body name="right_x_knob" pos="0.239 -0.028 0.158" euler="0 0 0">
+        <joint name="right_x_angle" type="hinge" axis="1 0 0" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" />
+        <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
+        <geom name="right_x_knob__right_x_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="1 0 0" class="contact" />
+        <site name="right_x_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="optic_focus_travel_drive" joint="optic_focus_travel" kp="18000" kv="150" forcerange="-70 70" ctrlrange="-0.02 0.02" />
+    <position name="light_path_travel_drive" joint="light_path_travel" kp="850" kv="5" forcerange="-2 2" ctrlrange="0 0.012" />
+    <position name="chuck_x_travel_drive" joint="chuck_x_travel" kp="12000" kv="100" forcerange="-25 25" ctrlrange="-0.0125 0.0125" />
+    <position name="chuck_y_travel_drive" joint="chuck_y_travel" kp="12000" kv="100" forcerange="-25 25" ctrlrange="-0.0125 0.0125" />
+    <position name="chuck_theta_angle_drive" joint="chuck_theta_angle" kp="3" kv="0.3" forcerange="-0.6 0.6" ctrlrange="-0.35 0.35" />
+    <position name="left_x_travel_drive" joint="left_x_travel" kp="12000" kv="100" forcerange="-25 25" ctrlrange="-0.006 0.006" />
+    <position name="left_y_travel_drive" joint="left_y_travel" kp="12000" kv="100" forcerange="-25 25" ctrlrange="-0.006 0.006" />
+    <position name="left_z_travel_drive" joint="left_z_travel" kp="12000" kv="100" forcerange="-25 25" ctrlrange="-0.006 0.006" />
+    <position name="right_x_travel_drive" joint="right_x_travel" kp="12000" kv="100" forcerange="-25 25" ctrlrange="-0.006 0.006" />
+    <position name="right_y_travel_drive" joint="right_y_travel" kp="12000" kv="100" forcerange="-25 25" ctrlrange="-0.006 0.006" />
+    <position name="right_z_travel_drive" joint="right_z_travel" kp="12000" kv="100" forcerange="-25 25" ctrlrange="-0.006 0.006" />
+  </actuator>
+  <sensor>
+    <jointpos name="optic_focus_travel_position" joint="optic_focus_travel" />
+    <jointpos name="light_path_travel_position" joint="light_path_travel" />
+    <jointpos name="chuck_x_travel_position" joint="chuck_x_travel" />
+    <jointpos name="chuck_x_angle_position" joint="chuck_x_angle" />
+    <jointpos name="chuck_y_travel_position" joint="chuck_y_travel" />
+    <jointpos name="chuck_y_angle_position" joint="chuck_y_angle" />
+    <jointpos name="chuck_theta_angle_position" joint="chuck_theta_angle" />
+    <jointpos name="left_x_travel_position" joint="left_x_travel" />
+    <jointpos name="left_x_angle_position" joint="left_x_angle" />
+    <jointpos name="left_y_travel_position" joint="left_y_travel" />
+    <jointpos name="left_y_angle_position" joint="left_y_angle" />
+    <jointpos name="left_z_travel_position" joint="left_z_travel" />
+    <jointpos name="left_z_angle_position" joint="left_z_angle" />
+    <jointpos name="right_x_travel_position" joint="right_x_travel" />
+    <jointpos name="right_x_angle_position" joint="right_x_angle" />
+    <jointpos name="right_y_travel_position" joint="right_y_travel" />
+    <jointpos name="right_y_angle_position" joint="right_y_angle" />
+    <jointpos name="right_z_travel_position" joint="right_z_travel" />
+    <jointpos name="right_z_angle_position" joint="right_z_angle" />
+  </sensor>
+  <equality>
+    <joint name="chuck_x_screw" joint1="chuck_x_travel" joint2="chuck_x_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
+    <joint name="chuck_y_screw" joint1="chuck_y_travel" joint2="chuck_y_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
+    <joint name="left_x_screw" joint1="left_x_travel" joint2="left_x_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
+    <joint name="left_y_screw" joint1="left_y_travel" joint2="left_y_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
+    <joint name="left_z_screw" joint1="left_z_travel" joint2="left_z_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
+    <joint name="right_x_screw" joint1="right_x_travel" joint2="right_x_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
+    <joint name="right_y_screw" joint1="right_y_travel" joint2="right_y_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
+    <joint name="right_z_screw" joint1="right_z_travel" joint2="right_z_angle" polycoef="0 7.957747155e-05 0 0 0" solref=".002 1" solimp=".99 .999 .0001" />
+  </equality>
+</mujoco>

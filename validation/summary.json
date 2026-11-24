@@ -1,0 +1,30 @@
+{
+  "engine": "MuJoCo 4.0.1 WASM",
+  "positive_episodes": 54,
+  "positive_passes": 54,
+  "no_action_controls": 18,
+  "false_positives": 0,
+  "tweezer_audit_steps": 20000,
+  "tweezer_unintended_contacts": 0,
+  "mechanism_checks": 48,
+  "browser_checks": 13,
+  "passed": true,
+  "sha256": {
+    "app.js": "48b73c5e9bdbe31d07436eaea663de41c344e49eca3fec55163b0b0f2dd013a3",
+    "worker.js": "a9aa01bbbfa0992b42568964d748787a76e7ec50fa1401d5d790e69fdcc07ab5",
+    "physics.js": "412382c51340ce221b7a9bee7fe78bd23dcd3e7598bdbacff11a1aa41027064b",
+    "runtime.js": "aeb603d831f90b2de4a98e84ff9b8bebfaaac4fa78bc44737a04e0484db47fa1",
+    "python/imaging.py": "6350747255518579391a4a1f7519593120958532c1350c1a8cab1035745af675",
+    "python/optics.py": "d2db3d8195f7e5e540e364e7d87cb76bcb26bdafb53d14903c21452aa06151c0",
+    "python/session.py": "4bbb089539b94e3debfb56174ec475f0e98408f254c49dfadb2caeab1a7b030f",
+    "python/sim.py": "65580f8378f32014a755763e9eab894c08360debde3934ed9f483a6cc882ae11",
+    "python/tasks.py": "2d80743c53718bf9baac24a12c52740e6e569e49ae930e993b59ceb3c30ae022",
+    "assets/afm/physics.xml": "2b5c9c6414990d83e9c9fcda408df301d1274f9c6f5ef4bee4939a0c171e6d0c",
+    "assets/bonder/physics.xml": "ad64dcaf486726cf992956bbb4bf98bc3b81adfd2026e5ae77463da957d3eb2a",
+    "assets/nikon/physics.xml": "b5b8c9e5dbd3f9077bfc8726e94828b7723b6eb5b18480f5d3029d379e76c4ee",
+    "assets/probe/physics.xml": "9d2e8a5c2cb4ef8b6bcbf31b3a9a7bdc8e6d459875c3199a3a343d497f71dabe",
+    "assets/transfer/physics.xml": "771e724d803f6aacc09d50318cff1d4952641f301ff55d078db1b92db48f71cb",
+    "assets/tweezers/physics.xml": "43c5969fd5cdef0b1682b89655812c267b822d286daf0580a8266e50c1d40808",
+    "assets/zeiss/physics.xml": "4bb627799b4b0bf1e1d8315a581e844297a107115ee049b09745c46a11c4f62c"
+  }
+}

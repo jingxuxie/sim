@@ -1,0 +1,8 @@
+{
+  "name": "quantum-lab-instruments",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Detailed lab instruments with live browser-local MuJoCo physics",
+  "scripts": {"serve": "python3 -m http.server 8000"}
+}

@@ -1,0 +1,250 @@
+{
+  "url": "http://127.0.0.1:18767/github-sim/",
+  "engine": "MuJoCo 4.0.1 WASM",
+  "checked_utc": "2026-11-24T06:29:57.353Z",
+  "checks": [
+    {
+      "check": "AFM locked door and scanner commands rejected",
+      "passed": true
+    },
+    {
+      "check": "AFM release sequence opens scanner",
+      "passed": true
+    },
+    {
+      "check": "AFM drawer must return before door closure or scanner relatch",
+      "passed": true
+    },
+    {
+      "check": "AFM complete close and relatch sequence",
+      "passed": true
+    },
+    {
+      "check": "nikon optical routing 0 m",
+      "passed": true,
+      "camera_throughput": 0,
+      "eyepiece_throughput": 1
+    },
+    {
+      "check": "nikon camera actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "nikon eyepiece actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 20569172
+    },
+    {
+      "check": "nikon optical routing 0.006 m",
+      "passed": true,
+      "camera_throughput": 0.8,
+      "eyepiece_throughput": 0.19999999999999996
+    },
+    {
+      "check": "nikon camera actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 18436256
+    },
+    {
+      "check": "nikon eyepiece actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 9199566
+    },
+    {
+      "check": "nikon optical routing 0.012 m",
+      "passed": true,
+      "camera_throughput": 1,
+      "eyepiece_throughput": 0
+    },
+    {
+      "check": "nikon camera actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 20569089
+    },
+    {
+      "check": "nikon eyepiece actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "nikon selector transit blocks image",
+      "passed": true
+    },
+    {
+      "check": "Nikon empty objective socket is dark",
+      "passed": true
+    },
+    {
+      "check": "Measured Nikon focus changes specimen sharpness",
+      "passed": true,
+      "focused": 0.03007788211107254,
+      "defocused": 0.00008465486462228
+    },
+    {
+      "check": "zeiss optical routing 0 m",
+      "passed": true,
+      "camera_throughput": 0,
+      "eyepiece_throughput": 1
+    },
+    {
+      "check": "zeiss camera actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "zeiss eyepiece actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 20767592
+    },
+    {
+      "check": "zeiss optical routing 0.006 m",
+      "passed": true,
+      "camera_throughput": 0.5,
+      "eyepiece_throughput": 0.5
+    },
+    {
+      "check": "zeiss camera actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14901208
+    },
+    {
+      "check": "zeiss eyepiece actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14901931
+    },
+    {
+      "check": "zeiss optical routing 0.012 m",
+      "passed": true,
+      "camera_throughput": 1,
+      "eyepiece_throughput": 0
+    },
+    {
+      "check": "zeiss camera actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 20765513
+    },
+    {
+      "check": "zeiss eyepiece actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "zeiss selector transit blocks image",
+      "passed": true
+    },
+    {
+      "check": "transfer optical routing 0 m",
+      "passed": true,
+      "camera_throughput": 0,
+      "eyepiece_throughput": 1
+    },
+    {
+      "check": "transfer camera actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "transfer eyepiece actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 20561675
+    },
+    {
+      "check": "transfer optical routing 0.006 m",
+      "passed": true,
+      "camera_throughput": 0.5,
+      "eyepiece_throughput": 0.5
+    },
+    {
+      "check": "transfer camera actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14721484
+    },
+    {
+      "check": "transfer eyepiece actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14720474
+    },
+    {
+      "check": "transfer optical routing 0.012 m",
+      "passed": true,
+      "camera_throughput": 1,
+      "eyepiece_throughput": 0
+    },
+    {
+      "check": "transfer camera actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 20563660
+    },
+    {
+      "check": "transfer eyepiece actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "transfer selector transit blocks image",
+      "passed": true
+    },
+    {
+      "check": "probe optical routing 0 m",
+      "passed": true,
+      "camera_throughput": 0,
+      "eyepiece_throughput": 1
+    },
+    {
+      "check": "probe camera actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "probe eyepiece actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 20972703
+    },
+    {
+      "check": "probe optical routing 0.006 m",
+      "passed": true,
+      "camera_throughput": 0.5,
+      "eyepiece_throughput": 0.5
+    },
+    {
+      "check": "probe camera actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14969860
+    },
+    {
+      "check": "probe eyepiece actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14969005
+    },
+    {
+      "check": "probe optical routing 0.012 m",
+      "passed": true,
+      "camera_throughput": 1,
+      "eyepiece_throughput": 0
+    },
+    {
+      "check": "probe camera actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 20974149
+    },
+    {
+      "check": "probe eyepiece actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "probe selector transit blocks image",
+      "passed": true
+    },
+    {
+      "check": "Jaw command clamps to physical actuator range",
+      "passed": true
+    },
+    {
+      "check": "Nonfinite commands rejected",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,189 @@
+<mujoco model="spring_tweezers">
+  <compiler angle="radian" autolimits="true" inertiafromgeom="false" fusestatic="false" />
+  <option timestep=".001" integrator="implicitfast" iterations="80" tolerance="1e-10" cone="elliptic">
+    <flag multiccd="enable" />
+  </option>
+  <statistic center="0 0 .2" extent=".65" />
+  <visual>
+    <global offwidth="1280" offheight="1120" />
+  </visual>
+  <default>
+    <default class="visual">
+      <geom type="mesh" group="2" contype="0" conaffinity="0" density="0" />
+    </default>
+    <default class="contact">
+      <geom group="3" contype="2" conaffinity="1" rgba=".8 .3 .1 .3" condim="4" friction=".8 .002 .0001" solref=".003 1" solimp=".95 .995 .0001" />
+    </default>
+  </default>
+  <asset>
+    <material name="ivory" rgba="0.8470588235 0.8352941176 0.7882352941 1" specular="0.29" shininess="0.5" />
+    <material name="white" rgba="0.9019607843 0.9019607843 0.8745098039 1" specular="0.29" shininess="0.5" />
+    <material name="warm" rgba="0.8588235294 0.8274509804 0.7294117647 1" specular="0.29" shininess="0.5" />
+    <material name="alloy" rgba="0.7254901961 0.7607843137 0.7803921569 1" specular="0.675" shininess="0.5" />
+    <material name="steel" rgba="0.8196078431 0.8392156863 0.8470588235 1" specular="0.71" shininess="0.5" />
+    <material name="brushed" rgba="0.6705882353 0.7098039216 0.7215686275 1" specular="0.6699999999999999" shininess="0.5" />
+    <material name="darkmetal" rgba="0.2666666667 0.2862745098 0.3254901961 1" specular="0.625" shininess="0.5" />
+    <material name="black" rgba="0.09019607843 0.1058823529 0.1254901961 1" specular="0.38" shininess="0.5" />
+    <material name="rubber" rgba="0.0862745098 0.1019607843 0.1176470588 1" specular="0.255" shininess="0.5" />
+    <material name="graphite" rgba="0.2039215686 0.2196078431 0.231372549 1" specular="0.42000000000000004" shininess="0.5" />
+    <material name="purple" rgba="0.1607843137 0.2 0.4039215686 1" specular="0.275" shininess="0.5" />
+    <material name="blue" rgba="0.1607843137 0.337254902 0.5450980392 1" specular="0.5" shininess="0.5" />
+    <material name="cyan" rgba="0.1725490196 0.5725490196 0.768627451 1" specular="0.49" shininess="0.5" />
+    <material name="bluepaint" rgba="0.1137254902 0.3294117647 0.5607843137 1" specular="0.38" shininess="0.5" />
+    <material name="bronze" rgba="0.6901960784 0.5921568627 0.3882352941 1" specular="0.65" shininess="0.5" />
+    <material name="orange" rgba="0.7098039216 0.2941176471 0.1647058824 1" specular="0.36" shininess="0.5" />
+    <material name="copper" rgba="0.7333333333 0.5098039216 0.4039215686 1" specular="0.625" shininess="0.5" />
+    <material name="gold" rgba="0.7882352941 0.6509803922 0.3254901961 1" specular="0.655" shininess="0.5" />
+    <material name="ink" rgba="0.08235294118 0.1137254902 0.1450980392 1" specular="0.265" shininess="0.5" />
+    <material name="paper" rgba="0.9333333333 0.9176470588 0.8705882353 1" specular="0.255" shininess="0.5" />
+    <material name="red" rgba="0.7411764706 0.2470588235 0.1803921569 1" specular="0.35" shininess="0.5" />
+    <material name="green" rgba="0.1568627451 0.4666666667 0.2862745098 1" specular="0.37" shininess="0.5" />
+    <material name="yellow" rgba="0.8470588235 0.7215686275 0.1725490196 1" specular="0.355" shininess="0.5" />
+    <material name="violet" rgba="0.4 0.3764705882 0.631372549 1" specular="0.375" shininess="0.5" />
+    <material name="optic" rgba="0.1607843137 0.231372549 0.3333333333 1" specular="0.45" shininess="0.5" />
+    <material name="glass" rgba="0.631372549 0.7568627451 0.7725490196 1" specular="0.275" shininess="0.5" />
+    <material name="window" rgba="0.2 0.3058823529 0.2509803922 1" specular="0.295" shininess="0.5" />
+    <material name="led" rgba="0.4862745098 0.8862745098 0.5843137255 1" specular="0.3" shininess="0.5" />
+    <material name="screen" rgba="0.2823529412 0.4 0.231372549 1" specular="0.275" shininess="0.5" />
+    <material name="screenink" rgba="0.09411764706 0.1764705882 0.1294117647 1" specular="0.25" shininess="0.5" />
+    <material name="ceramic" rgba="0.9019607843 0.8745098039 0.7921568627 1" specular="0.26" shininess="0.5" />
+    <material name="wafer" rgba="0.2431372549 0.2509803922 0.3607843137 1" specular="0.6" shininess="0.5" />
+    <material name="wire" rgba="0.1607843137 0.1803921569 0.1960784314 1" specular="0.3" shininess="0.5" />
+    <material name="foil" rgba="0.7019607843 0.7215686275 0.737254902 1" specular="0.7" shininess="0.5" />
+    <material name="etched" rgba="0.6156862745 0.6705882353 0.6941176471 1" specular="0.325" shininess="0.5" />
+    <material name="tape" rgba="0.8352941176 0.8235294118 0.7490196078 1" specular="0.255" shininess="0.5" />
+    <material name="vermiculite" rgba="0.4509803922 0.3843137255 0.2549019608 1" specular="0.26" shininess="0.5" />
+  </asset>
+  <worldbody>
+    <light pos=".4 -.5 1.1" dir="-.3 .4 -1" diffuse=".75 .74 .71" />
+    <body name="base" pos="0 0 0" euler="0 0 0">
+      <geom name="base__Handling_tile" type="box" pos="0 0 0.002" size="0.09 0.05 0.002" class="contact" />
+      <geom name="base__Pick-up_pedestal" type="box" pos="0.059 0 0.0065" size="0.0025 0.002 0.0025" class="contact" />
+      <geom name="base__Target_insert" type="box" pos="0.062 0.024 0.0063" size="0.0095 0.0085 0.0023" class="contact" />
+      <geom name="base__Tray_locating_edge" type="box" pos="0.053 0.024 0.0096" size="0.00075 0.008 0.001" class="contact" />
+      <geom name="base__Tray_locating_edge_2" type="box" pos="0.071 0.024 0.0096" size="0.00075 0.008 0.001" class="contact" />
+      <site name="placement_target" pos="0.062 0.024 0.0091" size=".0006" group="4" rgba=".1 .8 .4 1" />
+    </body>
+    <body name="tool" pos="0 0 0.0120000001" quat="1 0 0 0">
+      <freejoint name="tool_free" />
+      <inertial mass="0.008" pos="0 0 0" diaginertia="3e-06 1.5e-05 1.5e-05" />
+      <geom name="tool__Welded_spring_heel" type="box" contype="1" conaffinity="3" pos="-0.055 0 0" size="0.006 0.00105 0.0035" class="contact" />
+      <body name="jaw_left" pos="-0.05 -0.0006 0" euler="0 0 0">
+        <joint name="jaw_left_angle" type="hinge" axis="0 0 -1" damping="1.2e-05" frictionloss="5e-07" range="-0.052 0.025" stiffness="0.06" springref="0" />
+        <inertial mass="0.005" pos="0 0 0" diaginertia="3e-08 5e-06 5e-06" />
+        <geom name="jaw_left__Spring_blade" type="box" euler="0 0 -0.12435499454676144" contype="1" conaffinity="3" pos="0.002 -0.00035 0" size="0.002057774857 0.00031 0.003571666667" class="contact" />
+        <geom name="jaw_left__Spring_blade_2" type="box" euler="0 0 -0.12435499454676144" contype="1" conaffinity="3" pos="0.006 -0.00085 0" size="0.002057774857 0.00031 0.003638333333" class="contact" />
+        <geom name="jaw_left__Spring_blade_3" type="box" euler="0 0 -0.12435499454676144" contype="1" conaffinity="3" pos="0.01 -0.00135 0" size="0.002057774857 0.00031 0.003705" class="contact" />
+        <geom name="jaw_left__Spring_blade_4" type="box" euler="0 0 -0.09966865725771791" contype="1" conaffinity="3" pos="0.01385714286 -0.001785714286 0" size="0.001901256532 0.00031 0.003705" class="contact" />
+        <geom name="jaw_left__Spring_blade_5" type="box" euler="0 0 -0.09966865725771791" contype="1" conaffinity="3" pos="0.01757142857 -0.002157142857 0" size="0.001901256532 0.00031 0.003676428571" class="contact" />
+        <geom name="jaw_left__Spring_blade_6" type="box" euler="0 0 -0.09966865725771791" contype="1" conaffinity="3" pos="0.02128571429 -0.002528571429 0" size="0.001901256532 0.00031 0.003647857143" class="contact" />
+        <geom name="jaw_left__Spring_blade_7" type="box" euler="0 0 -0.09966865725771791" contype="1" conaffinity="3" pos="0.025 -0.0029 0" size="0.001901256532 0.00031 0.003619285714" class="contact" />
+        <geom name="jaw_left__Spring_blade_8" type="box" euler="0 0 -0.09966865725771791" contype="1" conaffinity="3" pos="0.02871428571 -0.003271428571 0" size="0.001901256532 0.00031 0.003590714286" class="contact" />
+        <geom name="jaw_left__Spring_blade_9" type="box" euler="0 0 -0.09966865725771791" contype="1" conaffinity="3" pos="0.03242857143 -0.003642857143 0" size="0.001901256532 0.00031 0.003562142857" class="contact" />
+        <geom name="jaw_left__Spring_blade_10" type="box" euler="0 0 -0.09966865725771791" contype="1" conaffinity="3" pos="0.03614285714 -0.004014285714 0" size="0.001901256532 0.00031 0.003533571429" class="contact" />
+        <geom name="jaw_left__Spring_blade_11" type="box" euler="0 0 -0.034469100999508014" contype="1" conaffinity="3" pos="0.0398125 -0.0042625 0" size="0.001828915949 0.00031 0.003505" class="contact" />
+        <geom name="jaw_left__Spring_blade_12" type="box" euler="0 0 -0.034469100999508014" contype="1" conaffinity="3" pos="0.0434375 -0.0043875 0" size="0.001828915949 0.00031 0.00343" class="contact" />
+        <geom name="jaw_left__Spring_blade_13" type="box" euler="0 0 -0.034469100999508014" contype="1" conaffinity="3" pos="0.0470625 -0.0045125 0" size="0.001828915949 0.00031 0.003355" class="contact" />
+        <geom name="jaw_left__Spring_blade_14" type="box" euler="0 0 -0.034469100999508014" contype="1" conaffinity="3" pos="0.0506875 -0.0046375 0" size="0.001828915949 0.00031 0.00328" class="contact" />
+        <geom name="jaw_left__Spring_blade_15" type="box" euler="0 0 -0.034469100999508014" contype="1" conaffinity="3" pos="0.0543125 -0.0047625 0" size="0.001828915949 0.00031 0.003205" class="contact" />
+        <geom name="jaw_left__Spring_blade_16" type="box" euler="0 0 -0.034469100999508014" contype="1" conaffinity="3" pos="0.0579375 -0.0048875 0" size="0.001828915949 0.00031 0.00313" class="contact" />
+        <geom name="jaw_left__Spring_blade_17" type="box" euler="0 0 -0.034469100999508014" contype="1" conaffinity="3" pos="0.0615625 -0.0050125 0" size="0.001828915949 0.00031 0.003055" class="contact" />
+        <geom name="jaw_left__Spring_blade_18" type="box" euler="0 0 -0.034469100999508014" contype="1" conaffinity="3" pos="0.0651875 -0.0051375 0" size="0.001828915949 0.00031 0.00298" class="contact" />
+        <geom name="jaw_left__Spring_blade_19" type="box" euler="0 0 -0.014284742800226928" contype="1" conaffinity="3" pos="0.06875 -0.005225 0" size="0.001759463839 0.00031 0.002905" class="contact" />
+        <geom name="jaw_left__Spring_blade_20" type="box" euler="0 0 -0.014284742800226928" contype="1" conaffinity="3" pos="0.07225 -0.005275 0" size="0.001759463839 0.00031 0.002771666667" class="contact" />
+        <geom name="jaw_left__Spring_blade_21" type="box" euler="0 0 -0.014284742800226928" contype="1" conaffinity="3" pos="0.07575 -0.005325 0" size="0.001759463839 0.00031 0.002638333333" class="contact" />
+        <geom name="jaw_left__Spring_blade_22" type="box" euler="0 0 -0.014284742800226928" contype="1" conaffinity="3" pos="0.07925 -0.005375 0" size="0.001759463839 0.00031 0.002505" class="contact" />
+        <geom name="jaw_left__Spring_blade_23" type="box" euler="0 0 -0.014284742800226928" contype="1" conaffinity="3" pos="0.08275 -0.005425 0" size="0.001759463839 0.00031 0.002371666667" class="contact" />
+        <geom name="jaw_left__Spring_blade_24" type="box" euler="0 0 -0.014284742800226928" contype="1" conaffinity="3" pos="0.08625 -0.005475 0" size="0.001759463839 0.00031 0.002238333333" class="contact" />
+        <geom name="jaw_left__Spring_blade_25" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0885 -0.0055 0" size="0.000505 0.00022 0.002105" class="contact" />
+        <geom name="jaw_left__Spring_blade_26" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0895 -0.0055 0" size="0.000505 0.00022 0.001981" class="contact" />
+        <geom name="jaw_left__Spring_blade_27" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0905 -0.0055 0" size="0.000505 0.00022 0.001857" class="contact" />
+        <geom name="jaw_left__Spring_blade_28" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0915 -0.0055 0" size="0.000505 0.00022 0.001733" class="contact" />
+        <geom name="jaw_left__Spring_blade_29" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0925 -0.0055 0" size="0.000505 0.00022 0.001609" class="contact" />
+        <geom name="jaw_left__Spring_blade_30" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0935 -0.0055 0" size="0.000505 0.00022 0.001485" class="contact" />
+        <geom name="jaw_left__Spring_blade_31" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0945 -0.0055 0" size="0.000505 0.00022 0.001361" class="contact" />
+        <geom name="jaw_left__Spring_blade_32" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0955 -0.0055 0" size="0.000505 0.00022 0.001237" class="contact" />
+        <geom name="jaw_left__Spring_blade_33" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0965 -0.0055 0" size="0.000505 0.00022 0.001113" class="contact" />
+        <geom name="jaw_left__Spring_blade_34" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0975 -0.0055 0" size="0.000505 0.00022 0.000989" class="contact" />
+        <geom name="jaw_left__Spring_blade_35" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0985 -0.0055 0" size="0.000505 0.00022 0.000865" class="contact" />
+        <geom name="jaw_left__Spring_blade_36" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.0995 -0.0055 0" size="0.000505 0.00022 0.000741" class="contact" />
+        <geom name="jaw_left__Spring_blade_37" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.1005 -0.0055 0" size="0.000505 0.00022 0.000617" class="contact" />
+        <geom name="jaw_left__Spring_blade_38" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.1015 -0.0055 0" size="0.000505 0.00022 0.000493" class="contact" />
+        <geom name="jaw_left__Spring_blade_39" type="box" euler="0 0 -0.0" contype="1" conaffinity="3" pos="0.1025 -0.0055 0" size="0.000505 0.00022 0.000369" class="contact" />
+        <geom name="jaw_left__Flat_precision_tip" type="box" contype="2" conaffinity="3" friction="1.3 .001 .00002" solref=".002 1" pos="0.103875 -0.0055 0" size="0.00088 0.00022 0.000245" class="contact" />
+        <geom name="jaw_left__Flat_precision_tip_2" type="box" contype="2" conaffinity="3" friction="1.3 .001 .00002" solref=".002 1" pos="0.105625 -0.0055 0" size="0.00088 0.00022 0.00023" class="contact" />
+        <geom name="jaw_left__Flat_precision_tip_3" type="box" contype="2" conaffinity="3" friction="1.3 .001 .00002" solref=".002 1" pos="0.107375 -0.0055 0" size="0.00088 0.00022 0.000215" class="contact" />
+        <geom name="jaw_left__Flat_precision_tip_4" type="box" contype="2" conaffinity="3" friction="1.3 .001 .00002" solref=".002 1" pos="0.109125 -0.0055 0" size="0.00088 0.00022 0.0002" class="contact" />
+        <site name="jaw_left_tip" pos="0.11 -0.0055 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        <site name="jaw_left_squeeze" pos="0.042 -0.0047 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+      </body>
+      <body name="jaw_right" pos="-0.05 0.0006 0" euler="0 0 0">
+        <joint name="jaw_right_angle" type="hinge" axis="0 0 1" damping="1.2e-05" frictionloss="5e-07" range="-0.052 0.025" stiffness="0.06" springref="0" />
+        <inertial mass="0.005" pos="0 0 0" diaginertia="3e-08 5e-06 5e-06" />
+        <geom name="jaw_right__Spring_blade" type="box" euler="0 0 0.12435499454676144" contype="1" conaffinity="3" pos="0.002 0.00035 0" size="0.002057774857 0.00031 0.003571666667" class="contact" />
+        <geom name="jaw_right__Spring_blade_2" type="box" euler="0 0 0.12435499454676144" contype="1" conaffinity="3" pos="0.006 0.00085 0" size="0.002057774857 0.00031 0.003638333333" class="contact" />
+        <geom name="jaw_right__Spring_blade_3" type="box" euler="0 0 0.12435499454676144" contype="1" conaffinity="3" pos="0.01 0.00135 0" size="0.002057774857 0.00031 0.003705" class="contact" />
+        <geom name="jaw_right__Spring_blade_4" type="box" euler="0 0 0.09966865725771791" contype="1" conaffinity="3" pos="0.01385714286 0.001785714286 0" size="0.001901256532 0.00031 0.003705" class="contact" />
+        <geom name="jaw_right__Spring_blade_5" type="box" euler="0 0 0.09966865725771791" contype="1" conaffinity="3" pos="0.01757142857 0.002157142857 0" size="0.001901256532 0.00031 0.003676428571" class="contact" />
+        <geom name="jaw_right__Spring_blade_6" type="box" euler="0 0 0.09966865725771791" contype="1" conaffinity="3" pos="0.02128571429 0.002528571429 0" size="0.001901256532 0.00031 0.003647857143" class="contact" />
+        <geom name="jaw_right__Spring_blade_7" type="box" euler="0 0 0.09966865725771791" contype="1" conaffinity="3" pos="0.025 0.0029 0" size="0.001901256532 0.00031 0.003619285714" class="contact" />
+        <geom name="jaw_right__Spring_blade_8" type="box" euler="0 0 0.09966865725771791" contype="1" conaffinity="3" pos="0.02871428571 0.003271428571 0" size="0.001901256532 0.00031 0.003590714286" class="contact" />
+        <geom name="jaw_right__Spring_blade_9" type="box" euler="0 0 0.09966865725771791" contype="1" conaffinity="3" pos="0.03242857143 0.003642857143 0" size="0.001901256532 0.00031 0.003562142857" class="contact" />
+        <geom name="jaw_right__Spring_blade_10" type="box" euler="0 0 0.09966865725771791" contype="1" conaffinity="3" pos="0.03614285714 0.004014285714 0" size="0.001901256532 0.00031 0.003533571429" class="contact" />
+        <geom name="jaw_right__Spring_blade_11" type="box" euler="0 0 0.034469100999508014" contype="1" conaffinity="3" pos="0.0398125 0.0042625 0" size="0.001828915949 0.00031 0.003505" class="contact" />
+        <geom name="jaw_right__Spring_blade_12" type="box" euler="0 0 0.034469100999508014" contype="1" conaffinity="3" pos="0.0434375 0.0043875 0" size="0.001828915949 0.00031 0.00343" class="contact" />
+        <geom name="jaw_right__Spring_blade_13" type="box" euler="0 0 0.034469100999508014" contype="1" conaffinity="3" pos="0.0470625 0.0045125 0" size="0.001828915949 0.00031 0.003355" class="contact" />
+        <geom name="jaw_right__Spring_blade_14" type="box" euler="0 0 0.034469100999508014" contype="1" conaffinity="3" pos="0.0506875 0.0046375 0" size="0.001828915949 0.00031 0.00328" class="contact" />
+        <geom name="jaw_right__Spring_blade_15" type="box" euler="0 0 0.034469100999508014" contype="1" conaffinity="3" pos="0.0543125 0.0047625 0" size="0.001828915949 0.00031 0.003205" class="contact" />
+        <geom name="jaw_right__Spring_blade_16" type="box" euler="0 0 0.034469100999508014" contype="1" conaffinity="3" pos="0.0579375 0.0048875 0" size="0.001828915949 0.00031 0.00313" class="contact" />
+        <geom name="jaw_right__Spring_blade_17" type="box" euler="0 0 0.034469100999508014" contype="1" conaffinity="3" pos="0.0615625 0.0050125 0" size="0.001828915949 0.00031 0.003055" class="contact" />
+        <geom name="jaw_right__Spring_blade_18" type="box" euler="0 0 0.034469100999508014" contype="1" conaffinity="3" pos="0.0651875 0.0051375 0" size="0.001828915949 0.00031 0.00298" class="contact" />
+        <geom name="jaw_right__Spring_blade_19" type="box" euler="0 0 0.014284742800226928" contype="1" conaffinity="3" pos="0.06875 0.005225 0" size="0.001759463839 0.00031 0.002905" class="contact" />
+        <geom name="jaw_right__Spring_blade_20" type="box" euler="0 0 0.014284742800226928" contype="1" conaffinity="3" pos="0.07225 0.005275 0" size="0.001759463839 0.00031 0.002771666667" class="contact" />
+        <geom name="jaw_right__Spring_blade_21" type="box" euler="0 0 0.014284742800226928" contype="1" conaffinity="3" pos="0.07575 0.005325 0" size="0.001759463839 0.00031 0.002638333333" class="contact" />
+        <geom name="jaw_right__Spring_blade_22" type="box" euler="0 0 0.014284742800226928" contype="1" conaffinity="3" pos="0.07925 0.005375 0" size="0.001759463839 0.00031 0.002505" class="contact" />
+        <geom name="jaw_right__Spring_blade_23" type="box" euler="0 0 0.014284742800226928" contype="1" conaffinity="3" pos="0.08275 0.005425 0" size="0.001759463839 0.00031 0.002371666667" class="contact" />
+        <geom name="jaw_right__Spring_blade_24" type="box" euler="0 0 0.014284742800226928" contype="1" conaffinity="3" pos="0.08625 0.005475 0" size="0.001759463839 0.00031 0.002238333333" class="contact" />
+        <geom name="jaw_right__Spring_blade_25" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0885 0.0055 0" size="0.000505 0.00022 0.002105" class="contact" />
+        <geom name="jaw_right__Spring_blade_26" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0895 0.0055 0" size="0.000505 0.00022 0.001981" class="contact" />
+        <geom name="jaw_right__Spring_blade_27" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0905 0.0055 0" size="0.000505 0.00022 0.001857" class="contact" />
+        <geom name="jaw_right__Spring_blade_28" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0915 0.0055 0" size="0.000505 0.00022 0.001733" class="contact" />
+        <geom name="jaw_right__Spring_blade_29" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0925 0.0055 0" size="0.000505 0.00022 0.001609" class="contact" />
+        <geom name="jaw_right__Spring_blade_30" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0935 0.0055 0" size="0.000505 0.00022 0.001485" class="contact" />
+        <geom name="jaw_right__Spring_blade_31" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0945 0.0055 0" size="0.000505 0.00022 0.001361" class="contact" />
+        <geom name="jaw_right__Spring_blade_32" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0955 0.0055 0" size="0.000505 0.00022 0.001237" class="contact" />
+        <geom name="jaw_right__Spring_blade_33" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0965 0.0055 0" size="0.000505 0.00022 0.001113" class="contact" />
+        <geom name="jaw_right__Spring_blade_34" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0975 0.0055 0" size="0.000505 0.00022 0.000989" class="contact" />
+        <geom name="jaw_right__Spring_blade_35" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0985 0.0055 0" size="0.000505 0.00022 0.000865" class="contact" />
+        <geom name="jaw_right__Spring_blade_36" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.0995 0.0055 0" size="0.000505 0.00022 0.000741" class="contact" />
+        <geom name="jaw_right__Spring_blade_37" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.1005 0.0055 0" size="0.000505 0.00022 0.000617" class="contact" />
+        <geom name="jaw_right__Spring_blade_38" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.1015 0.0055 0" size="0.000505 0.00022 0.000493" class="contact" />
+        <geom name="jaw_right__Spring_blade_39" type="box" euler="0 0 0.0" contype="1" conaffinity="3" pos="0.1025 0.0055 0" size="0.000505 0.00022 0.000369" class="contact" />
+        <geom name="jaw_right__Flat_precision_tip" type="box" contype="2" conaffinity="3" friction="1.3 .001 .00002" solref=".002 1" pos="0.103875 0.0055 0" size="0.00088 0.00022 0.000245" class="contact" />
+        <geom name="jaw_right__Flat_precision_tip_2" type="box" contype="2" conaffinity="3" friction="1.3 .001 .00002" solref=".002 1" pos="0.105625 0.0055 0" size="0.00088 0.00022 0.00023" class="contact" />
+        <geom name="jaw_right__Flat_precision_tip_3" type="box" contype="2" conaffinity="3" friction="1.3 .001 .00002" solref=".002 1" pos="0.107375 0.0055 0" size="0.00088 0.00022 0.000215" class="contact" />
+        <geom name="jaw_right__Flat_precision_tip_4" type="box" contype="2" conaffinity="3" friction="1.3 .001 .00002" solref=".002 1" pos="0.109125 0.0055 0" size="0.00088 0.00022 0.0002" class="contact" />
+        <site name="jaw_right_tip" pos="0.11 0.0055 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        <site name="jaw_right_squeeze" pos="0.042 0.0047 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+      </body>
+    </body>
+    <body name="chip" pos="0.05900000408 0 0.009250000119" quat="1 0 0 0">
+      <freejoint name="chip_free" />
+      <inertial mass="9e-05" pos="0 0 0" diaginertia="3e-10 5e-10 6e-10" />
+      <geom name="chip__device_chip" type="box" contype="1" conaffinity="3" friction="1.1 .001 .00001" solref=".002 1" pos="0 0 0" size="0.004 0.003 0.00025" class="contact" />
+      <site name="device_chip_center" pos="0 0 0.00025" size=".0006" group="4" rgba=".1 .8 .4 1" />
+    </body>
+    <body name="tool_fixture" mocap="true" pos="0 0 .012" />
+  </worldbody>
+  <actuator>
+    <position name="jaw_left_angle_drive" joint="jaw_left_angle" kp="0.25" kv="0.0022" forcerange="-0.018 0.018" ctrlrange="-0.052 0.025" />
+    <position name="jaw_right_angle_drive" joint="jaw_right_angle" kp="0.25" kv="0.0022" forcerange="-0.018 0.018" ctrlrange="-0.052 0.025" />
+  </actuator>
+  <sensor>
+    <jointpos name="jaw_left_angle_position" joint="jaw_left_angle" />
+    <jointpos name="jaw_right_angle_position" joint="jaw_right_angle" />
+  </sensor>
+  <equality>
+    <weld name="tool_fixture_weld" body1="tool_fixture" body2="tool" active="true" solref=".004 1" solimp=".99 .999 .0001" />
+  </equality>
+</mujoco>

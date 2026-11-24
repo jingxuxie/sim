@@ -1,0 +1,193 @@
+<mujoco model="Nikon Eclipse E1000 - laboratory configuration">
+  <compiler angle="radian" autolimits="true" inertiafromgeom="false" fusestatic="false" />
+  <option timestep=".001" integrator="implicitfast" gravity="0 0 -9.81" cone="elliptic" iterations="60" tolerance="1e-10" />
+  <statistic center="0 0 .255" extent=".54" />
+  <visual>
+    <global azimuth="108" elevation="-14" offwidth="900" offheight="900" />
+    <map znear=".004" zfar="8" />
+    <headlight ambient=".32 .32 .33" diffuse=".57 .56 .54" specular=".15 .15 .15" />
+  </visual>
+  <default>
+    <joint solreflimit=".003 1" solimplimit=".98 .999 .0001" />
+    <default class="visual_mesh">
+      <geom type="mesh" contype="0" conaffinity="0" group="2" density="0" />
+    </default>
+    <default class="contact_proxy">
+      <geom group="3" contype="2" conaffinity="1" rgba="0.95 .36 .08 .35" condim="4" friction=".8 .003 .0001" solref=".003 1" solimp=".93 .985 .0002" />
+    </default>
+  </default>
+  <asset>
+    <material name="enamel" rgba="0.8666666667 0.8431372549 0.7803921569 1" specular="0.207" shininess="0.598" />
+    <material name="cream" rgba="0.9333333333 0.9098039216 0.8470588235 1" specular="0.197" shininess="0.626" />
+    <material name="edge" rgba="0.7254901961 0.7019607843 0.6431372549 1" specular="0.212" shininess="0.556" />
+    <material name="charcoal" rgba="0.1882352941 0.1921568627 0.2156862745 1" specular="0.316" shininess="0.619" />
+    <material name="black" rgba="0.09019607843 0.09803921569 0.1137254902 1" specular="0.233" shininess="0.591" />
+    <material name="rubber" rgba="0.1254901961 0.1294117647 0.1490196078 1" specular="0.166" shininess="0.472" />
+    <material name="metal" rgba="0.7333333333 0.7647058824 0.7764705882 1" specular="0.582" shininess="0.682" />
+    <material name="bright" rgba="0.8784313725 0.8941176471 0.9019607843 1" specular="0.608" shininess="0.724" />
+    <material name="gun" rgba="0.3843137255 0.4078431373 0.4509803922 1" specular="0.535" shininess="0.640" />
+    <material name="bluecam" rgba="0.137254902 0.3254901961 0.5254901961 1" specular="0.488" shininess="0.661" />
+    <material name="violet" rgba="0.2745098039 0.2588235294 0.3137254902 1" specular="0.332" shininess="0.612" />
+    <material name="glass" rgba="0.1529411765 0.2470588235 0.2980392157 1" specular="0.436" shininess="0.759" />
+    <material name="optic" rgba="0.2235294118 0.3411764706 0.4431372549 1" specular="0.467" shininess="0.759" />
+    <material name="label" rgba="0.1490196078 0.1529411765 0.1647058824 1" specular="0.264" shininess="0.612" />
+    <material name="ink" rgba="0.1568627451 0.1607843137 0.1960784314 1" specular="0.171" shininess="0.500" />
+    <material name="paper" rgba="0.9098039216 0.9019607843 0.8588235294 1" specular="0.192" shininess="0.542" />
+    <material name="green" rgba="0.1529411765 0.5098039216 0.3294117647 1" specular="0.306" shininess="0.654" />
+    <material name="blue" rgba="0.2431372549 0.537254902 0.7137254902 1" specular="0.332" shininess="0.626" />
+    <material name="red" rgba="0.7137254902 0.2666666667 0.2392156863 1" specular="0.306" shininess="0.626" />
+    <material name="yellow" rgba="0.9058823529 0.7137254902 0.1568627451 1" specular="0.254" shininess="0.584" />
+    <material name="brass" rgba="0.6509803922 0.5450980392 0.3176470588 1" specular="0.519" shininess="0.668" />
+    <material name="slide" rgba="0.7254901961 0.8039215686 0.8078431373 1" specular="0.306" shininess="0.710" />
+    <material name="wafer" rgba="0.3960784314 0.3843137255 0.5137254902 1" specular="0.457" shininess="0.696" />
+    <material name="led" rgba="0.2980392157 0.8980392157 0.5215686275 1" specular="0.296" shininess="0.710" />
+    <material name="sleeve" rgba="0.8941176471 0.8745098039 0.8196078431 1" specular="0.155" shininess="0.423" />
+    <material name="wire" rgba="0.2039215686 0.2196078431 0.2274509804 1" specular="0.160" shininess="0.437" />
+  </asset>
+  <worldbody>
+    <light name="key" pos=".3 -.5 .88" dir="-.25 .5 -.85" diffuse=".65 .64 .62" castshadow="true" />
+    <light name="fill" pos="-.4 .28 .64" dir=".52 -.52 -.68" diffuse=".34 .38 .45" castshadow="false" />
+    <camera name="lab_side" pos="0.82 -0.31 0.51" xyaxes="0.3536223923 0.9353882636 -0 -0.2659721431 0.1005504444 0.9587222889" fovy="38" />
+    <camera name="controls_view" pos="0.4 -0.29 0.25" xyaxes="0.5547001962 0.8320502943 -0 -0.1785132371 0.1190088247 0.9767138393" fovy="37" />
+    <body name="stand" pos="0 0 0" euler="0 0 0">
+      <body name="lift" pos="0 0 0" euler="0 0 0" gravcomp="1">
+        <joint name="stage_z" type="slide" axis="0 0 1" range="-0.01 0.004" damping="20" frictionloss="0.35" />
+        <inertial pos="0 -.05 .143" mass="0.82" diaginertia=".0011 .0012 .0014" />
+        <body name="carriage_y" pos="0 0 0" euler="0 0 0" gravcomp="1">
+          <joint name="stage_y" type="slide" axis="0 1 0" range="-0.027 0.027" damping="3" frictionloss="0.35" />
+          <inertial pos="0 -.05 .143" mass="0.31" diaginertia=".0011 .0012 .0014" />
+          <body name="carriage_x" pos="0 0 0" euler="0 0 0" gravcomp="1">
+            <joint name="stage_x" type="slide" axis="1 0 0" range="-0.039 0.039" damping="3" frictionloss="0.35" />
+            <inertial pos="0 -.05 .143" mass="0.41" diaginertia=".0011 .0012 .0014" />
+            <geom name="deck_side-1" type="box" pos="-0.080625 -0.062 0.151" size="0.025625 0.073 0.005" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="deck_end-1" type="box" pos="0 -0.11675 0.151" size="0.055 0.01825 0.005" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="deck_side1" type="box" pos="0.080625 -0.062 0.151" size="0.025625 0.073 0.005" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="deck_end1" type="box" pos="0 -0.00725 0.151" size="0.055 0.01825 0.005" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="carrier_side-1" type="box" pos="-0.04475 -0.062 0.1564" size="0.01175 0.039 0.0004" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="carrier_end-1" type="box" pos="0 -0.089 0.1564" size="0.033 0.012 0.0004" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="carrier_side1" type="box" pos="0.04475 -0.062 0.1564" size="0.01175 0.039 0.0004" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="carrier_end1" type="box" pos="0 -0.035 0.1564" size="0.033 0.012 0.0004" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="stepper_cover" type="box" pos="0.072 -0.094 0.142" size="0.017 0.028 0.0065" class="contact_proxy" />
+            <geom name="slide_glass" type="box" pos="0 -0.062 0.1572" size="0.0375 0.0125 0.0005" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="substrate" type="box" pos="0 -0.062 0.15785" size="0.0065 0.006 0.00015" class="contact_proxy" contype="4" conaffinity="9" />
+            <site name="specimen" pos="0 -0.062 0.158" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+          </body>
+          <geom name="bearing_side-1" type="box" pos="-0.07125 -0.062 0.142" size="0.01725 0.058 0.0035" class="contact_proxy" contype="4" conaffinity="9" />
+          <geom name="bearing_end-1" type="box" pos="0 -0.109 0.142" size="0.054 0.011 0.0035" class="contact_proxy" contype="4" conaffinity="9" />
+          <geom name="bearing_side1" type="box" pos="0.07125 -0.062 0.142" size="0.01725 0.058 0.0035" class="contact_proxy" contype="4" conaffinity="9" />
+          <geom name="bearing_end1" type="box" pos="0 -0.015 0.142" size="0.054 0.011 0.0035" class="contact_proxy" contype="4" conaffinity="9" />
+        </body>
+        <body name="knob_y" pos="0.109 -0.064 0.072" euler="0 0 0" gravcomp="1">
+          <joint name="y_angle" type="hinge" axis="0 0 1" damping="0.0007" armature="2.3e-05" frictionloss="0.002" range="-10.60287521 10.60287521" />
+          <inertial pos="0 0 0" mass="0.035" diaginertia=".000004 .000004 .000004" />
+          <geom name="knob_y_grip" type="cylinder" pos="0 0 0" size="0.013 0.0105" class="contact_proxy" zaxis="0 0 1" friction="1.05 .002 .0001" />
+          <site name="knob_y_center" pos="0 0 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        </body>
+        <body name="knob_x" pos="0.109 -0.064 0.048" euler="0 0 0" gravcomp="1">
+          <joint name="x_angle" type="hinge" axis="0 0 1" damping="0.0007" armature="2.3e-05" frictionloss="0.002" range="-12.25221135 12.25221135" />
+          <inertial pos="0 0 0" mass="0.035" diaginertia=".000004 .000004 .000004" />
+          <geom name="knob_x_grip" type="cylinder" pos="0 0 0" size="0.0096 0.0115" class="contact_proxy" zaxis="0 0 1" friction="1.05 .002 .0001" />
+          <site name="knob_x_center" pos="0 0 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        </body>
+        <geom name="lift_guide" type="box" pos="0 0.025 0.13" size="0.043 0.0115 0.031" class="contact_proxy" />
+        <geom name="stage_gearbox" type="box" pos="0.094 -0.06 0.118" size="0.0175 0.034 0.0135" class="contact_proxy" />
+        <geom name="fork_-1" type="box" pos="-0.06 -0.042 0.128" size="0.0075 0.0515 0.0095" class="contact_proxy" />
+        <geom name="fork_1" type="box" pos="0.06 -0.042 0.128" size="0.0075 0.0515 0.0095" class="contact_proxy" />
+        <geom name="motor_module_0" type="box" pos="0.081 -0.111 0.128" size="0.02 0.018 0.016" class="contact_proxy" />
+        <geom name="motor_endcap_0" type="cylinder" pos="0.081 -0.111 0.107" size="0.013 0.006" class="contact_proxy" zaxis="0 0 1" />
+        <geom name="motor_module_1" type="box" pos="0.081 -0.015 0.128" size="0.02 0.018 0.016" class="contact_proxy" />
+        <geom name="motor_endcap_1" type="cylinder" pos="0.081 -0.015 0.107" size="0.013 0.006" class="contact_proxy" zaxis="0 0 1" />
+        <geom name="stage_connector" type="box" pos="0.107 -0.063 0.111" size="0.0035 0.0205 0.017" class="contact_proxy" />
+        <geom name="condenser" type="cylinder" pos="0 -0.062 0.105" size="0.019 0.0245" class="contact_proxy" zaxis="0 0 1" />
+        <site name="lift_datum" pos="0 -0.062 0.14" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+      </body>
+      <body name="coarse" pos="0.083 0 0.056" euler="0 0 0">
+        <joint name="coarse_angle" type="hinge" axis="1 0 0" damping="0.0007" armature="2.3e-05" frictionloss="0.002" />
+        <inertial pos="0 0 0" mass="0.035" diaginertia=".000004 .000004 .000004" />
+        <geom name="coarse_grip" type="cylinder" pos="0 0 0" size="0.024 0.008" class="contact_proxy" zaxis="1 0 0" friction="1.05 .002 .0001" />
+        <site name="coarse_center" pos="0 0 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+      </body>
+      <body name="fine" pos="0.103 0 0.056" euler="0 0 0">
+        <joint name="fine_angle" type="hinge" axis="1 0 0" damping="0.0007" armature="2.3e-05" frictionloss="0.002" />
+        <inertial pos="0 0 0" mass="0.035" diaginertia=".000004 .000004 .000004" />
+        <geom name="fine_grip" type="cylinder" pos="0 0 0" size="0.0153 0.008" class="contact_proxy" zaxis="1 0 0" friction="1.05 .002 .0001" />
+        <site name="fine_center" pos="0 0 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+      </body>
+      <body name="turret" pos="0 -0.02932468507 0.2325428782" euler="0.3665191429 0 0">
+        <joint name="turret_angle" type="hinge" axis="0 0 1" damping="0.002" armature="0.0003" frictionloss="1.2e-05" />
+        <inertial pos="0 0 -.013" mass="0.38" diaginertia=".00018 .00018 .00027" />
+        <geom name="turret_grip" type="cylinder" pos="0 0 0.0054" size="0.0504 0.0045" class="contact_proxy" zaxis="0 0 1" friction="1.0 .002 .0001" />
+        <site name="seat_0" pos="0 -0.035 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <site name="tip_0" pos="0 -0.05614370902 -0.05508124516" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <geom name="objective_0_barrel" type="cylinder" pos="0 -0.04395919874 -0.02333951066" size="0.01235 0.025" class="contact_proxy" zaxis="0 -0.3583679495 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_0_nose" type="cylinder" pos="0 -0.05453105325 -0.05088013324" size="0.00825 0.0045" class="contact_proxy" zaxis="0 -0.3583679495 -0.9335804265" contype="8" conaffinity="5" />
+        <site name="seat_1" pos="-0.02736410189 -0.02182214307 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <site name="tip_1" pos="-0.04399298343 -0.03508323358 -0.05540799831" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <geom name="objective_1_barrel" type="cylinder" pos="-0.0344177176 -0.02744721389 -0.02350288724" size="0.01235 0.025175" class="contact_proxy" zaxis="-0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_1_nose" type="cylinder" pos="-0.04273215837 -0.03407775915 -0.05120688639" size="0.00825 0.0045" class="contact_proxy" zaxis="-0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+        <site name="seat_2" pos="-0.03412247693 0.007788232688 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <site name="tip_2" pos="-0.03621877443 0.008266698913 -0.005601482559" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <geom name="cap_2" type="cylinder" pos="-0.03517062568 0.008027465801 -0.002800741279" size="0.0123 0.003" class="contact_proxy" zaxis="-0.3493829168 0.07974437083 -0.9335804265" />
+        <site name="seat_3" pos="-0.01518593087 0.03153391038 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <site name="tip_3" pos="-0.01611887102 0.03347118057 -0.005601482559" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <geom name="cap_3" type="cylinder" pos="-0.01565240095 0.03250254547 -0.002800741279" size="0.0123 0.003" class="contact_proxy" zaxis="-0.1554900259 0.3228783658 -0.9335804265" />
+        <site name="seat_4" pos="0.01518593087 0.03153391038 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <site name="tip_4" pos="0.01611887102 0.03347118057 -0.005601482559" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <geom name="cap_4" type="cylinder" pos="0.01565240095 0.03250254547 -0.002800741279" size="0.0123 0.003" class="contact_proxy" zaxis="0.1554900259 0.3228783658 -0.9335804265" />
+        <site name="seat_5" pos="0.03412247693 0.007788232688 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <site name="tip_5" pos="0.04914594235 0.01121724063 -0.04014395834" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <geom name="objective_5_barrel" type="cylinder" pos="0.04006198651 0.009143886993 -0.01587086725" size="0.01235 0.017" class="contact_proxy" zaxis="0.3493829168 0.07974437083 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_5_nose" type="cylinder" pos="0.04757371922 0.01085839097 -0.03594284642" size="0.00825 0.0045" class="contact_proxy" zaxis="0.3493829168 0.07974437083 -0.9335804265" contype="8" conaffinity="5" />
+        <site name="seat_6" pos="0.02736410189 -0.02182214307 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <site name="tip_6" pos="0.04193363584 -0.03344095868 -0.04854618218" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <geom name="objective_6_barrel" type="cylinder" pos="0.03338804381 -0.02662607644 -0.02007197917" size="0.01235 0.0215" class="contact_proxy" zaxis="0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_6_nose" type="cylinder" pos="0.04067281079 -0.03243548425 -0.04434507026" size="0.00825 0.0045" class="contact_proxy" zaxis="0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+      </body>
+      <body name="light_path_selector" pos="0.061 -0.065 0.355" euler="0 0 0">
+        <joint name="light_path_travel" type="slide" axis="1 0 0" range="0 .012" damping="2" frictionloss="0.15" />
+        <inertial pos="0 0 0" mass="0.012" diaginertia=".0000001 .0000002 .0000002" />
+        <geom name="light_path_grip" type="cylinder" pos="0.016 0 0" size="0.0043 0.0045" class="contact_proxy" zaxis="1 0 0" />
+        <site name="light_path_grip_site" pos="0.016 0 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+      </body>
+      <geom name="shell_base" type="box" pos="0 -0.001 0.026" size="0.0755 0.139 0.019" class="contact_proxy" />
+      <geom name="shell_stabilizer" type="box" pos="0 0.102 0.024" size="0.115 0.0335 0.0175" class="contact_proxy" />
+      <geom name="shell_column" type="box" pos="0 0.089 0.15" size="0.0705 0.056 0.103" class="contact_proxy" />
+      <geom name="shell_bridge" type="box" pos="0 0.016 0.272" size="0.071 0.1255 0.03" class="contact_proxy" />
+      <geom name="shell_epi_roof" type="box" pos="0 0.015 0.319" size="0.0725 0.126 0.0195" class="contact_proxy" />
+      <geom name="shell_head" type="box" pos="0 -0.081 0.359" size="0.056 0.05 0.024" class="contact_proxy" />
+      <geom name="shell_binocular_prism" type="box" pos="0 -0.152 0.332" size="0.0505 0.0235 0.0195" class="contact_proxy" />
+      <geom name="shell_camera_body" type="box" pos="0 -0.076 0.479" size="0.023 0.026 0.017" class="contact_proxy" />
+      <geom name="shell_gearbox" type="box" pos="0 -0.049 0.244" size="0.0475 0.0435 0.0125" class="contact_proxy" />
+      <geom name="shell_dic_module" type="box" pos="0.076 -0.057 0.25" size="0.0145 0.0335 0.0205" class="contact_proxy" />
+      <geom name="shell_illuminator" type="box" pos="0 0.222 0.274" size="0.0265 0.014 0.021" class="contact_proxy" />
+      <geom name="shell_lower_lamp" type="box" pos="0 0.164 0.044" size="0.035 0.022 0.0335" class="contact_proxy" />
+      <geom name="camera_adapter" type="cylinder" pos="0 -0.076 0.424" size="0.021 0.0365" class="contact_proxy" zaxis="0 0 1" />
+      <geom name="eyepiece_-1" type="cylinder" pos="-0.031 -0.1867083196 0.3389967654" size="0.02 0.037" class="contact_proxy" zaxis="0 -0.9396926208 0.3420201433" />
+      <geom name="eyepiece_1" type="cylinder" pos="0.031 -0.1867083196 0.3389967654" size="0.02 0.037" class="contact_proxy" zaxis="0 -0.9396926208 0.3420201433" />
+      <geom name="epi_coupler" type="cylinder" pos="0 0.175 0.273" size="0.021 0.03" class="contact_proxy" zaxis="0 1 0" />
+      <geom name="field_lens" type="cylinder" pos="0 -0.062 0.062" size="0.024 0.011" class="contact_proxy" zaxis="0 0 1" />
+      <site name="optical_axis" pos="0 -0.062 0.158" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+    </body>
+  </worldbody>
+  <equality>
+    <joint name="rack_x" joint1="stage_x" joint2="x_angle" polycoef="0 0.003183098862 0 0 0" solref=".002 1" solimp=".998 .9999 .0001" />
+    <joint name="rack_y" joint1="stage_y" joint2="y_angle" polycoef="0 0.002546479089 0 0 0" solref=".002 1" solimp=".998 .9999 .0001" />
+  </equality>
+  <actuator>
+    <position name="focus_drive" joint="stage_z" kp="160000" kv="850" ctrlrange="-0.01 0.004" forcerange="-130 130" />
+    <motor name="turret_index_motor" joint="turret_angle" ctrlrange="-.13 .13" />
+    <position name="light_path_travel_drive" joint="light_path_travel" kp="850" kv="5" ctrlrange="0 .012" forcerange="-2 2" />
+  </actuator>
+  <sensor>
+    <jointpos name="read_stage_x" joint="stage_x" />
+    <jointpos name="read_stage_y" joint="stage_y" />
+    <jointpos name="read_stage_z" joint="stage_z" />
+    <jointpos name="read_coarse_angle" joint="coarse_angle" />
+    <jointpos name="read_fine_angle" joint="fine_angle" />
+    <jointpos name="read_x_angle" joint="x_angle" />
+    <jointpos name="read_y_angle" joint="y_angle" />
+    <jointpos name="read_turret_angle" joint="turret_angle" />
+    <jointpos name="read_light_path_travel" joint="light_path_travel" />
+    <framepos name="specimen_world" objtype="site" objname="specimen" />
+  </sensor>
+</mujoco>

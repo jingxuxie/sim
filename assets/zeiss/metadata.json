@@ -1,0 +1,1243 @@
+{
+  "name": "zeiss_upright",
+  "title": "Zeiss \u00b7 reflected-light upright",
+  "units": "m",
+  "source_units": "mm",
+  "links": {
+    "base": {
+      "parent": null,
+      "pos_mm": [
+        0,
+        0,
+        0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": null,
+      "mass": 0.15,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Foot contact",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -27,
+            22
+          ],
+          "size_mm": [
+            65,
+            151,
+            20
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Spine contact",
+          "type": "box",
+          "pos_mm": [
+            0,
+            76,
+            172
+          ],
+          "size_mm": [
+            55,
+            45,
+            131.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Upper arm contact",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -6,
+            309
+          ],
+          "size_mm": [
+            55,
+            105.5,
+            31.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Lateral epi filter track",
+          "type": "box",
+          "pos_mm": [
+            91,
+            -47,
+            309
+          ],
+          "size_mm": [
+            49.0,
+            28.0,
+            13.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Black 4FL slider",
+          "type": "box",
+          "pos_mm": [
+            139,
+            -47,
+            306
+          ],
+          "size_mm": [
+            31.0,
+            27.0,
+            11.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "External lamp supply",
+          "type": "box",
+          "pos_mm": [
+            203,
+            100,
+            36
+          ],
+          "size_mm": [
+            53.5,
+            72.0,
+            36.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "optical_axis": {
+          "pos_mm": [
+            0,
+            -70,
+            262
+          ]
+        }
+      }
+    },
+    "focus": {
+      "parent": "base",
+      "pos_mm": [
+        0,
+        0,
+        0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "focus_travel",
+        "type": "slide",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 35,
+        "frictionloss": 2,
+        "range": [
+          -0.01,
+          0.007
+        ]
+      },
+      "mass": 1.4,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Focus saddle",
+          "type": "box",
+          "pos_mm": [
+            0,
+            22,
+            153
+          ],
+          "size_mm": [
+            55.5,
+            18.0,
+            32.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Stage support fork",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -37,
+            151
+          ],
+          "size_mm": [
+            63.5,
+            53.5,
+            8.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Condenser carrier",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            -70,
+            125
+          ],
+          "size_mm": [
+            32,
+            15.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {},
+      "gravity_compensated": true
+    },
+    "focus_wheel": {
+      "parent": "base",
+      "pos_mm": [
+        77,
+        26,
+        102
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "focus_wheel_angle",
+        "type": "hinge",
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "damping": 0.015,
+        "frictionloss": 0.007,
+        "range": [
+          -8,
+          8
+        ]
+      },
+      "mass": 0.08,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "focus_wheel grip",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            29,
+            12.0
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "sites": {
+        "focus_wheel_grip_site": {
+          "pos_mm": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "stage_y": {
+      "parent": "focus",
+      "pos_mm": [
+        0,
+        -70,
+        170
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stage_y_travel",
+        "type": "slide",
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "damping": 20,
+        "frictionloss": 0.6,
+        "range": [
+          -0.025,
+          0.025
+        ]
+      },
+      "mass": 0.4,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Y runner side -1",
+          "type": "box",
+          "pos_mm": [
+            -60.5,
+            0.0,
+            -3.0
+          ],
+          "size_mm": [
+            24.5,
+            65.0,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Y runner end -1",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -43.5,
+            -3.0
+          ],
+          "size_mm": [
+            36.0,
+            21.5,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Y runner side 1",
+          "type": "box",
+          "pos_mm": [
+            60.5,
+            0.0,
+            -3.0
+          ],
+          "size_mm": [
+            24.5,
+            65.0,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Y runner end 1",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            43.5,
+            -3.0
+          ],
+          "size_mm": [
+            36.0,
+            21.5,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "XY control bracket foot",
+          "type": "box",
+          "pos_mm": [
+            91,
+            51,
+            -7
+          ],
+          "size_mm": [
+            21.0,
+            12.5,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "XY control gear housing",
+          "type": "box",
+          "pos_mm": [
+            103,
+            51,
+            -17
+          ],
+          "size_mm": [
+            14.0,
+            13.0,
+            12.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "xy_control_mount": {
+          "pos_mm": [
+            103,
+            51,
+            -15
+          ]
+        }
+      }
+    },
+    "stage_x": {
+      "parent": "stage_y",
+      "pos_mm": [
+        0,
+        0,
+        6
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stage_x_travel",
+        "type": "slide",
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "damping": 20,
+        "frictionloss": 0.6,
+        "range": [
+          -0.035,
+          0.035
+        ]
+      },
+      "mass": 0.5,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Black mechanical stage side -1",
+          "type": "box",
+          "pos_mm": [
+            -67.5,
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            33.5,
+            77.0,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Black mechanical stage end -1",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -48.75,
+            0.0
+          ],
+          "size_mm": [
+            34.0,
+            28.25,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Black mechanical stage side 1",
+          "type": "box",
+          "pos_mm": [
+            67.5,
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            33.5,
+            77.0,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Black mechanical stage end 1",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            48.75,
+            0.0
+          ],
+          "size_mm": [
+            34.0,
+            28.25,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Metal specimen holder side -1",
+          "type": "box",
+          "pos_mm": [
+            -38.25,
+            0.0,
+            8.2
+          ],
+          "size_mm": [
+            10.25,
+            32.0,
+            0.9
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Metal specimen holder end -1",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -23.25,
+            8.2
+          ],
+          "size_mm": [
+            28.0,
+            8.75,
+            0.9
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Metal specimen holder side 1",
+          "type": "box",
+          "pos_mm": [
+            38.25,
+            0.0,
+            8.2
+          ],
+          "size_mm": [
+            10.25,
+            32.0,
+            0.9
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Metal specimen holder end 1",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            23.25,
+            8.2
+          ],
+          "size_mm": [
+            28.0,
+            8.75,
+            0.9
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Glass sample slide",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            8.9
+          ],
+          "size_mm": [
+            37.5,
+            12.5,
+            0.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "device_chip",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            9.7
+          ],
+          "size_mm": [
+            4.5,
+            4.5,
+            0.2
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "device_chip_center": {
+          "pos_mm": [
+            0,
+            0,
+            9.899999999999999
+          ]
+        }
+      }
+    },
+    "stage_x_knob": {
+      "parent": "stage_y",
+      "pos_mm": [
+        103,
+        51,
+        -45
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stage_x_knob_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 0.015,
+        "frictionloss": 0.007,
+        "range": [
+          -12,
+          12
+        ]
+      },
+      "mass": 0.08,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "stage_x_knob grip",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            11.5,
+            9.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "stage_x_knob_grip_site": {
+          "pos_mm": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "stage_y_knob": {
+      "parent": "stage_y",
+      "pos_mm": [
+        103,
+        51,
+        -25
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "stage_y_knob_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 0.015,
+        "frictionloss": 0.007,
+        "range": [
+          -12,
+          12
+        ]
+      },
+      "mass": 0.08,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "stage_y_knob grip",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            13.5,
+            9.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "stage_y_knob_grip_site": {
+          "pos_mm": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "turret": {
+      "parent": "base",
+      "pos_mm": [
+        0,
+        -41.85620765024145,
+        262
+      ],
+      "euler": [
+        0.24434609527920614,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "turret_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 0.04,
+        "frictionloss": 0.005,
+        "range": [
+          -3.141592653589793,
+          3.141592653589793
+        ]
+      },
+      "mass": 0.45,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Silver nosepiece",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            49,
+            7.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Objective barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -38.01573497239036,
+            -36.1385760620039
+          ],
+          "size_mm": [
+            12,
+            29.0
+          ],
+          "axis": [
+            0.0,
+            -0.24192189559966773,
+            -0.9702957262759965
+          ]
+        },
+        {
+          "name": "Objective barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            36.040071769619146,
+            -11.710129171596797,
+            -35.653428198865896
+          ],
+          "size_mm": [
+            12,
+            28.5
+          ],
+          "axis": [
+            0.23008139524453983,
+            -0.07475797705169915,
+            -0.9702957262759965
+          ]
+        },
+        {
+          "name": "Objective barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            21.3497015147494,
+            29.385343172357096,
+            -29.34650597807192
+          ],
+          "size_mm": [
+            12,
+            22.0
+          ],
+          "axis": [
+            0.14219812244012406,
+            0.195718924851533,
+            -0.9702957262759965
+          ]
+        },
+        {
+          "name": "Objective barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            -21.98959306572995,
+            30.266078334189,
+            -33.71283674631391
+          ],
+          "size_mm": [
+            12,
+            26.5
+          ],
+          "axis": [
+            -0.142198122440124,
+            0.19571892485153303,
+            -0.9702957262759965
+          ]
+        },
+        {
+          "name": "Objective barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            -36.270153164863686,
+            -11.784887148648489,
+            -36.623723925141896
+          ],
+          "size_mm": [
+            12,
+            29.5
+          ],
+          "axis": [
+            -0.23008139524453985,
+            -0.07475797705169909,
+            -0.9702957262759965
+          ]
+        }
+      ],
+      "sites": {
+        "objective_seat_0": {
+          "pos_mm": [
+            0.0,
+            -31.0,
+            -8.0
+          ]
+        },
+        "objective_tip_0": {
+          "pos_mm": [
+            0.0,
+            -45.031469944780724,
+            -64.2771521240078
+          ]
+        },
+        "objective_axis_0": {
+          "pos_mm": [
+            0.0,
+            -55.19218955996678,
+            -105.02957262759965
+          ]
+        },
+        "objective_seat_1": {
+          "pos_mm": [
+            29.48275200514976,
+            -9.579526825623372,
+            -8.0
+          ]
+        },
+        "objective_tip_1": {
+          "pos_mm": [
+            42.59739153408853,
+            -13.840731517570223,
+            -63.3068563977318
+          ]
+        },
+        "objective_axis_1": {
+          "pos_mm": [
+            52.49089152960374,
+            -17.055324530793285,
+            -105.02957262759965
+          ]
+        },
+        "objective_seat_2": {
+          "pos_mm": [
+            18.22134282106667,
+            25.07952682562337,
+            -8.0
+          ]
+        },
+        "objective_tip_2": {
+          "pos_mm": [
+            24.47806020843213,
+            33.69115951909082,
+            -50.69301195614384
+          ]
+        },
+        "objective_axis_2": {
+          "pos_mm": [
+            32.44115506507907,
+            44.65141931077667,
+            -105.02957262759965
+          ]
+        },
+        "objective_seat_3": {
+          "pos_mm": [
+            -18.221342821066663,
+            25.079526825623375,
+            -8.0
+          ]
+        },
+        "objective_tip_3": {
+          "pos_mm": [
+            -25.757843310393234,
+            35.452629842754625,
+            -59.425673492627816
+          ]
+        },
+        "objective_axis_3": {
+          "pos_mm": [
+            -32.441155065079066,
+            44.651419310776674,
+            -105.02957262759965
+          ]
+        },
+        "objective_seat_4": {
+          "pos_mm": [
+            -29.482752005149763,
+            -9.579526825623365,
+            -8.0
+          ]
+        },
+        "objective_tip_4": {
+          "pos_mm": [
+            -43.057554324577616,
+            -13.990247471673612,
+            -65.24744785028379
+          ]
+        },
+        "objective_axis_4": {
+          "pos_mm": [
+            -52.49089152960374,
+            -17.055324530793275,
+            -105.02957262759965
+          ]
+        }
+      }
+    },
+    "light_path_selector": {
+      "parent": "base",
+      "pos_mm": [
+        55,
+        -61,
+        365
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "light_path_travel",
+        "type": "slide",
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "damping": 3,
+        "frictionloss": 0.12,
+        "range": [
+          0,
+          0.012
+        ]
+      },
+      "mass": 0.015,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Phototube beam selector grip",
+          "type": "cylinder",
+          "pos_mm": [
+            11,
+            0,
+            0
+          ],
+          "size_mm": [
+            4.5,
+            4.5
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "sites": {
+        "light_path_grip": {
+          "pos_mm": [
+            16,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "controls": [
+    {
+      "name": "Stage focus",
+      "link": "focus",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 24000,
+      "kv": 160,
+      "force": 45
+    },
+    {
+      "name": "Y stage",
+      "link": "stage_y",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 15000,
+      "kv": 100,
+      "force": 25
+    },
+    {
+      "name": "X stage",
+      "link": "stage_x",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 15000,
+      "kv": 100,
+      "force": 25
+    },
+    {
+      "name": "Objective turret",
+      "link": "turret",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "kp": 6,
+      "kv": 0.4,
+      "force": 0.7
+    },
+    {
+      "name": "Camera / eyepiece split",
+      "link": "light_path_selector",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "kp": 1600,
+      "kv": 12,
+      "force": 4
+    }
+  ],
+  "reference_group": "microscope_old",
+  "couplings": [
+    {
+      "name": "focus_rack",
+      "output": "focus_travel",
+      "input": "focus_wheel_angle",
+      "ratio": 0.0006366197723675814
+    },
+    {
+      "name": "stage_x_rack",
+      "output": "stage_x_travel",
+      "input": "stage_x_knob_angle",
+      "ratio": 0.0025464790894703256
+    },
+    {
+      "name": "stage_y_rack",
+      "output": "stage_y_travel",
+      "input": "stage_y_knob_angle",
+      "ratio": 0.0025464790894703256
+    }
+  ],
+  "identity": "Zeiss West Germany visible; exact model and socket count unverified",
+  "imaging": {
+    "objective_joint": "turret_angle",
+    "objective_count": 5,
+    "objective_magnifications": [
+      20,
+      50,
+      5,
+      10,
+      100
+    ],
+    "objective_index_angles_rad": [
+      0.0,
+      -1.2566370614359172,
+      -2.5132741228718345,
+      2.5132741228718345,
+      1.2566370614359172
+    ],
+    "objective_index_tolerance_rad": 0.025,
+    "objective_seat_sites": [
+      "objective_seat_0",
+      "objective_seat_1",
+      "objective_seat_2",
+      "objective_seat_3",
+      "objective_seat_4"
+    ],
+    "objective_axis_sites": [
+      "objective_axis_0",
+      "objective_axis_1",
+      "objective_axis_2",
+      "objective_axis_3",
+      "objective_axis_4"
+    ],
+    "objective_tip_sites": [
+      "objective_tip_0",
+      "objective_tip_1",
+      "objective_tip_2",
+      "objective_tip_3",
+      "objective_tip_4"
+    ],
+    "optical_axis_site": "optical_axis",
+    "sample_surface_site": "device_chip_center",
+    "objective_bearing_tilt_rad": 0.24434609527920614,
+    "light_path_joint": "light_path_travel",
+    "light_path_positions_m": [
+      0,
+      0.006,
+      0.012
+    ],
+    "camera_fractions": [
+      0,
+      0.5,
+      1
+    ],
+    "light_path_calibration": "Three-position beam splitter is an explicit legacy Zeiss phototube approximation, not identification of the fitted lab head."
+  },
+  "task_candidates": [
+    "center_specimen",
+    "focus_target",
+    "change_magnification"
+  ],
+  "assumptions": "Five sockets and objective order are modeling choices. Scale, focus pitch and loads estimated from photographs."
+}

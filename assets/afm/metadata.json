@@ -1,0 +1,1256 @@
+{
+  "name": "cypher_s",
+  "title": "Oxford Instruments \u00b7 Asylum Research Cypher S",
+  "units": "m",
+  "source_units": "mm",
+  "links": {
+    "base": {
+      "parent": null,
+      "pos_mm": [
+        0,
+        0,
+        0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": null,
+      "mass": 0.15,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Isolation plinth",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -25,
+            13
+          ],
+          "size_mm": [
+            167.0,
+            197.5,
+            13.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Lower enclosure platform",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            70
+          ],
+          "size_mm": [
+            163.0,
+            159.5,
+            6.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Rear enclosure wall",
+          "type": "box",
+          "pos_mm": [
+            0,
+            150,
+            262
+          ],
+          "size_mm": [
+            163.0,
+            10.0,
+            191.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Acoustic enclosure side",
+          "type": "box",
+          "pos_mm": [
+            -153,
+            0,
+            262
+          ],
+          "size_mm": [
+            11.0,
+            142.5,
+            191.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Acoustic enclosure side",
+          "type": "box",
+          "pos_mm": [
+            153,
+            0,
+            262
+          ],
+          "size_mm": [
+            11.0,
+            142.5,
+            191.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Enclosure roof",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            454
+          ],
+          "size_mm": [
+            163.0,
+            161.0,
+            9.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Electronics backpack",
+          "type": "box",
+          "pos_mm": [
+            0,
+            184,
+            248
+          ],
+          "size_mm": [
+            117.5,
+            28.0,
+            155.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Scanner gantry foot",
+          "type": "box",
+          "pos_mm": [
+            -93,
+            7,
+            87
+          ],
+          "size_mm": [
+            21.0,
+            114.0,
+            12.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Machined vertical column",
+          "type": "box",
+          "pos_mm": [
+            -93,
+            70,
+            252
+          ],
+          "size_mm": [
+            17.5,
+            35.0,
+            148.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Scanner docking stanchion",
+          "type": "box",
+          "pos_mm": [
+            -105.08999999999999,
+            -40,
+            146
+          ],
+          "size_mm": [
+            14.5,
+            60.0,
+            43.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Docking stanchion upper shoulder",
+          "type": "box",
+          "pos_mm": [
+            -105.08999999999999,
+            -47,
+            193
+          ],
+          "size_mm": [
+            16.0,
+            52.5,
+            6.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Scanner gantry foot",
+          "type": "box",
+          "pos_mm": [
+            93,
+            7,
+            87
+          ],
+          "size_mm": [
+            21.0,
+            114.0,
+            12.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Machined vertical column",
+          "type": "box",
+          "pos_mm": [
+            93,
+            70,
+            252
+          ],
+          "size_mm": [
+            17.5,
+            35.0,
+            148.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Docking casting lower web",
+          "type": "box",
+          "pos_mm": [
+            105.08999999999999,
+            -40,
+            115.5
+          ],
+          "size_mm": [
+            14.5,
+            60,
+            12.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Docking casting upper web",
+          "type": "box",
+          "pos_mm": [
+            105.08999999999999,
+            -40,
+            172.5
+          ],
+          "size_mm": [
+            14.5,
+            60,
+            16.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Docking casting outer web",
+          "type": "box",
+          "pos_mm": [
+            117.3,
+            -40,
+            142
+          ],
+          "size_mm": [
+            2.3,
+            60,
+            14
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Docking stanchion upper shoulder",
+          "type": "box",
+          "pos_mm": [
+            105.08999999999999,
+            -47,
+            193
+          ],
+          "size_mm": [
+            16.0,
+            52.5,
+            6.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Optical head body",
+          "type": "box",
+          "pos_mm": [
+            0,
+            46,
+            344
+          ],
+          "size_mm": [
+            79.0,
+            71.5,
+            84.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Drawer rail",
+          "type": "box",
+          "pos_mm": [
+            -77,
+            -9,
+            99
+          ],
+          "size_mm": [
+            6.5,
+            108.5,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Rear rail end stop",
+          "type": "box",
+          "pos_mm": [
+            -77,
+            103,
+            99
+          ],
+          "size_mm": [
+            6.5,
+            3.0,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Drawer rail",
+          "type": "box",
+          "pos_mm": [
+            77,
+            -9,
+            99
+          ],
+          "size_mm": [
+            6.5,
+            108.5,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Rear rail end stop",
+          "type": "box",
+          "pos_mm": [
+            77,
+            103,
+            99
+          ],
+          "size_mm": [
+            6.5,
+            3.0,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Scanner latch bearing block",
+          "type": "box",
+          "pos_mm": [
+            110,
+            -74,
+            205
+          ],
+          "size_mm": [
+            12.0,
+            15.5,
+            11.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {}
+    },
+    "door": {
+      "parent": "base",
+      "pos_mm": [
+        -161,
+        -154,
+        78
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "door_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 0.12,
+        "frictionloss": 0.08,
+        "range": [
+          -2.0,
+          0
+        ]
+      },
+      "mass": 3.1,
+      "inertia": [
+        0.04,
+        0.04,
+        0.06
+      ],
+      "collisions": [
+        {
+          "name": "Door anodized stile",
+          "type": "box",
+          "pos_mm": [
+            43,
+            -5,
+            187
+          ],
+          "size_mm": [
+            43.0,
+            13.0,
+            188.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door anodized stile",
+          "type": "box",
+          "pos_mm": [
+            279,
+            -5,
+            187
+          ],
+          "size_mm": [
+            43.0,
+            13.0,
+            188.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door blue transverse band",
+          "type": "box",
+          "pos_mm": [
+            161,
+            -8,
+            20
+          ],
+          "size_mm": [
+            75.0,
+            10.5,
+            19.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door blue transverse band",
+          "type": "box",
+          "pos_mm": [
+            161,
+            -8,
+            357
+          ],
+          "size_mm": [
+            75.0,
+            10.5,
+            19.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door glazing",
+          "type": "box",
+          "pos_mm": [
+            161,
+            -8,
+            188
+          ],
+          "size_mm": [
+            75.0,
+            3.5,
+            149.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {}
+    },
+    "door_latch": {
+      "parent": "door",
+      "pos_mm": [
+        322,
+        -4,
+        145
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "door_latch_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          -1,
+          0
+        ],
+        "damping": 0.01,
+        "frictionloss": 0.008,
+        "range": [
+          0,
+          1.35
+        ]
+      },
+      "mass": 0.045,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Lift paddle grip",
+          "type": "box",
+          "pos_mm": [
+            27,
+            -3,
+            0
+          ],
+          "size_mm": [
+            17,
+            9.5,
+            5.2
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "door_release": {
+          "pos_mm": [
+            33,
+            -3,
+            2
+          ]
+        }
+      }
+    },
+    "scanner_latch": {
+      "parent": "base",
+      "pos_mm": [
+        119,
+        -79,
+        206
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "scanner_latch_angle",
+        "type": "hinge",
+        "axis": [
+          -1,
+          0,
+          0
+        ],
+        "damping": 0.016,
+        "frictionloss": 0.01,
+        "range": [
+          0,
+          1.35
+        ]
+      },
+      "mass": 0.065,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Scanner latch grip",
+          "type": "cylinder",
+          "pos_mm": [
+            10,
+            0,
+            -60
+          ],
+          "size_mm": [
+            8,
+            11
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Scanner latch blade",
+          "type": "box",
+          "pos_mm": [
+            7,
+            0,
+            -30
+          ],
+          "size_mm": [
+            6,
+            5,
+            23
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "scanner_release": {
+          "pos_mm": [
+            18,
+            -5,
+            -60
+          ]
+        }
+      }
+    },
+    "drawer": {
+      "parent": "base",
+      "pos_mm": [
+        0,
+        0,
+        0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "drawer_travel",
+        "type": "slide",
+        "axis": [
+          0,
+          -1,
+          0
+        ],
+        "damping": 16,
+        "frictionloss": 1.4,
+        "range": [
+          0,
+          0.105
+        ]
+      },
+      "mass": 3.0,
+      "inertia": [
+        0.007,
+        0.008,
+        0.006
+      ],
+      "collisions": [
+        {
+          "name": "Scanner blue chassis",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -31,
+            150
+          ],
+          "size_mm": [
+            82.5,
+            79.5,
+            40.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Scanner upper deck",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -31,
+            192
+          ],
+          "size_mm": [
+            84.0,
+            81.0,
+            3.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Drawer pan central web",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -32,
+            107
+          ],
+          "size_mm": [
+            69.5,
+            86,
+            5.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Drawer pan upper bridge",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -32,
+            109.5
+          ],
+          "size_mm": [
+            89.5,
+            86,
+            3
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Drawer grip strap",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -131,
+            155
+          ],
+          "size_mm": [
+            58.5,
+            3.0,
+            11.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Handle molded end mount",
+          "type": "box",
+          "pos_mm": [
+            -52,
+            -120,
+            156
+          ],
+          "size_mm": [
+            10.0,
+            13.0,
+            14.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Handle molded end mount",
+          "type": "box",
+          "pos_mm": [
+            52,
+            -120,
+            156
+          ],
+          "size_mm": [
+            10.0,
+            13.0,
+            14.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Sample stick-slip holder",
+          "type": "cylinder",
+          "pos_mm": [
+            8,
+            -40,
+            198
+          ],
+          "size_mm": [
+            10.8,
+            1.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "drawer_handle": {
+          "pos_mm": [
+            0,
+            -135,
+            154
+          ]
+        },
+        "scanner_connector": {
+          "pos_mm": [
+            110,
+            9,
+            142
+          ]
+        },
+        "puck_socket": {
+          "pos_mm": [
+            8,
+            -40,
+            200.4
+          ]
+        }
+      }
+    },
+    "cantilever_carrier": {
+      "parent": "drawer",
+      "pos_mm": [
+        -25,
+        -15,
+        200
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "cantilever_lift",
+        "type": "hinge",
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "damping": 0.012,
+        "frictionloss": 0.005,
+        "range": [
+          0,
+          0.55
+        ],
+        "stiffness": 0.018,
+        "springref": 0
+      },
+      "mass": 0.035,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Cantilever carrier",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -5,
+            7
+          ],
+          "size_mm": [
+            12.5,
+            16.0,
+            4.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Probe holder tab",
+          "type": "box",
+          "pos_mm": [
+            15,
+            -17,
+            4
+          ],
+          "size_mm": [
+            10.0,
+            4.0,
+            1.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "cantilever_mount": {
+          "pos_mm": [
+            27,
+            -17,
+            2.2
+          ]
+        }
+      }
+    },
+    "engage_knob": {
+      "parent": "base",
+      "pos_mm": [
+        126,
+        -195,
+        55
+      ],
+      "euler": [
+        -1.0557235097761146,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "engage_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          -1,
+          0
+        ],
+        "damping": 0.001,
+        "frictionloss": 0.002
+      },
+      "mass": 0.04,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Engage encoder grip",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            -3,
+            0
+          ],
+          "size_mm": [
+            17,
+            5.0
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ]
+        }
+      ],
+      "sites": {
+        "engage_control": {
+          "pos_mm": [
+            0,
+            -11,
+            0
+          ]
+        }
+      }
+    },
+    "sample_puck": {
+      "parent": "base",
+      "pos_mm": [
+        8,
+        -40,
+        202
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "sample_puck_free",
+        "type": "free"
+      },
+      "mass": 0.0014,
+      "inertia": [
+        1.5e-08,
+        1.5e-08,
+        2.8e-08
+      ],
+      "collisions": [
+        {
+          "name": "AFM magnetic sample disc",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            7.5,
+            0.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 1,
+          "conaffinity": 3
+        }
+      ],
+      "sites": {
+        "sample_puck_center": {
+          "pos_mm": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "controls": [
+    {
+      "name": "Door release",
+      "link": "door_latch",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "force": 0.18,
+      "kp": 1.4,
+      "kv": 0.1
+    },
+    {
+      "name": "Enclosure door",
+      "link": "door",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "force": 8,
+      "kp": 38,
+      "kv": 4
+    },
+    {
+      "name": "Scanner release",
+      "link": "scanner_latch",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "force": 0.3,
+      "kp": 2,
+      "kv": 0.15
+    },
+    {
+      "name": "Scanner drawer",
+      "link": "drawer",
+      "kind": "position",
+      "limits": null,
+      "units": "m",
+      "force": 30,
+      "kp": 10000,
+      "kv": 160
+    },
+    {
+      "name": "Cantilever holder",
+      "link": "cantilever_carrier",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "force": 0.12,
+      "kp": 1,
+      "kv": 0.08
+    },
+    {
+      "name": "Approach encoder",
+      "link": "engage_knob",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "force": 0.1,
+      "kp": 1,
+      "kv": 0.07
+    }
+  ],
+  "reference_group": "oxford_afm",
+  "identity": "Cypher S visible on scanner in user video",
+  "estimated_dimensions_mm": [
+    334,
+    438,
+    567
+  ],
+  "calibration": "Exterior dimensions estimated from photograph proportions; 15 mm puck and specification-level scanner travel are separate.",
+  "locks": [
+    {
+      "name": "door_lock",
+      "joint": "door_angle"
+    },
+    {
+      "name": "drawer_lock",
+      "joint": "drawer_travel"
+    }
+  ],
+  "interlocks": [
+    {
+      "joint": "door_angle",
+      "requires": "door_latch_angle",
+      "threshold": 0.5,
+      "mode": "unlock"
+    },
+    {
+      "joint": "drawer_travel",
+      "requires": "scanner_latch_angle",
+      "threshold": 0.65,
+      "mode": "unlock"
+    },
+    {
+      "joint": "drawer_travel",
+      "requires": "door_angle",
+      "threshold": -1.1,
+      "mode": "door_clearance"
+    }
+  ],
+  "nanoscanner_range_m": [
+    3e-05,
+    3e-05,
+    5e-06
+  ],
+  "sample_diameter_m": 0.015,
+  "release_evidence": {
+    "door": "c9434d428539e41606a5fb75a9cd14c8.mp4 at 2.5 s; bd351619ddd06a52c2a4103d389febf2.mp4 at 22 s",
+    "scanner": "c9434d428539e41606a5fb75a9cd14c8.mp4 at 11\u201314 s",
+    "manual": "Cypher Instrument User Guide 13A, printed p19 and pp185\u2013187"
+  },
+  "release_geometry": {
+    "door_paddle_length_mm": 45,
+    "scanner_lever_length_mm": 71,
+    "positive_release_motion": "Door paddle lifts about -Y; scanner lever lifts toward operator about -X. Dimensions are photo estimates."
+  },
+  "task_candidates": [
+    "unlock_open_drawer",
+    "load_puck_and_close",
+    "cantilever_service_access",
+    "approach_and_raster"
+  ]
+}
