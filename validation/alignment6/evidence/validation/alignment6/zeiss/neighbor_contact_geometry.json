@@ -1,0 +1,108 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "source_sha256": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+  "xml_sha256": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+  "script_sha256": "a685b9db6872418576308682f881a47fdf589db3b734a49612a1cd085a35bff6",
+  "trajectory": {
+    "path": "validation/alignment6/zeiss/loaded_contact_poses.json",
+    "sha256": "227d70113ae57fefa215e95a5b0ce4100ad3521b724dce936b77c938d28963c7"
+  },
+  "loaded_case": {
+    "station": 3,
+    "xy_mm": [
+      0,
+      0
+    ],
+    "contact_samples": 12496,
+    "maximum_contact_penetration_mm": 0.006606697392719331,
+    "peak_normal_force_N": 12.091173841163888,
+    "loaded_focus_mm": 5.766925777576402,
+    "contact_pairs": [
+      [
+        "stage_x__Specimen_thumb_lever_contact",
+        "turret__Objective_front_shoulder_100"
+      ]
+    ],
+    "fixed_casting_contacts": [],
+    "retracted_focus_mm": -4.999852124052393,
+    "residual_contacts": [],
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  "closest_surface_witness": {
+    "lever_point_mm": [
+      46.967872619628906,
+      -46.44206237792969,
+      195.49368286132812
+    ],
+    "adjacent_100x_point_mm": [
+      46.966941833496094,
+      -46.44118881225586,
+      195.49533081054688
+    ],
+    "gap_mm": 0.0020887952184152478,
+    "method": "Both directions of all evaluated vertices to BVH surfaces, refined by alternating nearest-surface projections."
+  },
+  "detailed_first_contact": {
+    "bracketed": true,
+    "signed_focus_clearance_mm": -0.005342075601220131,
+    "acceptance_mm": 0.1,
+    "method": "Bisection of evaluated detailed-mesh intersections while translating only the lever along the world focus axis around the actual loaded body pose. Negative means retraction needed to clear compliant contact; positive means remaining clearance."
+  },
+  "loaded_mesh_intersections": [
+    {
+      "moving": "Specimen holder thumb lever",
+      "target": "Zeiss machined objective 100",
+      "aabb_overlap_mm": [
+        12.060633048132985,
+        13.000000268220901,
+        4.000000189989805
+      ],
+      "triangle_pairs": 4
+    }
+  ],
+  "unsafe_plus7mm_intersections": [
+    {
+      "moving": "Zeiss machined objective 100",
+      "target": "Curved holder pivot",
+      "aabb_overlap_mm": [
+        10.60000222044391,
+        10.60000222044391,
+        2.0000000949949026
+      ],
+      "triangle_pairs": 44
+    },
+    {
+      "moving": "Zeiss machined objective 100",
+      "target": "Curved specimen retaining arm",
+      "aabb_overlap_mm": [
+        40.431681966948545,
+        18.356321887947807,
+        1.3999994844198227
+      ],
+      "triangle_pairs": 37
+    },
+    {
+      "moving": "Zeiss machined objective 100",
+      "target": "Specimen holder thumb lever",
+      "aabb_overlap_mm": [
+        11.962611174750364,
+        13.000000268220901,
+        4.000000189989805
+      ],
+      "triangle_pairs": 35
+    }
+  ],
+  "interpretation": "The parked 100x objective is the first obstacle above the thumb lever during high focus with the 10x selected. Convex lever bevels and the objective distal taper now follow the visible surfaces. The measured native stop must be within0.1 mm of detailed first contact; this assembly collision legitimately limits upward focus.",
+  "passed": true
+}

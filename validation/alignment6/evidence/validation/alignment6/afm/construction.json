@@ -1,0 +1,86 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "optical_xy_datum_mm": [
+    8,
+    -40
+  ],
+  "objective_front_z_mm": 211.5,
+  "aligned_state": {
+    "drawer_travel_m": 0,
+    "cantilever_lift_rad": 0
+  },
+  "site_names": {
+    "axis_top": "objective_axis_top",
+    "axis_front": "objective_front_center",
+    "tip": "afm_tip",
+    "specimen": "specimen_surface_center"
+  },
+  "objective_body": "inspection_objective",
+  "objective_visual_prefix": "inspection_objective__",
+  "objective_visual_nodes": [
+    "inspection_objective__black",
+    "inspection_objective__darkmetal",
+    "inspection_objective__etched",
+    "inspection_objective__green",
+    "inspection_objective__optic",
+    "inspection_objective__steel"
+  ],
+  "lower_barrel_envelope": {
+    "center_xy_mm": [
+      8,
+      -40
+    ],
+    "z_range_mm": [
+      211.5,
+      246
+    ],
+    "radius_mm": 14.2
+  },
+  "service_guard": {
+    "drawer_threshold_m": 0.04,
+    "carrier_threshold_rad": 0.04
+  },
+  "sample_support_stack_mm": {
+    "working_plate_top_z": 196.45,
+    "insert_bottom_z": 196.45,
+    "socket_rim_seat_z": 196.5,
+    "support_top_z": 199.5,
+    "puck_bottom_z": 199.5,
+    "puck_top_z": 200.5,
+    "specimen_bottom_z": 200.5,
+    "specimen_top_z": 200.8
+  },
+  "estimated_nominal_tip_gap_mm": 1.3025,
+  "estimated_objective_working_distance_mm": 10.7,
+  "references": [
+    {
+      "path": "oxford_afm/afbd874f77a33ee361aa7360a6b2348b.mp4",
+      "time_s": 27.25,
+      "detail": "Separate cantilever holder extends toward the sample; green correction collar is above the sample region."
+    },
+    {
+      "path": "oxford_afm/c9434d428539e41606a5fb75a9cd14c8.mp4",
+      "time_s": [
+        9.25,
+        18.25
+      ],
+      "detail": "Objective stays vertical while scanner translates outward."
+    },
+    {
+      "path": "afm_correction/cypher_manual_ver_13A.txt",
+      "lines": [
+        889,
+        914
+      ],
+      "detail": "Green correction collar; motor brings holder and objective down together; manual approach stops near1 mm gap."
+    }
+  ],
+  "limitations": [
+    "Exterior and hidden relay dimensions are estimates, not manufacturer CAD.",
+    "The folded optical relay establishes a connected geometric path; refractive calibration and optical image formation are not solved.",
+    "The engage encoder remains an uncoupled control. Coarse approach, calibrated tip forces and nanoscanning are outside this alignment repair.",
+    "The parked holder has about1.3 mm tip standoff. Full holder service lift requires drawer withdrawal; native contact also blocks a forced lift into the objective.",
+    "Socket/puck support and holder contacts are analytic compound approximations. Raw laboratory media remain private."
+  ]
+}

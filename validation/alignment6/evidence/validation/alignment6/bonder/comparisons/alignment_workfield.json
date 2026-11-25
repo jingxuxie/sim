@@ -1,0 +1,112 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "passed": true,
+  "title": "Wire bonder: tapered tool collet and workfield",
+  "explanation": "A rearward-tapered collet and set-back yoke retain the tool tip position while opening the front viewing path. Opaque hardware still obscures part of the field.",
+  "camera": "alignment_workfield",
+  "camera_signature": {
+    "matrix_world": [
+      [
+        0.786318302154541,
+        -0.2836170494556427,
+        0.5488759875297546,
+        0.14960792660713196
+      ],
+      [
+        0.6178215742111206,
+        0.3609670400619507,
+        -0.6985694766044617,
+        -0.30041003227233887
+      ],
+      [
+        6.725261414430861e-08,
+        0.8884053826332092,
+        0.4590597450733185,
+        0.24312657117843628
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "PERSP",
+    "lens_mm": 60.0,
+    "scale": 0.11999999731779099,
+    "clip_start_m": 0.0010000000474974513,
+    "dof_enabled": true,
+    "focus_distance_m": 0.2725714147090912,
+    "fstop": 11.0
+  },
+  "camera_source_sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+  "input_reports": [
+    {
+      "path": "validation/alignment6/bonder/before_diagnostics/render_report.json",
+      "sha256": "8de543e8efb2bb4fe4d2d139b4ea272208ba20a587a7d02fc07f92260ad70dd8"
+    },
+    {
+      "path": "validation/alignment6/bonder/renders/render_report.json",
+      "sha256": "aabb8723090ffab50659c14c5ccb341335c12a2ecfdd605a68962fca270f62b0"
+    }
+  ],
+  "inputs": [
+    {
+      "label": "Before",
+      "image": {
+        "path": "validation/alignment6/bonder/before_diagnostics/alignment_workfield.png",
+        "sha256": "7dc131a89775b3b2c8c24720910d48b0f6c3668f86901ad9ac1ba7d00e51f7e4"
+      },
+      "source_resolution": [
+        2560,
+        2160
+      ],
+      "placed_resolution": [
+        1280,
+        1080
+      ],
+      "panel_rectangle": [
+        16,
+        100,
+        1296,
+        1180
+      ]
+    },
+    {
+      "label": "After",
+      "image": {
+        "path": "validation/alignment6/bonder/renders/alignment_workfield.png",
+        "sha256": "5067b944a550c5453339532e7f0446ec1f94e0050c5715c3a3e8cef3cf11aedd"
+      },
+      "source_resolution": [
+        2560,
+        2160
+      ],
+      "placed_resolution": [
+        1280,
+        1080
+      ],
+      "panel_rectangle": [
+        1312,
+        100,
+        2592,
+        1180
+      ]
+    }
+  ],
+  "raw_reference_media_published": false,
+  "image_layout": "Full uncropped frames reduced by exactly 1/2 in each dimension; no image alteration beyond uniform resampling and labels outside the image.",
+  "outputs": [
+    {
+      "path": "validation/alignment6/bonder/comparisons/alignment_workfield.png",
+      "sha256": "4f03664e954c48202e769bf91af9e57d52181f39bf9483fa32b1ed1c73ee49a2"
+    },
+    {
+      "path": "validation/alignment6/bonder/comparisons/alignment_workfield.jpg",
+      "sha256": "8a208ed0f054492fe0867c8a5f56f8b02a162834a1b7859aeb31cd2c719367a8"
+    }
+  ],
+  "script": "validation/alignment6/transfer/promote_reviews.py",
+  "script_sha256": "184d9bf250bc6f07458c344de2440122c5c020c8888e71eeea6f7d38b1fafc75"
+}

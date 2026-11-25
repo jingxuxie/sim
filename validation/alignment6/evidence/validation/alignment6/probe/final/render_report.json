@@ -1,0 +1,75 @@
+{
+  "revision": "alignment6",
+  "asset": "probe",
+  "draft": false,
+  "source_sha256": "8dbacfdbd9392d529ecf0a0b1eb69921a510ff78c853aca9dcc6fad65ed9b2de",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "overview",
+    "probing",
+    "optical_head",
+    "left_manipulator",
+    "construction_frame"
+  ],
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "a2692cfe893f845742986316d16c4f4d6b9a03eaadad6bc8efc422a67fe8afdf"
+    },
+    {
+      "file": "probing.png",
+      "camera": "probing",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "ba7b1a5aedac45d1c2a835ba9109f519b5e38c05c49724c384fad516beb5cfae"
+    },
+    {
+      "file": "optical_head.png",
+      "camera": "optical_head",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "b90bac50837513f37952e25a24fe83c094d8c58675ec3d10af05254540966a6f"
+    },
+    {
+      "file": "left_manipulator.png",
+      "camera": "left_manipulator",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "6049dc55737e1cce06d8f8af22ca8f48ff7a0af7bb124298c3e0bafc093975a0"
+    },
+    {
+      "file": "construction_frame.png",
+      "camera": "construction_frame",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "1fab3aafd4eaab0c75bef642be4e9b1ecc5b7b76ed38abf4c3ff72c80daa5507"
+    }
+  ],
+  "complete": true
+}

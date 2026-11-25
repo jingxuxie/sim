@@ -1,0 +1,59 @@
+{
+  "revision": "alignment6",
+  "asset": "tweezers",
+  "changed": false,
+  "reviewed": true,
+  "passed": true,
+  "references": [
+    {
+      "file": "images/tweezer/Weixin Image_20261123002137_241_2.jpg",
+      "sha256": "b4257e4a323fdb0521dfc5ce2baedcaa0881494db95d3e21b2871b7a03f85d02"
+    },
+    {
+      "file": "images/tweezer/Weixin Image_20261123002137_242_2.jpg",
+      "sha256": "0057ee2cb6e91c095af9417c75fa21a201f28054a6dbf052599e4ee1dd4987d8"
+    }
+  ],
+  "observations": [
+    "Both photographs show smooth formed spring strips with fine tapered tips, a rounded joined heel and a small ownership label. Those features are already present in the current continuous-blade reconstruction.",
+    "The receiving tray and pickup seat are benchmark fixtures; neither appears in the reference photographs. They remain labeled as fixtures, without claiming a photographic match."
+  ],
+  "decision": "Retain existing geometry after fresh independent triangle-coverage and complete-trajectory contact/clearance audit.",
+  "checks": {
+    "structural_blade_and_heel_meshes_inside_collision_union": true,
+    "all_fixed_visual_triangles_inside_expanded_boxes": true,
+    "tool_surface_contact_masks_enabled": true,
+    "negative_low_approach_rejected": true,
+    "complete_positive_tasks_succeed": true,
+    "full_horizons_without_unintended_contact": true,
+    "visual_clearance_exceeds_adjacent_step_displacement": true,
+    "gentle_release_and_settling": true,
+    "settled_and_retracted": true
+  },
+  "current_artifacts_sha256": {
+    "006_tweezers/spring_tweezers.blend": "b89c238d314123892c30b2617fb4ad10c4eefb656f20b7c2c962993a2a459b12",
+    "006_tweezers/spring_tweezers.xml": "c35d760566844f3c53827904d4bf373ad6f08e803c5c972a84f8d876a011d35b",
+    "006_tweezers/geometry_revision4.py": "b7978b3ce88cd9646e922dabb7728258abe894e9c68264bd24e217a60bd4c811",
+    "006_tweezers/build.py": "0283593ea91f983469c7fb4a39c1165625cf2bde67730576533216903117a4f5",
+    "006_tweezers/asset.json": "1bd0fd55e1d9efc74b9dcb71c2d62cf6d81fc75f25a1a3e6a8ea7a4bbffac7c8",
+    "006_tweezers/assets/spring_tweezers.glb": "2c79f0f4df2e8a547597144156b3e4ef368cecb295bdf31ce03d6e5ca9525e6e"
+  },
+  "reports": [
+    {
+      "path": "validation/alignment6/tweezers/current.json",
+      "sha256": "542219fb715603c2ce8af2b546b324c9d74325c9c926e1c18daa19df4f7577bd"
+    }
+  ],
+  "audit_scripts_sha256": {
+    "validation/alignment6/tweezers_audit.py": "36e623df368f5adcd24977aa8153264da55d93bcd91e7944d96c5caec9386e23",
+    "006_tweezers/validation/realism4_clearance.py": "d6bec500af2a8743c14ef6f7c94f90d10fdac2601d2b139c98871dcb35ec67a2",
+    "validation/tweezer_clearance_check.py": "bf5e06a3f0a7e257cac240130d07d5480a30f182354fb8ed2f7e87f2511facf0"
+  },
+  "promoted_render_report": "006_tweezers/previews/realism4_render_report.json",
+  "promoted_render_report_sha256": "f6f3a5e59268b542f7e352ad5d2632506d20f7919e33d7d8953ad1df9db6cb07",
+  "limits": [
+    "Tests cover pickup and placement fixture trajectories and a causal low-approach failure control, not arbitrary robot motion.",
+    "Static printed/washer decoration is conservatively enclosed by 50 micrometer expanded static checking boxes. Physical geometry is unchanged.",
+    "The receiving tray and pickup seat are benchmark fixtures, absent from the lab photographs."
+  ]
+}

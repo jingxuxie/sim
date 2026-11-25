@@ -1,0 +1,281 @@
+{
+  "asset": "zeiss",
+  "revision": "alignment6",
+  "source_sha256": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+  "trajectory_sha256": "227d70113ae57fefa215e95a5b0ce4100ad3521b724dce936b77c938d28963c7",
+  "script_sha256": "b4b8d994e1ee7349054cc919d30b665f45cb9fcc432fff8e0d2a979827866054",
+  "audit_library_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Apply recorded native body transforms at the loaded state, then test detailed exterior surfaces. Matching native contacts may produce small compliant penetration, limited to 0.1 mm; large unmodeled visual intersections fail.",
+  "cases": [
+    {
+      "case": 0,
+      "station": 0,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Optical coating",
+          "target": "device_chip",
+          "aabb_overlap_mm": [
+            7.200016119586193,
+            7.20001596630393,
+            0.004473944825555964
+          ],
+          "triangle_pairs": 96,
+          "minimum_axis_overlap_mm": 0.004473820891054414,
+          "vertical_overlap_mm": 0.004473820891054414
+        }
+      ],
+      "native_contact_penetration_mm": 0.005247933865863534,
+      "native_contact_pairs": [
+        [
+          "stage_x__device_chip",
+          "turret__Objective_front_glass_20"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 1,
+      "station": 0,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Zeiss objective black aperture",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            0.7983904143495004,
+            5.200000799334275,
+            0.012568898372866677
+          ],
+          "triangle_pairs": 36,
+          "minimum_axis_overlap_mm": 0.01251341414132412
+        }
+      ],
+      "native_contact_penetration_mm": 0.0052402979158804285,
+      "native_contact_pairs": [
+        [
+          "stage_x__Specimen_clamp_screw_contact",
+          "turret__Objective_front_aperture_20"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 2,
+      "station": 1,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Optical coating.001",
+          "target": "device_chip",
+          "aabb_overlap_mm": [
+            7.2036340444517615,
+            7.203597225233393,
+            0.004816217590464245
+          ],
+          "triangle_pairs": 96,
+          "minimum_axis_overlap_mm": 0.0048117311475526225,
+          "vertical_overlap_mm": 0.0048117311475526225
+        }
+      ],
+      "native_contact_penetration_mm": 0.00522846606030068,
+      "native_contact_pairs": [
+        [
+          "stage_x__device_chip",
+          "turret__Objective_front_glass_50"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 3,
+      "station": 1,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Zeiss objective black aperture.001",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            0.7723089979508766,
+            5.200000799334275,
+            0.011189397296329506
+          ],
+          "triangle_pairs": 35,
+          "minimum_axis_overlap_mm": 0.011142950599368762
+        }
+      ],
+      "native_contact_penetration_mm": 0.005227173987545247,
+      "native_contact_pairs": [
+        [
+          "stage_x__Specimen_clamp_screw_contact",
+          "turret__Objective_front_aperture_50"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 4,
+      "station": 2,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [],
+      "native_contact_penetration_mm": 0.0,
+      "native_contact_pairs": [],
+      "passed": true
+    },
+    {
+      "case": 5,
+      "station": 2,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [],
+      "native_contact_penetration_mm": 0.0,
+      "native_contact_pairs": [],
+      "passed": true
+    },
+    {
+      "case": 6,
+      "station": 3,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Specimen holder thumb lever",
+          "aabb_overlap_mm": [
+            12.060633048132985,
+            13.000000268220901,
+            4.000000189989805
+          ],
+          "triangle_pairs": 4,
+          "minimum_axis_overlap_mm": 2.9090645564103235
+        }
+      ],
+      "native_contact_penetration_mm": 0.006606697392719331,
+      "native_contact_pairs": [
+        [
+          "stage_x__Specimen_thumb_lever_contact",
+          "turret__Objective_front_shoulder_100"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 7,
+      "station": 3,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Zeiss objective black aperture.003",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            0.7868735010217098,
+            5.200000799334275,
+            0.01193054921325154
+          ],
+          "triangle_pairs": 36,
+          "minimum_axis_overlap_mm": 0.011878521667618713
+        }
+      ],
+      "native_contact_penetration_mm": 0.005244035626064358,
+      "native_contact_pairs": [
+        [
+          "stage_x__Specimen_clamp_screw_contact",
+          "turret__Objective_front_aperture_10"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 8,
+      "station": 4,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Optical coating.004",
+          "target": "device_chip",
+          "aabb_overlap_mm": [
+            7.203553854548935,
+            7.2035174071596595,
+            0.0047318681031527365
+          ],
+          "triangle_pairs": 96,
+          "minimum_axis_overlap_mm": 0.004727426989425965,
+          "vertical_overlap_mm": 0.004727426989425965
+        }
+      ],
+      "native_contact_penetration_mm": 0.005232299513878786,
+      "native_contact_pairs": [
+        [
+          "stage_x__device_chip",
+          "turret__Objective_front_glass_100"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 9,
+      "station": 4,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Zeiss objective black aperture.004",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            0.819278494804546,
+            5.200000799334275,
+            0.013606100144059052
+          ],
+          "triangle_pairs": 36,
+          "minimum_axis_overlap_mm": 0.013543293776036025
+        }
+      ],
+      "native_contact_penetration_mm": 0.005238480917763991,
+      "native_contact_pairs": [
+        [
+          "stage_x__Specimen_clamp_screw_contact",
+          "turret__Objective_front_aperture_100"
+        ]
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

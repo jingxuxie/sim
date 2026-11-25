@@ -1,0 +1,77 @@
+{
+  "revision": "alignment6",
+  "asset": "nikon",
+  "xml_sha256": "1015fe7df302e677ea0c665d3b03d454f59d42c2f95e2c394e21fce403fe4172",
+  "script_sha256": "c0bb6e994660b61ebdaaecf0d0cf18919e314a7cbb576801432dc4467f76ad71",
+  "method": "Only ordinary fixture control commands and mj_step after reset. Retract/index, approach sample and offset holders, hold, then retract. Actual loaded body poses are recorded for independent detailed-mesh verification. No instrument qpos overwrite after reset.",
+  "cases": [
+    {
+      "station": 0,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "contact_samples": 132416,
+      "maximum_contact_penetration_mm": 0.03252869786272834,
+      "peak_normal_force_N": 32.64016379332727,
+      "loaded_focus_mm": 1.6712365164687724,
+      "contact_pairs": [
+        [
+          "clip_-1",
+          "objective_0_front_glass"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "contact_samples": 132641,
+      "maximum_contact_penetration_mm": 0.03252869473512497,
+      "peak_normal_force_N": 32.6401592134331,
+      "loaded_focus_mm": 1.32123829044831,
+      "contact_pairs": [
+        [
+          "clip_-1",
+          "objective_1_front_glass"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "tasks": [],
+  "passed": true,
+  "loaded_poses": {
+    "path": "validation/alignment6/nikon/loaded_clip_poses.json",
+    "sha256": "d048bafebf0d448e67301d7007cfcac0192e6d86ee6d5da21e30cb1a1b7c6771"
+  }
+}

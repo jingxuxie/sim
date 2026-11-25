@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "8afe1227aca92525e349da3d7207624e22737a526c78c2f7e8411abd5da36c92",
+  "physics_sha256": "16f3f5e945d51372cb87b912f70cecc0fd8ac579113021d6a2adcd161346fc8f",
   "shapes": [
     {
       "name": "base__Orange_cast_foundation",
@@ -5288,7 +5288,7 @@
       "pos": [
         0.0,
         0.0,
-        0.019
+        0.021125
       ],
       "quat": [
         1.0,
@@ -5297,9 +5297,9 @@
         0.0
       ],
       "size": [
-        0.0295,
+        0.0283,
         0.0225,
-        0.0085
+        0.006625
       ],
       "friction": [
         0.8,
@@ -5340,6 +5340,122 @@
       "condim": 4
     },
     {
+      "name": "chuck_theta__Specimen_holder_lower_rail",
+      "body": "chuck_theta",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.0,
+        0.012
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0385,
+        0.0265,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "chuck_theta__Specimen_holder_upper_guide",
+      "body": "chuck_theta",
+      "type": "box",
+      "pos": [
+        -0.031,
+        0.0,
+        0.0205
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.024,
+        0.006
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "chuck_theta__Specimen_holder_upper_guide_2",
+      "body": "chuck_theta",
+      "type": "box",
+      "pos": [
+        0.031,
+        0.0,
+        0.0205
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.024,
+        0.006
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "chuck_theta__Chip_clamp_screw_stem",
+      "body": "chuck_theta",
+      "type": "cylinder",
+      "pos": [
+        -0.022,
+        -0.012,
+        0.0281
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0016,
+        0.0006,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
       "name": "chuck_theta__Chip_clamp_screw_head_contact",
       "body": "chuck_theta",
       "type": "cylinder",
@@ -5357,6 +5473,35 @@
       "size": [
         0.003,
         0.0008,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "chuck_theta__Chip_clamp_screw_stem_2",
+      "body": "chuck_theta",
+      "type": "cylinder",
+      "pos": [
+        0.022,
+        -0.012,
+        0.0281
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0016,
+        0.0006,
         0.0
       ],
       "friction": [

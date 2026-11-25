@@ -1,0 +1,45 @@
+{
+  "revision": "alignment6",
+  "asset": "transfer",
+  "frozen": true,
+  "passed": true,
+  "current_artifacts_sha256": {
+    "001_transfer_stage/build.py": "cc97a4686e603dabd4ee3a948a6f0a996587d5c8e664107c5dc11ebe076dc0bd",
+    "001_transfer_stage/geometry_revision4.py": "85d3f6f01bcd1f75237aefcf3fc4b98937867effb58a9869eea3b0a8186593f0",
+    "001_transfer_stage/transfer_station.blend": "32752a04829cd966b9fe0ad0553777677a4fd1b3cef867f8307b8498d6fb9f9a",
+    "001_transfer_stage/transfer_station.xml": "61a8e9233d89a73b5a07cc2633184f332a2dd080f7989db654e93565cef27568",
+    "001_transfer_stage/asset.json": "e88a01bf6e676e9138d68276bfdb32f2bda64acdb2a47dfd914fb326d68466a7",
+    "001_transfer_stage/assets/transfer_station.glb": "f3908bd97a6085d787d8c5d11c8046055b297c37927d028c3f22d32873d4b037",
+    "001_transfer_stage/assets/meshes.json": "fe1687c4a004e95ebb783d475e8d384b2c7aefacfc8cd8e8fbcdb27e93ada98f"
+  },
+  "reports": [
+    {
+      "path": "validation/alignment6/transfer/native_optics.json",
+      "sha256": "1d3a12449240b67fa541a6e179230ac91253cd2273ec8880bf1bf8babfa5f750"
+    },
+    {
+      "path": "validation/alignment6/transfer/current_optical_mesh.json",
+      "sha256": "3173d99f46b67465eb5a6cad56bab8544ddf46344c403abe348d2b19a5ea2a76"
+    },
+    {
+      "path": "validation/alignment6/transfer/clearances.json",
+      "sha256": "42411f58e0a0e3c444f137a0f108de63b8a94f639eab2d3c1780215d04e6a490"
+    },
+    {
+      "path": "validation/alignment6/transfer/construction.json",
+      "sha256": "debe15d9e2a6fd8d9093eb89b33ea39bf76e9e5937370d8989318581ced18f9d"
+    },
+    {
+      "path": "validation/alignment6/transfer/hoses.json",
+      "sha256": "7bc5e0d62949405887c0224d3649385088b618bb6e51e9d05d89d10088913023"
+    },
+    {
+      "path": "validation/alignment6/transfer/mechanisms.json",
+      "sha256": "39600c369ae257a48032faa2fe6750cf841ca9b0802b4bb3f3e9fc1278512049"
+    }
+  ],
+  "measured_contact_overlap_thin_axis_max_mm": 0.0013214401797800868,
+  "measured_contact_overlap_tolerance_mm": 0.005,
+  "contact_allowance_scope": "Only the intended objective/clamp-head contact under load; no moving-guide/support intersections permitted.",
+  "stills_pending": true
+}

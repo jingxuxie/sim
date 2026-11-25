@@ -1263,90 +1263,6 @@
       "inertia": null,
       "collisions": [
         {
-          "name": "Metal specimen holder side -1",
-          "type": "box",
-          "pos_mm": [
-            -38.25,
-            0.0,
-            8.2
-          ],
-          "size_mm": [
-            10.25,
-            32.0,
-            0.9
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
-          "name": "Metal specimen holder end -1",
-          "type": "box",
-          "pos_mm": [
-            0.0,
-            -23.25,
-            8.2
-          ],
-          "size_mm": [
-            28.0,
-            8.75,
-            0.9
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
-          "name": "Metal specimen holder side 1",
-          "type": "box",
-          "pos_mm": [
-            38.25,
-            0.0,
-            8.2
-          ],
-          "size_mm": [
-            10.25,
-            32.0,
-            0.9
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
-          "name": "Metal specimen holder end 1",
-          "type": "box",
-          "pos_mm": [
-            0.0,
-            23.25,
-            8.2
-          ],
-          "size_mm": [
-            28.0,
-            8.75,
-            0.9
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
           "name": "Glass sample slide",
           "type": "box",
           "pos_mm": [
@@ -1379,6 +1295,944 @@
             4.5,
             4.5,
             0.2
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 0",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_0",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 1",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_1",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 2",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_2",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 3",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_3",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 4",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_4",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 5",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_5",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 6",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_6",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 7",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_7",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 8",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_8",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Fixed specimen holder piece 9",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_fixed_specimen_holder_9",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 0",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_0",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 1",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_1",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 2",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_2",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 3",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_3",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 4",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_4",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 5",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_5",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 6",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_6",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 7",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_7",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 8",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_8",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 9",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_9",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 10",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_10",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 11",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_11",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 12",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_12",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 13",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_13",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 14",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_14",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 15",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_15",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 16",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_16",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 17",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_17",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 18",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_18",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 19",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_19",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 20",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_20",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 21",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_21",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 22",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_22",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 23",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_23",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 24",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_24",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 25",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_25",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 26",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_26",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved retaining arm piece 27",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_curved_retaining_arm_27",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved holder pivot stem contact",
+          "type": "cylinder",
+          "pos_mm": [
+            47,
+            19,
+            8.8
+          ],
+          "size_mm": [
+            3.6,
+            1.8
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Curved holder pivot contact",
+          "type": "cylinder",
+          "pos_mm": [
+            47,
+            19,
+            11.3
+          ],
+          "size_mm": [
+            5.3,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Specimen thumb lever contact",
+          "type": "mesh",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1,
+            1
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "mesh": "alignment6_specimen_thumb_lever",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Specimen clamp screw contact",
+          "type": "cylinder",
+          "pos_mm": [
+            -43,
+            24,
+            10.4
+          ],
+          "size_mm": [
+            2.6,
+            2
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Specimen clamp screw contact",
+          "type": "cylinder",
+          "pos_mm": [
+            15,
+            24,
+            10.4
+          ],
+          "size_mm": [
+            2.6,
+            2
           ],
           "axis": [
             0,
@@ -2458,21 +3312,23 @@
         },
         {
           "name": "Objective front shoulder 20",
-          "type": "cylinder",
+          "type": "mesh",
           "pos_mm": [
-            0.0,
-            -44.009348661452535,
-            -60.17764952778816
+            0,
+            0,
+            0
           ],
           "size_mm": [
-            9.35,
-            4.475
+            1,
+            1,
+            1
           ],
           "axis": [
-            0.0,
-            -0.24192187190055847,
-            -0.9702956676483154
+            0,
+            0,
+            1
           ],
+          "mesh": "alignment6_objective_front_shoulder_20",
           "contype": 10,
           "conaffinity": 17
         },
@@ -2498,21 +3354,23 @@
         },
         {
           "name": "Objective front shoulder 50",
-          "type": "cylinder",
+          "type": "mesh",
           "pos_mm": [
-            41.62529664486647,
-            -13.524879207089544,
-            -59.20735386013985
+            0,
+            0,
+            0
           ],
           "size_mm": [
-            9.35,
-            4.475
+            1,
+            1,
+            1
           ],
           "axis": [
-            0.23008137941360474,
-            -0.07475797832012177,
-            -0.9702956676483154
+            0,
+            0,
+            1
           ],
+          "mesh": "alignment6_objective_front_shoulder_50",
           "contype": 10,
           "conaffinity": 17
         },
@@ -2538,21 +3396,23 @@
         },
         {
           "name": "Objective front shoulder 5",
-          "type": "cylinder",
+          "type": "mesh",
           "pos_mm": [
-            23.877272134274243,
-            32.864247309044,
-            -46.593510180711746
+            0,
+            0,
+            0
           ],
           "size_mm": [
-            9.35,
-            4.475
+            1,
+            1,
+            1
           ],
           "axis": [
-            0.1421981155872345,
-            0.1957189291715622,
-            -0.9702956676483154
+            0,
+            0,
+            1
           ],
+          "mesh": "alignment6_objective_front_shoulder_5",
           "contype": 10,
           "conaffinity": 17
         },
@@ -2578,21 +3438,23 @@
         },
         {
           "name": "Objective front shoulder 10",
-          "type": "cylinder",
+          "type": "mesh",
           "pos_mm": [
-            -25.157055174559353,
-            34.62571767158806,
-            -55.326171189546585
+            0,
+            0,
+            0
           ],
           "size_mm": [
-            9.35,
-            4.475
+            1,
+            1,
+            1
           ],
           "axis": [
-            -0.1421981155872345,
-            0.1957189291715622,
-            -0.9702956676483154
+            0,
+            0,
+            1
           ],
+          "mesh": "alignment6_objective_front_shoulder_10",
           "contype": 10,
           "conaffinity": 17
         },
@@ -2618,21 +3480,23 @@
         },
         {
           "name": "Objective front shoulder 100",
-          "type": "cylinder",
+          "type": "mesh",
           "pos_mm": [
-            -42.085459403693676,
-            -13.674395163729788,
-            -61.14794519543648
+            0,
+            0,
+            0
           ],
           "size_mm": [
-            9.35,
-            4.475
+            1,
+            1,
+            1
           ],
           "axis": [
-            -0.23008137941360474,
-            -0.07475797832012177,
-            -0.9702956676483154
+            0,
+            0,
+            1
           ],
+          "mesh": "alignment6_objective_front_shoulder_100",
           "contype": 10,
           "conaffinity": 17
         },
@@ -2647,6 +3511,206 @@
           "size_mm": [
             3.6,
             0.15
+          ],
+          "axis": [
+            -0.23008137941360474,
+            -0.07475797832012177,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front reveal 20",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -44.74116134643555,
+            -63.11279296875
+          ],
+          "size_mm": [
+            9.35,
+            0.175
+          ],
+          "axis": [
+            0.0,
+            -0.24192187190055847,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front aperture 20",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -45.03146743774414,
+            -64.27714538574219
+          ],
+          "size_mm": [
+            6.24,
+            0.25
+          ],
+          "axis": [
+            0.0,
+            -0.24192187190055847,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front reveal 50",
+          "type": "cylinder",
+          "pos_mm": [
+            42.321292877197266,
+            -13.751022338867188,
+            -62.14249801635742
+          ],
+          "size_mm": [
+            9.35,
+            0.175
+          ],
+          "axis": [
+            0.23008137941360474,
+            -0.07475797832012177,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front aperture 50",
+          "type": "cylinder",
+          "pos_mm": [
+            42.597389221191406,
+            -13.840731620788574,
+            -63.306854248046875
+          ],
+          "size_mm": [
+            6.24,
+            0.25
+          ],
+          "axis": [
+            0.23008137941360474,
+            -0.07475797832012177,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front reveal 5",
+          "type": "cylinder",
+          "pos_mm": [
+            24.30742073059082,
+            33.456298828125,
+            -49.52865219116211
+          ],
+          "size_mm": [
+            9.35,
+            0.175
+          ],
+          "axis": [
+            0.1421981155872345,
+            0.1957189291715622,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front aperture 5",
+          "type": "cylinder",
+          "pos_mm": [
+            24.478059768676758,
+            33.691162109375,
+            -50.69300842285156
+          ],
+          "size_mm": [
+            6.24,
+            0.25
+          ],
+          "axis": [
+            0.1421981155872345,
+            0.1957189291715622,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front reveal 10",
+          "type": "cylinder",
+          "pos_mm": [
+            -25.587203979492188,
+            35.21776580810547,
+            -58.261314392089844
+          ],
+          "size_mm": [
+            9.35,
+            0.175
+          ],
+          "axis": [
+            -0.1421981155872345,
+            0.1957189291715622,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front aperture 10",
+          "type": "cylinder",
+          "pos_mm": [
+            -25.757843017578125,
+            35.45262908935547,
+            -59.4256706237793
+          ],
+          "size_mm": [
+            6.24,
+            0.25
+          ],
+          "axis": [
+            -0.1421981155872345,
+            0.1957189291715622,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front reveal 100",
+          "type": "cylinder",
+          "pos_mm": [
+            -42.781455993652344,
+            -13.900537490844727,
+            -64.08308410644531
+          ],
+          "size_mm": [
+            9.35,
+            0.175
+          ],
+          "axis": [
+            -0.23008137941360474,
+            -0.07475797832012177,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front aperture 100",
+          "type": "cylinder",
+          "pos_mm": [
+            -43.057552337646484,
+            -13.99024772644043,
+            -65.24744415283203
+          ],
+          "size_mm": [
+            6.24,
+            0.25
           ],
           "axis": [
             -0.23008137941360474,
@@ -2906,11 +3970,12 @@
     }
   ],
   "identity": "Zeiss Axioskop marking visible in photo254; head variant, complete objective inventory and socket count partly provisional",
-  "geometry_revision": "reference5",
+  "geometry_revision": "alignment6",
   "geometry_basis": "Photo254/255/256/257/258/261/262: photographed housings and controls; reference5 corrects the stage aperture to a front-to-back obround and replaces the solid support slab with an open two-arm fork. Dimensions remain estimates; sample/objective/grip datums unchanged.",
   "reference5_construction": "Top aperture44x92 mm and lower opening46x94 mm are photographic estimates. Native contacts use open strips and tangent boxes with less than0.12 mm circular-edge undercoverage, not convex hulls spanning the light path.",
   "control_geometry_correction": "XY gear housing slimmed; both XY grip links moved+15 mm X/-25 mm Z to clear focus wheel across Y travel. Clearance1 additionally lowers the gearbox roof2 mm and recesses its two fasteners so the moving X deck clears them across full travel; contact envelope moves with it. Couplings and sample/objective sites unchanged. Opposite focus grip contact added on same existing focus-wheel joint.",
   "clearance_revision": "clearance1",
+  "alignment6_correction": "Fixed holder plate now rests on the deck and supports the existing glass underside without penetration. Rounded concave holder and retaining-arm footprints use compound convex-prism contacts, with pivot, thumb lever and clamp screw contacts; no convex hull spans the specimen opening. The thumb lever uses its evaluated beveled mesh and each objective front shoulder follows its actual distal taper, with separate aperture and reveal contacts. Small holder-plate bevels remain within conservative contact envelopes.",
   "optical_contact_model": "Dedicated objective/work-surface contact bits preserve robot contact and exclude mated bearings. Objective front shoulders and existing forward glass surfaces have explicit contacts. Retract the stage before changing objective; high focus commands can legitimately meet the specimen. Focus and XY shaft ranges match the existing linear stops through their unchanged pitches.",
   "imaging": {
     "objective_joint": "turret_angle",

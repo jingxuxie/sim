@@ -1,0 +1,169 @@
+{
+  "asset": "nikon",
+  "revision": "alignment6",
+  "source_sha256": "78eda10025ea6d7e453508bcf5b8c2381914bbf6bbba89a01cf401b2a938636f",
+  "trajectory_sha256": "60c7f349755ad1bf4722f58ad416d44e21cdef0ec6e22fb149fb6f6d650d3e6e",
+  "script_sha256": "b4b8d994e1ee7349054cc919d30b665f45cb9fcc432fff8e0d2a979827866054",
+  "audit_library_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Apply recorded native body transforms at the loaded state, then test detailed exterior surfaces. Matching native contacts may produce small compliant penetration, limited to 0.1 mm; large unmodeled visual intersections fail.",
+  "cases": [
+    {
+      "case": 0,
+      "station": 0,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Port 1 objective front glass",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            8.803288489776172,
+            8.80323768477792,
+            0.027174270811503032
+          ],
+          "triangle_pairs": 96,
+          "minimum_axis_overlap_mm": 0.02716498896343511,
+          "vertical_overlap_mm": 0.02716498896343511
+        }
+      ],
+      "native_contact_penetration_mm": 0.026916253814508472,
+      "native_contact_pairs": [
+        [
+          "objective_0_front_glass",
+          "substrate"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 1,
+      "station": 0,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [],
+      "native_contact_penetration_mm": 0.0,
+      "native_contact_pairs": [],
+      "passed": true
+    },
+    {
+      "case": 2,
+      "station": 1,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            8.80325949762701,
+            8.803209039993487,
+            0.027153681428304655
+          ],
+          "triangle_pairs": 96,
+          "minimum_axis_overlap_mm": 0.027144483352864457,
+          "vertical_overlap_mm": 0.027144483352864457
+        }
+      ],
+      "native_contact_penetration_mm": 0.026920861526278206,
+      "native_contact_pairs": [
+        [
+          "objective_1_front_glass",
+          "substrate"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 3,
+      "station": 1,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.802386257581075,
+            8.802349293365326,
+            0.010519831273592128
+          ],
+          "triangle_pairs": 98,
+          "minimum_axis_overlap_mm": 0.010513058665534425
+        }
+      ],
+      "native_contact_penetration_mm": 0.01052550325516128,
+      "native_contact_pairs": [
+        [
+          "carrier_end-1",
+          "objective_1_front_glass"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 4,
+      "station": 5,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [],
+      "native_contact_penetration_mm": 0.0,
+      "native_contact_pairs": [],
+      "passed": true
+    },
+    {
+      "case": 5,
+      "station": 5,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [],
+      "native_contact_penetration_mm": 0.0,
+      "native_contact_pairs": [],
+      "passed": true
+    },
+    {
+      "case": 6,
+      "station": 6,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [],
+      "native_contact_penetration_mm": 0.0,
+      "native_contact_pairs": [],
+      "passed": true
+    },
+    {
+      "case": 7,
+      "station": 6,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [],
+      "native_contact_penetration_mm": 0.0,
+      "native_contact_pairs": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

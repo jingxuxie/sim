@@ -1,0 +1,141 @@
+{
+  "revision": "alignment6",
+  "asset": "transfer",
+  "changed": true,
+  "passed": true,
+  "frozen": true,
+  "scope": "Detailed optical support/workfield correction, native contact coverage and retained table/mechanism regression checks.",
+  "changes": [
+    "Replace the oversized 108 x 62 x 104 mm solid focus bridge with a 94 x 20 x 104 mm front carriage, paired fixed guide rails, bearing strips and face fasteners.",
+    "Add native contact cylinders for both heater clamp washers and both knurled clamp screws after the measured-equilibrium mesh audit exposed visual-only screw intrusion.",
+    "Keep optical axes, sample datums, focus joint, task sites and parallel-gripper targets unchanged.",
+    "Regenerate all 10 source-matched stills and add an identical-camera focus-guide comparison; preserve the preceding detailed stage, illumination and hose construction."
+  ],
+  "findings": [
+    {
+      "finding": "Every one of 101 sampled source configurations had moving focus-bridge intersection with fixed guide or mast.",
+      "correction": "Separate front carriage and paired fixed guides; zero support intersections in 101 final source poses and 50 measured frames."
+    },
+    {
+      "finding": "An initial force-limited optics test passed its collision proxies while detailed stopped meshes penetrated two visual-only heater clamp heads.",
+      "correction": "Add missing washer/screw contacts and repeat force, mesh and retraction checks. Only intended loaded-contact overlap remains, at a maximum 1.321 micrometers in the thin axis, within the explicit 5 micrometer allowance."
+    }
+  ],
+  "current_artifacts_sha256": {
+    "001_transfer_stage/build.py": "cc97a4686e603dabd4ee3a948a6f0a996587d5c8e664107c5dc11ebe076dc0bd",
+    "001_transfer_stage/geometry_revision4.py": "85d3f6f01bcd1f75237aefcf3fc4b98937867effb58a9869eea3b0a8186593f0",
+    "001_transfer_stage/transfer_station.blend": "32752a04829cd966b9fe0ad0553777677a4fd1b3cef867f8307b8498d6fb9f9a",
+    "001_transfer_stage/transfer_station.xml": "61a8e9233d89a73b5a07cc2633184f332a2dd080f7989db654e93565cef27568",
+    "001_transfer_stage/asset.json": "e88a01bf6e676e9138d68276bfdb32f2bda64acdb2a47dfd914fb326d68466a7",
+    "001_transfer_stage/assets/transfer_station.glb": "f3908bd97a6085d787d8c5d11c8046055b297c37927d028c3f22d32873d4b037",
+    "001_transfer_stage/assets/meshes.json": "fe1687c4a004e95ebb783d475e8d384b2c7aefacfc8cd8e8fbcdb27e93ada98f"
+  },
+  "reports": [
+    {
+      "path": "validation/alignment6/transfer/geometry_acceptance.json",
+      "sha256": "0d2af9238d996014f9d58755d687c476e833cb238977159abb9bf410d28112a3"
+    },
+    {
+      "path": "validation/alignment6/transfer/native_optics.json",
+      "sha256": "1d3a12449240b67fa541a6e179230ac91253cd2273ec8880bf1bf8babfa5f750"
+    },
+    {
+      "path": "validation/alignment6/transfer/clearances.json",
+      "sha256": "42411f58e0a0e3c444f137a0f108de63b8a94f639eab2d3c1780215d04e6a490"
+    },
+    {
+      "path": "validation/alignment6/transfer/construction.json",
+      "sha256": "debe15d9e2a6fd8d9093eb89b33ea39bf76e9e5937370d8989318581ced18f9d"
+    },
+    {
+      "path": "validation/alignment6/transfer/hoses.json",
+      "sha256": "7bc5e0d62949405887c0224d3649385088b618bb6e51e9d05d89d10088913023"
+    },
+    {
+      "path": "validation/alignment6/transfer/mechanisms.json",
+      "sha256": "39600c369ae257a48032faa2fe6750cf841ca9b0802b4bb3f3e9fc1278512049"
+    }
+  ],
+  "diagnostics": [
+    {
+      "path": "validation/alignment6/transfer/current_optical_mesh.json",
+      "sha256": "3173d99f46b67465eb5a6cad56bab8544ddf46344c403abe348d2b19a5ea2a76"
+    }
+  ],
+  "baseline_diagnostics": [
+    {
+      "path": "validation/alignment6/transfer/before_optical_mesh.json",
+      "sha256": "95b3fce3870d3bb62e00948cf6ffd520ffecf03362751e966460f6bfe89f3b6a"
+    }
+  ],
+  "baseline_public_commit": "09a77ffe4e7a7a140b9e663f164781b76a6c6e41",
+  "immutable_baseline_snapshot_manifest": "validation/alignment6/transfer/before/snapshot.json",
+  "immutable_baseline_snapshot_sha256": "e9e1b676b73e80515beedc36b6b8128176d59862b8e41f38f2e45f4c1b51902e",
+  "superseded_attempts": [
+    {
+      "archive_directory": "validation/alignment6/transfer/attempts/missing_clamp_contacts",
+      "reason": "Proxy-only contact acceptance missed clamp-head mesh intrusion. This attempt is rejected; final geometry_acceptance.json is authoritative."
+    }
+  ],
+  "promoted_render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+  "promoted_render_report_sha256": "7fac40e01fdbae8dd795f9fea3872fff31b13de799dceaf5d39498871fc1fb94",
+  "render_count": 10,
+  "comparisons": [
+    {
+      "path": "validation/alignment6/transfer/comparisons/alignment_focus_guide.json",
+      "sha256": "3ec65513d550399c9afc52f684d4d6885d98b795282ecf06ac4fb0495d73222b"
+    }
+  ],
+  "visual_review": {
+    "passed": true,
+    "notes": [
+      "Inspected all ten final views, including complete assembly, table/knob clearance, sample rotation, compact stamp stages, light source/fiber and camera lead.",
+      "The same-camera focus-guide pair shows the former bridge entering the mast/guide and the final narrow moving carriage separated from its fixed guides."
+    ]
+  },
+  "metrics": {
+    "source_pose_count": 101,
+    "measured_pose_count": 50,
+    "initial_support_collision_poses": 101,
+    "current_support_collision_poses": 0,
+    "native_cases": 10,
+    "maximum_axis_error_mm": 9.313225746154785e-06,
+    "intended_loaded_contact_intersections": 18,
+    "maximum_loaded_contact_thin_axis_overlap_mm": 0.0013214401797800868,
+    "loaded_contact_allowance_mm": 0.005,
+    "deliberately_incompatible_source_requests": 32,
+    "maximum_native_optical_penetration_mm": 0.031324067274811636,
+    "sample_x_knob_minimum_full_rotation_table_clearance_mm": 0.9999996836144929,
+    "compact_support_full_xyz_clearance_mm": 2.499997615814209,
+    "service_pose_count": 567,
+    "minimum_service_clearance_mm": 0.6655979454517363
+  },
+  "limitations": [
+    "The audit covers the listed optical assemblies, sampled poses and measured approach/retraction trajectories; arbitrary robot approaches are not certified.",
+    "Reference images establish visible construction; mount dimensions, optical prescriptions and material/force parameters remain uncalibrated.",
+    "Flexible services retain prescribed visual deformation without contact or strain dynamics.",
+    "Source-only high-Z/tilt commands can geometrically overlap the objective. Their actual finite-force equilibria and retractions are checked separately.",
+    "The sole detailed-mesh overlap allowance is 5 micrometers of thin-axis bounding-box overlap at intended loaded objective/clamp-head contact. Fixed/moving supports receive no such allowance.",
+    "The full knob/table envelopes are analytical, while the 567 service configurations are a sampled grid with the stamp assembly at rest/retracted; they are not a continuous all-pairs configuration-space proof.",
+    "Unmarked mount sizes, screw pitch and concealed thrust-screw internals remain photo-supported estimates."
+  ],
+  "reference_evidence": [
+    {
+      "path": "images/transfer_stage/Weixin Image_20261123002137_227_2.jpg",
+      "sha256": "0ff7de852ff64f753405ac4cc08165a6c9fc126e943295dbd99eead145899509"
+    },
+    {
+      "path": "images/transfer_stage/Weixin Image_20261123002137_231_2.jpg",
+      "sha256": "f4e3f927d33b25df046c17f5f2797ab8c99e582ecd0de0cf2a6e5d6f6bf7cf9e"
+    },
+    {
+      "path": "images/transfer_stage/Weixin Image_20261123002137_236_2.jpg",
+      "sha256": "ba205fa50409fa691a14d91d0d76a71d4d819aa41d0eed6538672ee373457083"
+    }
+  ],
+  "private_reference_policy": "Raw laboratory photos/video remain private. Only generated model renders and non-image validation evidence are promoted.",
+  "stills_pending": false,
+  "freeze_manifest_note": "The immutable source freeze recorded stills_pending=true at its creation. This later summary records completed render inspection and promotion without rewriting that earlier freeze.",
+  "script": "validation/alignment6/transfer/summarize_reviews.py",
+  "script_sha256": "71bacc633443c590487fa12b7242a1bb0d59510bba61b78e9e54ce50eff63bee"
+}

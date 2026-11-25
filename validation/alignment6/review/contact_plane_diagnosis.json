@@ -1,0 +1,153 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "passed": true,
+  "scope": "Independent numerical diagnosis of exported native mesh coordinates; not a replacement for final WASM/browser acceptance.",
+  "diagnosed_utc": "2026-11-25T09:15:54.017731+00:00",
+  "inputs": [
+    {
+      "path": "publish/github-sim/assets/zeiss/collision.json",
+      "sha256": "9389cf0b3e07732f247e576d298f91a96ed36eb9f5b1083237f377207101b00b"
+    },
+    {
+      "path": "003_zeiss/zeiss_upright.xml",
+      "sha256": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a"
+    },
+    {
+      "path": "publish/github-sim/assets/zeiss/physics.xml",
+      "sha256": "09f8eafc94e5f043656bfe38b5615fae229d380a0416a651459554f973f4c778"
+    },
+    {
+      "path": "validation/alignment6/attempts/float32_cap_plane/browser/contact-shapes.json",
+      "sha256": "594aae60c720442be7349e6b1eddd6b145921185d9dc4991efdb5a368a7317af"
+    },
+    {
+      "path": "validation/alignment6/attempts/float32_cap_plane/browser/inputs_before.json",
+      "sha256": "e399e765cfd5914f9d0d198881a01f7f230d1bff5e131225da7074d8c78b9db9"
+    },
+    {
+      "path": "003_zeiss/alignment_contacts.py",
+      "sha256": "19c250ffb1f0060e4417ca2ed108d9581e9d0b806287974d21b9ecebb7061c19"
+    },
+    {
+      "path": "publish/github-sim/tests/contact-shapes.cjs",
+      "sha256": "d7b6fb85468d3d9a1bfdc6949f82aed694d8eaca49620a7d5d53a934de02d53d"
+    }
+  ],
+  "original_browser_failure": "page.evaluate: Error: zeiss contact triangle crosses the convex hull\n    at eval (eval at evaluate (:234:30), <anonymous>:77:70)\n    at async <anonymous>:260:30",
+  "original_harness_sha256": "bae1dacbcab7290ed04fb665cfa5cb5df254880fd4e27675ca3ef2c9f9988f19",
+  "corrected_harness_sha256": "d7b6fb85468d3d9a1bfdc6949f82aed694d8eaca49620a7d5d53a934de02d53d",
+  "shape": "turret__Objective_front_shoulder_50",
+  "mesh": "alignment6_objective_front_shoulder_50",
+  "vertex_count": 336,
+  "face_count": 668,
+  "triangle": {
+    "index": 5,
+    "vertex_indices": [
+      109,
+      108,
+      107
+    ],
+    "coordinates_m": [
+      [
+        0.004287582356482744,
+        -0.001271090004593134,
+        -0.009212729521095753
+      ],
+      [
+        0.0042875828221440315,
+        -0.0007525268592871726,
+        -0.009269507601857185
+      ],
+      [
+        0.0042875828221440315,
+        -0.00023159784905146807,
+        -0.00929711852222681
+      ]
+    ],
+    "edges_m": [
+      0.0005216622337535853,
+      0.0005216602310209285,
+      0.0010429120024933903
+    ],
+    "area_m2": 7.629671852202152e-09,
+    "minimum_altitude_m": 1.4631477696989122e-05,
+    "signed_hull_extrema_m": [
+      -0.00869999360850896,
+      2.9458582294771735e-07
+    ],
+    "float32_coordinate_ulp_m": [
+      [
+        4.656612873077393e-10,
+        1.1641532182693481e-10,
+        9.313225746154785e-10
+      ],
+      [
+        4.656612873077393e-10,
+        5.820766091346741e-11,
+        9.313225746154785e-10
+      ],
+      [
+        4.656612873077393e-10,
+        1.4551915228366852e-11,
+        9.313225746154785e-10
+      ]
+    ]
+  },
+  "intended_cap": {
+    "vertex_indices": [
+      0,
+      111
+    ],
+    "construction": "First 112-vertex circular ring from front_shoulder_vertices; transformed using Blender mathutils before serialization.",
+    "xml_best_fit_plane": {
+      "max_absolute_residual_m": 6.2274014032491785e-09,
+      "rms_residual_m": 1.932446194496981e-09,
+      "peak_to_peak_residual_m": 1.0827615470579675e-08
+    },
+    "exported_compiled_best_fit_plane": {
+      "max_absolute_residual_m": 6.3932734871780835e-09,
+      "rms_residual_m": 1.963076111421353e-09,
+      "peak_to_peak_residual_m": 1.1126986582295221e-08
+    }
+  },
+  "supporting_plane_check": {
+    "tolerance_m": 2e-07,
+    "tolerance_unchanged": true,
+    "supporting_planes": 667,
+    "discarded_three_point_normals": [
+      5
+    ],
+    "rejected_exported_triangles": [],
+    "maximum_best_plane_vertex_distance_m": 2.061764257585419e-10,
+    "face5_best_plane_index": 112,
+    "face5_best_plane_vertex_distance_m": 2.061764257585419e-10
+  },
+  "negative_controls": {
+    "internal_diagonal": {
+      "vertex_indices": [
+        0,
+        56,
+        224
+      ],
+      "rejected": true,
+      "best_plane_index": 1,
+      "minimum_maximum_plane_distance_m": 0.008700008029388893
+    },
+    "centroid_triangle": {
+      "rejected": true,
+      "minimum_maximum_plane_distance_m": 0.0054666726932908185
+    }
+  },
+  "conclusion": "The former assertion reconstructed a supporting plane from a thin triangle, amplifying nanometer-scale vertex noncoplanarity into a 0.294586 micrometer apparent hull crossing. Requiring each exported triangle to share an actual stable hull supporting plane preserves the 0.2 micrometer tolerance and rejects genuine interior triangles. No model or contact geometry change is indicated by this diagnostic.",
+  "qualifications": [
+    "The full first-ring cap already contains nanometer-scale source rounding; this is not solely caused by the overlay transform.",
+    "This diagnostic uses the native compiled coordinates serialized in collision.json. The corrected browser harness independently uses the actual WASM mesh vertices and faces.",
+    "Final publication remains gated on the fresh full browser suite, source verification, visual review and package checks."
+  ],
+  "inputs_unchanged": true,
+  "script": {
+    "path": "validation/alignment6/review/diagnose_contact_plane.py",
+    "sha256": "1eddfaec1f6ff4dbde1a9742ea9d22756eb1bdf1a335d7f1d8c6f0c006d0f057"
+  }
+}

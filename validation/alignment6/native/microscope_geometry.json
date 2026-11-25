@@ -1,0 +1,146 @@
+{
+  "assets": {
+    "transfer_station": {
+      "checks": {
+        "every_indexed_axis_perpendicular": true,
+        "every_indexed_axis_intersects_centered_sample": true,
+        "all_fitted_tips_clear_home_sample": true,
+        "splitter_is_an_articulated_12mm_pull_rod": true
+      },
+      "stations": [
+        {
+          "station": 0,
+          "magnification": 10,
+          "command_rad": 0,
+          "axis": [
+            0.0,
+            4.491927662062639e-11,
+            -1.0
+          ],
+          "axis_angle_to_sample_normal_rad": 0.0,
+          "home_optical_axis_to_sample_error_m": 6.125412677082664e-13,
+          "tip_clearance_m": 0.02033889451546106
+        },
+        {
+          "station": 1,
+          "magnification": 20,
+          "command_rad": -1.5707963267948966,
+          "axis": [
+            0.0,
+            4.491931131509592e-11,
+            -1.0
+          ],
+          "axis_angle_to_sample_normal_rad": 0.0,
+          "home_optical_axis_to_sample_error_m": 6.125343288143625e-13,
+          "tip_clearance_m": 0.025338894515725047
+        },
+        {
+          "station": 2,
+          "magnification": 50,
+          "command_rad": 3.141592653589793,
+          "axis": [
+            0.0,
+            4.491927662062639e-11,
+            -1.0
+          ],
+          "axis_angle_to_sample_normal_rad": 0.0,
+          "home_optical_axis_to_sample_error_m": 6.125412678654746e-13,
+          "tip_clearance_m": 0.032338894513617406
+        },
+        {
+          "station": 3,
+          "magnification": null,
+          "command_rad": 1.5707963267948966,
+          "axis": [
+            -1.3877787804412235e-16,
+            4.491931131509592e-11,
+            -1.0
+          ],
+          "axis_angle_to_sample_normal_rad": 0.0,
+          "home_optical_axis_to_sample_error_m": 6.125343294432024e-13,
+          "tip_clearance_m": null
+        }
+      ],
+      "passed": true
+    },
+    "zeiss_upright": {
+      "checks": {
+        "every_indexed_axis_perpendicular": true,
+        "every_indexed_axis_intersects_centered_sample": true,
+        "all_fitted_tips_clear_home_sample": true,
+        "splitter_is_an_articulated_12mm_pull_rod": true,
+        "both_xy_knobs_attached_to_y_carriage": true,
+        "support_to_xy_spindle_offset_invariant_through_stage_travel": true
+      },
+      "stations": [
+        {
+          "station": 0,
+          "magnification": 20,
+          "command_rad": 0.0,
+          "axis": [
+            0.0,
+            -4.6298243029556997e-11,
+            -1.0
+          ],
+          "axis_angle_to_sample_normal_rad": 0.0,
+          "home_optical_axis_to_sample_error_m": 2.2578744429679887e-12,
+          "tip_clearance_m": 0.0028380554306624006
+        },
+        {
+          "station": 1,
+          "magnification": 50,
+          "command_rad": -1.2566370614359172,
+          "axis": [
+            -2.6370051982721384e-12,
+            -1.3664069879385302e-12,
+            -1.0
+          ],
+          "axis_angle_to_sample_normal_rad": 0.0,
+          "home_optical_axis_to_sample_error_m": 4.228250898408277e-12,
+          "tip_clearance_m": 0.003838055424175313
+        },
+        {
+          "station": 2,
+          "magnification": 5,
+          "command_rad": -2.5132741228718345,
+          "axis": [
+            -7.873099743716224e-11,
+            -3.9671738127495175e-11,
+            -1.0
+          ],
+          "axis_angle_to_sample_normal_rad": 0.0,
+          "home_optical_axis_to_sample_error_m": 4.873946305490142e-12,
+          "tip_clearance_m": 0.016838055421474624
+        },
+        {
+          "station": 3,
+          "magnification": 10,
+          "command_rad": 2.5132741228718345,
+          "axis": [
+            7.873099743716224e-11,
+            -3.9671738127495175e-11,
+            -1.0
+          ],
+          "axis_angle_to_sample_normal_rad": 0.0,
+          "home_optical_axis_to_sample_error_m": 4.873946305490142e-12,
+          "tip_clearance_m": 0.007838055428761925
+        },
+        {
+          "station": 4,
+          "magnification": 100,
+          "command_rad": 1.2566370614359172,
+          "axis": [
+            2.6370051982721384e-12,
+            -1.3664069879385302e-12,
+            -1.0
+          ],
+          "axis_angle_to_sample_normal_rad": 0.0,
+          "home_optical_axis_to_sample_error_m": 4.228250898408277e-12,
+          "tip_clearance_m": 0.0018380554270708005
+        }
+      ],
+      "passed": true
+    }
+  },
+  "passed": true
+}

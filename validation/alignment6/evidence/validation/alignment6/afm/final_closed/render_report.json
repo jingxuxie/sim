@@ -1,0 +1,165 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565",
+  "inspection_joint_positions": {
+    "door_latch_angle": 0.0,
+    "door_angle": 0.0
+  },
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "door_handle_stowed",
+    "door_release_detail",
+    "view_cover_opening"
+  ],
+  "renders": [
+    {
+      "file": "door_handle_stowed.png",
+      "camera": "door_handle_stowed",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "e3728724318d3df32af9c673490225e347b95d9d54afdcd89892159878119ad9"
+    },
+    {
+      "file": "door_release_detail.png",
+      "camera": "door_release_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "fa9382466420c7f7625603bc8d71e2c2b7e4024595b3581e22386a072cc47492"
+    },
+    {
+      "file": "view_cover_opening.png",
+      "camera": "view_cover_opening",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "85dc63317bca42aafb8046bad042244bd96d2631361335dccd3345bb2079b0c3"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [
+    {
+      "body": "door_latch",
+      "joint": "door_latch_angle",
+      "angle_rad": 0.0,
+      "maximum_rotation_matrix_error": 0.0
+    },
+    {
+      "body": "door",
+      "joint": "door_angle",
+      "angle_rad": 0.0,
+      "maximum_rotation_matrix_error": 0.0
+    }
+  ],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995",
+  "cameras": {
+    "door_handle_stowed": {
+      "matrix_world": [
+        [
+          0.6362257599830627,
+          -0.24159866571426392,
+          0.732698380947113,
+          0.49566414952278137
+        ],
+        [
+          0.7715029716491699,
+          0.19923609495162964,
+          -0.6042252779006958,
+          -0.41519153118133545
+        ],
+        [
+          5.36263300432438e-08,
+          0.9497026205062866,
+          0.3131532073020935,
+          0.34677696228027344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.42399999499320984,
+      "fstop": 11.0
+    },
+    "door_release_detail": {
+      "matrix_world": [
+        [
+          0.7687641382217407,
+          -0.14057955145835876,
+          0.6238902807235718,
+          0.3907395601272583
+        ],
+        [
+          0.6395323872566223,
+          0.16898676753044128,
+          -0.7499611973762512,
+          -0.4285573363304138
+        ],
+        [
+          8.975822862744565e-10,
+          0.9755412936210632,
+          0.2198161482810974,
+          0.3038874566555023
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.36342859268188477,
+      "fstop": 11.0
+    },
+    "view_cover_opening": {
+      "matrix_world": [
+        [
+          0.8684870600700378,
+          -0.13958580791950226,
+          0.4756532907485962,
+          0.16326232254505157
+        ],
+        [
+          0.4957118630409241,
+          0.2445542961359024,
+          -0.8333444595336914,
+          -0.29803556203842163
+        ],
+        [
+          1.187161302595996e-08,
+          0.9595358371734619,
+          0.28158658742904663,
+          0.6086512207984924
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.34323808550834656,
+      "fstop": 11.0
+    }
+  },
+  "alignment_wrapper_sha256": "179c1378f8a19f72d493fde62327a79656d03cbdb241be089cd83c75206f3f43"
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "link": "base",
+    "material": "brushed",
+    "file": "base__brushed.obj",
+    "triangles": 2488
+  },
+  {
+    "link": "base",
+    "material": "ceramic",
+    "file": "base__ceramic.obj",
+    "triangles": 3344
+  },
+  {
+    "link": "base",
+    "material": "cutting_mat_blue",
+    "file": "base__cutting_mat_blue.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "ink",
+    "file": "base__ink.obj",
+    "triangles": 752
+  },
+  {
+    "link": "base",
+    "material": "label",
+    "file": "base__label.obj",
+    "triangles": 9392
+  },
+  {
+    "link": "base",
+    "material": "steel",
+    "file": "base__steel.obj",
+    "triangles": 5560
+  },
+  {
+    "link": "chip",
+    "material": "gold",
+    "file": "chip__gold.obj",
+    "triangles": 5280
+  },
+  {
+    "link": "chip",
+    "material": "violet",
+    "file": "chip__violet.obj",
+    "triangles": 428
+  },
+  {
+    "link": "chip",
+    "material": "wafer",
+    "file": "chip__wafer.obj",
+    "triangles": 428
+  },
+  {
+    "link": "jaw_left",
+    "material": "brushed",
+    "file": "jaw_left__brushed.obj",
+    "triangles": 3612
+  },
+  {
+    "link": "jaw_left",
+    "material": "ink",
+    "file": "jaw_left__ink.obj",
+    "triangles": 64
+  },
+  {
+    "link": "jaw_left",
+    "material": "paper",
+    "file": "jaw_left__paper.obj",
+    "triangles": 16
+  },
+  {
+    "link": "jaw_left",
+    "material": "steel",
+    "file": "jaw_left__steel.obj",
+    "triangles": 876
+  },
+  {
+    "link": "jaw_right",
+    "material": "brushed",
+    "file": "jaw_right__brushed.obj",
+    "triangles": 3612
+  },
+  {
+    "link": "jaw_right",
+    "material": "steel",
+    "file": "jaw_right__steel.obj",
+    "triangles": 876
+  },
+  {
+    "link": "tool",
+    "material": "brushed",
+    "file": "tool__brushed.obj",
+    "triangles": 2772
+  },
+  {
+    "link": "tool",
+    "material": "darkmetal",
+    "file": "tool__darkmetal.obj",
+    "triangles": 516
+  }
+]

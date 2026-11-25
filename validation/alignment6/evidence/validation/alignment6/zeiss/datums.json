@@ -1,0 +1,37 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "script_sha256": "bc2bfa398557f328260ce61243a3df55862f31d78c4f0c85c6b3973fd7feffa5",
+  "xml_sha256": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+  "baseline_xml_sha256": "273df4cf8b5db833087101c298b11db2ef01e03a3bd6ece653f59f6d769d0d3e",
+  "method": "Exact comparison of all native body/joint/site attributes and equality/actuator entries against the preserved public baseline. Only shapes/contact definitions may change.",
+  "checks": [
+    {
+      "check": "body_datums",
+      "changes": [],
+      "added_names": [],
+      "passed": true
+    },
+    {
+      "check": "joint_datums",
+      "changes": [],
+      "added_names": [],
+      "passed": true
+    },
+    {
+      "check": "site_datums",
+      "changes": [],
+      "added_names": [],
+      "passed": true
+    },
+    {
+      "check": "equality_configuration",
+      "passed": true
+    },
+    {
+      "check": "actuator_configuration",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

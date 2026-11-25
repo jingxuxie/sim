@@ -1,0 +1,171 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "draft": false,
+  "source_sha256": "90c5f7900f3968247434a3421027417c6b63d4b418a5a467b7f3db51524c9bed",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "alignment_focus_guide",
+    "alignment_workfield",
+    "alignment_pupil"
+  ],
+  "renders": [
+    {
+      "file": "alignment_focus_guide.png",
+      "camera": "alignment_focus_guide",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "7cea31e795d7cff9b1ce49ff85ca754202982228f99e0c9d4bcdf25759c13051"
+    },
+    {
+      "file": "alignment_workfield.png",
+      "camera": "alignment_workfield",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "7dc131a89775b3b2c8c24720910d48b0f6c3668f86901ad9ac1ba7d00e51f7e4"
+    },
+    {
+      "file": "alignment_pupil.png",
+      "camera": "alignment_pupil",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "2d3bf51c0c7f90356a2527f2584bc6be625f39674cc97da57a29587d8f1ed9f6"
+    }
+  ],
+  "complete": true,
+  "camera_signatures": {
+    "alignment_focus_guide": {
+      "matrix_world": [
+        [
+          -0.2676438093185425,
+          -0.29463231563568115,
+          0.9173650145530701,
+          0.5109322667121887
+        ],
+        [
+          0.9635179042816162,
+          -0.08184221386909485,
+          0.25482356548309326,
+          0.07970339059829712
+        ],
+        [
+          -8.057918421400245e-08,
+          0.952099621295929,
+          0.3057880997657776,
+          0.4836439788341522
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.25,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.5678571462631226,
+      "fstop": 11.0
+    },
+    "alignment_workfield": {
+      "matrix_world": [
+        [
+          0.786318302154541,
+          -0.2836170494556427,
+          0.5488759875297546,
+          0.14960792660713196
+        ],
+        [
+          0.6178215742111206,
+          0.3609670400619507,
+          -0.6985694766044617,
+          -0.30041003227233887
+        ],
+        [
+          6.725261414430861e-08,
+          0.8884053826332092,
+          0.4590597450733185,
+          0.24312657117843628
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.11999999731779099,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.2725714147090912,
+      "fstop": 11.0
+    },
+    "alignment_pupil": {
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9866134524345398,
+          -0.16307634115219116,
+          -0.125
+        ],
+        [
+          0.0,
+          0.16307634115219116,
+          0.9866134524345398,
+          0.18299999833106995
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 240.0,
+      "scale": 0.014000000432133675,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.09198131412267685,
+      "fstop": 22.0
+    }
+  },
+  "camera_source_sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+  "before_model": true,
+  "source_files_unchanged": true,
+  "existing_geometry_transforms_unchanged": true,
+  "wrapper_sha256": "574bb26e482053419b754d9f946f2be26ec408b0b5b756f88c97e7ba20437acc",
+  "raw_reference_media_published": false,
+  "source": "validation/alignment6/bonder/before/wire_bonder.blend",
+  "camera_source": "004_wire_bonder/wire_bonder.blend",
+  "provenance_completion": {
+    "method": "Add portable source paths after independently verifying existing source, camera, script and image digests; no image or model is modified.",
+    "path": "validation/alignment6/transfer/promote_reviews.py",
+    "sha256": "184d9bf250bc6f07458c344de2440122c5c020c8888e71eeea6f7d38b1fafc75"
+  }
+}

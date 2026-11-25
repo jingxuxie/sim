@@ -1,6 +1,6 @@
 import {FlexibleDetails} from './flexible-details.js?v=contact1';
-import {ContactOverlay} from './contact-overlay.js?v=contact1';
-import {BrowserRuntime} from './runtime.js?v=clearance1';
+import {ContactOverlay} from './contact-overlay.js?v=alignment6';
+import {BrowserRuntime} from './runtime.js?v=alignment6';
 window.viewerBooted=true;
 const $=id=>document.getElementById(id), fmt=(x,d=3)=>Number(x).toFixed(d);
 let instruments=[],current=null,renderer=null,scene,camera,orbit,model=null,ground=null,THREE,ready=false,selection=0,lastState=null,photograph=false;

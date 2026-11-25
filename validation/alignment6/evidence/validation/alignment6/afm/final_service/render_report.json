@@ -1,0 +1,68 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565",
+  "inspection_joint_positions": {},
+  "measured_trajectory": {
+    "sha256": "f13645dee8fa62e156404106619fd8aea2186bc479c236a696b6be4ab42b4a59",
+    "frame": 0,
+    "frame_sha256": "515e0347d296232dba221916d11a8155a480f4639768a73eb0fce0eb94acaadf",
+    "time_s": 10.599999999999564
+  },
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "front"
+  ],
+  "renders": [
+    {
+      "file": "front.png",
+      "camera": "front",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "090a1ac442d10573451af614e0389cf605969107a6289afde30c7c7c49e04412"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995",
+  "cameras": {
+    "front": {
+      "matrix_world": [
+        [
+          0.994868814945221,
+          -0.02441953867673874,
+          0.09818188846111298,
+          0.15462245047092438
+        ],
+        [
+          0.10117310285568237,
+          0.2401254028081894,
+          -0.9654552340507507,
+          -1.5404540300369263
+        ],
+        [
+          5.437909234018434e-09,
+          0.9704346656799316,
+          0.24136386811733246,
+          0.6251136064529419
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 1.5748571157455444,
+      "fstop": 11.0
+    }
+  },
+  "alignment_wrapper_sha256": "179c1378f8a19f72d493fde62327a79656d03cbdb241be089cd83c75206f3f43"
+}

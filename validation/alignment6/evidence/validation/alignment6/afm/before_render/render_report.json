@@ -1,0 +1,177 @@
+{
+  "revision": "alignment6-before",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "inspection_joint_positions": {
+    "door_latch_angle": 1.5707963267948966,
+    "door_angle": -1.8,
+    "scanner_latch_angle": 0.0,
+    "drawer_travel": 0.0,
+    "cantilever_lift": 0.0
+  },
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "optical_alignment_front",
+    "optical_alignment_side",
+    "optical_alignment_top"
+  ],
+  "renders": [
+    {
+      "file": "optical_alignment_front.png",
+      "camera": "optical_alignment_front",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "0f94fdf49236a81a1abbe4f97d0921644fe61e1f9c3695b499cc0aa87fe39375"
+    },
+    {
+      "file": "optical_alignment_side.png",
+      "camera": "optical_alignment_side",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "7753ea9ea59c03de70bf3a8d33fe34b7fe3ba04d6bd6c3db070112169b033f9e"
+    },
+    {
+      "file": "optical_alignment_top.png",
+      "camera": "optical_alignment_top",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "f9b442cc7713abfe2b375da1d711a0d74dd7e4767e23573f9933f54b55f4604e"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [
+    {
+      "body": "door_latch",
+      "joint": "door_latch_angle",
+      "angle_rad": 1.5707963267948966,
+      "maximum_rotation_matrix_error": 8.881784197001252e-16
+    },
+    {
+      "body": "door",
+      "joint": "door_angle",
+      "angle_rad": -1.8,
+      "maximum_rotation_matrix_error": 0.0
+    }
+  ],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995",
+  "camera_source_sha256": "7907c7b0c7c63a3244badb61749f359490522ed498fd55ad3f062e4df602543c",
+  "matched_camera_names": [
+    "optical_alignment_front",
+    "optical_alignment_side",
+    "optical_alignment_top"
+  ],
+  "cameras": {
+    "optical_alignment_front": {
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.00800000037997961
+        ],
+        [
+          0.0,
+          0.018746545538306236,
+          -0.9998242855072021,
+          -0.2620562016963959
+        ],
+        [
+          0.0,
+          0.9998242855072021,
+          0.018746545538306236,
+          0.22016353905200958
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.22209523618221283,
+      "fstop": 11.0
+    },
+    "optical_alignment_side": {
+      "matrix_world": [
+        [
+          1.9470718370939721e-07,
+          -0.02478591725230217,
+          0.9996927976608276,
+          0.12910564243793488
+        ],
+        [
+          1.0,
+          -2.681114352753866e-08,
+          -1.9543176676961593e-07,
+          -0.04000002145767212
+        ],
+        [
+          3.16468629080191e-08,
+          0.9996927976608276,
+          0.02478591725230217,
+          0.2190026491880417
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.12114285677671432,
+      "fstop": 11.0
+    },
+    "optical_alignment_top": {
+      "matrix_world": [
+        [
+          0.859535813331604,
+          -0.3267941176891327,
+          0.39294248819351196,
+          0.11107173562049866
+        ],
+        [
+          0.511075496673584,
+          0.5496079921722412,
+          -0.6608576774597168,
+          -0.22180242836475372
+        ],
+        [
+          6.29673877483583e-08,
+          0.7688541412353516,
+          0.639424204826355,
+          0.39174389839172363
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.2826666533946991,
+      "fstop": 11.0
+    }
+  },
+  "baseline_geometry_preserved": true,
+  "source_files_unchanged": true,
+  "method": "Appended only the three final diagnostic cameras to the archived baseline. Applied the same declared docked inspection pose to before and after; preserved original geometry, materials and light rig. No Blend was saved.",
+  "wrapper_sha256": "eef4b140a5e7dda93735530dd2abb8f8614b1225ab995a5331b92a6790d3b6ee"
+}

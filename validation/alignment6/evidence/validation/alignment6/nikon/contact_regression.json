@@ -1,0 +1,380 @@
+{
+  "revision": "alignment6",
+  "asset": "nikon",
+  "xml_sha256": "1015fe7df302e677ea0c665d3b03d454f59d42c2f95e2c394e21fce403fe4172",
+  "script_sha256": "2dc0cb0a19a8f35f8c31c96dfee8a20d322beff9f408299307d488353d9a4618",
+  "method": "Only ordinary fixture control commands and mj_step after reset. Retract/index, approach sample and offset holders, hold, then retract. Actual loaded body poses are recorded for independent detailed-mesh verification. No instrument qpos overwrite after reset.",
+  "cases": [
+    {
+      "station": 0,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "contact_samples": 145930,
+      "maximum_contact_penetration_mm": 0.026916253814508472,
+      "peak_normal_force_N": 26.164719477687033,
+      "loaded_focus_mm": 2.7665188860162933,
+      "contact_pairs": [
+        [
+          "objective_0_front_glass",
+          "substrate"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "contact_samples": 0,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "loaded_focus_mm": 3.9988325367718005,
+      "contact_pairs": [],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "contact_samples": 146115,
+      "maximum_contact_penetration_mm": 0.026920861526278206,
+      "peak_normal_force_N": 26.164296971037313,
+      "loaded_focus_mm": 2.4165146075196633,
+      "contact_pairs": [
+        [
+          "objective_1_front_glass",
+          "substrate"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "contact_samples": 145280,
+      "maximum_contact_penetration_mm": 0.01052550325516128,
+      "peak_normal_force_N": 9.666035655167226,
+      "loaded_focus_mm": 3.7000342874953276,
+      "contact_pairs": [
+        [
+          "carrier_end-1",
+          "objective_1_front_glass"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 5,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "contact_samples": 0,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "loaded_focus_mm": 3.9988325367718005,
+      "contact_pairs": [],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 5,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "contact_samples": 0,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "loaded_focus_mm": 3.9988325367718005,
+      "contact_pairs": [],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 6,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "contact_samples": 0,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "loaded_focus_mm": 3.9988325367718005,
+      "contact_pairs": [],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 6,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "contact_samples": 0,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "loaded_focus_mm": 3.9988325367718005,
+      "contact_pairs": [],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.998832537074738,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "tasks": [
+    {
+      "task": "nikon.center",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.92,
+      "wall_s": 0.102,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.659480366935015e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.center",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.84,
+      "wall_s": 0.087,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.521535712042938e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.center",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.92,
+      "wall_s": 0.101,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.748703847198403e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 1.44,
+      "wall_s": 0.144,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 2.5278072239901233e-06
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 1.3,
+      "wall_s": 0.131,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 2.5404532379326173e-06
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 1.42,
+      "wall_s": 0.141,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 2.6137228354013945e-06
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.46,
+      "wall_s": 0.057,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.46,
+      "wall_s": 0.044,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.46,
+      "wall_s": 0.044,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0
+      },
+      "events": [],
+      "controller": "bench fixture"
+    }
+  ],
+  "passed": true,
+  "loaded_poses": {
+    "path": "validation/alignment6/nikon/loaded_contact_poses.json",
+    "sha256": "60c7f349755ad1bf4722f58ad416d44e21cdef0ec6e22fb149fb6f6d650d3e6e"
+  }
+}

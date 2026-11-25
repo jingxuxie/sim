@@ -1,11 +1,11 @@
 {
-  "revision": "reference5",
+  "revision": "alignment6",
   "passed": true,
   "table_top_m": 0.024,
   "trials": [
     {
       "seed": 0,
-      "trajectory_sha256": "5d3048495ff1cbcfc64ee5b5d06923250a8b013d7901e9dfaffc7dd99524b4dc",
+      "trajectory_sha256": "57def1ef197ad399f4c3d99351128de0d1287f7ed1642b3659fa18c41c25abe4",
       "frame_count": 600,
       "passed": true,
       "worst": {
@@ -21,7 +21,7 @@
     },
     {
       "seed": 11,
-      "trajectory_sha256": "f9485c725c436e09866bca240d61e2c36d315afc2c29786af81cd7376aa01989",
+      "trajectory_sha256": "c44419bf9272560fb812cfa1261dd65051c4a2da5bf2c840336e4bee6fc550f6",
       "frame_count": 600,
       "passed": true,
       "worst": {
@@ -37,7 +37,7 @@
     },
     {
       "seed": 37,
-      "trajectory_sha256": "b31799f7bd2b3614adf4eac2e6ded65f389d7d3a3fae37013bb8ae9a24798f85",
+      "trajectory_sha256": "1f2b38077647c2c79623c7c6f3ceac5a9cc5fc36521b17595ea81d3c72285d27",
       "frame_count": 600,
       "passed": true,
       "worst": {

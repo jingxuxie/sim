@@ -1,0 +1,61 @@
+{
+  "revision": "alignment6",
+  "asset": "nikon",
+  "changed": true,
+  "reviewed": true,
+  "passed": true,
+  "changes": [
+    "Relieved the upper inner C-frame transition while preserving its outer silhouette and lower guide seats; replaced the interfering rectangular nosepiece gearbox with an inclined bearing housing above the rotor.",
+    "Fitted a 0.7 mm specimen carrier between the unchanged deck and slide, and seated spring clips on the slide surface.",
+    "Added objective front-glass/shoulder/sleeve and slide-clip contacts; open convex frame compounds preserve the repaired throat."
+  ],
+  "baseline_findings": [
+    "Detailed fitted objectives intersected fixed exteriors at all 80 tested indexed/intermediate turret poses.",
+    "Carrier and spring clips penetrated the slide by 0.1 and 0.2 mm. Front glass extended 0.26 mm beyond native contact, leaving six sampled unsafe poses without a contact."
+  ],
+  "current_artifacts_sha256": {
+    "000/e1000.blend": "78eda10025ea6d7e453508bcf5b8c2381914bbf6bbba89a01cf401b2a938636f",
+    "000/e1000.xml": "1015fe7df302e677ea0c665d3b03d454f59d42c2f95e2c394e21fce403fe4172",
+    "000/assets/e1000.glb": "97edd1a6e8078b59bf62ad46542bb83f39dc9c5abf57bd70cb7d369f3ecef2b5",
+    "000/assets/meshes.json": "c9fd424a1e194abe533a64d0b5ca9cb11d53364b08e0e8cc2a82fdea6268d633",
+    "000/src/design.py": "178b7ff4076f305ef4741d9228eef53c5767f2719eb6c6cf2b60f5a6dd9847ae",
+    "000/src/build_visual.py": "f74350940a186ad66f0a9c1b1b236705cc67f3dedb85caa38918a81b8c6d4225",
+    "000/src/build_physics.py": "78fafc9dd96c44a17cb284dd04911699c3e68e8a7a6010a3b775887f202cfe9d",
+    "000/src/realism_geometry.py": "69ad8ff08b52ea28f7950002c77238278ab960b1e5774714420a3e1bb4c05627",
+    "000/src/contact_geometry.py": "eeee6b7e95f9e575c995c985332bb6ba04ff1c9583f3e29c4c83437ebb3dd8bc",
+    "tools/photography.py": "d72172b252587871c73257f39379abb642ec17eb1e7a472dd637395ec77a60e7",
+    "tools/realism_materials.py": "ceebc444f75b93866c4bedd9bcf22239518d5ed56cfa079468eb51dbb68c4700"
+  },
+  "reports": [
+    {
+      "path": "validation/alignment6/nikon/acceptance.json",
+      "sha256": "3eebb248f0c4211f2223540dd13fc651e77a53750ae64276db42feda75cd6080"
+    },
+    {
+      "path": "validation/alignment6/nikon/baseline_files.json",
+      "sha256": "451459eeb57671f03773c268a827b59ad9f4bea6062f59729e30dc7020070248"
+    },
+    {
+      "path": "validation/alignment6/nikon/section_plot_report.json",
+      "sha256": "08bac5ef8133c1f6aa0ea86f893255f5c934cdfeae83c333c830068445142f72"
+    }
+  ],
+  "promoted_render_report": "000/previews/render_report.json",
+  "promoted_render_report_sha256": "ade46ff4deef418305eda53526ac2c41889269d27b0c1e247225379d4d28d673",
+  "before_after_section": {
+    "path": "validation/alignment6/nikon/before_after_sections.png",
+    "sha256": "7ddacd7078bc0b4fed5f1692a01a2238901797edc5332a07b10b62cd09f40d28"
+  },
+  "limitations": [
+    "Exterior dimensions, loads, material properties and holder/stand relief dimensions remain reconstruction estimates; no manufacturer CAD or metrology is claimed.",
+    "Collision checks cover the named assemblies and finite sampled poses, not every possible configuration or every inserted screw/bearing seam.",
+    "Native contact is numerically soft; contact regressions measure and limit penetration rather than interpreting it as calibrated material indentation.",
+    "The optical-axis check is geometric. Internal optical prescriptions and lower condenser transmission are not ray-traced.",
+    "Existing cable models and renderer behavior are preserved; these repairs do not add robot-driven cable dynamics."
+  ],
+  "validation_counts": {
+    "static_optical_poses": 108,
+    "knob_exterior_checks": 25,
+    "support_fits": 3
+  }
+}

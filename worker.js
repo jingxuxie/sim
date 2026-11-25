@@ -1,5 +1,5 @@
 import loadMuJoCo from './vendor/mujoco/mujoco.js';
-import {Simulation} from './physics.js?v=clearance1';
+import {Simulation} from './physics.js?v=alignment6';
 import {loadPyodide} from './vendor/pyodide/pyodide.mjs';
 
 let sim, py, pythonCore, pythonLoading, task=false, auto=false, paused=false, lastTick=performance.now(), lastPost=0, lastState;

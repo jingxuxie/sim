@@ -1,0 +1,500 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "draft": false,
+  "source_sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "overview",
+    "tool",
+    "operator",
+    "head_detail",
+    "optical_head",
+    "heater_detail",
+    "rear_service",
+    "alignment_focus_guide",
+    "alignment_workfield",
+    "alignment_pupil"
+  ],
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "94c0eaadd18c0a967e86a67dfe1f1bcda3f2dce2f698505cc70ccbe71f1e8669"
+    },
+    {
+      "file": "tool.png",
+      "camera": "tool",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "0c6134900b2bf423f50b1a40f566b70b2310caa02eb5447e82770d97afab4eec"
+    },
+    {
+      "file": "operator.png",
+      "camera": "operator",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "27182720ade48127f60375af5ac43145a14b5b54e5f8fc7b5b1ade97c6728574"
+    },
+    {
+      "file": "head_detail.png",
+      "camera": "head_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "0b7c92f8ddf0539be2dcaf638e09d2ca58f7ab84106db802835b829d26d3ac95"
+    },
+    {
+      "file": "optical_head.png",
+      "camera": "optical_head",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "a8515739f2a89131f168691862d9887ee1112bb5bdde4ba2b0020bbc6312b1d3"
+    },
+    {
+      "file": "heater_detail.png",
+      "camera": "heater_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "e35691b6b7eb62640cb563056ea3d4a006bd7d6aa7317d8127fd5ba3abd4d957"
+    },
+    {
+      "file": "rear_service.png",
+      "camera": "rear_service",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "605d0fd85540089f4d5fa6320cc411c5dd6e99baae11d5212309a8d52a79b33c"
+    },
+    {
+      "file": "alignment_focus_guide.png",
+      "camera": "alignment_focus_guide",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "d4922805c9b1525772b2af559019cf258c5b5179cad1236ba1e7cf8e0cee7323"
+    },
+    {
+      "file": "alignment_workfield.png",
+      "camera": "alignment_workfield",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "5067b944a550c5453339532e7f0446ec1f94e0050c5715c3a3e8cef3cf11aedd"
+    },
+    {
+      "file": "alignment_pupil.png",
+      "camera": "alignment_pupil",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "7d932906907371e888b36e0d92b6942a1b2562bbb7921014e847157741592877"
+    }
+  ],
+  "complete": true,
+  "camera_signatures": {
+    "overview": {
+      "matrix_world": [
+        [
+          0.7780753374099731,
+          -0.21489056944847107,
+          0.5902717709541321,
+          1.1196461915969849
+        ],
+        [
+          0.6281709671020508,
+          0.2661711871623993,
+          -0.7311320900917053,
+          -1.4416072368621826
+        ],
+        [
+          5.1037901016570686e-08,
+          0.9396674633026123,
+          0.3420892655849457,
+          0.8504766225814819
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.8500000238418579,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 1.9307143688201904,
+      "fstop": 11.0
+    },
+    "tool": {
+      "matrix_world": [
+        [
+          0.8963885307312012,
+          -0.09794458001852036,
+          0.43231290578842163,
+          0.37850847840309143
+        ],
+        [
+          0.4432692229747772,
+          0.19806581735610962,
+          -0.8742324113845825,
+          -0.7898723483085632
+        ],
+        [
+          -7.765954279648213e-08,
+          0.9752829074859619,
+          0.22095973789691925,
+          0.3106819987297058
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.36000001430511475,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.8177143335342407,
+      "fstop": 11.0
+    },
+    "operator": {
+      "matrix_world": [
+        [
+          0.997851550579071,
+          -0.018962573260068893,
+          0.06271126866340637,
+          0.10895533114671707
+        ],
+        [
+          0.06551551073789597,
+          0.28881463408470154,
+          -0.9551407098770142,
+          -1.7956269979476929
+        ],
+        [
+          -5.76955905273735e-09,
+          0.9571972489356995,
+          0.2894364893436432,
+          0.7159473896026611
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.800000011920929,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 1.8171428442001343,
+      "fstop": 11.0
+    },
+    "head_detail": {
+      "matrix_world": [
+        [
+          0.8442127704620361,
+          -0.09198867529630661,
+          0.528055727481842,
+          0.2878658175468445
+        ],
+        [
+          0.5360081791877747,
+          0.14488214254379272,
+          -0.8316876888275146,
+          -0.5083885192871094
+        ],
+        [
+          -1.3326051373496739e-09,
+          0.9851635694503784,
+          0.1716180294752121,
+          0.23855632543563843
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.23999999463558197,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.5451428294181824,
+      "fstop": 11.0
+    },
+    "optical_head": {
+      "matrix_world": [
+        [
+          0.800000011920929,
+          -0.18973666429519653,
+          0.5692099928855896,
+          0.40080511569976807
+        ],
+        [
+          0.6000000238418579,
+          0.2529822587966919,
+          -0.7589466571807861,
+          -0.6544069051742554
+        ],
+        [
+          -1.5290815724711138e-08,
+          0.9486832618713379,
+          0.3162277936935425,
+          0.512669563293457
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.3100000023841858,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.7041428685188293,
+      "fstop": 11.0
+    },
+    "heater_detail": {
+      "matrix_world": [
+        [
+          0.8376105427742004,
+          -0.267210990190506,
+          0.47645241022109985,
+          0.18397869169712067
+        ],
+        [
+          0.5462679266929626,
+          0.40972334146499634,
+          -0.7305601835250854,
+          -0.39210057258605957
+        ],
+        [
+          3.1436687919494943e-08,
+          0.8721955418586731,
+          0.4891573488712311,
+          0.2748846411705017
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.17000000178813934,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.3861428499221802,
+      "fstop": 11.0
+    },
+    "rear_service": {
+      "matrix_world": [
+        [
+          -0.765153169631958,
+          -0.1681784987449646,
+          0.6214954853057861,
+          1.0728788375854492
+        ],
+        [
+          0.6438482999801636,
+          -0.1998644918203354,
+          0.7385888695716858,
+          1.3950154781341553
+        ],
+        [
+          1.1887370732210911e-07,
+          0.9652824401855469,
+          0.2612083852291107,
+          0.6309202909469604
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.7599999904632568,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 1.726285696029663,
+      "fstop": 11.0
+    },
+    "alignment_focus_guide": {
+      "matrix_world": [
+        [
+          -0.2676438093185425,
+          -0.29463231563568115,
+          0.9173650145530701,
+          0.5109322667121887
+        ],
+        [
+          0.9635179042816162,
+          -0.08184221386909485,
+          0.25482356548309326,
+          0.07970339059829712
+        ],
+        [
+          -8.057918421400245e-08,
+          0.952099621295929,
+          0.3057880997657776,
+          0.4836439788341522
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.25,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.5678571462631226,
+      "fstop": 11.0
+    },
+    "alignment_workfield": {
+      "matrix_world": [
+        [
+          0.786318302154541,
+          -0.2836170494556427,
+          0.5488759875297546,
+          0.14960792660713196
+        ],
+        [
+          0.6178215742111206,
+          0.3609670400619507,
+          -0.6985694766044617,
+          -0.30041003227233887
+        ],
+        [
+          6.725261414430861e-08,
+          0.8884053826332092,
+          0.4590597450733185,
+          0.24312657117843628
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.11999999731779099,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.2725714147090912,
+      "fstop": 11.0
+    },
+    "alignment_pupil": {
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9866134524345398,
+          -0.16307634115219116,
+          -0.125
+        ],
+        [
+          0.0,
+          0.16307634115219116,
+          0.9866134524345398,
+          0.18299999833106995
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 240.0,
+      "scale": 0.014000000432133675,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.09198131412267685,
+      "fstop": 22.0
+    }
+  },
+  "camera_source_sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+  "before_model": false,
+  "source_files_unchanged": true,
+  "existing_geometry_transforms_unchanged": true,
+  "wrapper_sha256": "574bb26e482053419b754d9f946f2be26ec408b0b5b756f88c97e7ba20437acc",
+  "raw_reference_media_published": false,
+  "source": "004_wire_bonder/wire_bonder.blend",
+  "camera_source": "004_wire_bonder/wire_bonder.blend",
+  "provenance_completion": {
+    "method": "Add portable source paths after independently verifying existing source, camera, script and image digests; no image or model is modified.",
+    "path": "validation/alignment6/transfer/promote_reviews.py",
+    "sha256": "184d9bf250bc6f07458c344de2440122c5c020c8888e71eeea6f7d38b1fafc75"
+  }
+}

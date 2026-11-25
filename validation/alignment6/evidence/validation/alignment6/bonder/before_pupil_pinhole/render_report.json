@@ -1,0 +1,90 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "draft": false,
+  "source_sha256": "90c5f7900f3968247434a3421027417c6b63d4b418a5a467b7f3db51524c9bed",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "alignment_pupil"
+  ],
+  "renders": [
+    {
+      "file": "alignment_pupil.png",
+      "camera": "alignment_pupil",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "f4e014963b14b99ef0d342f720542a33567875c9c1a39f2cab7a9f9264235d6d"
+    }
+  ],
+  "complete": true,
+  "camera_signatures": {
+    "alignment_pupil": {
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9866134524345398,
+          -0.16307634115219116,
+          -0.125
+        ],
+        [
+          0.0,
+          0.16307634115219116,
+          0.9866134524345398,
+          0.18299999833106995
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 240.0,
+      "scale": 0.014000000432133675,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": false,
+      "focus_distance_m": 0.09198131412267685,
+      "fstop": 22.0
+    }
+  },
+  "camera_source_sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+  "before_model": true,
+  "source_files_unchanged": true,
+  "existing_geometry_transforms_unchanged": true,
+  "wrapper_sha256": "574bb26e482053419b754d9f946f2be26ec408b0b5b756f88c97e7ba20437acc",
+  "raw_reference_media_published": false,
+  "diagnostic_override": {
+    "camera": "alignment_pupil",
+    "original_aperture": {
+      "dof_enabled": true,
+      "fstop": 22.0,
+      "focus_distance_m": 0.09198131412267685
+    },
+    "dof_enabled": false,
+    "source_scene_saved": false,
+    "interpretation": "Pinhole geometric sightline; no calibrated stereo channel, optical prescription or microscope image claim.",
+    "script": "validation/alignment6/bonder/render_pupil_review.py",
+    "script_sha256": "1e5cd93c53dfa51adbd27a4637bf76f1ea81f43b537964f406733db3278e0780"
+  },
+  "source": "validation/alignment6/bonder/before/wire_bonder.blend",
+  "camera_source": "004_wire_bonder/wire_bonder.blend",
+  "provenance_completion": {
+    "method": "Add portable source paths after independently verifying existing source, camera, script and image digests; no image or model is modified.",
+    "path": "validation/alignment6/transfer/promote_reviews.py",
+    "sha256": "184d9bf250bc6f07458c344de2440122c5c020c8888e71eeea6f7d38b1fafc75"
+  }
+}

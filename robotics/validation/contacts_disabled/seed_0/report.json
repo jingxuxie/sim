@@ -88,8 +88,8 @@
   "inputs_before": {
     "robotics/gripper_task.py": "e6b97288c90d9515c6bce33f29ccbec489ee84be811ef73e4cd0cadeb01b1d06",
     "robotics/build_gripper_scene.py": "d03c05b2e3f9ce093d4d4d5ebd8a5acac2ae70bcfe8471e7fdd287e1e76cc673",
-    "001_transfer_stage/transfer_station.xml": "88f11e5c08bba05e1c025cdf0b544a386fcfdf592636eeeb98665177b45a7278",
-    "001_transfer_stage/asset.json": "faa88bc3a8bbc7888954f851f60c67c21d75c157f5616a95890ed7022949d9aa",
+    "001_transfer_stage/transfer_station.xml": "61a8e9233d89a73b5a07cc2633184f332a2dd080f7989db654e93565cef27568",
+    "001_transfer_stage/asset.json": "e88a01bf6e676e9138d68276bfdb32f2bda64acdb2a47dfd914fb326d68466a7",
     "robotics/assets/panda_gripper/SOURCE.json": "48bac2acea9d58a99cc93643f7ce60dc773fea39b85e6c1d6412f83c5ddbc86a",
     "robotics/assets/panda_gripper/panda.xml": "c047a49f3c770ff2393e2a74f7e0fbd9d99080a305407254f8ff53ac053cde3b",
     "robotics/assets/panda_gripper/LICENSE": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
@@ -103,6 +103,6 @@
     "robotics/assets/panda_gripper/assets/finger_1.obj": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44"
   },
   "inputs_unchanged": true,
-  "scene_sha256": "3202b8a72ccb066ba9502ec047d81984e7b4b4181442a0369ef598fa849a493b",
+  "scene_sha256": "86e19eb7cc198d1f6f40ba776e617aa16342104efc797b866cc7d1364a35cfe6",
   "scene_unchanged": true
 }

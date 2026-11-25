@@ -43,6 +43,21 @@
     <material name="led" rgba="0.2980392157 0.8980392157 0.5215686275 1" specular="0.296" shininess="0.710" />
     <material name="sleeve" rgba="0.8941176471 0.8745098039 0.8196078431 1" specular="0.155" shininess="0.423" />
     <material name="wire" rgba="0.2039215686 0.2196078431 0.2274509804 1" specular="0.160" shininess="0.437" />
+    <mesh name="frame_section_0" vertex="-0.071 0.03 0.18 -0.071 0.03 0.043 -0.071 0.143 0.043 -0.071 0.147 0.069 -0.071 0.054 0.2 0.071 0.03 0.18 0.071 0.03 0.043 0.071 0.143 0.043 0.071 0.147 0.069 0.071 0.054 0.2" />
+    <mesh name="frame_section_1" vertex="-0.071 0.147 0.069 -0.071 0.147 0.289 -0.071 0.14 0.29635 -0.071 0.04766666667 0.2393333333 -0.071 0.0504375 0.234375 0.071 0.147 0.069 0.071 0.147 0.289 0.071 0.14 0.29635 0.071 0.04766666667 0.2393333333 0.071 0.0504375 0.234375" />
+    <mesh name="frame_section_2" vertex="-0.071 0.14 0.29635 -0.071 -0.106 0.29635 -0.071 -0.113 0.289 -0.071 -0.113 0.266 -0.071 -0.106 0.258 -0.071 -0.003 0.258 0.071 0.14 0.29635 0.071 -0.106 0.29635 0.071 -0.113 0.289 0.071 -0.113 0.266 0.071 -0.106 0.258 0.071 -0.003 0.258" />
+    <mesh name="frame_section_3" vertex="-0.071 0.14 0.29635 -0.071 -0.003 0.258 -0.071 0.006104166667 0.2577083333 0.071 0.14 0.29635 0.071 -0.003 0.258 0.071 0.006104166667 0.2577083333" />
+    <mesh name="frame_section_4" vertex="-0.071 0.14 0.29635 -0.071 0.006104166667 0.2577083333 -0.071 0.01441666667 0.2568333333 0.071 0.14 0.29635 0.071 0.006104166667 0.2577083333 0.071 0.01441666667 0.2568333333" />
+    <mesh name="frame_section_5" vertex="-0.071 0.14 0.29635 -0.071 0.01441666667 0.2568333333 -0.071 0.0219375 0.255375 0.071 0.14 0.29635 0.071 0.01441666667 0.2568333333 0.071 0.0219375 0.255375" />
+    <mesh name="frame_section_6" vertex="-0.071 0.14 0.29635 -0.071 0.0219375 0.255375 -0.071 0.02866666667 0.2533333333 0.071 0.14 0.29635 0.071 0.0219375 0.255375 0.071 0.02866666667 0.2533333333" />
+    <mesh name="frame_section_7" vertex="-0.071 0.14 0.29635 -0.071 0.02866666667 0.2533333333 -0.071 0.03460416667 0.2507083333 0.071 0.14 0.29635 0.071 0.02866666667 0.2533333333 0.071 0.03460416667 0.2507083333" />
+    <mesh name="frame_section_8" vertex="-0.071 0.14 0.29635 -0.071 0.03460416667 0.2507083333 -0.071 0.03975 0.2475 0.071 0.14 0.29635 0.071 0.03460416667 0.2507083333 0.071 0.03975 0.2475" />
+    <mesh name="frame_section_9" vertex="-0.071 0.14 0.29635 -0.071 0.03975 0.2475 -0.071 0.04410416667 0.2437083333 0.071 0.14 0.29635 0.071 0.03975 0.2475 0.071 0.04410416667 0.2437083333" />
+    <mesh name="frame_section_10" vertex="-0.071 0.14 0.29635 -0.071 0.04410416667 0.2437083333 -0.071 0.04766666667 0.2393333333 0.071 0.14 0.29635 0.071 0.04410416667 0.2437083333 0.071 0.04766666667 0.2393333333" />
+    <mesh name="frame_section_11" vertex="-0.071 0.147 0.069 -0.071 0.0504375 0.234375 -0.071 0.05241666667 0.2288333333 0.071 0.147 0.069 0.071 0.0504375 0.234375 0.071 0.05241666667 0.2288333333" />
+    <mesh name="frame_section_12" vertex="-0.071 0.147 0.069 -0.071 0.05241666667 0.2288333333 -0.071 0.05360416667 0.2227083333 0.071 0.147 0.069 0.071 0.05241666667 0.2288333333 0.071 0.05360416667 0.2227083333" />
+    <mesh name="frame_section_13" vertex="-0.071 0.147 0.069 -0.071 0.05360416667 0.2227083333 -0.071 0.054 0.216 0.071 0.147 0.069 0.071 0.05360416667 0.2227083333 0.071 0.054 0.216" />
+    <mesh name="frame_section_14" vertex="-0.071 0.147 0.069 -0.071 0.054 0.216 -0.071 0.054 0.2 0.071 0.147 0.069 0.071 0.054 0.216 0.071 0.054 0.2" />
   </asset>
   <worldbody>
     <light name="key" pos=".3 -.5 .88" dir="-.25 .5 -.85" diffuse=".65 .64 .62" castshadow="true" />
@@ -63,13 +78,17 @@
             <geom name="deck_end-1" type="box" pos="0 -0.11675 0.151" size="0.055 0.01825 0.005" class="contact_proxy" contype="4" conaffinity="9" />
             <geom name="deck_side1" type="box" pos="0.080625 -0.062 0.151" size="0.025625 0.073 0.005" class="contact_proxy" contype="4" conaffinity="9" />
             <geom name="deck_end1" type="box" pos="0 -0.00725 0.151" size="0.055 0.01825 0.005" class="contact_proxy" contype="4" conaffinity="9" />
-            <geom name="carrier_side-1" type="box" pos="-0.04475 -0.062 0.1564" size="0.01175 0.039 0.0004" class="contact_proxy" contype="4" conaffinity="9" />
-            <geom name="carrier_end-1" type="box" pos="0 -0.089 0.1564" size="0.033 0.012 0.0004" class="contact_proxy" contype="4" conaffinity="9" />
-            <geom name="carrier_side1" type="box" pos="0.04475 -0.062 0.1564" size="0.01175 0.039 0.0004" class="contact_proxy" contype="4" conaffinity="9" />
-            <geom name="carrier_end1" type="box" pos="0 -0.035 0.1564" size="0.033 0.012 0.0004" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="carrier_side-1" type="box" pos="-0.04475 -0.062 0.15635" size="0.01175 0.039 0.00035" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="carrier_end-1" type="box" pos="0 -0.089 0.15635" size="0.033 0.012 0.00035" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="carrier_side1" type="box" pos="0.04475 -0.062 0.15635" size="0.01175 0.039 0.00035" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="carrier_end1" type="box" pos="0 -0.035 0.15635" size="0.033 0.012 0.00035" class="contact_proxy" contype="4" conaffinity="9" />
             <geom name="stepper_cover" type="box" pos="0.072 -0.094 0.142" size="0.017 0.028 0.0065" class="contact_proxy" />
             <geom name="slide_glass" type="box" pos="0 -0.062 0.1572" size="0.0375 0.0125 0.0005" class="contact_proxy" contype="4" conaffinity="9" />
             <geom name="substrate" type="box" pos="0 -0.062 0.15785" size="0.0065 0.006 0.00015" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="clip_-1" type="box" pos="-0.038 -0.06 0.1584" size="0.0021 0.0115 0.0007" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="holder_pivot_-1" type="cylinder" pos="-0.038 -0.052 0.1593" size="0.0014 0.0005" class="contact_proxy" zaxis="0 0 1" contype="4" conaffinity="9" />
+            <geom name="clip_1" type="box" pos="0.038 -0.06 0.1584" size="0.0021 0.0115 0.0007" class="contact_proxy" contype="4" conaffinity="9" />
+            <geom name="holder_pivot_1" type="cylinder" pos="0.038 -0.052 0.1593" size="0.0014 0.0005" class="contact_proxy" zaxis="0 0 1" contype="4" conaffinity="9" />
             <site name="specimen" pos="0 -0.062 0.158" size=".0008" group="4" rgba=".1 .8 .4 .6" />
           </body>
           <geom name="bearing_side-1" type="box" pos="-0.07125 -0.062 0.142" size="0.01725 0.058 0.0035" class="contact_proxy" contype="4" conaffinity="9" />
@@ -127,10 +146,16 @@
         <site name="tip_0" pos="0 -0.05614370902 -0.05508124516" size=".0008" group="4" rgba=".1 .8 .4 .6" />
         <geom name="objective_0_barrel" type="cylinder" pos="0 -0.04395919874 -0.02333951066" size="0.01235 0.025" class="contact_proxy" zaxis="0 -0.3583679495 -0.9335804265" contype="8" conaffinity="5" />
         <geom name="objective_0_nose" type="cylinder" pos="0 -0.05453105325 -0.05088013324" size="0.00825 0.0045" class="contact_proxy" zaxis="0 -0.3583679495 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_0_front_shoulder" type="cylinder" pos="0 -0.05313341825 -0.04723916958" size="0.01185 0.0011" class="contact_proxy" zaxis="0 -0.3583679495 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_0_front_sleeve" type="cylinder" pos="0 -0.05433395088 -0.05036666401" size="0.0109 0.00235" class="contact_proxy" zaxis="0 -0.3583679495 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_0_front_glass" type="cylinder" pos="0 -0.05617237846 -0.0551559316" size="0.0044 0.00018" class="contact_proxy" zaxis="0 -0.3583679495 -0.9335804265" contype="8" conaffinity="5" />
         <site name="seat_1" pos="-0.02736410189 -0.02182214307 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
         <site name="tip_1" pos="-0.04399298343 -0.03508323358 -0.05540799831" size=".0008" group="4" rgba=".1 .8 .4 .6" />
         <geom name="objective_1_barrel" type="cylinder" pos="-0.0344177176 -0.02744721389 -0.02350288724" size="0.01235 0.025175" class="contact_proxy" zaxis="-0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
         <geom name="objective_1_nose" type="cylinder" pos="-0.04273215837 -0.03407775915 -0.05120688639" size="0.00825 0.0045" class="contact_proxy" zaxis="-0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_1_front_shoulder" type="cylinder" pos="-0.04163944333 -0.03320634798 -0.04756592273" size="0.01185 0.0011" class="contact_proxy" zaxis="-0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_1_front_sleeve" type="cylinder" pos="-0.04257805753 -0.03395486783 -0.05069341716" size="0.0109 0.00235" class="contact_proxy" zaxis="-0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_1_front_glass" type="cylinder" pos="-0.0440153981 -0.03510110868 -0.05548268475" size="0.0044 0.00018" class="contact_proxy" zaxis="-0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
         <site name="seat_2" pos="-0.03412247693 0.007788232688 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
         <site name="tip_2" pos="-0.03621877443 0.008266698913 -0.005601482559" size=".0008" group="4" rgba=".1 .8 .4 .6" />
         <geom name="cap_2" type="cylinder" pos="-0.03517062568 0.008027465801 -0.002800741279" size="0.0123 0.003" class="contact_proxy" zaxis="-0.3493829168 0.07974437083 -0.9335804265" />
@@ -144,10 +169,16 @@
         <site name="tip_5" pos="0.04914594235 0.01121724063 -0.04014395834" size=".0008" group="4" rgba=".1 .8 .4 .6" />
         <geom name="objective_5_barrel" type="cylinder" pos="0.04006198651 0.009143886993 -0.01587086725" size="0.01235 0.017" class="contact_proxy" zaxis="0.3493829168 0.07974437083 -0.9335804265" contype="8" conaffinity="5" />
         <geom name="objective_5_nose" type="cylinder" pos="0.04757371922 0.01085839097 -0.03594284642" size="0.00825 0.0045" class="contact_proxy" zaxis="0.3493829168 0.07974437083 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_5_front_shoulder" type="cylinder" pos="0.04621112585 0.01054738792 -0.03230188276" size="0.01185 0.0011" class="contact_proxy" zaxis="0.3493829168 0.07974437083 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_5_front_sleeve" type="cylinder" pos="0.04738155862 0.01081453156 -0.03542937719" size="0.0109 0.00235" class="contact_proxy" zaxis="0.3493829168 0.07974437083 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_5_front_glass" type="cylinder" pos="0.04917389298 0.01122362018 -0.04021864477" size="0.0044 0.00018" class="contact_proxy" zaxis="0.3493829168 0.07974437083 -0.9335804265" contype="8" conaffinity="5" />
         <site name="seat_6" pos="0.02736410189 -0.02182214307 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
         <site name="tip_6" pos="0.04193363584 -0.03344095868 -0.04854618218" size=".0008" group="4" rgba=".1 .8 .4 .6" />
         <geom name="objective_6_barrel" type="cylinder" pos="0.03338804381 -0.02662607644 -0.02007197917" size="0.01235 0.0215" class="contact_proxy" zaxis="0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
         <geom name="objective_6_nose" type="cylinder" pos="0.04067281079 -0.03243548425 -0.04434507026" size="0.00825 0.0045" class="contact_proxy" zaxis="0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_6_front_shoulder" type="cylinder" pos="0.03958009574 -0.03156407308 -0.0407041066" size="0.01185 0.0011" class="contact_proxy" zaxis="0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_6_front_sleeve" type="cylinder" pos="0.04051870995 -0.03231259293 -0.04383160102" size="0.0109 0.00235" class="contact_proxy" zaxis="0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
+        <geom name="objective_6_front_glass" type="cylinder" pos="0.04195605051 -0.03345883378 -0.04862086861" size="0.0044 0.00018" class="contact_proxy" zaxis="0.2801833453 -0.2234387619 -0.9335804265" contype="8" conaffinity="5" />
       </body>
       <body name="light_path_selector" pos="0.061 -0.065 0.355" euler="0 0 0">
         <joint name="light_path_travel" type="slide" axis="1 0 0" range="0 .012" damping="2" frictionloss="0.15" />
@@ -157,16 +188,29 @@
       </body>
       <geom name="shell_base" type="box" pos="0 -0.001 0.026" size="0.0755 0.139 0.019" class="contact_proxy" />
       <geom name="shell_stabilizer" type="box" pos="0 0.102 0.024" size="0.115 0.0335 0.0175" class="contact_proxy" />
-      <geom name="shell_column" type="box" pos="0 0.089 0.15" size="0.0705 0.056 0.103" class="contact_proxy" />
-      <geom name="shell_bridge" type="box" pos="0 0.016 0.272" size="0.071 0.1255 0.03" class="contact_proxy" />
       <geom name="shell_epi_roof" type="box" pos="0 0.015 0.319" size="0.0725 0.126 0.0195" class="contact_proxy" />
       <geom name="shell_head" type="box" pos="0 -0.081 0.359" size="0.056 0.05 0.024" class="contact_proxy" />
       <geom name="shell_binocular_prism" type="box" pos="0 -0.152 0.332" size="0.0505 0.0235 0.0195" class="contact_proxy" />
       <geom name="shell_camera_body" type="box" pos="0 -0.076 0.479" size="0.023 0.026 0.017" class="contact_proxy" />
-      <geom name="shell_gearbox" type="box" pos="0 -0.049 0.244" size="0.0475 0.0435 0.0125" class="contact_proxy" />
       <geom name="shell_dic_module" type="box" pos="0.076 -0.057 0.25" size="0.0145 0.0335 0.0205" class="contact_proxy" />
       <geom name="shell_illuminator" type="box" pos="0 0.222 0.274" size="0.0265 0.014 0.021" class="contact_proxy" />
       <geom name="shell_lower_lamp" type="box" pos="0 0.164 0.044" size="0.035 0.022 0.0335" class="contact_proxy" />
+      <geom name="shell_frame_section_0" type="mesh" mesh="frame_section_0" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_1" type="mesh" mesh="frame_section_1" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_2" type="mesh" mesh="frame_section_2" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_3" type="mesh" mesh="frame_section_3" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_4" type="mesh" mesh="frame_section_4" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_5" type="mesh" mesh="frame_section_5" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_6" type="mesh" mesh="frame_section_6" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_7" type="mesh" mesh="frame_section_7" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_8" type="mesh" mesh="frame_section_8" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_9" type="mesh" mesh="frame_section_9" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_10" type="mesh" mesh="frame_section_10" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_11" type="mesh" mesh="frame_section_11" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_12" type="mesh" mesh="frame_section_12" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_13" type="mesh" mesh="frame_section_13" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="shell_frame_section_14" type="mesh" mesh="frame_section_14" contype="4" conaffinity="9" class="contact_proxy" />
+      <geom name="nosepiece_bearing_housing" type="cylinder" pos="0 -0.03810469984 0.2554155987" size="0.037 0.0065" class="contact_proxy" zaxis="0 -0.3583679495 0.9335804265" contype="4" conaffinity="9" />
       <geom name="camera_adapter" type="cylinder" pos="0 -0.076 0.424" size="0.021 0.0365" class="contact_proxy" zaxis="0 0 1" />
       <geom name="eyepiece_-1" type="cylinder" pos="-0.031 -0.1867083196 0.3389967654" size="0.02 0.037" class="contact_proxy" zaxis="0 -0.9396926208 0.3420201433" />
       <geom name="eyepiece_1" type="cylinder" pos="0.031 -0.1867083196 0.3389967654" size="0.02 0.037" class="contact_proxy" zaxis="0 -0.9396926208 0.3420201433" />

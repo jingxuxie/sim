@@ -61,6 +61,8 @@
       <geom name="base__Microscope_mounting_foot" type="box" pos="-0.1 0.122 0.039" size="0.09 0.06 0.015" class="contact" />
       <geom name="base__Wide_black_microscope_extrusion" type="box" pos="-0.105 0.142 0.258" size="0.065 0.027 0.205" class="contact" />
       <geom name="base__Head_focus_guide" type="box" pos="-0.105 0.117 0.37" size="0.058 0.0235 0.0995" class="contact" />
+      <geom name="base__Motic_fixed_focus_guide_rail" type="box" pos="-0.157 0.09 0.37" size="0.004 0.0035 0.0825" class="contact" />
+      <geom name="base__Motic_fixed_focus_guide_rail_2" type="box" pos="-0.053 0.09 0.37" size="0.004 0.0035 0.0825" class="contact" />
       <geom name="base__sample_x_fixed_sole" type="box" pos="-0.105 -0.02 0.0295" size="0.056 0.051 0.0025" class="contact" />
       <geom name="base__sample_x_actuator_mounting_extension" type="box" pos="-0.171 -0.02 0.03" size="0.012 0.0095 0.0025" class="contact" />
       <geom name="base__sample_x_clamp_side" type="box" pos="-0.182 -0.009425000191 0.04" size="0.009 0.001425 0.0115" class="contact" />
@@ -92,7 +94,7 @@
       <body name="scope_focus" pos="-0.105 0.044 0.364" euler="0 0 0" gravcomp="1">
         <joint name="scope_focus_travel" type="slide" axis="0 0 1" damping="30" frictionloss="8.0" range="-0.025 0.025" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="3" pos="0 0 0" diaginertia="0.003675 0.003675 0.003675" />
-        <geom name="scope_focus__Motic_focus_carriage_bridge" type="box" pos="0 0.053 0.005" size="0.054 0.031 0.052" class="contact" />
+        <geom name="scope_focus__Motic_focus_carriage_bridge" type="box" pos="0 0.036 0.005" size="0.047 0.01 0.052" class="contact" />
         <geom name="scope_focus__Motic_optical_envelope" type="box" pos="0 -0.028 0" size="0.056 0.056 0.069" class="contact" />
         <geom name="scope_focus__Nosepiece_stationary_dovetail_bearing" type="cylinder" pos="0 -0.04425487111 -0.07105579445" size="0.031 0.011" zaxis="0 -0.3206129906 0.9472102777" class="contact" />
         <site name="optical_axis" pos="0 -0.064 -0.09" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -182,6 +184,10 @@
               <geom name="sample_theta__Preload_knurled_socket_head_3" type="cylinder" contype="18" conaffinity="9" pos="0 -0.025 0.0377" size="0.0048 0.003" zaxis="0 0 1" class="contact" />
               <geom name="sample_theta__Heater_support" type="box" contype="18" conaffinity="9" pos="0 0 0.027" size="0.033 0.029 0.007" class="contact" />
               <geom name="sample_theta__Heated_workholder" type="box" contype="18" conaffinity="9" pos="0 0 0.041" size="0.0215 0.0195 0.007" class="contact" />
+              <geom name="sample_theta__Heater_clamp_washer" type="cylinder" contype="18" conaffinity="9" pos="-0.017 0 0.0487" size="0.0045 0.0006" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Heater_knurled_clamp_screw" type="cylinder" contype="18" conaffinity="9" pos="-0.017 0 0.0515" size="0.0037 0.0025" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Heater_clamp_washer_2" type="cylinder" contype="18" conaffinity="9" pos="0.017 0 0.0487" size="0.0045 0.0006" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Heater_knurled_clamp_screw_2" type="cylinder" contype="18" conaffinity="9" pos="0.017 0 0.0515" size="0.0037 0.0025" zaxis="0 0 1" class="contact" />
               <geom name="sample_theta__device_chip" type="box" contype="18" conaffinity="9" pos="0 0 0.049" size="0.005 0.005 0.00025" class="contact" />
               <site name="device_chip_center" pos="0 0 0.04925" size=".0006" group="4" rgba=".1 .8 .4 1" />
               <site name="transfer_target" pos="0 0 0.04925" size=".0006" group="4" rgba=".1 .8 .4 1" />

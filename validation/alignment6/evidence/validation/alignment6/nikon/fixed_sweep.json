@@ -1,0 +1,4962 @@
+{
+  "asset": "nikon",
+  "revision": "alignment6",
+  "script_sha256": "15649280d465be9cf897506f236a19d2d0a0b01c9c5980d57b681d0c51504356",
+  "audit_library_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Evaluated detailed objective barrels/guards/front glass against every fixed stand mesh, with triangle intersection and three-ray containment witnesses. Sample 73 angles plus every exact fitted/empty indexed position at retracted focus.",
+  "versions": {
+    "before": {
+      "source": "validation/alignment6/nikon/before/e1000.blend",
+      "sha256": "2b1c792e7a16f61dd2a4b6514b42a5bb0c9aae97db7e7813dd15baf03c0d2b19",
+      "samples": [
+        {
+          "kind": "sweep",
+          "angle_rad": -3.141592653589793,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                25.200005800597744,
+                58.20596017680312,
+                60.707642616597084
+              ],
+              "triangle_pairs": 293
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                37.18864394539234,
+                17.87759340129935,
+                19.737390243483198
+              ],
+              "triangle_pairs": 94
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.734373851582085,
+                61.08801323528623,
+                67.72381060944399
+              ],
+              "triangle_pairs": 148
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649471617331557,
+                42.24517253445303,
+                6.431528955164967
+              ],
+              "triangle_pairs": 60
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                37.18864767068264,
+                17.877589676009052,
+                19.73739099450178
+              ],
+              "triangle_pairs": 94
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.67502274997104,
+                57.09576483872469,
+                61.90629227336686
+              ],
+              "triangle_pairs": 94
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -3.0543261909900767,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                28.997355015559897,
+                60.09771024061678,
+                61.49148519009362
+              ],
+              "triangle_pairs": 298
+            },
+            {
+              "moving": "Port 2 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.38105468564458,
+                18.816710735578056,
+                14.416442647234934
+              ],
+              "triangle_pairs": 11
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                39.34917446159525,
+                15.776628235840917,
+                20.580761290459826
+              ],
+              "triangle_pairs": 85
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.82425448396355,
+                62.49003746953497,
+                67.25939547252202
+              ],
+              "triangle_pairs": 193
+            },
+            {
+              "moving": "Port 2 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.111210562964894,
+                10.312061118915874,
+                7.540230045429475
+              ],
+              "triangle_pairs": 10
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.246297949818366,
+                42.33905635022561,
+                4.917411432379726
+              ],
+              "triangle_pairs": 38
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                35.106593764438585,
+                20.01150526935236,
+                18.787632889079475
+              ],
+              "triangle_pairs": 106
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.06372500032896,
+                55.52870882334826,
+                62.24657056495975
+              ],
+              "triangle_pairs": 83
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.9670597283903604,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                32.574006394140405,
+                61.65768001994187,
+                62.262863967400996
+              ],
+              "triangle_pairs": 301
+            },
+            {
+              "moving": "Port 2 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.355380721916756,
+                18.775527741529906,
+                14.363325394371602
+              ],
+              "triangle_pairs": 14
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                41.57172435185541,
+                13.72460700395628,
+                21.311333327200032
+              ],
+              "triangle_pairs": 78
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.53494780718237,
+                63.54295618863848,
+                66.74094433584044
+              ],
+              "triangle_pairs": 239
+            },
+            {
+              "moving": "Port 2 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.119526456055214,
+                10.267372751321165,
+                7.517479846700481
+              ],
+              "triangle_pairs": 10
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                30.982035532858276,
+                42.24483642693855,
+                3.4097214522298414
+              ],
+              "triangle_pairs": 25
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                33.11887247207756,
+                22.16211100649268,
+                17.73872285293654
+              ],
+              "triangle_pairs": 127
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.079020377759576,
+                53.64683235562539,
+                62.522207457925695
+              ],
+              "triangle_pairs": 67
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.8797932657906435,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                35.90276674054687,
+                4.296704932194695,
+                23.11445061908246
+              ],
+              "triangle_pairs": 11
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                35.90276674054687,
+                62.87400382911778,
+                63.01591203931237
+              ],
+              "triangle_pairs": 310
+            },
+            {
+              "moving": "Port 2 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.167180183565094,
+                18.58270361433706,
+                14.25551581266371
+              ],
+              "triangle_pairs": 18
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                43.83940658615404,
+                11.737124515935227,
+                21.923525156577416
+              ],
+              "triangle_pairs": 72
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.87625472142326,
+                64.23876554051677,
+                66.1723971440885
+              ],
+              "triangle_pairs": 309
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                31.24058898470816,
+                24.313069477980786,
+                16.598615513412128
+              ],
+              "triangle_pairs": 142
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.72079537151674,
+                51.46443342808349,
+                62.73110588209674
+              ],
+              "triangle_pairs": 59
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.792526803190927,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                38.95826927018431,
+                5.844495723079768,
+                23.050504756999825
+              ],
+              "triangle_pairs": 52
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                38.95826927018431,
+                63.73740612075984,
+                63.74488817872936
+              ],
+              "triangle_pairs": 316
+            },
+            {
+              "moving": "Port 2 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.81788548945062,
+                18.239712758349125,
+                14.093836183966534
+              ],
+              "triangle_pairs": 21
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                44.86081418359172,
+                9.829334120336487,
+                22.412696276897627
+              ],
+              "triangle_pairs": 63
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                44.86081418359172,
+                64.5721738604379,
+                65.55808748895109
+              ],
+              "triangle_pairs": 352
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.486058505470037,
+                26.447981020364665,
+                15.376034582563868
+              ],
+              "triangle_pairs": 136
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                47.99177600053173,
+                48.998144634084476,
+                62.871671008011496
+              ],
+              "triangle_pairs": 28
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.705260340591211,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                41.71729178975464,
+                7.516817569192202,
+                22.85496825867128
+              ],
+              "triangle_pairs": 54
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                41.71729178975464,
+                64.24132947147476,
+                64.44425517483965
+              ],
+              "triangle_pairs": 332
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.50394261451235,
+                8.015729506281822,
+                22.775106565315838
+              ],
+              "triangle_pairs": 54
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                42.50394261451235,
+                64.54062959281282,
+                64.90267913015846
+              ],
+              "triangle_pairs": 334
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.868616578609505,
+                28.55062368448641,
+                14.080229813266843
+              ],
+              "triangle_pairs": 116
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.897505652399914,
+                46.26671173656061,
+                62.942836282222416
+              ],
+              "triangle_pairs": 12
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.6179938779914944,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.688840190994547,
+                18.11446921197199,
+                14.037909633468598
+              ],
+              "triangle_pairs": 17
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                44.15881283328776,
+                9.300933941086997,
+                22.529315422505803
+              ],
+              "triangle_pairs": 60
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                44.15881283328776,
+                64.38193391130854,
+                65.1086865922843
+              ],
+              "triangle_pairs": 347
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                39.823599773032626,
+                6.310130222508037,
+                23.008020210455836
+              ],
+              "triangle_pairs": 62
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                39.823599773032626,
+                64.14438283299417,
+                64.21117231953943
+              ],
+              "triangle_pairs": 321
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.400588086122777,
+                30.604980680439763,
+                12.72111148517363
+              ],
+              "triangle_pairs": 104
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.5307274153917776,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.083727718474506,
+                18.4999387016479,
+                14.21477325955886
+              ],
+              "triangle_pairs": 20
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                44.493189700761214,
+                11.18326808058856,
+                22.076024457538534
+              ],
+              "triangle_pairs": 69
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.26425845072052,
+                64.15815273157976,
+                65.73312532825514
+              ],
+              "triangle_pairs": 338
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                36.84017307213411,
+                4.725512599848325,
+                23.109657885641678
+              ],
+              "triangle_pairs": 14
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                36.84017307213411,
+                63.38644666769944,
+                63.488825301699634
+              ],
+              "triangle_pairs": 311
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.09313619765996,
+                34.46361490153321,
+                11.308984198447725
+              ],
+              "triangle_pairs": 96
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.443460952792061,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.31815477102685,
+                18.735867621250847,
+                14.338076079484118
+              ],
+              "triangle_pairs": 15
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.21578183004859,
+                13.149498910626223,
+                21.498540196255746
+              ],
+              "triangle_pairs": 73
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.01760508254066,
+                63.571682542824526,
+                66.31281954515744
+              ],
+              "triangle_pairs": 254
+            },
+            {
+              "moving": "Port 1 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.104946733508786,
+                10.23881018836298,
+                7.505011986660537
+              ],
+              "triangle_pairs": 10
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                33.576369544017716,
+                62.272593753702424,
+                62.741129807570296
+              ],
+              "triangle_pairs": 303
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.584459086400834,
+                38.29073262672428,
+                9.854628770544881
+              ],
+              "triangle_pairs": 87
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.356194490192345,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.3903377511383,
+                18.820457340999713,
+                14.40687932006951
+              ],
+              "triangle_pairs": 12
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                39.97858996327164,
+                15.184656164248578,
+                20.801269144429813
+              ],
+              "triangle_pairs": 81
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.40550704221014,
+                62.62699245391246,
+                66.84335312262513
+              ],
+              "triangle_pairs": 208
+            },
+            {
+              "moving": "Port 1 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.12300760843657,
+                10.308082835101622,
+                7.5370531580787326
+              ],
+              "triangle_pairs": 10
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                30.057031257174295,
+                60.811290108988445,
+                61.973788899360116
+              ],
+              "triangle_pairs": 296
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.819974448133998,
+                42.02006515825934,
+                8.36908861912522
+              ],
+              "triangle_pairs": 75
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.2689280275926285,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.29972896362681,
+                18.75306937593993,
+                14.42066079693005
+              ],
+              "triangle_pairs": 15
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                37.79864156791169,
+                17.273251339010145,
+                19.98951060795262
+              ],
+              "triangle_pairs": 92
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.41740798877959,
+                61.33127517239312,
+                67.32069560621667
+              ],
+              "triangle_pairs": 166
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                26.308943742575252,
+                59.01367772533104,
+                61.19263494897087
+              ],
+              "triangle_pairs": 292
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.22048179508041,
+                44.598314351078194,
+                6.863690057432925
+              ],
+              "triangle_pairs": 61
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.181661564992912,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                35.69252533491252,
+                19.39939570522653,
+                19.069441791674357
+              ],
+              "triangle_pairs": 101
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.045595965821036,
+                59.694380259210035,
+                67.74120924076365
+              ],
+              "triangle_pairs": 87
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                27.94149509416671,
+                59.824451427480525,
+                61.52872901837236
+              ],
+              "triangle_pairs": 294
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                28.77533525435494,
+                44.490913553083104,
+                5.349873943955863
+              ],
+              "triangle_pairs": 57
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.0943951023931957,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                33.676265284730114,
+                21.546908849014113,
+                18.048073471429227
+              ],
+              "triangle_pairs": 120
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.28530185042657,
+                57.728774825395405,
+                68.10169895482932
+              ],
+              "triangle_pairs": 71
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                31.594957104978285,
+                61.479469099199214,
+                62.30469378235814
+              ],
+              "triangle_pairs": 298
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                30.47269330780178,
+                44.20194797917976,
+                3.8391548711233514
+              ],
+              "triangle_pairs": 29
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.007128639793479,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                31.76522449688912,
+                23.699429133106133,
+                16.933174737210898
+              ],
+              "triangle_pairs": 144
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.13469559513495,
+                55.44942424528598,
+                68.3994108586714
+              ],
+              "triangle_pairs": 58
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                35.00793733737956,
+                3.8790208406627724,
+                23.10844347493257
+              ],
+              "triangle_pairs": 5
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                35.00793733737956,
+                62.793065201017015,
+                63.06431893350003
+              ],
+              "triangle_pairs": 306
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.9198621771937625,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.97392607252902,
+                25.840595245149533,
+                15.733218901956668
+              ],
+              "triangle_pairs": 142
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.594919576732345,
+                52.87365932756294,
+                68.63209083561195
+              ],
+              "triangle_pairs": 52
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                38.15450108807914,
+                5.389030544279527,
+                23.082250629480217
+              ],
+              "triangle_pairs": 41
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                38.15450108807914,
+                63.75526132597087,
+                63.80183406601314
+              ],
+              "triangle_pairs": 315
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.8325957145940461,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                28.316016528210586,
+                27.954100065401278,
+                14.457364845293363
+              ],
+              "triangle_pairs": 123
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.6700901876963,
+                50.021100080905654,
+                68.79795944848
+              ],
+              "triangle_pairs": 18
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                41.010680243614374,
+                7.027026366930644,
+                22.92420547151136
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                41.010680243614374,
+                64.35873013731918,
+                64.51162507167297
+              ],
+              "triangle_pairs": 327
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.7453292519943295,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.804105724657912,
+                30.02386561529835,
+                13.115290352988751
+              ],
+              "triangle_pairs": 106
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                43.55475089868632,
+                8.78055324122695,
+                22.63551223674304
+              ],
+              "triangle_pairs": 61
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                43.55475089868632,
+                64.5988778002835,
+                65.18829186170227
+              ],
+              "triangle_pairs": 342
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.658062789394613,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.44970475126626,
+                33.35625423768976,
+                11.717232689832935
+              ],
+              "triangle_pairs": 98
+            },
+            {
+              "moving": "Port 2 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.987166904307056,
+                18.404957030012188,
+                14.16965564201203
+              ],
+              "triangle_pairs": 32
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                45.14884250796869,
+                10.636257041262809,
+                22.218374377652395
+              ],
+              "triangle_pairs": 69
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                45.767339271384046,
+                64.47388582153191,
+                65.82667778464568
+              ],
+              "triangle_pairs": 365
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.5707963267948966,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.263118188632014,
+                37.20598529493368,
+                10.273828954555864
+              ],
+              "triangle_pairs": 88
+            },
+            {
+              "moving": "Port 2 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.267674844988385,
+                18.68384354239283,
+                14.308375036658937
+              ],
+              "triangle_pairs": 15
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.86311830795753,
+                12.58001727149849,
+                21.67597480602779
+              ],
+              "triangle_pairs": 72
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                47.63160859542126,
+                63.984690360407996,
+                66.42192862901064
+              ],
+              "triangle_pairs": 276
+            },
+            {
+              "moving": "Port 2 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.082841046423612,
+                10.203253501243875,
+                7.489903914773166
+              ],
+              "triangle_pairs": 11
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.4835298641951802,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.449703718615712,
+                40.966194077565966,
+                8.79606048657433
+              ],
+              "triangle_pairs": 77
+            },
+            {
+              "moving": "Port 2 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.386324283765315,
+                18.811790635196612,
+                14.3928213973048
+              ],
+              "triangle_pairs": 12
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                40.61268213993907,
+                14.597038214185343,
+                21.012425488301623
+              ],
+              "triangle_pairs": 79
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.13337640606452,
+                63.13502408927674,
+                66.9695145607585
+              ],
+              "triangle_pairs": 219
+            },
+            {
+              "moving": "Port 2 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.127268808110534,
+                10.297069214086713,
+                7.5312160269496164
+              ],
+              "triangle_pairs": 10
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.3962634015954636,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.804101623858323,
+                44.608257434775254,
+                7.295168853243328
+              ],
+              "triangle_pairs": 65
+            },
+            {
+              "moving": "Port 2 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.342210767808652,
+                18.787823176429296,
+                14.422353354115042
+              ],
+              "triangle_pairs": 12
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                38.414663124114455,
+                16.671975619038548,
+                20.232774955736165
+              ],
+              "triangle_pairs": 89
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.26120827067682,
+                61.931352952993905,
+                67.46526990642687
+              ],
+              "triangle_pairs": 178
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.308996938995747,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                28.316015401682716,
+                46.27600489377226,
+                5.782574277917785
+              ],
+              "triangle_pairs": 57
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                36.28578591258113,
+                18.78903477672056,
+                19.342977938837215
+              ],
+              "triangle_pairs": 98
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.00651939452505,
+                60.3828302018028,
+                67.90541678935247
+              ],
+              "triangle_pairs": 99
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.2217304763960308,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.973926448038313,
+                45.843900042193575,
+                4.269810846721955
+              ],
+              "triangle_pairs": 33
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                34.242261544287665,
+                20.932100963606757,
+                18.349794438809354
+              ],
+              "triangle_pairs": 116
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.36364422038176,
+                58.50124773606113,
+                68.28660726419655
+              ],
+              "triangle_pairs": 75
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.1344640137963142,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                31.76522337036125,
+                45.23775282716147,
+                2.768361043072931
+              ],
+              "triangle_pairs": 14
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                32.29963488992382,
+                23.084863549085455,
+                17.260774450885474
+              ],
+              "triangle_pairs": 144
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.32986088282021,
+                56.30093054193919,
+                68.60594025360544
+              ],
+              "triangle_pairs": 62
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.0471975511965979,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                30.47268808047432,
+                25.230947064681043,
+                16.08421764774426
+              ],
+              "triangle_pairs": 144
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.905422491712926,
+                53.79860986316054,
+                68.86099004519176
+              ],
+              "triangle_pairs": 65
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.959931088596881,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                28.775336005373518,
+                27.354008302999333,
+                14.82908171948727
+              ],
+              "triangle_pairs": 127
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.093564916597,
+                51.01334239945099,
+                69.04980532295868
+              ],
+              "triangle_pairs": 23
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.8726646259971647,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.22048179508041,
+                29.43789625188825,
+                13.504908499641143
+              ],
+              "triangle_pairs": 110
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.7853981633974483,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.819974448133998,
+                32.24398065155681,
+                12.121785526121531
+              ],
+              "triangle_pairs": 100
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.6981317007977319,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.584459086400834,
+                36.11393089805998,
+                10.690221831112346
+              ],
+              "triangle_pairs": 91
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.6108652381980151,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.09313619765996,
+                39.90267007174225,
+                9.221135173749895
+              ],
+              "triangle_pairs": 83
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                30.72606036318115,
+                42.26980487920295,
+                3.624266811749044
+              ],
+              "triangle_pairs": 27
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.5235987755982991,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.40058996366923,
+                43.58136678252001,
+                7.725678244897782
+              ],
+              "triangle_pairs": 69
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.009378377858553,
+                42.337164497562085,
+                5.133591502697099
+              ],
+              "triangle_pairs": 58
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.43633231299858233,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.868617329628087,
+                46.45662416854679,
+                6.215267974749583
+              ],
+              "triangle_pairs": 59
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.433424196027456,
+                42.216431725640824,
+                6.647666810224995
+              ],
+              "triangle_pairs": 62
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.34906585039886595,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.486057003432876,
+                46.06509149952348,
+                4.701376678151292
+              ],
+              "triangle_pairs": 36
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.010184231745892,
+                41.90852485092822,
+                8.154981846330124
+              ],
+              "triangle_pairs": 74
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.26179938779914913,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                31.24059308550775,
+                45.49872036972247,
+                3.195511026081066
+              ],
+              "triangle_pairs": 22
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.75049251485284,
+                38.83015633784026,
+                9.644049120828392
+              ],
+              "triangle_pairs": 85
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.17453292519943275,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.92005133140229,
+                35.01524020294622,
+                11.103550224048742
+              ],
+              "triangle_pairs": 95
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.08726646259971638,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.20372406114102,
+                31.127470083661983,
+                12.52237701364467
+              ],
+              "triangle_pairs": 102
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.0,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649472743859427,
+                28.84742804845908,
+                13.889706990629191
+              ],
+              "triangle_pairs": 114
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                43.56736863133703,
+                42.1749303250154,
+                55.36035021366836
+              ],
+              "triangle_pairs": 6
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.08726646259971638,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.246294224528068,
+                26.750714098590144,
+                15.195174841544201
+              ],
+              "triangle_pairs": 133
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                44.78771756088429,
+                44.68927799957723,
+                55.39638944491032
+              ],
+              "triangle_pairs": 26
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.17453292519943275,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                30.982040009167157,
+                24.6194160741125,
+                16.428799178392794
+              ],
+              "triangle_pairs": 142
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                45.667199689117254,
+                46.948370124060276,
+                55.36021977689032
+              ],
+              "triangle_pairs": 59
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.26179938779914913,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                32.84349606950976,
+                22.46975566936471,
+                17.58123635309927
+              ],
+              "triangle_pairs": 132
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.199130908797905,
+                48.93501665838318,
+                55.252120469169164
+              ],
+              "triangle_pairs": 67
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                31.24059308550775,
+                44.02302164984518,
+                3.195511026081066
+              ],
+              "triangle_pairs": 22
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.34906585039886595,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                34.816497799502024,
+                20.318090015404966,
+                18.643685537113043
+              ],
+              "triangle_pairs": 110
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.37945894998197,
+                50.634092863548034,
+                55.072913600853646
+              ],
+              "triangle_pairs": 80
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.486057003432876,
+                44.38921252234596,
+                4.701376678151292
+              ],
+              "triangle_pairs": 36
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.4363323129985819,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                36.88602568374111,
+                18.180797388107184,
+                19.60806314844188
+              ],
+              "triangle_pairs": 95
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.206809758397746,
+                52.032674216761166,
+                54.82395690611885
+              ],
+              "triangle_pairs": 94
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.868617329628087,
+                44.57460444305595,
+                6.215267974749583
+              ],
+              "triangle_pairs": 59
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.5235987755982991,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                39.03633290208086,
+                16.074142436099503,
+                20.467043168234444
+              ],
+              "triangle_pairs": 86
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                45.68250193169365,
+                53.12011510744918,
+                54.50715198772937
+              ],
+              "triangle_pairs": 109
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.40058996366923,
+                43.58136678252001,
+                7.725678244897782
+              ],
+              "triangle_pairs": 69
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.6108652381980151,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                41.25105457898614,
+                14.014156317314619,
+                21.2140858165748
+              ],
+              "triangle_pairs": 76
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                44.81051703930533,
+                53.88813325532116,
+                54.12490618198618
+              ],
+              "triangle_pairs": 127
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.09313619765996,
+                39.90267007174225,
+                9.221135173749895
+              ],
+              "triangle_pairs": 83
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.6981317007977315,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                43.51333571894389,
+                12.01652001246778,
+                21.843501099974738
+              ],
+              "triangle_pairs": 73
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                43.597500340693315,
+                54.33088778649653,
+                53.68013275542227
+              ],
+              "triangle_pairs": 218
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.584459086400834,
+                36.11393089805998,
+                10.690221831112346
+              ],
+              "triangle_pairs": 91
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.7853981633974483,
+          "intersections": [
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.877561196168973,
+                18.297818013340628,
+                14.120190366239433
+              ],
+              "triangle_pairs": 26
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.05268168997611,
+                10.096436794957642,
+                22.350491074046964
+              ],
+              "triangle_pairs": 61
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                42.05268168997611,
+                54.445009202720215,
+                53.17621014118457
+              ],
+              "triangle_pairs": 282
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.819974448133998,
+                32.24398065155681,
+                12.121785526121531
+              ],
+              "triangle_pairs": 100
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.8726646259971647,
+          "intersections": [
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.392254207762264,
+                17.828142990079233,
+                13.913300327667855
+              ],
+              "triangle_pairs": 26
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                40.18781486436007,
+                8.268519360530746,
+                22.73120982365917
+              ],
+              "triangle_pairs": 56
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                40.18781486436007,
+                54.22963163939754,
+                52.61697756405282
+              ],
+              "triangle_pairs": 269
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.637732902840147,
+                9.670635978870578,
+                7.275460758000674
+              ],
+              "triangle_pairs": 16
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.22048179508041,
+                29.43789625188825,
+                13.504908499641143
+              ],
+              "triangle_pairs": 110
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.9599310885968819,
+          "intersections": [
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                19.7517514320784,
+                17.21403715996325,
+                13.655143141231562
+              ],
+              "triangle_pairs": 28
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                38.01709791742935,
+                6.546677454642436,
+                22.982763719232914
+              ],
+              "triangle_pairs": 66
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                38.01709791742935,
+                53.68639098208483,
+                52.0066903727161
+              ],
+              "triangle_pairs": 259
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.296169226562665,
+                9.302572403818221,
+                7.130810584601077
+              ],
+              "triangle_pairs": 16
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                28.775336005373518,
+                27.354008302999333,
+                14.82908171948727
+              ],
+              "triangle_pairs": 127
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                47.56709828714855,
+                47.85881753300381,
+                62.91071249326996
+              ],
+              "triangle_pairs": 23
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.0471975511965974,
+          "intersections": [
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                18.960923748865522,
+                16.46017798564256,
+                13.347685128434678
+              ],
+              "triangle_pairs": 27
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                35.55704380725771,
+                4.944014240840566,
+                23.103210290215724
+              ],
+              "triangle_pairs": 26
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                35.55704380725771,
+                52.819422971061016,
+                51.349994719718794
+              ],
+              "triangle_pairs": 257
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                10.86863364917799,
+                8.856027001259298,
+                6.956685806494834
+              ],
+              "triangle_pairs": 12
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                30.47268808047432,
+                25.230947064681043,
+                16.08421764774426
+              ],
+              "triangle_pairs": 144
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.453496280801424,
+                50.44116084574235,
+                62.799792121540406
+              ],
+              "triangle_pairs": 65
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.1344640137963138,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                31.76522337036125,
+                45.23775282716147,
+                2.768361043072931
+              ],
+              "triangle_pairs": 14
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                18.025791996263866,
+                15.572298551886993,
+                12.993266302107564
+              ],
+              "triangle_pairs": 27
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                32.82637814016512,
+                51.63532283705696,
+                50.65188882737945
+              ],
+              "triangle_pairs": 261
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                10.35838123877833,
+                8.334395688950544,
+                6.75441165322127
+              ],
+              "triangle_pairs": 16
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                32.29963488992382,
+                23.084863549085455,
+                17.260774450885474
+              ],
+              "triangle_pairs": 144
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.97113593311575,
+                52.74739427206532,
+                62.62001348966262
+              ],
+              "triangle_pairs": 62
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.221730476396031,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.973926448038313,
+                45.843900042193575,
+                4.269810846721955
+              ],
+              "triangle_pairs": 33
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                16.95347430414061,
+                14.55716064216786,
+                12.594583003573357
+              ],
+              "triangle_pairs": 26
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                29.84588731297552,
+                50.14310299089514,
+                49.91768257285878
+              ],
+              "triangle_pairs": 262
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                9.76929596374898,
+                7.741651170509428,
+                6.525527013150956
+              ],
+              "triangle_pairs": 16
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                34.242261544287665,
+                20.932100963606757,
+                18.349794438809354
+              ],
+              "triangle_pairs": 116
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.1160718809529,
+                54.75995457546867,
+                62.37275357210103
+              ],
+              "triangle_pairs": 75
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.3089969389957474,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                28.316015401682716,
+                46.27600489377226,
+                5.782574277917785
+              ],
+              "triangle_pairs": 57
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                15.752129612727396,
+                13.422488374845415,
+                12.154669298548137
+              ],
+              "triangle_pairs": 28
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                26.63824986464544,
+                48.354127190152475,
+                49.152961992846464
+              ],
+              "triangle_pairs": 261
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                9.105859971935235,
+                7.082303348389298,
+                6.271773785412604
+              ],
+              "triangle_pairs": 15
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                36.28578591258113,
+                18.78903477672056,
+                19.342977938837215
+              ],
+              "triangle_pairs": 98
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.887204835439846,
+                56.463538042269334,
+                62.059890463458615
+              ],
+              "triangle_pairs": 89
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.3962634015954638,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.804101623858323,
+                44.608257434775254,
+                7.295168853243328
+              ],
+              "triangle_pairs": 65
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                15.931311057741592,
+                13.591582189195261,
+                12.219913127950067
+              ],
+              "triangle_pairs": 28
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                27.109478419449037,
+                48.627366173915775,
+                49.26385528037747
+              ],
+              "triangle_pairs": 261
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                9.205001706141978,
+                7.180387111824334,
+                6.309474616319866
+              ],
+              "triangle_pairs": 17
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                38.414663124114455,
+                16.671975619038548,
+                20.232774955736165
+              ],
+              "triangle_pairs": 89
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.286280807111396,
+                57.84517536888423,
+                61.68380478514668
+              ],
+              "triangle_pairs": 105
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.4835298641951802,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.449703718615712,
+                40.966194077565966,
+                8.79606048657433
+              ],
+              "triangle_pairs": 77
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                17.114761781818146,
+                14.709687255789417,
+                12.654134404539052
+              ],
+              "triangle_pairs": 26
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                30.286124261329178,
+                50.37473188918773,
+                50.02456691401871
+              ],
+              "triangle_pairs": 261
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                9.858112996295285,
+                7.830516534686801,
+                6.559789009760786
+              ],
+              "triangle_pairs": 14
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.386324283765315,
+                18.811790635196612,
+                14.3928213973048
+              ],
+              "triangle_pairs": 19
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                40.61268213993907,
+                14.597038214185343,
+                21.012425488301623
+              ],
+              "triangle_pairs": 79
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                47.317866393825184,
+                58.894344690121336,
+                61.24735732172293
+              ],
+              "triangle_pairs": 211
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.5707963267948966,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.263118188632014,
+                37.20598529493368,
+                10.273828954555864
+              ],
+              "triangle_pairs": 88
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                18.16795693862368,
+                15.7070968424389,
+                13.046672297210405
+              ],
+              "triangle_pairs": 28
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                33.232271239913345,
+                51.823577113834894,
+                50.75395276149586
+              ],
+              "triangle_pairs": 259
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                10.436196997124464,
+                8.413366191152006,
+                6.784974160819579
+              ],
+              "triangle_pairs": 15
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.267674844988385,
+                18.68384354239283,
+                14.308375036658937
+              ],
+              "triangle_pairs": 17
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.86311830795753,
+                12.58001727149849,
+                21.67597480602779
+              ],
+              "triangle_pairs": 72
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                45.989333307398184,
+                59.6030681625499,
+                60.75387427470203
+              ],
+              "triangle_pairs": 254
+            },
+            {
+              "moving": "Port 7 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.082841046423612,
+                10.203253501243875,
+                7.489903914773166
+              ],
+              "triangle_pairs": 11
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.658062789394613,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.44970475126626,
+                33.35625423768976,
+                11.717232689832935
+              ],
+              "triangle_pairs": 98
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                19.08288460576562,
+                16.57622005312745,
+                13.394539512013527
+              ],
+              "triangle_pairs": 26
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                35.92550330841399,
+                5.165197208535255,
+                23.094079160998817
+              ],
+              "triangle_pairs": 35
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                35.92550330841399,
+                52.96286827321018,
+                51.44646013790275
+              ],
+              "triangle_pairs": 256
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                10.9348561816559,
+                8.9245004235117,
+                6.98331641462735
+              ],
+              "triangle_pairs": 14
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.987166904307056,
+                18.404957030012188,
+                14.16965564201203
+              ],
+              "triangle_pairs": 16
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                44.3107972073189,
+                10.636257041262809,
+                22.218374377652395
+              ],
+              "triangle_pairs": 69
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                44.3107972073189,
+                59.965952734077455,
+                60.20710950897246
+              ],
+              "triangle_pairs": 316
+            },
+            {
+              "moving": "Port 7 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.946456318523063,
+                10.0241012114797,
+                7.416383854968178
+              ],
+              "triangle_pairs": 10
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.7453292519943293,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.804105724657912,
+                30.02386561529835,
+                13.115290352988751
+              ],
+              "triangle_pairs": 106
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                19.852577673667867,
+                17.310440211894097,
+                13.695089543069416
+              ],
+              "triangle_pairs": 29
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                38.34531671674257,
+                6.7856507923433895,
+                22.954815100716452
+              ],
+              "triangle_pairs": 59
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                38.34531671674257,
+                53.78393354043265,
+                52.09682690046347
+              ],
+              "triangle_pairs": 260
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.350293162921977,
+                9.360027899225523,
+                7.153306655336644
+              ],
+              "triangle_pairs": 16
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.54693346166843,
+                17.977249232579375,
+                13.977719324244491
+              ],
+              "triangle_pairs": 17
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.29502737586621,
+                8.78055324122695,
+                22.63551223674304
+              ],
+              "triangle_pairs": 61
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                42.29502737586621,
+                59.98022734916852,
+                59.611223983233266
+              ],
+              "triangle_pairs": 311
+            },
+            {
+              "moving": "Port 7 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.719151582611113,
+                9.76097332162706,
+                7.311215613883482
+              ],
+              "triangle_pairs": 13
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.8325957145940457,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                28.316016528210586,
+                27.954100065401278,
+                14.457364845293363
+              ],
+              "triangle_pairs": 123
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.6700901876963,
+                50.021100080905654,
+                68.79795944848
+              ],
+              "triangle_pairs": 18
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.471184754237758,
+                17.904176821862407,
+                13.946034328956996
+              ],
+              "triangle_pairs": 25
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                40.47330778179781,
+                8.523472422133471,
+                22.68467769236787
+              ],
+              "triangle_pairs": 58
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                40.47330778179781,
+                54.280539973745604,
+                52.70009444011159
+              ],
+              "triangle_pairs": 264
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.679349894002739,
+                9.716638156916646,
+                7.293650957770681
+              ],
+              "triangle_pairs": 17
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                19.950323821343186,
+                17.403979618219545,
+                13.73402687401834
+              ],
+              "triangle_pairs": 28
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                39.95736273516237,
+                7.027026366930644,
+                22.92420547151136
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                39.95736273516237,
+                59.645797427490656,
+                58.97074903353128
+              ],
+              "triangle_pairs": 322
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.919862177193763,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.97392607252902,
+                25.840595245149533,
+                15.733218901956668
+              ],
+              "triangle_pairs": 142
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.594919576732345,
+                52.87365932756294,
+                68.63209083561195
+              ],
+              "triangle_pairs": 52
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.933990237829484,
+                18.35290267177375,
+                14.145463189108892
+              ],
+              "triangle_pairs": 24
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.29326341351419,
+                10.365423914945104,
+                22.285716794707476
+              ],
+              "triangle_pairs": 64
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                42.29326341351419,
+                54.44888698980898,
+                53.251676289419734
+              ],
+              "triangle_pairs": 285
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                19.201882366711107,
+                16.68951179535938,
+                13.440432520340995
+              ],
+              "triangle_pairs": 19
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                37.31560545883872,
+                5.389030544279527,
+                23.082250629480217
+              ],
+              "triangle_pairs": 41
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                37.31560545883872,
+                58.96520037500319,
+                58.290564873864305
+              ],
+              "triangle_pairs": 319
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.0071286397934784,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                31.76522449688912,
+                23.699429133106133,
+                16.933174737210898
+              ],
+              "triangle_pairs": 144
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.13469559513495,
+                55.44942424528598,
+                68.3994108586714
+              ],
+              "triangle_pairs": 58
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                43.18789078076968,
+                12.29749855453588,
+                21.760978598385883
+              ],
+              "triangle_pairs": 72
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                43.79134646445587,
+                54.28770713131969,
+                53.74737516058925
+              ],
+              "triangle_pairs": 184
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                34.38984848214677,
+                3.8790208406627724,
+                23.10844347493257
+              ],
+              "triangle_pairs": 5
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                34.38984848214677,
+                57.94361575846685,
+                57.575846412576595
+              ],
+              "triangle_pairs": 310
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.094395102393195,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                33.676265284730114,
+                21.546908849014113,
+                18.048073471429227
+              ],
+              "triangle_pairs": 120
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.28530185042657,
+                57.728774825395405,
+                68.10169895482932
+              ],
+              "triangle_pairs": 71
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                30.47269330780178,
+                45.76260937926768,
+                3.8391548711233514
+              ],
+              "triangle_pairs": 29
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                40.93136490893134,
+                14.30497815686893,
+                21.114448368238172
+              ],
+              "triangle_pairs": 77
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                44.95614853357366,
+                53.79822439144321,
+                54.1834107063146
+              ],
+              "triangle_pairs": 124
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                31.202378239094884,
+                56.58882390405451,
+                56.83203471067277
+              ],
+              "triangle_pairs": 302
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.181661564992912,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                35.69252533491252,
+                19.39939570522653,
+                19.069441791674357
+              ],
+              "triangle_pairs": 101
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.045595965821036,
+                59.694380259210035,
+                67.74120924076365
+              ],
+              "triangle_pairs": 87
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                28.77533525435494,
+                46.254499980330486,
+                5.349873943955863
+              ],
+              "triangle_pairs": 57
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                38.72481756657331,
+                16.372605694106255,
+                20.35105131351289
+              ],
+              "triangle_pairs": 88
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                45.7788084304418,
+                52.98414925470851,
+                54.556476692561915
+              ],
+              "triangle_pairs": 105
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                27.777415334547364,
+                54.911116456101944,
+                56.064780136119374
+              ],
+              "triangle_pairs": 300
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.2689280275926285,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.29972896362681,
+                18.75306937593993,
+                14.42066079693005
+              ],
+              "triangle_pairs": 15
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                37.79864156791169,
+                17.273251339010145,
+                19.98951060795262
+              ],
+              "triangle_pairs": 92
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.41740798877959,
+                61.33127517239312,
+                67.32069560621667
+              ],
+              "triangle_pairs": 166
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.22048179508041,
+                45.62324256524541,
+                6.863690057432925
+              ],
+              "triangle_pairs": 61
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                36.58505984741866,
+                18.484624588972487,
+                19.476585660796133
+              ],
+              "triangle_pairs": 97
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.25306650191396,
+                51.85170581712417,
+                54.863726353706625
+              ],
+              "triangle_pairs": 91
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                26.24327637499979,
+                54.09633112511068,
+                55.73022552983353
+              ],
+              "triangle_pairs": 298
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.356194490192345,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.3903377511383,
+                18.820457340999713,
+                14.40687932006951
+              ],
+              "triangle_pairs": 12
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                39.97858996327164,
+                15.184656164248578,
+                20.801269144429813
+              ],
+              "triangle_pairs": 81
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.40550704221014,
+                62.62699245391246,
+                66.84335312262513
+              ],
+              "triangle_pairs": 208
+            },
+            {
+              "moving": "Port 1 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.12300760843657,
+                10.308082835101622,
+                7.5370531580787326
+              ],
+              "triangle_pairs": 10
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.819974448133998,
+                42.02006515825934,
+                8.36908861912522
+              ],
+              "triangle_pairs": 75
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                34.52837015557431,
+                20.624971500016187,
+                18.497732417253054
+              ],
+              "triangle_pairs": 112
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.37530445398674,
+                50.40949039203335,
+                55.102820112014506
+              ],
+              "triangle_pairs": 78
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                29.76211651839411,
+                55.90864157010278,
+                56.50573770276024
+              ],
+              "triangle_pairs": 302
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.443460952792061,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.31815477102685,
+                18.735867621250847,
+                14.338076079484118
+              ],
+              "triangle_pairs": 15
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.21578183004859,
+                13.149498910626223,
+                21.498540196255746
+              ],
+              "triangle_pairs": 73
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.01760508254066,
+                63.571682542824526,
+                66.31281954515744
+              ],
+              "triangle_pairs": 254
+            },
+            {
+              "moving": "Port 1 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.104946733508786,
+                10.23881018836298,
+                7.505011986660537
+              ],
+              "triangle_pairs": 10
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.584459086400834,
+                38.29073262672428,
+                9.854628770544881
+              ],
+              "triangle_pairs": 87
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                32.57040556448365,
+                22.77735250826862,
+                17.42191412550065
+              ],
+              "triangle_pairs": 136
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.1446037911758,
+                48.668491382305,
+                55.27194206428643
+              ],
+              "triangle_pairs": 66
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                33.05445200980772,
+                57.40323949992299,
+                57.26029808806976
+              ],
+              "triangle_pairs": 307
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.5307274153917776,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.083727718474506,
+                18.4999387016479,
+                14.21477325955886
+              ],
+              "triangle_pairs": 20
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                44.493189700761214,
+                11.18326808058856,
+                22.076024457538534
+              ],
+              "triangle_pairs": 69
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.26425845072052,
+                64.15815273157976,
+                65.73312532825514
+              ],
+              "triangle_pairs": 338
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                25.09313619765996,
+                34.46361490153321,
+                11.308984198447725
+              ],
+              "triangle_pairs": 96
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                30.72606036318115,
+                24.925393145112164,
+                16.257336563016977
+              ],
+              "triangle_pairs": 142
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                45.562713576359656,
+                46.64195016904571,
+                55.36980422570892
+              ],
+              "triangle_pairs": 58
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                18.836009147979777,
+                16.341391195741405,
+                13.29986826691859
+              ],
+              "triangle_pairs": 11
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                36.09522461428494,
+                4.725512599848325,
+                23.109657885641678
+              ],
+              "triangle_pairs": 14
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                36.09522461428494,
+                58.568731456711156,
+                57.98817113268462
+              ],
+              "triangle_pairs": 315
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.617993877991495,
+          "intersections": [
+            {
+              "moving": "Port 1 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.688840190994547,
+                18.11446921197199,
+                14.037909633468598
+              ],
+              "triangle_pairs": 17
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                44.15881283328776,
+                9.300933941086997,
+                22.529315422505803
+              ],
+              "triangle_pairs": 60
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                44.15881283328776,
+                64.38193391130854,
+                65.1086865922843
+              ],
+              "triangle_pairs": 347
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.400588086122777,
+                30.604980680439763,
+                12.72111148517363
+              ],
+              "triangle_pairs": 104
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.009380255405006,
+                27.05273709757189,
+                15.01285087659754
+              ],
+              "triangle_pairs": 129
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                44.63406524253322,
+                44.34529456301139,
+                55.39565952366687
+              ],
+              "triangle_pairs": 24
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                19.64784672974211,
+                17.114773824129013,
+                13.614186655225819
+              ],
+              "triangle_pairs": 26
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                38.86129009751382,
+                6.310130222508037,
+                23.008020210455836
+              ],
+              "triangle_pairs": 62
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                38.86129009751382,
+                59.39625713767715,
+                58.68380535499884
+              ],
+              "triangle_pairs": 323
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.7052603405912103,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                41.71729178975464,
+                7.516817569192202,
+                22.85496825867128
+              ],
+              "triangle_pairs": 54
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                41.71729178975464,
+                64.24132947147476,
+                64.44425517483965
+              ],
+              "triangle_pairs": 332
+            },
+            {
+              "moving": "Port 1 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.502056669176142,
+                9.522698077291961,
+                7.21715225567382
+              ],
+              "contained_by": [
+                "Spine and bridge casting"
+              ]
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.868616578609505,
+                28.55062368448641,
+                14.080229813266843
+              ],
+              "triangle_pairs": 116
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.45796401296487,
+                49.302802866670106,
+                69.12739190228211
+              ],
+              "triangle_pairs": 12
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.433424571536747,
+                29.1431999614743,
+                13.697935933418615
+              ],
+              "triangle_pairs": 112
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.31015137090624,
+                17.749156797136013,
+                13.879514971954027
+              ],
+              "triangle_pairs": 20
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                41.331595561573174,
+                8.015729506281822,
+                22.775106565315838
+              ],
+              "triangle_pairs": 54
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                41.331595561573174,
+                59.87951466822028,
+                59.34191186170856
+              ],
+              "triangle_pairs": 313
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.7925268031909276,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                38.95826927018431,
+                5.844495723079768,
+                23.050504756999825
+              ],
+              "triangle_pairs": 52
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                38.95826927018431,
+                63.73740612075984,
+                63.74488817872936
+              ],
+              "triangle_pairs": 316
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                29.486058505470037,
+                26.447981020364665,
+                15.376034582563868
+              ],
+              "triangle_pairs": 136
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.488620888783586,
+                52.24037706012508,
+                68.9770962963121
+              ],
+              "triangle_pairs": 28
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.01017862890914,
+                31.686210462306242,
+                12.322589506797431
+              ],
+              "triangle_pairs": 102
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.81788548945062,
+                18.239712758349125,
+                14.093836183966534
+              ],
+              "triangle_pairs": 18
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                43.487351213605805,
+                9.829334120336487,
+                22.412696276897627
+              ],
+              "triangle_pairs": 63
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                43.487351213605805,
+                60.01482856315099,
+                59.95748650286015
+              ],
+              "triangle_pairs": 311
+            },
+            {
+              "moving": "Port 7 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.860087707354166,
+                9.921512573829336,
+                7.375145018357621
+              ],
+              "triangle_pairs": 10
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.879793265790644,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                35.90276674054687,
+                4.296704932194695,
+                23.11445061908246
+              ],
+              "triangle_pairs": 11
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                35.90276674054687,
+                62.87400382911778,
+                63.01591203931237
+              ],
+              "triangle_pairs": 310
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                31.24058898470816,
+                24.313069477980786,
+                16.598615513412128
+              ],
+              "triangle_pairs": 142
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.13502488842925,
+                54.90684556380654,
+                68.75968944288302
+              ],
+              "triangle_pairs": 59
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.75049476790858,
+                35.56536300226315,
+                10.897294599566454
+              ],
+              "triangle_pairs": 92
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.167180183565094,
+                18.58270361433706,
+                14.25551581266371
+              ],
+              "triangle_pairs": 17
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                43.83940658615404,
+                11.737124515935227,
+                21.923525156577416
+              ],
+              "triangle_pairs": 72
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                45.31212985789579,
+                59.801159281318576,
+                60.525833064018705
+              ],
+              "triangle_pairs": 281
+            },
+            {
+              "moving": "Port 7 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.03560601712604,
+                10.136857425038045,
+                7.462311226784479
+              ],
+              "triangle_pairs": 9
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.9670597283903604,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                32.574006394140405,
+                61.65768001994187,
+                62.262863967400996
+              ],
+              "triangle_pairs": 301
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                33.11887247207756,
+                22.16211100649268,
+                17.73872285293654
+              ],
+              "triangle_pairs": 127
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.39225997524033,
+                57.28194133257703,
+                68.47682143695354
+              ],
+              "triangle_pairs": 67
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                24.920057685257625,
+                39.36749655355454,
+                9.432881083810019
+              ],
+              "triangle_pairs": 85
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                21.355380721916756,
+                18.775527741529906,
+                14.363325394371602
+              ],
+              "triangle_pairs": 16
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                41.57172435185541,
+                13.72460700395628,
+                21.311333327200032
+              ],
+              "triangle_pairs": 78
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.79206396075264,
+                59.24014714231873,
+                61.04263650845909
+              ],
+              "triangle_pairs": 227
+            },
+            {
+              "moving": "Port 7 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                12.119526456055214,
+                10.267372751321162,
+                7.517479846700481
+              ],
+              "triangle_pairs": 15
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 3.0543261909900767,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                28.997355015559897,
+                60.09771024061678,
+                61.49148519009362
+              ],
+              "triangle_pairs": 298
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                35.106593764438585,
+                20.01150526935236,
+                18.787632889079475
+              ],
+              "triangle_pairs": 106
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                51.258370299937624,
+                59.347563062176704,
+                68.13065137335018
+              ],
+              "triangle_pairs": 83
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                26.203725908884866,
+                41.96389155139491,
+                7.940499909933729
+              ],
+              "triangle_pairs": 71
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                39.34917446159525,
+                15.776628235840917,
+                20.580761290459826
+              ],
+              "triangle_pairs": 85
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                47.91587703831857,
+                58.33605691801402,
+                61.50395752930127
+              ],
+              "triangle_pairs": 147
+            }
+          ]
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 3.141592653589793,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                25.200005800597744,
+                58.20596017680312,
+                60.707642616597084
+              ],
+              "triangle_pairs": 293
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                37.18864767068264,
+                17.877589676009052,
+                19.73739099450178
+              ],
+              "triangle_pairs": 94
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                50.73437031404626,
+                61.08801677282205,
+                67.72381211148115
+              ],
+              "triangle_pairs": 148
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649473870387297,
+                42.245172975527545,
+                6.431528204146386
+              ],
+              "triangle_pairs": 60
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                37.18864394539234,
+                17.87759340129935,
+                19.737390243483198
+              ],
+              "triangle_pairs": 94
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                48.675025849412634,
+                57.095761739283105,
+                61.906290771329694
+              ],
+              "triangle_pairs": 94
+            }
+          ]
+        },
+        {
+          "kind": "index",
+          "angle_rad": 0.0,
+          "intersections": [
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649472743859427,
+                28.84742804845908,
+                13.889706990629191
+              ],
+              "triangle_pairs": 114
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                43.56736863133703,
+                42.1749303250154,
+                55.36035021366836
+              ],
+              "triangle_pairs": 6
+            }
+          ]
+        },
+        {
+          "kind": "index",
+          "angle_rad": 0.8975979010256552,
+          "intersections": [
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.224897272188784,
+                17.667237483412368,
+                13.844693043767675
+              ],
+              "triangle_pairs": 27
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                39.59813734241696,
+                7.765149559627149,
+                22.816365032473975
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                39.59813734241696,
+                54.10774355830527,
+                52.447623162744875
+              ],
+              "triangle_pairs": 266
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.549079117901199,
+                9.573657948458756,
+                7.23720789981458
+              ],
+              "triangle_pairs": 14
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649471241822265,
+                28.847426734176562,
+                13.889706990629191
+              ],
+              "triangle_pairs": 114
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.711813205991604,
+                45.85604382092623,
+                62.94730156009764
+              ],
+              "triangle_pairs": 6
+            }
+          ]
+        },
+        {
+          "kind": "index",
+          "angle_rad": 1.7951958020513104,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649477971186887,
+                28.847428799477658,
+                13.889706615119902
+              ],
+              "triangle_pairs": 114
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.15749730780217,
+                48.71914238001773,
+                68.84826575887936
+              ],
+              "triangle_pairs": 6
+            },
+            {
+              "moving": "Port 6 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.224896330435378,
+                17.667236577421754,
+                13.844691911279405
+              ],
+              "triangle_pairs": 27
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                39.598135199629844,
+                7.7651488086085685,
+                22.81636409370075
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                39.598135199629844,
+                54.107742056268116,
+                52.44762128519842
+              ],
+              "triangle_pairs": 266
+            },
+            {
+              "moving": "Port 6 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.549078588015856,
+                9.573657423937828,
+                7.237207244163435
+              ],
+              "triangle_pairs": 14
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.22489734371436,
+                17.667238389402982,
+                13.844693496762982
+              ],
+              "triangle_pairs": 21
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                40.9975490647978,
+                7.765154035936028,
+                22.816365407983263
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                40.9975490647978,
+                59.83172905542311,
+                59.25039232819462
+              ],
+              "triangle_pairs": 316
+            }
+          ]
+        },
+        {
+          "kind": "index",
+          "angle_rad": 2.6927937030769655,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.08597979444018,
+                7.765155147562597,
+                22.81636522022862
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                42.08597979444018,
+                64.28371369446606,
+                64.54143655574052
+              ],
+              "triangle_pairs": 334
+            },
+            {
+              "moving": "Port 1 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.549079385526086,
+                9.573657927001086,
+                7.237208030944798
+              ],
+              "contained_by": [
+                "Spine and bridge casting"
+              ]
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649475372424458,
+                28.847429362741593,
+                13.889706990629191
+              ],
+              "triangle_pairs": 114
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.2797848035823,
+                48.862297464822404,
+                69.1433133442081
+              ],
+              "triangle_pairs": 6
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649476498952332,
+                28.847426951733812,
+                13.889722267299675
+              ],
+              "triangle_pairs": 114
+            },
+            {
+              "moving": "Port 6 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                43.56737614152284,
+                42.17493686364537,
+                55.36034840168713
+              ],
+              "triangle_pairs": 6
+            },
+            {
+              "moving": "Port 7 black front lens guard",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                20.22489528139361,
+                17.667234312445213,
+                13.84469168478175
+              ],
+              "triangle_pairs": 21
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                40.99754063670069,
+                7.765146931062117,
+                22.8163639059461
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                40.99754063670069,
+                59.83172229625588,
+                59.2503893241203
+              ],
+              "triangle_pairs": 316
+            }
+          ]
+        },
+        {
+          "kind": "index",
+          "angle_rad": 3.5903916041026207,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.085977413234446,
+                7.765154396544016,
+                22.816364844719327
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                42.085977413234446,
+                64.2837121924289,
+                64.54143580472194
+              ],
+              "triangle_pairs": 334
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.14039302780659,
+                7.765150656352415,
+                22.81636409370075
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                42.14039302780659,
+                64.50631037072286,
+                64.80598526572312
+              ],
+              "triangle_pairs": 334
+            },
+            {
+              "moving": "Port 2 objective front glass",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                11.549077790505631,
+                9.573656112635511,
+                7.237207244163435
+              ],
+              "contained_by": [
+                "Spine and bridge casting"
+              ]
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649478722205465,
+                28.847428987232306,
+                13.889706615119902
+              ],
+              "triangle_pairs": 114
+            },
+            {
+              "moving": "Port 7 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                46.711817616735814,
+                45.856051426479304,
+                62.947297709637475
+              ],
+              "triangle_pairs": 6
+            }
+          ]
+        },
+        {
+          "kind": "index",
+          "angle_rad": 4.487989505128276,
+          "intersections": [
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649478722205465,
+                28.847427500096444,
+                13.889706990629191
+              ],
+              "triangle_pairs": 114
+            },
+            {
+              "moving": "Port 1 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.157498809839325,
+                48.719143506545606,
+                68.84826299322367
+              ],
+              "triangle_pairs": 6
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                42.140401071453894,
+                7.765151797781589,
+                22.81636522022862
+              ],
+              "triangle_pairs": 53
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                42.140401071453894,
+                64.5063163788715,
+                64.80598751877886
+              ],
+              "triangle_pairs": 334
+            }
+          ]
+        },
+        {
+          "kind": "index",
+          "angle_rad": 5.385587406153931,
+          "intersections": [
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Nosepiece gearbox",
+              "aabb_overlap_mm": [
+                27.649477595677595,
+                28.84742153665171,
+                13.889722642808966
+              ],
+              "triangle_pairs": 114
+            },
+            {
+              "moving": "Port 2 CFI objective body",
+              "target": "Spine and bridge casting",
+              "aabb_overlap_mm": [
+                49.27978356827589,
+                48.86229848257173,
+                69.14331130870943
+              ],
+              "triangle_pairs": 6
+            }
+          ]
+        }
+      ],
+      "poses_with_intersections": 80,
+      "passed": false
+    },
+    "after": {
+      "source": "000/e1000.blend",
+      "sha256": "78eda10025ea6d7e453508bcf5b8c2381914bbf6bbba89a01cf401b2a938636f",
+      "samples": [
+        {
+          "kind": "sweep",
+          "angle_rad": -3.141592653589793,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -3.0543261909900767,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.9670597283903604,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.8797932657906435,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.792526803190927,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.705260340591211,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.6179938779914944,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.5307274153917776,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.443460952792061,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.356194490192345,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.2689280275926285,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.181661564992912,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.0943951023931957,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -2.007128639793479,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.9198621771937625,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.8325957145940461,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.7453292519943295,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.658062789394613,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.4835298641951802,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.3962634015954636,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.308996938995747,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.2217304763960308,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.1344640137963142,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -1.0471975511965979,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.959931088596881,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.8726646259971647,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.7853981633974483,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.6981317007977319,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.6108652381980151,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.5235987755982991,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.43633231299858233,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.34906585039886595,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.26179938779914913,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.17453292519943275,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": -0.08726646259971638,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.0,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.08726646259971638,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.17453292519943275,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.26179938779914913,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.34906585039886595,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.4363323129985819,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.5235987755982991,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.6108652381980151,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.6981317007977315,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.7853981633974483,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.8726646259971647,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 0.9599310885968819,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.0471975511965974,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.1344640137963138,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.221730476396031,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.3089969389957474,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.3962634015954638,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.4835298641951802,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.658062789394613,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.7453292519943293,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.8325957145940457,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 1.919862177193763,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.0071286397934784,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.094395102393195,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.181661564992912,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.2689280275926285,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.356194490192345,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.443460952792061,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.5307274153917776,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.617993877991495,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.7052603405912103,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.7925268031909276,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.879793265790644,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 2.9670597283903604,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 3.0543261909900767,
+          "intersections": []
+        },
+        {
+          "kind": "sweep",
+          "angle_rad": 3.141592653589793,
+          "intersections": []
+        },
+        {
+          "kind": "index",
+          "angle_rad": 0.0,
+          "intersections": []
+        },
+        {
+          "kind": "index",
+          "angle_rad": 0.8975979010256552,
+          "intersections": []
+        },
+        {
+          "kind": "index",
+          "angle_rad": 1.7951958020513104,
+          "intersections": []
+        },
+        {
+          "kind": "index",
+          "angle_rad": 2.6927937030769655,
+          "intersections": []
+        },
+        {
+          "kind": "index",
+          "angle_rad": 3.5903916041026207,
+          "intersections": []
+        },
+        {
+          "kind": "index",
+          "angle_rad": 4.487989505128276,
+          "intersections": []
+        },
+        {
+          "kind": "index",
+          "angle_rad": 5.385587406153931,
+          "intersections": []
+        }
+      ],
+      "poses_with_intersections": 0,
+      "passed": true
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,2244 @@
+{
+  "revision": "alignment6",
+  "asset": "nikon",
+  "phase": "after",
+  "source": "000/e1000.blend",
+  "source_sha256": "78eda10025ea6d7e453508bcf5b8c2381914bbf6bbba89a01cf401b2a938636f",
+  "script_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Evaluated Blender detailed vertices and BVH triangles, plus three-skew-ray containment witnesses after broad phase. Axes measured from actual front-glass object transforms. Nominal safe configurations evaluated separately from unsafe commanded collisions.",
+  "selected_objects": {
+    "optics": [
+      "Port 1 black front lens guard",
+      "Port 1 CFI objective body",
+      "Port 1 objective front glass",
+      "Port 2 black front lens guard",
+      "Port 2 CFI objective body",
+      "Port 2 objective front glass",
+      "Port 6 black front lens guard",
+      "Port 6 CFI objective body",
+      "Port 6 objective front glass",
+      "Port 7 black front lens guard",
+      "Port 7 CFI objective body",
+      "Port 7 objective front glass"
+    ],
+    "stage": [
+      "Black 212.5 mm mechanical stage",
+      "Clip pivot rim",
+      "Clip pivot rim.001",
+      "Clip pivot socket",
+      "Clip pivot socket.001",
+      "Crossbar locking screw rim",
+      "Crossbar locking screw rim.001",
+      "Crossbar locking screw socket",
+      "Crossbar locking screw socket.001",
+      "Flake substrate",
+      "Inset sample carrier",
+      "Longitudinal carriage",
+      "Slide clamp crossbar",
+      "Slide spring clip",
+      "Slide spring clip.001",
+      "Specimen slide"
+    ],
+    "head": [
+      "Nosepiece gearbox",
+      "Spine and bridge casting"
+    ]
+  },
+  "axis_checks": [
+    {
+      "station": 0,
+      "mag": 20,
+      "front_center_mm": [
+        0.0,
+        -61.99999898672104,
+        160.92000901699066
+      ],
+      "axis": [
+        0.0,
+        5.960464477539052e-08,
+        -0.9999999999999982
+      ],
+      "vertical_error_deg": 3.4150945850063763e-06,
+      "intersection_xy_error_mm": 1.1873250613803066e-06,
+      "front_glass_to_sample_gap_mm": 2.740008741311925,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "front_center_mm": [
+        0.0,
+        -62.00000271201134,
+        160.56999564170837
+      ],
+      "axis": [
+        4.470348358154291e-08,
+        2.9802322387695273e-08,
+        -0.9999999999999987
+      ],
+      "vertical_error_deg": 2.9575586669421963e-06,
+      "intersection_xy_error_mm": 2.637922502784583e-06,
+      "front_glass_to_sample_gap_mm": 2.389995395026716,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "front_center_mm": [
+        -3.725290298461914e-06,
+        -62.000006437301636,
+        176.92001163959503
+      ],
+      "axis": [
+        -3.72529029846191e-08,
+        2.980232238769528e-08,
+        -0.9999999999999989
+      ],
+      "vertical_error_deg": 2.699869328381916e-06,
+      "intersection_xy_error_mm": 7.356849737182561e-06,
+      "front_glass_to_sample_gap_mm": 18.740011303360916,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "front_center_mm": [
+        -1.1175870895385742e-05,
+        -61.99999898672104,
+        167.92000830173492
+      ],
+      "axis": [
+        -1.0430812835693304e-07,
+        0.0,
+        -0.9999999999999947
+      ],
+      "vertical_error_deg": 5.915117333884395e-06,
+      "intersection_xy_error_mm": 1.2252578978323657e-05,
+      "front_glass_to_sample_gap_mm": 9.740007692093343,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    }
+  ],
+  "sweep": [
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Slide spring clip.001",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            15.200000399351127,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 80
+        },
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            6.100000813603401,
+            15.200000399351127,
+            0.6999931520782487
+          ],
+          "triangle_pairs": 57
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Clip pivot socket.001",
+          "aabb_overlap_mm": [
+            1.2600002384599747,
+            1.2600002384599711,
+            0.2800000074785203
+          ],
+          "contained_by": [
+            "Port 1 CFI objective body"
+          ]
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Slide spring clip.001",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            22.100008815527204,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 84
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            11.100001633167267,
+            25.00000037252903,
+            0.6999929844402342
+          ],
+          "triangle_pairs": 65
+        },
+        {
+          "moving": "Port 1 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            2.9000011272728443,
+            8.800000905096528,
+            0.36000055908230744
+          ],
+          "triangle_pairs": 16
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            13.000000268220901,
+            12.000000104308128,
+            0.3000000142492354
+          ],
+          "triangle_pairs": 184
+        },
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            15.200000256299973,
+            15.200000399351127,
+            0.6999931520782487
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            13.000000268220901,
+            12.000000104308128,
+            0.3000000142492354
+          ],
+          "triangle_pairs": 192
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            25.200001895427704,
+            25.00000037252903,
+            0.6999929844402342
+          ],
+          "triangle_pairs": 112
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            15.200000399351127,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 80
+        },
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            6.100000813603401,
+            15.200000399351127,
+            0.6999931520782487
+          ],
+          "triangle_pairs": 57
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            22.100008815527204,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 84
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            11.100001633167267,
+            25.00000037252903,
+            0.6999929844402342
+          ],
+          "triangle_pairs": 65
+        },
+        {
+          "moving": "Port 1 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            2.9000011272728443,
+            8.800000905096528,
+            0.36000055908230744
+          ],
+          "triangle_pairs": 16
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.6000091139474,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 142
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 116
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 89
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Slide spring clip.001",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            15.200003312321208,
+            1.3500190456776084
+          ],
+          "triangle_pairs": 62
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            6.1000023990869785,
+            15.200003312321208,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 108
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Clip pivot rim.001",
+          "aabb_overlap_mm": [
+            2.8000005557811307,
+            2.8000005557811263,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 62
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Clip pivot socket.001",
+          "aabb_overlap_mm": [
+            1.2600002384599747,
+            1.2600002384599711,
+            0.2800000074785203
+          ],
+          "triangle_pairs": 75
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            25.200008612175555,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 102
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Slide spring clip.001",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            22.100002091030206,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 84
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            11.100002399087149,
+            25.00000037252903,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 122
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            2.9000020532310935,
+            8.800002622233745,
+            0.04999417044870835
+          ],
+          "triangle_pairs": 43
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.600003432134713,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 142
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 116
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.6000091139474,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 114
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            13.000000268220901,
+            12.000000104308128,
+            0.3000000142492354
+          ],
+          "triangle_pairs": 168
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 192
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            13.000000268220901,
+            12.000000104308128,
+            0.3000000142492354
+          ],
+          "triangle_pairs": 168
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            25.00000037252903,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 224
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.04999417044870835
+          ],
+          "triangle_pairs": 96
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.600003432134713,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 114
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.6000091139474,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 142
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 116
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 89
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            15.200003312321208,
+            1.3500190456776084
+          ],
+          "triangle_pairs": 62
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            6.100002506375344,
+            15.200003312321208,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 108
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Clip pivot rim",
+          "aabb_overlap_mm": [
+            2.8000005557811307,
+            2.8000005557811263,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 62
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Clip pivot socket",
+          "aabb_overlap_mm": [
+            1.2600002384599747,
+            1.2600002384599711,
+            0.2800000074785203
+          ],
+          "triangle_pairs": 75
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            25.200008612175555,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 103
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            22.100002091030206,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 84
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            11.100008777529313,
+            25.00000037252903,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 122
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            2.9000020532310935,
+            8.800002622233745,
+            0.04999417044870835
+          ],
+          "triangle_pairs": 43
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 40,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.600003432134713,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 142
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 116
+        }
+      ]
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 5,
+      "mag": 4,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 6,
+      "mag": 10,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": 4,
+      "intersections": []
+    }
+  ],
+  "illumination": [
+    {
+      "focus_mm": -10,
+      "field_to_condenser_xy_offset_mm": 0.0,
+      "lower_path_hits": [],
+      "condenser_to_specimen_hits": []
+    },
+    {
+      "focus_mm": 0,
+      "field_to_condenser_xy_offset_mm": 0.0,
+      "lower_path_hits": [],
+      "condenser_to_specimen_hits": []
+    },
+    {
+      "focus_mm": 4,
+      "field_to_condenser_xy_offset_mm": 0.0,
+      "lower_path_hits": [],
+      "condenser_to_specimen_hits": []
+    }
+  ],
+  "bench": [],
+  "holder_specimen": {
+    "intersections": [],
+    "bounds_mm": {
+      "Clip pivot rim": [
+        [
+          -39.40000256989151,
+          -53.40000113938004,
+          158.8000143528916
+        ],
+        [
+          -36.60000243689865,
+          -50.600001006387174,
+          159.80001440038905
+        ]
+      ],
+      "Clip pivot rim.001": [
+        [
+          36.60000243689865,
+          -53.40000113938004,
+          158.8000143528916
+        ],
+        [
+          39.40000256989151,
+          -50.600001006387174,
+          159.80001440038905
+        ]
+      ],
+      "Clip pivot socket": [
+        [
+          -38.63000252749771,
+          -52.630001096986234,
+          159.71001623256598
+        ],
+        [
+          -37.37000247929245,
+          -51.37000104878098,
+          159.9900162400445
+        ]
+      ],
+      "Clip pivot socket.001": [
+        [
+          37.37000247929245,
+          -52.630001096986234,
+          159.71001623256598
+        ],
+        [
+          38.63000252749771,
+          -51.37000104878098,
+          159.9900162400445
+        ]
+      ],
+      "Inset sample carrier": [
+        [
+          -56.50000274181366,
+          -101.00000351667404,
+          156.000016577309
+        ],
+        [
+          56.50000274181366,
+          -23.000001907348633,
+          156.7000166105572
+        ]
+      ],
+      "Slide spring clip": [
+        [
+          -40.100002428516746,
+          -71.50000333786011,
+          157.6999991084449
+        ],
+        [
+          -35.900002578273416,
+          -48.500001430511475,
+          159.09999917494133
+        ]
+      ],
+      "Slide spring clip.001": [
+        [
+          35.900002578273416,
+          -71.50000333786011,
+          157.6999991084449
+        ],
+        [
+          40.100002428516746,
+          -48.500001430511475,
+          159.09999917494133
+        ]
+      ],
+      "Flake substrate": [
+        [
+          -6.500000134110451,
+          -68.0000027641654,
+          157.70001217606477
+        ],
+        [
+          6.500000134110451,
+          -56.00000265985727,
+          158.000012190314
+        ]
+      ],
+      "Specimen slide": [
+        [
+          -37.50000149011612,
+          -74.50000289827585,
+          156.70000860700384
+        ],
+        [
+          37.50000149011612,
+          -49.50000252574682,
+          157.7000086545013
+        ]
+      ]
+    }
+  },
+  "retracted_turret_sweep": [
+    {
+      "angle_rad": -3.141592653589793,
+      "intersections": []
+    },
+    {
+      "angle_rad": -3.0543261909900767,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.9670597283903604,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.8797932657906435,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.792526803190927,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.705260340591211,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.6179938779914944,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.5307274153917776,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.443460952792061,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.356194490192345,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.2689280275926285,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.181661564992912,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.0943951023931957,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.007128639793479,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.9198621771937625,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.832595714594046,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.7453292519943295,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.6580627893946132,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.5707963267948966,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.4835298641951802,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.3962634015954636,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.3089969389957472,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.2217304763960306,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.1344640137963142,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.0471975511965979,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.9599310885968815,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.8726646259971647,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.7853981633974483,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.6981317007977319,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.6108652381980155,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.5235987755982987,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.43633231299858233,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.34906585039886595,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.2617993877991496,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.1745329251994332,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.08726646259971638,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.08726646259971638,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.17453292519943275,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.2617993877991496,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.34906585039886595,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.43633231299858233,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.5235987755982987,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.6108652381980151,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.6981317007977319,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.7853981633974483,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.8726646259971647,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.959931088596881,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.0471975511965974,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.1344640137963138,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.2217304763960302,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.3089969389957474,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.3962634015954638,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.4835298641951802,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.5707963267948966,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.658062789394613,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.7453292519943293,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.8325957145940457,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.919862177193762,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.0071286397934784,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.0943951023931957,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.181661564992912,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.2689280275926285,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.356194490192345,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.443460952792061,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.5307274153917776,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.617993877991494,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.7052603405912103,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.7925268031909267,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.879793265790644,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.9670597283903604,
+      "intersections": []
+    },
+    {
+      "angle_rad": 3.0543261909900767,
+      "intersections": []
+    },
+    {
+      "angle_rad": 3.141592653589793,
+      "intersections": []
+    }
+  ],
+  "probe_combinations": [],
+  "limitations": [
+    "Photographic estimates, not metrology or an optical prescription.",
+    "Finite configuration samples, not a continuous collision proof.",
+    "Rays through the external illumination gap exclude the designated condenser optical housing; internal optical prescriptions/light transmission are not inferred.",
+    "Barrel lettering/coincident trim and inserted spindle/fastener seating are not all-pairs tested.",
+    "Unsafe extreme commands are logged; native contact must stop those configurations and is checked separately."
+  ],
+  "diagnostic_counts": {
+    "home_holder_specimen_intersections": 0,
+    "bench": 0,
+    "sweep_poses_with_hits": 12,
+    "retracted_turret_poses_with_hits": 0,
+    "probe_combinations_with_hits": 0
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565",
+  "inspection_joint_positions": {
+    "door_latch_angle": 1.5707963267948966,
+    "door_angle": 0.0
+  },
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "door_handle_deployed"
+  ],
+  "renders": [
+    {
+      "file": "door_handle_deployed.png",
+      "camera": "door_handle_deployed",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "9260bdfbc33757d5e05fce30a24507fffe5d3257ebed468e3cb45bb1b0d529f6"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [
+    {
+      "body": "door_latch",
+      "joint": "door_latch_angle",
+      "angle_rad": 1.5707963267948966,
+      "maximum_rotation_matrix_error": 0.0
+    },
+    {
+      "body": "door",
+      "joint": "door_angle",
+      "angle_rad": 0.0,
+      "maximum_rotation_matrix_error": 0.0
+    }
+  ],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995",
+  "cameras": {
+    "door_handle_deployed": {
+      "matrix_world": [
+        [
+          0.6362257599830627,
+          -0.24159866571426392,
+          0.732698380947113,
+          0.49566414952278137
+        ],
+        [
+          0.7715029716491699,
+          0.19923609495162964,
+          -0.6042252779006958,
+          -0.41519153118133545
+        ],
+        [
+          5.36263300432438e-08,
+          0.9497026205062866,
+          0.3131532073020935,
+          0.34677696228027344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.42399999499320984,
+      "fstop": 11.0
+    }
+  },
+  "alignment_wrapper_sha256": "179c1378f8a19f72d493fde62327a79656d03cbdb241be089cd83c75206f3f43"
+}

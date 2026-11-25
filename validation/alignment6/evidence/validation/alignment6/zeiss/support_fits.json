@@ -1,0 +1,108 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "script_sha256": "31f3cde9b4d4ce1bcd52c026af6afce3e56ded8f2cb02c121dca394b7b092831",
+  "audit_library_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Exact Z extrema of evaluated surfaces at assembled home pose, plus detailed-mesh overlap for adjacent support pieces. Supports are intentional tangent interfaces; their signed gap tolerance is 1 micrometer.",
+  "versions": {
+    "before": {
+      "source": "validation/alignment6/zeiss/before/zeiss_upright.blend",
+      "sha256": "f32057dd1c36cf69b831997e6ee79679f3824b0344e378474d3a69d1177cf0dd",
+      "checks": [
+        {
+          "check": "fixed_holder_on_deck",
+          "gap_mm": 1.8000006675720215,
+          "upper": [
+            "Asymmetric fixed specimen-holder plate"
+          ],
+          "lower": [
+            "Mechanical stage with longitudinal opening"
+          ],
+          "passed": false
+        },
+        {
+          "check": "slide_on_holder",
+          "gap_mm": -2.199998067226261,
+          "upper": [
+            "Glass sample slide"
+          ],
+          "lower": [
+            "Asymmetric fixed specimen-holder plate"
+          ],
+          "passed": false
+        },
+        {
+          "check": "fixed_screws_on_holder",
+          "gap_mm": 0.20000827498733997,
+          "upper": [
+            "Specimen clamp knurled screw",
+            "Specimen clamp knurled screw.001"
+          ],
+          "lower": [
+            "Asymmetric fixed specimen-holder plate"
+          ],
+          "passed": false
+        },
+        {
+          "check": "pivot_stem_on_deck",
+          "missing": true,
+          "passed": false
+        }
+      ],
+      "passed": false
+    },
+    "after": {
+      "source": "003_zeiss/zeiss_upright.blend",
+      "sha256": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+      "checks": [
+        {
+          "check": "fixed_holder_on_deck",
+          "gap_mm": 0.0,
+          "upper": [
+            "Asymmetric fixed specimen-holder plate"
+          ],
+          "lower": [
+            "Mechanical stage with longitudinal opening"
+          ],
+          "passed": true
+        },
+        {
+          "check": "slide_on_holder",
+          "gap_mm": 1.9208528101444244e-06,
+          "upper": [
+            "Glass sample slide"
+          ],
+          "lower": [
+            "Asymmetric fixed specimen-holder plate"
+          ],
+          "passed": true
+        },
+        {
+          "check": "fixed_screws_on_holder",
+          "gap_mm": -2.561137080192566e-06,
+          "upper": [
+            "Specimen clamp knurled screw",
+            "Specimen clamp knurled screw.001"
+          ],
+          "lower": [
+            "Asymmetric fixed specimen-holder plate"
+          ],
+          "passed": true
+        },
+        {
+          "check": "pivot_stem_on_deck",
+          "gap_mm": -3.4924596548080444e-07,
+          "upper": [
+            "Curved holder pivot stem"
+          ],
+          "lower": [
+            "Mechanical stage with longitudinal opening"
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  },
+  "passed": true
+}

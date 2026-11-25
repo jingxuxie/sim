@@ -1,0 +1,111 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565",
+  "inspection_joint_positions": {},
+  "measured_trajectory": {
+    "sha256": "a1abd181a5dd9e318a2ebffe746b971a588911679ef110c122cf114869f79fbe",
+    "frame": 189,
+    "frame_sha256": "33633e0ecede85d51b5a340b645514db490cffa7f0b5cf96444a4074de9a06f1",
+    "time_s": 7.600000000000873
+  },
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "front",
+    "scanner_release_detail"
+  ],
+  "renders": [
+    {
+      "file": "front.png",
+      "camera": "front",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "8c11d34f806dfb6aed1577c8773f005ec3f249717b75d320a0696607acfd2e05"
+    },
+    {
+      "file": "scanner_release_detail.png",
+      "camera": "scanner_release_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "d18af7659a01f74aa42a904c10d9ae9dc6feaa9c0e1c681ca7feacbf986feebd"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995",
+  "cameras": {
+    "front": {
+      "matrix_world": [
+        [
+          0.994868814945221,
+          -0.02441953867673874,
+          0.09818188846111298,
+          0.15462245047092438
+        ],
+        [
+          0.10117310285568237,
+          0.2401254028081894,
+          -0.9654552340507507,
+          -1.5404540300369263
+        ],
+        [
+          5.437909234018434e-09,
+          0.9704346656799316,
+          0.24136386811733246,
+          0.6251136064529419
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 1.5748571157455444,
+      "fstop": 11.0
+    },
+    "scanner_release_detail": {
+      "matrix_world": [
+        [
+          0.991227924823761,
+          0.03529469668865204,
+          -0.12736380100250244,
+          0.057997751981019974
+        ],
+        [
+          -0.13216373324394226,
+          0.26471033692359924,
+          -0.955228328704834,
+          -0.5600167512893677
+        ],
+        [
+          1.8268559998091405e-08,
+          0.9636818766593933,
+          0.26705294847488403,
+          0.29323044419288635
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.42399999499320984,
+      "fstop": 11.0
+    }
+  },
+  "alignment_wrapper_sha256": "179c1378f8a19f72d493fde62327a79656d03cbdb241be089cd83c75206f3f43"
+}

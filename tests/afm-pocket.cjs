@@ -30,7 +30,7 @@ window.__afmPocketCamera=()=>{
  orbit.update();syncProjection();camera.updateProjectionMatrix();viewDirty=true;
 };
 `;
-const report={revision:'reference5',url,passed:false,checks:[],views:[],errors:[],sources:{},
+const report={revision:process.env.LAB_TEST_REVISION||'reference5',url,passed:false,checks:[],views:[],errors:[],sources:{},
  harness_sha256:hash(fs.readFileSync(__filename)),instrumentation_sha256:hash(hook),
  source_capture:'Hash original asset response bytes from route.fetch and forward the same bytes to the viewer.'};
 const save=()=>fs.writeFileSync(path.join(out,'afm-pocket.json'),JSON.stringify(report,null,2)+'\n');

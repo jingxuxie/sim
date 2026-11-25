@@ -148,8 +148,20 @@
           <joint name="cantilever_lift" type="hinge" axis="-1 0 0" damping="0.012" frictionloss="0.005" range="0 0.55" stiffness="0.018" springref="0" />
           <inertial mass="0.035" pos="0 0 0" diaginertia="4.2875e-05 4.2875e-05 4.2875e-05" />
           <geom name="cantilever_carrier__Cantilever_carrier" type="box" pos="0 -0.005 0.007" size="0.0125 0.016 0.004" class="contact" />
-          <geom name="cantilever_carrier__Probe_holder_tab" type="box" pos="0.015 -0.017 0.004" size="0.01 0.004 0.0015" class="contact" />
-          <site name="cantilever_mount" pos="0.027 -0.017 0.0022" size=".0006" group="4" rgba=".1 .8 .4 1" />
+          <geom name="cantilever_carrier__Chip_support_root" type="box" pos="0.009 -0.018 0.0038" size="0.004 0.008 0.00135" class="contact" />
+          <geom name="cantilever_carrier__Chip_support_extension" type="box" pos="0.0215 -0.023 0.0038" size="0.0085 0.003 0.00135" class="contact" />
+          <geom name="cantilever_carrier__Clamp_upper_contact" type="box" pos="0 -0.004 0.013" size="0.0135 0.0145 0.0015" class="contact" />
+          <geom name="cantilever_carrier__Pogo_block_contact" type="box" pos="0 0.007 0.019" size="0.012 0.0045 0.0035" class="contact" />
+          <geom name="cantilever_carrier__Pogo_pin_envelope" type="box" pos="0 0.007 0.024" size="0.01065 0.00065 0.002" class="contact" />
+          <geom name="cantilever_carrier__Holder_brace_contact" type="box" pos="0 0.0105 0.019" size="0.013 0.001 0.0045" class="contact" />
+          <geom name="cantilever_carrier__Chip_contact" type="box" pos="0.03105 -0.025 0.0023" size="0.0017 0.0008 0.00015" class="contact" />
+          <geom name="cantilever_carrier__Holder_side_screw_contact" type="cylinder" pos="0.015 -0.004 0.012" size="0.0043 0.0025" zaxis="1 0 0" class="contact" />
+          <geom name="cantilever_carrier__Holder_fork_left_contact" type="box" pos="-0.00925 -0.0193 0.009" size="0.00275 0.00175 0.005" class="contact" />
+          <geom name="cantilever_carrier__Holder_fork_right_contact" type="box" pos="0.00925 -0.0193 0.009" size="0.00275 0.00175 0.005" class="contact" />
+          <geom name="cantilever_carrier__Holder_fork_upper_contact" type="box" pos="0 -0.0193 0.012775" size="0.0065 0.00175 0.001225" class="contact" />
+          <geom name="cantilever_carrier__Holder_fork_lower_contact" type="box" pos="0 -0.0193 0.005225" size="0.0065 0.00175 0.001225" class="contact" />
+          <site name="cantilever_mount" pos="0.03105 -0.025 0.0023" size=".0006" group="4" rgba=".1 .8 .4 1" />
+          <site name="afm_tip" pos="0.033 -0.025 0.0021025" size=".0006" group="4" rgba=".1 .8 .4 1" />
         </body>
       </body>
       <body name="engage_knob" pos="0.126 -0.195 0.055" euler="-1.05572351 0 0">
@@ -158,12 +170,20 @@
         <geom name="engage_knob__Engage_encoder_grip" type="cylinder" pos="0 -0.003 0" size="0.017 0.005" zaxis="0 -1 0" class="contact" />
         <site name="engage_control" pos="0 -0.011 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
       </body>
+      <body name="inspection_objective" pos="0.008 -0.04 0" euler="0 0 0">
+        <geom name="inspection_objective__Objective_contact_barrel" type="cylinder" pos="0 0 0.2495" size="0.017 0.0035" zaxis="0 0 1" class="contact" />
+        <geom name="inspection_objective__Objective_contact_barrel_2" type="cylinder" pos="0 0 0.22975" size="0.0142 0.01625" zaxis="0 0 1" class="contact" />
+        <geom name="inspection_objective__Objective_contact_barrel_3" type="cylinder" pos="0 0 0.2125" size="0.0109 0.001" zaxis="0 0 1" class="contact" />
+        <site name="objective_axis_top" pos="0 0 0.253" size=".0006" group="4" rgba=".1 .8 .4 1" />
+        <site name="objective_front_center" pos="0 0 0.2115" size=".0006" group="4" rgba=".1 .8 .4 1" />
+      </body>
     </body>
-    <body name="sample_puck" pos="0.00800000038 -0.04000000283 0.202000007" quat="1 0 0 0">
+    <body name="sample_puck" pos="0.00800000038 -0.04000000283 0.200000003" quat="1 0 0 0">
       <freejoint name="sample_puck_free" />
       <inertial mass="0.0014" pos="0 0 0" diaginertia="1.5e-08 1.5e-08 2.8e-08" />
       <geom name="sample_puck__AFM_magnetic_sample_disc" type="cylinder" contype="1" conaffinity="3" pos="0 0 0" size="0.0075 0.0005" zaxis="0 0 1" class="contact" />
       <site name="sample_puck_center" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
+      <site name="specimen_surface_center" pos="0 0 0.0008" size=".0006" group="4" rgba=".1 .8 .4 1" />
     </body>
   </worldbody>
   <actuator>
@@ -186,4 +206,45 @@
     <joint name="door_lock" joint1="door_angle" polycoef="0 0 0 0 0" active="true" solref=".002 1" solimp=".99 .999 .0001" />
     <joint name="drawer_lock" joint1="drawer_travel" polycoef="0 0 0 0 0" active="true" solref=".002 1" solimp=".99 .999 .0001" />
   </equality>
+  <contact>
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Cantilever_carrier" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Chip_support_root" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Chip_support_extension" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Clamp_upper_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Pogo_block_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Pogo_pin_envelope" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Holder_brace_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Chip_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Holder_side_screw_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Holder_fork_left_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Holder_fork_right_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Holder_fork_upper_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel" geom2="cantilever_carrier__Holder_fork_lower_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Cantilever_carrier" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Chip_support_root" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Chip_support_extension" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Clamp_upper_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Pogo_block_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Pogo_pin_envelope" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Holder_brace_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Chip_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Holder_side_screw_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Holder_fork_left_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Holder_fork_right_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Holder_fork_upper_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_2" geom2="cantilever_carrier__Holder_fork_lower_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Cantilever_carrier" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Chip_support_root" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Chip_support_extension" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Clamp_upper_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Pogo_block_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Pogo_pin_envelope" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Holder_brace_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Chip_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Holder_side_screw_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Holder_fork_left_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Holder_fork_right_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Holder_fork_upper_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+    <pair geom1="inspection_objective__Objective_contact_barrel_3" geom2="cantilever_carrier__Holder_fork_lower_contact" condim="3" friction=".6 .6 .001 .0001 .0001" solref=".002 1" solimp=".97 .999 .0001" />
+  </contact>
 </mujoco>

@@ -124,6 +124,9 @@ The chip is a free body: contact and friction carry it, not a scripted position 
 The instruments contain MuJoCo rigid bodies, masses, inertias, joints, friction
 and collision shapes. Instrument bases are anchored to the bench. Most detailed
 surface meshes are visual geometry; collision proxies approximate their surfaces.
+The Nikon stand and Zeiss specimen holder use multiple convex contact hulls to
+follow their concave openings. These hulls remain in the browser physics and in
+the contact overlay; a single convex hull would incorrectly fill the openings.
 Standard robot collision masks can contact the instrument proxies, while many
 instrument-to-instrument contacts are suppressed. The orange **Contact shapes**
 view exposes this coverage; it does not add collisions to decorative geometry.
@@ -169,10 +172,52 @@ The transfer vacuum and heater lines terminate in separate fittings and
 follow XY plus rotation. Their declared attached-service envelope is ±90° coarse
 rotation plus ±2.5° fine adjustment, with the stamp retracted. Larger rotations
 require rerouting or disconnecting services, which is outside the current cable
-model. [Current construction and geometry checks](validation/reference5/assets.json) and
+model. [Current construction and geometry checks](validation/alignment6/assets.json) and
 [current gripper evidence](robotics/README.md) describe the measured coverage.
 The [earlier hose sweep](validation/transfer_hose/summary.json) remains available
 as historical evidence for the earlier model.
+
+## Optical alignment and moving-part fit
+
+The AFM inspection objective is centered on the docked specimen and cantilever
+tip. The previous reconstruction missed the specimen by about 16.1 mm and its
+lower barrel intersected the holder. The corrected lens mount, chip support and
+tip leave a visible gap; the relay tubes and focusing sleeve have continuous
+open bores. The sample puck rests on its support instead of resetting above it.
+Choose **More rendered views → Objective and sample · front / top** or
+**Objective and tip · side** to inspect the corrected construction.
+[Compare the previous and corrected AFM alignment](validation/alignment6/comparison/afm-alignment.jpg).
+
+Cantilever service requires withdrawing the scanner drawer at least 40 mm before
+lifting the holder beyond 0.04 rad. Lower the holder before returning the drawer.
+The command guard checks current motion and pending targets together, including
+simultaneous commands. Physical objective/holder contact also limits a forced
+docked lift. The modeled tip rests above the sample for access and inspection;
+the engage encoder is not yet coupled to a coarse-approach or nanoscanning model.
+
+The same review found and repaired construction issues on other instruments:
+
+- **Nikon:** the inner stand throat and inclined nosepiece bearing housing clear
+  the rear objectives during indexing. The slide carrier and clips fit around
+  the glass, with contact coverage for the objective front and holder details.
+- **Zeiss:** the specimen holder sits below the slide, its screws seat on the
+  plate and its pivot connects to the stage. Compound contacts preserve the
+  holder opening while covering its plate, retaining arm and fasteners.
+- **Probe station:** the chip, chuck and clamps form a supported stack, with
+  separated guide surfaces and contact coverage around the workfield.
+- **Transfer station:** a front focus carriage and paired rails replace the
+  oversized bridge that intersected the guide and backing mast.
+- **Bonder:** the focus support fits around the optical housing; a path through
+  the front of the lens aperture sees both bond pads past the tool collet and
+  yoke. The tool still occludes other sightlines. Lower optical surfaces now have
+  contact shapes and a force-limited focus drive.
+- **Tweezers:** the existing geometry is retained after a fresh complete
+  pickup/placement and collision-coverage check.
+
+[Current instrument evidence](validation/alignment6/assets.json) distinguishes
+geometric sweeps, measured contact-limited motion and before/after comparisons.
+Dimensions and service thresholds are reconstruction estimates. These checks do
+not establish clearance for every possible combination of controls or robot pose.
 
 ## Construction from laboratory references
 
@@ -205,7 +250,7 @@ cannot reproduce. The original laboratory photographs and videos remain private.
 Choose **More rendered views → Door handle · stowed / deployed** on the AFM
 to inspect the mechanism, or operate the door-release control in the live view.
 [Compare the previous handle with the recessed, stowed and deployed reconstruction](validation/reference5/comparison/afm-handle-comparison.jpg).
-[Current reference review and measured evidence](validation/reference5/assets.json)
+[Earlier reference review and measured evidence](validation/reference5/assets.json)
 separate observed construction from estimated dimensions and hidden mechanisms.
 The latch uses a finite-force actuator and the existing state interlock. The
 concealed catch mechanism and its force response have not been reconstructed or
@@ -245,7 +290,7 @@ compiled collision coverage, and measured native/browser task execution.
 They do not establish collision freedom for every possible combination of
 instrument controls or arbitrary robot approaches. Intended threaded fits,
 bearings and functional tool/sample contact are identified separately.
-[Current delivery audit](validation/reference5.json) and
+[Current delivery audit](validation/alignment6.json) and
 [validation summary](validation/summary.json) identify the exact tested files.
 
 ## Visual revision 4
@@ -270,7 +315,7 @@ Overview images are 3840×3200; new details are 2560×2160. The live GLBs use th
 
 The transfer source power and dimmer affect microscope images. The dimmer represents a 10–100% relative illumination range; its zero setting is the powered minimum. The coarse ring turns with the clamp released; locking it engages the fine micrometer. Fiber and probe cables follow measured joint motion through visual deformation, without cable contact or strain simulation.
 
-[Delivery audit](validation/reference5.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
+[Delivery audit](validation/alignment6.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
 
 ## Implementation
 
@@ -282,8 +327,8 @@ The transfer source power and dimmer affect microscope images. The dimmer repres
 - `python/tasks.py`, `imaging.py` and `optics.py` retain the original task and image
   implementations. Pyodide 0.28.3 supplies NumPy, SciPy and Pillow locally.
   `python/sim.py` bridges snapshots and actions to the real MuJoCo runtime.
-- `assets/*/physics.xml` retains joints, equalities, inertias, sites and analytic
-  contact shapes. Noncolliding visual meshes are omitted from this XML only;
+- `assets/*/physics.xml` retains joints, equalities, inertias, sites, analytic
+  contact shapes and inline convex contact meshes. Noncolliding visual meshes are omitted from this XML only;
   the detailed hierarchy and materials are in `model.glb`.
 - Three.js renders measured body poses with PBR materials, room lighting and shadows.
   GPU frame submission is bounded, and the preview remains visible until the first
@@ -313,7 +358,7 @@ not ultrasonic welding or metallurgical bond formation.
 
 The browser port was revalidated independently of the native 3.3.7 engine:
 54/54 positive episodes across seeds 0, 1 and 2; 18 no-action controls with zero
-false positives; 73 mechanism checks; 12 objective-contact/retraction cases
+false positives; 73 mechanism checks; 24 objective-contact/retraction cases
 sampled every millisecond; 32 flexible-cable geometry checks;
 28 compiled-contact-overlay checks; and 18 interactive-page checks covering all seven detailed models, controls and
 gallery fallbacks. A complete 20-second tweezer placement was inspected at
@@ -324,10 +369,14 @@ physics, mechanism, cable and browser reports alongside it. The native engine
 also passes 54/54 episodes across seeds 0, 11 and 37, with 18 no-action controls.
 These are fixture benchmark checks on estimated instrument models, not
 physical-lab calibration results.
+Four of the optical cases check the bonder with its existing workfield, an
+explicit temporary contact probe, a moved probe and disabled optical contacts.
+The temporary probe is test equipment, not part of the delivered bonder.
 
-Current rendering evidence includes [browser and Photo-mode checks](validation/reference5/browser/rendering.json),
-[all-seven-instrument checks](validation/reference5/browser/all-models.json), and
-[AFM handle stow/deploy and door operation](validation/reference5/browser/afm-pocket.json).
+Current rendering evidence includes [browser and Photo-mode checks](validation/alignment6/browser/rendering.json),
+[all-seven-instrument checks](validation/alignment6/browser/all-models.json),
+[AFM handle stow/deploy and door operation](validation/alignment6/browser/afm-pocket.json), and
+[AFM optical alignment and holder service](validation/alignment6/browser/afm-alignment.json).
 The unchanged renderer also retains its earlier evidence for
 [reflection updates during camera and mechanism motion](validation/reflections3/motion.json),
 [planar reflection controls](validation/reflections3/planar.json),

@@ -1,0 +1,279 @@
+{
+  "revision": "alignment6",
+  "asset": "transfer",
+  "passed": true,
+  "checks": {
+    "current_scene": true,
+    "current_native": true,
+    "measured_pose_binding": true,
+    "audit_harness": true,
+    "native_harness": true,
+    "initial_harness": true,
+    "native_force_and_control_cases": true,
+    "fixed_support_clearance": true,
+    "sample_axis_alignment": true,
+    "unchanged_joint_site_datums": true,
+    "measured_workfield_clearance": true
+  },
+  "metrics": {
+    "source_pose_count": 101,
+    "measured_pose_count": 50,
+    "initial_support_collision_poses": 101,
+    "current_support_collision_poses": 0,
+    "native_cases": 10,
+    "maximum_axis_error_mm": 9.313225746154785e-06,
+    "intended_loaded_contact_intersections": 18,
+    "maximum_loaded_contact_thin_axis_overlap_mm": 0.0013214401797800868,
+    "loaded_contact_allowance_mm": 0.005,
+    "deliberately_incompatible_source_requests": 32,
+    "maximum_native_optical_penetration_mm": 0.031324067274811636
+  },
+  "current_artifacts_sha256": {
+    "001_transfer_stage/transfer_station.blend": "32752a04829cd966b9fe0ad0553777677a4fd1b3cef867f8307b8498d6fb9f9a",
+    "001_transfer_stage/transfer_station.xml": "61a8e9233d89a73b5a07cc2633184f332a2dd080f7989db654e93565cef27568",
+    "001_transfer_stage/asset.json": "e88a01bf6e676e9138d68276bfdb32f2bda64acdb2a47dfd914fb326d68466a7",
+    "001_transfer_stage/assets/transfer_station.glb": "f3908bd97a6085d787d8c5d11c8046055b297c37927d028c3f22d32873d4b037"
+  },
+  "input_reports": [
+    {
+      "path": "validation/alignment6/transfer/current_optical_mesh.json",
+      "sha256": "3173d99f46b67465eb5a6cad56bab8544ddf46344c403abe348d2b19a5ea2a76"
+    },
+    {
+      "path": "validation/alignment6/transfer/native_optics.json",
+      "sha256": "1d3a12449240b67fa541a6e179230ac91253cd2273ec8880bf1bf8babfa5f750"
+    },
+    {
+      "path": "validation/alignment6/transfer/before_optical_mesh.json",
+      "sha256": "95b3fce3870d3bb62e00948cf6ffd520ffecf03362751e966460f6bfe89f3b6a"
+    }
+  ],
+  "intended_loaded_contact_mesh_intersections": [
+    {
+      "frame": "transfer_stop_0",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 43,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.7800772602148407,
+        7.4000004678964615,
+        0.001320345410366075
+      ]
+    },
+    {
+      "frame": "transfer_stop_0",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw.001",
+      "triangle_pairs": 50,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        2.020384240372847,
+        7.4000004678964615,
+        0.001320345410366075
+      ]
+    },
+    {
+      "frame": "transfer_retract_0_maximum_contact_overlap",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 43,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.7800773331635988,
+        7.4000004678964615,
+        0.001320301033225224
+      ]
+    },
+    {
+      "frame": "transfer_retract_0_maximum_contact_overlap",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw.001",
+      "triangle_pairs": 50,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        2.020369214590867,
+        7.4000004678964615,
+        0.001320301033225224
+      ]
+    },
+    {
+      "frame": "transfer_stop_1",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 13,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.3734838579761155,
+        7.4000004678964615,
+        0.0005489439739436719
+      ]
+    },
+    {
+      "frame": "transfer_stop_2",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 43,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.7801574169805934,
+        7.4000004678964615,
+        0.0013214401797800868
+      ]
+    },
+    {
+      "frame": "transfer_stop_2",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw.001",
+      "triangle_pairs": 50,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        2.0203053583385673,
+        7.4000004678964615,
+        0.0013214401797800868
+      ]
+    },
+    {
+      "frame": "transfer_retract_2_maximum_contact_overlap",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 43,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.7801574989224216,
+        7.4000004678964615,
+        0.0013213903052866627
+      ]
+    },
+    {
+      "frame": "transfer_retract_2_maximum_contact_overlap",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw.001",
+      "triangle_pairs": 50,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        2.0203052183545984,
+        7.4000004678964615,
+        0.0013213903052866627
+      ]
+    },
+    {
+      "frame": "transfer_stop_3",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 13,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.3735647742464523,
+        7.4000004678964615,
+        0.0005270847578120463
+      ]
+    },
+    {
+      "frame": "transfer_stop_3_maximum_contact_overlap",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 13,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.3635383656190603,
+        7.4000004678964615,
+        0.000442474029332951
+      ]
+    },
+    {
+      "frame": "transfer_stop_4",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 44,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.8783419766395804,
+        7.4000004678964615,
+        0.001024415196670958
+      ]
+    },
+    {
+      "frame": "transfer_stop_4",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw.001",
+      "triangle_pairs": 47,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.9217253451657008,
+        7.4000004678964615,
+        0.001024415196670958
+      ]
+    },
+    {
+      "frame": "transfer_stop_5",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 17,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.449307016473278,
+        7.4000004678964615,
+        0.0006982653673603956
+      ]
+    },
+    {
+      "frame": "transfer_stop_5_maximum_contact_overlap",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 17,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.4380363679836194,
+        7.4000004678964615,
+        0.000567159701397868
+      ]
+    },
+    {
+      "frame": "transfer_stop_6",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 44,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.881521451144272,
+        7.4000004678964615,
+        0.0010165203975232018
+      ]
+    },
+    {
+      "frame": "transfer_stop_6",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw.001",
+      "triangle_pairs": 47,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.9185515792481678,
+        7.4000004678964615,
+        0.0010165203975232018
+      ]
+    },
+    {
+      "frame": "transfer_stop_6_maximum_contact_overlap",
+      "moving": "Mitutoyo smooth objective barrel",
+      "fixed": "Heater knurled clamp screw",
+      "triangle_pairs": 44,
+      "contained_surfaces": [],
+      "aabb_overlap_mm": [
+        1.8783902736471125,
+        7.4000004678964615,
+        0.00022737633659231093
+      ]
+    }
+  ],
+  "limitations": [
+    "The audit covers the listed optical assemblies, sampled poses and measured approach/retraction trajectories; arbitrary robot approaches are not certified.",
+    "Reference images establish visible construction; mount dimensions, optical prescriptions and material/force parameters remain uncalibrated.",
+    "Flexible services retain prescribed visual deformation without contact or strain dynamics.",
+    "Source-only high-Z/tilt commands can geometrically overlap the objective. Their actual finite-force equilibria and retractions are checked separately.",
+    "The sole detailed-mesh overlap allowance is5 micrometers of thin-axis bounding-box overlap at intended loaded objective/clamp-head contact. Fixed/moving supports receive no such allowance."
+  ],
+  "method": "Evaluated source triangles, BVH overlap plus containment witnesses, optical-axis registration, and source-matched measured MuJoCo states. Support intersection counts do not rely on collision masks.",
+  "script": "validation/alignment6/transfer/accept_optics.py",
+  "script_sha256": "a0e6964d8d14ebc8e982d657c2c6907201d89eb65b388c196bf552ac0be91e37"
+}

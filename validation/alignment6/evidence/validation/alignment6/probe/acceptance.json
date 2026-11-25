@@ -1,0 +1,143 @@
+{
+  "revision": "alignment6",
+  "asset": "probe",
+  "passed": true,
+  "source_sha256": "8dbacfdbd9392d529ecf0a0b1eb69921a510ff78c853aca9dcc6fad65ed9b2de",
+  "xml_sha256": "33aaec22ddd9e8b05b76a27c1d5e840171aecb07415153742dc6bd1caec3bffe",
+  "checks": [
+    {
+      "check": "all_fitted_optical_axes_and_home_paths",
+      "passed": true,
+      "indexed_objectives": 1
+    },
+    {
+      "check": "assembled_holder_slide_chip_supports",
+      "passed": true,
+      "fits": [
+        {
+          "check": "clamp_on_lower_rail",
+          "gap_mm": 8.614733815193176e-06,
+          "upper": [
+            "Sample clamp block"
+          ],
+          "lower": [
+            "Specimen holder lower rail"
+          ],
+          "passed": true
+        },
+        {
+          "check": "chip_on_clamp",
+          "gap_mm": -6.955815479159355e-06,
+          "upper": [
+            "device_chip"
+          ],
+          "lower": [
+            "Sample clamp block"
+          ],
+          "passed": true
+        },
+        {
+          "check": "guides_on_lower_rail",
+          "gap_mm": 9.546056389808655e-06,
+          "upper": [
+            "Specimen holder upper guide",
+            "Specimen holder upper guide.001"
+          ],
+          "lower": [
+            "Specimen holder lower rail"
+          ],
+          "passed": true
+        },
+        {
+          "check": "clamp_to_side_guides",
+          "signed_gaps_mm": [
+            0.20000082440674305,
+            0.20000082440674305
+          ],
+          "intersections": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "check": "full_travel_control_and_cable_exteriors",
+      "passed": true,
+      "domain": {
+        "manipulator_xyz_mm": [
+          -6,
+          0,
+          6
+        ],
+        "optical_focus_mm": [
+          -20,
+          20
+        ],
+        "chuck_xy_mm": [
+          -12.5,
+          0,
+          12.5
+        ]
+      }
+    },
+    {
+      "check": "sampled_objective_work_surface_contact_coverage",
+      "passed": true,
+      "poses": 27,
+      "unsafe_poses_with_native_contact": 9
+    },
+    {
+      "check": "mechanism_datums_unchanged",
+      "passed": true
+    }
+  ],
+  "baseline_findings": [
+    "The clamp intersected its lower rail by 4 mm, both guides intersected the rail by 1 mm, side guides overlapped the clamp by 1 mm, and the chip floated 0.25 mm above the clamp."
+  ],
+  "baseline_failures_are_not_final_acceptance": true,
+  "source_reports": [
+    {
+      "path": "validation/alignment6/probe/before_geometry.json",
+      "sha256": "8b16cd189ef8f60096a27dd3918ab0d3611f444848d73dfcfad8803c93c2175e"
+    },
+    {
+      "path": "validation/alignment6/probe/before_native_audit.json",
+      "sha256": "cbf99032b23f8a26dd5c2753ba7273c5d8e4fb89a23d3c508dc723db1c9e91aa"
+    },
+    {
+      "path": "validation/alignment6/probe/after_geometry.json",
+      "sha256": "c1e0fbb407ad0ca5d6a96cd48ea975928acdb504dbcf7ec019b658eb9250977b"
+    },
+    {
+      "path": "validation/alignment6/probe/after_native_audit.json",
+      "sha256": "f12a7b531aaeaf818a7ac71eebc6e97126247ceae6d13a782484ddabba6e2e8d"
+    },
+    {
+      "path": "validation/alignment6/probe/support_fits.json",
+      "sha256": "de3a51240a9372a8c653f4d7642634bbbd4b94aacb33241138241ae9af1abdb8"
+    },
+    {
+      "path": "validation/alignment6/probe/datums.json",
+      "sha256": "6ae1a8ebf3f645c22322a140c673106716f30e5126074bdb122ea8e2069ca2ac"
+    },
+    {
+      "path": "validation/alignment6/probe/sections.json",
+      "sha256": "86977f54a50171d2fa328e06a096b3f345dddeaf6dbfff5e7f8b9779258fac0d"
+    },
+    {
+      "path": "validation/alignment6/probe/section_plot_report.json",
+      "sha256": "49b087bba7396243ebc7c456ea6dec3f8bb380c7e33c63149dbedfff53b756f2"
+    },
+    {
+      "path": "validation/alignment6/probe/clearance_regression.json",
+      "sha256": "15a4fd7cabf21b50ad8b07438d6e7b12f19787431a77494f591c98003ae0db1b"
+    },
+    {
+      "path": "validation/alignment6/probe/optical_contact.json",
+      "sha256": "33ecc2617cdb5ce3ff213f342f8cd59bdf26d24938ad702f2b8b8820f0a22bfd"
+    },
+    {
+      "path": "validation/alignment6/probe/combined_native_coverage.json",
+      "sha256": "4b41ff923db4778f71e804358a86192caca81ed4e6017756a4bfcd71a86dc612"
+    }
+  ]
+}

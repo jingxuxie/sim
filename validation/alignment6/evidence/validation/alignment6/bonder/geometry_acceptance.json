@@ -1,0 +1,67 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "passed": true,
+  "checks": {
+    "current_scene": true,
+    "current_native": true,
+    "measured_pose_binding": true,
+    "audit_harness": true,
+    "native_harness": true,
+    "initial_harness": true,
+    "native_force_and_control_cases": true,
+    "fixed_support_clearance": true,
+    "sample_axis_alignment": true,
+    "unchanged_joint_site_datums": true,
+    "sampled_workfield_clearance": true,
+    "measured_workfield_clearance": true,
+    "both_pads_visible_from_same_front_pupil": true
+  },
+  "metrics": {
+    "source_pose_count": 32,
+    "measured_pose_count": 28,
+    "initial_support_collision_poses": 32,
+    "current_support_collision_poses": 0,
+    "native_cases": 12,
+    "maximum_axis_error_mm": 7.450580596923828e-06,
+    "initial_obstructed_pupil_rays": 33,
+    "sampled_pupil_rays": 33,
+    "current_obstructed_pupil_rays": 28,
+    "shared_unobstructed_pupil_offset_mm": [
+      0,
+      -15.0
+    ]
+  },
+  "current_artifacts_sha256": {
+    "004_wire_bonder/wire_bonder.blend": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+    "004_wire_bonder/wire_bonder.xml": "e8a626df50db11cd9598e1059ebf72f9246ffad71ef18d3cfc076d10095fc5fc",
+    "004_wire_bonder/asset.json": "55d66a26a4e00b3587ab2c586d0f1d2b26013a55f7afae80ef68d13b2b0b6760",
+    "004_wire_bonder/assets/wire_bonder.glb": "3e08502348bdc774b6e7837e2b4a57278c5ee8262a93271ec3dfa4e77f3b7015"
+  },
+  "input_reports": [
+    {
+      "path": "validation/alignment6/bonder/current_optical_mesh.json",
+      "sha256": "6b2b4ce00f3c7d0c49490eee2b35408b7d21bfebdf9fdba998530f0109cbf024"
+    },
+    {
+      "path": "validation/alignment6/bonder/native_optics.json",
+      "sha256": "511a2d8801a2d66bda51d95ced4291299830335902845aa22bc2027faebd3622"
+    },
+    {
+      "path": "validation/alignment6/bonder/before_optical_mesh.json",
+      "sha256": "88e3867df5cccfa51c6f10967d56fba4a4f2adfa7da8558be885f112db2714ea"
+    }
+  ],
+  "intended_loaded_contact_mesh_intersections": [],
+  "limitations": [
+    "The audit covers the listed optical assemblies, sampled poses and measured approach/retraction trajectories; arbitrary robot approaches are not certified.",
+    "Reference images establish visible construction; mount dimensions, optical prescriptions and material/force parameters remain uncalibrated.",
+    "Flexible services retain prescribed visual deformation without contact or strain dynamics.",
+    "Pupil rays demonstrate geometric access to both pads. They do not reconstruct the unknown internal stereo channels or claim that opaque tools never obscure the specimen.",
+    "The probe force test explicitly inserts a temporary obstacle below the glass; it is not delivered instrument hardware. The existing operating envelope is tested separately and remains clear.",
+    "Focus wheels remain visual controls; the axial focus slide has finite-force fixture actuation and native lower-optics contacts."
+  ],
+  "method": "Evaluated source triangles, BVH overlap plus containment witnesses, optical-axis registration, and source-matched measured MuJoCo states. Support intersection counts do not rely on collision masks.",
+  "script": "validation/alignment6/transfer/accept_optics.py",
+  "script_sha256": "a0e6964d8d14ebc8e982d657c2c6907201d89eb65b388c196bf552ac0be91e37"
+}

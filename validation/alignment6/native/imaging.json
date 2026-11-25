@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "defocus_sign_symmetry_for_aberration_free_intensity": true,
+    "circular_pupil_pixel_kernel_symmetry": true,
+    "nonnegative_unit_energy_kernel": true,
+    "example_contrast_decreases_with_defocus": true,
+    "image_translation_matches_measured_stage": true,
+    "objective_change_halves_field_width": true,
+    "empty_socket_has_no_specimen_image": true,
+    "image_policy_has_no_hidden_target_metadata": true,
+    "crossing_focus_during_search_is_not_success": true,
+    "submitted_focus_with_indexed_objective_can_succeed": true,
+    "empty_objective_cannot_pass_focus_even_at_zero_error": true,
+    "transiting_zeiss_objective_cannot_pass_focus": true
+  },
+  "details": {
+    "focus_scores": [
+      0.03003188967704773,
+      0.024000514298677444,
+      0.007774354424327612,
+      0.0007976667257025838
+    ],
+    "stage_shift_pixels": {
+      "observed": -17.54946996466431,
+      "expected": -17.75918334348267
+    }
+  },
+  "passed": true
+}

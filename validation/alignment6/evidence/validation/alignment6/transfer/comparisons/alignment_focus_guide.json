@@ -1,0 +1,112 @@
+{
+  "revision": "alignment6",
+  "asset": "transfer",
+  "passed": true,
+  "title": "Transfer microscope: focus carriage and fixed guide",
+  "explanation": "The former solid bridge crossed the fixed guide and mast. The slim front carriage now travels on separate rails; optical/sample datums stay unchanged.",
+  "camera": "alignment_focus_guide",
+  "camera_signature": {
+    "matrix_world": [
+      [
+        0.36354249715805054,
+        -0.5125672817230225,
+        0.7778891921043396,
+        0.32377249002456665
+      ],
+      [
+        0.9315776228904724,
+        0.2000262588262558,
+        -0.30356651544570923,
+        -0.07232585549354553
+      ],
+      [
+        1.021520645849705e-09,
+        0.8350235223770142,
+        0.5502142906188965,
+        0.6782780885696411
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "PERSP",
+    "lens_mm": 60.0,
+    "scale": 0.25999999046325684,
+    "clip_start_m": 0.0010000000474974513,
+    "dof_enabled": true,
+    "focus_distance_m": 0.5511999726295471,
+    "fstop": 11.0
+  },
+  "camera_source_sha256": "32752a04829cd966b9fe0ad0553777677a4fd1b3cef867f8307b8498d6fb9f9a",
+  "input_reports": [
+    {
+      "path": "validation/alignment6/transfer/before_diagnostics/render_report.json",
+      "sha256": "e8a5a8fab7f23a28de23165062ee47eb870f3b242f794f6f99da8dcb511b1ff2"
+    },
+    {
+      "path": "validation/alignment6/transfer/renders/render_report.json",
+      "sha256": "88e94536dc5db8486cf4603c80957de90075e543fcf2871a9c3b703fcd566a7c"
+    }
+  ],
+  "inputs": [
+    {
+      "label": "Before",
+      "image": {
+        "path": "validation/alignment6/transfer/before_diagnostics/alignment_focus_guide.png",
+        "sha256": "72f5f8beab72938fd8fe64f486b50ba80d918c92ad35fa3eeb881cafe2e88c6e"
+      },
+      "source_resolution": [
+        2560,
+        2160
+      ],
+      "placed_resolution": [
+        1280,
+        1080
+      ],
+      "panel_rectangle": [
+        16,
+        100,
+        1296,
+        1180
+      ]
+    },
+    {
+      "label": "After",
+      "image": {
+        "path": "validation/alignment6/transfer/renders/alignment_focus_guide.png",
+        "sha256": "e05afdc5e9056d1908fabfaac7ebcbb98d61fdd780cb2eb30661463914387b9d"
+      },
+      "source_resolution": [
+        2560,
+        2160
+      ],
+      "placed_resolution": [
+        1280,
+        1080
+      ],
+      "panel_rectangle": [
+        1312,
+        100,
+        2592,
+        1180
+      ]
+    }
+  ],
+  "raw_reference_media_published": false,
+  "image_layout": "Full uncropped frames reduced by exactly 1/2 in each dimension; no image alteration beyond uniform resampling and labels outside the image.",
+  "outputs": [
+    {
+      "path": "validation/alignment6/transfer/comparisons/alignment_focus_guide.png",
+      "sha256": "ebc2d68bbb2410b522a1ce890f363ad59357950f4290e528631745f1300d2436"
+    },
+    {
+      "path": "validation/alignment6/transfer/comparisons/alignment_focus_guide.jpg",
+      "sha256": "6a0b3cc8a71da408c77b50d2da5513695b0ae4ff5d6689c43b99f0bd08ee88b6"
+    }
+  ],
+  "script": "validation/alignment6/transfer/promote_reviews.py",
+  "script_sha256": "184d9bf250bc6f07458c344de2440122c5c020c8888e71eeea6f7d38b1fafc75"
+}

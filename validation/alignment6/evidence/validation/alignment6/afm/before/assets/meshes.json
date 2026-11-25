@@ -1,0 +1,446 @@
+[
+  {
+    "link": "base",
+    "material": "afm_satin_shell",
+    "file": "base__afm_satin_shell.obj",
+    "triangles": 3712
+  },
+  {
+    "link": "base",
+    "material": "alloy",
+    "file": "base__alloy.obj",
+    "triangles": 7932
+  },
+  {
+    "link": "base",
+    "material": "black",
+    "file": "base__black.obj",
+    "triangles": 15088
+  },
+  {
+    "link": "base",
+    "material": "bluepaint",
+    "file": "base__bluepaint.obj",
+    "triangles": 1468
+  },
+  {
+    "link": "base",
+    "material": "bronze",
+    "file": "base__bronze.obj",
+    "triangles": 1540
+  },
+  {
+    "link": "base",
+    "material": "brushed",
+    "file": "base__brushed.obj",
+    "triangles": 86712
+  },
+  {
+    "link": "base",
+    "material": "copper",
+    "file": "base__copper.obj",
+    "triangles": 856
+  },
+  {
+    "link": "base",
+    "material": "cyan",
+    "file": "base__cyan.obj",
+    "triangles": 736
+  },
+  {
+    "link": "base",
+    "material": "darkmetal",
+    "file": "base__darkmetal.obj",
+    "triangles": 15884
+  },
+  {
+    "link": "base",
+    "material": "etched",
+    "file": "base__etched.obj",
+    "triangles": 612
+  },
+  {
+    "link": "base",
+    "material": "graphite",
+    "file": "base__graphite.obj",
+    "triangles": 10992
+  },
+  {
+    "link": "base",
+    "material": "green",
+    "file": "base__green.obj",
+    "triangles": 1192
+  },
+  {
+    "link": "base",
+    "material": "ink",
+    "file": "base__ink.obj",
+    "triangles": 92860
+  },
+  {
+    "link": "base",
+    "material": "ivory",
+    "file": "base__ivory.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "label.warning",
+    "file": "base__label.warning.obj",
+    "triangles": 320
+  },
+  {
+    "link": "base",
+    "material": "led",
+    "file": "base__led.obj",
+    "triangles": 4584
+  },
+  {
+    "link": "base",
+    "material": "led.diffuser",
+    "file": "base__led.diffuser.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "optic",
+    "file": "base__optic.obj",
+    "triangles": 2292
+  },
+  {
+    "link": "base",
+    "material": "red",
+    "file": "base__red.obj",
+    "triangles": 36
+  },
+  {
+    "link": "base",
+    "material": "rubber",
+    "file": "base__rubber.obj",
+    "triangles": 3056
+  },
+  {
+    "link": "base",
+    "material": "steel",
+    "file": "base__steel.obj",
+    "triangles": 63368
+  },
+  {
+    "link": "base",
+    "material": "white",
+    "file": "base__white.obj",
+    "triangles": 3944
+  },
+  {
+    "link": "base",
+    "material": "wire",
+    "file": "base__wire.obj",
+    "triangles": 2448
+  },
+  {
+    "link": "base",
+    "material": "yellow",
+    "file": "base__yellow.obj",
+    "triangles": 856
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "alloy",
+    "file": "cantilever_carrier__alloy.obj",
+    "triangles": 428
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "black",
+    "file": "cantilever_carrier__black.obj",
+    "triangles": 428
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "bronze",
+    "file": "cantilever_carrier__bronze.obj",
+    "triangles": 1964
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "brushed",
+    "file": "cantilever_carrier__brushed.obj",
+    "triangles": 3944
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "darkmetal",
+    "file": "cantilever_carrier__darkmetal.obj",
+    "triangles": 1284
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "gold",
+    "file": "cantilever_carrier__gold.obj",
+    "triangles": 6888
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "ink",
+    "file": "cantilever_carrier__ink.obj",
+    "triangles": 112
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "red",
+    "file": "cantilever_carrier__red.obj",
+    "triangles": 428
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "steel",
+    "file": "cantilever_carrier__steel.obj",
+    "triangles": 7496
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "wafer",
+    "file": "cantilever_carrier__wafer.obj",
+    "triangles": 428
+  },
+  {
+    "link": "cantilever_carrier",
+    "material": "yellow",
+    "file": "cantilever_carrier__yellow.obj",
+    "triangles": 428
+  },
+  {
+    "link": "door",
+    "material": "afm_satin_shell",
+    "file": "door__afm_satin_shell.obj",
+    "triangles": 11948
+  },
+  {
+    "link": "door",
+    "material": "alloy",
+    "file": "door__alloy.obj",
+    "triangles": 12424
+  },
+  {
+    "link": "door",
+    "material": "bluepaint",
+    "file": "door__bluepaint.obj",
+    "triangles": 688
+  },
+  {
+    "link": "door",
+    "material": "bronze",
+    "file": "door__bronze.obj",
+    "triangles": 1536
+  },
+  {
+    "link": "door",
+    "material": "brushed",
+    "file": "door__brushed.obj",
+    "triangles": 3200
+  },
+  {
+    "link": "door",
+    "material": "darkmetal",
+    "file": "door__darkmetal.obj",
+    "triangles": 3352
+  },
+  {
+    "link": "door",
+    "material": "graphite",
+    "file": "door__graphite.obj",
+    "triangles": 856
+  },
+  {
+    "link": "door",
+    "material": "ink",
+    "file": "door__ink.obj",
+    "triangles": 2908
+  },
+  {
+    "link": "door",
+    "material": "paper",
+    "file": "door__paper.obj",
+    "triangles": 5312
+  },
+  {
+    "link": "door",
+    "material": "purple",
+    "file": "door__purple.obj",
+    "triangles": 856
+  },
+  {
+    "link": "door",
+    "material": "red",
+    "file": "door__red.obj",
+    "triangles": 1056
+  },
+  {
+    "link": "door",
+    "material": "steel",
+    "file": "door__steel.obj",
+    "triangles": 35908
+  },
+  {
+    "link": "door",
+    "material": "window",
+    "file": "door__window.obj",
+    "triangles": 428
+  },
+  {
+    "link": "door_latch",
+    "material": "alloy",
+    "file": "door_latch__alloy.obj",
+    "triangles": 1336
+  },
+  {
+    "link": "door_latch",
+    "material": "brushed",
+    "file": "door_latch__brushed.obj",
+    "triangles": 1672
+  },
+  {
+    "link": "door_latch",
+    "material": "steel",
+    "file": "door_latch__steel.obj",
+    "triangles": 2292
+  },
+  {
+    "link": "drawer",
+    "material": "alloy",
+    "file": "drawer__alloy.obj",
+    "triangles": 1284
+  },
+  {
+    "link": "drawer",
+    "material": "black",
+    "file": "drawer__black.obj",
+    "triangles": 3328
+  },
+  {
+    "link": "drawer",
+    "material": "brushed",
+    "file": "drawer__brushed.obj",
+    "triangles": 8332
+  },
+  {
+    "link": "drawer",
+    "material": "darkmetal",
+    "file": "drawer__darkmetal.obj",
+    "triangles": 4524
+  },
+  {
+    "link": "drawer",
+    "material": "etched",
+    "file": "drawer__etched.obj",
+    "triangles": 768
+  },
+  {
+    "link": "drawer",
+    "material": "gold",
+    "file": "drawer__gold.obj",
+    "triangles": 1712
+  },
+  {
+    "link": "drawer",
+    "material": "ink",
+    "file": "drawer__ink.obj",
+    "triangles": 7668
+  },
+  {
+    "link": "drawer",
+    "material": "label.warning",
+    "file": "drawer__label.warning.obj",
+    "triangles": 320
+  },
+  {
+    "link": "drawer",
+    "material": "paper",
+    "file": "drawer__paper.obj",
+    "triangles": 4588
+  },
+  {
+    "link": "drawer",
+    "material": "purple",
+    "file": "drawer__purple.obj",
+    "triangles": 5076
+  },
+  {
+    "link": "drawer",
+    "material": "rubber",
+    "file": "drawer__rubber.obj",
+    "triangles": 856
+  },
+  {
+    "link": "drawer",
+    "material": "steel",
+    "file": "drawer__steel.obj",
+    "triangles": 25820
+  },
+  {
+    "link": "engage_knob",
+    "material": "afm_satin_shell",
+    "file": "engage_knob__afm_satin_shell.obj",
+    "triangles": 768
+  },
+  {
+    "link": "engage_knob",
+    "material": "ivory",
+    "file": "engage_knob__ivory.obj",
+    "triangles": 764
+  },
+  {
+    "link": "engage_knob",
+    "material": "white",
+    "file": "engage_knob__white.obj",
+    "triangles": 1792
+  },
+  {
+    "link": "sample_puck",
+    "material": "steel",
+    "file": "sample_puck__steel.obj",
+    "triangles": 764
+  },
+  {
+    "link": "sample_puck",
+    "material": "wafer",
+    "file": "sample_puck__wafer.obj",
+    "triangles": 764
+  },
+  {
+    "link": "scanner_latch",
+    "material": "alloy",
+    "file": "scanner_latch__alloy.obj",
+    "triangles": 428
+  },
+  {
+    "link": "scanner_latch",
+    "material": "black",
+    "file": "scanner_latch__black.obj",
+    "triangles": 1528
+  },
+  {
+    "link": "scanner_latch",
+    "material": "brushed",
+    "file": "scanner_latch__brushed.obj",
+    "triangles": 524
+  },
+  {
+    "link": "scanner_latch",
+    "material": "darkmetal",
+    "file": "scanner_latch__darkmetal.obj",
+    "triangles": 636
+  },
+  {
+    "link": "scanner_latch",
+    "material": "ink",
+    "file": "scanner_latch__ink.obj",
+    "triangles": 20
+  },
+  {
+    "link": "scanner_latch",
+    "material": "steel",
+    "file": "scanner_latch__steel.obj",
+    "triangles": 3488
+  }
+]

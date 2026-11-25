@@ -1,0 +1,15 @@
+{
+  "revision": "alignment6",
+  "asset": "probe",
+  "raw_reference_media_published": false,
+  "reference_photo_ids": [
+    243,
+    245,
+    246,
+    247
+  ],
+  "observed": "A raised sample clamp sits between guide structures under the vertically oriented Mitutoyo objective.",
+  "inferred": "The exact clamp/rail dimensions and benchmark witness chip are modeled fixtures, not measured manufacturer dimensions.",
+  "measured_before": "The clamp and guide bases overlapped their lower rail by 4/1 mm, the sides overlapped by 1 mm, and the chip floated 0.25 mm above its clamp.",
+  "corrected": "The clamp and guides rest on the lower rail, the chip rests on the clamp, and both side gaps are 0.2 mm. Objective, chip, probe-tip, stage and control datums remain unchanged."
+}

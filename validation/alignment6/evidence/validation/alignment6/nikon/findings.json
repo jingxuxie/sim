@@ -1,0 +1,13 @@
+{
+  "revision": "alignment6",
+  "asset": "nikon",
+  "raw_reference_media_published": false,
+  "reference_photo_ids": [
+    222,
+    225
+  ],
+  "observed": "Inclined nosepiece and parked objectives occupy the open throat below the stand. The mechanical stage has a seated insert and retaining clips.",
+  "inferred": "The exact upper throat, bearing housing and insert thickness are reconstruction estimates; these repairs preserve the established optical, specimen and lower-guide datums.",
+  "measured_before": "All 80 exact-index/intermediate-angle tests intersected the fixed casting or old gearbox. Carrier/clip penetrations into the slide were 0.1/0.2 mm.",
+  "corrected": "The upper throat and inclined bearing housing now clear all tested positions; a 0.7 mm carrier seats between the existing deck and slide, clips seat on the slide, and objective glass/shoulder/clip contact envelopes match their working surfaces."
+}

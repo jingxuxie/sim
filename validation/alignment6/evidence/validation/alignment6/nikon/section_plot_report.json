@@ -1,0 +1,19 @@
+{
+  "asset": "nikon",
+  "revision": "alignment6",
+  "source_sections": {
+    "path": "validation/alignment6/nikon/sections.json",
+    "sha256": "b962375843175892eae49e3aa5d5b93307e41cc7b43c22a92fed961a01016466"
+  },
+  "script_sha256": "c855f6a6e13a30be49bdf702d245ab7cfc6e368ee16b6e79227b00233198739e",
+  "artifacts": [
+    {
+      "path": "validation/alignment6/nikon/before_after_sections.png",
+      "sha256": "7ddacd7078bc0b4fed5f1692a01a2238901797edc5332a07b10b62cd09f40d28"
+    },
+    {
+      "path": "validation/alignment6/nikon/before_after_sections.svg",
+      "sha256": "36fa2f1039655ae5f39d86d591f2dc427a2666592727487f2241f560a9f22079"
+    }
+  ]
+}

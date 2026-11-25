@@ -97,6 +97,44 @@
           ]
         },
         {
+          "name": "Motic fixed focus guide rail",
+          "type": "box",
+          "pos_mm": [
+            -157,
+            90,
+            370
+          ],
+          "size_mm": [
+            4.0,
+            3.5,
+            82.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Motic fixed focus guide rail",
+          "type": "box",
+          "pos_mm": [
+            -53,
+            90,
+            370
+          ],
+          "size_mm": [
+            4.0,
+            3.5,
+            82.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
           "name": "sample_x fixed sole",
           "type": "box",
           "pos_mm": [
@@ -632,12 +670,12 @@
           "type": "box",
           "pos_mm": [
             0,
-            53,
+            36,
             5
           ],
           "size_mm": [
-            54.0,
-            31.0,
+            47.0,
+            10.0,
             52.0
           ],
           "axis": [
@@ -2398,6 +2436,86 @@
             21.5,
             19.5,
             7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Heater clamp washer",
+          "type": "cylinder",
+          "pos_mm": [
+            -17,
+            0,
+            48.7
+          ],
+          "size_mm": [
+            4.5,
+            0.6
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Heater knurled clamp screw",
+          "type": "cylinder",
+          "pos_mm": [
+            -17,
+            0,
+            51.5
+          ],
+          "size_mm": [
+            3.7,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Heater clamp washer",
+          "type": "cylinder",
+          "pos_mm": [
+            17,
+            0,
+            48.7
+          ],
+          "size_mm": [
+            4.5,
+            0.6
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Heater knurled clamp screw",
+          "type": "cylinder",
+          "pos_mm": [
+            17,
+            0,
+            51.5
+          ],
+          "size_mm": [
+            3.7,
+            2.5
           ],
           "axis": [
             0,
@@ -4171,7 +4289,7 @@
       "solimp": ".99999 .999999 .000001 .5 2"
     }
   ],
-  "geometry_revision": "reference5",
+  "geometry_revision": "alignment6",
   "imaging": {
     "objective_joint": "objective_angle",
     "objective_count": 4,

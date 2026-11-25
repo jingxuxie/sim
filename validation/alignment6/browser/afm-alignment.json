@@ -1,0 +1,822 @@
+{
+  "revision": "alignment6",
+  "url": "http://127.0.0.1:18945/",
+  "passed": true,
+  "checks": [
+    {
+      "check": "Inspection objective axis is vertical",
+      "passed": true
+    },
+    {
+      "check": "Docked sample is centered on objective",
+      "passed": true,
+      "offset_m": 6.371848945481863e-8
+    },
+    {
+      "check": "Actual AFM tip is centered on specimen",
+      "passed": true,
+      "offset_m": 6.371849284730012e-8
+    },
+    {
+      "check": "Safe tip standoff and plausible objective working distance",
+      "passed": true,
+      "tip_gap_m": 0.001303731357868071,
+      "working_distance_m": 0.010701231357868046
+    },
+    {
+      "check": "Actual exported lower objective mesh matches optical axis",
+      "passed": true,
+      "bounds": {
+        "min": [
+          -0.004700000777840614,
+          -0.052700000777840615,
+          0.21150001789090167
+        ],
+        "max": [
+          0.020700000777840614,
+          -0.027299999222159387,
+          0.2151000055600889
+        ],
+        "center": [
+          0.008,
+          -0.04,
+          0.2133000117254953
+        ],
+        "vertices": 2709
+      }
+    },
+    {
+      "check": "Actual exported specimen mesh matches its physical surface",
+      "passed": true,
+      "bounds": {
+        "min": [
+          0.003500000712841905,
+          -0.044500063049131657,
+          0.20049865709399928
+        ],
+        "max": [
+          0.01250000147300937,
+          -0.035500056631357794,
+          0.2007988872952381
+        ],
+        "center": [
+          0.008000001092925637,
+          -0.040000059840244725,
+          0.20064877219461869
+        ],
+        "vertices": 576
+      }
+    },
+    {
+      "check": "Docked holder service command is rejected",
+      "passed": true
+    },
+    {
+      "check": "Simultaneous unsafe commands cannot bypass guards in either order",
+      "passed": true,
+      "cases": [
+        {
+          "action": {
+            "drawer_travel": 0,
+            "cantilever_lift": 0.5
+          },
+          "targets": {
+            "door_angle": -1.799999999999997,
+            "door_latch_angle": 1.5707963267948966,
+            "scanner_latch_angle": 1.1997000000000007,
+            "drawer_travel": 0.10003000000000001,
+            "cantilever_lift": 0,
+            "engage_angle": 0
+          },
+          "guards": [
+            {
+              "time": 4.419999999999811,
+              "control": "cantilever_lift",
+              "reason": "Withdraw scanner drawer before lifting cantilever holder"
+            },
+            {
+              "time": 8.060000000000972,
+              "control": "drawer_travel",
+              "reason": "Lower cantilever holder before returning scanner drawer"
+            },
+            {
+              "time": 8.060000000000972,
+              "control": "cantilever_lift",
+              "reason": "Withdraw scanner drawer before lifting cantilever holder"
+            }
+          ]
+        },
+        {
+          "action": {
+            "cantilever_lift": 0.5,
+            "drawer_travel": 0
+          },
+          "targets": {
+            "door_angle": -1.799999999999997,
+            "door_latch_angle": 1.5707963267948966,
+            "scanner_latch_angle": 1.1997000000000007,
+            "drawer_travel": 0.10003000000000001,
+            "cantilever_lift": 0,
+            "engage_angle": 0
+          },
+          "guards": [
+            {
+              "time": 4.419999999999811,
+              "control": "cantilever_lift",
+              "reason": "Withdraw scanner drawer before lifting cantilever holder"
+            },
+            {
+              "time": 8.060000000000972,
+              "control": "drawer_travel",
+              "reason": "Lower cantilever holder before returning scanner drawer"
+            },
+            {
+              "time": 8.060000000000972,
+              "control": "cantilever_lift",
+              "reason": "Withdraw scanner drawer before lifting cantilever holder"
+            },
+            {
+              "time": 8.060000000000972,
+              "control": "cantilever_lift",
+              "reason": "Withdraw scanner drawer before lifting cantilever holder"
+            },
+            {
+              "time": 8.060000000000972,
+              "control": "drawer_travel",
+              "reason": "Lower cantilever holder before returning scanner drawer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check": "Withdrawn holder can lift for service",
+      "passed": true
+    },
+    {
+      "check": "Raised holder prevents scanner return command",
+      "passed": true
+    },
+    {
+      "check": "Lowered holder and returned sample recover the optical datum",
+      "passed": true
+    },
+    {
+      "check": "Live inspection has no browser or GPU errors",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "views": [
+    {
+      "name": "docked-front",
+      "file": "afm-alignment-docked-front.png",
+      "sha256": "b650926e74cdffeb721e57b497aca21ae02657f7e394352deab06625833c6cf6",
+      "state": {
+        "q": {
+          "door_angle": -1.7925184719222589,
+          "door_latch_angle": 1.56000089359147,
+          "scanner_latch_angle": 5.831132576770082e-22,
+          "drawer_travel": 1.3701048408881046e-14,
+          "cantilever_lift": 6.24457904002179e-19,
+          "engage_angle": -4.0146863405588996e-19
+        },
+        "sites": {
+          "door_release": [
+            -0.254494956755752,
+            -0.5461187352414159,
+            0.2516770890797809
+          ],
+          "door_release_outer_grip": [
+            -0.2526382037085689,
+            -0.5378798384504702,
+            0.2567685572167647
+          ],
+          "scanner_release": [
+            0.13699999999999998,
+            -0.084,
+            0.146
+          ],
+          "drawer_handle": [
+            0,
+            -0.1349999999999993,
+            0.154
+          ],
+          "scanner_connector": [
+            0.11,
+            0.009000000000000716,
+            0.142
+          ],
+          "puck_socket": [
+            0.008,
+            -0.039999999999999286,
+            0.2004
+          ],
+          "cantilever_mount": [
+            0.00605,
+            -0.039999999999999286,
+            0.2023
+          ],
+          "afm_tip": [
+            0.008,
+            -0.039999999999999286,
+            0.20210250000000002
+          ],
+          "engage_control": [
+            0.126,
+            -0.20041858041622626,
+            0.0645728254069992
+          ],
+          "objective_axis_top": [
+            0.008,
+            -0.04,
+            0.253
+          ],
+          "objective_front_center": [
+            0.008,
+            -0.04,
+            0.2115
+          ],
+          "sample_puck_center": [
+            0.00800000160488888,
+            -0.04000004782688714,
+            0.19999876071151224
+          ],
+          "specimen_surface_center": [
+            0.00800000417215979,
+            -0.04000007542197122,
+            0.2007987607110322
+          ]
+        },
+        "contacts": [
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.0035001979533857103,
+            "penetration_m": 0.0000012633563421428863
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.002834152695945851,
+            "penetration_m": 0.0000010094874201054085
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.0032294881346743467,
+            "penetration_m": 0.000001118050409305246
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.004172693644858456,
+            "penetration_m": 0.0000014690889538826192
+          }
+        ],
+        "guards": [],
+        "time": 4.379999999999797,
+        "objective": {
+          "min": [
+            -0.004700000777840614,
+            -0.052700000777840615,
+            0.21150001789090167
+          ],
+          "max": [
+            0.020700000777840614,
+            -0.027299999222159387,
+            0.2151000055600889
+          ],
+          "center": [
+            0.008,
+            -0.04,
+            0.2133000117254953
+          ],
+          "vertices": 2709
+        },
+        "specimen": {
+          "min": [
+            0.003500003053048791,
+            -0.0445000744495841,
+            0.20049860966871216
+          ],
+          "max": [
+            0.012500004328567,
+            -0.03550006604644688,
+            0.20079891885840587
+          ],
+          "center": [
+            0.008000003690807896,
+            -0.04000007024801549,
+            0.20064876426355902
+          ],
+          "vertices": 576
+        }
+      }
+    },
+    {
+      "name": "docked-side",
+      "file": "afm-alignment-docked-side.png",
+      "sha256": "268ebf39a04b057121b5df44ee47b76b012b845575e3c23d16a40444e8553084",
+      "state": {
+        "q": {
+          "door_angle": -1.7944711714862551,
+          "door_latch_angle": 1.560001251832112,
+          "scanner_latch_angle": 1.638866421772351e-21,
+          "drawer_travel": 8.04832245688962e-16,
+          "cantilever_lift": 5.017690915889827e-19,
+          "engage_angle": -2.4874481419012486e-19
+        },
+        "sites": {
+          "door_release": [
+            -0.25526915208670486,
+            -0.5459333324773388,
+            0.251677119930419
+          ],
+          "door_release_outer_grip": [
+            -0.25339613163001673,
+            -0.5376981167778353,
+            0.2567685850193183
+          ],
+          "scanner_release": [
+            0.13699999999999998,
+            -0.084,
+            0.146
+          ],
+          "drawer_handle": [
+            0,
+            -0.13500000000000087,
+            0.154
+          ],
+          "scanner_connector": [
+            0.11,
+            0.008999999999999125,
+            0.142
+          ],
+          "puck_socket": [
+            0.008,
+            -0.040000000000000875,
+            0.2004
+          ],
+          "cantilever_mount": [
+            0.00605,
+            -0.040000000000000875,
+            0.2023
+          ],
+          "afm_tip": [
+            0.008,
+            -0.040000000000000875,
+            0.20210250000000002
+          ],
+          "engage_control": [
+            0.126,
+            -0.20041858041622626,
+            0.0645728254069992
+          ],
+          "objective_axis_top": [
+            0.008,
+            -0.04,
+            0.253
+          ],
+          "objective_front_center": [
+            0.008,
+            -0.04,
+            0.2115
+          ],
+          "sample_puck_center": [
+            0.008000002020129298,
+            -0.04000004808560203,
+            0.19999875965492223
+          ],
+          "specimen_surface_center": [
+            0.008000005192969407,
+            -0.04000007567010985,
+            0.20079875965444036
+          ]
+        },
+        "contacts": [
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.003497639586390276,
+            "penetration_m": 0.0000012700901421813198
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.0028335677332050765,
+            "penetration_m": 0.0000010128081883170911
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.0032309592069828513,
+            "penetration_m": 0.0000011138998828826666
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.004172007240580386,
+            "penetration_m": 0.000001467881363435719
+          }
+        ],
+        "guards": [],
+        "time": 4.419999999999811,
+        "objective": {
+          "min": [
+            -0.004700000777840614,
+            -0.052700000777840615,
+            0.21150001789090167
+          ],
+          "max": [
+            0.020700000777840614,
+            -0.027299999222159387,
+            0.2151000055600889
+          ],
+          "center": [
+            0.008,
+            -0.04,
+            0.2133000117254953
+          ],
+          "vertices": 2709
+        },
+        "specimen": {
+          "min": [
+            0.00350000387403548,
+            -0.04450007469820068,
+            0.20049860828429497
+          ],
+          "max": [
+            0.01250000532211647,
+            -0.035500066298073576,
+            0.2007989181296401
+          ],
+          "center": [
+            0.008000004598075976,
+            -0.04000007049813713,
+            0.20064876320696753
+          ],
+          "vertices": 576
+        }
+      }
+    },
+    {
+      "name": "service-side",
+      "file": "afm-alignment-service-side.png",
+      "sha256": "b301ac4a6d42a323b4b300e635e03db10b31a1f6588ff06c6fc86ad78fe48835",
+      "state": {
+        "q": {
+          "door_angle": -1.7998010342020503,
+          "door_latch_angle": 1.56000224935899,
+          "scanner_latch_angle": 1.1996999999999993,
+          "drawer_travel": 0.10004138931124135,
+          "cantilever_lift": 0.48851492747772174,
+          "engage_angle": -1.5133113828025347e-20
+        },
+        "sites": {
+          "door_release": [
+            -0.25737191363411377,
+            -0.5454215966024697,
+            0.2516772058581894
+          ],
+          "door_release_outer_grip": [
+            -0.25545470771776985,
+            -0.537196550026696,
+            0.25676866245730623
+          ],
+          "scanner_release": [
+            0.13699999999999998,
+            -0.13672900695150617,
+            0.18890141068997346
+          ],
+          "drawer_handle": [
+            0,
+            -0.2350414280174874,
+            0.154
+          ],
+          "scanner_connector": [
+            0.11,
+            -0.0910414280174874,
+            0.142
+          ],
+          "puck_socket": [
+            0.008,
+            -0.1400414280174874,
+            0.2004
+          ],
+          "cantilever_mount": [
+            0.006049999999999996,
+            -0.13603809368605616,
+            0.21376335826760118
+          ],
+          "afm_tip": [
+            0.007999999999999993,
+            -0.1361307793483169,
+            0.2135889575278915
+          ],
+          "engage_control": [
+            0.126,
+            -0.20041858041622626,
+            0.0645728254069992
+          ],
+          "objective_axis_top": [
+            0.008,
+            -0.04,
+            0.253
+          ],
+          "objective_front_center": [
+            0.008,
+            -0.04,
+            0.2115
+          ],
+          "sample_puck_center": [
+            0.008000001628298508,
+            -0.14004149341952868,
+            0.19999876983266943
+          ],
+          "specimen_surface_center": [
+            0.008000005823259755,
+            -0.1400415106827371,
+            0.20079876983247216
+          ]
+        },
+        "contacts": [
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.003500038439544232,
+            "penetration_m": 0.0000012694949380254744
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.002834242351537346,
+            "penetration_m": 0.0000010956942250247036
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.003229635110343784,
+            "penetration_m": 0.0000011318986447557254
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.004172396133140653,
+            "penetration_m": 0.0000013646401889576778
+          }
+        ],
+        "guards": [
+          {
+            "time": 4.419999999999811,
+            "control": "cantilever_lift",
+            "reason": "Withdraw scanner drawer before lifting cantilever holder"
+          },
+          {
+            "time": 8.060000000000972,
+            "control": "drawer_travel",
+            "reason": "Lower cantilever holder before returning scanner drawer"
+          },
+          {
+            "time": 8.060000000000972,
+            "control": "cantilever_lift",
+            "reason": "Withdraw scanner drawer before lifting cantilever holder"
+          },
+          {
+            "time": 8.060000000000972,
+            "control": "cantilever_lift",
+            "reason": "Withdraw scanner drawer before lifting cantilever holder"
+          },
+          {
+            "time": 8.060000000000972,
+            "control": "drawer_travel",
+            "reason": "Lower cantilever holder before returning scanner drawer"
+          }
+        ],
+        "time": 8.780000000000573,
+        "objective": {
+          "min": [
+            -0.004700000777840614,
+            -0.052700000777840615,
+            0.21150001789090167
+          ],
+          "max": [
+            0.020700000777840614,
+            -0.027299999222159387,
+            0.2151000055600889
+          ],
+          "center": [
+            0.008,
+            -0.04,
+            0.2133000117254953
+          ],
+          "vertices": 2709
+        },
+        "specimen": {
+          "min": [
+            0.0035000041670570437,
+            -0.1445415101768677,
+            0.20049867427306525
+          ],
+          "max": [
+            0.012500005906389253,
+            -0.1355415047150567,
+            0.20079887249682668
+          ],
+          "center": [
+            0.008000005036723148,
+            -0.1400415074459622,
+            0.20064877338494597
+          ],
+          "vertices": 576
+        }
+      }
+    },
+    {
+      "name": "returned-front",
+      "file": "afm-alignment-returned-front.png",
+      "sha256": "654cfbec50e888840c13baa5f71ba14667b9f813064eec9e2e0ac1481e2941a5",
+      "state": {
+        "q": {
+          "door_angle": -1.7999821716994304,
+          "door_latch_angle": 1.5600022493556993,
+          "scanner_latch_angle": 1.1997000000000215,
+          "drawer_travel": -2.680258299264498e-9,
+          "cantilever_lift": 2.2993224096266856e-13,
+          "engage_angle": 1.526683633888686e-19
+        },
+        "sites": {
+          "door_release": [
+            -0.25744285531936767,
+            -0.5454041232309248,
+            0.251677205857908
+          ],
+          "door_release_outer_grip": [
+            -0.2555241586846716,
+            -0.5371794242745475,
+            0.2567686624570526
+          ],
+          "scanner_release": [
+            0.13699999999999998,
+            -0.13672900695150653,
+            0.18890141068997476
+          ],
+          "drawer_handle": [
+            0,
+            -0.13499999727775785,
+            0.154
+          ],
+          "scanner_connector": [
+            0.11,
+            0.009000002722242155,
+            0.142
+          ],
+          "puck_socket": [
+            0.008,
+            -0.03999999727775785,
+            0.2004
+          ],
+          "cantilever_mount": [
+            0.00605,
+            -0.03999999727775731,
+            0.2023000000000058
+          ],
+          "afm_tip": [
+            0.008,
+            -0.039999997277757354,
+            0.20210250000000582
+          ],
+          "engage_control": [
+            0.126,
+            -0.20041858041622626,
+            0.0645728254069992
+          ],
+          "objective_axis_top": [
+            0.008,
+            -0.04,
+            0.253
+          ],
+          "objective_front_center": [
+            0.008,
+            -0.04,
+            0.2115
+          ],
+          "sample_puck_center": [
+            0.007999993380652761,
+            -0.04000009579682078,
+            0.19999876173718897
+          ],
+          "specimen_surface_center": [
+            0.007999989774549323,
+            -0.04000012218090459,
+            0.20079876173674577
+          ]
+        },
+        "contacts": [
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.00349731211516609,
+            "penetration_m": 0.0000012044554929524227
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.0028335402236363827,
+            "penetration_m": 9.96802788369549e-7
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.003231199950680768,
+            "penetration_m": 0.000001174839109040209
+          },
+          {
+            "a": "drawer__Sample_stick-slip_holder",
+            "b": "sample_puck__AFM_magnetic_sample_disc",
+            "normal_N": 0.004171954070786654,
+            "penetration_m": 0.0000014797222783320597
+          }
+        ],
+        "guards": [
+          {
+            "time": 8.060000000000972,
+            "control": "drawer_travel",
+            "reason": "Lower cantilever holder before returning scanner drawer"
+          },
+          {
+            "time": 8.060000000000972,
+            "control": "cantilever_lift",
+            "reason": "Withdraw scanner drawer before lifting cantilever holder"
+          },
+          {
+            "time": 8.060000000000972,
+            "control": "cantilever_lift",
+            "reason": "Withdraw scanner drawer before lifting cantilever holder"
+          },
+          {
+            "time": 8.060000000000972,
+            "control": "drawer_travel",
+            "reason": "Lower cantilever holder before returning scanner drawer"
+          },
+          {
+            "time": 8.780000000000573,
+            "control": "drawer_travel",
+            "reason": "Lower cantilever holder before returning scanner drawer"
+          }
+        ],
+        "time": 12.839999999998323,
+        "objective": {
+          "min": [
+            -0.004700000777840614,
+            -0.052700000777840615,
+            0.21150001789090167
+          ],
+          "max": [
+            0.020700000777840614,
+            -0.027299999222159387,
+            0.2151000055600889
+          ],
+          "center": [
+            0.008,
+            -0.04,
+            0.2133000117254953
+          ],
+          "vertices": 2709
+        },
+        "specimen": {
+          "min": [
+            0.0034999896649081687,
+            -0.04450012126323625,
+            0.2004986166920847
+          ],
+          "max": [
+            0.012499991236447239,
+            -0.035500113204775814,
+            0.2007989138864467
+          ],
+          "center": [
+            0.007999990450677704,
+            -0.04000011723400603,
+            0.2006487652892657
+          ],
+          "vertices": 576
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "sources": {
+    "/app.js": "3c532288741a8aed6e68b59feccae5461ac253711e6dd5edd15a2e7d9be7ebe9",
+    "/assets/afm/model.glb": "65a9783edd3dabb670cc76aad58e014428a766aeab96777d7c999f98553bc6ec",
+    "/assets/afm/physics.xml": "6fdc9278ffa0d2b4f3b6b8c083de3b4a1e961f3929cecb46cd0b8fe0e7bbbcf2",
+    "/assets/afm/metadata.json": "63180ad16c9d3c8c0030eb347fd258cc08bf7c40fc12aa2b58b9a4af7877fdfa",
+    "/physics.js": "67605c9911e8780f93131ce4ff91a333894eca3853dd629a9f75a93eebf8c47a",
+    "/worker.js": "9a6d614a0aeea50189a4d6b7f814a3f0905039cd7d33ca60a9bc4169290a7057",
+    "/runtime.js": "3391ad60251251d991dcc19c23d267853c548728505dda864d19f275aa155212"
+  },
+  "harness_sha256": "f377a41945c9891d2c59111b5965248089774164dcdd7e9f48b9d5e60c45e6fe",
+  "instrumentation_sha256": "91350b85a6e59e2b087ae1bd5352632d4de0274e97db9a78f5041649ded835b9",
+  "scope": "Measured live sites, actual exported objective/specimen vertices, UI operation and order-independent service guards.",
+  "app_sha256": "3c532288741a8aed6e68b59feccae5461ac253711e6dd5edd15a2e7d9be7ebe9"
+}

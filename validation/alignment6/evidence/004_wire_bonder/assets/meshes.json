@@ -1,0 +1,272 @@
+[
+  {
+    "link": "base",
+    "material": "black",
+    "file": "base__black.obj",
+    "triangles": 13800
+  },
+  {
+    "link": "base",
+    "material": "bonder_panel",
+    "file": "base__bonder_panel.obj",
+    "triangles": 1696
+  },
+  {
+    "link": "base",
+    "material": "brushed",
+    "file": "base__brushed.obj",
+    "triangles": 16740
+  },
+  {
+    "link": "base",
+    "material": "ceramic",
+    "file": "base__ceramic.obj",
+    "triangles": 764
+  },
+  {
+    "link": "base",
+    "material": "darkmetal",
+    "file": "base__darkmetal.obj",
+    "triangles": 8772
+  },
+  {
+    "link": "base",
+    "material": "glass",
+    "file": "base__glass.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "gold",
+    "file": "base__gold.obj",
+    "triangles": 5280
+  },
+  {
+    "link": "base",
+    "material": "graphite",
+    "file": "base__graphite.obj",
+    "triangles": 5624
+  },
+  {
+    "link": "base",
+    "material": "heater_mica",
+    "file": "base__heater_mica.obj",
+    "triangles": 3840
+  },
+  {
+    "link": "base",
+    "material": "ink",
+    "file": "base__ink.obj",
+    "triangles": 77648
+  },
+  {
+    "link": "base",
+    "material": "ivory",
+    "file": "base__ivory.obj",
+    "triangles": 9336
+  },
+  {
+    "link": "base",
+    "material": "paper",
+    "file": "base__paper.obj",
+    "triangles": 8896
+  },
+  {
+    "link": "base",
+    "material": "red",
+    "file": "base__red.obj",
+    "triangles": 3900
+  },
+  {
+    "link": "base",
+    "material": "rubber",
+    "file": "base__rubber.obj",
+    "triangles": 3056
+  },
+  {
+    "link": "base",
+    "material": "screen",
+    "file": "base__screen.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "steel",
+    "file": "base__steel.obj",
+    "triangles": 150480
+  },
+  {
+    "link": "base",
+    "material": "violet",
+    "file": "base__violet.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "wafer",
+    "file": "base__wafer.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "warm",
+    "file": "base__warm.obj",
+    "triangles": 5976
+  },
+  {
+    "link": "base",
+    "material": "wire",
+    "file": "base__wire.obj",
+    "triangles": 3412
+  },
+  {
+    "link": "base",
+    "material": "yellow",
+    "file": "base__yellow.obj",
+    "triangles": 764
+  },
+  {
+    "link": "handle_z",
+    "material": "brushed",
+    "file": "handle_z__brushed.obj",
+    "triangles": 1620
+  },
+  {
+    "link": "handle_z",
+    "material": "darkmetal",
+    "file": "handle_z__darkmetal.obj",
+    "triangles": 1192
+  },
+  {
+    "link": "handle_z",
+    "material": "ink",
+    "file": "handle_z__ink.obj",
+    "triangles": 3464
+  },
+  {
+    "link": "handle_z",
+    "material": "steel",
+    "file": "handle_z__steel.obj",
+    "triangles": 22028
+  },
+  {
+    "link": "handle_z",
+    "material": "warm",
+    "file": "handle_z__warm.obj",
+    "triangles": 960
+  },
+  {
+    "link": "scope_focus",
+    "material": "black",
+    "file": "scope_focus__black.obj",
+    "triangles": 12448
+  },
+  {
+    "link": "scope_focus",
+    "material": "brushed",
+    "file": "scope_focus__brushed.obj",
+    "triangles": 428
+  },
+  {
+    "link": "scope_focus",
+    "material": "graphite",
+    "file": "scope_focus__graphite.obj",
+    "triangles": 5144
+  },
+  {
+    "link": "scope_focus",
+    "material": "ink",
+    "file": "scope_focus__ink.obj",
+    "triangles": 9052
+  },
+  {
+    "link": "scope_focus",
+    "material": "ivory",
+    "file": "scope_focus__ivory.obj",
+    "triangles": 16676
+  },
+  {
+    "link": "scope_focus",
+    "material": "optic",
+    "file": "scope_focus__optic.obj",
+    "triangles": 2676
+  },
+  {
+    "link": "scope_focus",
+    "material": "paper",
+    "file": "scope_focus__paper.obj",
+    "triangles": 40576
+  },
+  {
+    "link": "scope_focus",
+    "material": "red",
+    "file": "scope_focus__red.obj",
+    "triangles": 740
+  },
+  {
+    "link": "scope_focus",
+    "material": "rubber",
+    "file": "scope_focus__rubber.obj",
+    "triangles": 6904
+  },
+  {
+    "link": "scope_focus",
+    "material": "steel",
+    "file": "scope_focus__steel.obj",
+    "triangles": 18972
+  },
+  {
+    "link": "tool_z",
+    "material": "alloy",
+    "file": "tool_z__alloy.obj",
+    "triangles": 764
+  },
+  {
+    "link": "tool_z",
+    "material": "bonder_head",
+    "file": "tool_z__bonder_head.obj",
+    "triangles": 4424
+  },
+  {
+    "link": "tool_z",
+    "material": "brushed",
+    "file": "tool_z__brushed.obj",
+    "triangles": 3216
+  },
+  {
+    "link": "tool_z",
+    "material": "ceramic",
+    "file": "tool_z__ceramic.obj",
+    "triangles": 2720
+  },
+  {
+    "link": "tool_z",
+    "material": "darkmetal",
+    "file": "tool_z__darkmetal.obj",
+    "triangles": 2384
+  },
+  {
+    "link": "tool_z",
+    "material": "gold",
+    "file": "tool_z__gold.obj",
+    "triangles": 1952
+  },
+  {
+    "link": "tool_z",
+    "material": "ink",
+    "file": "tool_z__ink.obj",
+    "triangles": 4208
+  },
+  {
+    "link": "tool_z",
+    "material": "ivory",
+    "file": "tool_z__ivory.obj",
+    "triangles": 736
+  },
+  {
+    "link": "tool_z",
+    "material": "steel",
+    "file": "tool_z__steel.obj",
+    "triangles": 68908
+  }
+]

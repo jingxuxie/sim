@@ -1,0 +1,1517 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "mode": "current",
+  "source_scene_sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+  "source_metadata_sha256": "55d66a26a4e00b3587ab2c586d0f1d2b26013a55f7afae80ef68d13b2b0b6760",
+  "script_sha256": "d4e9ee5b24594dec9ab9fe4351893a29186962dfe4cc846f454e07d3db2a1af5",
+  "alignment": [
+    {
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "sample_center_m": [
+        0.0,
+        -0.10999999940395355,
+        0.09224999696016312
+      ],
+      "intersection_m": [
+        0.0,
+        -0.11000000685453415,
+        0.09224999696016312
+      ],
+      "lateral_error_mm": 7.450580596923828e-06,
+      "tip_home_m": [
+        0.0,
+        -0.11000000685453415,
+        0.09471000730991364
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "pose": {
+        "scope_focus_travel": -0.015
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.009999999999999998
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.004999999999999999
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.005000000000000001
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.010000000000000002
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.015
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    }
+  ],
+  "pupil_visibility": [
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        -20.0,
+        0
+      ],
+      "blocked": false,
+      "first": null
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        -12.0,
+        -15.0
+      ],
+      "blocked": false,
+      "first": null
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        -12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Coiled radiant-tool heater",
+        "distance_m": 0.07674498111009598,
+        "point_m": [
+          -0.004587862640619278,
+          -0.10999999940395355,
+          0.10861379653215408
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        -12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Machined asymmetric tool-head frame",
+        "distance_m": 0.03673018887639046,
+        "point_m": [
+          -0.008497631177306175,
+          -0.10083728283643723,
+          0.1489061415195465
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        0,
+        -15.0
+      ],
+      "blocked": false,
+      "first": null
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.07003656774759293,
+        "point_m": [
+          -0.002264149719849229,
+          -0.10999999940395355,
+          0.11500003933906555
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Machined asymmetric tool-head frame",
+        "distance_m": 0.03656201437115669,
+        "point_m": [
+          -0.0011668356601148844,
+          -0.1008341833949089,
+          0.14892533421516418
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Tool collet cap",
+        "distance_m": 0.07488754391670227,
+        "point_m": [
+          0.0001936657354235649,
+          -0.11319366842508316,
+          0.11199749261140823
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.07090947031974792,
+        "point_m": [
+          0.0006792526692152023,
+          -0.10999999940395355,
+          0.11500004678964615
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Machined asymmetric tool-head frame",
+        "distance_m": 0.037030912935733795,
+        "point_m": [
+          0.0061619216576218605,
+          -0.1008380800485611,
+          0.14890122413635254
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.07212010771036148,
+        "point_m": [
+          0.002641521394252777,
+          -0.10999999940395355,
+          0.11500004678964615
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        -20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.07212011516094208,
+        "point_m": [
+          -0.002641519531607628,
+          -0.10999999940395355,
+          0.11500003933906555
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        -12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Tool collet cap",
+        "distance_m": 0.07488754391670227,
+        "point_m": [
+          -0.0001936657354235649,
+          -0.11319366842508316,
+          0.11199749261140823
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        -12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.07090947031974792,
+        "point_m": [
+          -0.0006792526692152023,
+          -0.10999999940395355,
+          0.11500004678964615
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        -12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Machined asymmetric tool-head frame",
+        "distance_m": 0.03702641651034355,
+        "point_m": [
+          -0.00616263085976243,
+          -0.10083737224340439,
+          0.14890560507774353
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        0,
+        -15.0
+      ],
+      "blocked": false,
+      "first": null
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.07003655284643173,
+        "point_m": [
+          0.002264149021357298,
+          -0.10999999940395355,
+          0.11500005424022675
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Machined asymmetric tool-head frame",
+        "distance_m": 0.03658432513475418,
+        "point_m": [
+          0.001167547656223178,
+          -0.10083774477243423,
+          0.14890331029891968
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Coiled radiant-tool heater",
+        "distance_m": 0.08064732700586319,
+        "point_m": [
+          0.00430995924398303,
+          -0.11218326538801193,
+          0.10574985295534134
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Tool heater return",
+        "distance_m": 0.07587658613920212,
+        "point_m": [
+          0.004671733360737562,
+          -0.10999999940395355,
+          0.10947813093662262
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Machined asymmetric tool-head frame",
+        "distance_m": 0.03673621267080307,
+        "point_m": [
+          0.008497057482600212,
+          -0.10083824396133423,
+          0.14890022575855255
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        20.0,
+        0
+      ],
+      "blocked": false,
+      "first": null
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        -20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Silver tapered bonding wedge",
+        "distance_m": 0.08949580788612366,
+        "point_m": [
+          -0.0006450656801462173,
+          -0.11000000685453415,
+          0.09762215614318848
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        -12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Silver tapered bonding wedge",
+        "distance_m": 0.08650733530521393,
+        "point_m": [
+          -0.0007544234395027161,
+          -0.1109430342912674,
+          0.10038641840219498
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        -12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.07061551511287689,
+        "point_m": [
+          -0.002696644514799118,
+          -0.11000000685453415,
+          0.11500001698732376
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        -12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Machined asymmetric tool-head frame",
+        "distance_m": 0.03683561086654663,
+        "point_m": [
+          -0.007211531046777964,
+          -0.10098559409379959,
+          0.14897076785564423
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Tool collet cap",
+        "distance_m": 0.07182669639587402,
+        "point_m": [
+          0.0,
+          -0.1132286787033081,
+          0.11414444446563721
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.06999997794628143,
+        "point_m": [
+          0.0,
+          -0.11000000685453415,
+          0.11500002443790436
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Machined asymmetric tool-head frame",
+        "distance_m": 0.0365249365568161,
+        "point_m": [
+          0.0,
+          -0.10098589956760406,
+          0.148968905210495
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Silver tapered bonding wedge",
+        "distance_m": 0.08650733530521393,
+        "point_m": [
+          0.0007544234395027161,
+          -0.1109430342912674,
+          0.10038641840219498
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.0706155002117157,
+        "point_m": [
+          0.0026966463774442673,
+          -0.11000000685453415,
+          0.11500002443790436
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Machined asymmetric tool-head frame",
+        "distance_m": 0.03683941811323166,
+        "point_m": [
+          0.0072110360488295555,
+          -0.10098621249198914,
+          0.14896704256534576
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Silver tapered bonding wedge",
+        "distance_m": 0.08949580788612366,
+        "point_m": [
+          0.0006450656801462173,
+          -0.11000000685453415,
+          0.09762215614318848
+        ]
+      }
+    }
+  ],
+  "measured_pose_mesh": [
+    {
+      "label": "bonder_low_0",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": -0.0043749999999999995,
+        "tool_y_travel": -0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": -0.034999999999999996,
+        "handle_y_travel": -0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_high_0",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": -0.0043749999999999995,
+        "tool_y_travel": -0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": -0.034999999999999996,
+        "handle_y_travel": -0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_low_1",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": -0.0043749999999999414,
+        "tool_y_travel": -0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": -0.034999999999999525,
+        "handle_y_travel": -0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_high_1",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": -0.0043749999999999414,
+        "tool_y_travel": -0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": -0.034999999999999525,
+        "handle_y_travel": -0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_low_2",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": -0.0043749999999999995,
+        "tool_y_travel": 0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": -0.034999999999999996,
+        "handle_y_travel": 0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_high_2",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": -0.0043749999999999995,
+        "tool_y_travel": 0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": -0.034999999999999996,
+        "handle_y_travel": 0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_low_3",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": -0.0043749999999999414,
+        "tool_y_travel": 0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": -0.034999999999999525,
+        "handle_y_travel": 0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_high_3",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": -0.0043749999999999414,
+        "tool_y_travel": 0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": -0.034999999999999525,
+        "handle_y_travel": 0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_low_4",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": 0.0043749999999999995,
+        "tool_y_travel": -0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": 0.034999999999999996,
+        "handle_y_travel": -0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_high_4",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0043749999999999995,
+        "tool_y_travel": -0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": 0.034999999999999996,
+        "handle_y_travel": -0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_low_5",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": 0.0043749999999999414,
+        "tool_y_travel": -0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": 0.034999999999999525,
+        "handle_y_travel": -0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_high_5",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0043749999999999414,
+        "tool_y_travel": -0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": 0.034999999999999525,
+        "handle_y_travel": -0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_low_6",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": 0.0043749999999999995,
+        "tool_y_travel": 0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": 0.034999999999999996,
+        "handle_y_travel": 0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_high_6",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0043749999999999995,
+        "tool_y_travel": 0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": 0.034999999999999996,
+        "handle_y_travel": 0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_low_7",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": 0.0043749999999999414,
+        "tool_y_travel": 0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": 0.034999999999999525,
+        "handle_y_travel": 0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_high_7",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0043749999999999414,
+        "tool_y_travel": 0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": 0.034999999999999525,
+        "handle_y_travel": 0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_stop_fixture",
+      "joints": {
+        "scope_focus_travel": -0.0075017590996173805,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_stop_fixture_maximum_contact_overlap",
+      "joints": {
+        "scope_focus_travel": -0.007507572599520186,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_release_fixture",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_release_fixture_maximum_contact_overlap",
+      "joints": {
+        "scope_focus_travel": -0.007501759099617381,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_stop_external_wrench",
+      "joints": {
+        "scope_focus_travel": -0.007500351860720082,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_stop_external_wrench_maximum_contact_overlap",
+      "joints": {
+        "scope_focus_travel": -0.007620165829035004,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_release_external_wrench",
+      "joints": {
+        "scope_focus_travel": 0.020223354519076697,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_release_external_wrench_maximum_contact_overlap",
+      "joints": {
+        "scope_focus_travel": -0.007497083886863872,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_stop_probe_offset",
+      "joints": {
+        "scope_focus_travel": -0.014999999999994537,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_release_probe_offset",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_stop_contacts_disabled",
+      "joints": {
+        "scope_focus_travel": -0.014999999999994537,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    },
+    {
+      "label": "bonder_probe_release_contacts_disabled",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      },
+      "support_intersections": [],
+      "work_intersections": []
+    }
+  ],
+  "measured_source_report_sha256": "511a2d8801a2d66bda51d95ced4291299830335902845aa22bc2027faebd3622",
+  "audited_objects": {
+    "optical": [
+      "Olympus SZ51 continuously curved head shell",
+      "SZ51 tapered zoom housing",
+      "Shared oval ocular socket",
+      "SZ51 upper cover parting seam",
+      "SZ51 left lower shell seam",
+      "SZ51 right lower shell seam",
+      "Ocular swivel bearing",
+      "SZ51 ocular barrel",
+      "Ocular diopter graduated collar",
+      "Ocular diopter fine knurl",
+      "Scale index.036",
+      "Scale index.037",
+      "Scale index.038",
+      "Scale index.039",
+      "Scale index.040",
+      "Scale index.041",
+      "Scale index.042",
+      "Scale index.043",
+      "Scale index.044",
+      "Scale index.045",
+      "Scale index.046",
+      "Scale index.047",
+      "Scale index.048",
+      "Scale index.049",
+      "Scale index.050",
+      "Scale index.051",
+      "Scale index.052",
+      "Scale index.053",
+      "Scale index.054",
+      "Scale index.055",
+      "Scale index.056",
+      "Scale index.057",
+      "Scale index.058",
+      "Scale index.059",
+      "Scale index.060",
+      "Scale index.061",
+      "Scale index.062",
+      "Scale index.063",
+      "Scale index.064",
+      "Scale index.065",
+      "Scale index.066",
+      "Scale index.067",
+      "Scale index.068",
+      "Scale index.069",
+      "Scale index.070",
+      "Scale index.071",
+      "Scale index.072",
+      "Scale index.073",
+      "Scale index.074",
+      "Scale index.075",
+      "SZ51 rubber eye guard",
+      "Ocular internal black well",
+      "SZ51 recessed convex ocular lens",
+      "Ocular swivel bearing.001",
+      "SZ51 ocular barrel.001",
+      "Ocular diopter graduated collar.001",
+      "Ocular diopter fine knurl.001",
+      "Scale index.076",
+      "Scale index.077",
+      "Scale index.078",
+      "Scale index.079",
+      "Scale index.080",
+      "Scale index.081",
+      "Scale index.082",
+      "Scale index.083",
+      "Scale index.084",
+      "Scale index.085",
+      "Scale index.086",
+      "Scale index.087",
+      "Scale index.088",
+      "Scale index.089",
+      "Scale index.090",
+      "Scale index.091",
+      "Scale index.092",
+      "Scale index.093",
+      "Scale index.094",
+      "Scale index.095",
+      "Scale index.096",
+      "Scale index.097",
+      "Scale index.098",
+      "Scale index.099",
+      "Scale index.100",
+      "Scale index.101",
+      "Scale index.102",
+      "Scale index.103",
+      "Scale index.104",
+      "Scale index.105",
+      "Scale index.106",
+      "Scale index.107",
+      "Scale index.108",
+      "Scale index.109",
+      "Scale index.110",
+      "Scale index.111",
+      "Scale index.112",
+      "Scale index.113",
+      "Scale index.114",
+      "Scale index.115",
+      "SZ51 rubber eye guard.001",
+      "Ocular internal black well.001",
+      "SZ51 recessed convex ocular lens.001",
+      "Olympus maker",
+      "Olympus model",
+      "Zoom shaft mounting boss",
+      "SZ51 zoom scalloped drum",
+      "Zoom recessed end disc",
+      "Zoom zero index screw",
+      "Fixed zoom index pointer",
+      "Zoom shaft mounting boss.001",
+      "SZ51 zoom scalloped drum.001",
+      "Zoom recessed end disc.001",
+      "Zoom zero index screw.001",
+      "Fixed zoom index pointer.001",
+      "Stereo objective lower sleeve",
+      "Lamp clamp steel collar",
+      "Olympus ring illuminator body",
+      "Ring illuminator chrome lip",
+      "Continuous optical diffuser",
+      "Illuminator clamp thumbscrew",
+      "Illuminator clamp thumbscrew.001",
+      "Illuminator clamp thumbscrew.002",
+      "Stereo objective black internal stop",
+      "Stereo objective convex front glass",
+      "SZ51 moving rear mounting pad",
+      "SZ51 moving focus neck",
+      "SZ51 moving dovetail carriage",
+      "Moving focus carriage fastener captive washer",
+      "Moving focus carriage fastener domed pan head",
+      "Moving focus carriage fastener recess bottom",
+      "Moving focus carriage fastener recess bottom.001",
+      "Moving focus carriage fastener captive washer.001",
+      "Moving focus carriage fastener domed pan head.001",
+      "Moving focus carriage fastener recess bottom.002",
+      "Moving focus carriage fastener recess bottom.003",
+      "Moving focus carriage fastener captive washer.002",
+      "Moving focus carriage fastener domed pan head.002",
+      "Moving focus carriage fastener recess bottom.004",
+      "Moving focus carriage fastener recess bottom.005",
+      "Moving focus carriage fastener captive washer.003",
+      "Moving focus carriage fastener domed pan head.003",
+      "Moving focus carriage fastener recess bottom.006",
+      "Moving focus carriage fastener recess bottom.007"
+    ],
+    "supports": [
+      "Microscope rear pedestal",
+      "Focus mounting foot",
+      "SZ51 cast fork cheek",
+      "SZ51 cast fork cheek.001",
+      "Focus carriage upper bridge",
+      "Focus dovetail mounting plate",
+      "Focus dovetail dark running face",
+      "Focus guide screw captive washer",
+      "Focus guide screw domed pan head",
+      "Focus guide screw recess bottom",
+      "Focus guide screw recess bottom.001",
+      "Focus guide screw captive washer.001",
+      "Focus guide screw domed pan head.001",
+      "Focus guide screw recess bottom.002",
+      "Focus guide screw recess bottom.003",
+      "Focus dovetail dark running face.001",
+      "Focus guide screw captive washer.002",
+      "Focus guide screw domed pan head.002",
+      "Focus guide screw recess bottom.004",
+      "Focus guide screw recess bottom.005",
+      "Focus guide screw captive washer.003",
+      "Focus guide screw domed pan head.003",
+      "Focus guide screw recess bottom.006",
+      "Focus guide screw recess bottom.007"
+    ],
+    "work": [
+      "Head rear cross slide",
+      "Head suspension bridge",
+      "Head upper polished tie rod",
+      "Head lower ground guide shaft",
+      "Head flanged pivot bearing",
+      "Head pivot axle",
+      "Head pivot pan screw captive washer",
+      "Head pivot pan screw domed pan head",
+      "Head pivot pan screw recess bottom",
+      "Head pivot pan screw recess bottom.001",
+      "Head flanged pivot bearing.001",
+      "Head pivot axle.001",
+      "Head pivot pan screw captive washer.001",
+      "Head pivot pan screw domed pan head.001",
+      "Head pivot pan screw recess bottom.002",
+      "Head pivot pan screw recess bottom.003",
+      "Shaped front pivot cheek",
+      "Rear pivot upright",
+      "Head upper polished tie rod.001",
+      "Head lower ground guide shaft.001",
+      "Head flanged pivot bearing.002",
+      "Head pivot axle.002",
+      "Head pivot pan screw captive washer.002",
+      "Head pivot pan screw domed pan head.002",
+      "Head pivot pan screw recess bottom.004",
+      "Head pivot pan screw recess bottom.005",
+      "Head flanged pivot bearing.003",
+      "Head pivot axle.003",
+      "Head pivot pan screw captive washer.003",
+      "Head pivot pan screw domed pan head.003",
+      "Head pivot pan screw recess bottom.006",
+      "Head pivot pan screw recess bottom.007",
+      "Shaped front pivot cheek.001",
+      "Rear pivot upright.001",
+      "Machined asymmetric tool-head frame",
+      "Front yoke stop lug",
+      "Ultrasonic transducer",
+      "Transducer ceramic stack",
+      "Transducer tension collar",
+      "Transducer clamp through bolt",
+      "Transducer clamp through bolt.001",
+      "Angled front tool collet",
+      "Tool collet clamp socket head",
+      "Tool collet clamp socket hex recess",
+      "Tool collet cap",
+      "Vertical bond tool shank",
+      "Silver tapered bonding wedge",
+      "Wedge foot",
+      "Wire clamp actuator casing",
+      "Wire clamp ceramic spacer",
+      "Wire clamp tapered jaw",
+      "Wire-clamp hinge pin",
+      "Wire clamp tapered jaw.001",
+      "Wire-clamp hinge pin.001",
+      "Clamp force adjusting screw root",
+      "Clamp force adjusting screw helical thread",
+      "Clamp screw knurled head",
+      "Ceramic wire feed eye",
+      "White head service sleeve",
+      "Service tube metal gland",
+      "Service tube metal gland.001",
+      "Fine bonding wire",
+      "Coiled radiant-tool heater",
+      "Tool heater return",
+      "Sloped spool support bracket",
+      "Spool support axle bearing",
+      "Spool spindle",
+      "Spool stepped core",
+      "Fine aluminium wire winding",
+      "Satin metal spool cheek flange",
+      "Spool flange rolled lip",
+      "Spool metal hub bush",
+      "Satin metal spool cheek flange.001",
+      "Spool flange rolled lip.001",
+      "Spool metal hub bush.001",
+      "Exposed spool spindle root",
+      "Exposed spool spindle helical thread",
+      "Spool knurled retaining nut",
+      "Spool spindle centre bore counterbore",
+      "Spool spindle centre bore bore",
+      "Spool tension spring washer",
+      "Wire guide sapphire eye",
+      "Wire-guide adjustable leaf",
+      "Wire from spool to clamp",
+      "Heater ceramic pedestal",
+      "Granular heater insulation",
+      "Folded heater liner",
+      "Folded heater liner rolled lip",
+      "Workholder metal platen",
+      "Workholder slotted spring clamp"
+    ]
+  },
+  "limitations": [
+    "Photographic registration and geometric visibility are not optical calibration.",
+    "Triangle intersections and sampled containment are reported before any intentional bearing-fit classification.",
+    "Transfer poses are source geometry requests, not force-limited MuJoCo equilibria; protected surface contact is classified separately."
+  ]
+}

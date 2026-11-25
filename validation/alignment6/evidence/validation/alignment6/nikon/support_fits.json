@@ -1,0 +1,92 @@
+{
+  "revision": "alignment6",
+  "asset": "nikon",
+  "script_sha256": "31f3cde9b4d4ce1bcd52c026af6afce3e56ded8f2cb02c121dca394b7b092831",
+  "audit_library_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Exact Z extrema of evaluated surfaces at assembled home pose, plus detailed-mesh overlap for adjacent support pieces. Supports are intentional tangent interfaces; their signed gap tolerance is 1 micrometer.",
+  "versions": {
+    "before": {
+      "source": "validation/alignment6/nikon/before/e1000.blend",
+      "sha256": "2b1c792e7a16f61dd2a4b6514b42a5bb0c9aae97db7e7813dd15baf03c0d2b19",
+      "checks": [
+        {
+          "check": "carrier_on_stage",
+          "gap_mm": -1.3271346688270569e-05,
+          "upper": [
+            "Inset sample carrier"
+          ],
+          "lower": [
+            "Black 212.5 mm mechanical stage"
+          ],
+          "passed": true
+        },
+        {
+          "check": "slide_on_carrier",
+          "gap_mm": -0.0999865005724132,
+          "upper": [
+            "Specimen slide"
+          ],
+          "lower": [
+            "Inset sample carrier"
+          ],
+          "passed": false
+        },
+        {
+          "check": "clips_on_slide",
+          "gap_mm": -0.1999980304390192,
+          "upper": [
+            "Slide spring clip",
+            "Slide spring clip.001"
+          ],
+          "lower": [
+            "Specimen slide"
+          ],
+          "passed": false
+        }
+      ],
+      "passed": false
+    },
+    "after": {
+      "source": "000/e1000.blend",
+      "sha256": "78eda10025ea6d7e453508bcf5b8c2381914bbf6bbba89a01cf401b2a938636f",
+      "checks": [
+        {
+          "check": "carrier_on_stage",
+          "gap_mm": 8.236384019255638e-06,
+          "upper": [
+            "Inset sample carrier"
+          ],
+          "lower": [
+            "Black 212.5 mm mechanical stage"
+          ],
+          "passed": true
+        },
+        {
+          "check": "slide_on_carrier",
+          "gap_mm": -8.003553375601768e-06,
+          "upper": [
+            "Specimen slide"
+          ],
+          "lower": [
+            "Inset sample carrier"
+          ],
+          "passed": true
+        },
+        {
+          "check": "clips_on_slide",
+          "gap_mm": -9.546056389808655e-06,
+          "upper": [
+            "Slide spring clip",
+            "Slide spring clip.001"
+          ],
+          "lower": [
+            "Specimen slide"
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  },
+  "passed": true
+}

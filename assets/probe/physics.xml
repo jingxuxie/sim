@@ -260,9 +260,14 @@
             <joint name="chuck_theta_angle" type="hinge" axis="0 0 1" damping="0.04" frictionloss="0.01" range="-0.35 0.35" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.4" pos="0 0 0" diaginertia="0.00049 0.00049 0.00049" />
             <geom name="chuck_theta__Vacuum_chuck" type="cylinder" contype="18" conaffinity="9" pos="0 0 0" size="0.052 0.0085" zaxis="0 0 1" class="contact" />
-            <geom name="chuck_theta__Sample_clamp_block" type="box" contype="18" conaffinity="9" pos="0 0 0.019" size="0.0295 0.0225 0.0085" class="contact" />
+            <geom name="chuck_theta__Sample_clamp_block" type="box" contype="18" conaffinity="9" pos="0 0 0.021125" size="0.0283 0.0225 0.006625" class="contact" />
             <geom name="chuck_theta__device_chip" type="box" contype="18" conaffinity="9" pos="0 0 0.028" size="0.006 0.006 0.00025" class="contact" />
+            <geom name="chuck_theta__Specimen_holder_lower_rail" type="box" contype="18" conaffinity="9" pos="0 0 0.012" size="0.0385 0.0265 0.0025" class="contact" />
+            <geom name="chuck_theta__Specimen_holder_upper_guide" type="box" contype="18" conaffinity="9" pos="-0.031 0 0.0205" size="0.0025 0.024 0.006" class="contact" />
+            <geom name="chuck_theta__Specimen_holder_upper_guide_2" type="box" contype="18" conaffinity="9" pos="0.031 0 0.0205" size="0.0025 0.024 0.006" class="contact" />
+            <geom name="chuck_theta__Chip_clamp_screw_stem" type="cylinder" contype="18" conaffinity="9" pos="-0.022 -0.012 0.0281" size="0.0016 0.0006" zaxis="0 0 1" class="contact" />
             <geom name="chuck_theta__Chip_clamp_screw_head_contact" type="cylinder" contype="18" conaffinity="9" pos="-0.022 -0.012 0.029" size="0.003 0.0008" zaxis="0 0 1" class="contact" />
+            <geom name="chuck_theta__Chip_clamp_screw_stem_2" type="cylinder" contype="18" conaffinity="9" pos="0.022 -0.012 0.0281" size="0.0016 0.0006" zaxis="0 0 1" class="contact" />
             <geom name="chuck_theta__Chip_clamp_screw_head_contact_2" type="cylinder" contype="18" conaffinity="9" pos="0.022 -0.012 0.029" size="0.003 0.0008" zaxis="0 0 1" class="contact" />
             <site name="device_chip_center" pos="0 0 0.02825" size=".0006" group="4" rgba=".1 .8 .4 1" />
             <site name="left_pad" pos="-0.0004 0 0.028274" size=".0006" group="4" rgba=".1 .8 .4 1" />

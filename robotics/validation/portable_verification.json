@@ -3,13 +3,13 @@
   "all_metrics_identical": true,
   "native_summary_sha256": "5ca5e8e8e3058555e1d4cce0ba5c0ec721632625feec6d2c657052241817959a",
   "portable_summary_sha256": "059d8ae724fa4ef4acfedceeafc5bac885b7ee15bc8cbbc03fd2bd2da9ba8ecb",
-  "package_sha256": "4192758d132280d5a7b193ededd5d059750a6db7e7e49e890119e45433977117",
+  "package_sha256": "3dbb83c1c14bfb7dfbdd676285b41f8f13239afe5573cd45e749d56a291f390a",
   "comparisons": [
     {
       "mode": "contact",
       "seed": 0,
-      "native_report_sha256": "9320b39a24ef895ea9901169048d6349ea4a0b5ed628bffec71b96a1413b49c4",
-      "portable_report_sha256": "2c39882de2ff071e360f7deb6429a812d6ed99e0773356f0ea24bbe1b4437b01",
+      "native_report_sha256": "e5c250cf7a744bd31b609cf2a46d020aba7e2ab84f5ad2cee47353e471f3ae6f",
+      "portable_report_sha256": "9268bf4178d18d1aa1f51f764ab5a52ea0d57a13de1ceb841c7f82ce6118e90d",
       "compared_fields": [
         "bilateral_contact_steps",
         "duration_s",
@@ -58,8 +58,8 @@
     {
       "mode": "contacts_disabled",
       "seed": 0,
-      "native_report_sha256": "e8b31c4bd92cb4373ad98a4f1f6fc3082af488ac02a083efa987929e6b761621",
-      "portable_report_sha256": "783468795d65194d27c7cf50b9584737391607efe8300c7b28dceedfedf63513",
+      "native_report_sha256": "0bd9cf130a73745d79a0cca1d4c8fa074dc739bd69fd876c80cb913747f09491",
+      "portable_report_sha256": "8587397946d0054345927d19e3466d63cc243b4d00d6d9412905d167b5859fcf",
       "compared_fields": [
         "bilateral_contact_steps",
         "duration_s",
@@ -108,8 +108,8 @@
     {
       "mode": "missed_grasp",
       "seed": 0,
-      "native_report_sha256": "a275bac3679520fb9ae250b770573e0eb9c2d62e70c24a1192fc22572d4824e6",
-      "portable_report_sha256": "58a3d8d09f4d3a9f50a0d11e78c2fcbf67091aa51440c72620916d4fb1578ba1",
+      "native_report_sha256": "895e8dfd7d2b48b7154d3bf64bfb9222fef08c7e0e7d13c90448d6de879f9f23",
+      "portable_report_sha256": "4914d310c3480593c570adda9131856aa8f432fe510b8696551474475af13aa6",
       "compared_fields": [
         "bilateral_contact_steps",
         "duration_s",
@@ -158,8 +158,8 @@
     {
       "mode": "no_turn",
       "seed": 0,
-      "native_report_sha256": "47e154d99c487f1829df171aef3cd6c0f756b16839e1c98aea1c307d245d1b30",
-      "portable_report_sha256": "e1ccbe51917137ab3db996ac42c51746dec928f1a2ee46accccdaf7cbc11a8bc",
+      "native_report_sha256": "b1e60103af0c510c327afcdee27c43d816aa53f05c7006d2e01f599dc8a642e0",
+      "portable_report_sha256": "14c0b6bf2e19af6d8272af81bcb0d6288bba962cfd8ba8501f62487454187958",
       "compared_fields": [
         "bilateral_contact_steps",
         "duration_s",

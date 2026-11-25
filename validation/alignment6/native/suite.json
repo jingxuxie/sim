@@ -1,0 +1,1617 @@
+{
+  "positive": [
+    {
+      "task": "nikon.center",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.92,
+      "wall_s": 0.113,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.659480366935015e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 1.44,
+      "wall_s": 0.154,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 2.5278072239901233e-06
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.46,
+      "wall_s": 0.048,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.image_focus",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 45.6,
+      "wall_s": 10.603,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 1.3729645390932622e-06,
+        "objective_indexed": true,
+        "camera_throughput": 1.0,
+        "focus_submitted": true
+      },
+      "events": [
+        {
+          "event": "image_focus_scan_1_complete",
+          "time": 22.68
+        },
+        {
+          "event": "image_focus_scan_2_complete",
+          "time": 34.44
+        },
+        {
+          "event": "image_focus_scan_3_complete",
+          "time": 42.12
+        },
+        {
+          "event": "image_focus_scan_4_complete",
+          "time": 45.12
+        }
+      ],
+      "controller": "image sharpness search"
+    },
+    {
+      "task": "nikon.image_center",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 2.52,
+      "wall_s": 0.988,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 9.236613112498594e-06
+      },
+      "events": [],
+      "controller": "image fiducial feedback"
+    },
+    {
+      "task": "transfer.align",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.7,
+      "wall_s": 0.159,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.3350159517833863e-05,
+        "gap_m": 0.007241642639229828
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "transfer.touch",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 8.06,
+      "wall_s": 1.839,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.23939408986428823,
+        "error_m": 1.0767746627576583e-07,
+        "gap_m": 0.0023816571611110227
+      },
+      "events": [
+        {
+          "event": "stamp_contact",
+          "time": 6.16
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.align",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.74,
+      "wall_s": 0.168,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 4.777329032213717e-05,
+        "gap_m": 0.00022599999999997622
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.touch",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 6.74,
+      "wall_s": 1.581,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.5433754338308189,
+        "error_m": 4.411953239200577e-08,
+        "gap_m": 0.0008374878077406778
+      },
+      "events": [
+        {
+          "event": "left_contact",
+          "time": 1.08
+        },
+        {
+          "event": "right_contact",
+          "time": 1.08
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.74,
+      "wall_s": 0.091,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.2209695727150956e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.92,
+      "wall_s": 0.12,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 5.138643419647006e-07
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.image_focus",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 17.08,
+      "wall_s": 7.242,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 7.867580798935798e-08,
+        "objective_indexed": true,
+        "camera_throughput": 1.0,
+        "focus_submitted": true
+      },
+      "events": [
+        {
+          "event": "image_focus_scan_1_complete",
+          "time": 8.3
+        },
+        {
+          "event": "image_focus_scan_2_complete",
+          "time": 12.8
+        },
+        {
+          "event": "image_focus_scan_3_complete",
+          "time": 15.44
+        },
+        {
+          "event": "image_focus_scan_4_complete",
+          "time": 16.78
+        }
+      ],
+      "controller": "image sharpness search"
+    },
+    {
+      "task": "bonder.align",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 2.48,
+      "wall_s": 0.194,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.190776574950112e-07,
+        "active_pad": 1,
+        "first_pad_distance_m": 8.190776574950112e-07,
+        "gap_m": 0.0023999999999999994
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "bonder.two_bonds",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 12.88,
+      "wall_s": 1.031,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.16116549341340528,
+        "error_m": 4.055349805964781e-15,
+        "active_pad": 2,
+        "first_pad_distance_m": 0.005999999999995944,
+        "gap_m": 0.0013671578313638189
+      },
+      "events": [
+        {
+          "event": "bond_1_contact",
+          "time": 4.14
+        },
+        {
+          "event": "between_bonds_retracted",
+          "time": 5.34
+        },
+        {
+          "event": "bond_2_contact",
+          "time": 11.8
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "afm.access",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 7.6,
+      "wall_s": 1.092,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.00392680024277545,
+        "drawer_m": 0.10014161606252743,
+        "door_rad": -1.7997123685733951
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 16.46,
+      "wall_s": 2.448,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.003928966672102656,
+        "drawer_m": 6.122759268941536e-13,
+        "door_rad": -0.001614972107112765
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "tweezers.pick",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 3.62,
+      "wall_s": 0.43,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.01028216024098445,
+        "unintended_tool_contact_count": 0,
+        "error_m": 0.0241867457234591,
+        "chip_z_m": 0.01929258452508961,
+        "bilateral_contact": true,
+        "settling_drop_m": 0.0,
+        "release": null,
+        "chip_tilt_deg": 0.017335706687666864,
+        "tray_support_contact": false,
+        "tool_retracted": false
+      },
+      "events": [
+        {
+          "event": "bilateral_grasp",
+          "time": 2.34
+        },
+        {
+          "event": "chip_lifted",
+          "time": 3.34
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "tweezers.place",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 12.54,
+      "wall_s": 1.47,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.010556732791049121,
+        "unintended_tool_contact_count": 0,
+        "error_m": 7.463079313560848e-05,
+        "chip_z_m": 0.0090983187707916,
+        "bilateral_contact": false,
+        "settling_drop_m": 0.0006108798519809094,
+        "release": {
+          "time_s": 10.759999999999476,
+          "center_z_m": 0.00945919862277251,
+          "bottom_gap_m": 6.112822771272772e-05,
+          "tilt_deg": 7.690805469528002
+        },
+        "chip_tilt_deg": 1.2074182697257333e-06,
+        "tray_support_contact": true,
+        "tool_retracted": true
+      },
+      "events": [
+        {
+          "event": "bilateral_grasp",
+          "time": 2.34
+        },
+        {
+          "event": "chip_lifted",
+          "time": 3.34
+        },
+        {
+          "event": "chip_released",
+          "time": 10.76
+        },
+        {
+          "event": "chip_settled_on_tray",
+          "time": 10.8
+        },
+        {
+          "event": "tool_retracted",
+          "time": 12.26
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.center",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.84,
+      "wall_s": 0.1,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.521535712042938e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 1.3,
+      "wall_s": 0.14,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 2.5404532379326173e-06
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.46,
+      "wall_s": 0.047,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.image_focus",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 45.38,
+      "wall_s": 8.07,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 8.287476762829191e-07,
+        "objective_indexed": true,
+        "camera_throughput": 1.0,
+        "focus_submitted": true
+      },
+      "events": [
+        {
+          "event": "image_focus_scan_1_complete",
+          "time": 22.68
+        },
+        {
+          "event": "image_focus_scan_2_complete",
+          "time": 34.38
+        },
+        {
+          "event": "image_focus_scan_3_complete",
+          "time": 42.02
+        },
+        {
+          "event": "image_focus_scan_4_complete",
+          "time": 45.08
+        }
+      ],
+      "controller": "image sharpness search"
+    },
+    {
+      "task": "nikon.image_center",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 2.24,
+      "wall_s": 0.92,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 7.160346829247257e-06
+      },
+      "events": [],
+      "controller": "image fiducial feedback"
+    },
+    {
+      "task": "transfer.align",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.7,
+      "wall_s": 0.221,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.573648418635006e-05,
+        "gap_m": 0.007241642639229828
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "transfer.touch",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 8.06,
+      "wall_s": 1.961,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.2393950796293472,
+        "error_m": 1.0529019015182248e-07,
+        "gap_m": 0.002381657058852904
+      },
+      "events": [
+        {
+          "event": "stamp_contact",
+          "time": 6.16
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.align",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.76,
+      "wall_s": 0.184,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 4.503416802309108e-05,
+        "gap_m": 0.00022599999999997622
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.touch",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 6.74,
+      "wall_s": 1.583,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.5433754338294836,
+        "error_m": 4.414516766465436e-08,
+        "gap_m": 0.0008374878077406778
+      },
+      "events": [
+        {
+          "event": "left_contact",
+          "time": 1.08
+        },
+        {
+          "event": "right_contact",
+          "time": 1.08
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.98,
+      "wall_s": 0.14,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.2010513534791074e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.58,
+      "wall_s": 0.076,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 5.194277567353872e-07
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.image_focus",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 16.58,
+      "wall_s": 5.289,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 6.542055050288986e-08,
+        "objective_indexed": true,
+        "camera_throughput": 1.0,
+        "focus_submitted": true
+      },
+      "events": [
+        {
+          "event": "image_focus_scan_1_complete",
+          "time": 8.3
+        },
+        {
+          "event": "image_focus_scan_2_complete",
+          "time": 12.2
+        },
+        {
+          "event": "image_focus_scan_3_complete",
+          "time": 14.88
+        },
+        {
+          "event": "image_focus_scan_4_complete",
+          "time": 16.22
+        }
+      ],
+      "controller": "image sharpness search"
+    },
+    {
+      "task": "bonder.align",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 2.48,
+      "wall_s": 0.192,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.190776574950112e-07,
+        "active_pad": 1,
+        "first_pad_distance_m": 8.190776574950112e-07,
+        "gap_m": 0.0023999999999999994
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "bonder.two_bonds",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 12.88,
+      "wall_s": 1.037,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.16116549341340528,
+        "error_m": 4.055349805964781e-15,
+        "active_pad": 2,
+        "first_pad_distance_m": 0.005999999999995944,
+        "gap_m": 0.0013671578313638189
+      },
+      "events": [
+        {
+          "event": "bond_1_contact",
+          "time": 4.14
+        },
+        {
+          "event": "between_bonds_retracted",
+          "time": 5.34
+        },
+        {
+          "event": "bond_2_contact",
+          "time": 11.8
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "afm.access",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 7.6,
+      "wall_s": 1.111,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.00392680024277545,
+        "drawer_m": 0.10014161606252743,
+        "door_rad": -1.7997123685733951
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 16.46,
+      "wall_s": 2.364,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.003928966672102656,
+        "drawer_m": 6.122759268941536e-13,
+        "door_rad": -0.001614972107112765
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "tweezers.pick",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 3.62,
+      "wall_s": 0.42,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.01028216024098445,
+        "unintended_tool_contact_count": 0,
+        "error_m": 0.0241867457234591,
+        "chip_z_m": 0.01929258452508961,
+        "bilateral_contact": true,
+        "settling_drop_m": 0.0,
+        "release": null,
+        "chip_tilt_deg": 0.017335706687666864,
+        "tray_support_contact": false,
+        "tool_retracted": false
+      },
+      "events": [
+        {
+          "event": "bilateral_grasp",
+          "time": 2.34
+        },
+        {
+          "event": "chip_lifted",
+          "time": 3.34
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "tweezers.place",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 12.54,
+      "wall_s": 1.47,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.010556732791049121,
+        "unintended_tool_contact_count": 0,
+        "error_m": 7.463079313560848e-05,
+        "chip_z_m": 0.0090983187707916,
+        "bilateral_contact": false,
+        "settling_drop_m": 0.0006108798519809094,
+        "release": {
+          "time_s": 10.759999999999476,
+          "center_z_m": 0.00945919862277251,
+          "bottom_gap_m": 6.112822771272772e-05,
+          "tilt_deg": 7.690805469528002
+        },
+        "chip_tilt_deg": 1.2074182697257333e-06,
+        "tray_support_contact": true,
+        "tool_retracted": true
+      },
+      "events": [
+        {
+          "event": "bilateral_grasp",
+          "time": 2.34
+        },
+        {
+          "event": "chip_lifted",
+          "time": 3.34
+        },
+        {
+          "event": "chip_released",
+          "time": 10.76
+        },
+        {
+          "event": "chip_settled_on_tray",
+          "time": 10.8
+        },
+        {
+          "event": "tool_retracted",
+          "time": 12.26
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.center",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.92,
+      "wall_s": 0.109,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.748703847198403e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 1.42,
+      "wall_s": 0.146,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 2.6137228354013945e-06
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.46,
+      "wall_s": 0.048,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "nikon.image_focus",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 45.32,
+      "wall_s": 9.45,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 8.939101309929972e-07,
+        "objective_indexed": true,
+        "camera_throughput": 1.0,
+        "focus_submitted": true
+      },
+      "events": [
+        {
+          "event": "image_focus_scan_1_complete",
+          "time": 22.68
+        },
+        {
+          "event": "image_focus_scan_2_complete",
+          "time": 34.44
+        },
+        {
+          "event": "image_focus_scan_3_complete",
+          "time": 42.12
+        },
+        {
+          "event": "image_focus_scan_4_complete",
+          "time": 45.02
+        }
+      ],
+      "controller": "image sharpness search"
+    },
+    {
+      "task": "nikon.image_center",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 1.38,
+      "wall_s": 0.551,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 7.10761123281889e-06
+      },
+      "events": [],
+      "controller": "image fiducial feedback"
+    },
+    {
+      "task": "transfer.align",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.62,
+      "wall_s": 0.153,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 6.191271446894638e-06,
+        "gap_m": 0.007242089523056661
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "transfer.touch",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 8.06,
+      "wall_s": 1.867,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.2393951509017972,
+        "error_m": 1.0520823830384516e-07,
+        "gap_m": 0.002381657051117203
+      },
+      "events": [
+        {
+          "event": "stamp_contact",
+          "time": 6.16
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.align",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.74,
+      "wall_s": 0.175,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 4.15925019404204e-05,
+        "gap_m": 0.00022599999999997622
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.touch",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 6.74,
+      "wall_s": 1.565,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.5433754338297075,
+        "error_m": 4.38070926072429e-08,
+        "gap_m": 0.00083748780774065
+      },
+      "events": [
+        {
+          "event": "left_contact",
+          "time": 1.08
+        },
+        {
+          "event": "right_contact",
+          "time": 1.08
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.78,
+      "wall_s": 0.101,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.165867887940416e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.88,
+      "wall_s": 0.116,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 5.378440583503384e-07
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.image_focus",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 17.08,
+      "wall_s": 7.065,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 1.8673027233902066e-07,
+        "objective_indexed": true,
+        "camera_throughput": 1.0,
+        "focus_submitted": true
+      },
+      "events": [
+        {
+          "event": "image_focus_scan_1_complete",
+          "time": 8.3
+        },
+        {
+          "event": "image_focus_scan_2_complete",
+          "time": 12.72
+        },
+        {
+          "event": "image_focus_scan_3_complete",
+          "time": 15.44
+        },
+        {
+          "event": "image_focus_scan_4_complete",
+          "time": 16.74
+        }
+      ],
+      "controller": "image sharpness search"
+    },
+    {
+      "task": "bonder.align",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 2.48,
+      "wall_s": 0.197,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.190776574950112e-07,
+        "active_pad": 1,
+        "first_pad_distance_m": 8.190776574950112e-07,
+        "gap_m": 0.0023999999999999994
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "bonder.two_bonds",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 12.88,
+      "wall_s": 1.001,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.16116549341340528,
+        "error_m": 4.055349805964781e-15,
+        "active_pad": 2,
+        "first_pad_distance_m": 0.005999999999995944,
+        "gap_m": 0.0013671578313638189
+      },
+      "events": [
+        {
+          "event": "bond_1_contact",
+          "time": 4.14
+        },
+        {
+          "event": "between_bonds_retracted",
+          "time": 5.34
+        },
+        {
+          "event": "bond_2_contact",
+          "time": 11.8
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "afm.access",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 7.6,
+      "wall_s": 1.096,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.00392680024277545,
+        "drawer_m": 0.10014161606252743,
+        "door_rad": -1.7997123685733951
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 16.46,
+      "wall_s": 2.424,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.003928966672102656,
+        "drawer_m": 6.122759268941536e-13,
+        "door_rad": -0.001614972107112765
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "tweezers.pick",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 3.62,
+      "wall_s": 0.422,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.01028216024098445,
+        "unintended_tool_contact_count": 0,
+        "error_m": 0.0241867457234591,
+        "chip_z_m": 0.01929258452508961,
+        "bilateral_contact": true,
+        "settling_drop_m": 0.0,
+        "release": null,
+        "chip_tilt_deg": 0.017335706687666864,
+        "tray_support_contact": false,
+        "tool_retracted": false
+      },
+      "events": [
+        {
+          "event": "bilateral_grasp",
+          "time": 2.34
+        },
+        {
+          "event": "chip_lifted",
+          "time": 3.34
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "tweezers.place",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 12.54,
+      "wall_s": 1.445,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.010556732791049121,
+        "unintended_tool_contact_count": 0,
+        "error_m": 7.463079313560848e-05,
+        "chip_z_m": 0.0090983187707916,
+        "bilateral_contact": false,
+        "settling_drop_m": 0.0006108798519809094,
+        "release": {
+          "time_s": 10.759999999999476,
+          "center_z_m": 0.00945919862277251,
+          "bottom_gap_m": 6.112822771272772e-05,
+          "tilt_deg": 7.690805469528002
+        },
+        "chip_tilt_deg": 1.2074182697257333e-06,
+        "tray_support_contact": true,
+        "tool_retracted": true
+      },
+      "events": [
+        {
+          "event": "bilateral_grasp",
+          "time": 2.34
+        },
+        {
+          "event": "chip_lifted",
+          "time": 3.34
+        },
+        {
+          "event": "chip_released",
+          "time": 10.76
+        },
+        {
+          "event": "chip_settled_on_tray",
+          "time": 10.8
+        },
+        {
+          "event": "tool_retracted",
+          "time": 12.26
+        }
+      ],
+      "controller": "bench fixture"
+    }
+  ],
+  "negative": [
+    {
+      "task": "nikon.center",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 8.0,
+      "wall_s": 0.703,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 0.004457161310733715
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 8.0,
+      "wall_s": 0.752,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 0.00012179802914802895
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 8.0,
+      "wall_s": 0.69,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "nikon.image_focus",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 60.02,
+      "wall_s": 5.278,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 0.00012179802914802895,
+        "objective_indexed": true,
+        "camera_throughput": 1.0,
+        "focus_submitted": false
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "nikon.image_center",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 12.02,
+      "wall_s": 1.051,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 0.00013304763655657271
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "transfer.align",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 12.02,
+      "wall_s": 2.594,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 0.0022194119468442667,
+        "gap_m": 0.007214011453713254
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "transfer.touch",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 20.0,
+      "wall_s": 4.375,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 0.002219701150733935,
+        "gap_m": 0.007208691242359427
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "probe.align",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 10.02,
+      "wall_s": 2.126,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 0.003413334382801864,
+        "gap_m": 0.00022599999999997622
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "probe.touch",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 12.02,
+      "wall_s": 2.631,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 0.003413334382801864,
+        "gap_m": 0.00022599999999997622
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 10.02,
+      "wall_s": 1.195,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 0.004457161310733715
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 10.02,
+      "wall_s": 1.221,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 0.00012179802914802894
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "zeiss.image_focus",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 45.02,
+      "wall_s": 5.598,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 0.00012179802914802894,
+        "objective_indexed": true,
+        "camera_throughput": 1.0,
+        "focus_submitted": false
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "bonder.align",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 8.0,
+      "wall_s": 0.623,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 0.003,
+        "active_pad": 1,
+        "first_pad_distance_m": 0.003,
+        "gap_m": 0.002460000000000004
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "bonder.two_bonds",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 14.02,
+      "wall_s": 1.048,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 0.003,
+        "active_pad": 1,
+        "first_pad_distance_m": 0.003,
+        "gap_m": 0.002460000000000004
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "afm.access",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 14.02,
+      "wall_s": 2.05,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.003927721610838621,
+        "drawer_m": -9.635688906900456e-16,
+        "door_rad": -4.51711144394858e-19
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 20.0,
+      "wall_s": 3.016,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.003927721610838621,
+        "drawer_m": -9.635968941977934e-16,
+        "door_rad": -4.66010019031823e-19
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "tweezers.pick",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 12.02,
+      "wall_s": 1.346,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.00022072536024767412,
+        "unintended_tool_contact_count": 0,
+        "error_m": 0.024186772738765978,
+        "chip_z_m": 0.009498318770791596,
+        "bilateral_contact": false,
+        "settling_drop_m": 0.0,
+        "release": null,
+        "chip_tilt_deg": 0.0,
+        "tray_support_contact": false,
+        "tool_retracted": false
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    },
+    {
+      "task": "tweezers.place",
+      "seed": 11,
+      "success": false,
+      "failure": "timeout",
+      "duration_s": 20.0,
+      "wall_s": 2.261,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.00022072536024767418,
+        "unintended_tool_contact_count": 0,
+        "error_m": 0.024186772738765978,
+        "chip_z_m": 0.009498318770791596,
+        "bilateral_contact": false,
+        "settling_drop_m": 0.0,
+        "release": null,
+        "chip_tilt_deg": 0.0,
+        "tray_support_contact": false,
+        "tool_retracted": false
+      },
+      "events": [],
+      "controller": "no-action negative control"
+    }
+  ],
+  "checks": {
+    "locked_controls_rejected": true,
+    "passive_drawer_latch_blocks_5N": true,
+    "puck_support_penetration_below_10um": true,
+    "commands_clamped_to_limits": true,
+    "rejects_nonfinite_actions": true,
+    "dropped_chip_is_not_success": true
+  },
+  "passed": true
+}

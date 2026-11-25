@@ -1,0 +1,141 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "passed": true,
+  "title": "Wire bonder: geometric sightline from the front aperture",
+  "explanation": "The same front aperture point can now see both benchmark pad targets. Depth of field is disabled for this geometric diagnostic; this is not calibrated stereo imaging.",
+  "camera": "alignment_pupil",
+  "camera_signature": {
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9866134524345398,
+        -0.16307634115219116,
+        -0.125
+      ],
+      [
+        0.0,
+        0.16307634115219116,
+        0.9866134524345398,
+        0.18299999833106995
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "PERSP",
+    "lens_mm": 240.0,
+    "scale": 0.014000000432133675,
+    "clip_start_m": 0.0010000000474974513,
+    "dof_enabled": false,
+    "focus_distance_m": 0.09198131412267685,
+    "fstop": 22.0
+  },
+  "camera_source_sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+  "input_reports": [
+    {
+      "path": "validation/alignment6/bonder/before_pupil_pinhole/render_report.json",
+      "sha256": "3d8393942b2704ea2af862598ee49e0ddebc350f698d118da94f3de83578ad4a"
+    },
+    {
+      "path": "validation/alignment6/bonder/pupil_pinhole/render_report.json",
+      "sha256": "a2ab03ae9f66a5f91c0c24690bceff62ef5e6caddcc50140f5c85e586bd71e88"
+    }
+  ],
+  "inputs": [
+    {
+      "label": "Before",
+      "image": {
+        "path": "validation/alignment6/bonder/before_pupil_pinhole/alignment_pupil.png",
+        "sha256": "f4e014963b14b99ef0d342f720542a33567875c9c1a39f2cab7a9f9264235d6d"
+      },
+      "source_resolution": [
+        2560,
+        2160
+      ],
+      "placed_resolution": [
+        1280,
+        1080
+      ],
+      "panel_rectangle": [
+        16,
+        100,
+        1296,
+        1180
+      ]
+    },
+    {
+      "label": "After",
+      "image": {
+        "path": "validation/alignment6/bonder/pupil_pinhole/alignment_pupil.png",
+        "sha256": "d34cbd3ff9963df79960ccaaf2670bdc70d94bf7aac6dc5ad063842f38f66912"
+      },
+      "source_resolution": [
+        2560,
+        2160
+      ],
+      "placed_resolution": [
+        1280,
+        1080
+      ],
+      "panel_rectangle": [
+        1312,
+        100,
+        2592,
+        1180
+      ]
+    }
+  ],
+  "raw_reference_media_published": false,
+  "image_layout": "Full uncropped frames reduced by exactly 1/2 in each dimension; no image alteration beyond uniform resampling and labels outside the image.",
+  "outputs": [
+    {
+      "path": "validation/alignment6/bonder/comparisons/alignment_pupil.png",
+      "sha256": "3fe5ced1826842f160000f68fc3a7b90845460564dc16899f0c9ddd4fca4bbac"
+    },
+    {
+      "path": "validation/alignment6/bonder/comparisons/alignment_pupil.jpg",
+      "sha256": "367136ff0959c0c9f80e68a56bc9aea70485c25c156eddb7a6349a4989c1de63"
+    }
+  ],
+  "script": "validation/alignment6/transfer/promote_reviews.py",
+  "script_sha256": "184d9bf250bc6f07458c344de2440122c5c020c8888e71eeea6f7d38b1fafc75",
+  "interpretation": "Geometric pinhole sightline; depth of field disabled in memory in both views. Not calibrated microscope/stereo imaging.",
+  "diagnostic_overrides": [
+    {
+      "camera": "alignment_pupil",
+      "original_aperture": {
+        "dof_enabled": true,
+        "fstop": 22.0,
+        "focus_distance_m": 0.09198131412267685
+      },
+      "dof_enabled": false,
+      "source_scene_saved": false,
+      "interpretation": "Pinhole geometric sightline; no calibrated stereo channel, optical prescription or microscope image claim.",
+      "script": "validation/alignment6/bonder/render_pupil_review.py",
+      "script_sha256": "1e5cd93c53dfa51adbd27a4637bf76f1ea81f43b537964f406733db3278e0780"
+    },
+    {
+      "camera": "alignment_pupil",
+      "original_aperture": {
+        "dof_enabled": true,
+        "fstop": 22.0,
+        "focus_distance_m": 0.09198131412267685
+      },
+      "dof_enabled": false,
+      "source_scene_saved": false,
+      "interpretation": "Pinhole geometric sightline; no calibrated stereo channel, optical prescription or microscope image claim.",
+      "script": "validation/alignment6/bonder/render_pupil_review.py",
+      "script_sha256": "1e5cd93c53dfa51adbd27a4637bf76f1ea81f43b537964f406733db3278e0780"
+    }
+  ]
+}

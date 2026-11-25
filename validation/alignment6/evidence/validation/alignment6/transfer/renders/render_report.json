@@ -1,0 +1,500 @@
+{
+  "revision": "alignment6",
+  "asset": "transfer",
+  "draft": false,
+  "source_sha256": "32752a04829cd966b9fe0ad0553777677a4fd1b3cef867f8307b8498d6fb9f9a",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "overview",
+    "mechanisms",
+    "illumination",
+    "rotation_detail",
+    "stamp_stage",
+    "optical_head",
+    "clearance_sample_x",
+    "clearance_stamp_z",
+    "clearance_camera_lead",
+    "alignment_focus_guide"
+  ],
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "721bba1c31a93c633dd57f2e0e624a2c7d0faf7968afc8caec0f76c89d507f58"
+    },
+    {
+      "file": "mechanisms.png",
+      "camera": "mechanisms",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "cabaa37a7290afef60b8d434c5cc2cc543efe08d6212bc4d9eced88dbffefd0b"
+    },
+    {
+      "file": "illumination.png",
+      "camera": "illumination",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "21a7f8a264b6e8f4c296cbf00532032d0e115e919dc88b7881ad3d7dc3e6aa0f"
+    },
+    {
+      "file": "rotation_detail.png",
+      "camera": "rotation_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "2c70ea4118bc5e8fc62c93a2d3236725dc0744773758296e341732ad9c1781f8"
+    },
+    {
+      "file": "stamp_stage.png",
+      "camera": "stamp_stage",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "49e45015fccd952bcc27e48bde7f12aeda2d099bc8ad484d9bec980b439ab419"
+    },
+    {
+      "file": "optical_head.png",
+      "camera": "optical_head",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "7b6e50e5fbdcfe295f398e19b00dd5788290a73d616bf3a9e78859f46fed6e1b"
+    },
+    {
+      "file": "clearance_sample_x.png",
+      "camera": "clearance_sample_x",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "4c1189e43ea651f1a68012e28c18529001e877469d6d69cba97fcdceeab9c88a"
+    },
+    {
+      "file": "clearance_stamp_z.png",
+      "camera": "clearance_stamp_z",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "2419d17fe62ec676789c46ba687c42e2cc444b7839acc985c1a28b000ea3210e"
+    },
+    {
+      "file": "clearance_camera_lead.png",
+      "camera": "clearance_camera_lead",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "462e58b71b5ec4420354e6b4ed8eef11697b5f5a1dcbaa121264432900f8febe"
+    },
+    {
+      "file": "alignment_focus_guide.png",
+      "camera": "alignment_focus_guide",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "e05afdc5e9056d1908fabfaac7ebcbb98d61fdd780cb2eb30661463914387b9d"
+    }
+  ],
+  "complete": true,
+  "camera_signatures": {
+    "overview": {
+      "matrix_world": [
+        [
+          0.8247289061546326,
+          -0.2155928611755371,
+          0.5228211879730225,
+          1.2870514392852783
+        ],
+        [
+          0.5655282735824585,
+          0.31440624594688416,
+          -0.7624476552009583,
+          -1.7457002401351929
+        ],
+        [
+          4.2232258579133486e-08,
+          0.9244828224182129,
+          0.38122376799583435,
+          1.1528501510620117
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 1.0800000429153442,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 2.289600133895874,
+      "fstop": 11.0
+    },
+    "mechanisms": {
+      "matrix_world": [
+        [
+          0.8329644799232483,
+          -0.20224754512310028,
+          0.51503986120224,
+          0.5500233769416809
+        ],
+        [
+          0.553326427936554,
+          0.3044586777687073,
+          -0.7753288149833679,
+          -0.8054115772247314
+        ],
+        [
+          -2.226906303803844e-08,
+          0.930806577205658,
+          0.3655121922492981,
+          0.5196940302848816
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.49000000953674316,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 1.0388000011444092,
+      "fstop": 11.0
+    },
+    "illumination": {
+      "matrix_world": [
+        [
+          0.7278901934623718,
+          -0.20689083635807037,
+          0.6537370085716248,
+          1.2301456928253174
+        ],
+        [
+          0.6856937408447266,
+          0.21962246298789978,
+          -0.6939669251441956,
+          -0.9698469042778015
+        ],
+        [
+          6.174395394964449e-08,
+          0.9533950686454773,
+          0.30172476172447205,
+          0.6977594494819641
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.699999988079071,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 1.4839999675750732,
+      "fstop": 11.0
+    },
+    "rotation_detail": {
+      "matrix_world": [
+        [
+          0.8060804605484009,
+          -0.22363173961639404,
+          0.5479261875152588,
+          0.17878484725952148
+        ],
+        [
+          0.5918059349060059,
+          0.304601788520813,
+          -0.7463132739067078,
+          -0.4047241806983948
+        ],
+        [
+          4.0899500675095624e-08,
+          0.925854504108429,
+          0.37788015604019165,
+          0.3122653663158417
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.23999999463558197,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.5087999701499939,
+      "fstop": 11.0
+    },
+    "stamp_stage": {
+      "matrix_world": [
+        [
+          0.7946110963821411,
+          -0.19505806267261505,
+          0.5749309062957764,
+          0.5078445672988892
+        ],
+        [
+          0.6071187853813171,
+          0.2552963197231293,
+          -0.7524829506874084,
+          -0.5195317268371582
+        ],
+        [
+          1.232000101936137e-07,
+          0.9469826221466064,
+          0.3212847113609314,
+          0.3711482882499695
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.3100000023841858,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.6571999788284302,
+      "fstop": 11.0
+    },
+    "optical_head": {
+      "matrix_world": [
+        [
+          0.7808688282966614,
+          -0.19391430914402008,
+          0.5938359498977661,
+          0.441340833902359
+        ],
+        [
+          0.6246950030326843,
+          0.24239297211170197,
+          -0.7422949075698853,
+          -0.6766760349273682
+        ],
+        [
+          -5.239429157199993e-08,
+          0.95060133934021,
+          0.3104144334793091,
+          0.692973792552948
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.4300000071525574,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.9115999937057495,
+      "fstop": 11.0
+    },
+    "clearance_sample_x": {
+      "matrix_world": [
+        [
+          0.8320502638816833,
+          0.13433964550495148,
+          -0.5381869673728943,
+          -0.41537219285964966
+        ],
+        [
+          -0.5547002553939819,
+          0.20150931179523468,
+          -0.8072803616523743,
+          -0.32805824279785156
+        ],
+        [
+          -7.901754628392155e-08,
+          0.9702303409576416,
+          0.2421841025352478,
+          0.13541746139526367
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.18000000715255737,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.381600022315979,
+      "fstop": 11.0
+    },
+    "clearance_stamp_z": {
+      "matrix_world": [
+        [
+          0.8541984558105469,
+          0.1190498098731041,
+          -0.5061344504356384,
+          -0.11387097835540771
+        ],
+        [
+          -0.5199470520019531,
+          0.19558177888393402,
+          -0.8315063714981079,
+          -0.4099307656288147
+        ],
+        [
+          1.4942358461667027e-09,
+          0.973434567451477,
+          0.22896525263786316,
+          0.27722716331481934
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.1899999976158142,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.4027999937534332,
+      "fstop": 11.0
+    },
+    "clearance_camera_lead": {
+      "matrix_world": [
+        [
+          -0.7767559289932251,
+          -0.3027331531047821,
+          0.5522706508636475,
+          0.44466039538383484
+        ],
+        [
+          0.6298017501831055,
+          -0.3733712434768677,
+          0.6811341047286987,
+          0.6690813899040222
+        ],
+        [
+          7.834118065375151e-08,
+          0.8768959641456604,
+          0.4806801974773407,
+          0.3910934627056122
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.3199999928474426,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.6783999800682068,
+      "fstop": 11.0
+    },
+    "alignment_focus_guide": {
+      "matrix_world": [
+        [
+          0.36354249715805054,
+          -0.5125672817230225,
+          0.7778891921043396,
+          0.32377249002456665
+        ],
+        [
+          0.9315776228904724,
+          0.2000262588262558,
+          -0.30356651544570923,
+          -0.07232585549354553
+        ],
+        [
+          1.021520645849705e-09,
+          0.8350235223770142,
+          0.5502142906188965,
+          0.6782780885696411
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.25999999046325684,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.5511999726295471,
+      "fstop": 11.0
+    }
+  },
+  "camera_source_sha256": "32752a04829cd966b9fe0ad0553777677a4fd1b3cef867f8307b8498d6fb9f9a",
+  "before_model": false,
+  "source_files_unchanged": true,
+  "existing_geometry_transforms_unchanged": true,
+  "wrapper_sha256": "574bb26e482053419b754d9f946f2be26ec408b0b5b756f88c97e7ba20437acc",
+  "raw_reference_media_published": false,
+  "source": "001_transfer_stage/transfer_station.blend",
+  "camera_source": "001_transfer_stage/transfer_station.blend",
+  "provenance_completion": {
+    "method": "Add portable source paths after independently verifying existing source, camera, script and image digests; no image or model is modified.",
+    "path": "validation/alignment6/transfer/promote_reviews.py",
+    "sha256": "184d9bf250bc6f07458c344de2440122c5c020c8888e71eeea6f7d38b1fafc75"
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "revision": "alignment6",
+  "phase": "stills",
+  "method": "Full-frame aspect-preserving LANCZOS thumbnails; captions outside input pixels. No color changes, retouching, or reference photographs.",
+  "script_sha256": "63df03ed672f2bd7ed149fc50d772fb021ceb99c7044c44b9952b6118f33a18f",
+  "sheets": [
+    {
+      "file": "review/stills-render.jpg",
+      "sha256": "478babda6775fc4ee12402382e414f3e745da3b33093c12e4f8d7bdce1ba0776",
+      "resolution": [
+        2800,
+        1268
+      ],
+      "sources": [
+        {
+          "label": "nikon \u00b7 Overview",
+          "path": "publish/github-sim/assets/nikon/render.png",
+          "sha256": "8b8c960d5b620f8385f62654025776250eb03880ea9bb647cb2fddde2ac93c0a",
+          "resolution": [
+            3840,
+            3200
+          ]
+        },
+        {
+          "label": "transfer \u00b7 Overview",
+          "path": "publish/github-sim/assets/transfer/render.png",
+          "sha256": "f818b9ecaa3a8d64be1aa649b8765be517dc315c68d32f7a0b2fdc3fbb44c4ce",
+          "resolution": [
+            3840,
+            3200
+          ]
+        },
+        {
+          "label": "probe \u00b7 Overview",
+          "path": "publish/github-sim/assets/probe/render.png",
+          "sha256": "d0ceb92dfea66c8ca9fcee15b7d4884d238f83c93d28b8efcb2b4455e92cf7c1",
+          "resolution": [
+            3840,
+            3200
+          ]
+        },
+        {
+          "label": "zeiss \u00b7 Overview",
+          "path": "publish/github-sim/assets/zeiss/render.png",
+          "sha256": "383e11a435952a370cc8e16ad3bcdaf392a41732d952edaa763e11a0695c0371",
+          "resolution": [
+            3840,
+            3200
+          ]
+        },
+        {
+          "label": "bonder \u00b7 Overview",
+          "path": "publish/github-sim/assets/bonder/render.png",
+          "sha256": "d9196bc2ff5f575e3f0b3d7f0813aef6e06c690f487da4e4c0a766cf23e3d781",
+          "resolution": [
+            3840,
+            3200
+          ]
+        },
+        {
+          "label": "afm \u00b7 Overview",
+          "path": "publish/github-sim/assets/afm/render.png",
+          "sha256": "30a763026a874db3d91b6a0f2672abd051c2571a283293bd3c8416d91c88e130",
+          "resolution": [
+            3840,
+            3200
+          ]
+        },
+        {
+          "label": "tweezers \u00b7 Overview",
+          "path": "publish/github-sim/assets/tweezers/render.png",
+          "sha256": "23ed421d7469d6456244feea983a3ddf702319fa64619d2dea5ab9c4b3e9dad2",
+          "resolution": [
+            3840,
+            3200
+          ]
+        }
+      ]
+    },
+    {
+      "file": "review/stills-detail.jpg",
+      "sha256": "462ff6771571ad30b0aed438b6cfe75e470358ccc207565088cd9e2fc4d7a43f",
+      "resolution": [
+        2800,
+        1268
+      ],
+      "sources": [
+        {
+          "label": "nikon \u00b7 Working area",
+          "path": "publish/github-sim/assets/nikon/detail.png",
+          "sha256": "9d4ce84cdfa8ac1bf3111ec4521fb813a78ef62ba556048a12bc2beb532e960a",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "transfer \u00b7 Working area",
+          "path": "publish/github-sim/assets/transfer/detail.png",
+          "sha256": "011a34efd3aa35dff4ca021025d70c1edd05865058597990433c3c13519d263f",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "probe \u00b7 Working area",
+          "path": "publish/github-sim/assets/probe/detail.png",
+          "sha256": "6490b040f22a10f644703509d7854c5d923cc9411bc73390b4745dff172658d3",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "zeiss \u00b7 Working area",
+          "path": "publish/github-sim/assets/zeiss/detail.png",
+          "sha256": "42446f205359c2d37f413688c0dc4fdf8f1d947074835266afc420d9c90415ca",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "bonder \u00b7 Working area",
+          "path": "publish/github-sim/assets/bonder/detail.png",
+          "sha256": "e8553fd4e244681f9449590cc130cc99e6439a9c9d87fd91a9dde32724afde7b",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "afm \u00b7 Working area",
+          "path": "publish/github-sim/assets/afm/detail.png",
+          "sha256": "3fb31ea91ebe33e1469444cc3c52cdb783568829ff180492edd426c1ac5c1d38",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "tweezers \u00b7 Working area",
+          "path": "publish/github-sim/assets/tweezers/detail.png",
+          "sha256": "c7048a2a6737ed6f9e3fb3a6c0e293fdcf0b43148688e43756a4b79e3f3b7b3c",
+          "resolution": [
+            2560,
+            2160
+          ]
+        }
+      ]
+    },
+    {
+      "file": "review/construction-details.jpg",
+      "sha256": "7cdd2e54a1e7961b3fc8cfb36484cfeb1bc7f0942e0744c59794350ec9544b64",
+      "resolution": [
+        2400,
+        1438
+      ],
+      "sources": [
+        {
+          "label": "Nikon \u00b7 left focus controls",
+          "path": "publish/github-sim/assets/nikon/construction_focus.png",
+          "sha256": "ac6be82dacc06cb76f78876d8caa43c8732d1457623c77256817af93a596409b",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Zeiss \u00b7 stage opening / support",
+          "path": "publish/github-sim/assets/zeiss/construction_stage.png",
+          "sha256": "b17e711fa43d387aa3228aeee3fc8f315aed891e1c26b02581cb9ba51a423865",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Probe \u00b7 slots / control recesses",
+          "path": "publish/github-sim/assets/probe/construction_frame.png",
+          "sha256": "a02063013eb7cd8fd876c3f31dfef39bb2e71667993854e02dd9b39d1c99dca3",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Transfer \u00b7 focus guide clearance",
+          "path": "publish/github-sim/assets/transfer/alignment_focus_guide.png",
+          "sha256": "6e217d72df7bf8c0d5dfbd7247ad9edf39a1f032403d858f8df5e9973d4cf1d5",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Transfer \u00b7 heater supports",
+          "path": "publish/github-sim/assets/transfer/rotation_detail.png",
+          "sha256": "9337b2d6660891efdafc6d8aa1d7ddc2a7a548eb8754dda1a16b2616a78e1908",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Bonder \u00b7 tool and workfield",
+          "path": "publish/github-sim/assets/bonder/alignment_workfield.png",
+          "sha256": "bc94233de1c303617be10be2cdef8ac445eb17461692a099fb00ec7ac84bc6cf",
+          "resolution": [
+            2560,
+            2160
+          ]
+        }
+      ]
+    },
+    {
+      "file": "review/afm-construction.jpg",
+      "sha256": "831e2931edb75dbd079e9b5fff8badcb5b1a068c54a6c498813b6d5f16210d9c",
+      "resolution": [
+        2000,
+        1776
+      ],
+      "sources": [
+        {
+          "label": "Stowed in the door pocket",
+          "path": "publish/github-sim/assets/afm/door_handle_stowed.png",
+          "sha256": "1ace6d507a7df97aa3d83cae26276747df40d45cfe31b009d2e7dc34fb1f7340",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Handle deployed",
+          "path": "publish/github-sim/assets/afm/door_handle_deployed.png",
+          "sha256": "da611369437ab45d3530de0eb1406032c081e90af556ef3746dff51f1488777f",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Open door / pocket",
+          "path": "publish/github-sim/assets/afm/door_handle_pocket_open.png",
+          "sha256": "5a6bd012b7df96f5fae37158c04b68df42b42ce26efd98b30c535ac50aa183c6",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Catch and receiver",
+          "path": "publish/github-sim/assets/afm/door_latch_keeper.png",
+          "sha256": "afe32c33ca9f8069383e691f1f28f196f98358c184bcf70fc0d1f2bbb5601870",
+          "resolution": [
+            2560,
+            2160
+          ]
+        }
+      ]
+    },
+    {
+      "file": "review/afm-alignment.jpg",
+      "sha256": "c5a11b5f5dd24312b220bcf2e977563c16158a7634cc83be723f0e382b1b30ea",
+      "resolution": [
+        2700,
+        804
+      ],
+      "sources": [
+        {
+          "label": "Front \u00b7 centered objective and specimen",
+          "path": "publish/github-sim/assets/afm/optical_alignment_front.png",
+          "sha256": "d0c5fabd1b254e69af998b007a6f07703b95cf5948ee4f1a441cc500c27284c7",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Side \u00b7 objective and cantilever clearance",
+          "path": "publish/github-sim/assets/afm/optical_alignment_side.png",
+          "sha256": "d3df5be39fe2e1c80f37ae575370f8058dfa279bea2ff68770208e03a7d3ad52",
+          "resolution": [
+            2560,
+            2160
+          ]
+        },
+        {
+          "label": "Top \u00b7 optical axis above sample",
+          "path": "publish/github-sim/assets/afm/optical_alignment_top.png",
+          "sha256": "42573524ee1c930f16fa7b113d4a806024d0b869f098235531b0212b4bde6879",
+          "resolution": [
+            2560,
+            2160
+          ]
+        }
+      ]
+    }
+  ]
+}

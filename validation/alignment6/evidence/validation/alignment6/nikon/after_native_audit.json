@@ -1,0 +1,1071 @@
+{
+  "asset": "nikon",
+  "revision": "alignment6",
+  "phase": "after",
+  "xml_sha256": "1015fe7df302e677ea0c665d3b03d454f59d42c2f95e2c394e21fce403fe4172",
+  "geometry_report_sha256": "99e912c725c664e2fa479c1c6aea3724946cddcf3fd5e7a7458f799fd4118402",
+  "script_sha256": "3b3550a8993e937b526d3425cfbedd840243f1d89d81a4b2b9daf470fb5e121b",
+  "axes": [
+    {
+      "station": 0,
+      "vertical_error_deg": 0.0,
+      "axis_xy_error_mm": 3.052537389525156e-09,
+      "seat_mm": [
+        0.0,
+        -61.999999997637985,
+        219.9999999665291
+      ],
+      "tip_mm": [
+        0.0,
+        -61.999999996980875,
+        160.9999999707795
+      ],
+      "sample_mm": [
+        0.0,
+        -62.0,
+        158.0
+      ]
+    },
+    {
+      "station": 1,
+      "vertical_error_deg": 0.0,
+      "axis_xy_error_mm": 2.5729130688872255e-09,
+      "seat_mm": [
+        1.6092439880655007e-09,
+        -62.000000003157446,
+        219.99999996441036
+      ],
+      "tip_mm": [
+        -2.3216879807552715e-09,
+        -62.00000000072803,
+        160.649999968566
+      ],
+      "sample_mm": [
+        0.0,
+        -62.0,
+        158.0
+      ]
+    },
+    {
+      "station": 5,
+      "vertical_error_deg": 0.0,
+      "axis_xy_error_mm": 7.277422909237394e-09,
+      "seat_mm": [
+        -1.2683291916726347e-09,
+        -62.00000000084968,
+        219.99999996529624
+      ],
+      "tip_mm": [
+        -4.038173194610463e-09,
+        -61.99999999677386,
+        176.99999996650678
+      ],
+      "sample_mm": [
+        0.0,
+        -62.0,
+        158.0
+      ]
+    },
+    {
+      "station": 6,
+      "vertical_error_deg": 0.0,
+      "axis_xy_error_mm": 4.542127792991979e-09,
+      "seat_mm": [
+        -1.6092613353002605e-09,
+        -62.000000003157446,
+        219.99999996441036
+      ],
+      "tip_mm": [
+        1.1613335696941069e-09,
+        -61.999999996974644,
+        167.99999996486105
+      ],
+      "sample_mm": [
+        0.0,
+        -62.0,
+        158.0
+      ]
+    }
+  ],
+  "sweep_contact_coverage": [
+    {
+      "station": 0,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Slide spring clip.001",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            15.200000399351127,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 80
+        },
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            6.100000813603401,
+            15.200000399351127,
+            0.6999931520782487
+          ],
+          "triangle_pairs": 57
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Clip pivot socket.001",
+          "aabb_overlap_mm": [
+            1.2600002384599747,
+            1.2600002384599711,
+            0.2800000074785203
+          ],
+          "contained_by": [
+            "Port 1 CFI objective body"
+          ]
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Slide spring clip.001",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            22.100008815527204,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 84
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            11.100001633167267,
+            25.00000037252903,
+            0.6999929844402342
+          ],
+          "triangle_pairs": 65
+        },
+        {
+          "moving": "Port 1 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            2.9000011272728443,
+            8.800000905096528,
+            0.36000055908230744
+          ],
+          "triangle_pairs": 16
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "holder_pivot_1",
+          "b": "objective_0_front_sleeve",
+          "penetration_mm": 0.10000003442615481
+        },
+        {
+          "a": "objective_0_nose",
+          "b": "slide_glass",
+          "penetration_mm": 0.7000000294960105
+        },
+        {
+          "a": "objective_0_nose",
+          "b": "clip_1",
+          "penetration_mm": 2.100000029514606
+        },
+        {
+          "a": "objective_0_front_glass",
+          "b": "slide_glass",
+          "penetration_mm": 0.3999999638889548
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            13.000000268220901,
+            12.000000104308128,
+            0.3000000142492354
+          ],
+          "triangle_pairs": 184
+        },
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            15.200000256299973,
+            15.200000399351127,
+            0.6999931520782487
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            13.000000268220901,
+            12.000000104308128,
+            0.3000000142492354
+          ],
+          "triangle_pairs": 192
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            25.200001895427704,
+            25.00000037252903,
+            0.6999929844402342
+          ],
+          "triangle_pairs": 112
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "objective_0_nose",
+          "b": "slide_glass",
+          "penetration_mm": 0.7000000296200993
+        },
+        {
+          "a": "objective_0_nose",
+          "b": "substrate",
+          "penetration_mm": 1.0000000295965805
+        },
+        {
+          "a": "objective_0_front_glass",
+          "b": "slide_glass",
+          "penetration_mm": 0.39999996380688074
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            15.200000399351127,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 80
+        },
+        {
+          "moving": "Port 1 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            6.100000813603401,
+            15.200000399351127,
+            0.6999931520782487
+          ],
+          "triangle_pairs": 57
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            22.100008815527204,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 84
+        },
+        {
+          "moving": "Port 1 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            11.100001633167267,
+            25.00000037252903,
+            0.6999929844402342
+          ],
+          "triangle_pairs": 65
+        },
+        {
+          "moving": "Port 1 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            2.9000011272728443,
+            8.800000905096528,
+            0.36000055908230744
+          ],
+          "triangle_pairs": 16
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "holder_pivot_-1",
+          "b": "objective_0_front_sleeve",
+          "penetration_mm": 0.1000000344261548
+        },
+        {
+          "a": "objective_0_nose",
+          "b": "slide_glass",
+          "penetration_mm": 0.7000000295641141
+        },
+        {
+          "a": "objective_0_nose",
+          "b": "clip_-1",
+          "penetration_mm": 2.100000029535243
+        },
+        {
+          "a": "objective_0_front_glass",
+          "b": "slide_glass",
+          "penetration_mm": 0.3999999638362114
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.6000091139474,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 142
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 116
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_side1",
+          "penetration_mm": 0.05000002851616937
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_end1",
+          "penetration_mm": 0.050000028863613634
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "carrier_side1",
+          "penetration_mm": 0.31000003714437074
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 89
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Slide spring clip.001",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            15.200003312321208,
+            1.3500190456776084
+          ],
+          "triangle_pairs": 62
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            6.1000023990869785,
+            15.200003312321208,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 108
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Clip pivot rim.001",
+          "aabb_overlap_mm": [
+            2.8000005557811307,
+            2.8000005557811263,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 62
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Clip pivot socket.001",
+          "aabb_overlap_mm": [
+            1.2600002384599747,
+            1.2600002384599711,
+            0.2800000074785203
+          ],
+          "triangle_pairs": 75
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            25.200008612175555,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 102
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Slide spring clip.001",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            22.100002091030206,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 84
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            11.100002399087149,
+            25.00000037252903,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 122
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            2.9000020532310935,
+            8.800002622233745,
+            0.04999417044870835
+          ],
+          "triangle_pairs": 43
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "holder_pivot_1",
+          "b": "objective_1_front_sleeve",
+          "penetration_mm": 0.45000003325092325
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_side1",
+          "penetration_mm": 0.05000002873391702
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "slide_glass",
+          "penetration_mm": 1.0500000288537805
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "clip_1",
+          "penetration_mm": 2.4500000287548067
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "carrier_side1",
+          "penetration_mm": 0.31000003741230336
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "slide_glass",
+          "penetration_mm": 0.04999996259953163
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.600003432134713,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 142
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 116
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_end-1",
+          "penetration_mm": 0.050000028863613634
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_side1",
+          "penetration_mm": 0.05000002882888462
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "carrier_side1",
+          "penetration_mm": 0.3100000375502651
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.6000091139474,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 114
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 98
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_end1",
+          "penetration_mm": 0.050000028390397196
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "carrier_end1",
+          "penetration_mm": 0.3100000374628382
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            13.000000268220901,
+            12.000000104308128,
+            0.3000000142492354
+          ],
+          "triangle_pairs": 168
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 192
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Flake substrate",
+          "aabb_overlap_mm": [
+            13.000000268220901,
+            12.000000104308128,
+            0.3000000142492354
+          ],
+          "triangle_pairs": 168
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            25.00000037252903,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 224
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.04999417044870835
+          ],
+          "triangle_pairs": 96
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "objective_1_nose",
+          "b": "slide_glass",
+          "penetration_mm": 1.0500000283853617
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "substrate",
+          "penetration_mm": 1.350000028474976
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "slide_glass",
+          "penetration_mm": 0.049999962537545815
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        0,
+        27
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.600003432134713,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 114
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 98
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_end-1",
+          "penetration_mm": 0.050000028390397196
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "carrier_end-1",
+          "penetration_mm": 0.3100000374628382
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.6000091139474,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 142
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 116
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_side-1",
+          "penetration_mm": 0.05000002833376143
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_end1",
+          "penetration_mm": 0.050000028360382684
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "carrier_side-1",
+          "penetration_mm": 0.3100000372063619
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 89
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            15.200003312321208,
+            1.3500190456776084
+          ],
+          "triangle_pairs": 62
+        },
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            6.100002506375344,
+            15.200003312321208,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 108
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Clip pivot rim",
+          "aabb_overlap_mm": [
+            2.8000005557811307,
+            2.8000005557811263,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 62
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Clip pivot socket",
+          "aabb_overlap_mm": [
+            1.2600002384599747,
+            1.2600002384599711,
+            0.2800000074785203
+          ],
+          "triangle_pairs": 75
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            25.200008612175555,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 103
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            22.100002091030206,
+            1.4000000664964318
+          ],
+          "triangle_pairs": 84
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            11.100008777529313,
+            25.00000037252903,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 122
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Specimen slide",
+          "aabb_overlap_mm": [
+            2.9000020532310935,
+            8.800002622233745,
+            0.04999417044870835
+          ],
+          "triangle_pairs": 43
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "holder_pivot_-1",
+          "b": "objective_1_front_sleeve",
+          "penetration_mm": 0.4500000332298806
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_side-1",
+          "penetration_mm": 0.05000002890225744
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "slide_glass",
+          "penetration_mm": 1.0500000285515103
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "clip_-1",
+          "penetration_mm": 2.4500000286769863
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "carrier_side-1",
+          "penetration_mm": 0.31000003742489013
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "slide_glass",
+          "penetration_mm": 0.04999996252993286
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        39,
+        27
+      ],
+      "focus_mm": 4,
+      "visual_intersections": [
+        {
+          "moving": "Port 2 black front lens guard",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            15.200003534555494,
+            15.200003312321208,
+            0.04999968809132893
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Port 2 CFI objective body",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            25.200009805709634,
+            24.600003432134713,
+            0.04999959008233912
+          ],
+          "triangle_pairs": 142
+        },
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Inset sample carrier",
+          "aabb_overlap_mm": [
+            8.800002735555358,
+            8.800002622233745,
+            0.31001451473400277
+          ],
+          "triangle_pairs": 116
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_side-1",
+          "penetration_mm": 0.05000002864645534
+        },
+        {
+          "a": "objective_1_nose",
+          "b": "carrier_end-1",
+          "penetration_mm": 0.050000028360382684
+        },
+        {
+          "a": "objective_1_front_glass",
+          "b": "carrier_side-1",
+          "penetration_mm": 0.31000003761225625
+        }
+      ],
+      "has_native_obstacle_contact": true
+    }
+  ],
+  "front_surface_rays": [
+    {
+      "station": 0,
+      "contact_geom": "objective_0_front_glass",
+      "native_contact_surface_z_mm": 160.7399999638433,
+      "visual_front_surface_z_mm": 160.74000874131193
+    },
+    {
+      "station": 1,
+      "contact_geom": "objective_1_front_glass",
+      "native_contact_surface_z_mm": 160.38999996262166,
+      "visual_front_surface_z_mm": 160.38999539502672
+    },
+    {
+      "station": 5,
+      "contact_geom": "objective_5_front_glass",
+      "native_contact_surface_z_mm": 176.73999997149593,
+      "visual_front_surface_z_mm": 176.74001130336092
+    },
+    {
+      "station": 6,
+      "contact_geom": "objective_6_front_glass",
+      "native_contact_surface_z_mm": 167.7399999682525,
+      "visual_front_surface_z_mm": 167.74000769209334
+    }
+  ],
+  "missing_optical_contact_poses": [],
+  "limitations": [
+    "Direct qpos setting is used only to query static geometry at matching configurations; this is not task playback or evidence of dynamic contact stopping.",
+    "Any native contact at a pose is a coarse first-obstacle check; named detailed surfaces require separate ray/witness coverage tests."
+  ]
+}

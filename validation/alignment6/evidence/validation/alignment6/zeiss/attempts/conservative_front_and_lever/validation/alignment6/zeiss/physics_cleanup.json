@@ -1,0 +1,55 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "scope": "Remove only obsolete generic holder contacts; no visual geometry, joint, sample or optical datums changed. The normal builder now performs this same removal before adding the actual concave holder compounds.",
+  "before_xml_sha256": "073bbd1ed7d65ebd31376ddfaa3d0ee20c5ef30f7b38134fa207c1124d9d598e",
+  "xml_sha256": "5640688d8b7728d5ae45e237664dbf3b6d6cda5b25f56e4d01ddae3c9bca629a",
+  "metadata_sha256": "dbd45c63e634a7a9fad9b8943a0742e9003aee4894e475d968e35d067774a88e",
+  "builder_sha256": "2c77f98d4cb88c5cddb207fda3eaa335a3f1c51881d8bd365a11cb5e7f3976de",
+  "removed_geoms": [
+    {
+      "name": "stage_x__Metal_specimen_holder_side_-1",
+      "type": "box",
+      "contype": "18",
+      "conaffinity": "9",
+      "pos": "-0.03825 0 0.0082",
+      "size": "0.01025 0.032 0.0009",
+      "class": "contact"
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_end_-1",
+      "type": "box",
+      "contype": "18",
+      "conaffinity": "9",
+      "pos": "0 -0.02325 0.0082",
+      "size": "0.028 0.00875 0.0009",
+      "class": "contact"
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_side_1",
+      "type": "box",
+      "contype": "18",
+      "conaffinity": "9",
+      "pos": "0.03825 0 0.0082",
+      "size": "0.01025 0.032 0.0009",
+      "class": "contact"
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_end_1",
+      "type": "box",
+      "contype": "18",
+      "conaffinity": "9",
+      "pos": "0 0.02325 0.0082",
+      "size": "0.028 0.00875 0.0009",
+      "class": "contact"
+    }
+  ],
+  "previous_native_source": {
+    "path": "validation/alignment6/zeiss/attempts/stale_generic_holder_proxy/zeiss_upright.xml",
+    "sha256": "073bbd1ed7d65ebd31376ddfaa3d0ee20c5ef30f7b38134fa207c1124d9d598e"
+  },
+  "current_builder": {
+    "path": "003_zeiss/alignment_contacts.py",
+    "sha256": "2c77f98d4cb88c5cddb207fda3eaa335a3f1c51881d8bd365a11cb5e7f3976de"
+  }
+}

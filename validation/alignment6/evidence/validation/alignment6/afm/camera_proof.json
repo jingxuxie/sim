@@ -1,0 +1,111 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "passed": true,
+  "current_blend_sha256": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565",
+  "before_report_sha256": "c80b2e778cc7efd21345f1b290a9dba7834f3c78fb992070c3da53caa4054c28",
+  "after_report_sha256": "250a5aaa2ffe89374ba8b964b6580d46da06bb7ad0ac5d3a92a74b6b23867fa7",
+  "original_camera_source_sha256": "7907c7b0c7c63a3244badb61749f359490522ed498fd55ad3f062e4df602543c",
+  "camera_signature_sha256": "e4df26dc466a91116e2af23ab6c0c9eb6f1177b7d879194f9d7b226b2bf6dc25",
+  "matched_camera_names": [
+    "optical_alignment_front",
+    "optical_alignment_side",
+    "optical_alignment_top"
+  ],
+  "cameras": {
+    "optical_alignment_front": {
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.00800000037997961
+        ],
+        [
+          0.0,
+          0.018746545538306236,
+          -0.9998242855072021,
+          -0.2620562016963959
+        ],
+        [
+          0.0,
+          0.9998242855072021,
+          0.018746545538306236,
+          0.22016353905200958
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.22209523618221283,
+      "fstop": 11.0
+    },
+    "optical_alignment_side": {
+      "matrix_world": [
+        [
+          1.9470718370939721e-07,
+          -0.02478591725230217,
+          0.9996927976608276,
+          0.12910564243793488
+        ],
+        [
+          1.0,
+          -2.681114352753866e-08,
+          -1.9543176676961593e-07,
+          -0.04000002145767212
+        ],
+        [
+          3.16468629080191e-08,
+          0.9996927976608276,
+          0.02478591725230217,
+          0.2190026491880417
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.12114285677671432,
+      "fstop": 11.0
+    },
+    "optical_alignment_top": {
+      "matrix_world": [
+        [
+          0.859535813331604,
+          -0.3267941176891327,
+          0.39294248819351196,
+          0.11107173562049866
+        ],
+        [
+          0.511075496673584,
+          0.5496079921722412,
+          -0.6608576774597168,
+          -0.22180242836475372
+        ],
+        [
+          6.29673877483583e-08,
+          0.7688541412353516,
+          0.639424204826355,
+          0.39174389839172363
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.2826666533946991,
+      "fstop": 11.0
+    }
+  },
+  "method": "Exact matrix, lens, focus-distance and aperture equality for three cameras and exact declared joint-pose equality; source-matched before/after render files are hashed."
+}

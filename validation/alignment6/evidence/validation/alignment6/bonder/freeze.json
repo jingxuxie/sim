@@ -1,0 +1,39 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "frozen": true,
+  "passed": true,
+  "current_artifacts_sha256": {
+    "004_wire_bonder/build.py": "67e61f54406db145f41b2ca87d6fb95799606048b1942ed24d0f43d03f7cc0a4",
+    "004_wire_bonder/hardware_7700.py": "c17932087d0478cc57c0622a4d691ffeefbcfac9b056dbc54dba25da10abde30",
+    "004_wire_bonder/make_heater_texture.py": "ea916532ffabd344f140e5c533306560c797c9223a99536d01d9077a1f06414a",
+    "004_wire_bonder/wire_bonder.blend": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+    "004_wire_bonder/wire_bonder.xml": "e8a626df50db11cd9598e1059ebf72f9246ffad71ef18d3cfc076d10095fc5fc",
+    "004_wire_bonder/asset.json": "55d66a26a4e00b3587ab2c586d0f1d2b26013a55f7afae80ef68d13b2b0b6760",
+    "004_wire_bonder/assets/wire_bonder.glb": "3e08502348bdc774b6e7837e2b4a57278c5ee8262a93271ec3dfa4e77f3b7015",
+    "004_wire_bonder/assets/meshes.json": "ffd4faa84db0598f06e9e49cad1379cb06059a4d1a3cc89c98bd6613a86f5491"
+  },
+  "reports": [
+    {
+      "path": "validation/alignment6/bonder/native_optics.json",
+      "sha256": "511a2d8801a2d66bda51d95ced4291299830335902845aa22bc2027faebd3622"
+    },
+    {
+      "path": "validation/alignment6/bonder/current_optical_mesh.json",
+      "sha256": "6b2b4ce00f3c7d0c49490eee2b35408b7d21bfebdf9fdba998530f0109cbf024"
+    },
+    {
+      "path": "validation/alignment6/bonder/native.json",
+      "sha256": "79ee273622d00b1c87a8f0e0a0bfad57340753fc9d49d004ba3f704ae5675ed9"
+    },
+    {
+      "path": "validation/alignment6/bonder/current.json",
+      "sha256": "f2a144633ec2ffa30b5e0b80568766dd1b8936eb9a8774e84acbe7975ace6b32"
+    },
+    {
+      "path": "validation/alignment6/bonder/portable.json",
+      "sha256": "21e0e23e573eac1c227db471259565c05e94e8b8909f87ada5715c0cf1f19b62"
+    }
+  ],
+  "stills_pending": true
+}

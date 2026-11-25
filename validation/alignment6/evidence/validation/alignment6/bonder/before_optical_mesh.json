@@ -1,0 +1,4948 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "mode": "before",
+  "source_scene_sha256": "90c5f7900f3968247434a3421027417c6b63d4b418a5a467b7f3db51524c9bed",
+  "source_metadata_sha256": "c377e031f755175f827b8d941e33b64842ceb21e00348c4c11c9d3a75de938b3",
+  "script_sha256": "6043350ec14c5a9f831af718a4680e7440ec80326e01525ce576e4830b1a74bd",
+  "alignment": [
+    {
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "sample_center_m": [
+        0.0,
+        -0.10999999940395355,
+        0.09224999696016312
+      ],
+      "intersection_m": [
+        0.0,
+        -0.11000000685453415,
+        0.09224999696016312
+      ],
+      "lateral_error_mm": 7.450580596923828e-06,
+      "tip_home_m": [
+        0.0,
+        -0.11000000685453415,
+        0.09471000730991364
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "pose": {
+        "scope_focus_travel": -0.015
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            47.09625244140625
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 34,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            40.09625315666199
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.009999999999999998
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            38.59622776508331
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 82,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            38.59622776508331
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            52.09624767303467
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 91,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            45.096248388290405
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.004999999999999999
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            43.596237897872925
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            43.596237897872925
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            57.09625780582428
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            50.09625852108002
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 25,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.0
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 28,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 111,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            62.0962530374527
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 40,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 89,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 37,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.005000000000000001
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 135,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            53.59622836112976
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            67.00000166893005
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 60,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 36,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            13.999972492456436
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 32,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 115,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 14,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.010000000000000002
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 131,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            58.59622359275818
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            64.09161910414696
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            18.999967724084854
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 14,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            25.499988347291946
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 126,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.015
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 125,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            59.09162387251854
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 69,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            52.09162458777428
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            23.999962955713272
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            30.499983578920364
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 51,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 117,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            54.091598838567734
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 61,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 62,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            47.09159955382347
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 26,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            28.999987989664078
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 16,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            35.50000861287117
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 104,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            47.09625244140625
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 34,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            40.09625315666199
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            47.09625244140625
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 34,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            40.09625315666199
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            47.09625244140625
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 34,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            40.09625315666199
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            47.09625244140625
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 34,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            40.09625315666199
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            47.09625244140625
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 34,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            40.09625315666199
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            47.09625244140625
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 34,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            40.09625315666199
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            47.09625244140625
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 34,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            40.09625315666199
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": -0.015,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 38,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 74,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            33.596232533454895
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            47.09625244140625
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 34,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            40.09625315666199
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.002"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.002"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.004"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 28,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 111,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            62.0962530374527
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 40,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 89,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 37,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 28,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 111,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            62.0962530374527
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 40,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 89,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 37,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 28,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 111,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            62.0962530374527
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 40,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 89,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 37,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 28,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 111,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            62.0962530374527
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 40,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 89,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 37,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 28,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 111,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            62.0962530374527
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 40,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 89,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 37,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 28,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 111,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            62.0962530374527
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 40,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 89,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 37,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 28,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 111,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            62.0962530374527
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 40,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 89,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 37,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek",
+          "triangle_pairs": 28,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 111,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            48.59623312950134
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            62.0962530374527
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 96,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            53.00000309944153
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 40,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 89,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 24,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 37,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 117,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            54.091598838567734
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 61,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 62,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            47.09159955382347
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 26,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            28.999987989664078
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 16,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            35.50000861287117
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 104,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 117,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            54.091598838567734
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 61,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 62,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            47.09159955382347
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 26,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            28.999987989664078
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 16,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            35.50000861287117
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 104,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 117,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            54.091598838567734
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 61,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 62,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            47.09159955382347
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 26,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            28.999987989664078
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 16,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            35.50000861287117
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 104,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": -0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 117,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            54.091598838567734
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 61,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 62,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            47.09159955382347
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 26,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            28.999987989664078
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 16,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            35.50000861287117
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 104,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 117,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            54.091598838567734
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 61,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 62,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            47.09159955382347
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 26,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            28.999987989664078
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 16,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            35.50000861287117
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 104,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": -0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 117,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            54.091598838567734
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 61,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 62,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            47.09159955382347
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 26,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            28.999987989664078
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 16,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            35.50000861287117
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 104,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": -0.021
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 117,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            54.091598838567734
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 61,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 62,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            47.09159955382347
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 26,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            28.999987989664078
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 16,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            35.50000861287117
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 104,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    },
+    {
+      "pose": {
+        "scope_focus_travel": 0.02,
+        "handle_x_travel": 0.035,
+        "handle_y_travel": 0.015,
+        "handle_z_travel": 0.006
+      },
+      "support_intersections": [
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 117,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            14.385435730218887,
+            60.00000238418579
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail mounting plate",
+          "triangle_pairs": 98,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            69.0000057220459,
+            2.3854365572333336,
+            54.091598838567734
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.001",
+          "triangle_pairs": 61,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 62,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            4.000000189989805,
+            47.09159955382347
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw captive washer.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw captive washer.003"
+          ],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw domed pan head.003",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw domed pan head.003"
+          ],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.006",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.006"
+          ],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "Olympus SZ51 continuously curved head shell",
+          "fixed": "Focus guide screw recess bottom.007",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.007"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "SZ51 cast fork cheek.001",
+          "triangle_pairs": 26,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.500000134110451,
+            10.999996215105057,
+            28.999987989664078
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus dovetail dark running face.001",
+          "triangle_pairs": 16,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            7.000000216066837,
+            2.9999983962625265,
+            35.50000861287117
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw captive washer.002",
+          "triangle_pairs": 94,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            6.719999946653843,
+            0.7000003269887478,
+            6.7199999772518115
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw domed pan head.002",
+          "triangle_pairs": 104,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            5.600000265985727,
+            1.8900002363402142,
+            5.600000265985727
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.004",
+          "triangle_pairs": 22,
+          "contained_surfaces": [],
+          "aabb_overlap_mm": [
+            3.30400001257658,
+            0.03500002755504883,
+            0.6440000142902136
+          ]
+        },
+        {
+          "moving": "SZ51 tapered zoom housing",
+          "fixed": "Focus guide screw recess bottom.005",
+          "triangle_pairs": 0,
+          "contained_surfaces": [
+            "Focus guide screw recess bottom.005"
+          ],
+          "aabb_overlap_mm": [
+            0.6440002610928544,
+            0.035000046913036265,
+            3.3040000585548013
+          ]
+        }
+      ],
+      "work_intersections": []
+    }
+  ],
+  "pupil_visibility": [
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        -20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.061014462262392044,
+        "point_m": [
+          -0.009000000543892384,
+          -0.10999999940395355,
+          0.12498529255390167
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        -12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05657772719860077,
+        "point_m": [
+          -0.006605090573430061,
+          -0.11600848287343979,
+          0.12940245866775513
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        -12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05494978278875351,
+        "point_m": [
+          -0.006692873314023018,
+          -0.10999999940395355,
+          0.13030710816383362
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        -12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05657772719860077,
+        "point_m": [
+          -0.006605090573430061,
+          -0.10399151593446732,
+          0.12940245866775513
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.056401774287223816,
+        "point_m": [
+          -0.0017999992705881596,
+          -0.11600000411272049,
+          0.12935002148151398
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05202719196677208,
+        "point_m": [
+          -0.0016819406300783157,
+          -0.10999999940395355,
+          0.13300000131130219
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.056401848793029785,
+        "point_m": [
+          -0.001800001598894596,
+          -0.10400000959634781,
+          0.129349946975708
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05708694085478783,
+        "point_m": [
+          0.0030000051483511925,
+          -0.11600000411272049,
+          0.12935003638267517
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.0527137815952301,
+        "point_m": [
+          0.003584207035601139,
+          -0.10999999940395355,
+          0.13296234607696533
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.057087015360593796,
+        "point_m": [
+          0.0029999930411577225,
+          -0.10400000959634781,
+          0.1293499618768692
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_1",
+      "pupil_offset_mm": [
+        20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.056138452142477036,
+        "point_m": [
+          0.00648812111467123,
+          -0.10999999940395355,
+          0.13051187992095947
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        -20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05613844841718674,
+        "point_m": [
+          -0.006488122045993805,
+          -0.10999999940395355,
+          0.13051187992095947
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        -12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05708694085478783,
+        "point_m": [
+          -0.0030000051483511925,
+          -0.11600000411272049,
+          0.12935003638267517
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        -12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.0527137815952301,
+        "point_m": [
+          -0.003584207035601139,
+          -0.10999999940395355,
+          0.13296234607696533
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        -12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.057087015360593796,
+        "point_m": [
+          -0.0029999930411577225,
+          -0.10400000959634781,
+          0.1293499618768692
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.056401774287223816,
+        "point_m": [
+          0.0017999992705881596,
+          -0.11600000411272049,
+          0.12935002148151398
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05202719196677208,
+        "point_m": [
+          0.0016819406300783157,
+          -0.10999999940395355,
+          0.13300000131130219
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.056401848793029785,
+        "point_m": [
+          0.001800001598894596,
+          -0.10400000959634781,
+          0.129349946975708
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.056577716022729874,
+        "point_m": [
+          0.006605091504752636,
+          -0.11600848287343979,
+          0.12940247356891632
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05494978278875351,
+        "point_m": [
+          0.006692873314023018,
+          -0.10999999940395355,
+          0.13030710816383362
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05654359608888626,
+        "point_m": [
+          0.006608345080167055,
+          -0.10398609191179276,
+          0.12943600118160248
+        ]
+      }
+    },
+    {
+      "target": "bond_pad_2",
+      "pupil_offset_mm": [
+        20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.061014462262392044,
+        "point_m": [
+          0.009000000543892384,
+          -0.10999999940395355,
+          0.12498529255390167
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        -20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.057018257677555084,
+        "point_m": [
+          -0.007668868638575077,
+          -0.11000000685453415,
+          0.12933111190795898
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        -12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.055386465042829514,
+        "point_m": [
+          -0.004800000693649054,
+          -0.11600000411272049,
+          0.13082601130008698
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        -12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05342688784003258,
+        "point_m": [
+          -0.004961188416928053,
+          -0.11000000685453415,
+          0.13203881680965424
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        -12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05538647994399071,
+        "point_m": [
+          -0.004799998831003904,
+          -0.10400000959634781,
+          0.13082599639892578
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05483601242303848,
+        "point_m": [
+          0.0,
+          -0.11601319164037704,
+          0.1309054046869278
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05199999734759331,
+        "point_m": [
+          0.0,
+          -0.11000000685453415,
+          0.13300000131130219
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.054916515946388245,
+        "point_m": [
+          0.0,
+          -0.10400000959634781,
+          0.13082599639892578
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        12.0,
+        -15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.055386465042829514,
+        "point_m": [
+          0.004800000693649054,
+          -0.11600000411272049,
+          0.13082601130008698
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        12.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.053426891565322876,
+        "point_m": [
+          0.004961187951266766,
+          -0.11000000685453415,
+          0.13203880190849304
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        12.0,
+        15.0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.05538647994399071,
+        "point_m": [
+          0.004799998831003904,
+          -0.10400000959634781,
+          0.13082599639892578
+        ]
+      }
+    },
+    {
+      "target": "bond_tip",
+      "pupil_offset_mm": [
+        20.0,
+        0
+      ],
+      "blocked": true,
+      "first": {
+        "object": "Angled front tool collet",
+        "distance_m": 0.057018257677555084,
+        "point_m": [
+          0.007668868638575077,
+          -0.11000000685453415,
+          0.12933111190795898
+        ]
+      }
+    }
+  ],
+  "audited_objects": {
+    "optical": [
+      "Olympus SZ51 continuously curved head shell",
+      "SZ51 tapered zoom housing",
+      "Shared oval ocular socket",
+      "SZ51 upper cover parting seam",
+      "SZ51 left lower shell seam",
+      "SZ51 right lower shell seam",
+      "Ocular swivel bearing",
+      "SZ51 ocular barrel",
+      "Ocular diopter graduated collar",
+      "Ocular diopter fine knurl",
+      "Scale index.036",
+      "Scale index.037",
+      "Scale index.038",
+      "Scale index.039",
+      "Scale index.040",
+      "Scale index.041",
+      "Scale index.042",
+      "Scale index.043",
+      "Scale index.044",
+      "Scale index.045",
+      "Scale index.046",
+      "Scale index.047",
+      "Scale index.048",
+      "Scale index.049",
+      "Scale index.050",
+      "Scale index.051",
+      "Scale index.052",
+      "Scale index.053",
+      "Scale index.054",
+      "Scale index.055",
+      "Scale index.056",
+      "Scale index.057",
+      "Scale index.058",
+      "Scale index.059",
+      "Scale index.060",
+      "Scale index.061",
+      "Scale index.062",
+      "Scale index.063",
+      "Scale index.064",
+      "Scale index.065",
+      "Scale index.066",
+      "Scale index.067",
+      "Scale index.068",
+      "Scale index.069",
+      "Scale index.070",
+      "Scale index.071",
+      "Scale index.072",
+      "Scale index.073",
+      "Scale index.074",
+      "Scale index.075",
+      "SZ51 rubber eye guard",
+      "Ocular internal black well",
+      "SZ51 recessed convex ocular lens",
+      "Ocular swivel bearing.001",
+      "SZ51 ocular barrel.001",
+      "Ocular diopter graduated collar.001",
+      "Ocular diopter fine knurl.001",
+      "Scale index.076",
+      "Scale index.077",
+      "Scale index.078",
+      "Scale index.079",
+      "Scale index.080",
+      "Scale index.081",
+      "Scale index.082",
+      "Scale index.083",
+      "Scale index.084",
+      "Scale index.085",
+      "Scale index.086",
+      "Scale index.087",
+      "Scale index.088",
+      "Scale index.089",
+      "Scale index.090",
+      "Scale index.091",
+      "Scale index.092",
+      "Scale index.093",
+      "Scale index.094",
+      "Scale index.095",
+      "Scale index.096",
+      "Scale index.097",
+      "Scale index.098",
+      "Scale index.099",
+      "Scale index.100",
+      "Scale index.101",
+      "Scale index.102",
+      "Scale index.103",
+      "Scale index.104",
+      "Scale index.105",
+      "Scale index.106",
+      "Scale index.107",
+      "Scale index.108",
+      "Scale index.109",
+      "Scale index.110",
+      "Scale index.111",
+      "Scale index.112",
+      "Scale index.113",
+      "Scale index.114",
+      "Scale index.115",
+      "SZ51 rubber eye guard.001",
+      "Ocular internal black well.001",
+      "SZ51 recessed convex ocular lens.001",
+      "Olympus maker",
+      "Olympus model",
+      "Zoom shaft mounting boss",
+      "SZ51 zoom scalloped drum",
+      "Zoom recessed end disc",
+      "Zoom zero index screw",
+      "Fixed zoom index pointer",
+      "Zoom shaft mounting boss.001",
+      "SZ51 zoom scalloped drum.001",
+      "Zoom recessed end disc.001",
+      "Zoom zero index screw.001",
+      "Fixed zoom index pointer.001",
+      "Stereo objective lower sleeve",
+      "Lamp clamp steel collar",
+      "Olympus ring illuminator body",
+      "Ring illuminator chrome lip",
+      "Continuous optical diffuser",
+      "Illuminator clamp thumbscrew",
+      "Illuminator clamp thumbscrew.001",
+      "Illuminator clamp thumbscrew.002",
+      "Stereo objective black internal stop",
+      "Stereo objective convex front glass"
+    ],
+    "supports": [
+      "Microscope rear pedestal",
+      "Focus mounting foot",
+      "SZ51 cast fork cheek",
+      "SZ51 cast fork cheek.001",
+      "Focus carriage upper bridge",
+      "Focus dovetail mounting plate",
+      "Focus dovetail dark running face",
+      "Focus guide screw captive washer",
+      "Focus guide screw domed pan head",
+      "Focus guide screw recess bottom",
+      "Focus guide screw recess bottom.001",
+      "Focus guide screw captive washer.001",
+      "Focus guide screw domed pan head.001",
+      "Focus guide screw recess bottom.002",
+      "Focus guide screw recess bottom.003",
+      "Focus dovetail dark running face.001",
+      "Focus guide screw captive washer.002",
+      "Focus guide screw domed pan head.002",
+      "Focus guide screw recess bottom.004",
+      "Focus guide screw recess bottom.005",
+      "Focus guide screw captive washer.003",
+      "Focus guide screw domed pan head.003",
+      "Focus guide screw recess bottom.006",
+      "Focus guide screw recess bottom.007"
+    ],
+    "work": [
+      "Head rear cross slide",
+      "Head suspension bridge",
+      "Head upper polished tie rod",
+      "Head lower ground guide shaft",
+      "Head flanged pivot bearing",
+      "Head pivot axle",
+      "Head pivot pan screw captive washer",
+      "Head pivot pan screw domed pan head",
+      "Head pivot pan screw recess bottom",
+      "Head pivot pan screw recess bottom.001",
+      "Head flanged pivot bearing.001",
+      "Head pivot axle.001",
+      "Head pivot pan screw captive washer.001",
+      "Head pivot pan screw domed pan head.001",
+      "Head pivot pan screw recess bottom.002",
+      "Head pivot pan screw recess bottom.003",
+      "Shaped front pivot cheek",
+      "Rear pivot upright",
+      "Head upper polished tie rod.001",
+      "Head lower ground guide shaft.001",
+      "Head flanged pivot bearing.002",
+      "Head pivot axle.002",
+      "Head pivot pan screw captive washer.002",
+      "Head pivot pan screw domed pan head.002",
+      "Head pivot pan screw recess bottom.004",
+      "Head pivot pan screw recess bottom.005",
+      "Head flanged pivot bearing.003",
+      "Head pivot axle.003",
+      "Head pivot pan screw captive washer.003",
+      "Head pivot pan screw domed pan head.003",
+      "Head pivot pan screw recess bottom.006",
+      "Head pivot pan screw recess bottom.007",
+      "Shaped front pivot cheek.001",
+      "Rear pivot upright.001",
+      "Machined asymmetric tool-head frame",
+      "Front yoke stop lug",
+      "Ultrasonic transducer",
+      "Transducer ceramic stack",
+      "Transducer tension collar",
+      "Transducer clamp through bolt",
+      "Transducer clamp through bolt.001",
+      "Angled front tool collet",
+      "Tool collet clamp socket head",
+      "Tool collet clamp socket hex recess",
+      "Tool collet cap",
+      "Vertical bond tool shank",
+      "Silver tapered bonding wedge",
+      "Wedge foot",
+      "Wire clamp actuator casing",
+      "Wire clamp ceramic spacer",
+      "Wire clamp tapered jaw",
+      "Wire-clamp hinge pin",
+      "Wire clamp tapered jaw.001",
+      "Wire-clamp hinge pin.001",
+      "Clamp force adjusting screw root",
+      "Clamp force adjusting screw helical thread",
+      "Clamp screw knurled head",
+      "Ceramic wire feed eye",
+      "White head service sleeve",
+      "Service tube metal gland",
+      "Service tube metal gland.001",
+      "Fine bonding wire",
+      "Coiled radiant-tool heater",
+      "Tool heater return",
+      "Sloped spool support bracket",
+      "Spool support axle bearing",
+      "Spool spindle",
+      "Spool stepped core",
+      "Fine aluminium wire winding",
+      "Satin metal spool cheek flange",
+      "Spool flange rolled lip",
+      "Spool metal hub bush",
+      "Satin metal spool cheek flange.001",
+      "Spool flange rolled lip.001",
+      "Spool metal hub bush.001",
+      "Exposed spool spindle root",
+      "Exposed spool spindle helical thread",
+      "Spool knurled retaining nut",
+      "Spool spindle centre bore counterbore",
+      "Spool spindle centre bore bore",
+      "Spool tension spring washer",
+      "Wire guide sapphire eye",
+      "Wire-guide adjustable leaf",
+      "Wire from spool to clamp",
+      "Heater ceramic pedestal",
+      "Granular heater insulation",
+      "Folded heater liner",
+      "Folded heater liner rolled lip",
+      "Workholder metal platen",
+      "Workholder slotted spring clamp"
+    ]
+  },
+  "limitations": [
+    "Photographic registration and geometric visibility are not optical calibration.",
+    "Triangle intersections and sampled containment are reported before any intentional bearing-fit classification.",
+    "Transfer poses are source geometry requests, not force-limited MuJoCo equilibria; protected surface contact is classified separately."
+  ]
+}

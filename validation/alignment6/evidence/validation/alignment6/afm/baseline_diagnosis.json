@@ -1,0 +1,325 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "baseline_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "objective_xy_mm": [
+    0,
+    -26
+  ],
+  "sample_xy_mm": [
+    8,
+    -40
+  ],
+  "xy_offset_mm": 16.1245154965971,
+  "chip_xy_mm": [
+    2,
+    -32
+  ],
+  "beam_tip_xy_mm": [
+    4.225,
+    -32
+  ],
+  "samples": [
+    {
+      "cantilever_lift_rad": 0,
+      "intersections": [
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever holder fixing head.001",
+          "triangle_pairs": 40
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever holder fixing hex recess.001",
+          "triangle_pairs": 6
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder fixing washer.001",
+          "triangle_pairs": 34
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever clamp screw",
+          "triangle_pairs": 26
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever red release marker",
+          "triangle_pairs": 35
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever clamp machined upper plate",
+          "triangle_pairs": 44
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever fork nose",
+          "triangle_pairs": 24
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder side cam knurled thumb screw",
+          "triangle_pairs": 28
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder side cam washer",
+          "triangle_pairs": 18
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder side cam bearing",
+          "triangle_pairs": 25
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Cantilever clamp screw",
+          "triangle_pairs": 45
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Cantilever red release marker",
+          "triangle_pairs": 20
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Cantilever clamp machined upper plate",
+          "triangle_pairs": 27
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Holder side cam knurled thumb screw",
+          "triangle_pairs": 22
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Holder side cam washer",
+          "triangle_pairs": 20
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Holder side cam bearing",
+          "triangle_pairs": 23
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Cantilever holder fixing head.001",
+          "triangle_pairs": 80
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Holder fixing washer.001",
+          "triangle_pairs": 52
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Cantilever red release marker",
+          "triangle_pairs": 24
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Cantilever clamp machined upper plate",
+          "triangle_pairs": 42
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Cantilever fork nose",
+          "triangle_pairs": 52
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Holder side cam knurled thumb screw",
+          "triangle_pairs": 24
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Holder side cam washer",
+          "triangle_pairs": 78
+        }
+      ]
+    },
+    {
+      "cantilever_lift_rad": 0.55,
+      "intersections": [
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever carrier",
+          "triangle_pairs": 45
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever holder fixing head.001",
+          "triangle_pairs": 23
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder fixing washer.001",
+          "triangle_pairs": 70
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever clamp screw",
+          "triangle_pairs": 20
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever latch spring",
+          "triangle_pairs": 28
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Probe holder tab",
+          "triangle_pairs": 35
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever clamp machined upper plate",
+          "triangle_pairs": 48
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever fork nose",
+          "triangle_pairs": 94
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Cantilever fork precision ledge.001",
+          "triangle_pairs": 36
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder side cam knurled thumb screw",
+          "triangle_pairs": 50
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder side cam washer",
+          "triangle_pairs": 46
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder side cam bearing",
+          "triangle_pairs": 28
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder layered split line",
+          "triangle_pairs": 24
+        },
+        {
+          "objective": "Downward inspection objective",
+          "holder": "Holder layered split line.001",
+          "triangle_pairs": 26
+        },
+        {
+          "objective": "Inspection objective adjustment",
+          "holder": "Cantilever carrier",
+          "triangle_pairs": 36
+        },
+        {
+          "objective": "Inspection objective adjustment",
+          "holder": "Cantilever holder fixing head.001",
+          "triangle_pairs": 20
+        },
+        {
+          "objective": "Inspection objective adjustment",
+          "holder": "Holder fixing washer.001",
+          "triangle_pairs": 86
+        },
+        {
+          "objective": "Inspection objective adjustment",
+          "holder": "Cantilever latch spring",
+          "triangle_pairs": 32
+        },
+        {
+          "objective": "Inspection objective adjustment",
+          "holder": "Cantilever red release marker",
+          "triangle_pairs": 22
+        },
+        {
+          "objective": "Inspection objective adjustment",
+          "holder": "Cantilever clamp machined upper plate",
+          "triangle_pairs": 54
+        },
+        {
+          "objective": "Inspection objective adjustment",
+          "holder": "Cantilever fork nose",
+          "triangle_pairs": 73
+        },
+        {
+          "objective": "Inspection objective adjustment",
+          "holder": "Holder layered split line",
+          "triangle_pairs": 28
+        },
+        {
+          "objective": "Inspection objective adjustment",
+          "holder": "Holder layered split line.001",
+          "triangle_pairs": 24
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Cantilever carrier",
+          "triangle_pairs": 18
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Cantilever clamp screw",
+          "triangle_pairs": 10
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Probe holder tab",
+          "triangle_pairs": 42
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Silicon cantilever chip",
+          "triangle_pairs": 24
+        },
+        {
+          "objective": "Objective front coating",
+          "holder": "Holder side cam knurled thumb screw",
+          "triangle_pairs": 18
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Cantilever carrier",
+          "triangle_pairs": 43
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Probe holder tab",
+          "triangle_pairs": 42
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Cantilever clamp machined upper plate",
+          "triangle_pairs": 29
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Cantilever fork nose",
+          "triangle_pairs": 74
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Holder side cam knurled thumb screw",
+          "triangle_pairs": 16
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Holder side cam washer",
+          "triangle_pairs": 43
+        },
+        {
+          "objective": "Objective green identification ring",
+          "holder": "Holder side cam bearing",
+          "triangle_pairs": 41
+        }
+      ]
+    }
+  ],
+  "scope": "Actual evaluated source triangles; baseline diagnostic, not a passing acceptance report."
+}

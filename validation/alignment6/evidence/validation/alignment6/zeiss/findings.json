@@ -1,0 +1,15 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "raw_reference_media_published": false,
+  "reference_photo_ids": [
+    257,
+    258,
+    261,
+    262
+  ],
+  "observed": "The asymmetric plate and curved retaining arm flank a glass slide over an open longitudinal stage aperture.",
+  "inferred": "A 1.4 mm lower plate is used to support the unchanged slide underside from the existing stage top; the dimensions and clamp/pivot details remain estimates.",
+  "measured_before": "The plate intersected the glass by 0.6 mm while floating above the deck. Eleven sampled detailed holder collisions lacked native obstacle contact.",
+  "corrected": "Plate, screws and pivot stem now seat on their supports. Concave holder/arm footprints use individual convex compounds, with the old generic ring removed so it cannot produce invisible early contact."
+}

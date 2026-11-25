@@ -1,0 +1,662 @@
+{
+  "asset": "probe",
+  "revision": "alignment6",
+  "phase": "before",
+  "xml_sha256": "c1c2fcdbe89655cb44a9ca773d429a8441fc136e888d4ff4acc3a5910fc4906a",
+  "geometry_report_sha256": "8b16cd189ef8f60096a27dd3918ab0d3611f444848d73dfcfad8803c93c2175e",
+  "script_sha256": "3b3550a8993e937b526d3425cfbedd840243f1d89d81a4b2b9daf470fb5e121b",
+  "axes": [
+    {
+      "station": 0,
+      "vertical_error_deg": 0.0,
+      "axis_xy_error_mm": 0.0,
+      "seat_mm": [
+        0.0,
+        -28.0,
+        254.0
+      ],
+      "tip_mm": [
+        0.0,
+        -28.0,
+        192.0
+      ],
+      "sample_mm": [
+        0.0,
+        -28.0,
+        170.25
+      ]
+    }
+  ],
+  "sweep_contact_coverage": [
+    {
+      "station": 0,
+      "xy_mm": [
+        -12.5,
+        -12.5
+      ],
+      "focus_mm": -20,
+      "visual_intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.190534602048635
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818185
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.1905346020486278
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818152
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        -12.5,
+        0
+      ],
+      "focus_mm": -20,
+      "visual_intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.190534602048635
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818185
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.1905346020486278
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818152
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        -12.5,
+        12.5
+      ],
+      "focus_mm": -20,
+      "visual_intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact_2",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact_2",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact_2",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact_2",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact_2",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.190534602048635
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818185
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.1905346020486278
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818152
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        0,
+        -12.5
+      ],
+      "focus_mm": -20,
+      "visual_intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.190534602048635
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818185
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.1905346020486278
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818152
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -20,
+      "visual_intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.190534602048635
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818185
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.1905346020486278
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818152
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        0,
+        12.5
+      ],
+      "focus_mm": -20,
+      "visual_intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.190534602048635
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818185
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.1905346020486278
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818152
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        12.5,
+        -12.5
+      ],
+      "focus_mm": -20,
+      "visual_intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.190534602048635
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818185
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.1905346020486278
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818152
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        12.5,
+        0
+      ],
+      "focus_mm": -20,
+      "visual_intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.190534602048635
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818185
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.1905346020486278
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818152
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        }
+      ],
+      "has_native_obstacle_contact": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        12.5,
+        12.5
+      ],
+      "focus_mm": -20,
+      "visual_intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ],
+      "native_contacts": [
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "optic_focus__Objective_front_aperture",
+          "b": "chuck_theta__Chip_clamp_screw_head_contact",
+          "penetration_mm": 0.05000000000002225
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.190534602048635
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818185
+        },
+        {
+          "a": "left_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_forebody",
+          "penetration_mm": 1.1905346020486278
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_end_shoulder",
+          "penetration_mm": 1.1690708097818152
+        },
+        {
+          "a": "right_z__Probe_shank",
+          "b": "optic_focus__Objective_front_aperture",
+          "penetration_mm": 0.38026813823699895
+        }
+      ],
+      "has_native_obstacle_contact": true
+    }
+  ],
+  "front_surface_rays": [
+    {
+      "station": 0,
+      "contact_geom": "optic_focus__Objective_front_glass",
+      "native_contact_surface_z_mm": 191.54999999999998,
+      "visual_front_surface_z_mm": 191.5499811922414
+    }
+  ],
+  "missing_optical_contact_poses": [],
+  "limitations": [
+    "Direct qpos setting is used only to query static geometry at matching configurations; this is not task playback or evidence of dynamic contact stopping.",
+    "Any native contact at a pose is a coarse first-obstacle check; named detailed surfaces require separate ray/witness coverage tests."
+  ]
+}

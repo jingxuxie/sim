@@ -1,0 +1,122 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565",
+  "inspection_joint_positions": {
+    "door_latch_angle": 1.5707963267948966,
+    "door_angle": -1.5
+  },
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "door_handle_pocket_open",
+    "door_latch_keeper"
+  ],
+  "renders": [
+    {
+      "file": "door_handle_pocket_open.png",
+      "camera": "door_handle_pocket_open",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "727cf5b6f75351fd27e2f5d75f8bcfc18c19e00ecd1463e461029d321e99bf80"
+    },
+    {
+      "file": "door_latch_keeper.png",
+      "camera": "door_latch_keeper",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "04468a2421d3801678c6a0dffade021dd1d2661d63c4dc3f635ef2cbf3250fcb"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [
+    {
+      "body": "door_latch",
+      "joint": "door_latch_angle",
+      "angle_rad": 1.5707963267948966,
+      "maximum_rotation_matrix_error": 3.552713678800501e-15
+    },
+    {
+      "body": "door",
+      "joint": "door_angle",
+      "angle_rad": -1.5,
+      "maximum_rotation_matrix_error": 0.0
+    }
+  ],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995",
+  "cameras": {
+    "door_handle_pocket_open": {
+      "matrix_world": [
+        [
+          0.9411946535110474,
+          -0.12607944011688232,
+          0.3134591281414032,
+          -0.006764441728591919
+        ],
+        [
+          0.33786484599113464,
+          0.3512212038040161,
+          -0.8732073307037354,
+          -0.8568704128265381
+        ],
+        [
+          -1.2649513436713278e-08,
+          0.9277648329734802,
+          0.3731653392314911,
+          0.3857564926147461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.44419047236442566,
+      "fstop": 11.0
+    },
+    "door_latch_keeper": {
+      "matrix_world": [
+        [
+          0.8216657042503357,
+          -0.13148453831672668,
+          0.5545965433120728,
+          0.30576595664024353
+        ],
+        [
+          0.5699697732925415,
+          0.1895473152399063,
+          -0.7995038032531738,
+          -0.36999306082725525
+        ],
+        [
+          1.0387048376969688e-07,
+          0.9730280637741089,
+          0.2306867390871048,
+          0.31920748949050903
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 60.0,
+      "focus_distance_m": 0.2826666533946991,
+      "fstop": 11.0
+    }
+  },
+  "alignment_wrapper_sha256": "179c1378f8a19f72d493fde62327a79656d03cbdb241be089cd83c75206f3f43"
+}

@@ -1,0 +1,553 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "script_sha256": "4ecee057d6a939c15b466ec94ac11f48e877a3b978d7f5bcfd49275b067cd2d1",
+  "source_sha256": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+  "xml_sha256": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+  "builders": {
+    "003_zeiss/build.py": "fc84a995135221b4bfee570a4c71cdf4b16752bf72e4db80b465ca3ff6e636cb",
+    "003_zeiss/reference_geometry.py": "726b5de841f302cd2ff4d4b088ddb435d979980b10f666184397026493522a1e",
+    "003_zeiss/alignment_contacts.py": "19c250ffb1f0060e4417ca2ed108d9581e9d0b806287974d21b9ecebb7061c19"
+  },
+  "method": "Run the normal procedural build in Blender, intercepting only final artifact export. Compare all regenerated inline contact vertices and relevant collision dictionaries with frozen native XML/metadata; assert every model artifact remains byte-identical.",
+  "mesh_comparisons": [
+    {
+      "mesh": "alignment6_objective_front_shoulder_20",
+      "vertices": 336,
+      "maximum_vertex_error_mm": 4.994962776727618e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_objective_front_shoulder_50",
+      "vertices": 336,
+      "maximum_vertex_error_mm": 4.980932333253918e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_objective_front_shoulder_5",
+      "vertices": 336,
+      "maximum_vertex_error_mm": 4.9960695303052916e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_objective_front_shoulder_10",
+      "vertices": 336,
+      "maximum_vertex_error_mm": 4.987871227157825e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_objective_front_shoulder_100",
+      "vertices": 336,
+      "maximum_vertex_error_mm": 4.995420743725276e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_0",
+      "vertices": 76,
+      "maximum_vertex_error_mm": 4.863283387113171e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_1",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 2.6855496992883587e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_2",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 2.6855496992883587e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_3",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 2.6855496992883587e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_4",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 2.6855496992883587e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_5",
+      "vertices": 8,
+      "maximum_vertex_error_mm": 2.6855496992883587e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_6",
+      "vertices": 22,
+      "maximum_vertex_error_mm": 4.667974340399894e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_7",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 2.6855462298414068e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_8",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 2.6855462298414068e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_fixed_specimen_holder_9",
+      "vertices": 38,
+      "maximum_vertex_error_mm": 4.257812852292986e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_0",
+      "vertices": 58,
+      "maximum_vertex_error_mm": 4.970704403639559e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_1",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.9414014546833585e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_2",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.9414014546833585e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_3",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.9414014546833585e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_4",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.99511716711698e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_5",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.99511716711698e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_6",
+      "vertices": 8,
+      "maximum_vertex_error_mm": 4.9414014546833585e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_7",
+      "vertices": 8,
+      "maximum_vertex_error_mm": 4.8535168939434215e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_8",
+      "vertices": 8,
+      "maximum_vertex_error_mm": 4.912105444621062e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_9",
+      "vertices": 18,
+      "maximum_vertex_error_mm": 4.912105444621062e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_10",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 3.950196073021495e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_11",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 3.950196073021495e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_12",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 3.950196073021495e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_13",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 3.950196073021495e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_14",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.042974288687162e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_15",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.042974288687162e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_16",
+      "vertices": 8,
+      "maximum_vertex_error_mm": 4.8120119000572e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_17",
+      "vertices": 8,
+      "maximum_vertex_error_mm": 4.8120119000572e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_18",
+      "vertices": 20,
+      "maximum_vertex_error_mm": 4.829102395742524e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_19",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.179687845828894e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_20",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.179687845828894e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_21",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.179687845828894e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_22",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.179687845828894e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_23",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.179687845828894e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_24",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.179687845828894e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_25",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.179687845828894e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_26",
+      "vertices": 6,
+      "maximum_vertex_error_mm": 4.179687845828894e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_curved_retaining_arm_27",
+      "vertices": 56,
+      "maximum_vertex_error_mm": 4.912112383514966e-09,
+      "passed": true
+    },
+    {
+      "mesh": "alignment6_specimen_thumb_lever",
+      "vertices": 216,
+      "maximum_vertex_error_mm": 4.985803436774461e-09,
+      "passed": true
+    }
+  ],
+  "collision_comparisons": [
+    {
+      "body": "turret",
+      "name": "Objective front shoulder 20",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front reveal 20",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front aperture 20",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front shoulder 50",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front reveal 50",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front aperture 50",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front shoulder 5",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front reveal 5",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front aperture 5",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front shoulder 10",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front reveal 10",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front aperture 10",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front shoulder 100",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front reveal 100",
+      "passed": true
+    },
+    {
+      "body": "turret",
+      "name": "Objective front aperture 100",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 0",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 1",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 2",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 3",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 4",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 5",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 6",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 7",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 8",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Fixed specimen holder piece 9",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 0",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 1",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 2",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 3",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 4",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 5",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 6",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 7",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 8",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 9",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 10",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 11",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 12",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 13",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 14",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 15",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 16",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 17",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 18",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 19",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 20",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 21",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 22",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 23",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 24",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 25",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 26",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Curved retaining arm piece 27",
+      "passed": true
+    },
+    {
+      "body": "stage_x",
+      "name": "Specimen thumb lever contact",
+      "passed": true
+    }
+  ],
+  "model_artifacts_unchanged": true,
+  "passed": true
+}

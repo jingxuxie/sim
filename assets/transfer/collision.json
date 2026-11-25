@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "f3f675f0b935c99edc3ffc75fe50659b8b0da48cb540b716da8ccf3ac1c8815e",
+  "physics_sha256": "b1539fa009cc40c30ca32b13a8ce6d293554209d898e3aaffb34aeb512c464ff",
   "shapes": [
     {
       "name": "base__Optical_breadboard",
@@ -109,6 +109,64 @@
         0.058,
         0.0235,
         0.0995
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Motic_fixed_focus_guide_rail",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.157,
+        0.09,
+        0.37
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.004,
+        0.0035,
+        0.0825
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Motic_fixed_focus_guide_rail_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.053,
+        0.09,
+        0.37
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.004,
+        0.0035,
+        0.0825
       ],
       "friction": [
         0.8,
@@ -850,7 +908,7 @@
       "type": "box",
       "pos": [
         0.0,
-        0.053,
+        0.036,
         0.005
       ],
       "quat": [
@@ -860,8 +918,8 @@
         0.0
       ],
       "size": [
-        0.054,
-        0.031,
+        0.047,
+        0.01,
         0.052
       ],
       "friction": [
@@ -2284,6 +2342,122 @@
         0.0215,
         0.0195,
         0.007
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Heater_clamp_washer",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        -0.017,
+        0.0,
+        0.0487
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0045,
+        0.0006,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Heater_knurled_clamp_screw",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        -0.017,
+        0.0,
+        0.0515
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0037,
+        0.0025,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Heater_clamp_washer_2",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        0.017,
+        0.0,
+        0.0487
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0045,
+        0.0006,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Heater_knurled_clamp_screw_2",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        0.017,
+        0.0,
+        0.0515
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0037,
+        0.0025,
+        0.0
       ],
       "friction": [
         0.8,

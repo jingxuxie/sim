@@ -1,0 +1,33 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "passed": true,
+  "source_sha256": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+  "xml_sha256": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+  "script_sha256": "cc403da7c99153e3f706a4bfb92d86c64f942b366ea9967fe25f2b2bf63701a7",
+  "input_artifact_hashes": {
+    "zeiss_upright.xml": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+    "asset.json": "960f193e7fb7f28b630ee242b9865095223fe8d1155724143524cc4025000d9a"
+  },
+  "after": {
+    "003_zeiss/zeiss_upright.xml": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+    "003_zeiss/asset.json": "960f193e7fb7f28b630ee242b9865095223fe8d1155724143524cc4025000d9a"
+  },
+  "unchanged_visual_assets": {
+    "003_zeiss/zeiss_upright.blend": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+    "003_zeiss/assets/zeiss_upright.glb": "24ec06242e7917269f5f1fec2942c9b31b6ea137c8a072038a458d9e675a5a24"
+  },
+  "contact_mesh_vertices": {
+    "alignment6_objective_front_shoulder_20": 336,
+    "alignment6_objective_front_shoulder_50": 336,
+    "alignment6_objective_front_shoulder_5": 336,
+    "alignment6_objective_front_shoulder_10": 336,
+    "alignment6_objective_front_shoulder_100": 336,
+    "alignment6_specimen_thumb_lever": 216
+  },
+  "changes": [
+    "Replaced the projecting thumb-lever box with the convex hull of its evaluated beveled surface.",
+    "Replaced each full-radius front-shoulder cylinder with its actual 112-sided cylindrical/tapered profile.",
+    "Added separate narrow front-aperture and machined-reveal contacts. Existing shoulder/lever names and all mechanism datums are unchanged."
+  ]
+}

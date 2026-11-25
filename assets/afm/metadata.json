@@ -1460,17 +1460,225 @@
           ]
         },
         {
-          "name": "Probe holder tab",
+          "name": "Chip support root",
           "type": "box",
           "pos_mm": [
-            15,
-            -17,
-            4
+            9,
+            -18,
+            3.8
           ],
           "size_mm": [
-            10.0,
-            4.0,
+            4,
+            8,
+            1.35
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Chip support extension",
+          "type": "box",
+          "pos_mm": [
+            21.5,
+            -23,
+            3.8
+          ],
+          "size_mm": [
+            8.5,
+            3,
+            1.35
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Clamp upper contact",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -4,
+            13
+          ],
+          "size_mm": [
+            13.5,
+            14.5,
             1.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Pogo block contact",
+          "type": "box",
+          "pos_mm": [
+            0,
+            7,
+            19
+          ],
+          "size_mm": [
+            12,
+            4.5,
+            3.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Pogo pin envelope",
+          "type": "box",
+          "pos_mm": [
+            0,
+            7,
+            24
+          ],
+          "size_mm": [
+            10.65,
+            0.65,
+            2
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Holder brace contact",
+          "type": "box",
+          "pos_mm": [
+            0,
+            10.5,
+            19
+          ],
+          "size_mm": [
+            13,
+            1,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Chip contact",
+          "type": "box",
+          "pos_mm": [
+            31.05,
+            -25,
+            2.3
+          ],
+          "size_mm": [
+            1.7,
+            0.8,
+            0.15
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Holder side screw contact",
+          "type": "cylinder",
+          "pos_mm": [
+            15,
+            -4,
+            12
+          ],
+          "size_mm": [
+            4.3,
+            2.5
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Holder fork left contact",
+          "type": "box",
+          "pos_mm": [
+            -9.25,
+            -19.3,
+            9
+          ],
+          "size_mm": [
+            2.75,
+            1.75,
+            5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Holder fork right contact",
+          "type": "box",
+          "pos_mm": [
+            9.25,
+            -19.3,
+            9
+          ],
+          "size_mm": [
+            2.75,
+            1.75,
+            5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Holder fork upper contact",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -19.3,
+            12.775
+          ],
+          "size_mm": [
+            6.5,
+            1.75,
+            1.225
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Holder fork lower contact",
+          "type": "box",
+          "pos_mm": [
+            0,
+            -19.3,
+            5.225
+          ],
+          "size_mm": [
+            6.5,
+            1.75,
+            1.225
           ],
           "axis": [
             0,
@@ -1482,9 +1690,16 @@
       "sites": {
         "cantilever_mount": {
           "pos_mm": [
-            27,
-            -17,
-            2.2
+            31.05,
+            -25,
+            2.3
+          ]
+        },
+        "afm_tip": {
+          "pos_mm": [
+            33.0,
+            -25.0,
+            2.1025
           ]
         }
       }
@@ -1549,7 +1764,7 @@
       "pos_mm": [
         8,
         -40,
-        202
+        200.0
       ],
       "euler": [
         0,
@@ -1594,6 +1809,101 @@
             0,
             0,
             0
+          ]
+        },
+        "specimen_surface_center": {
+          "pos_mm": [
+            0,
+            0,
+            0.8
+          ]
+        }
+      }
+    },
+    "inspection_objective": {
+      "parent": "base",
+      "pos_mm": [
+        8,
+        -40,
+        0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": null,
+      "mass": 0.18,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Objective contact barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            249.5
+          ],
+          "size_mm": [
+            17,
+            3.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Objective contact barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            229.75
+          ],
+          "size_mm": [
+            14.2,
+            16.25
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Objective contact barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            212.5
+          ],
+          "size_mm": [
+            10.9,
+            1.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "objective_axis_top": {
+          "pos_mm": [
+            0,
+            0,
+            253
+          ]
+        },
+        "objective_front_center": {
+          "pos_mm": [
+            0,
+            0,
+            211.5
           ]
         }
       }
@@ -1663,7 +1973,97 @@
   ],
   "reference_group": "oxford_afm",
   "identity": "Cypher S visible on scanner in user video",
-  "geometry_revision": "reference5",
+  "geometry_revision": "alignment6",
+  "optical_alignment": {
+    "revision": "alignment6",
+    "asset": "afm",
+    "optical_xy_datum_mm": [
+      8,
+      -40
+    ],
+    "objective_front_z_mm": 211.5,
+    "aligned_state": {
+      "drawer_travel_m": 0,
+      "cantilever_lift_rad": 0
+    },
+    "site_names": {
+      "axis_top": "objective_axis_top",
+      "axis_front": "objective_front_center",
+      "tip": "afm_tip",
+      "specimen": "specimen_surface_center"
+    },
+    "objective_body": "inspection_objective",
+    "objective_visual_prefix": "inspection_objective__",
+    "objective_visual_nodes": [
+      "inspection_objective__black",
+      "inspection_objective__darkmetal",
+      "inspection_objective__etched",
+      "inspection_objective__green",
+      "inspection_objective__optic",
+      "inspection_objective__steel"
+    ],
+    "lower_barrel_envelope": {
+      "center_xy_mm": [
+        8,
+        -40
+      ],
+      "z_range_mm": [
+        211.5,
+        246
+      ],
+      "radius_mm": 14.2
+    },
+    "service_guard": {
+      "drawer_threshold_m": 0.04,
+      "carrier_threshold_rad": 0.04
+    },
+    "sample_support_stack_mm": {
+      "working_plate_top_z": 196.45,
+      "insert_bottom_z": 196.45,
+      "socket_rim_seat_z": 196.5,
+      "support_top_z": 199.5,
+      "puck_bottom_z": 199.5,
+      "puck_top_z": 200.5,
+      "specimen_bottom_z": 200.5,
+      "specimen_top_z": 200.8
+    },
+    "estimated_nominal_tip_gap_mm": 1.3025,
+    "estimated_objective_working_distance_mm": 10.7,
+    "references": [
+      {
+        "path": "oxford_afm/afbd874f77a33ee361aa7360a6b2348b.mp4",
+        "time_s": 27.25,
+        "detail": "Separate cantilever holder extends toward the sample; green correction collar is above the sample region."
+      },
+      {
+        "path": "oxford_afm/c9434d428539e41606a5fb75a9cd14c8.mp4",
+        "time_s": [
+          9.25,
+          18.25
+        ],
+        "detail": "Objective stays vertical while scanner translates outward."
+      },
+      {
+        "path": "afm_correction/cypher_manual_ver_13A.txt",
+        "lines": [
+          889,
+          914
+        ],
+        "detail": "Green correction collar; motor brings holder and objective down together; manual approach stops near1 mm gap."
+      }
+    ],
+    "limitations": [
+      "Exterior and hidden relay dimensions are estimates, not manufacturer CAD.",
+      "The folded optical relay establishes a connected geometric path; refractive calibration and optical image formation are not solved.",
+      "The engage encoder remains an uncoupled control. Coarse approach, calibrated tip forces and nanoscanning are outside this alignment repair.",
+      "The parked holder has about1.3 mm tip standoff. Full holder service lift requires drawer withdrawal; native contact also blocks a forced lift into the objective.",
+      "Socket/puck support and holder contacts are analytic compound approximations. Raw laboratory media remain private."
+    ]
+  },
+  "cantilever_service": {
+    "drawer_min_m": 0.04,
+    "max_docked_lift_rad": 0.04
+  },
   "clearance_revision": "clearance1",
   "cantilever_lift_direction": "Positive angle about local -X lifts the front nose clear of the scanner socket.",
   "estimated_dimensions_mm": [

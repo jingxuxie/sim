@@ -1,0 +1,45 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "inspection_joint_positions": {
+    "door_latch_angle": 0.0,
+    "door_angle": 0.0
+  },
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "overview"
+  ],
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "d83612dfa33b31f7076937032ad30e130e2fe286eb8c721a9dcb11bcfedb39e7"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [
+    {
+      "body": "door_latch",
+      "joint": "door_latch_angle",
+      "angle_rad": 0.0,
+      "maximum_rotation_matrix_error": 0.0
+    },
+    {
+      "body": "door",
+      "joint": "door_angle",
+      "angle_rad": 0.0,
+      "maximum_rotation_matrix_error": 0.0
+    }
+  ],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995"
+}

@@ -1,12 +1,12 @@
 {
   "file": "contact_task.mp4",
-  "bytes": 991140,
-  "sha256": "81c211ef46d3cedc1ba3ad10a73814d8889a8997618188ec41be03fd78531439",
+  "bytes": 977115,
+  "sha256": "684f93a31d21091487b832d76aefe73f17de80a93c997aad0372e41886e86185",
   "frames": 60,
   "frames_per_second": 5.0,
-  "trajectory_sha256": "5d3048495ff1cbcfc64ee5b5d06923250a8b013d7901e9dfaffc7dd99524b4dc",
+  "trajectory_sha256": "57def1ef197ad399f4c3d99351128de0d1287f7ed1642b3659fa18c41c25abe4",
   "scope": "Four-axis Cartesian fixture; no articulated arm",
-  "video_frames_report_sha256": "c1e728cd857cff1458df6e23146cd951754385f4bd5254a776663a83982f9261",
-  "blend_sha256": "6b8ac9c8d81e45b2e79bdfcaa044238fa4e486a40e1d352d07ca547ff867bcff",
+  "video_frames_report_sha256": "9813615915702fb14879140f8423015c2796fb323f36ff02fc578549f37c8366",
+  "blend_sha256": "aa000f757120226ea8c7d55f1dbcac352de30044ac2726d7c6b5f93e6b9c9d12",
   "title": "Measured MuJoCo gripper contact task; Cartesian wrist fixture"
 }

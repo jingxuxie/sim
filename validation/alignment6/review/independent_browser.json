@@ -1,0 +1,644 @@
+{
+  "revision": "alignment6",
+  "passed": true,
+  "review_complete": true,
+  "reviewer": "microscope_clearance",
+  "reviewed_utc": "2026-11-25T09:28:33.943784+00:00",
+  "scope": "Independent manual inspection of all final browser screenshots: seven instruments in Interactive overview/detail and Photo detail, four AFM handle-operation views, four AFM alignment/service views, and three transfer clearance closeups. Nikon/Zeiss/probe model ownership is disclosed per asset; browser runtime authorship is separate.",
+  "acceptance_scope": "Visible assembly and rendering integrity at these captured poses. This is not acceptance of converged Photo image quality or every possible mechanism configuration.",
+  "method": "Viewed each original full-frame PNG directly, without retouching or recoloring. Then verified screenshot/report hashes and all 61 public source fingerprints against the completed browser run. No model edits or test reruns were performed for this review.",
+  "instrument_count": 7,
+  "inspected_screenshot_count": 32,
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)",
+    "vendor": "Google Inc. (NVIDIA Corporation)"
+  },
+  "assets": [
+    {
+      "asset": "transfer",
+      "passed_visible_assembly": true,
+      "source_author_is_reviewer": false,
+      "sources": [
+        {
+          "path": "publish/github-sim/assets/transfer/model.glb",
+          "sha256": "f3908bd97a6085d787d8c5d11c8046055b297c37927d028c3f22d32873d4b037"
+        },
+        {
+          "path": "publish/github-sim/assets/transfer/physics.xml",
+          "sha256": "b1539fa009cc40c30ca32b13a8ce6d293554209d898e3aaffb34aeb512c464ff"
+        },
+        {
+          "path": "publish/github-sim/assets/transfer/metadata.json",
+          "sha256": "e88a01bf6e676e9138d68276bfdb32f2bda64acdb2a47dfd914fb326d68466a7"
+        }
+      ],
+      "findings": [
+        "The active objective is vertical above the workfield; the illumination box and corrugated fiber remain connected. Stage guides, micrometers, rotation control and heater supports remain distinct.",
+        "Interactive detail shows visible metal and breadboard reflections. The closeups show the sample-X handwheel above the breadboard and the camera lead/plug routed across its upper surface."
+      ],
+      "blocking_visible_geometry_defects": [],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/transfer-interactive-overview.png",
+          "sha256": "98b70a7e8b5af4e174e541974f073df6c417cf3a7fbff191d5e306a8072fb51a",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/transfer-interactive-detail.png",
+          "sha256": "fa0ac3ec5c50c9ef1885d9342d0d9beb3b1b8877485160ce63151bc57e414653",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/transfer-photo-detail.png",
+          "sha256": "44024e004692d42c2787d1d913a007da2d23ef2d5d489ad7b4b3d237565b09e9",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "photo",
+          "photo_samples": 9
+        }
+      ]
+    },
+    {
+      "asset": "nikon",
+      "passed_visible_assembly": true,
+      "source_author_is_reviewer": true,
+      "sources": [
+        {
+          "path": "publish/github-sim/assets/nikon/model.glb",
+          "sha256": "97edd1a6e8078b59bf62ad46542bb83f39dc9c5abf57bd70cb7d369f3ecef2b5"
+        },
+        {
+          "path": "publish/github-sim/assets/nikon/physics.xml",
+          "sha256": "16bf7116c200dc484f6efacc8b2025d6818d65c52c1601b6ed8a9d753840ab27"
+        },
+        {
+          "path": "publish/github-sim/assets/nikon/metadata.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+        }
+      ],
+      "findings": [
+        "The active objective, slide and open carrier remain aligned in the displayed rest pose; parked objectives visibly clear the stand in this view.",
+        "XY/focus controls, their supports, the condenser and stage loom are visible above the base. Barrel highlights and slide reflections are present in both rendering modes."
+      ],
+      "blocking_visible_geometry_defects": [],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/nikon-interactive-overview.png",
+          "sha256": "c4164ed5d96e004dfedc97cdd34feecdbc5d82b38e7caadb525f8d79c00b5d05",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/nikon-interactive-detail.png",
+          "sha256": "bddd362241cf4996e15974acb543aa633605091b5df2610314b462009fa0c644",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/nikon-photo-detail.png",
+          "sha256": "8168eca43389c4695b10cb412e801cb6b263d6b8d947eee6ffa90c55b77dd5f7",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "photo",
+          "photo_samples": 8.8125
+        }
+      ]
+    },
+    {
+      "asset": "probe",
+      "passed_visible_assembly": true,
+      "source_author_is_reviewer": true,
+      "sources": [
+        {
+          "path": "publish/github-sim/assets/probe/model.glb",
+          "sha256": "43b6329caeaffaa58531278f1e767fcf8e1e0f6fd31170c47a5af04f3c124aff"
+        },
+        {
+          "path": "publish/github-sim/assets/probe/physics.xml",
+          "sha256": "16f3f5e945d51372cb87b912f70cecc0fd8ac579113021d6a2adcd161346fc8f"
+        },
+        {
+          "path": "publish/github-sim/assets/probe/metadata.json",
+          "sha256": "df811cbd1b11caca7b510b0d59c412d8740dc744bab25c3268119c98d1973f92"
+        }
+      ],
+      "findings": [
+        "The objective is vertical above the specimen, with separate left/right probe assemblies and a supported central clamp stack.",
+        "The stage guides, front micrometer and cable connectors are distinct. Orange enamel, dark carriages and reflective metal edges remain visible."
+      ],
+      "blocking_visible_geometry_defects": [],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/probe-interactive-overview.png",
+          "sha256": "141f4e0363fe59262c70f867ff549fca461e0d194d9e92a713ae56a86880eaf5",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/probe-interactive-detail.png",
+          "sha256": "57df8892e35c2cfba4cae3fc481770c2af8f84303c8b14e46c197603913e0e2e",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/probe-photo-detail.png",
+          "sha256": "a8bfe991502694573af845c47c95e0cd4439e61d018377311cac50e35b97512a",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "photo",
+          "photo_samples": 8.9375
+        }
+      ]
+    },
+    {
+      "asset": "zeiss",
+      "passed_visible_assembly": true,
+      "source_author_is_reviewer": true,
+      "sources": [
+        {
+          "path": "publish/github-sim/assets/zeiss/model.glb",
+          "sha256": "24ec06242e7917269f5f1fec2942c9b31b6ea137c8a072038a458d9e675a5a24"
+        },
+        {
+          "path": "publish/github-sim/assets/zeiss/physics.xml",
+          "sha256": "09f8eafc94e5f043656bfe38b5615fae229d380a0416a651459554f973f4c778"
+        },
+        {
+          "path": "publish/github-sim/assets/zeiss/metadata.json",
+          "sha256": "960f193e7fb7f28b630ee242b9865095223fe8d1155724143524cc4025000d9a"
+        }
+      ],
+      "findings": [
+        "The active objective is perpendicular to the slide; the open holder, curved arm and condenser remain distinct in the displayed rest pose.",
+        "The XY grips have a visible shaft and bracket connection to the stage. Objective, eyepiece and stage highlights remain visible; this capture does not show the separate high-focus neighbor-contact test."
+      ],
+      "blocking_visible_geometry_defects": [],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/zeiss-interactive-overview.png",
+          "sha256": "01deb72cb4582d02f34dbf7ac725e7556120c5a7ec484e20d049ad5069291ef7",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/zeiss-interactive-detail.png",
+          "sha256": "75433404a63ee7abb9bad801dc04b52f40a7567bda3869284955029e34eab862",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/zeiss-photo-detail.png",
+          "sha256": "d2c5be9de1c836a0d41121549d167685a532646fffafd26b2c6fba7cc6ddfdf0",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "photo",
+          "photo_samples": 8.625
+        }
+      ]
+    },
+    {
+      "asset": "bonder",
+      "passed_visible_assembly": true,
+      "source_author_is_reviewer": false,
+      "sources": [
+        {
+          "path": "publish/github-sim/assets/bonder/model.glb",
+          "sha256": "3e08502348bdc774b6e7837e2b4a57278c5ee8262a93271ec3dfa4e77f3b7015"
+        },
+        {
+          "path": "publish/github-sim/assets/bonder/physics.xml",
+          "sha256": "f56c55df4f9e3548849389fed1b634ef24a26071ce90c761af95019d4bca9149"
+        },
+        {
+          "path": "publish/github-sim/assets/bonder/metadata.json",
+          "sha256": "55d66a26a4e00b3587ab2c586d0f1d2b26013a55f7afae80ef68d13b2b0b6760"
+        }
+      ],
+      "findings": [
+        "The tip assembly and right-hand lever remain separate. The visible tip is above the heater workfield; guide rods and the optical carriage have visible supports.",
+        "The heater, leads and front control remain distinct from the metal deck. Interactive mode shows strong deck reflections; no obvious solid intersection is visible in the captured rest views."
+      ],
+      "blocking_visible_geometry_defects": [],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/bonder-interactive-overview.png",
+          "sha256": "6f1c36fdf65f6352e049ba49c3380580b820b3738a042c641a6fc98df34ed902",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/bonder-interactive-detail.png",
+          "sha256": "0f12064202a5f91f83469dde09a1f95cda722c4864e8003959f15e2199000425",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/bonder-photo-detail.png",
+          "sha256": "e508c68290a9927936a26fd59626ee8c2e754ad6f0074906234719af58881ed0",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "photo",
+          "photo_samples": 8.9375
+        }
+      ]
+    },
+    {
+      "asset": "afm",
+      "passed_visible_assembly": true,
+      "source_author_is_reviewer": false,
+      "sources": [
+        {
+          "path": "publish/github-sim/assets/afm/model.glb",
+          "sha256": "65a9783edd3dabb670cc76aad58e014428a766aeab96777d7c999f98553bc6ec"
+        },
+        {
+          "path": "publish/github-sim/assets/afm/physics.xml",
+          "sha256": "6fdc9278ffa0d2b4f3b6b8c083de3b4a1e961f3929cecb46cd0b8fe0e7bbbcf2"
+        },
+        {
+          "path": "publish/github-sim/assets/afm/metadata.json",
+          "sha256": "63180ad16c9d3c8c0030eb347fd258cc08bf7c40fc12aa2b58b9a4af7877fdfa"
+        }
+      ],
+      "findings": [
+        "The enclosure, amber window, recessed release blade and scanner interior are present in the default views. The closed-window Photo capture is markedly darker than Interactive, limiting interior inspection there.",
+        "The separate open-door alignment views show the objective above the specimen with a visible gap, the holder raised after withdrawal, and the returned specimen back under the objective."
+      ],
+      "blocking_visible_geometry_defects": [],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/afm-interactive-overview.png",
+          "sha256": "0854e2be746ac03aab5fc9a9b9041f076dbae7a57a13ed53f5cae494c8eecac4",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/afm-interactive-detail.png",
+          "sha256": "6b9de4e19d0573f1c5497b82063bc2fbbc07e48862c1571b4b86d4b4a5861f84",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/afm-photo-detail.png",
+          "sha256": "3bc0f464c8a0919948925b97511fb9804b6aa93eab9d5f0cf256e99e92f7bec5",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "photo",
+          "photo_samples": 9.0625
+        }
+      ]
+    },
+    {
+      "asset": "tweezers",
+      "passed_visible_assembly": true,
+      "source_author_is_reviewer": false,
+      "sources": [
+        {
+          "path": "publish/github-sim/assets/tweezers/model.glb",
+          "sha256": "2c79f0f4df2e8a547597144156b3e4ef368cecb295bdf31ce03d6e5ca9525e6e"
+        },
+        {
+          "path": "publish/github-sim/assets/tweezers/physics.xml",
+          "sha256": "12920dcc9cb2d6d72e59259023b4f12eb3c14fe2b6858cc307e53667d86979e4"
+        },
+        {
+          "path": "publish/github-sim/assets/tweezers/metadata.json",
+          "sha256": "1bd0fd55e1d9efc74b9dcb71c2d62cf6d81fc75f25a1a3e6a8ea7a4bbffac7c8"
+        }
+      ],
+      "findings": [
+        "The long spring arms, source pedestal, chip and receiving tray remain separate visible objects; the tip view shows the chip resting on the source support.",
+        "Metal reflections and mat shadows are present. These three rest-pose captures do not establish collision-free transfer motion."
+      ],
+      "blocking_visible_geometry_defects": [],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/tweezers-interactive-overview.png",
+          "sha256": "a87dbbc2698d50de5ffd18e45b1e8550d988daba516edce0262948f4fbc25fc6",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/tweezers-interactive-detail.png",
+          "sha256": "3e3c5e65100a4c16cf366bffdd1fa7654ea22616383ef60b94b24d021f7c7272",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "interactive",
+          "photo_samples": null
+        },
+        {
+          "path": "validation/alignment6/browser/tweezers-photo-detail.png",
+          "sha256": "83e54117a81e98cc9336b4e3afb065f47a479144b103f72ecf2f0da12f361458",
+          "resolution": [
+            1085,
+            920
+          ],
+          "manually_inspected": true,
+          "mode": "photo",
+          "photo_samples": 9
+        }
+      ]
+    }
+  ],
+  "additional_views": [
+    {
+      "group": "afm-pocket",
+      "passed_visible_assembly": true,
+      "findings": [
+        "The blade fits visibly inside its vertical pocket when stowed and restowed.",
+        "Deployment rotates the blade outward; the open-door frame retains a separate pocket, pivot and door edge without an obvious surface crossing."
+      ],
+      "capture_report": {
+        "path": "validation/alignment6/browser/afm-pocket.json",
+        "sha256": "a98606de42289a461e67488d3ba90eb980a6f7943bcac5a2b2ceec339f39f287"
+      },
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/afm-handle-stowed.png",
+          "sha256": "c509b00f2cd86b192b6bd9d6db7a18a6d62ecfe3b91a849bfebb1e0f5f85b3ad",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "handle-stowed",
+          "captured_state_sha256": "9b8d89f3e2596600e9347a411542e1071e80f44afa5d6ec664837ba45ab6a33c"
+        },
+        {
+          "path": "validation/alignment6/browser/afm-handle-deployed.png",
+          "sha256": "92b008d06e236d1ee946405a73a9bbc17864de0099795318e6a9f050aefbda72",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "handle-deployed",
+          "captured_state_sha256": "755e1b81409497ac85a94bf7e4561342b7cc6f93c356182d6eb1e9e9206fa64a"
+        },
+        {
+          "path": "validation/alignment6/browser/afm-pocket-door-open.png",
+          "sha256": "c447c59dbe6bcdf4db128bfb0dbc3701396724bc9bfd37736a81e291d33e00c7",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "pocket-door-open",
+          "captured_state_sha256": "6eb78286f28f91df4df3ec078a3ff91861d44cbbbb31051a79ce388f23fb679d"
+        },
+        {
+          "path": "validation/alignment6/browser/afm-handle-restowed.png",
+          "sha256": "2cd5888d197d7c3559ca095366068c42b1ad76f2ec164cce3e54c502895f734e",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "handle-restowed",
+          "captured_state_sha256": "59d1e0adbfd0c7d68f46b0357accc877f233eb3dbb8388084d7ddbee3e2a248c"
+        }
+      ]
+    },
+    {
+      "group": "afm-alignment",
+      "passed_visible_assembly": true,
+      "findings": [
+        "Docked front and side views show the objective above the specimen and an offset holder body, with visible separation between the optical barrel and lower workfield.",
+        "The service-side frame shows the withdrawn holder tilted upward and clear of the specimen. The returned-front frame restores the displayed optical/specimen alignment."
+      ],
+      "capture_report": {
+        "path": "validation/alignment6/browser/afm-alignment.json",
+        "sha256": "c15ef7e5bf6849f614b902354fba597ab64df48dc5a9ab3dcfd8784fe94227b9"
+      },
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/afm-alignment-docked-front.png",
+          "sha256": "b650926e74cdffeb721e57b497aca21ae02657f7e394352deab06625833c6cf6",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "docked-front",
+          "captured_state_sha256": "07c97fdd00ca699142d39bb51637cdab3357cc9c5b4c8232b8a1dba64f6eb63b"
+        },
+        {
+          "path": "validation/alignment6/browser/afm-alignment-docked-side.png",
+          "sha256": "268ebf39a04b057121b5df44ee47b76b012b845575e3c23d16a40444e8553084",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "docked-side",
+          "captured_state_sha256": "0b0251c06fd31c9b46ffa9d9e8e430716083fb8f6d93b4249d6c9e67d17f4038"
+        },
+        {
+          "path": "validation/alignment6/browser/afm-alignment-service-side.png",
+          "sha256": "b301ac4a6d42a323b4b300e635e03db10b31a1f6588ff06c6fc86ad78fe48835",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "service-side",
+          "captured_state_sha256": "bbc2ede6eba1c0f9b53f180b123cec8eca0e0da10be7989bc207e74a47285c59"
+        },
+        {
+          "path": "validation/alignment6/browser/afm-alignment-returned-front.png",
+          "sha256": "654cfbec50e888840c13baa5f71ba14667b9f813064eec9e2e0ac1481e2941a5",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "returned-front",
+          "captured_state_sha256": "3913a7b1e362e736a6bc0c50a6c1521b3fea54194c736f9f5365246e4a2b6fd5"
+        }
+      ]
+    },
+    {
+      "group": "closeups",
+      "passed_visible_assembly": true,
+      "findings": [
+        "The sample-X handwheel has a visible gap above the breadboard; its dark reflection remains distinguishable from its solid lower edge.",
+        "The vertical adjustment spindle is supported through its bearing stack, and the camera cable and loose plug lie above the board surface in the dedicated views."
+      ],
+      "capture_report": {
+        "path": "validation/alignment6/browser/closeups.json",
+        "sha256": "1d186b2409a73e9b1b8de7efeb3093e31ea4ac3b45239e114cc1a5f71e6d4cda"
+      },
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/browser/clearance-sample_x_handwheel.png",
+          "sha256": "cfc09fdb8b3eae02aba2925ceea1141b15c116369767802b8da86df893e9d4a3",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "sample_x_handwheel",
+          "captured_state_sha256": "c8c3ee0e11580b266162f8fce42cfbcc43d943f1a81befb5b3a18a1e23853b32"
+        },
+        {
+          "path": "validation/alignment6/browser/clearance-vertical_micrometer.png",
+          "sha256": "84428942746c7d0f318ef009257b7271f432311e3593d3eea295d0ba5f58f4b2",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "vertical_micrometer",
+          "captured_state_sha256": "807ba17c0d04935a2b0b6a959796526b148ccb04f79ee40b8181afc6e42fb92d"
+        },
+        {
+          "path": "validation/alignment6/browser/clearance-camera_cable.png",
+          "sha256": "b58c70d0701584797e6de12108b968ffb4b166c93c8a88c65f5c88b0c90a88e4",
+          "resolution": [
+            1245,
+            1020
+          ],
+          "manually_inspected": true,
+          "view": "camera_cable",
+          "captured_state_sha256": "407e2236f81e1066e8adc899ba90e0f4bb280a7574ba2052f0307ff8ccc64c83"
+        }
+      ]
+    }
+  ],
+  "capture_reports": [
+    {
+      "path": "validation/alignment6/browser/all-models.json",
+      "sha256": "19f06d7cc66a1bb05e3c0727f3e65cd7c3dfab7c554ab86c72485d17046bf0c8"
+    },
+    {
+      "path": "validation/alignment6/browser/afm-alignment.json",
+      "sha256": "c15ef7e5bf6849f614b902354fba597ab64df48dc5a9ab3dcfd8784fe94227b9"
+    },
+    {
+      "path": "validation/alignment6/browser/afm-pocket.json",
+      "sha256": "a98606de42289a461e67488d3ba90eb980a6f7943bcac5a2b2ceec339f39f287"
+    },
+    {
+      "path": "validation/alignment6/browser/closeups.json",
+      "sha256": "1d186b2409a73e9b1b8de7efeb3093e31ea4ac3b45239e114cc1a5f71e6d4cda"
+    },
+    {
+      "path": "validation/alignment6/browser/source_verification.json",
+      "sha256": "6400cd417342e38aa98509ddf6f8f29301250a87b62c99650a5326e634670ca7"
+    }
+  ],
+  "source_snapshots": [
+    {
+      "path": "validation/alignment6/browser/inputs_before.json",
+      "sha256": "580204f3f73a262efa8bef9251e4de417dc34025e9cefaebc8d2b0755603b24d"
+    },
+    {
+      "path": "validation/alignment6/browser/inputs_after.json",
+      "sha256": "580204f3f73a262efa8bef9251e4de417dc34025e9cefaebc8d2b0755603b24d"
+    }
+  ],
+  "source_files_verified": 61,
+  "rendering_limitations": [
+    "Photo captures contain conspicuous sampling grain at approximately 8.6\u20139.1 samples. They demonstrate the live path-tracing path and retained scene inventory; they do not demonstrate converged still quality.",
+    "The AFM closed-window Photo view is darker and harder to inspect than its Interactive counterpart. The dedicated open-door captures provide the workfield inspection.",
+    "Interactive and Photo reflections, shadow softness and glass shading differ. Fine edges and small lettering remain limited by screenshot resolution and sampling."
+  ],
+  "geometry_limitations": [
+    "These finite camera views cannot establish hidden clearance, all joint combinations, contact forces or robot transfer safety; those are covered separately by the numerical/native/browser tests.",
+    "Apparent optical alignment here is a visual observation, not calibration of the internal optical prescription."
+  ],
+  "photo_final_quality_assessed": false,
+  "raw_reference_media_published": false,
+  "script": {
+    "path": "validation/alignment6/review/write_browser_review.py",
+    "sha256": "32117d95c83b33f511ca6a07f17eef20be79873b83a16486233c9969eb8c6151"
+  }
+}

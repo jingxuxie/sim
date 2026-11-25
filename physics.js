@@ -110,6 +110,15 @@ export class Simulation {
         if(name==='drawer_travel'&&value>.004&&(this.q('scanner_latch_angle')<.65||this.q('door_angle')>-1.1))reason='Open door and release scanner latch first';
         if(name==='door_angle'&&value>-1.1&&this.q('drawer_travel')>.005)reason='Return scanner drawer before closing door';
         if(name==='scanner_latch_angle'&&value<.65&&this.q('drawer_travel')>.005)reason='Return scanner drawer before engaging latch';
+        const service=this.meta.cantilever_service;
+        if(service){
+          // Include queued targets and the complete action to reject
+          // simultaneous return/lift commands regardless of property order.
+          const drawerTarget=Number(action.drawer_travel??this.targets.drawer_travel);
+          const holderTarget=Number(action.cantilever_lift??this.targets.cantilever_lift);
+          if(name==='cantilever_lift'&&value>service.max_docked_lift_rad&&(this.q('drawer_travel')<service.drawer_min_m||drawerTarget<service.drawer_min_m))reason='Withdraw scanner drawer before lifting cantilever holder';
+          if(name==='drawer_travel'&&value<service.drawer_min_m&&(this.q('cantilever_lift')>service.max_docked_lift_rad||holderTarget>service.max_docked_lift_rad))reason='Lower cantilever holder before returning scanner drawer';
+        }
       }
       if(reason){this.guardEvents.push({time:this.d.time,control:name,reason});this.guardEvents=this.guardEvents.slice(-5);continue;}
       const i=this.drives[name];if(this.m.actuator_ctrllimited[i])value=clamp(value,this.m.actuator_ctrlrange[2*i],this.m.actuator_ctrlrange[2*i+1]);

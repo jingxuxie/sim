@@ -1,0 +1,1412 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "passed": true,
+  "unchanged_interfaces": {
+    "parent": true,
+    "pos_mm": true,
+    "euler": true,
+    "joint": true,
+    "mass": true,
+    "inertia": true,
+    "sites": true,
+    "couplings": true,
+    "controls": true
+  },
+  "cases": [
+    {
+      "case": "bonder_existing_hardware_0",
+      "low": {
+        "label": "bonder_low_0",
+        "action": {
+          "handle_x_travel": -0.035,
+          "handle_y_travel": -0.015,
+          "handle_z_travel": -0.021,
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 5,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999979758954,
+        "joints": {
+          "scope_focus_travel": -0.014999999979758954,
+          "tool_x_travel": -0.0043749999999999995,
+          "tool_y_travel": -0.0018749999999999997,
+          "tool_z_travel": -0.0025135135666284653,
+          "handle_x_travel": -0.034999999999999996,
+          "handle_y_travel": -0.014999999999999996,
+          "handle_z_travel": -0.02021545985130798
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "high": {
+        "label": "bonder_high_0",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": -0.0043749999999999995,
+          "tool_y_travel": -0.0018749999999999997,
+          "tool_z_travel": -0.0025135135666284653,
+          "handle_x_travel": -0.034999999999999996,
+          "handle_y_travel": -0.014999999999999996,
+          "handle_z_travel": -0.02021545985130798
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764494164995,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_existing_hardware_1",
+      "low": {
+        "label": "bonder_low_1",
+        "action": {
+          "handle_x_travel": -0.035,
+          "handle_y_travel": -0.015,
+          "handle_z_travel": 0.006,
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 5,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999979758954,
+        "joints": {
+          "scope_focus_travel": -0.014999999979758954,
+          "tool_x_travel": -0.0043749999999999414,
+          "tool_y_travel": -0.0018749999999999904,
+          "tool_z_travel": 0.0007499999999999973,
+          "handle_x_travel": -0.034999999999999525,
+          "handle_y_travel": -0.014999999999999921,
+          "handle_z_travel": 0.0059999999999999784
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "high": {
+        "label": "bonder_high_1",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": -0.0043749999999999414,
+          "tool_y_travel": -0.0018749999999999904,
+          "tool_z_travel": 0.0007499999999999973,
+          "handle_x_travel": -0.034999999999999525,
+          "handle_y_travel": -0.014999999999999921,
+          "handle_z_travel": 0.0059999999999999784
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764494164995,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_existing_hardware_2",
+      "low": {
+        "label": "bonder_low_2",
+        "action": {
+          "handle_x_travel": -0.035,
+          "handle_y_travel": 0.015,
+          "handle_z_travel": -0.021,
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 5,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999979758954,
+        "joints": {
+          "scope_focus_travel": -0.014999999979758954,
+          "tool_x_travel": -0.0043749999999999995,
+          "tool_y_travel": 0.0018749999999999997,
+          "tool_z_travel": -0.0025135135666284653,
+          "handle_x_travel": -0.034999999999999996,
+          "handle_y_travel": 0.014999999999999996,
+          "handle_z_travel": -0.02021545985130798
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "high": {
+        "label": "bonder_high_2",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": -0.0043749999999999995,
+          "tool_y_travel": 0.0018749999999999997,
+          "tool_z_travel": -0.0025135135666284653,
+          "handle_x_travel": -0.034999999999999996,
+          "handle_y_travel": 0.014999999999999996,
+          "handle_z_travel": -0.02021545985130798
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764494164995,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_existing_hardware_3",
+      "low": {
+        "label": "bonder_low_3",
+        "action": {
+          "handle_x_travel": -0.035,
+          "handle_y_travel": 0.015,
+          "handle_z_travel": 0.006,
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 5,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999979758954,
+        "joints": {
+          "scope_focus_travel": -0.014999999979758954,
+          "tool_x_travel": -0.0043749999999999414,
+          "tool_y_travel": 0.0018749999999999904,
+          "tool_z_travel": 0.0007499999999999973,
+          "handle_x_travel": -0.034999999999999525,
+          "handle_y_travel": 0.014999999999999921,
+          "handle_z_travel": 0.0059999999999999784
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "high": {
+        "label": "bonder_high_3",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": -0.0043749999999999414,
+          "tool_y_travel": 0.0018749999999999904,
+          "tool_z_travel": 0.0007499999999999973,
+          "handle_x_travel": -0.034999999999999525,
+          "handle_y_travel": 0.014999999999999921,
+          "handle_z_travel": 0.0059999999999999784
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764494164995,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_existing_hardware_4",
+      "low": {
+        "label": "bonder_low_4",
+        "action": {
+          "handle_x_travel": 0.035,
+          "handle_y_travel": -0.015,
+          "handle_z_travel": -0.021,
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 5,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999979758954,
+        "joints": {
+          "scope_focus_travel": -0.014999999979758954,
+          "tool_x_travel": 0.0043749999999999995,
+          "tool_y_travel": -0.0018749999999999997,
+          "tool_z_travel": -0.0025135135666284653,
+          "handle_x_travel": 0.034999999999999996,
+          "handle_y_travel": -0.014999999999999996,
+          "handle_z_travel": -0.02021545985130798
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "high": {
+        "label": "bonder_high_4",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": 0.0043749999999999995,
+          "tool_y_travel": -0.0018749999999999997,
+          "tool_z_travel": -0.0025135135666284653,
+          "handle_x_travel": 0.034999999999999996,
+          "handle_y_travel": -0.014999999999999996,
+          "handle_z_travel": -0.02021545985130798
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764494164995,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_existing_hardware_5",
+      "low": {
+        "label": "bonder_low_5",
+        "action": {
+          "handle_x_travel": 0.035,
+          "handle_y_travel": -0.015,
+          "handle_z_travel": 0.006,
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 5,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999979758954,
+        "joints": {
+          "scope_focus_travel": -0.014999999979758954,
+          "tool_x_travel": 0.0043749999999999414,
+          "tool_y_travel": -0.0018749999999999904,
+          "tool_z_travel": 0.0007499999999999973,
+          "handle_x_travel": 0.034999999999999525,
+          "handle_y_travel": -0.014999999999999921,
+          "handle_z_travel": 0.0059999999999999784
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "high": {
+        "label": "bonder_high_5",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": 0.0043749999999999414,
+          "tool_y_travel": -0.0018749999999999904,
+          "tool_z_travel": 0.0007499999999999973,
+          "handle_x_travel": 0.034999999999999525,
+          "handle_y_travel": -0.014999999999999921,
+          "handle_z_travel": 0.0059999999999999784
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764494164995,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_existing_hardware_6",
+      "low": {
+        "label": "bonder_low_6",
+        "action": {
+          "handle_x_travel": 0.035,
+          "handle_y_travel": 0.015,
+          "handle_z_travel": -0.021,
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 5,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999979758954,
+        "joints": {
+          "scope_focus_travel": -0.014999999979758954,
+          "tool_x_travel": 0.0043749999999999995,
+          "tool_y_travel": 0.0018749999999999997,
+          "tool_z_travel": -0.0025135135666284653,
+          "handle_x_travel": 0.034999999999999996,
+          "handle_y_travel": 0.014999999999999996,
+          "handle_z_travel": -0.02021545985130798
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "high": {
+        "label": "bonder_high_6",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": 0.0043749999999999995,
+          "tool_y_travel": 0.0018749999999999997,
+          "tool_z_travel": -0.0025135135666284653,
+          "handle_x_travel": 0.034999999999999996,
+          "handle_y_travel": 0.014999999999999996,
+          "handle_z_travel": -0.02021545985130798
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764494164995,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_existing_hardware_7",
+      "low": {
+        "label": "bonder_low_7",
+        "action": {
+          "handle_x_travel": 0.035,
+          "handle_y_travel": 0.015,
+          "handle_z_travel": 0.006,
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 5,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999979758954,
+        "joints": {
+          "scope_focus_travel": -0.014999999979758954,
+          "tool_x_travel": 0.0043749999999999414,
+          "tool_y_travel": 0.0018749999999999904,
+          "tool_z_travel": 0.0007499999999999973,
+          "handle_x_travel": 0.034999999999999525,
+          "handle_y_travel": 0.014999999999999921,
+          "handle_z_travel": 0.0059999999999999784
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "high": {
+        "label": "bonder_high_7",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": 0.0043749999999999414,
+          "tool_y_travel": 0.0018749999999999904,
+          "tool_z_travel": 0.0007499999999999973,
+          "handle_x_travel": 0.034999999999999525,
+          "handle_y_travel": 0.014999999999999921,
+          "handle_z_travel": 0.0059999999999999784
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764494164995,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_probe_fixture",
+      "probe_top_m": 0.176,
+      "stopped_glass_clearance_m": -1.7590996173599827e-06,
+      "retracted_glass_clearance_m": 0.02749999997959196,
+      "approach": {
+        "label": "bonder_probe_stop_fixture",
+        "action": {
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 6,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.0075017590996173805,
+        "joints": {
+          "scope_focus_travel": -0.0075017590996173805,
+          "tool_x_travel": 0.0,
+          "tool_y_travel": 0.0,
+          "tool_z_travel": 0.0,
+          "handle_x_travel": 0.0,
+          "handle_y_travel": 0.0,
+          "handle_z_travel": 0.0
+        },
+        "max_optical_penetration_m": 7.904699217270439e-06,
+        "max_optical_normal_N": 8.000268039078742,
+        "max_focus_actuator_force_N": 40.0,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 22180,
+        "pairs": [
+          [
+            "alignment6_optical_probe",
+            "scope_focus__Stereo_front_glass_contact"
+          ]
+        ],
+        "terminal_optical_contacts": [
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 8.000003200191355,
+            "penetration_m": 1.759099617387738e-06
+          },
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 8.000003200191355,
+            "penetration_m": 1.759099617387738e-06
+          },
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 8.000003200191355,
+            "penetration_m": 1.759099617387738e-06
+          },
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 8.000003200191355,
+            "penetration_m": 1.759099617387738e-06
+          },
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 8.000003200191355,
+            "penetration_m": 1.759099617387738e-06
+          }
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "release": {
+        "label": "bonder_probe_release_fixture",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": 0.0,
+          "tool_y_travel": 0.0,
+          "tool_z_travel": 0.0,
+          "handle_x_travel": 0.0,
+          "handle_y_travel": 0.0,
+          "handle_z_travel": 0.0
+        },
+        "max_optical_penetration_m": 1.759099617387738e-06,
+        "max_optical_normal_N": 8.000003200192284,
+        "max_focus_actuator_force_N": 40.0,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 7515,
+        "pairs": [
+          [
+            "alignment6_optical_probe",
+            "scope_focus__Stereo_front_glass_contact"
+          ]
+        ],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_probe_external_wrench",
+      "probe_top_m": 0.176,
+      "stopped_glass_clearance_m": -3.518607200603263e-07,
+      "retracted_glass_clearance_m": 0.027723354519076704,
+      "approach": {
+        "label": "bonder_probe_stop_external_wrench",
+        "action": null,
+        "seconds": 3,
+        "external_scope_force_N": -8,
+        "fixtures": false,
+        "focus_m": -0.007500351860720082,
+        "joints": {
+          "scope_focus_travel": -0.007500351860720082,
+          "tool_x_travel": 0.0,
+          "tool_y_travel": 0.0,
+          "tool_z_travel": 0.0,
+          "handle_x_travel": 0.0,
+          "handle_y_travel": 0.0,
+          "handle_z_travel": 0.0
+        },
+        "max_optical_penetration_m": 0.00012366912710876088,
+        "max_optical_normal_N": 22.172011352013385,
+        "max_focus_actuator_force_N": 0.0,
+        "max_focus_target_rate_m_s": 0.0,
+        "optical_contact_samples": 14570,
+        "pairs": [
+          [
+            "alignment6_optical_probe",
+            "scope_focus__Stereo_front_glass_contact"
+          ]
+        ],
+        "terminal_optical_contacts": [
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 1.6000006400392586,
+            "penetration_m": 3.518607200880819e-07
+          },
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 1.6000006400392583,
+            "penetration_m": 3.518607200880819e-07
+          },
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 1.6000006400392583,
+            "penetration_m": 3.518607200880819e-07
+          },
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 1.6000006400392583,
+            "penetration_m": 3.518607200880819e-07
+          },
+          {
+            "a": "alignment6_optical_probe",
+            "b": "scope_focus__Stereo_front_glass_contact",
+            "normal_N": 1.6000006400392583,
+            "penetration_m": 3.518607200880819e-07
+          }
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "release": {
+        "label": "bonder_probe_release_external_wrench",
+        "action": null,
+        "seconds": 3,
+        "external_scope_force_N": 8,
+        "fixtures": false,
+        "focus_m": 0.020223354519076697,
+        "joints": {
+          "scope_focus_travel": 0.020223354519076697,
+          "tool_x_travel": 0.0,
+          "tool_y_travel": 0.0,
+          "tool_z_travel": 0.0,
+          "handle_x_travel": 0.0,
+          "handle_y_travel": 0.0,
+          "handle_z_travel": 0.0
+        },
+        "max_optical_penetration_m": 3.518607200880819e-07,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 0.0,
+        "max_focus_target_rate_m_s": 0.0,
+        "optical_contact_samples": 5,
+        "pairs": [
+          [
+            "alignment6_optical_probe",
+            "scope_focus__Stereo_front_glass_contact"
+          ]
+        ],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_probe_probe_offset",
+      "probe_top_m": 0.176,
+      "stopped_glass_clearance_m": -0.0074999999999944555,
+      "retracted_glass_clearance_m": 0.02749999997959196,
+      "approach": {
+        "label": "bonder_probe_stop_probe_offset",
+        "action": {
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 6,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999999994537,
+        "joints": {
+          "scope_focus_travel": -0.014999999999994537,
+          "tool_x_travel": 0.0,
+          "tool_y_travel": 0.0,
+          "tool_z_travel": 0.0,
+          "handle_x_travel": 0.0,
+          "handle_y_travel": 0.0,
+          "handle_z_travel": 0.0
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "release": {
+        "label": "bonder_probe_release_probe_offset",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": 0.0,
+          "tool_y_travel": 0.0,
+          "tool_z_travel": 0.0,
+          "handle_x_travel": 0.0,
+          "handle_y_travel": 0.0,
+          "handle_z_travel": 0.0
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495584773,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    },
+    {
+      "case": "bonder_probe_contacts_disabled",
+      "probe_top_m": 0.176,
+      "stopped_glass_clearance_m": -0.0074999999999944555,
+      "retracted_glass_clearance_m": 0.02749999997959196,
+      "approach": {
+        "label": "bonder_probe_stop_contacts_disabled",
+        "action": {
+          "scope_focus_travel": -0.015
+        },
+        "seconds": 6,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": -0.014999999999994537,
+        "joints": {
+          "scope_focus_travel": -0.014999999999994537,
+          "tool_x_travel": 0.0,
+          "tool_y_travel": 0.0,
+          "tool_z_travel": 0.0,
+          "handle_x_travel": 0.0,
+          "handle_y_travel": 0.0,
+          "handle_z_travel": 0.0
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495585157,
+        "max_focus_target_rate_m_s": 0.005000000000000664,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "release": {
+        "label": "bonder_probe_release_contacts_disabled",
+        "action": {
+          "scope_focus_travel": 0.02
+        },
+        "seconds": 9,
+        "external_scope_force_N": 0,
+        "fixtures": true,
+        "focus_m": 0.01999999997975895,
+        "joints": {
+          "scope_focus_travel": 0.01999999997975895,
+          "tool_x_travel": 0.0,
+          "tool_y_travel": 0.0,
+          "tool_z_travel": 0.0,
+          "handle_x_travel": 0.0,
+          "handle_y_travel": 0.0,
+          "handle_z_travel": 0.0
+        },
+        "max_optical_penetration_m": 0.0,
+        "max_optical_normal_N": 0.0,
+        "max_focus_actuator_force_N": 3.321764495584773,
+        "max_focus_target_rate_m_s": 0.005000000000001531,
+        "optical_contact_samples": 0,
+        "pairs": [],
+        "terminal_optical_contacts": [],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "finite": true
+      },
+      "passed": true
+    }
+  ],
+  "mesh_frames": [
+    {
+      "label": "bonder_low_0",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": -0.0043749999999999995,
+        "tool_y_travel": -0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": -0.034999999999999996,
+        "handle_y_travel": -0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      }
+    },
+    {
+      "label": "bonder_high_0",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": -0.0043749999999999995,
+        "tool_y_travel": -0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": -0.034999999999999996,
+        "handle_y_travel": -0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      }
+    },
+    {
+      "label": "bonder_low_1",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": -0.0043749999999999414,
+        "tool_y_travel": -0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": -0.034999999999999525,
+        "handle_y_travel": -0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      }
+    },
+    {
+      "label": "bonder_high_1",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": -0.0043749999999999414,
+        "tool_y_travel": -0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": -0.034999999999999525,
+        "handle_y_travel": -0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      }
+    },
+    {
+      "label": "bonder_low_2",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": -0.0043749999999999995,
+        "tool_y_travel": 0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": -0.034999999999999996,
+        "handle_y_travel": 0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      }
+    },
+    {
+      "label": "bonder_high_2",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": -0.0043749999999999995,
+        "tool_y_travel": 0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": -0.034999999999999996,
+        "handle_y_travel": 0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      }
+    },
+    {
+      "label": "bonder_low_3",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": -0.0043749999999999414,
+        "tool_y_travel": 0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": -0.034999999999999525,
+        "handle_y_travel": 0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      }
+    },
+    {
+      "label": "bonder_high_3",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": -0.0043749999999999414,
+        "tool_y_travel": 0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": -0.034999999999999525,
+        "handle_y_travel": 0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      }
+    },
+    {
+      "label": "bonder_low_4",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": 0.0043749999999999995,
+        "tool_y_travel": -0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": 0.034999999999999996,
+        "handle_y_travel": -0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      }
+    },
+    {
+      "label": "bonder_high_4",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0043749999999999995,
+        "tool_y_travel": -0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": 0.034999999999999996,
+        "handle_y_travel": -0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      }
+    },
+    {
+      "label": "bonder_low_5",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": 0.0043749999999999414,
+        "tool_y_travel": -0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": 0.034999999999999525,
+        "handle_y_travel": -0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      }
+    },
+    {
+      "label": "bonder_high_5",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0043749999999999414,
+        "tool_y_travel": -0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": 0.034999999999999525,
+        "handle_y_travel": -0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      }
+    },
+    {
+      "label": "bonder_low_6",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": 0.0043749999999999995,
+        "tool_y_travel": 0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": 0.034999999999999996,
+        "handle_y_travel": 0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      }
+    },
+    {
+      "label": "bonder_high_6",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0043749999999999995,
+        "tool_y_travel": 0.0018749999999999997,
+        "tool_z_travel": -0.0025135135666284653,
+        "handle_x_travel": 0.034999999999999996,
+        "handle_y_travel": 0.014999999999999996,
+        "handle_z_travel": -0.02021545985130798
+      }
+    },
+    {
+      "label": "bonder_low_7",
+      "joints": {
+        "scope_focus_travel": -0.014999999979758954,
+        "tool_x_travel": 0.0043749999999999414,
+        "tool_y_travel": 0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": 0.034999999999999525,
+        "handle_y_travel": 0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      }
+    },
+    {
+      "label": "bonder_high_7",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0043749999999999414,
+        "tool_y_travel": 0.0018749999999999904,
+        "tool_z_travel": 0.0007499999999999973,
+        "handle_x_travel": 0.034999999999999525,
+        "handle_y_travel": 0.014999999999999921,
+        "handle_z_travel": 0.0059999999999999784
+      }
+    },
+    {
+      "label": "bonder_probe_stop_fixture",
+      "joints": {
+        "scope_focus_travel": -0.0075017590996173805,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_stop_fixture_maximum_contact_overlap",
+      "joints": {
+        "scope_focus_travel": -0.007507572599520186,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_release_fixture",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_release_fixture_maximum_contact_overlap",
+      "joints": {
+        "scope_focus_travel": -0.007501759099617381,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_stop_external_wrench",
+      "joints": {
+        "scope_focus_travel": -0.007500351860720082,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_stop_external_wrench_maximum_contact_overlap",
+      "joints": {
+        "scope_focus_travel": -0.007620165829035004,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_release_external_wrench",
+      "joints": {
+        "scope_focus_travel": 0.020223354519076697,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_release_external_wrench_maximum_contact_overlap",
+      "joints": {
+        "scope_focus_travel": -0.007497083886863872,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_stop_probe_offset",
+      "joints": {
+        "scope_focus_travel": -0.014999999999994537,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_release_probe_offset",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_stop_contacts_disabled",
+      "joints": {
+        "scope_focus_travel": -0.014999999999994537,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    },
+    {
+      "label": "bonder_probe_release_contacts_disabled",
+      "joints": {
+        "scope_focus_travel": 0.01999999997975895,
+        "tool_x_travel": 0.0,
+        "tool_y_travel": 0.0,
+        "tool_z_travel": 0.0,
+        "handle_x_travel": 0.0,
+        "handle_y_travel": 0.0,
+        "handle_z_travel": 0.0
+      }
+    }
+  ],
+  "source_xml_sha256": "e8a626df50db11cd9598e1059ebf72f9246ffad71ef18d3cfc076d10095fc5fc",
+  "source_metadata_sha256": "55d66a26a4e00b3587ab2c586d0f1d2b26013a55f7afae80ef68d13b2b0b6760",
+  "source_scene_sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+  "script_sha256": "8244ea13c3d11d7d98a33582131e7b0a847398a5f537c0ea89b902be0d0fdec1",
+  "runtime_sha256": "c8cee4b9a27a25dd2d3b47a97dca712c8eea8d3f442532a3527d373e8f01d21c",
+  "scope": "1 ms MuJoCo integration with finite-force fixture commands or external wrench; no pose writes after reset. Temporary bonder probe is a contact witness, not delivered hardware or an optical calibration."
+}

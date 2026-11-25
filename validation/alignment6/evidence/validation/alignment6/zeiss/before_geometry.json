@@ -1,0 +1,3030 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "phase": "before",
+  "source": "003_zeiss/zeiss_upright.blend",
+  "source_sha256": "f32057dd1c36cf69b831997e6ee79679f3824b0344e378474d3a69d1177cf0dd",
+  "script_sha256": "11132c941ad263a486f7f0413ded2dd4c770f62137838ab2ec7d8844d8205664",
+  "method": "Evaluated Blender detailed vertices and BVH triangles, plus three-skew-ray containment witnesses after broad phase. Axes measured from actual front-glass object transforms. Nominal safe configurations evaluated separately from unsafe commanded collisions.",
+  "selected_objects": {
+    "optics": [
+      "Optical coating",
+      "Optical coating.001",
+      "Optical coating.002",
+      "Optical coating.003",
+      "Optical coating.004",
+      "Zeiss machined objective 10",
+      "Zeiss machined objective 100",
+      "Zeiss machined objective 20",
+      "Zeiss machined objective 5",
+      "Zeiss machined objective 50",
+      "Zeiss objective black aperture",
+      "Zeiss objective black aperture.001",
+      "Zeiss objective black aperture.002",
+      "Zeiss objective black aperture.003",
+      "Zeiss objective black aperture.004"
+    ],
+    "stage": [
+      "Asymmetric fixed specimen-holder plate",
+      "Curved holder pivot",
+      "Curved specimen retaining arm",
+      "device_chip",
+      "Glass sample slide",
+      "Mechanical stage with longitudinal opening",
+      "Specimen clamp knurled screw",
+      "Specimen clamp knurled screw.001",
+      "Specimen holder thumb lever",
+      "Y runner with longitudinal opening"
+    ],
+    "head": [
+      "Inclined objective-carrier casting",
+      "Nosepiece access-slot inner wall",
+      "Nosepiece fixed bearing collar"
+    ]
+  },
+  "axis_checks": [
+    {
+      "station": 0,
+      "mag": 20,
+      "front_center_mm": [
+        0.0,
+        -70.00000774860382,
+        188.4380728006363
+      ],
+      "axis": [
+        0.0,
+        4.470348358154293e-08,
+        -0.9999999999999991
+      ],
+      "vertical_error_deg": 2.4148365394514667e-06,
+      "intersection_xy_error_mm": 7.635143120410248e-06,
+      "front_glass_to_sample_gap_mm": 2.3880726341884326,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "front_center_mm": [
+        -1.862645149230957e-06,
+        -70.00000774860382,
+        189.4380897283554
+      ],
+      "axis": [
+        5.2154064178466684e-08,
+        4.470348358154287e-08,
+        -0.9999999999999978
+      ],
+      "vertical_error_deg": 3.818191820832846e-06,
+      "intersection_xy_error_mm": 7.77372800753577e-06,
+      "front_glass_to_sample_gap_mm": 3.3880894833607726,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "front_center_mm": [
+        -5.587935447692871e-06,
+        -70.00000029802322,
+        202.438086271286
+      ],
+      "axis": [
+        1.1920928955078035e-07,
+        -2.9802322387695088e-08,
+        -0.9999999999999925
+      ],
+      "vertical_error_deg": 7.040397847728103e-06,
+      "intersection_xy_error_mm": 3.7019143285348466e-06,
+      "front_glass_to_sample_gap_mm": 16.388085783396548,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "front_center_mm": [
+        3.725290298461914e-06,
+        -70.00000774860382,
+        193.4380680322647
+      ],
+      "axis": [
+        -1.1920928955078035e-07,
+        -2.9802322387695088e-08,
+        -0.9999999999999925
+      ],
+      "vertical_error_deg": 7.040397847728103e-06,
+      "intersection_xy_error_mm": 8.459488255241042e-06,
+      "front_glass_to_sample_gap_mm": 7.388067544375247,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "front_center_mm": [
+        9.313225746154785e-07,
+        -70.00000774860382,
+        187.43807077407837
+      ],
+      "axis": [
+        -5.2154064178466684e-08,
+        4.470348358154287e-08,
+        -0.9999999999999978
+      ],
+      "vertical_error_deg": 3.818191820832846e-06,
+      "intersection_xy_error_mm": 7.726863962665092e-06,
+      "front_glass_to_sample_gap_mm": 1.388070529083734,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    }
+  ],
+  "sweep": [
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            13.693277724087238,
+            17.100010998547077,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 94
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Curved holder pivot",
+          "aabb_overlap_mm": [
+            5.400000009026141,
+            10.60000222044391,
+            2.0000000949949026
+          ],
+          "triangle_pairs": 34
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            10.846133343875408,
+            1.3999994844198227
+          ],
+          "triangle_pairs": 72
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            24.20000432431707,
+            1.2619249343872596
+          ],
+          "triangle_pairs": 152
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            43.38492227763141,
+            24.610205070950407,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 32
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Glass sample slide",
+          "aabb_overlap_mm": [
+            14.600002206861973,
+            24.20000432431707,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 154
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            24.20000432431707,
+            1.2619249343872596
+          ],
+          "triangle_pairs": 122
+        },
+        {
+          "moving": "Zeiss objective black aperture.004",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            15.488192852068677,
+            7.625580040508992,
+            0.981546944854389
+          ],
+          "triangle_pairs": 25
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            24.20000432431707,
+            1.3999994844198227
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            24.20000432431707,
+            1.2619249343872596
+          ],
+          "triangle_pairs": 152
+        },
+        {
+          "moving": "Zeiss objective black aperture.004",
+          "target": "device_chip",
+          "aabb_overlap_mm": [
+            4.186543376857407,
+            7.125581355536467,
+            0.2815475518904431
+          ],
+          "contained_by": [
+            "Zeiss objective black aperture.004"
+          ]
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            17.100010998547077,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 178
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            40.3571545685667,
+            24.610205070950407,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 32
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 137
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "device_chip",
+          "aabb_overlap_mm": [
+            9.000000543892384,
+            9.000000543892384,
+            0.4000000189989805
+          ],
+          "contained_by": [
+            "Zeiss machined objective 20"
+          ]
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Glass sample slide",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            24.20000432431707,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 224
+        },
+        {
+          "moving": "Zeiss objective black aperture.004",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            15.488192852068677,
+            7.625580040508992,
+            0.981546944854389
+          ],
+          "triangle_pairs": 25
+        },
+        {
+          "moving": "Zeiss objective black aperture.004",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            4.22557945669949,
+            4.000000189989805
+          ],
+          "triangle_pairs": 126
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            40.3571545685667,
+            40.35849509655576,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 30
+        },
+        {
+          "moving": "Zeiss objective black aperture.004",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            15.488192852068677,
+            15.958950336564554,
+            0.981546944854389
+          ],
+          "triangle_pairs": 22
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334279,
+            5.200000799334275,
+            2.061933587119036
+          ],
+          "triangle_pairs": 112
+        },
+        {
+          "moving": "Zeiss objective black aperture",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            0.8399991053522783,
+            5.200000799334275,
+            0.50000058164823
+          ],
+          "triangle_pairs": 68
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            17.100010998547077,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 178
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            24.20000432431707,
+            1.2619249343872596
+          ],
+          "triangle_pairs": 152
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334279,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 84
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            24.20000432431707,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 130
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Glass sample slide",
+          "aabb_overlap_mm": [
+            14.600002206861973,
+            24.20000432431707,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 154
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            24.20000432431707,
+            1.2619249343872596
+          ],
+          "triangle_pairs": 122
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Specimen clamp knurled screw.001",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 35
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 20,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            11.099993981421086,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 74
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.20000173151493,
+            24.20000432431707,
+            1.2619249343872596
+          ],
+          "triangle_pairs": 152
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            13.693280458450447,
+            17.100012271060006,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 94
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Curved holder pivot",
+          "aabb_overlap_mm": [
+            5.40000300415981,
+            10.60000222044391,
+            2.0000000949949026
+          ],
+          "triangle_pairs": 34
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            10.846134616388337,
+            1.3999994844198227
+          ],
+          "triangle_pairs": 72
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            24.200007674005764,
+            0.2619270373217242
+          ],
+          "triangle_pairs": 148
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Glass sample slide",
+          "aabb_overlap_mm": [
+            14.600004941225182,
+            24.200007674005764,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 154
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            24.200007674005764,
+            0.2619270373217242
+          ],
+          "triangle_pairs": 113
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            24.200007674005764,
+            1.3999994844198227
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            24.200007674005764,
+            0.2619270373217242
+          ],
+          "triangle_pairs": 148
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            17.100012271060006,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 178
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 156
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "device_chip",
+          "aabb_overlap_mm": [
+            9.000000543892384,
+            9.000000543892384,
+            0.4000000189989805
+          ],
+          "contained_by": [
+            "Zeiss machined objective 50"
+          ]
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Glass sample slide",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            24.200007674005764,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 224
+        },
+        {
+          "moving": "Zeiss objective black aperture",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            4.38777467758715,
+            4.000000189989805
+          ],
+          "triangle_pairs": 134
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334279,
+            5.200000799334275,
+            1.0619356900535004
+          ],
+          "triangle_pairs": 110
+        },
+        {
+          "moving": "Zeiss objective black aperture.001",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            0.840001907143115,
+            5.200000799334275,
+            0.5000009985441922
+          ],
+          "triangle_pairs": 68
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            17.100012271060006,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 178
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            24.200007674005764,
+            0.2619270373217242
+          ],
+          "triangle_pairs": 148
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334279,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 26
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            24.200007674005764,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 130
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Glass sample slide",
+          "aabb_overlap_mm": [
+            14.600005201995641,
+            24.200007674005764,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 154
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            24.200007674005764,
+            0.2619270373217242
+          ],
+          "triangle_pairs": 114
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 1,
+      "mag": 50,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            11.099996058596851,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 74
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007461011808,
+            24.200007674005764,
+            0.2619270373217242
+          ],
+          "triangle_pairs": 148
+        }
+      ]
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Optical coating.001",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            1.126314483552937,
+            2.4187356283545403
+          ],
+          "triangle_pairs": 30
+        },
+        {
+          "moving": "Zeiss machined objective 50",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 155
+        },
+        {
+          "moving": "Zeiss objective black aperture.001",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            4.549965622735616,
+            3.2624496678538284
+          ],
+          "triangle_pairs": 138
+        }
+      ]
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 2,
+      "mag": 5,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Optical coating.003",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            5.193273751065156,
+            7.200001257662708,
+            0.3000011764138777
+          ],
+          "triangle_pairs": 22
+        },
+        {
+          "moving": "Optical coating.003",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            7.200001236051364,
+            2.346133106949297,
+            0.3000011764138777
+          ],
+          "triangle_pairs": 26
+        },
+        {
+          "moving": "Zeiss machined objective 10",
+          "target": "Curved holder pivot",
+          "aabb_overlap_mm": [
+            5.4000036747119236,
+            10.60000222044391,
+            1.5619251498078524
+          ],
+          "triangle_pairs": 49
+        },
+        {
+          "moving": "Zeiss machined objective 10",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            24.200011655688915,
+            10.846137305533077,
+            0.06192781432173833
+          ],
+          "triangle_pairs": 43
+        },
+        {
+          "moving": "Zeiss objective black aperture.003",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            7.833274109661583,
+            11.240010578586714,
+            0.11192611410540398
+          ],
+          "triangle_pairs": 50
+        },
+        {
+          "moving": "Zeiss objective black aperture.003",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            12.480001953244217,
+            4.986132923915046,
+            0.3119267056815034
+          ],
+          "triangle_pairs": 44
+        }
+      ]
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Optical coating.003",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            7.200001236051364,
+            7.200001257662708,
+            0.3000011764138777
+          ],
+          "triangle_pairs": 26
+        },
+        {
+          "moving": "Zeiss machined objective 10",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            24.200011655688915,
+            24.200006495783917,
+            0.06192781432173833
+          ],
+          "triangle_pairs": 78
+        },
+        {
+          "moving": "Zeiss objective black aperture.003",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            12.480001953244217,
+            12.480000891594207,
+            0.3119267056815034
+          ],
+          "triangle_pairs": 77
+        }
+      ]
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss objective black aperture.003",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            12.480001953244217,
+            11.240010578586714,
+            0.11192611410540398
+          ],
+          "triangle_pairs": 85
+        }
+      ]
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Curved holder pivot",
+          "aabb_overlap_mm": [
+            10.60000222044391,
+            10.60000222044391,
+            2.0000000949949026
+          ],
+          "triangle_pairs": 44
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            40.431681966948545,
+            18.356321887947807,
+            1.3999994844198227
+          ],
+          "triangle_pairs": 37
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Specimen holder thumb lever",
+          "aabb_overlap_mm": [
+            11.962611174750364,
+            13.000000268220901,
+            4.000000189989805
+          ],
+          "triangle_pairs": 35
+        }
+      ]
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 10",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334279,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 59
+        },
+        {
+          "moving": "Zeiss objective black aperture.003",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            12.480001953244217,
+            11.240010578586714,
+            0.11192611410540398
+          ],
+          "triangle_pairs": 85
+        },
+        {
+          "moving": "Zeiss objective black aperture.003",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            0.8399963396967646,
+            5.200000799334275,
+            0.188068021007598
+          ],
+          "triangle_pairs": 48
+        }
+      ]
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Optical coating.003",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            7.200001236051364,
+            7.200001257662708,
+            0.3000011764138777
+          ],
+          "triangle_pairs": 18
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            43.38491779238157,
+            24.610199542619476,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 32
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Specimen clamp knurled screw.001",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 84
+        },
+        {
+          "moving": "Zeiss objective black aperture.003",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            12.480001953244217,
+            12.480000891594207,
+            0.11192611410540398
+          ],
+          "triangle_pairs": 53
+        },
+        {
+          "moving": "Zeiss objective black aperture.004",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            15.488190984953173,
+            7.625571652645352,
+            0.981546851871129
+          ],
+          "triangle_pairs": 25
+        }
+      ]
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 3,
+      "mag": 10,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Optical coating.003",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            7.200001236051364,
+            2.599991151692835,
+            0.3000011764138777
+          ],
+          "triangle_pairs": 36
+        },
+        {
+          "moving": "Zeiss objective black aperture.003",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            12.480001953244217,
+            5.239990968658584,
+            0.11192611410540398
+          ],
+          "triangle_pairs": 38
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Curved holder pivot",
+          "aabb_overlap_mm": [
+            5.400002743389349,
+            10.60000222044391,
+            0.5619254799641149
+          ],
+          "triangle_pairs": 27
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        -35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            13.693280793726725,
+            17.100012271060006,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 94
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Curved holder pivot",
+          "aabb_overlap_mm": [
+            5.400002743389349,
+            10.60000222044391,
+            2.0000000949949026
+          ],
+          "triangle_pairs": 34
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            10.846134616388337,
+            1.3999994844198227
+          ],
+          "triangle_pairs": 72
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            24.20000779321507,
+            2.2619273651472707
+          ],
+          "triangle_pairs": 152
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        -35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Glass sample slide",
+          "aabb_overlap_mm": [
+            14.60000527650146,
+            24.20000779321507,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 154
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            24.20000779321507,
+            2.2619273651472707
+          ],
+          "triangle_pairs": 121
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            24.20000779321507,
+            1.3999994844198227
+          ],
+          "triangle_pairs": 126
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            24.20000779321507,
+            2.2619273651472707
+          ],
+          "triangle_pairs": 152
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            17.100012271060006,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 178
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "device_chip",
+          "aabb_overlap_mm": [
+            9.000000543892384,
+            9.000000543892384,
+            0.4000000189989805
+          ],
+          "contained_by": [
+            "Zeiss machined objective 100"
+          ]
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Glass sample slide",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            24.20000779321507,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 224
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Curved holder pivot",
+          "aabb_overlap_mm": [
+            10.60000222044391,
+            10.60000222044391,
+            2.0000000949949026
+          ],
+          "triangle_pairs": 15
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Specimen holder thumb lever",
+          "aabb_overlap_mm": [
+            11.732531665565787,
+            13.000000268220901,
+            4.000000189989805
+          ],
+          "triangle_pairs": 27
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        0,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 0,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334279,
+            5.200000799334275,
+            3.061936017879047
+          ],
+          "triangle_pairs": 112
+        },
+        {
+          "moving": "Zeiss objective black aperture.004",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            0.8399972505302419,
+            5.200000799334275,
+            0.5000009985441922
+          ],
+          "triangle_pairs": 68
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            17.100012271060006,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 178
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            24.20000779321507,
+            2.2619273651472707
+          ],
+          "triangle_pairs": 152
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Specimen clamp knurled screw",
+          "aabb_overlap_mm": [
+            5.200000799334279,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 80
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        35,
+        0
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            24.20000779321507,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 130
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Glass sample slide",
+          "aabb_overlap_mm": [
+            14.600004941225182,
+            24.20000779321507,
+            1.0000000474974513
+          ],
+          "triangle_pairs": 154
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            24.20000779321507,
+            2.2619273651472707
+          ],
+          "triangle_pairs": 122
+        },
+        {
+          "moving": "Zeiss machined objective 20",
+          "target": "Specimen clamp knurled screw.001",
+          "aabb_overlap_mm": [
+            5.200000799334275,
+            5.200000799334275,
+            4.000000189989805
+          ],
+          "triangle_pairs": 81
+        }
+      ]
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 4,
+      "mag": 100,
+      "xy_mm": [
+        35,
+        25
+      ],
+      "focus_mm": 7,
+      "intersections": [
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            11.09999617780616,
+            1.7999988049268723
+          ],
+          "triangle_pairs": 74
+        },
+        {
+          "moving": "Zeiss machined objective 100",
+          "target": "Mechanical stage with longitudinal opening",
+          "aabb_overlap_mm": [
+            24.200007535517624,
+            24.20000779321507,
+            2.2619273651472707
+          ],
+          "triangle_pairs": 152
+        }
+      ]
+    }
+  ],
+  "illumination": [
+    {
+      "focus_mm": -10,
+      "field_to_condenser_xy_offset_mm": 7.00000673532486,
+      "lower_path_hits": [],
+      "condenser_to_specimen_hits": []
+    },
+    {
+      "focus_mm": 0,
+      "field_to_condenser_xy_offset_mm": 7.00000673532486,
+      "lower_path_hits": [],
+      "condenser_to_specimen_hits": []
+    },
+    {
+      "focus_mm": 7,
+      "field_to_condenser_xy_offset_mm": 7.00000673532486,
+      "lower_path_hits": [],
+      "condenser_to_specimen_hits": []
+    }
+  ],
+  "bench": [],
+  "holder_specimen": {
+    "intersections": [
+      {
+        "moving": "Asymmetric fixed specimen-holder plate",
+        "target": "Glass sample slide",
+        "aabb_overlap_mm": [
+          74.0932784974575,
+          25.00000037252903,
+          0.6000007851980627
+        ],
+        "triangle_pairs": 50
+      }
+    ],
+    "bounds_mm": {
+      "Asymmetric fixed specimen-holder plate": [
+        [
+          -54.934848099946976,
+          -94.00000050663948,
+          184.79999992996454
+        ],
+        [
+          36.593277007341385,
+          -39.99999910593033,
+          186.59999873489141
+        ]
+      ],
+      "Curved holder pivot": [
+        [
+          41.70000180602074,
+          -56.299999356269836,
+          186.29999656695873
+        ],
+        [
+          52.30000242590904,
+          -45.69999873638153,
+          188.29999666195363
+        ]
+      ],
+      "Curved specimen retaining arm": [
+        [
+          17.530931159853935,
+          -107.71533474326134,
+          185.3999998420477
+        ],
+        [
+          58.889325708150864,
+          -46.253876760602,
+          186.7999993264675
+        ]
+      ],
+      "Specimen clamp knurled screw": [
+        [
+          -45.60000146739185,
+          -48.60000009648502,
+          186.80000700987875
+        ],
+        [
+          -40.400001453235745,
+          -43.400000082328916,
+          190.80000719986856
+        ]
+      ],
+      "Specimen clamp knurled screw.001": [
+        [
+          12.400000588968396,
+          -48.60000009648502,
+          186.80000700987875
+        ],
+        [
+          17.6000006031245,
+          -43.400000082328916,
+          190.80000719986856
+        ]
+      ],
+      "Specimen holder thumb lever": [
+        [
+          46.000001952052116,
+          -58.50000120699406,
+          186.4000002387911
+        ],
+        [
+          70.00000216066837,
+          -45.500000938773155,
+          190.4000004287809
+        ]
+      ],
+      "device_chip": [
+        [
+          -4.500000271946192,
+          -74.50000056996942,
+          185.4999993229285
+        ],
+        [
+          4.500000271946192,
+          -65.50000002607703,
+          185.89999934192747
+        ]
+      ],
+      "Glass sample slide": [
+        [
+          -37.50000149011612,
+          -82.50000048428774,
+          184.40000066766515
+        ],
+        [
+          37.50000149011612,
+          -57.50000011175871,
+          185.4000007151626
+        ]
+      ]
+    }
+  },
+  "retracted_turret_sweep": [
+    {
+      "angle_rad": -3.141592653589793,
+      "intersections": []
+    },
+    {
+      "angle_rad": -3.0543261909900767,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.9670597283903604,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.8797932657906435,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.792526803190927,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.705260340591211,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.6179938779914944,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.5307274153917776,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.443460952792061,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.356194490192345,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.2689280275926285,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.181661564992912,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.0943951023931957,
+      "intersections": []
+    },
+    {
+      "angle_rad": -2.007128639793479,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.9198621771937625,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.832595714594046,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.7453292519943295,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.6580627893946132,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.5707963267948966,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.4835298641951802,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.3962634015954636,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.3089969389957472,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.2217304763960306,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.1344640137963142,
+      "intersections": []
+    },
+    {
+      "angle_rad": -1.0471975511965979,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.9599310885968815,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.8726646259971647,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.7853981633974483,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.6981317007977319,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.6108652381980155,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.5235987755982987,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.43633231299858233,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.34906585039886595,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.2617993877991496,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.1745329251994332,
+      "intersections": []
+    },
+    {
+      "angle_rad": -0.08726646259971638,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.08726646259971638,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.17453292519943275,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.2617993877991496,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.34906585039886595,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.43633231299858233,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.5235987755982987,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.6108652381980151,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.6981317007977319,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.7853981633974483,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.8726646259971647,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.959931088596881,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.0471975511965974,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.1344640137963138,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.2217304763960302,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.3089969389957474,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.3962634015954638,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.4835298641951802,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.5707963267948966,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.658062789394613,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.7453292519943293,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.8325957145940457,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.919862177193762,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.0071286397934784,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.0943951023931957,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.181661564992912,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.2689280275926285,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.356194490192345,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.443460952792061,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.5307274153917776,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.617993877991494,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.7052603405912103,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.7925268031909267,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.879793265790644,
+      "intersections": []
+    },
+    {
+      "angle_rad": 2.9670597283903604,
+      "intersections": []
+    },
+    {
+      "angle_rad": 3.0543261909900767,
+      "intersections": []
+    },
+    {
+      "angle_rad": 3.141592653589793,
+      "intersections": []
+    }
+  ],
+  "probe_combinations": [],
+  "limitations": [
+    "Photographic estimates, not metrology or an optical prescription.",
+    "Finite configuration samples, not a continuous collision proof.",
+    "Barrel lettering/coincident trim and inserted spindle/fastener seating are not all-pairs tested.",
+    "Unsafe extreme commands are logged; native contact must stop those configurations and is checked separately."
+  ],
+  "diagnostic_counts": {
+    "home_holder_specimen_intersections": 1,
+    "bench": 0,
+    "sweep_poses_with_hits": 37,
+    "retracted_turret_poses_with_hits": 0,
+    "probe_combinations_with_hits": 0
+  }
+}

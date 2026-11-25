@@ -16,6 +16,11 @@ export class ContactOverlay {
         else if(item.type==='cylinder')geometry=new T.CylinderGeometry(s[0],s[0],2*s[1],24);
         else if(item.type==='capsule')geometry=new T.CapsuleGeometry(s[0],2*s[1],6,16);
         else if(item.type==='plane')geometry=new T.PlaneGeometry(2*s[0]||1,2*s[1]||1).rotateX(-Math.PI/2);
+        else if(item.type==='mesh'){
+          geometry=new T.BufferGeometry();
+          geometry.setAttribute('position',new T.Float32BufferAttribute(item.vertices.flatMap(([x,y,z])=>[x,z,-y]),3));
+          geometry.setIndex(item.faces.flat());geometry.computeVertexNormals();
+        }
         else throw Error('Unsupported contact shape '+item.type);
         this.geometries.push(geometry);
         const mesh=new T.Mesh(geometry,this.material);mesh.name=item.name;mesh.userData.physicsOverlay=true;mesh.renderOrder=20;

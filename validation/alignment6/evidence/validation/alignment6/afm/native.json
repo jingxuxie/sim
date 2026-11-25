@@ -1,0 +1,4495 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "engine": "3.3.7",
+  "sources_sha256": {
+    "005_afm/cypher_s.xml": "5f67c75fb046d8660725a6af76a1933ab19e012d0978d6de6d52dd1154ee2321",
+    "005_afm/asset.json": "63180ad16c9d3c8c0030eb347fd258cc08bf7c40fc12aa2b58b9a4af7877fdfa",
+    "005_afm/build.py": "5f281df2240ea053fa0dcdae8125ffd0c56d266d4b5a8fb813e55953dcc7e1fd",
+    "005_afm/geometry_alignment6.py": "5a2b1cfa548be752a413e359f861c62b92a443edeed81be8d3dd2b906bb4b461",
+    "benchmarks/sim.py": "c8cee4b9a27a25dd2d3b47a97dca712c8eea8d3f442532a3527d373e8f01d21c",
+    "validation/alignment6/afm/check_native.py": "67b87b81e356d1d1a110e940dafc586c16eeeb443d9d3850334516537210eccf"
+  },
+  "alignment": {
+    "objective_xy_error_m": 1.6152097391985357e-09,
+    "tip_xy_error_m": 1.6152097391985357e-09,
+    "tip_standoff_m": 0.0013034684927803186,
+    "working_distance_m": 0.010700968492780294,
+    "axis_vertical_error": 0.0,
+    "sites": {
+      "objective_axis_top": [
+        0.008,
+        -0.04,
+        0.253
+      ],
+      "objective_front_center": [
+        0.008,
+        -0.04,
+        0.2115
+      ],
+      "afm_tip": [
+        0.008,
+        -0.04,
+        0.20210250000000002
+      ],
+      "specimen_surface_center": [
+        0.007999999939675142,
+        -0.03999999838591716,
+        0.2007990315072197
+      ]
+    }
+  },
+  "valid_sweep": [
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.005812496135043044,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.00573480329667238,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.005664595693111778,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.005601628800872092,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.005546951382059582,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.005512534402517085,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.005502335830873131,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.005517372553364217,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.005558322075809082,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.00538797013673566,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.005195731792298878,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.005007008815025208,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.004822004960917675,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.004640929980989124,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.004463998470999798,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.004291429627076221,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.0041234450789558305,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.003960268043355902,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.003802121122599173,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.003649224003735342,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.0035017913256096566,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.0033600299870891015,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.0032241361232968977,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.007336987683042895,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.007180801238839565,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.006983917490777849,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.006803421811683945,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.006639192374562008,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.0064910348322597886,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.006358682952226587,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.006241800244921031,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.006139982609328078,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.006052761503271915,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.005979608303887614,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.0059199389794402455,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.005873119623276875,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.005838472330161585,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.00581528121336451,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.005802799022330408,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.005800000001254592,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.0058000000000005165,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.005800000000357542,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.005800000000422187,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.005800000028256428,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.00580000000441009,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.044642857142857144,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.005755565197163578,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.009537617622778384,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.009228307849089006,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.008933396062391583,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.00865304263520795,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.008387357340398062,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.008136397621895957,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.007900166622700381,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.007678612156036554,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.007471626098258405,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.007279044436457535,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.007100647632943286,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.006936161997916007,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.006785261325379867,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.006647569541682774,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.006522663351949855,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.006410075953458857,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.006309300737582456,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.006219795793566157,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.0061409884599809995,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.006072279928188598,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.006013050645117053,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.005962664797047731,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04928571428571429,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.005920475778158031,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.012328382962822028,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.011948514312884262,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.011581037816366208,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.011226199682832809,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.010884212764412104,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.010555254819867353,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.010239466638756484,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.00993695064407339,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.009647769475159596,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.009371945106408049,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.009109458005166977,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.008860246894246783,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.008624208622167572,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.008401198724036737,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.008191032057953644,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.007993484124785547,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.00780829255290033,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.007635159273268319,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.007473752722845765,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.007323710636306788,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.0071846430880453845,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.0070561357187904515,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05392857142857143,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.006937753237691564,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.015585029126824955,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.015155003631201988,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.014735826478502329,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.014327775038416896,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.013931103658367814,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.013546042388734166,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.013172795610818036,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.012811541018431466,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.012462428348254957,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.012125578573053495,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.011801083059833656,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.011489002998076647,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.01118936885585756,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.010902180332589696,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.010627406267717137,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.010364985031003705,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.010114824911239974,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.009876805111908575,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.00965077670001786,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.009436563833731608,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.009233965712913494,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.009042758093364205,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.05857142857142857,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.00886269550125652,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.019171440810958857,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.018705925298312595,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.018250184005242105,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.01780450768997581,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.017369170113248393,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.016944427113040134,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.01653051569650983,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.016127653301269754,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.015736036911967437,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.015355842452343097,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.014987224150144692,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.014630314044834294,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.014285221548298465,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.013952033234445292,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.013630812636404123,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.013321600359484799,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.013024414162744068,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.01273924933286049,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.012466079266117073,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.01220485607773934,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.011955511526886576,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.011717957996781669,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06321428571428572,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.011492089796683702,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.02299234341060671,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.022501442022292137,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.0220195951697993,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.021547102269555505,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.02108424938298871,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.02063130856473487,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.020188537263176366,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.01975617773186499,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.019334456478659185,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.018923583802731885,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.018523753323090225,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.01813514166670192,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.017757908070361744,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.017392194256683615,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.017038124256829573,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.016695804381358238,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.016365323250601103,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.016046752038830023,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.01574014470106524,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.015445538360518781,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.015162953921912579,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.014892396508632196,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.06785714285714287,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.014633856468719097,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.02698252056779821,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.026473136319040094,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.02597232818290046,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.02548040290421477,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.024997656208052374,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.024524372403528633,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.02406082383598092,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.023607270492509737,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.02316395966256245,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.02273112547633901,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.022308988679287354,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.021897756296525444,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.021497621412931517,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.021108763026201738,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.02073134591106944,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.02036552060870168,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.02001142338343724,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.0196691763746377,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.01933888773206302,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.019020651858678236,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.01871454975731148,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.018420649426192082,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07250000000000001,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.018139006251634344,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.031097260816215378,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.030574149181535594,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.03005929364266946,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.02955300757816288,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.02905559495986171,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.02856734998936839,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.028088556726639652,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.027619488799875157,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.02716040905329835,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.0267115692635726,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.026273209932495458,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.02584556001639728,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.025428836785658538,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.025023245637652385,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.024628980055408686,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.024246221483649643,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.02387513938546763,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.023515891244950873,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.023168622681951342,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.022833467565695254,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.02251054827533881,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.022199975912849803,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.07714285714285715,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.021901850586976912,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.03530551402373536,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.03477200319124009,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.03424653178236878,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.033729419100212016,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.03322097619149124,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.032721505473010754,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.03223130048535363,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.03175064558931937,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.03127981570772606,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.030819076124937072,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.030368682220520717,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.02992887932563757,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.02949990252255158,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.029081976574174478,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.02867531575832799,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.028280123858117658,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.0278965940917216,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.02752490912898435,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.027165241168744268,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.02681775195029151,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.026482592943024626,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.026159905459673123,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08178571428571428,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.025849820869273354,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.03958533485718585,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.03904379778612042,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.03851015133006518,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.037984720019213665,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.037467820892766374,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.036959763213849715,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.036460848238537714,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.035971368934980916,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.03549160977474692,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.03502184652722123,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.03456234605546407,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.03411336613840044,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.0336751553644788,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.033247952944961086,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.032831988644760814,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.032427482714279095,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.03203464580942751,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.03165367898452638,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.03128477368149878,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.030928111803536783,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.030583865700894015,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.03025219833554632,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.08642857142857144,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.029933263323907732,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.043920915483105345,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.04337307664267627,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.04283302473420394,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.04230108880761653,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.04177759098875087,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.04126284624403858,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.04075716212723605,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.04026083856527164,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.039774167634887635,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.03929743340130129,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.03883091169053431,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.03837486995319219,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.03792956710816046,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.037495253415064246,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.037072170379317454,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.036660550632984075,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.03626061788507385,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.03587258685752532,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.035496663289688146,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.035133043888733353,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.03478191636930478,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.034443459469962565,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09107142857142858,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.03411784305161801,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.048300653059390006,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.047747788904585746,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.047202638478204495,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.046665534697611914,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.04613680398638787,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.04561676604052705,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.04510573360479851,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.04460401225995916,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.044111900218263486,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.04362968814598884,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.043157658963763314,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.042696087719060916,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.04224524140201853,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.041805378832131194,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.0413767505354828,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.0409595986408064,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.04055415679075407,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.04016065009330238,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.039779295035109775,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.03941029946727768,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.03905386257980826,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.0387101748888715,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.09571428571428572,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.0383794182860542,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.052715877741767087,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.05215894959696977,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.051609682868668016,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.051068413779199365,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.05053547236615945,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.05001118228460636,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.04949586056027527,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.04898981740210958,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.048493356001778856,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.04800677234736853,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.04753035504875803,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.04706438517212974,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.046609136096121315,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.04616487335405904,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.045731854542907395,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.0453103291699806,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.04490053857649324,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.044502715845797944,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.044117085730601274,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.0437438645843364,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.04338326034814291,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.04303547247445097,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10035714285714285,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.04270069193416009,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.05716000280619037,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.025,
+      "minimum_distance_m": 0.05659974630904469,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.05,
+      "minimum_distance_m": 0.05604711346931652,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.07500000000000001,
+      "minimum_distance_m": 0.055502443318405016,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.1,
+      "minimum_distance_m": 0.054966068957242646,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.125,
+      "minimum_distance_m": 0.05443831733623531,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.15000000000000002,
+      "minimum_distance_m": 0.05391950904395915,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.17500000000000002,
+      "minimum_distance_m": 0.053409958097131845,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.2,
+      "minimum_distance_m": 0.0529099717727779,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.225,
+      "minimum_distance_m": 0.05241985038714994,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.25,
+      "minimum_distance_m": 0.05193988714268919,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.275,
+      "minimum_distance_m": 0.05147036795733142,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.30000000000000004,
+      "minimum_distance_m": 0.051011571309309625,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.325,
+      "minimum_distance_m": 0.0505637680925429,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.35000000000000003,
+      "minimum_distance_m": 0.050127221481507875,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.375,
+      "minimum_distance_m": 0.04970218681372302,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.4,
+      "minimum_distance_m": 0.04928891146213673,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.42500000000000004,
+      "minimum_distance_m": 0.04888763477100346,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.45,
+      "minimum_distance_m": 0.04849858792357741,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.47500000000000003,
+      "minimum_distance_m": 0.048121993890738686,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.5,
+      "minimum_distance_m": 0.04775806735896819,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.525,
+      "minimum_distance_m": 0.047407014675437245,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.10500000000000001,
+      "lift_rad": 0.55,
+      "minimum_distance_m": 0.04706903379589941,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_brace_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.006349999999999994,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.00624604147727817,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.006142167017780613,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.006038378283496486,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.005934676935043321,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.005831064631640458,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.005727543031082528,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.005624113789712976,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.005520778562397438,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.005417539002497336,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.0,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.005314396761843476,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.005459603330044413,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.0054665231485696375,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.005473547407855749,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.0054806735653608165,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.005487899134696539,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.0054952217469606685,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.005502638844840454,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.0055101481925306775,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.005517747339865941,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.0054175390024973355,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.004,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.005314396761843476,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_3",
+        "cantilever_carrier__Chip_support_extension"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.003666492786501618,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.00368818002001111,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.003710035206967246,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.0037320575073157116,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.0037542460533325395,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.0037765999113139157,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.0037991183351032743,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.0038218002755247608,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.0038446449387557857,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.003867651335152145,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.008,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.003890818606493199,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.002066143969614496,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.0020791058023755422,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.0020922292149219333,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.0021055143006597017,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.0021189610258643115,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.0021325696087589855,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.0021463400463557535,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.00216027222502046,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.0021743662782216676,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.002188622147939928,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.012,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.002203039727586519,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.001329981757939017,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.0013326493662814574,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.0013354444258400718,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.0013383683289887494,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.0013414224885871144,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.0013446079885362065,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.001347926584802462,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.0013513789625187837,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.0013549666747788497,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.0013586908029170732,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.016,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.0013625524646650924,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.0013000001575086521,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.0013000000576829766,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.0013000000624259708,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.001300000067416381,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.001300000072768046,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.0013000000786280057,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.001300000002714388,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.0013000000037434436,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.0013000000050983815,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.0013000000066816521,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.02,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.0013000000088994807,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.001300000067915552,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.0013000000921923548,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.0013000001625556134,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.0013000001823679878,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.0013000001960080665,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.0013000002040085392,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.0013000002071013271,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.0013000002060787068,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.0013000002017145827,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.0013000001947227862,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.024,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.001300000185737892,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.0015784696201260112,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.0015686288018975714,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.0015589683368565377,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.0015494882342465314,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.0015401879251927381,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.001531067564437654,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.0015221265520741524,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.0015133648641267716,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.001504782733481262,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.0014963791469008124,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.028000000000000004,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.001488154476620027,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.0027708041842111177,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.002749723383091914,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.0027287806688126633,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.0027079765581195857,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.00268731124094052,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.0026667852499496587,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.002646399006006626,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.0026261528422982013,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.0026060470212310185,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.002586082112114894,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.032,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.0025662583940629854,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.004727001864633373,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.0046978395456581164,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.004668765055814004,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.004639778842301488,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.004610881687396306,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.004582073925859442,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.004553356353779668,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.004524729369424383,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.004496193708710064,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.004467749874698262,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.036,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.0044393984941733505,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Holder_side_screw_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.0,
+      "minimum_distance_m": 0.005812496135043044,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.004,
+      "minimum_distance_m": 0.005799552808717511,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.008,
+      "minimum_distance_m": 0.005786805994408637,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.012,
+      "minimum_distance_m": 0.005774254783787108,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.016,
+      "minimum_distance_m": 0.005761898285830795,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.02,
+      "minimum_distance_m": 0.005749735580117085,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.024,
+      "minimum_distance_m": 0.005737765716849584,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.028000000000000004,
+      "minimum_distance_m": 0.0057259877672475555,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.032,
+      "minimum_distance_m": 0.005714400726860282,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.036,
+      "minimum_distance_m": 0.005703003701911044,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    },
+    {
+      "drawer_m": 0.04,
+      "lift_rad": 0.04,
+      "minimum_distance_m": 0.0056917956441919874,
+      "closest_pair": [
+        "inspection_objective__Objective_contact_barrel_2",
+        "cantilever_carrier__Clamp_upper_contact"
+      ]
+    }
+  ],
+  "forced_unsafe_lift": {
+    "remove_contact_pairs": false,
+    "max_lift_rad": 0.25363466754029823,
+    "final_lift_rad": 0.2532471247510798,
+    "contact_samples": 5589,
+    "peak_penetration_m": 9.25876889446009e-06,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "contact_removed_negative_control": {
+    "remove_contact_pairs": true,
+    "max_lift_rad": 0.5633370677064049,
+    "final_lift_rad": 0.5592980224355292,
+    "contact_samples": 0,
+    "peak_penetration_m": 0,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "tasks": [
+    {
+      "task": "afm.access",
+      "seed": 0,
+      "baseline": true,
+      "success": true,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.access",
+      "seed": 0,
+      "baseline": false,
+      "success": false,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.access",
+      "seed": 11,
+      "baseline": true,
+      "success": true,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.access",
+      "seed": 11,
+      "baseline": false,
+      "success": false,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.access",
+      "seed": 37,
+      "baseline": true,
+      "success": true,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.access",
+      "seed": 37,
+      "baseline": false,
+      "success": false,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 0,
+      "baseline": true,
+      "success": true,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 0,
+      "baseline": false,
+      "success": false,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 11,
+      "baseline": true,
+      "success": true,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 11,
+      "baseline": false,
+      "success": false,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 37,
+      "baseline": true,
+      "success": true,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 37,
+      "baseline": false,
+      "success": false,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "withdrawn_service": {
+    "drawer_m": 0.10000000531554692,
+    "lift_rad": 0.540275049100138,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "objective_contacts": []
+  },
+  "scope": "Compiled native sites and mask-independent cylinder/holder distances over466 valid states. Fixtures-disabled torque test requires native contacts to stop a docked lift, with contact-pair removal as a negative control. Existing access/cycle fixture tasks are regression tests, not an AFM scanning calibration.",
+  "passed": true
+}

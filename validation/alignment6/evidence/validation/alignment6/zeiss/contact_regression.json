@@ -1,0 +1,412 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "xml_sha256": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+  "script_sha256": "2dc0cb0a19a8f35f8c31c96dfee8a20d322beff9f408299307d488353d9a4618",
+  "method": "Only ordinary fixture control commands and mj_step after reset. Retract/index, approach sample and offset holders, hold, then retract. Actual loaded body poses are recorded for independent detailed-mesh verification. No instrument qpos overwrite after reset.",
+  "cases": [
+    {
+      "station": 0,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "contact_samples": 86625,
+      "maximum_contact_penetration_mm": 0.005247933865863534,
+      "peak_normal_force_N": 9.658485868184227,
+      "loaded_focus_mm": 2.3925136377058305,
+      "contact_pairs": [
+        [
+          "stage_x__device_chip",
+          "turret__Objective_front_glass_20"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999928115507796,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 0,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "contact_samples": 95893,
+      "maximum_contact_penetration_mm": 0.0052402979158804285,
+      "peak_normal_force_N": 9.630813759017187,
+      "loaded_focus_mm": 0.09570097023035752,
+      "contact_pairs": [
+        [
+          "stage_x__Specimen_clamp_screw_contact",
+          "turret__Objective_front_aperture_20"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999957439745465,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "contact_samples": 78060,
+      "maximum_contact_penetration_mm": 0.00522846606030068,
+      "peak_normal_force_N": 9.565627440015378,
+      "loaded_focus_mm": 3.392434455466946,
+      "contact_pairs": [
+        [
+          "stage_x__device_chip",
+          "turret__Objective_front_glass_50"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999910215380477,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 1,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "contact_samples": 93224,
+      "maximum_contact_penetration_mm": 0.005227173987545247,
+      "peak_normal_force_N": 9.568766015608036,
+      "loaded_focus_mm": 1.0950350815535166,
+      "contact_pairs": [
+        [
+          "stage_x__Specimen_clamp_screw_contact",
+          "turret__Objective_front_aperture_50"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999946445726118,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 2,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "contact_samples": 0,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "loaded_focus_mm": 6.025984835974773,
+      "contact_pairs": [],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999844167019068,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 2,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "contact_samples": 0,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "loaded_focus_mm": 6.025984835974779,
+      "contact_pairs": [],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999844167019068,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 3,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "contact_samples": 12496,
+      "maximum_contact_penetration_mm": 0.006606697392719331,
+      "peak_normal_force_N": 12.091173841163888,
+      "loaded_focus_mm": 5.766925777576402,
+      "contact_pairs": [
+        [
+          "stage_x__Specimen_thumb_lever_contact",
+          "turret__Objective_front_shoulder_100"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999852124052393,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 3,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "contact_samples": 56552,
+      "maximum_contact_penetration_mm": 0.005244035626064358,
+      "peak_normal_force_N": 9.647933271212668,
+      "loaded_focus_mm": 5.09538581900834,
+      "contact_pairs": [
+        [
+          "stage_x__Specimen_clamp_screw_contact",
+          "turret__Objective_front_aperture_10"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999870810095479,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 4,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "contact_samples": 95205,
+      "maximum_contact_penetration_mm": 0.005232299513878786,
+      "peak_normal_force_N": 9.584086536460987,
+      "loaded_focus_mm": 1.3923489246290726,
+      "contact_pairs": [
+        [
+          "stage_x__device_chip",
+          "turret__Objective_front_glass_100"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999942687782058,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 4,
+      "xy_mm": [
+        35,
+        -25
+      ],
+      "contact_samples": 97688,
+      "maximum_contact_penetration_mm": 0.005238480917763991,
+      "peak_normal_force_N": 9.621107502024943,
+      "loaded_focus_mm": -0.903803825809214,
+      "contact_pairs": [
+        [
+          "stage_x__Specimen_clamp_screw_contact",
+          "turret__Objective_front_aperture_100"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999966232201113,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "tasks": [
+    {
+      "task": "zeiss.center",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.74,
+      "wall_s": 0.097,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.2209695727150956e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.98,
+      "wall_s": 0.132,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.2010513534791074e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.78,
+      "wall_s": 0.102,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.165867887940416e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.92,
+      "wall_s": 0.124,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 5.138643419647006e-07
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.58,
+      "wall_s": 0.075,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 5.194277567353872e-07
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.88,
+      "wall_s": 0.114,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 5.378440583503384e-07
+      },
+      "events": [],
+      "controller": "bench fixture"
+    }
+  ],
+  "passed": true,
+  "loaded_poses": {
+    "path": "validation/alignment6/zeiss/loaded_contact_poses.json",
+    "sha256": "227d70113ae57fefa215e95a5b0ce4100ad3521b724dce936b77c938d28963c7"
+  }
+}

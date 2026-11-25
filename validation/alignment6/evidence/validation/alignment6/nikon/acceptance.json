@@ -1,0 +1,151 @@
+{
+  "revision": "alignment6",
+  "asset": "nikon",
+  "passed": true,
+  "source_sha256": "78eda10025ea6d7e453508bcf5b8c2381914bbf6bbba89a01cf401b2a938636f",
+  "xml_sha256": "1015fe7df302e677ea0c665d3b03d454f59d42c2f95e2c394e21fce403fe4172",
+  "checks": [
+    {
+      "check": "all_fitted_optical_axes_and_home_paths",
+      "passed": true,
+      "indexed_objectives": 4
+    },
+    {
+      "check": "assembled_holder_slide_chip_supports",
+      "passed": true,
+      "fits": [
+        {
+          "check": "carrier_on_stage",
+          "gap_mm": 8.236384019255638e-06,
+          "upper": [
+            "Inset sample carrier"
+          ],
+          "lower": [
+            "Black 212.5 mm mechanical stage"
+          ],
+          "passed": true
+        },
+        {
+          "check": "slide_on_carrier",
+          "gap_mm": -8.003553375601768e-06,
+          "upper": [
+            "Specimen slide"
+          ],
+          "lower": [
+            "Inset sample carrier"
+          ],
+          "passed": true
+        },
+        {
+          "check": "clips_on_slide",
+          "gap_mm": -9.546056389808655e-06,
+          "upper": [
+            "Slide spring clip",
+            "Slide spring clip.001"
+          ],
+          "lower": [
+            "Specimen slide"
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "check": "full_travel_control_and_cable_exteriors",
+      "passed": true,
+      "domain": {
+        "focus_mm": [
+          -10,
+          -5,
+          0,
+          4
+        ],
+        "stage_xy_mm": {
+          "x": [
+            -39,
+            0,
+            39
+          ],
+          "y": [
+            -27,
+            0,
+            27
+          ]
+        }
+      }
+    },
+    {
+      "check": "sampled_objective_work_surface_contact_coverage",
+      "passed": true,
+      "poses": 108,
+      "unsafe_poses_with_native_contact": 12
+    },
+    {
+      "check": "mechanism_datums_unchanged",
+      "passed": true
+    }
+  ],
+  "baseline_findings": [
+    "Detailed fitted objectives intersected fixed exteriors at all 80 tested indexed/intermediate turret poses.",
+    "Carrier and spring clips penetrated the slide by 0.1 and 0.2 mm. Front glass extended 0.26 mm beyond native contact, leaving six sampled unsafe poses without a contact."
+  ],
+  "baseline_failures_are_not_final_acceptance": true,
+  "source_reports": [
+    {
+      "path": "validation/alignment6/nikon/before_geometry.json",
+      "sha256": "8a6bf1a06c56012704bda659921ad5cccabb008336183cf5baed23a1be8bd092"
+    },
+    {
+      "path": "validation/alignment6/nikon/before_native_audit.json",
+      "sha256": "5106e66577cef5351bd6a4ebf4fe2018791709dcca868aa1721dea0d69129a60"
+    },
+    {
+      "path": "validation/alignment6/nikon/after_geometry.json",
+      "sha256": "99e912c725c664e2fa479c1c6aea3724946cddcf3fd5e7a7458f799fd4118402"
+    },
+    {
+      "path": "validation/alignment6/nikon/after_native_audit.json",
+      "sha256": "22a4c34ae9577dd98a321c0fe17452ce5bf17ee35dcf85bda9a747644f75064d"
+    },
+    {
+      "path": "validation/alignment6/nikon/support_fits.json",
+      "sha256": "78120ea2ce9f440a3b03bb798fad3a905bd1b1bed61403a2a2949dc9e2642e89"
+    },
+    {
+      "path": "validation/alignment6/nikon/datums.json",
+      "sha256": "ac4f44dcad751183fbcbfe806d6a54103891b60442e8a22e1008001bf35ddb89"
+    },
+    {
+      "path": "validation/alignment6/nikon/sections.json",
+      "sha256": "b962375843175892eae49e3aa5d5b93307e41cc7b43c22a92fed961a01016466"
+    },
+    {
+      "path": "validation/alignment6/nikon/section_plot_report.json",
+      "sha256": "08bac5ef8133c1f6aa0ea86f893255f5c934cdfeae83c333c830068445142f72"
+    },
+    {
+      "path": "validation/alignment6/nikon/clearance_regression.json",
+      "sha256": "bf0e55c994b6d074686eac0ed93fdd5933fabed16b51a60d8074de4b32804e61"
+    },
+    {
+      "path": "validation/alignment6/nikon/fixed_sweep.json",
+      "sha256": "14f76a7e10af9ad0d1e0ca82e0941c08f4730843e52313c1d9dcfb135263044f"
+    },
+    {
+      "path": "validation/alignment6/nikon/contact_regression.json",
+      "sha256": "ec9e63005e2968ffc491821e3fc29aa3c73d93eb9f42df641b12932bf10453ed"
+    },
+    {
+      "path": "validation/alignment6/nikon/clip_contact_regression.json",
+      "sha256": "a14f80526bcc9cbc93160586a106fa7fd9c18926ba8d6c211bf63d26dbd26bbc"
+    },
+    {
+      "path": "validation/alignment6/nikon/loaded_geometry.json",
+      "sha256": "e70d9e2a6b1c1f99f672c4619029834ad62608811e98a4f4aaec8684ac3d22a7"
+    },
+    {
+      "path": "validation/alignment6/nikon/loaded_clip_geometry.json",
+      "sha256": "4f2b435f5ea744bd034d936d182c12a920f4927741cd8137ab4e95d375592900"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "changed": true,
+  "passed": true,
+  "frozen": true,
+  "scope": "Detailed optical support/workfield correction, native contact coverage and retained table/mechanism regression checks.",
+  "changes": [
+    "Set the fixed SZ51 focus support back 20 mm, extend the guide running faces and add a distinct moving rear pad, neck and dovetail carriage.",
+    "Replace the bulky vertical collet with a narrow descending taper swept rearward; move the visible yoke, transducer, rods and spool structure back 10 mm without moving the tip, shank, benchmark pads or contact targets.",
+    "Add native lower-sleeve cylinders, front-glass contact and 24 illuminator-ring segments; retain the 40 N focus-force cap and apply a 5 mm/s focus target slew.",
+    "Regenerate ten source-matched stills and three identical-camera comparisons. The geometric pupil view disables depth of field in memory only, with the exact override recorded.",
+    "Preserve the separate upper head/lower hand lever, 8:1 equivalent coupling, reference5 metal finishes, heater mica maps and platen/chip contacts."
+  ],
+  "findings": [
+    {
+      "finding": "The molded optical shell intersected the fixed fork, dovetail or buried screws in all 32 sampled source configurations.",
+      "correction": "Set-back fork and explicit moving carriage clear the optical shell in all 32 source poses and 28 measured frames."
+    },
+    {
+      "finding": "All 33 sampled pupil-to-pad/tip rays were obstructed by the oversized front collet.",
+      "correction": "The tapered collet and set-back yoke open a shared front-aperture point to both benchmark pads. 28 of 33 sampled rays remain blocked by opaque hardware; central/underside visibility is not claimed."
+    },
+    {
+      "finding": "The moving microscope assembly had no native contact geometry.",
+      "correction": "Add lower optics contacts and validate inserted-probe fixture/external-force stops, retraction, offset-probe and contacts-disabled causal controls, separately from the clear original operating envelope."
+    }
+  ],
+  "current_artifacts_sha256": {
+    "004_wire_bonder/build.py": "67e61f54406db145f41b2ca87d6fb95799606048b1942ed24d0f43d03f7cc0a4",
+    "004_wire_bonder/hardware_7700.py": "c17932087d0478cc57c0622a4d691ffeefbcfac9b056dbc54dba25da10abde30",
+    "004_wire_bonder/make_heater_texture.py": "ea916532ffabd344f140e5c533306560c797c9223a99536d01d9077a1f06414a",
+    "004_wire_bonder/wire_bonder.blend": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+    "004_wire_bonder/wire_bonder.xml": "e8a626df50db11cd9598e1059ebf72f9246ffad71ef18d3cfc076d10095fc5fc",
+    "004_wire_bonder/asset.json": "55d66a26a4e00b3587ab2c586d0f1d2b26013a55f7afae80ef68d13b2b0b6760",
+    "004_wire_bonder/assets/wire_bonder.glb": "3e08502348bdc774b6e7837e2b4a57278c5ee8262a93271ec3dfa4e77f3b7015",
+    "004_wire_bonder/assets/meshes.json": "ffd4faa84db0598f06e9e49cad1379cb06059a4d1a3cc89c98bd6613a86f5491"
+  },
+  "reports": [
+    {
+      "path": "validation/alignment6/bonder/geometry_acceptance.json",
+      "sha256": "6a4358c29f2d46704d2ff3a0712cf7fc5a2da297e2eda4b7935d2bbef8f34af0"
+    },
+    {
+      "path": "validation/alignment6/bonder/native_optics.json",
+      "sha256": "511a2d8801a2d66bda51d95ced4291299830335902845aa22bc2027faebd3622"
+    },
+    {
+      "path": "validation/alignment6/bonder/current.json",
+      "sha256": "f2a144633ec2ffa30b5e0b80568766dd1b8936eb9a8774e84acbe7975ace6b32"
+    },
+    {
+      "path": "validation/alignment6/bonder/native.json",
+      "sha256": "79ee273622d00b1c87a8f0e0a0bfad57340753fc9d49d004ba3f704ae5675ed9"
+    },
+    {
+      "path": "validation/alignment6/bonder/portable.json",
+      "sha256": "21e0e23e573eac1c227db471259565c05e94e8b8909f87ada5715c0cf1f19b62"
+    }
+  ],
+  "diagnostics": [
+    {
+      "path": "validation/alignment6/bonder/current_optical_mesh.json",
+      "sha256": "6b2b4ce00f3c7d0c49490eee2b35408b7d21bfebdf9fdba998530f0109cbf024"
+    }
+  ],
+  "baseline_diagnostics": [
+    {
+      "path": "validation/alignment6/bonder/before_optical_mesh.json",
+      "sha256": "88e3867df5cccfa51c6f10967d56fba4a4f2adfa7da8558be885f112db2714ea"
+    }
+  ],
+  "baseline_public_commit": "09a77ffe4e7a7a140b9e663f164781b76a6c6e41",
+  "immutable_baseline_snapshot_manifest": "validation/alignment6/bonder/before/snapshot.json",
+  "immutable_baseline_snapshot_sha256": "55b78206cff2d5426fc997024dfb6498954abd05972082f96153175906b6ce2c",
+  "superseded_attempts": [
+    {
+      "archive_directory": "validation/alignment6/bonder/attempts/partial_pupil_clearance",
+      "reason": "The first support/contact correction still left the yoke blocking both front pupil paths. This attempt is rejected; final geometry_acceptance.json is authoritative."
+    }
+  ],
+  "promoted_render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+  "promoted_render_report_sha256": "3c313468ed9cb5e034590b9554052f5287cecdb1a76fffd0bb9aa3d6d955e9e1",
+  "render_count": 10,
+  "comparisons": [
+    {
+      "path": "validation/alignment6/bonder/comparisons/alignment_focus_guide.json",
+      "sha256": "97aecf7bece6fb537749dd820dc6132899972a31dc22c010703c4e4d767a2798"
+    },
+    {
+      "path": "validation/alignment6/bonder/comparisons/alignment_pupil.json",
+      "sha256": "2d57e5da1ad6ae198584f63708b59f6075ba1f180e098b39bedbb084a3bad7c7"
+    },
+    {
+      "path": "validation/alignment6/bonder/comparisons/alignment_workfield.json",
+      "sha256": "9a4313a276bf8abf3d70e08a4827d993fea1483688ac3b47133de2c35a04c06f"
+    }
+  ],
+  "visual_review": {
+    "passed": true,
+    "notes": [
+      "Inspected all ten final views for separate head/handle construction, focus support, workfield, heater construction, rear service connections and deck clearance.",
+      "Inspected guide, workfield and pupil before/after pairs at the same camera signatures. The final pupil view is a clearly labeled pinhole geometric diagnostic, not a factory optical channel."
+    ]
+  },
+  "metrics": {
+    "source_pose_count": 32,
+    "measured_pose_count": 28,
+    "initial_support_collision_poses": 32,
+    "current_support_collision_poses": 0,
+    "native_cases": 12,
+    "maximum_axis_error_mm": 7.450580596923828e-06,
+    "initial_obstructed_pupil_rays": 33,
+    "sampled_pupil_rays": 33,
+    "current_obstructed_pupil_rays": 28,
+    "shared_unobstructed_pupil_offset_mm": [
+      0,
+      -15.0
+    ],
+    "minimum_handle_deck_separation_mm": 2.712594062089915,
+    "baseline_episode_count": 6,
+    "focus_target_rate_m_s": 0.005,
+    "focus_fixture_force_cap_N": 40
+  },
+  "limitations": [
+    "The audit covers the listed optical assemblies, sampled poses and measured approach/retraction trajectories; arbitrary robot approaches are not certified.",
+    "Reference images establish visible construction; mount dimensions, optical prescriptions and material/force parameters remain uncalibrated.",
+    "Flexible services retain prescribed visual deformation without contact or strain dynamics.",
+    "Pupil rays demonstrate geometric access to both pads. They do not reconstruct the unknown internal stereo channels or claim that opaque tools never obscure the specimen.",
+    "The probe force test explicitly inserts a temporary obstacle below the glass; it is not delivered instrument hardware. The existing operating envelope is tested separately and remains clear.",
+    "Focus wheels remain visual controls; the axial focus slide has finite-force fixture actuation and native lower-optics contacts.",
+    "The 20 mm support setback, 10 mm visible head setback and collet proportions are photo-supported reconstruction dimensions, not factory measurements.",
+    "The 8:1 coupling is an equivalent small-displacement mechanism; it does not reconstruct the concealed closed-chain linkage.",
+    "Tool forces, ultrasound, heat and actual bond formation remain uncalibrated."
+  ],
+  "reference_evidence": [
+    {
+      "path": "images/wire_bonder/Weixin Image_20261123002137_265_2.jpg",
+      "sha256": "644adbeab7ee54f9fb67fa1983f023876accf215536879f751ea030ab22ea458"
+    },
+    {
+      "path": "images/wire_bonder/Weixin Image_20261123002137_266_2.jpg",
+      "sha256": "2c7ab11b2cbf9ab35d004c4b7abf5c35acd4587f1c08ed629e4b2df20e48fd0c"
+    },
+    {
+      "path": "images/wire_bonder/Weixin Image_20261123002137_268_2.jpg",
+      "sha256": "7232e24090bf8823b95f9290e4e026ee26b0016f663ad9cc854b28871d67358f"
+    },
+    {
+      "path": "images/wire_bonder/Weixin Image_20261123002137_269_2.jpg",
+      "sha256": "8ba4fe40840fc36a74faee2e26507246136b3e5740f7e8b1453bc17bfc7267a1"
+    },
+    {
+      "path": "images/wire_bonder/Weixin Image_20261123002137_270_2.jpg",
+      "sha256": "a3748914c09603fb52a083ed9f2a67677fa1aca1481f6e6872e1f0ddd26551d8"
+    }
+  ],
+  "private_reference_policy": "Raw laboratory photos/video remain private. Only generated model renders and non-image validation evidence are promoted.",
+  "stills_pending": false,
+  "freeze_manifest_note": "The immutable source freeze recorded stills_pending=true at its creation. This later summary records completed render inspection and promotion without rewriting that earlier freeze.",
+  "script": "validation/alignment6/transfer/summarize_reviews.py",
+  "script_sha256": "71bacc633443c590487fa12b7242a1bb0d59510bba61b78e9e54ce50eff63bee",
+  "previously_reviewed_motion_reference": {
+    "path": "images/wire_bonder/37bd654f58ba94c1c96ac230a7252aca.mp4",
+    "sha256": "8e18a7a001e191e6f58bd9fa5688ecefdaffbb6fffa90bf2239558591bcfbd5a"
+  }
+}

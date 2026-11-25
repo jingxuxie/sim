@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "glb_sha256": "3c1238d8f5c8e953d30718aa350e3a84cb9d1d20814381030c11b32784a038f7",
-  "trajectory_sha256": "5d3048495ff1cbcfc64ee5b5d06923250a8b013d7901e9dfaffc7dd99524b4dc",
+  "glb_sha256": "7b20c5350d2946bc994c9cd7da8601d7bce4ef508fbde218242f5c7b704d4bf4",
+  "trajectory_sha256": "57def1ef197ad399f4c3d99351128de0d1287f7ed1642b3659fa18c41c25abe4",
   "physical_body_nodes": 33,
   "missing_bodies": [],
   "maximum_position_error_m": 1.3509659317685476e-08,

@@ -1,0 +1,131 @@
+{
+  "revision": "alignment6",
+  "asset": "probe",
+  "script_sha256": "31f3cde9b4d4ce1bcd52c026af6afce3e56ded8f2cb02c121dca394b7b092831",
+  "audit_library_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Exact Z extrema of evaluated surfaces at assembled home pose, plus detailed-mesh overlap for adjacent support pieces. Supports are intentional tangent interfaces; their signed gap tolerance is 1 micrometer.",
+  "versions": {
+    "before": {
+      "source": "validation/alignment6/probe/before/probe_station.blend",
+      "sha256": "54a639be4c1e90e4d732c38d90d9171b02a2a2d0988a541c65db833ccac47925",
+      "checks": [
+        {
+          "check": "clamp_on_lower_rail",
+          "gap_mm": -3.9999864529818296,
+          "upper": [
+            "Sample clamp block"
+          ],
+          "lower": [
+            "Specimen holder lower rail"
+          ],
+          "passed": false
+        },
+        {
+          "check": "chip_on_clamp",
+          "gap_mm": 0.24998796288855374,
+          "upper": [
+            "device_chip"
+          ],
+          "lower": [
+            "Sample clamp block"
+          ],
+          "passed": false
+        },
+        {
+          "check": "guides_on_lower_rail",
+          "gap_mm": -0.9999989997595549,
+          "upper": [
+            "Specimen holder upper guide",
+            "Specimen holder upper guide.001"
+          ],
+          "lower": [
+            "Specimen holder lower rail"
+          ],
+          "passed": false
+        },
+        {
+          "check": "clamp_to_side_guides",
+          "signed_gaps_mm": [
+            -1.000000862404704,
+            -1.000000862404704
+          ],
+          "intersections": [
+            {
+              "moving": "Sample clamp block",
+              "target": "Specimen holder upper guide",
+              "aabb_overlap_mm": [
+                1.000000862404704,
+                45.00000178813934,
+                13.000000268220901
+              ],
+              "triangle_pairs": 44
+            },
+            {
+              "moving": "Sample clamp block",
+              "target": "Specimen holder upper guide.001",
+              "aabb_overlap_mm": [
+                1.000000862404704,
+                45.00000178813934,
+                13.000000268220901
+              ],
+              "triangle_pairs": 44
+            }
+          ],
+          "passed": false
+        }
+      ],
+      "passed": false
+    },
+    "after": {
+      "source": "002_probe_station/probe_station.blend",
+      "sha256": "8dbacfdbd9392d529ecf0a0b1eb69921a510ff78c853aca9dcc6fad65ed9b2de",
+      "checks": [
+        {
+          "check": "clamp_on_lower_rail",
+          "gap_mm": 8.614733815193176e-06,
+          "upper": [
+            "Sample clamp block"
+          ],
+          "lower": [
+            "Specimen holder lower rail"
+          ],
+          "passed": true
+        },
+        {
+          "check": "chip_on_clamp",
+          "gap_mm": -6.955815479159355e-06,
+          "upper": [
+            "device_chip"
+          ],
+          "lower": [
+            "Sample clamp block"
+          ],
+          "passed": true
+        },
+        {
+          "check": "guides_on_lower_rail",
+          "gap_mm": 9.546056389808655e-06,
+          "upper": [
+            "Specimen holder upper guide",
+            "Specimen holder upper guide.001"
+          ],
+          "lower": [
+            "Specimen holder lower rail"
+          ],
+          "passed": true
+        },
+        {
+          "check": "clamp_to_side_guides",
+          "signed_gaps_mm": [
+            0.20000082440674305,
+            0.20000082440674305
+          ],
+          "intersections": [],
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  },
+  "passed": true
+}

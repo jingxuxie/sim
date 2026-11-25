@@ -1,0 +1,283 @@
+{
+  "revision": "alignment6",
+  "phase": "browser",
+  "method": "Full-frame aspect-preserving LANCZOS thumbnails; captions outside input pixels. No color changes, retouching, or reference photographs.",
+  "script_sha256": "63df03ed672f2bd7ed149fc50d772fb021ceb99c7044c44b9952b6118f33a18f",
+  "sheets": [
+    {
+      "file": "review/interactive-detail.jpg",
+      "sha256": "62844ce096ca5343ad083a76c3cc397b0995b23a541cc14e84aa5a662abede34",
+      "resolution": [
+        2800,
+        1268
+      ],
+      "sources": [
+        {
+          "label": "nikon \u00b7 interactive",
+          "path": "validation/alignment6/browser/nikon-interactive-detail.png",
+          "sha256": "bddd362241cf4996e15974acb543aa633605091b5df2610314b462009fa0c644",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "transfer \u00b7 interactive",
+          "path": "validation/alignment6/browser/transfer-interactive-detail.png",
+          "sha256": "fa0ac3ec5c50c9ef1885d9342d0d9beb3b1b8877485160ce63151bc57e414653",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "probe \u00b7 interactive",
+          "path": "validation/alignment6/browser/probe-interactive-detail.png",
+          "sha256": "57df8892e35c2cfba4cae3fc481770c2af8f84303c8b14e46c197603913e0e2e",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "zeiss \u00b7 interactive",
+          "path": "validation/alignment6/browser/zeiss-interactive-detail.png",
+          "sha256": "75433404a63ee7abb9bad801dc04b52f40a7567bda3869284955029e34eab862",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "bonder \u00b7 interactive",
+          "path": "validation/alignment6/browser/bonder-interactive-detail.png",
+          "sha256": "0f12064202a5f91f83469dde09a1f95cda722c4864e8003959f15e2199000425",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "afm \u00b7 interactive",
+          "path": "validation/alignment6/browser/afm-interactive-detail.png",
+          "sha256": "6b9de4e19d0573f1c5497b82063bc2fbbc07e48862c1571b4b86d4b4a5861f84",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "tweezers \u00b7 interactive",
+          "path": "validation/alignment6/browser/tweezers-interactive-detail.png",
+          "sha256": "3e3c5e65100a4c16cf366bffdd1fa7654ea22616383ef60b94b24d021f7c7272",
+          "resolution": [
+            1085,
+            920
+          ]
+        }
+      ]
+    },
+    {
+      "file": "review/photo-detail.jpg",
+      "sha256": "7198c6b45654386961c881003afcc23429bb2ccca82a6c037fff021d60eb9655",
+      "resolution": [
+        2800,
+        1268
+      ],
+      "sources": [
+        {
+          "label": "nikon \u00b7 photo",
+          "path": "validation/alignment6/browser/nikon-photo-detail.png",
+          "sha256": "8168eca43389c4695b10cb412e801cb6b263d6b8d947eee6ffa90c55b77dd5f7",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "transfer \u00b7 photo",
+          "path": "validation/alignment6/browser/transfer-photo-detail.png",
+          "sha256": "44024e004692d42c2787d1d913a007da2d23ef2d5d489ad7b4b3d237565b09e9",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "probe \u00b7 photo",
+          "path": "validation/alignment6/browser/probe-photo-detail.png",
+          "sha256": "a8bfe991502694573af845c47c95e0cd4439e61d018377311cac50e35b97512a",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "zeiss \u00b7 photo",
+          "path": "validation/alignment6/browser/zeiss-photo-detail.png",
+          "sha256": "d2c5be9de1c836a0d41121549d167685a532646fffafd26b2c6fba7cc6ddfdf0",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "bonder \u00b7 photo",
+          "path": "validation/alignment6/browser/bonder-photo-detail.png",
+          "sha256": "e508c68290a9927936a26fd59626ee8c2e754ad6f0074906234719af58881ed0",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "afm \u00b7 photo",
+          "path": "validation/alignment6/browser/afm-photo-detail.png",
+          "sha256": "3bc0f464c8a0919948925b97511fb9804b6aa93eab9d5f0cf256e99e92f7bec5",
+          "resolution": [
+            1085,
+            920
+          ]
+        },
+        {
+          "label": "tweezers \u00b7 photo",
+          "path": "validation/alignment6/browser/tweezers-photo-detail.png",
+          "sha256": "83e54117a81e98cc9336b4e3afb065f47a479144b103f72ecf2f0da12f361458",
+          "resolution": [
+            1085,
+            920
+          ]
+        }
+      ]
+    },
+    {
+      "file": "review/afm-live-operation.jpg",
+      "sha256": "383785ae875dbf829c60132c38ec51310da16886728265b154e9d4e23501bbb9",
+      "resolution": [
+        2000,
+        1488
+      ],
+      "sources": [
+        {
+          "label": "handle-stowed",
+          "path": "validation/alignment6/browser/afm-handle-stowed.png",
+          "sha256": "c509b00f2cd86b192b6bd9d6db7a18a6d62ecfe3b91a849bfebb1e0f5f85b3ad",
+          "resolution": [
+            1245,
+            1020
+          ]
+        },
+        {
+          "label": "handle-deployed",
+          "path": "validation/alignment6/browser/afm-handle-deployed.png",
+          "sha256": "92b008d06e236d1ee946405a73a9bbc17864de0099795318e6a9f050aefbda72",
+          "resolution": [
+            1245,
+            1020
+          ]
+        },
+        {
+          "label": "pocket-door-open",
+          "path": "validation/alignment6/browser/afm-pocket-door-open.png",
+          "sha256": "c447c59dbe6bcdf4db128bfb0dbc3701396724bc9bfd37736a81e291d33e00c7",
+          "resolution": [
+            1245,
+            1020
+          ]
+        },
+        {
+          "label": "handle-restowed",
+          "path": "validation/alignment6/browser/afm-handle-restowed.png",
+          "sha256": "2cd5888d197d7c3559ca095366068c42b1ad76f2ec164cce3e54c502895f734e",
+          "resolution": [
+            1245,
+            1020
+          ]
+        }
+      ]
+    },
+    {
+      "file": "review/afm-live-alignment.jpg",
+      "sha256": "d4b62bafc3bd97a2c1b4f83ce171511fa564cb1edffb4bcf92c3b571eefa9fdd",
+      "resolution": [
+        2000,
+        1488
+      ],
+      "sources": [
+        {
+          "label": "docked-front",
+          "path": "validation/alignment6/browser/afm-alignment-docked-front.png",
+          "sha256": "b650926e74cdffeb721e57b497aca21ae02657f7e394352deab06625833c6cf6",
+          "resolution": [
+            1245,
+            1020
+          ]
+        },
+        {
+          "label": "docked-side",
+          "path": "validation/alignment6/browser/afm-alignment-docked-side.png",
+          "sha256": "268ebf39a04b057121b5df44ee47b76b012b845575e3c23d16a40444e8553084",
+          "resolution": [
+            1245,
+            1020
+          ]
+        },
+        {
+          "label": "service-side",
+          "path": "validation/alignment6/browser/afm-alignment-service-side.png",
+          "sha256": "b301ac4a6d42a323b4b300e635e03db10b31a1f6588ff06c6fc86ad78fe48835",
+          "resolution": [
+            1245,
+            1020
+          ]
+        },
+        {
+          "label": "returned-front",
+          "path": "validation/alignment6/browser/afm-alignment-returned-front.png",
+          "sha256": "654cfbec50e888840c13baa5f71ba14667b9f813064eec9e2e0ac1481e2941a5",
+          "resolution": [
+            1245,
+            1020
+          ]
+        }
+      ]
+    },
+    {
+      "file": "review/transfer-live-clearances.jpg",
+      "sha256": "e070e5755f0a1040062e0114ebf89c834fd793331b7cc7bda2d6de7de34b4790",
+      "resolution": [
+        2100,
+        634
+      ],
+      "sources": [
+        {
+          "label": "sample_x_handwheel",
+          "path": "validation/alignment6/browser/clearance-sample_x_handwheel.png",
+          "sha256": "cfc09fdb8b3eae02aba2925ceea1141b15c116369767802b8da86df893e9d4a3",
+          "resolution": [
+            1245,
+            1020
+          ]
+        },
+        {
+          "label": "vertical_micrometer",
+          "path": "validation/alignment6/browser/clearance-vertical_micrometer.png",
+          "sha256": "84428942746c7d0f318ef009257b7271f432311e3593d3eea295d0ba5f58f4b2",
+          "resolution": [
+            1245,
+            1020
+          ]
+        },
+        {
+          "label": "camera_cable",
+          "path": "validation/alignment6/browser/clearance-camera_cable.png",
+          "sha256": "b58c70d0701584797e6de12108b968ffb4b166c93c8a88c65f5c88b0c90a88e4",
+          "resolution": [
+            1245,
+            1020
+          ]
+        }
+      ]
+    }
+  ]
+}

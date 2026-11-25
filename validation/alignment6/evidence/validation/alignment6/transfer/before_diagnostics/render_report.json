@@ -1,0 +1,77 @@
+{
+  "revision": "alignment6",
+  "asset": "transfer",
+  "draft": false,
+  "source_sha256": "31d20bd5a4662cb331a6521fccb15e1dcbdefcb05a63bf2195315ed4adb75367",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "alignment_focus_guide"
+  ],
+  "renders": [
+    {
+      "file": "alignment_focus_guide.png",
+      "camera": "alignment_focus_guide",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "72f5f8beab72938fd8fe64f486b50ba80d918c92ad35fa3eeb881cafe2e88c6e"
+    }
+  ],
+  "complete": true,
+  "camera_signatures": {
+    "alignment_focus_guide": {
+      "matrix_world": [
+        [
+          0.36354249715805054,
+          -0.5125672817230225,
+          0.7778891921043396,
+          0.32377249002456665
+        ],
+        [
+          0.9315776228904724,
+          0.2000262588262558,
+          -0.30356651544570923,
+          -0.07232585549354553
+        ],
+        [
+          1.021520645849705e-09,
+          0.8350235223770142,
+          0.5502142906188965,
+          0.6782780885696411
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "PERSP",
+      "lens_mm": 60.0,
+      "scale": 0.25999999046325684,
+      "clip_start_m": 0.0010000000474974513,
+      "dof_enabled": true,
+      "focus_distance_m": 0.5511999726295471,
+      "fstop": 11.0
+    }
+  },
+  "camera_source_sha256": "32752a04829cd966b9fe0ad0553777677a4fd1b3cef867f8307b8498d6fb9f9a",
+  "before_model": true,
+  "source_files_unchanged": true,
+  "existing_geometry_transforms_unchanged": true,
+  "wrapper_sha256": "574bb26e482053419b754d9f946f2be26ec408b0b5b756f88c97e7ba20437acc",
+  "raw_reference_media_published": false,
+  "source": "validation/alignment6/transfer/before/transfer_station.blend",
+  "camera_source": "001_transfer_stage/transfer_station.blend",
+  "provenance_completion": {
+    "method": "Add portable source paths after independently verifying existing source, camera, script and image digests; no image or model is modified.",
+    "path": "validation/alignment6/transfer/promote_reviews.py",
+    "sha256": "184d9bf250bc6f07458c344de2440122c5c020c8888e71eeea6f7d38b1fafc75"
+  }
+}

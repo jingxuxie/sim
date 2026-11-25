@@ -1,0 +1,108 @@
+{
+  "asset": "zeiss",
+  "revision": "alignment6",
+  "source_sha256": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+  "trajectory_sha256": "ad1e81d61a99598c03159a67ea238f3def5969d422f2d3e17db0a901cbcfc5ed",
+  "script_sha256": "d8b23dd904bd53b26890c817de70415eec1432fa0771c87ce3858e201a54360c",
+  "audit_library_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Apply recorded native body transforms at the loaded state, then test detailed exterior surfaces. Matching native contacts may produce small compliant penetration, limited to 0.1 mm; large unmodeled visual intersections fail.",
+  "cases": [
+    {
+      "case": 0,
+      "station": 0,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Optical coating",
+          "target": "Asymmetric fixed specimen-holder plate",
+          "aabb_overlap_mm": [
+            7.200507653648032,
+            7.200502446486484,
+            0.004604091330184801
+          ],
+          "triangle_pairs": 96,
+          "minimum_axis_overlap_mm": 0.004603358108784539
+        }
+      ],
+      "native_contact_penetration_mm": 0.00524869668682048,
+      "native_contact_pairs": [
+        [
+          "stage_x__Fixed_specimen_holder_piece_0",
+          "turret__Objective_front_glass_20"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 1,
+      "station": 4,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Optical coating.004",
+          "target": "Curved specimen retaining arm",
+          "aabb_overlap_mm": [
+            7.20360106994271,
+            7.2035639613696745,
+            0.0005649962091514027
+          ],
+          "triangle_pairs": 51,
+          "minimum_axis_overlap_mm": 0.0005604971599071362
+        }
+      ],
+      "native_contact_penetration_mm": 0.0008629093262129896,
+      "native_contact_pairs": [
+        [
+          "stage_x__Curved_retaining_arm_piece_18",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_19",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_20",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_21",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_22",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_23",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_24",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_25",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_26",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_27",
+          "turret__Objective_front_glass_100"
+        ]
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

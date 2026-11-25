@@ -10,7 +10,7 @@ const save=()=>fs.writeFileSync(out+'/contact-shapes.json',JSON.stringify(report
  try{
   const page=await browser.newPage();await page.goto(url,{waitUntil:'domcontentloaded'});
   report.checks=await page.evaluate(async()=>{
-   const T=await import('three'),{ContactOverlay}=await import('./contact-overlay.js?v=contact1');
+   const T=await import('three'),{ContactOverlay}=await import('./contact-overlay.js?v=alignment6');
    const {default:load}=await import('./vendor/mujoco/mujoco.js'),mj=await load(),results=[];
    const catalog=JSON.parse(document.getElementById('instrument-catalog').textContent).instruments;
    const toNative=p=>new T.Vector3(p.x,-p.z,p.y);
@@ -22,11 +22,19 @@ const save=()=>fs.writeFileSync(out+'/contact-shapes.json',JSON.stringify(report
     if(hash!==data.physics_sha256)throw Error(item.id+' collision data belongs to different physics XML');
     const m=mj.MjModel.from_xml_string(xml),d=new mj.MjData(m),scene=new T.Scene(),overlay=new ContactOverlay(T,scene,data);
     const geoms=names(m,'geom',m.ngeom),bodies=names(m,'body',m.nbody);
-    const types=Object.fromEntries(['plane','sphere','capsule','ellipsoid','cylinder','box'].map(k=>[mj.mjtGeom['mjGEOM_'+k.toUpperCase()].value,k]));
+    const types=Object.fromEntries(['plane','sphere','capsule','ellipsoid','cylinder','box','mesh'].map(k=>[mj.mjtGeom['mjGEOM_'+k.toUpperCase()].value,k]));
     let metadataError=0;
     for(const shape of data.shapes){
      const i=geoms[shape.name];if(i===undefined||shape.type!==types[m.geom_type[i]]||bodies[shape.body]!==m.geom_bodyid[i])throw Error(item.id+' shape identity mismatch');
-     for(const [name,size] of [['size',3],['pos',3],['quat',4],['friction',3]])metadataError=Math.max(metadataError,maxDiff(shape[name],Array.from(m['geom_'+name].slice(size*i,size*i+size))));
+     // Mesh compilers may choose different equivalent principal-axis frames.
+     // Full vertex transforms below establish geometric parity in that case.
+     for(const [name,size] of shape.type==='mesh'?[['friction',3]]:[['size',3],['pos',3],['quat',4],['friction',3]])metadataError=Math.max(metadataError,maxDiff(shape[name],Array.from(m['geom_'+name].slice(size*i,size*i+size))));
+     if(shape.type==='mesh'){
+      if(shape.vertices.length<4||shape.faces.length<4||!shape.faces.every(f=>f.length===3&&f.every(v=>Number.isInteger(v)&&v>=0&&v<shape.vertices.length)))throw Error(item.id+' invalid inline contact hull');
+      const id=m.geom_dataid[i];if(shape.vertices.length!==m.mesh_vertnum[id])throw Error(item.id+' contact hull vertex count differs');
+      const edges=new Map();for(const face of shape.faces)for(let j=0;j<3;j++){const edge=[face[j],face[(j+1)%3]].sort((a,b)=>a-b).join(':');edges.set(edge,(edges.get(edge)||0)+1);}
+      if([...edges.values()].some(n=>n!==2))throw Error(item.id+' contact hull is not a closed triangle surface');
+     }
      for(const name of ['contype','conaffinity','condim'])if(shape[name]!==m['geom_'+name][i])throw Error(item.id+' '+name+' differs');
     }
     for(const [name,body] of Object.entries(data.bodies)){
@@ -47,8 +55,9 @@ const save=()=>fs.writeFileSync(out+'/contact-shapes.json',JSON.stringify(report
      overlay.update(poses);overlay.root.updateMatrixWorld(true);let maxCenter=0,maxSurface=0;
      for(const shape of data.shapes){
       const i=geoms[shape.name],mesh=overlay.root.getObjectByName(shape.name),center=new T.Vector3(...d.geom_xpos.slice(3*i,3*i+3));
-      maxCenter=Math.max(maxCenter,toNative(mesh.getWorldPosition(new T.Vector3())).distanceTo(center));
+      if(shape.type!=='mesh')maxCenter=Math.max(maxCenter,toNative(mesh.getWorldPosition(new T.Vector3())).distanceTo(center));
       const inverse=new T.Matrix3().set(...d.geom_xmat.slice(9*i,9*i+9)).transpose(),vertices=mesh.geometry.attributes.position,s=shape.size;
+      const nativeVertices=[];
       for(let v=0;v<vertices.count;v++){
        const p=toNative(new T.Vector3().fromBufferAttribute(vertices,v).applyMatrix4(mesh.matrixWorld)).sub(center).applyMatrix3(inverse),a=[Math.abs(p.x),Math.abs(p.y),Math.abs(p.z)];let error;
        if(shape.type==='box')error=Math.max(Math.min(...a.map((x,k)=>Math.abs(x-s[k]))),...a.map((x,k)=>x-s[k]));
@@ -56,8 +65,46 @@ const save=()=>fs.writeFileSync(out+'/contact-shapes.json',JSON.stringify(report
        else if(shape.type==='ellipsoid')error=Math.abs(Math.hypot(...a.map((x,k)=>x/s[k]))-1)*Math.max(...s);
        else if(shape.type==='cylinder'){const r=Math.hypot(p.x,p.y);error=Math.max(Math.min(Math.abs(r-s[0]),Math.abs(a[2]-s[1])),r-s[0],a[2]-s[1]);}
        else if(shape.type==='capsule')error=Math.abs(Math.hypot(p.x,p.y,Math.max(0,a[2]-s[1]))-s[0]);
-       else error=a[2];
+       else if(shape.type==='mesh'){
+        nativeVertices.push(p);
+        const id=m.geom_dataid[i],start=m.mesh_vertadr[id],count=m.mesh_vertnum[id];error=Infinity;
+        for(let j=0;j<count;j++){const k=3*(start+j);error=Math.min(error,Math.hypot(p.x-m.mesh_vert[k],p.y-m.mesh_vert[k+1],p.z-m.mesh_vert[k+2]));}
+       }else error=a[2];
        maxSurface=Math.max(maxSurface,error);
+      }
+      if(shape.type==='mesh'){
+       const id=m.geom_dataid[i],start=m.mesh_vertadr[id],count=m.mesh_vertnum[id];
+       for(let j=0;j<count;j++){
+        const k=3*(start+j),p=new T.Vector3(m.mesh_vert[k],m.mesh_vert[k+1],m.mesh_vert[k+2]);
+        maxSurface=Math.max(maxSurface,Math.min(...nativeVertices.map(v=>p.distanceTo(v))));
+       }
+       // Compare triangles to supporting planes of the actual WASM hull.
+       // Reconstructing a plane from a thin exported cap triangle can amplify
+       // subnanometer float32 vertex rounding into a spurious normal tilt.
+       // Stable neighboring hull faces supply the same cap plane without
+       // increasing the 0.2 micrometer geometric tolerance.
+       const compiledVertices=Array.from({length:count},(_,j)=>{
+        const k=3*(start+j);return new T.Vector3(m.mesh_vert[k],m.mesh_vert[k+1],m.mesh_vert[k+2]);
+       });
+       const planes=[],faceStart=m.mesh_faceadr[id],faceCount=m.mesh_facenum[id];
+       for(let j=0;j<faceCount;j++){
+        const k=3*(faceStart+j),p=compiledVertices[m.mesh_face[k]],
+         normal=compiledVertices[m.mesh_face[k+1]].clone().sub(p).cross(compiledVertices[m.mesh_face[k+2]].clone().sub(p));
+        if(normal.length()<1e-12)continue;normal.normalize();
+        const signed=compiledVertices.map(v=>normal.dot(v.clone().sub(p)));
+        if(Math.min(...signed)<-2e-7&&Math.max(...signed)>2e-7)continue;
+        planes.push({p,normal});
+       }
+       const onHull=points=>planes.some(({p,normal})=>points.every(v=>Math.abs(normal.dot(v.clone().sub(p)))<2e-7));
+       const interior=compiledVertices.reduce((sum,v)=>sum.add(v),new T.Vector3()).multiplyScalar(1/count);
+       if(!planes.length||onHull([compiledVertices[0],compiledVertices[1],interior]))throw Error(item.id+' contact hull plane check accepts an internal triangle');
+       // A shared supporting plane permits equivalent cap triangulations,
+       // while rejecting internal diagonals and incorrect face connectivity.
+       for(const [a,b,c] of shape.faces){
+        const p=nativeVertices[a],normal=nativeVertices[b].clone().sub(p).cross(nativeVertices[c].clone().sub(p));
+        if(normal.length()<1e-12)throw Error(item.id+' degenerate contact hull triangle');
+        if(!onHull([p,nativeVertices[b],nativeVertices[c]]))throw Error(item.id+' '+shape.name+' contact triangle differs from the convex hull surface');
+       }
       }
      }
      results.push({check:item.id+' contact overlay transforms at pose '+fraction,passed:maxCenter<1e-10&&maxSurface<2e-7,max_center_error_m:maxCenter,max_surface_error_m:maxSurface});

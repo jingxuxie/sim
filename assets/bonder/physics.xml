@@ -66,7 +66,7 @@
       <geom name="base__Stainless_working_deck" type="box" pos="-0.049 -0.139 0.049" size="0.1935 0.1305 0.002" class="contact" />
       <geom name="base__Console_roof" type="box" pos="0 0.1 0.294" size="0.2675 0.109 0.005" class="contact" />
       <geom name="base__Console_back" type="box" pos="0 0.207 0.167" size="0.2675 0.005 0.125" class="contact" />
-      <geom name="base__Microscope_rear_pedestal" type="box" pos="-0.012 0.089 0.321" size="0.041 0.049 0.0295" class="contact" />
+      <geom name="base__Microscope_rear_pedestal" type="box" pos="-0.012 0.109 0.321" size="0.041 0.049 0.0295" class="contact" />
       <geom name="base__Heater_ceramic_pedestal" type="cylinder" pos="0 -0.109 0.068" size="0.026 0.017" zaxis="0 0 1" class="contact" />
       <geom name="base__Granular_heater_insulation_side_-1" type="box" pos="-0.044 -0.109 0.08" size="0.001 0.042 0.0125" class="contact" />
       <geom name="base__Granular_heater_insulation_end_-1" type="box" pos="0 -0.15 0.08" size="0.043 0.001 0.0125" class="contact" />
@@ -81,6 +81,34 @@
       <body name="scope_focus" pos="0 -0.11 0.257" euler="0 0 0" gravcomp="1">
         <joint name="scope_focus_travel" type="slide" axis="0 0 1" damping="30" frictionloss="3" range="-0.015 0.02" />
         <inertial mass="1.5" pos="0 0 0" diaginertia="0.0018375 0.0018375 0.0018375" />
+        <geom name="scope_focus__Stereo_sleeve_upper_contact" type="cylinder" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0 0 -0.021" size="0.034 0.004" zaxis="0 0 1" class="contact" />
+        <geom name="scope_focus__Stereo_sleeve_middle_contact" type="cylinder" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0 0 -0.039" size="0.029 0.014" zaxis="0 0 1" class="contact" />
+        <geom name="scope_focus__Stereo_sleeve_lower_contact" type="cylinder" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0 0 -0.0575" size="0.03 0.0045" zaxis="0 0 1" class="contact" />
+        <geom name="scope_focus__Stereo_front_glass_contact" type="cylinder" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0 0 -0.0728" size="0.025 0.0007" zaxis="0 0 1" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_0" type="box" euler="0 0 0.0" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.0325 0 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_1" type="box" euler="0 0 0.2617993877991494" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.03139258957 0.008411619186 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_2" type="box" euler="0 0 0.5235987755982988" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.02814582443 0.01625 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_3" type="box" euler="0 0 0.7853981633974483" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.02298097038 0.02298097038 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_4" type="box" euler="0 0 1.0471975511965976" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.01625 0.02814582443 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_5" type="box" euler="0 0 1.3089969389957472" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.008411619186 0.03139258957 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_6" type="box" euler="0 0 1.5707963267948966" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="1.990051182e-18 0.0325 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_7" type="box" euler="0 0 1.832595714594046" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.008411619186 0.03139258957 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_8" type="box" euler="0 0 2.0943951023931953" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.01625 0.02814582443 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_9" type="box" euler="0 0 2.356194490192345" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.02298097038 0.02298097038 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_10" type="box" euler="0 0 2.6179938779914944" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.02814582443 0.01625 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_11" type="box" euler="0 0 2.8797932657906435" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.03139258957 0.008411619186 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_12" type="box" euler="0 0 3.141592653589793" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.0325 3.980102364e-18 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_13" type="box" euler="0 0 3.4033920413889427" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.03139258957 -0.008411619186 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_14" type="box" euler="0 0 3.665191429188092" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.02814582443 -0.01625 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_15" type="box" euler="0 0 3.926990816987241" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.02298097038 -0.02298097038 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_16" type="box" euler="0 0 4.1887902047863905" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.01625 -0.02814582443 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_17" type="box" euler="0 0 4.4505895925855405" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-0.008411619186 -0.03139258957 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_18" type="box" euler="0 0 4.71238898038469" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="-5.97015291e-18 -0.0325 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_19" type="box" euler="0 0 4.974188368183839" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.008411619186 -0.03139258957 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_20" type="box" euler="0 0 5.235987755982989" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.01625 -0.02814582443 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_21" type="box" euler="0 0 5.497787143782138" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.02298097038 -0.02298097038 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_22" type="box" euler="0 0 5.759586531581287" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.02814582443 -0.01625 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
+        <geom name="scope_focus__Stereo_illuminator_contact_23" type="box" euler="0 0 6.021385919380436" contype="2" conaffinity="1" solref=".004 1" solimp=".98 .995 .0002" pos="0.03139258957 -0.008411619186 -0.067" size="0.0067 0.00435 0.0045" class="contact" />
         <site name="inspection_optical_axis" pos="0 0 -0.072" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <site name="inspection_axis_above" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
       </body>
@@ -93,10 +121,10 @@
           <body name="tool_z" pos="0 0 0" euler="0 0 0" gravcomp="1">
             <joint name="tool_z_travel" type="slide" axis="0 0 1" damping="0.6" frictionloss="0.01" range="-0.002625 0.00075" />
             <inertial mass="0.07" pos="0 0 0" diaginertia="8.575e-05 8.575e-05 8.575e-05" />
-            <geom name="tool_z__Tool_yoke_cheek" type="box" pos="-0.026 -0.003 0.02" size="0.003 0.003 0.018" class="contact" />
-            <geom name="tool_z__Tool_yoke_cheek_2" type="box" pos="0.026 -0.003 0.02" size="0.003 0.003 0.018" class="contact" />
-            <geom name="tool_z__Tool_yoke_upper_bar" type="box" pos="0 -0.003 0.035" size="0.028 0.003 0.003" class="contact" />
-            <geom name="tool_z__Tool_yoke_lower_bar" type="box" pos="0 -0.003 0.004" size="0.025 0.003 0.0025" class="contact" />
+            <geom name="tool_z__Tool_yoke_cheek" type="box" pos="-0.026 0.007 0.02" size="0.003 0.003 0.018" class="contact" />
+            <geom name="tool_z__Tool_yoke_cheek_2" type="box" pos="0.026 0.007 0.02" size="0.003 0.003 0.018" class="contact" />
+            <geom name="tool_z__Tool_yoke_upper_bar" type="box" pos="0 0.007 0.035" size="0.028 0.003 0.003" class="contact" />
+            <geom name="tool_z__Tool_yoke_lower_bar" type="box" pos="0 0.007 0.004" size="0.025 0.003 0.0025" class="contact" />
             <geom name="tool_z__Bond_tool_shank_contact" type="cylinder" contype="1" conaffinity="3" pos="0 0 -0.0085" size="0.0012 0.0035" zaxis="0 0 1" class="contact" />
             <geom name="tool_z__Bond_wedge_contact" type="sphere" contype="1" conaffinity="3" solref=".005 1" pos="0 0 -0.01815" size="0.00014" zaxis="0 0 1" class="contact" />
             <site name="bond_tip" pos="0 0 -0.01829" size=".0006" group="4" rgba=".1 .8 .4 1" />

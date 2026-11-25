@@ -1,0 +1,423 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "changed": true,
+  "passed": true,
+  "changes": [
+    "Centered the inspection objective and actual pyramidal tip on the docked specimen datum.",
+    "Replaced intersecting lower barrel with a hollow stepped objective and connected, bored relay; retained an estimated 10.7 mm working distance.",
+    "Extended the chip support and placed the sample puck on a visible socket insert that connects to the working plate and matches its native support.",
+    "Added explicit objective/holder contact pairs and a documented withdrawn-drawer service envelope; preserved reference5 door handle.",
+    "Refreshed 13 source-matched stills and three identical-camera baseline views."
+  ],
+  "current_artifacts_sha256": {
+    "005_afm/build.py": "5f281df2240ea053fa0dcdae8125ffd0c56d266d4b5a8fb813e55953dcc7e1fd",
+    "005_afm/geometry_revision4.py": "6c0f8df6b8a0591d6161dd70f39ac1392a4c95fe5679a4966f0114346495ef91",
+    "005_afm/geometry_reference5.py": "311f1a720d004f38fba593c681714a5a1bcc709614e6a295684bdc4a5a8c47b7",
+    "005_afm/geometry_alignment6.py": "5a2b1cfa548be752a413e359f861c62b92a443edeed81be8d3dd2b906bb4b461",
+    "005_afm/cypher_s.blend": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565",
+    "005_afm/cypher_s.xml": "5f67c75fb046d8660725a6af76a1933ab19e012d0978d6de6d52dd1154ee2321",
+    "005_afm/asset.json": "63180ad16c9d3c8c0030eb347fd258cc08bf7c40fc12aa2b58b9a4af7877fdfa",
+    "005_afm/assets/cypher_s.glb": "65a9783edd3dabb670cc76aad58e014428a766aeab96777d7c999f98553bc6ec",
+    "005_afm/assets/meshes.json": "795de63efe47bddf25bd4991a94d058c413de8b24ed1afd17fe3d31fe0b6c0a6",
+    "005_afm/README.md": "75497ac97c844e92d449923be97969242b0056c373cbcdc1c72700034fb9cb4f"
+  },
+  "reports": [
+    {
+      "path": "validation/alignment6/afm/construction.json",
+      "sha256": "2586bf6c4e23051996050b907f943f37f48b7e7b5be3c1b905efb70d7b4b43a7"
+    },
+    {
+      "path": "validation/alignment6/afm/native.json",
+      "sha256": "bacd08d0172f60b5c72088c6023e560bda04fd138ff391aea59d15dae72cc256"
+    },
+    {
+      "path": "validation/alignment6/afm/geometry.json",
+      "sha256": "1175f7d35546ffc632f64bb019202004b343785cabf2bd7941252da314a71e9f"
+    },
+    {
+      "path": "validation/alignment6/afm/camera_proof.json",
+      "sha256": "049a0e0267eda81a3d9d32415dd7bf25645ddcc8629f081fc6369289ccae7279"
+    },
+    {
+      "path": "validation/alignment6/afm/camera_signature.json",
+      "sha256": "e4df26dc466a91116e2af23ab6c0c9eb6f1177b7d879194f9d7b226b2bf6dc25"
+    },
+    {
+      "path": "validation/alignment6/afm/comparison_front.json",
+      "sha256": "51afdd9573a31798ec8eecb0e0e4fc3b6cdeb25ed813beffa47dc88a7d8c9e37"
+    },
+    {
+      "path": "validation/alignment6/afm/baseline_manifest.json",
+      "sha256": "08dd748aa0d7392bf3befdb8df4693465836a3e70040719a2ba6750b0398da85"
+    },
+    {
+      "path": "validation/alignment6/afm/baseline_diagnosis.json",
+      "sha256": "99e685596421f9eaff0d9118f0665eafec2c885d557e7bd47447198a55311ff9"
+    },
+    {
+      "path": "validation/alignment6/afm/afm_access_trajectory.json",
+      "sha256": "a1abd181a5dd9e318a2ebffe746b971a588911679ef110c122cf114869f79fbe"
+    },
+    {
+      "path": "validation/alignment6/afm/afm_cycle_trajectory.json",
+      "sha256": "43c0b410022bf2caf566960f6d20f9e649da3b2499b92443d417caf21ed64c5b"
+    },
+    {
+      "path": "validation/alignment6/afm/service_trajectory.json",
+      "sha256": "f13645dee8fa62e156404106619fd8aea2186bc479c236a696b6be4ab42b4a59"
+    },
+    {
+      "path": "validation/alignment6/afm/before_render/render_report.json",
+      "sha256": "c80b2e778cc7efd21345f1b290a9dba7834f3c78fb992070c3da53caa4054c28"
+    },
+    {
+      "path": "validation/alignment6/afm/final_overview/render_report.json",
+      "sha256": "31e839a606fd9170d0d336f8912c5f6bc94f3a90684cb13102768c091b6ab389"
+    },
+    {
+      "path": "validation/alignment6/afm/final_closed/render_report.json",
+      "sha256": "10ed09b196460404f8fcc5a5c54731edc335a30977302516f8e5e133c47b23e9"
+    },
+    {
+      "path": "validation/alignment6/afm/final_deployed/render_report.json",
+      "sha256": "207125c4ce3d6aeecdfc8f9aff608278794112f9d29493096f7d2fda72aa1e63"
+    },
+    {
+      "path": "validation/alignment6/afm/final_open/render_report.json",
+      "sha256": "96ab1111dd50d85d773022729b28c77bc3b0cb3c7d34417d2a4f81b71dcee253"
+    },
+    {
+      "path": "validation/alignment6/afm/final_scanner/render_report.json",
+      "sha256": "fa15fce810b34c6299949370a51fc4a79ca42e561434a860784decd264091efe"
+    },
+    {
+      "path": "validation/alignment6/afm/final_service/render_report.json",
+      "sha256": "818e0baeb0d7c46db33af7d6b7f88744d450a0444b11e1723fa5f18b11e7fb90"
+    },
+    {
+      "path": "validation/alignment6/afm/final_alignment/render_report.json",
+      "sha256": "250a5aaa2ffe89374ba8b964b6580d46da06bb7ad0ac5d3a92a74b6b23867fa7"
+    }
+  ],
+  "promoted_render_report": "005_afm/previews/alignment6_render_report.json",
+  "promoted_render_report_sha256": "1dc8cdde433fe30f1c5ed0f7f2435eef1fd1d34874d89333df7dc5a8603e82c7",
+  "visual_comparison": {
+    "path": "005_afm/previews/optical_alignment_comparison.png",
+    "sha256": "f5c9039fc81cb3988bfb82778d537cce34bd40a87088a1dc01feb2f3209728b2",
+    "evidence": "validation/alignment6/afm/comparison_front.json"
+  },
+  "measured": {
+    "native_objective_xy_error_m": 1.6152097391985357e-09,
+    "native_tip_xy_error_m": 1.6152097391985357e-09,
+    "tip_standoff_m": 0.0013034684927803186,
+    "working_distance_m": 0.010700968492780294,
+    "native_valid_states": 466,
+    "mesh_valid_states": 466,
+    "minimum_native_clearance_m": 0.001300000002714388,
+    "forced_docked_lift": {
+      "remove_contact_pairs": false,
+      "max_lift_rad": 0.25363466754029823,
+      "final_lift_rad": 0.2532471247510798,
+      "contact_samples": 5589,
+      "peak_penetration_m": 9.25876889446009e-06,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "withdrawn_service": {
+      "drawer_m": 0.10000000531554692,
+      "lift_rad": 0.540275049100138,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "objective_contacts": []
+    },
+    "sample_support_stack": {
+      "plate_top_m": 0.19645000994205475,
+      "insert_bottom_m": 0.19645000994205475,
+      "insert_top_m": 0.19950000941753387,
+      "rim_bottom_m": 0.1965000182390213,
+      "rim_top_m": 0.19950000941753387,
+      "puck_bottom_m": 0.19950000941753387,
+      "puck_top_m": 0.2004999965429306,
+      "specimen_bottom_m": 0.2005000114440918,
+      "specimen_top_m": 0.20080000162124634,
+      "interface_gaps_m": {
+        "plate_insert": 0.0,
+        "insert_puck": 0.0,
+        "puck_specimen": 1.4901161193847656e-08
+      },
+      "native_support_top_m": 0.1995,
+      "native_visual_support_error_m": 9.417533863853578e-09,
+      "downward_support_rays": [
+        {
+          "radius_m": 0,
+          "angle_rad": 0,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.03999999910593033,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0,
+          "angle_rad": 1.5707963267948966,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.03999999910593033,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0,
+          "angle_rad": 3.141592653589793,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.03999999910593033,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0,
+          "angle_rad": 4.71238898038469,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.03999999910593033,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.006,
+          "angle_rad": 0,
+          "insert_hit_m": [
+            0.014000000432133675,
+            -0.03999999910593033,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.014000000432133675,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.006,
+          "angle_rad": 1.5707963267948966,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.03400000184774399,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.03400000184774399,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.006,
+          "angle_rad": 3.141592653589793,
+          "insert_hit_m": [
+            0.0020000000949949026,
+            -0.03999999910593033,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.0020000000949949026,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.006,
+          "angle_rad": 4.71238898038469,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.04600000008940697,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.04600000008940697,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.0073,
+          "angle_rad": 0,
+          "insert_hit_m": [
+            0.015300000086426735,
+            -0.03999999910593033,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.015300000086426735,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.0073,
+          "angle_rad": 1.5707963267948966,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.03269999846816063,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.03269999846816063,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.0073,
+          "angle_rad": 3.141592653589793,
+          "insert_hit_m": [
+            0.000699999975040555,
+            -0.03999999910593033,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.000699999975040555,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.0073,
+          "angle_rad": 4.71238898038469,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.04729999974370003,
+            0.19950000941753387
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.04729999974370003,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.0096,
+          "angle_rad": 0,
+          "insert_hit_m": [
+            0.01759999990463257,
+            -0.03999999910593033,
+            0.1965000033378601
+          ],
+          "plate_hit_m": [
+            0.01759999990463257,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.0096,
+          "angle_rad": 1.5707963267948966,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.030400000512599945,
+            0.1965000033378601
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.030400000512599945,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.0096,
+          "angle_rad": 3.141592653589793,
+          "insert_hit_m": [
+            -0.0015999999595806003,
+            -0.03999999910593033,
+            0.1965000033378601
+          ],
+          "plate_hit_m": [
+            -0.0015999999595806003,
+            -0.03999999910593033,
+            0.19645000994205475
+          ],
+          "passed": true
+        },
+        {
+          "radius_m": 0.0096,
+          "angle_rad": 4.71238898038469,
+          "insert_hit_m": [
+            0.00800000037997961,
+            -0.04960000142455101,
+            0.1965000033378601
+          ],
+          "plate_hit_m": [
+            0.00800000037997961,
+            -0.04960000142455101,
+            0.19645000994205475
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  },
+  "limitations": [
+    "Exterior and hidden relay dimensions are estimates, not manufacturer CAD.",
+    "The folded optical relay establishes a connected geometric path; refractive calibration and optical image formation are not solved.",
+    "The engage encoder remains an uncoupled control. Coarse approach, calibrated tip forces and nanoscanning are outside this alignment repair.",
+    "The parked holder has about1.3 mm tip standoff. Full holder service lift requires drawer withdrawal; native contact also blocks a forced lift into the objective.",
+    "Socket/puck support and holder contacts are analytic compound approximations. Raw laboratory media remain private.",
+    "Actual evaluated triangles and multi-ray containment witnesses at466 valid drawer/holder poses and an intentionally invalid full docked lift. Internal objective assembly joints and intended casting attachments are not moving clearance pairs. Optical ray segments verify geometric bores, not image-formation calibration.",
+    "Compiled native sites and mask-independent cylinder/holder distances over466 valid states. Fixtures-disabled torque test requires native contacts to stop a docked lift, with contact-pair removal as a negative control. Existing access/cycle fixture tasks are regression tests, not an AFM scanning calibration.",
+    "The 10 micrometer pyramid supplies visible tip geometry and a measurement site. Native contacts use objective, holder and chip proxies; nanometric tip-sample interactions are not simulated."
+  ],
+  "raw_reference_media_published": false
+}

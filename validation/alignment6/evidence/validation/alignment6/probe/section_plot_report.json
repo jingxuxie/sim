@@ -1,0 +1,19 @@
+{
+  "asset": "probe",
+  "revision": "alignment6",
+  "script_sha256": "3113f296ded182c4879a98c0b3fb6728ad5f218d68351f973bf17f84b6ed363e",
+  "source_sections": {
+    "path": "validation/alignment6/probe/sections.json",
+    "sha256": "86977f54a50171d2fa328e06a096b3f345dddeaf6dbfff5e7f8b9779258fac0d"
+  },
+  "artifacts": [
+    {
+      "path": "validation/alignment6/probe/before_after_sections.png",
+      "sha256": "d772217a59e298a3b65bee58e324da447ab424ab377d617b1b483a08e58d8b9b"
+    },
+    {
+      "path": "validation/alignment6/probe/before_after_sections.svg",
+      "sha256": "85a660d72b8cd9324aade1dd07f07ffe6aad6c0579e4361916e5c8e77dbac733"
+    }
+  ]
+}

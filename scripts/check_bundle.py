@@ -33,8 +33,12 @@ for item in catalog['instruments']:
     xml = ET.parse(ROOT/urlsplit(item['physics']).path).getroot()
     assert xml.find('compiler').get('inertiafromgeom') == 'false'
     assert float(xml.find('option').get('timestep')) == .001
-    assert not list(xml.iter('mesh'))
-    assert all('mesh' not in g.attrib for g in xml.iter('geom'))
+    meshes = {m.get('name'): m for m in xml.iter('mesh')}
+    assert set(meshes) == {g.get('mesh') for g in xml.iter('geom') if g.get('mesh')}
+    for name, mesh in meshes.items():
+        vertices = [float(v) for v in mesh.get('vertex', '').split()]
+        assert not mesh.get('file') and len(vertices) >= 12 and len(vertices) % 3 == 0, name
+        assert all(math.isfinite(v) for v in vertices), name
     contact = json.loads((ROOT/urlsplit(item['collision']).path).read_text())
     assert contact['physics_sha256'] == hashlib.sha256((ROOT/urlsplit(item['physics']).path).read_bytes()).hexdigest()
     assert contact['shapes'] and contact['bodies'], item['id']

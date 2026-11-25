@@ -3977,12 +3977,12 @@
           "pos_mm": [
             0,
             0,
-            19
+            21.125
           ],
           "size_mm": [
-            29.5,
+            28.3,
             22.5,
-            8.5
+            6.625
           ],
           "axis": [
             0,
@@ -4014,6 +4014,89 @@
           "conaffinity": 9
         },
         {
+          "name": "Specimen holder lower rail",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            12
+          ],
+          "size_mm": [
+            38.5,
+            26.5,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Specimen holder upper guide",
+          "type": "box",
+          "pos_mm": [
+            -31,
+            0,
+            20.5
+          ],
+          "size_mm": [
+            2.5,
+            24.0,
+            6.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Specimen holder upper guide",
+          "type": "box",
+          "pos_mm": [
+            31,
+            0,
+            20.5
+          ],
+          "size_mm": [
+            2.5,
+            24.0,
+            6.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Chip clamp screw stem",
+          "type": "cylinder",
+          "pos_mm": [
+            -22,
+            -12,
+            28.1
+          ],
+          "size_mm": [
+            1.6,
+            0.6
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
           "name": "Chip clamp screw head contact",
           "type": "cylinder",
           "pos_mm": [
@@ -4024,6 +4107,26 @@
           "size_mm": [
             3,
             0.8
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Chip clamp screw stem",
+          "type": "cylinder",
+          "pos_mm": [
+            22,
+            -12,
+            28.1
+          ],
+          "size_mm": [
+            1.6,
+            0.6
           ],
           "axis": [
             0,
@@ -5325,9 +5428,10 @@
     "splitter_basis": "Unidentified trinocular head; intermediate ratio and travel are estimates",
     "source_width_m": 0.012
   },
-  "geometry_revision": "reference5",
+  "geometry_revision": "alignment6",
   "geometry_basis": "Photo243/245/246/247: photographed optical frame and covered manipulators; reference5 replaces rectangular/backed guide slots with through-cut rounded slots and replaces painted optical-cover slots with bounded recessed service wells and physical cover openings. Dimensions remain estimates.",
   "reference5_construction": "Rounded guide slots70x15 mm, recessed side cover slots17x5 mm and approximately12 mm service-well depth are photo estimates. Native compound contacts leave those openings accessible; objective/sample and control datums, clearance1 optical contacts and flexible cable definitions are unchanged.",
+  "alignment6_correction": "Chuck clamp now rests on the lower rail, supports the unchanged chip underside and has 0.2 mm clearance to each side guide. Guide bases sit on the rail; short physical screw stems join the raised heads to the clamp. Added compound support contacts without changing objective, needle, specimen or control datums.",
   "clearance_revision": "clearance1",
   "control_geometry_correction": "Micrometer marks follow cylindrical barrels instead of protruding radial dial strips; contact envelopes cover complete thimbles, right blue sleeves and separate ratchets. Joint/grasp locations unchanged.",
   "optical_contact_model": "Dedicated optical/work-surface bits preserve existing robot and needle/pad contacts. Stepped objective end/aperture/glass and raised chuck clamp screws have explicit contacts; centered minimum-focus specimen gap is1.3 mm, while extreme chuck travel can meet a clamp screw. Retract the optical head before coarse chuck positioning.",

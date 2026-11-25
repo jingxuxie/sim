@@ -1,0 +1,67 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "changed": true,
+  "reviewed": true,
+  "passed": true,
+  "changes": [
+    "Seated the fixed holder on the stage and under the existing slide; adjusted its screws and added the retaining-pivot support stem without moving specimen or optical datums.",
+    "Added convex-prism compounds following the actual rounded concave holder and retaining-arm footprints, plus pivot/lever/screw contacts.",
+    "Removed four obsolete generic holder-ring colliders that otherwise created an invisible ledge 0.7 mm above the repaired holder.",
+    "Matched the projecting thumb lever bevel and objective distal tapers with convex contact meshes, replacing an invisible early focus stop with measured surface contact."
+  ],
+  "baseline_findings": [
+    "The fixed holder penetrated the glass slide by 0.6 mm and floated above its deck mounting.",
+    "Eleven sampled detailed holder/objective intersection poses lacked a native contact."
+  ],
+  "current_artifacts_sha256": {
+    "003_zeiss/zeiss_upright.blend": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+    "003_zeiss/zeiss_upright.xml": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+    "003_zeiss/assets/zeiss_upright.glb": "24ec06242e7917269f5f1fec2942c9b31b6ea137c8a072038a458d9e675a5a24",
+    "003_zeiss/assets/meshes.json": "404791456dac718dc399e6dd30b614881b0d07608e16cf9c9421036b50040a06",
+    "003_zeiss/build.py": "fc84a995135221b4bfee570a4c71cdf4b16752bf72e4db80b465ca3ff6e636cb",
+    "003_zeiss/reference_geometry.py": "726b5de841f302cd2ff4d4b088ddb435d979980b10f666184397026493522a1e",
+    "003_zeiss/reference_construction.py": "21c3ac9b8d0ce3a213dd12d9210b8838c20af00927a598d17301e6743ea8fc65",
+    "003_zeiss/geometry_support.py": "f6d33ea5e3c2c389b7022df7467499d059e7427fb42c82838cf381218c216db4",
+    "003_zeiss/alignment_contacts.py": "19c250ffb1f0060e4417ca2ed108d9581e9d0b806287974d21b9ecebb7061c19",
+    "003_zeiss/refine_contact_proxies.py": "cc403da7c99153e3f706a4bfb92d86c64f942b366ea9967fe25f2b2bf63701a7",
+    "003_zeiss/asset.json": "960f193e7fb7f28b630ee242b9865095223fe8d1155724143524cc4025000d9a",
+    "tools/photography.py": "d72172b252587871c73257f39379abb642ec17eb1e7a472dd637395ec77a60e7",
+    "tools/realism_materials.py": "ceebc444f75b93866c4bedd9bcf22239518d5ed56cfa079468eb51dbb68c4700",
+    "tools/assetkit.py": "4a4e85a00c924bfcfb5b7d68ee6e4c24839c72c34017c8f03bbe7444d50c8ba2",
+    "tools/hardware.py": "17670ec29e9256d1c3a33d6618ff86b173370700e59213274916abcac5d351c0",
+    "tools/contact_mechanics.py": "734ee0dd0ba3a3642ad3f47ef3bbeebd53a430677dac1249261c5b23673abdca"
+  },
+  "reports": [
+    {
+      "path": "validation/alignment6/zeiss/acceptance.json",
+      "sha256": "5ae3252cd71a6477b91b8047ad855ac6e2a6311fb39c18b941e1fedd862e27a6"
+    },
+    {
+      "path": "validation/alignment6/zeiss/baseline_files.json",
+      "sha256": "8819739cbee22b5ea4512252ce276a75eb5400d0ef689780639e7c27127462db"
+    },
+    {
+      "path": "validation/alignment6/zeiss/section_plot_report.json",
+      "sha256": "c196f2c41dc81f9e0c2774be95fac4609cd45189323895964e9c840acf375e5b"
+    }
+  ],
+  "promoted_render_report": "003_zeiss/previews/render_report.json",
+  "promoted_render_report_sha256": "1f5a59ddfeeb113714510c7cd607e431bfba5b090e90e9d35680f4c143a361c7",
+  "before_after_section": {
+    "path": "validation/alignment6/zeiss/before_after_sections.png",
+    "sha256": "14185c4f406d3ce2676223959a43d4ba831e3e5157ba1fdbf473cad3d3b36d51"
+  },
+  "limitations": [
+    "Exterior dimensions, loads, material properties and holder/stand relief dimensions remain reconstruction estimates; no manufacturer CAD or metrology is claimed.",
+    "Collision checks cover the named assemblies and finite sampled poses, not every possible configuration or every inserted screw/bearing seam.",
+    "Native contact is numerically soft; contact regressions measure and limit penetration rather than interpreting it as calibrated material indentation.",
+    "The optical-axis check is geometric. Internal optical prescriptions and lower condenser transmission are not ray-traced.",
+    "Existing cable models and renderer behavior are preserved; these repairs do not add robot-driven cable dynamics."
+  ],
+  "validation_counts": {
+    "static_optical_poses": 135,
+    "knob_exterior_checks": 61,
+    "support_fits": 4
+  }
+}

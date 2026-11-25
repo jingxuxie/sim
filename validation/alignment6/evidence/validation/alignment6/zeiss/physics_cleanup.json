@@ -1,0 +1,61 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "scope": "Revalidate removal of four obsolete generic holder contacts after the separate bevel/taper contact refinement. Detailed visuals and all mechanism datums remain unchanged.",
+  "before_xml_sha256": "073bbd1ed7d65ebd31376ddfaa3d0ee20c5ef30f7b38134fa207c1124d9d598e",
+  "xml_sha256": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+  "metadata_sha256": "960f193e7fb7f28b630ee242b9865095223fe8d1155724143524cc4025000d9a",
+  "builder_sha256": "19c250ffb1f0060e4417ca2ed108d9581e9d0b806287974d21b9ecebb7061c19",
+  "removed_geoms": [
+    {
+      "name": "stage_x__Metal_specimen_holder_side_-1",
+      "type": "box",
+      "contype": "18",
+      "conaffinity": "9",
+      "pos": "-0.03825 0 0.0082",
+      "size": "0.01025 0.032 0.0009",
+      "class": "contact"
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_end_-1",
+      "type": "box",
+      "contype": "18",
+      "conaffinity": "9",
+      "pos": "0 -0.02325 0.0082",
+      "size": "0.028 0.00875 0.0009",
+      "class": "contact"
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_side_1",
+      "type": "box",
+      "contype": "18",
+      "conaffinity": "9",
+      "pos": "0.03825 0 0.0082",
+      "size": "0.01025 0.032 0.0009",
+      "class": "contact"
+    },
+    {
+      "name": "stage_x__Metal_specimen_holder_end_1",
+      "type": "box",
+      "contype": "18",
+      "conaffinity": "9",
+      "pos": "0 0.02325 0.0082",
+      "size": "0.028 0.00875 0.0009",
+      "class": "contact"
+    }
+  ],
+  "previous_native_source": {
+    "path": "validation/alignment6/zeiss/attempts/stale_generic_holder_proxy/zeiss_upright.xml",
+    "sha256": "073bbd1ed7d65ebd31376ddfaa3d0ee20c5ef30f7b38134fa207c1124d9d598e"
+  },
+  "current_builder": {
+    "path": "003_zeiss/alignment_contacts.py",
+    "sha256": "19c250ffb1f0060e4417ca2ed108d9581e9d0b806287974d21b9ecebb7061c19"
+  },
+  "script_sha256": "5e1b14c5c54050ec49acd7148630634568d43730dda4b783c44f18facb929c59",
+  "original_cleanup_evidence": {
+    "path": "validation/alignment6/zeiss/attempts/conservative_front_and_lever/validation/alignment6/zeiss/physics_cleanup.json",
+    "sha256": "fc6582ae1529a36ba9af8fb76ca0d93ec7231110cab7b7dfc9c5ff612e6ed9fe"
+  },
+  "passed": true
+}

@@ -1,0 +1,32 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "draft": false,
+  "source_sha256": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+  "inspection_joint_positions": {},
+  "measured_trajectory": {
+    "sha256": "227d70113ae57fefa215e95a5b0ce4100ad3521b724dce936b77c938d28963c7",
+    "frame": 6,
+    "frame_sha256": "5544bfce6802e65f658377bbbac85009e8d3755f266f247ae97a39321654711e",
+    "time_s": 42.999999999990486
+  },
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "construction_stage"
+  ],
+  "renders": [
+    {
+      "file": "construction_stage.png",
+      "camera": "construction_stage",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "928bbab481830fa7212089395ea643db7b36fa173fa965b421f7ab9a535da829"
+    }
+  ],
+  "complete": true
+}

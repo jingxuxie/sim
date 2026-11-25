@@ -1,0 +1,72 @@
+{
+  "asset": "nikon",
+  "revision": "alignment6",
+  "source_sha256": "78eda10025ea6d7e453508bcf5b8c2381914bbf6bbba89a01cf401b2a938636f",
+  "trajectory_sha256": "d048bafebf0d448e67301d7007cfcac0192e6d86ee6d5da21e30cb1a1b7c6771",
+  "script_sha256": "b4b8d994e1ee7349054cc919d30b665f45cb9fcc432fff8e0d2a979827866054",
+  "audit_library_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Apply recorded native body transforms at the loaded state, then test detailed exterior surfaces. Matching native contacts may produce small compliant penetration, limited to 0.1 mm; large unmodeled visual intersections fail.",
+  "cases": [
+    {
+      "case": 0,
+      "station": 0,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Port 1 objective front glass",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            8.823596734836757,
+            0.03572591412306925
+          ],
+          "triangle_pairs": 32,
+          "minimum_axis_overlap_mm": 0.035653097262222655
+        }
+      ],
+      "native_contact_penetration_mm": 0.03252869786272834,
+      "native_contact_pairs": [
+        [
+          "clip_-1",
+          "objective_0_front_glass"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": 1,
+      "station": 1,
+      "xy_mm": [
+        39,
+        0
+      ],
+      "head_intersections": [],
+      "work_surface_intersections": [
+        {
+          "moving": "Port 2 objective front glass",
+          "target": "Slide spring clip",
+          "aabb_overlap_mm": [
+            4.19999985024333,
+            8.823563567568062,
+            0.035704391397411994
+          ],
+          "triangle_pairs": 32,
+          "minimum_axis_overlap_mm": 0.03563167205489215
+        }
+      ],
+      "native_contact_penetration_mm": 0.03252869473512497,
+      "native_contact_pairs": [
+        [
+          "clip_-1",
+          "objective_1_front_glass"
+        ]
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

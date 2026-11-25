@@ -1,0 +1,113 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "xml_sha256": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+  "script_sha256": "022201e4cf19abf388a880cb73dba4c1f26076d1ca2cada79c16d01759c10cc6",
+  "method": "Only ordinary fixture control commands and mj_step after reset. Retract/index, approach sample and offset holders, hold, then retract. Actual loaded body poses are recorded for independent detailed-mesh verification. No instrument qpos overwrite after reset.",
+  "cases": [
+    {
+      "station": 0,
+      "xy_mm": [
+        0,
+        -25
+      ],
+      "contact_samples": 73765,
+      "maximum_contact_penetration_mm": 0.00524869668682048,
+      "peak_normal_force_N": 9.66158787307934,
+      "loaded_focus_mm": 3.892588468685607,
+      "contact_pairs": [
+        [
+          "stage_x__Fixed_specimen_holder_piece_0",
+          "turret__Objective_front_glass_20"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999899864695479,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 4,
+      "xy_mm": [
+        -35,
+        25
+      ],
+      "contact_samples": 941263,
+      "maximum_contact_penetration_mm": 0.0008629093262129896,
+      "peak_normal_force_N": 2.284780476716672,
+      "loaded_focus_mm": 0.4881574502602735,
+      "contact_pairs": [
+        [
+          "stage_x__Curved_retaining_arm_piece_18",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_19",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_20",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_21",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_22",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_23",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_24",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_25",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_26",
+          "turret__Objective_front_glass_100"
+        ],
+        [
+          "stage_x__Curved_retaining_arm_piece_27",
+          "turret__Objective_front_glass_100"
+        ]
+      ],
+      "fixed_casting_contacts": [],
+      "retracted_focus_mm": -4.999953406039319,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "tasks": [],
+  "passed": true,
+  "loaded_poses": {
+    "path": "validation/alignment6/zeiss/loaded_holder_poses.json",
+    "sha256": "ad1e81d61a99598c03159a67ea238f3def5969d422f2d3e17db0a901cbcfc5ed"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "revision": "alignment6",
+  "asset": "nikon",
+  "script_sha256": "bc2bfa398557f328260ce61243a3df55862f31d78c4f0c85c6b3973fd7feffa5",
+  "xml_sha256": "1015fe7df302e677ea0c665d3b03d454f59d42c2f95e2c394e21fce403fe4172",
+  "baseline_xml_sha256": "d95913219fa79e27c60092bd7e27535e03cc1dda7ad408c5c167aa2e7223f92b",
+  "method": "Exact comparison of all native body/joint/site attributes and equality/actuator entries against the preserved public baseline. Only shapes/contact definitions may change.",
+  "checks": [
+    {
+      "check": "body_datums",
+      "changes": [],
+      "added_names": [],
+      "passed": true
+    },
+    {
+      "check": "joint_datums",
+      "changes": [],
+      "added_names": [],
+      "passed": true
+    },
+    {
+      "check": "site_datums",
+      "changes": [],
+      "added_names": [],
+      "passed": true
+    },
+    {
+      "check": "equality_configuration",
+      "passed": true
+    },
+    {
+      "check": "actuator_configuration",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

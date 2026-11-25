@@ -1,0 +1,13 @@
+{
+  "revision": "alignment6",
+  "passed": true,
+  "source": "005_afm/previews/optical_alignment_comparison.png",
+  "source_sha256": "f5c9039fc81cb3988bfb82778d537cce34bd40a87088a1dc01feb2f3209728b2",
+  "proof": "validation/alignment6/afm/comparison_front.json",
+  "proof_sha256": "51afdd9573a31798ec8eecb0e0e4fc3b6cdeb25ed813beffa47dc88a7d8c9e37",
+  "outputs": {
+    "comparison/afm-alignment.png": "f5c9039fc81cb3988bfb82778d537cce34bd40a87088a1dc01feb2f3209728b2",
+    "comparison/afm-alignment.jpg": "8287fc45d77545fd7594f9cc06dc13ef26e63d0951a71366cf3e70e31fdc9e3b"
+  },
+  "method": "Original full-frame comparison PNG plus high-quality JPEG encoding; no cropping or retouching. Original comparison records identical camera and pose."
+}

@@ -1,0 +1,130 @@
+{
+  "revision": "alignment6",
+  "passed": true,
+  "checks": {
+    "preserved_parent": true,
+    "preserved_pos_mm": true,
+    "preserved_euler": true,
+    "preserved_joint": true,
+    "preserved_mass": true,
+    "preserved_inertia": true,
+    "preserved_sites": true,
+    "same_couplings": true,
+    "same_controls": true,
+    "no_initial_contacts": true,
+    "tip_and_handle_separate": true,
+    "inspection_vertical": true,
+    "eight_to_one_bidirectional": true,
+    "six_baselines_succeed": true,
+    "no_unexpected_contacts": true
+  },
+  "episodes": [
+    {
+      "task": "bonder.align",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 2.479999999999838,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.190776574950112e-07,
+        "active_pad": 1,
+        "first_pad_distance_m": 8.190776574950112e-07,
+        "gap_m": 0.0023999999999999994
+      },
+      "unexpected_contact_count": 0
+    },
+    {
+      "task": "bonder.align",
+      "seed": 1,
+      "success": true,
+      "failure": null,
+      "duration_s": 2.479999999999838,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.190776574950112e-07,
+        "active_pad": 1,
+        "first_pad_distance_m": 8.190776574950112e-07,
+        "gap_m": 0.0023999999999999994
+      },
+      "unexpected_contact_count": 0
+    },
+    {
+      "task": "bonder.align",
+      "seed": 2,
+      "success": true,
+      "failure": null,
+      "duration_s": 2.479999999999838,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 8.190776574950112e-07,
+        "active_pad": 1,
+        "first_pad_distance_m": 8.190776574950112e-07,
+        "gap_m": 0.0023999999999999994
+      },
+      "unexpected_contact_count": 0
+    },
+    {
+      "task": "bonder.two_bonds",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 12.8799999999983,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.16116549341340528,
+        "error_m": 4.055349805964781e-15,
+        "active_pad": 2,
+        "first_pad_distance_m": 0.005999999999995944,
+        "gap_m": 0.0013671578313638189
+      },
+      "unexpected_contact_count": 0
+    },
+    {
+      "task": "bonder.two_bonds",
+      "seed": 1,
+      "success": true,
+      "failure": null,
+      "duration_s": 12.8799999999983,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.16116549341340528,
+        "error_m": 4.055349805964781e-15,
+        "active_pad": 2,
+        "first_pad_distance_m": 0.005999999999995944,
+        "gap_m": 0.0013671578313638189
+      },
+      "unexpected_contact_count": 0
+    },
+    {
+      "task": "bonder.two_bonds",
+      "seed": 2,
+      "success": true,
+      "failure": null,
+      "duration_s": 12.8799999999983,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.16116549341340528,
+        "error_m": 4.055349805964781e-15,
+        "active_pad": 2,
+        "first_pad_distance_m": 0.005999999999995944,
+        "gap_m": 0.0013671578313638189
+      },
+      "unexpected_contact_count": 0
+    }
+  ],
+  "reduction_ratios": [
+    0.12499999934114042,
+    0.1250000000742251
+  ],
+  "source_xml_sha256": "e8a626df50db11cd9598e1059ebf72f9246ffad71ef18d3cfc076d10095fc5fc"
+}

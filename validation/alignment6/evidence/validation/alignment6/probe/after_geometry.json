@@ -1,0 +1,2538 @@
+{
+  "revision": "alignment6",
+  "asset": "probe",
+  "phase": "after",
+  "source": "002_probe_station/probe_station.blend",
+  "source_sha256": "8dbacfdbd9392d529ecf0a0b1eb69921a510ff78c853aca9dcc6fad65ed9b2de",
+  "script_sha256": "7d97f3275049b73a98321d36443220871f5b9f16b4b3ed99545e73d7a118cf61",
+  "method": "Evaluated Blender detailed vertices and BVH triangles, plus three-skew-ray containment witnesses after broad phase. Axes measured from actual front-glass object transforms. Nominal safe configurations evaluated separately from unsafe commanded collisions.",
+  "selected_objects": {
+    "optics": [
+      "Mitutoyo five-times stepped objective",
+      "Mitutoyo recessed front glass"
+    ],
+    "stage": [
+      "Angled green needle-carrier board",
+      "Chip clamp screw head",
+      "Chip clamp screw head.001",
+      "Chip clamp screw hex recess",
+      "Chip clamp screw hex recess.001",
+      "Chip clamp screw stem",
+      "Chip clamp screw stem.001",
+      "Chuck graphite top",
+      "device_chip",
+      "Right probe upright jaw",
+      "Sample clamp block",
+      "Specimen holder front adjuster",
+      "Specimen holder guide screw head",
+      "Specimen holder guide screw head.001",
+      "Specimen holder guide screw head.002",
+      "Specimen holder guide screw head.003",
+      "Specimen holder guide screw hex recess",
+      "Specimen holder guide screw hex recess.001",
+      "Specimen holder guide screw hex recess.002",
+      "Specimen holder guide screw hex recess.003",
+      "Specimen holder lower rail",
+      "Specimen holder side adjuster",
+      "Specimen holder upper guide",
+      "Specimen holder upper guide.001",
+      "Tungsten needle",
+      "Tungsten needle.001",
+      "Vacuum chuck",
+      "Vertical carrier clamp"
+    ],
+    "head": []
+  },
+  "axis_checks": [
+    {
+      "station": 0,
+      "mag": 5,
+      "front_center_mm": [
+        0.0,
+        -28.0000027269125,
+        191.69998168945312
+      ],
+      "axis": [
+        -8.742279078432991e-08,
+        -8.742276946804784e-08,
+        -0.9999999999999925
+      ],
+      "vertical_error_deg": 7.040397847728103e-06,
+      "intersection_xy_error_mm": 4.969510427308863e-06,
+      "front_glass_to_sample_gap_mm": 21.299981192241404,
+      "home_objective_to_specimen_ray_hits": [],
+      "head_intersections": []
+    }
+  ],
+  "sweep": [
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        -12.5,
+        -12.5
+      ],
+      "focus_mm": -20,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        -12.5,
+        -12.5
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        -12.5,
+        -12.5
+      ],
+      "focus_mm": 20,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        -12.5,
+        0
+      ],
+      "focus_mm": -20,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        -12.5,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        -12.5,
+        0
+      ],
+      "focus_mm": 20,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        -12.5,
+        12.5
+      ],
+      "focus_mm": -20,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        -12.5,
+        12.5
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        -12.5,
+        12.5
+      ],
+      "focus_mm": 20,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        -12.5
+      ],
+      "focus_mm": -20,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        -12.5
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        -12.5
+      ],
+      "focus_mm": 20,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": -20,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        0
+      ],
+      "focus_mm": 20,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        12.5
+      ],
+      "focus_mm": -20,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        12.5
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        0,
+        12.5
+      ],
+      "focus_mm": 20,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        12.5,
+        -12.5
+      ],
+      "focus_mm": -20,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        12.5,
+        -12.5
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        12.5,
+        -12.5
+      ],
+      "focus_mm": 20,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        12.5,
+        0
+      ],
+      "focus_mm": -20,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        12.5,
+        0
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        12.5,
+        0
+      ],
+      "focus_mm": 20,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        12.5,
+        12.5
+      ],
+      "focus_mm": -20,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        12.5,
+        12.5
+      ],
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "station": 0,
+      "mag": 5,
+      "xy_mm": [
+        12.5,
+        12.5
+      ],
+      "focus_mm": 20,
+      "intersections": []
+    }
+  ],
+  "illumination": [],
+  "bench": [],
+  "holder_specimen": {
+    "intersections": [],
+    "bounds_mm": {
+      "Chip clamp screw head": [
+        [
+          -25.00000176951289,
+          -42.99999913200736,
+          170.2000037766993
+        ],
+        [
+          -19.000001717358828,
+          -36.999999079853296,
+          171.80000385269523
+        ]
+      ],
+      "Chip clamp screw head.001": [
+        [
+          19.000001717358828,
+          -42.99999913200736,
+          170.2000037766993
+        ],
+        [
+          25.00000176951289,
+          -36.999999079853296,
+          171.80000385269523
+        ]
+      ],
+      "Chip clamp screw hex recess": [
+        [
+          -23.47000187728554,
+          -41.27305664044426,
+          171.64000868797302
+        ],
+        [
+          -20.53000160958618,
+          -38.7269415714164,
+          171.79000869509764
+        ]
+      ],
+      "Chip clamp screw hex recess.001": [
+        [
+          20.53000160958618,
+          -41.27305664044426,
+          171.64000868797302
+        ],
+        [
+          23.47000187728554,
+          -38.7269415714164,
+          171.79000869509764
+        ]
+      ],
+      "Chip clamp screw stem": [
+        [
+          -23.60000181943178,
+          -41.59999918192625,
+          169.50000345241278
+        ],
+        [
+          -20.400001667439938,
+          -38.399999029934406,
+          170.70000350940973
+        ]
+      ],
+      "Chip clamp screw stem.001": [
+        [
+          20.400001667439938,
+          -41.59999918192625,
+          169.50000345241278
+        ],
+        [
+          23.60000181943178,
+          -38.399999029934406,
+          170.70000350940973
+        ]
+      ],
+      "Sample clamp block": [
+        [
+          -28.300000354647636,
+          -50.50000175833702,
+          156.50000795722008
+        ],
+        [
+          28.300000354647636,
+          -5.499999970197678,
+          169.75000873208046
+        ]
+      ],
+      "Specimen holder front adjuster": [
+        [
+          -4.800001085430444,
+          -73.00000217114861,
+          156.20001269473136
+        ],
+        [
+          4.800001085430444,
+          -52.99999985540932,
+          165.8000140081495
+        ]
+      ],
+      "Specimen holder guide screw head": [
+        [
+          -32.80000144150108,
+          -46.800001873634756,
+          168.19999972358346
+        ],
+        [
+          -29.200001270510256,
+          -43.20000170264393,
+          169.79999979957938
+        ]
+      ],
+      "Specimen holder guide screw head.001": [
+        [
+          -32.80000144150108,
+          -12.800000025890768,
+          168.19999972358346
+        ],
+        [
+          -29.200001270510256,
+          -9.199999854899943,
+          169.79999979957938
+        ]
+      ],
+      "Specimen holder guide screw head.002": [
+        [
+          29.200001270510256,
+          -46.800001873634756,
+          168.19999972358346
+        ],
+        [
+          32.80000144150108,
+          -43.20000170264393,
+          169.79999979957938
+        ]
+      ],
+      "Specimen holder guide screw head.003": [
+        [
+          29.200001270510256,
+          -12.800000025890768,
+          168.19999972358346
+        ],
+        [
+          32.80000144150108,
+          -9.199999854899943,
+          169.79999979957938
+        ]
+      ],
+      "Specimen holder guide screw hex recess": [
+        [
+          -31.882001436315477,
+          -45.76383630884771,
+          169.82001066207886
+        ],
+        [
+          -30.11800127569586,
+          -44.23616726743098,
+          169.97001066920348
+        ]
+      ],
+      "Specimen holder guide screw hex recess.001": [
+        [
+          -31.882001436315477,
+          -11.763834461103714,
+          169.82001066207886
+        ],
+        [
+          -30.11800127569586,
+          -10.236165419686996,
+          169.97001066920348
+        ]
+      ],
+      "Specimen holder guide screw hex recess.002": [
+        [
+          30.11800127569586,
+          -45.76383630884771,
+          169.82001066207886
+        ],
+        [
+          31.882001436315477,
+          -44.23616726743098,
+          169.97001066920348
+        ]
+      ],
+      "Specimen holder guide screw hex recess.003": [
+        [
+          30.11800127569586,
+          -11.763834461103714,
+          169.82001066207886
+        ],
+        [
+          31.882001436315477,
+          -10.236165419686996,
+          169.97001066920348
+        ]
+      ],
+      "Specimen holder lower rail": [
+        [
+          -38.50000351667404,
+          -54.50000241398811,
+          151.49999898858368
+        ],
+        [
+          38.50000351667404,
+          -1.499999314546585,
+          156.49999934248626
+        ]
+      ],
+      "Specimen holder side adjuster": [
+        [
+          -54.000004707173645,
+          -33.00000195804944,
+          156.99999938305507
+        ],
+        [
+          -34.000002266569794,
+          -22.99999977048526,
+          167.00000157061925
+        ]
+      ],
+      "Specimen holder upper guide": [
+        [
+          -33.50000153295696,
+          -52.000001072883606,
+          156.50000888854265
+        ],
+        [
+          -28.50000117905438,
+          -4.0000006556510925,
+          168.50000899285078
+        ]
+      ],
+      "Specimen holder upper guide.001": [
+        [
+          28.50000117905438,
+          -52.000001072883606,
+          156.50000888854265
+        ],
+        [
+          33.50000153295696,
+          -4.0000006556510925,
+          168.50000899285078
+        ]
+      ],
+      "device_chip": [
+        [
+          -6.000000052154064,
+          -34.00000091642141,
+          169.75000177626498
+        ],
+        [
+          6.000000052154064,
+          -22.000000812113285,
+          170.2500018000137
+        ]
+      ]
+    }
+  },
+  "retracted_turret_sweep": [],
+  "probe_combinations": [
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            4.367229436084813,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            4.367224015871547,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            4.367229436084813,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            4.367224015871547,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            4.367229436084813,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            4.367224015871547,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            4.367229436084813,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            4.367224015871547,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            4.367229436084813,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            4.367224015871547,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            4.367229436084813,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            4.367224015871547,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            4.367229436084813,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            4.367224015871547,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            4.367229436084813,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            4.367224015871547,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            4.367229436084813,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            4.367224015871547,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 96
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 198
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 160
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            10.367226694271153,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            10.367221274057886,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 194
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 194
+        },
+        {
+          "moving": "Mitutoyo recessed front glass",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            7.367217680321619,
+            2.5000067071032537,
+            0.3000014130137285
+          ],
+          "triangle_pairs": 192
+        },
+        {
+          "moving": "Mitutoyo recessed front glass",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            7.367217680321619,
+            2.5000067071032537,
+            0.3000014130137285
+          ],
+          "triangle_pairs": 192
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 194
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 194
+        },
+        {
+          "moving": "Mitutoyo recessed front glass",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            7.367217680321619,
+            2.5000067071032537,
+            0.3000014130137285
+          ],
+          "triangle_pairs": 192
+        },
+        {
+          "moving": "Mitutoyo recessed front glass",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            7.367217680321619,
+            2.5000067071032537,
+            0.3000014130137285
+          ],
+          "triangle_pairs": 192
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 194
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 194
+        },
+        {
+          "moving": "Mitutoyo recessed front glass",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            7.367217680321619,
+            2.5000067071032537,
+            0.3000014130137285
+          ],
+          "triangle_pairs": 192
+        },
+        {
+          "moving": "Mitutoyo recessed front glass",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            7.367217680321619,
+            2.5000067071032537,
+            0.3000014130137285
+          ],
+          "triangle_pairs": 192
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 98
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": []
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.500006707103257,
+            33.194861001003964
+          ],
+          "triangle_pairs": 196
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "chuck_theta_rad": -0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "chuck_theta_rad": 0.0,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    },
+    {
+      "left_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "chuck_theta_rad": 0.35,
+      "intersections": [
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle",
+          "aabb_overlap_mm": [
+            16.367223952457493,
+            2.5000067071032537,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        },
+        {
+          "moving": "Mitutoyo five-times stepped objective",
+          "target": "Tungsten needle.001",
+          "aabb_overlap_mm": [
+            16.367218532244227,
+            2.500006707103257,
+            35.88970176679867
+          ],
+          "triangle_pairs": 100
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Photographic estimates, not metrology or an optical prescription.",
+    "Finite configuration samples, not a continuous collision proof.",
+    "Rays through the external illumination gap exclude the designated condenser optical housing; internal optical prescriptions/light transmission are not inferred.",
+    "Barrel lettering/coincident trim and inserted spindle/fastener seating are not all-pairs tested.",
+    "Unsafe extreme commands are logged; native contact must stop those configurations and is checked separately."
+  ],
+  "diagnostic_counts": {
+    "home_holder_specimen_intersections": 0,
+    "bench": 0,
+    "sweep_poses_with_hits": 9,
+    "retracted_turret_poses_with_hits": 0,
+    "probe_combinations_with_hits": 45
+  }
+}

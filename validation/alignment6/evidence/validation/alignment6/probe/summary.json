@@ -1,0 +1,62 @@
+{
+  "revision": "alignment6",
+  "asset": "probe",
+  "changed": true,
+  "reviewed": true,
+  "passed": true,
+  "changes": [
+    "Rebuilt the chuck clamp stack around the unchanged chip/probe/optical datums: clamp and guides sit on the lower rail, the chip rests on the clamp, and each side guide has 0.2 mm clearance.",
+    "Added short physical stems under the raised clamp screw heads and native support contacts."
+  ],
+  "baseline_findings": [
+    "The clamp intersected its lower rail by 4 mm, both guides intersected the rail by 1 mm, side guides overlapped the clamp by 1 mm, and the chip floated 0.25 mm above the clamp."
+  ],
+  "current_artifacts_sha256": {
+    "002_probe_station/probe_station.blend": "8dbacfdbd9392d529ecf0a0b1eb69921a510ff78c853aca9dcc6fad65ed9b2de",
+    "002_probe_station/probe_station.xml": "33aaec22ddd9e8b05b76a27c1d5e840171aecb07415153742dc6bd1caec3bffe",
+    "002_probe_station/assets/probe_station.glb": "43b6329caeaffaa58531278f1e767fcf8e1e0f6fd31170c47a5af04f3c124aff",
+    "002_probe_station/assets/meshes.json": "7d3028a0a1918baaa6f4593f419c184050f5db4c8913f0cfc077e667f0adb30e",
+    "002_probe_station/build.py": "c66848416cb55309b9a036ce584300bb54e3fa1797cdd57e037bfada44415083",
+    "002_probe_station/reference_geometry.py": "3132f49982cb9e5a52d3651873451cf51875e7be20b38548179a9de5433d9c51",
+    "002_probe_station/reference_construction.py": "7c3984ace6d541fff59b32529aa8f86e9bce6d436379f6278273003bee249286",
+    "002_probe_station/geometry_support.py": "f6d33ea5e3c2c389b7022df7467499d059e7427fb42c82838cf381218c216db4",
+    "002_probe_station/asset.json": "df811cbd1b11caca7b510b0d59c412d8740dc744bab25c3268119c98d1973f92",
+    "tools/photography.py": "d72172b252587871c73257f39379abb642ec17eb1e7a472dd637395ec77a60e7",
+    "tools/realism_materials.py": "ceebc444f75b93866c4bedd9bcf22239518d5ed56cfa079468eb51dbb68c4700",
+    "tools/assetkit.py": "4a4e85a00c924bfcfb5b7d68ee6e4c24839c72c34017c8f03bbe7444d50c8ba2",
+    "tools/hardware.py": "17670ec29e9256d1c3a33d6618ff86b173370700e59213274916abcac5d351c0",
+    "tools/contact_mechanics.py": "734ee0dd0ba3a3642ad3f47ef3bbeebd53a430677dac1249261c5b23673abdca"
+  },
+  "reports": [
+    {
+      "path": "validation/alignment6/probe/acceptance.json",
+      "sha256": "807ea09f9be139a902bab2099a38cf2ddc326fcf93b26a66ebda251842696923"
+    },
+    {
+      "path": "validation/alignment6/probe/baseline_files.json",
+      "sha256": "09c5602c91be4cc74c146c59f2c864d59b97fd62d426706716f8a3127151b758"
+    },
+    {
+      "path": "validation/alignment6/probe/section_plot_report.json",
+      "sha256": "49b087bba7396243ebc7c456ea6dec3f8bb380c7e33c63149dbedfff53b756f2"
+    }
+  ],
+  "promoted_render_report": "002_probe_station/previews/render_report.json",
+  "promoted_render_report_sha256": "795b78fa2bd932583f0c822788ca767f2f7a36375d1e438bf7e696980fe76329",
+  "before_after_section": {
+    "path": "validation/alignment6/probe/before_after_sections.png",
+    "sha256": "d772217a59e298a3b65bee58e324da447ab424ab377d617b1b483a08e58d8b9b"
+  },
+  "limitations": [
+    "Exterior dimensions, loads, material properties and holder/stand relief dimensions remain reconstruction estimates; no manufacturer CAD or metrology is claimed.",
+    "Collision checks cover the named assemblies and finite sampled poses, not every possible configuration or every inserted screw/bearing seam.",
+    "Native contact is numerically soft; contact regressions measure and limit penetration rather than interpreting it as calibrated material indentation.",
+    "The optical-axis check is geometric. Internal optical prescriptions and lower condenser transmission are not ray-traced.",
+    "Existing cable models and renderer behavior are preserved; these repairs do not add robot-driven cable dynamics."
+  ],
+  "validation_counts": {
+    "static_optical_poses": 27,
+    "knob_exterior_checks": 67,
+    "support_fits": 4
+  }
+}

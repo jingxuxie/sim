@@ -1,0 +1,1137 @@
+{
+  "revision": "alignment6",
+  "passed": true,
+  "review_complete": true,
+  "reviewed_utc": "2026-11-25T08:58:07.787238+00:00",
+  "reviewer": "transfer_clearance",
+  "method": "Manual full-frame contact-sheet and enlarged-detail inspection, followed by exact image/report/current-scene digest checks. Sources and renderer outputs are read-only.",
+  "scope": "Independent visual cross-review of Nikon, Zeiss, probe, AFM and tweezers; owner visual review of transfer and bonder.",
+  "instrument_count": 7,
+  "inspected_final_image_count": 51,
+  "comparison_count": 4,
+  "assets": [
+    {
+      "asset": "nikon",
+      "passed": true,
+      "source": {
+        "path": "000/e1000.blend",
+        "sha256": "78eda10025ea6d7e453508bcf5b8c2381914bbf6bbba89a01cf401b2a938636f"
+      },
+      "source_author_is_reviewer": false,
+      "scope": "Visible final stills and recorded poses only.",
+      "findings": [
+        "The selected objective appears normal to the sample slide, with the neighboring turret objectives tilted away and visibly clear in the rendered rest pose.",
+        "The construction/focus view shows the black stage carriage connected at the column; the condenser and coarse/fine focus controls are visibly supported.",
+        "Metal objective highlights, glass reflections, molded body seams, stage markings and soft contact shadows remain present."
+      ],
+      "material_visual_defects": [],
+      "reports": [
+        {
+          "path": "validation/alignment6/nikon/final/render_report.json",
+          "sha256": "e74085016d4111e0389eb6a62d94da4b4d4733a7d3652eb02cd9d90749094cfc"
+        }
+      ],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/nikon/final/lab_view.png",
+          "sha256": "c4ca9d7158635a90f00390d3765cd1c1e2e661616863d9d417045ff8f3b8a7bd",
+          "camera": "01 | Lab side",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "render_report": "validation/alignment6/nikon/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/nikon/final/operator_view.png",
+          "sha256": "944fd30292b0dc7aaf9862092b57d0a9538fd8f8747c529d156102147312fc8d",
+          "camera": "02 | Operator view",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/nikon/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/nikon/final/controls.png",
+          "sha256": "e88434835b16c77874cb33816243eae10a8d63c4861584158a93accccac440fa",
+          "camera": "03 | Mechanics",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/nikon/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/nikon/final/optical_head.png",
+          "sha256": "12c0bf09234e8103c24b5a0db337f0ef5b04eaea00e33738292738a38949c1c9",
+          "camera": "04 | Optical head",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/nikon/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/nikon/final/construction_focus.png",
+          "sha256": "ea31f517c61e1dfc4c6c6ee047b09231e9f047ca8dd7316f9cdda063f3a287ee",
+          "camera": "construction_focus",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/nikon/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        }
+      ]
+    },
+    {
+      "asset": "transfer",
+      "passed": true,
+      "source": {
+        "path": "001_transfer_stage/transfer_station.blend",
+        "sha256": "32752a04829cd966b9fe0ad0553777677a4fd1b3cef867f8307b8498d6fb9f9a"
+      },
+      "source_author_is_reviewer": true,
+      "scope": "Visible final stills and recorded poses only.",
+      "findings": [
+        "The selected objective remains vertical above the sample/stamp assembly; the illumination box and metallic fiber visibly connect to the microscope.",
+        "Stage actuators, balls, compact Z mechanism and guide rails remain visibly supported. The sample-X knob and camera lead remain above the table in these stills.",
+        "The focus-guide comparison exposes the old intersecting bridge and the separated final carriage; the final frame retains detailed metallic reflections and table shading."
+      ],
+      "material_visual_defects": [],
+      "reports": [
+        {
+          "path": "001_transfer_stage/previews/alignment6_render_report.json",
+          "sha256": "7fac40e01fdbae8dd795f9fea3872fff31b13de799dceaf5d39498871fc1fb94"
+        }
+      ],
+      "inspected_images": [
+        {
+          "path": "001_transfer_stage/previews/overview.png",
+          "sha256": "721bba1c31a93c633dd57f2e0e624a2c7d0faf7968afc8caec0f76c89d507f58",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "001_transfer_stage/previews/mechanisms.png",
+          "sha256": "cabaa37a7290afef60b8d434c5cc2cc543efe08d6212bc4d9eced88dbffefd0b",
+          "camera": "mechanisms",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "001_transfer_stage/previews/illumination.png",
+          "sha256": "21a7f8a264b6e8f4c296cbf00532032d0e115e919dc88b7881ad3d7dc3e6aa0f",
+          "camera": "illumination",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "001_transfer_stage/previews/rotation_detail.png",
+          "sha256": "2c70ea4118bc5e8fc62c93a2d3236725dc0744773758296e341732ad9c1781f8",
+          "camera": "rotation_detail",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "001_transfer_stage/previews/stamp_stage.png",
+          "sha256": "49e45015fccd952bcc27e48bde7f12aeda2d099bc8ad484d9bec980b439ab419",
+          "camera": "stamp_stage",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "001_transfer_stage/previews/optical_head.png",
+          "sha256": "7b6e50e5fbdcfe295f398e19b00dd5788290a73d616bf3a9e78859f46fed6e1b",
+          "camera": "optical_head",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "001_transfer_stage/previews/clearance_sample_x.png",
+          "sha256": "4c1189e43ea651f1a68012e28c18529001e877469d6d69cba97fcdceeab9c88a",
+          "camera": "clearance_sample_x",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "001_transfer_stage/previews/clearance_stamp_z.png",
+          "sha256": "2419d17fe62ec676789c46ba687c42e2cc444b7839acc985c1a28b000ea3210e",
+          "camera": "clearance_stamp_z",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "001_transfer_stage/previews/clearance_camera_lead.png",
+          "sha256": "462e58b71b5ec4420354e6b4ed8eef11697b5f5a1dcbaa121264432900f8febe",
+          "camera": "clearance_camera_lead",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "001_transfer_stage/previews/alignment_focus_guide.png",
+          "sha256": "e05afdc5e9056d1908fabfaac7ebcbb98d61fdd780cb2eb30661463914387b9d",
+          "camera": "alignment_focus_guide",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "001_transfer_stage/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        }
+      ]
+    },
+    {
+      "asset": "probe",
+      "passed": true,
+      "source": {
+        "path": "002_probe_station/probe_station.blend",
+        "sha256": "8dbacfdbd9392d529ecf0a0b1eb69921a510ff78c853aca9dcc6fad65ed9b2de"
+      },
+      "source_author_is_reviewer": false,
+      "scope": "Visible final stills and recorded poses only.",
+      "findings": [
+        "The objective appears vertical above the sample carrier, with separate angled probes approaching the workfield.",
+        "The microscope focus carriage and rear tower are separate connected assemblies; manipulator stages and front adjustment knob show no obvious clipping in these views.",
+        "The orange platform finish, polished stage edges, glass, cable connectors and directional metal highlights are retained."
+      ],
+      "material_visual_defects": [],
+      "reports": [
+        {
+          "path": "validation/alignment6/probe/final/render_report.json",
+          "sha256": "7c3fde38c381210599e22dbe1b2aaeff32592e900ae9c62bab852f2f4d10fb62"
+        }
+      ],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/probe/final/overview.png",
+          "sha256": "a2692cfe893f845742986316d16c4f4d6b9a03eaadad6bc8efc422a67fe8afdf",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "render_report": "validation/alignment6/probe/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/probe/final/probing.png",
+          "sha256": "ba7b1a5aedac45d1c2a835ba9109f519b5e38c05c49724c384fad516beb5cfae",
+          "camera": "probing",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/probe/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/probe/final/optical_head.png",
+          "sha256": "b90bac50837513f37952e25a24fe83c094d8c58675ec3d10af05254540966a6f",
+          "camera": "optical_head",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/probe/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/probe/final/left_manipulator.png",
+          "sha256": "6049dc55737e1cce06d8f8af22ca8f48ff7a0af7bb124298c3e0bafc093975a0",
+          "camera": "left_manipulator",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/probe/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/probe/final/construction_frame.png",
+          "sha256": "1fab3aafd4eaab0c75bef642be4e9b1ecc5b7b76ed38abf4c3ff72c80daa5507",
+          "camera": "construction_frame",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/probe/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        }
+      ]
+    },
+    {
+      "asset": "zeiss",
+      "passed": true,
+      "source": {
+        "path": "003_zeiss/zeiss_upright.blend",
+        "sha256": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d"
+      },
+      "source_author_is_reviewer": false,
+      "scope": "Visible final stills and recorded poses only.",
+      "findings": [
+        "The active objective is visibly perpendicular to the slide. The slide spans the stage aperture and the condenser is centered below it in the rendered rest pose.",
+        "The XY controls are connected through their visible shaft/bracket at the stage; focus wheels and condenser support remain connected.",
+        "Objective barrel reflections, lens reflections and satin stage/body finish are retained. This review does not infer off-screen moving-stage clearance from the rest views."
+      ],
+      "material_visual_defects": [],
+      "reports": [
+        {
+          "path": "validation/alignment6/zeiss/final/render_report.json",
+          "sha256": "01503cf95e795c9c5400fed6da177077ccc6f13760e8977ecf565308a2e947f9"
+        }
+      ],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/zeiss/final/overview.png",
+          "sha256": "b38b9c88f9a03319a73f58d4253b8081864e39d52db1e02f6f50397cd81c4ce4",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "render_report": "validation/alignment6/zeiss/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/zeiss/final/stage.png",
+          "sha256": "5a191378e2def0ca7a1cc9cf3d7490e806800dd033ee037c95845a97ff2ae239",
+          "camera": "stage",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/zeiss/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/zeiss/final/optical_head.png",
+          "sha256": "7c27f581c6e1c8938015f80fd0fe7a84943e11650e4018ecd166a072275300a4",
+          "camera": "optical_head",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/zeiss/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/zeiss/final/condenser.png",
+          "sha256": "d96af4c3a136281f8bca74548c54ad2faf433b670051b2756729bb7fd9555239",
+          "camera": "condenser",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/zeiss/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/zeiss/final/construction_stage.png",
+          "sha256": "91c931bb1a20afc6cc1edb3c965b6cf27e9c703aab45d77164500fe80a654507",
+          "camera": "construction_stage",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/zeiss/final/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        }
+      ]
+    },
+    {
+      "asset": "bonder",
+      "passed": true,
+      "source": {
+        "path": "004_wire_bonder/wire_bonder.blend",
+        "sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0"
+      },
+      "source_author_is_reviewer": true,
+      "scope": "Visible final stills and recorded poses only.",
+      "findings": [
+        "The tool head and lower hand lever remain distinct. The tip is above the chip; the heater, leads and lever remain clear of the deck in the displayed poses.",
+        "The fixed focus fork and moving optical body have a visible carriage connection. The guide comparison shows the former shell/support interference and corrected separated support.",
+        "The workfield and pinhole comparisons show reduced collet/yoke obstruction while retaining visible opaque tool occlusion; the pinhole view is not calibrated stereo imaging.",
+        "Brushed deck reflections, metal head/rod highlights, glass reflections and the granular heater jacket are retained."
+      ],
+      "material_visual_defects": [],
+      "reports": [
+        {
+          "path": "004_wire_bonder/previews/alignment6_render_report.json",
+          "sha256": "3c313468ed9cb5e034590b9554052f5287cecdb1a76fffd0bb9aa3d6d955e9e1"
+        }
+      ],
+      "inspected_images": [
+        {
+          "path": "004_wire_bonder/previews/overview.png",
+          "sha256": "94c0eaadd18c0a967e86a67dfe1f1bcda3f2dce2f698505cc70ccbe71f1e8669",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "004_wire_bonder/previews/tool.png",
+          "sha256": "0c6134900b2bf423f50b1a40f566b70b2310caa02eb5447e82770d97afab4eec",
+          "camera": "tool",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "004_wire_bonder/previews/operator.png",
+          "sha256": "27182720ade48127f60375af5ac43145a14b5b54e5f8fc7b5b1ade97c6728574",
+          "camera": "operator",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "004_wire_bonder/previews/head_detail.png",
+          "sha256": "0b7c92f8ddf0539be2dcaf638e09d2ca58f7ab84106db802835b829d26d3ac95",
+          "camera": "head_detail",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "004_wire_bonder/previews/optical_head.png",
+          "sha256": "a8515739f2a89131f168691862d9887ee1112bb5bdde4ba2b0020bbc6312b1d3",
+          "camera": "optical_head",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "004_wire_bonder/previews/heater_detail.png",
+          "sha256": "e35691b6b7eb62640cb563056ea3d4a006bd7d6aa7317d8127fd5ba3abd4d957",
+          "camera": "heater_detail",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "004_wire_bonder/previews/rear_service.png",
+          "sha256": "605d0fd85540089f4d5fa6320cc411c5dd6e99baae11d5212309a8d52a79b33c",
+          "camera": "rear_service",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "004_wire_bonder/previews/alignment_focus_guide.png",
+          "sha256": "d4922805c9b1525772b2af559019cf258c5b5179cad1236ba1e7cf8e0cee7323",
+          "camera": "alignment_focus_guide",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "004_wire_bonder/previews/alignment_workfield.png",
+          "sha256": "5067b944a550c5453339532e7f0446ec1f94e0050c5715c3a3e8cef3cf11aedd",
+          "camera": "alignment_workfield",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "004_wire_bonder/previews/alignment_pupil.png",
+          "sha256": "d34cbd3ff9963df79960ccaaf2670bdc70d94bf7aac6dc5ad063842f38f66912",
+          "camera": "alignment_pupil",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "004_wire_bonder/previews/alignment6_render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": null,
+          "manually_inspected": true
+        }
+      ]
+    },
+    {
+      "asset": "afm",
+      "passed": true,
+      "source": {
+        "path": "005_afm/cypher_s.blend",
+        "sha256": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565"
+      },
+      "source_author_is_reviewer": false,
+      "scope": "Visible final stills and recorded poses only.",
+      "findings": [
+        "Only the floor-corrected scene 349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565 is reviewed here.",
+        "The front and side alignment views show the objective above the sample/holder assembly, with visible separation from the upper holder and visible support beneath the holder.",
+        "The final top alignment view places the objective over the sample puck with the holder body offset beside it; the front/side views provide the clearer visible gap evidence.",
+        "The stowed/deployed/open handle views show the handle in its recessed pocket or articulated out of it. The fixed keeper and scanner-release parts remain visibly supported.",
+        "The enclosure glass tint, steel grain, objective highlights and door/scanner hardware shading remain consistent across the final pose sets."
+      ],
+      "material_visual_defects": [],
+      "reports": [
+        {
+          "path": "validation/alignment6/afm/final_alignment/render_report.json",
+          "sha256": "250a5aaa2ffe89374ba8b964b6580d46da06bb7ad0ac5d3a92a74b6b23867fa7"
+        },
+        {
+          "path": "validation/alignment6/afm/final_closed/render_report.json",
+          "sha256": "10ed09b196460404f8fcc5a5c54731edc335a30977302516f8e5e133c47b23e9"
+        },
+        {
+          "path": "validation/alignment6/afm/final_deployed/render_report.json",
+          "sha256": "207125c4ce3d6aeecdfc8f9aff608278794112f9d29493096f7d2fda72aa1e63"
+        },
+        {
+          "path": "validation/alignment6/afm/final_open/render_report.json",
+          "sha256": "96ab1111dd50d85d773022729b28c77bc3b0cb3c7d34417d2a4f81b71dcee253"
+        },
+        {
+          "path": "validation/alignment6/afm/final_overview/render_report.json",
+          "sha256": "31e839a606fd9170d0d336f8912c5f6bc94f3a90684cb13102768c091b6ab389"
+        },
+        {
+          "path": "validation/alignment6/afm/final_scanner/render_report.json",
+          "sha256": "fa15fce810b34c6299949370a51fc4a79ca42e561434a860784decd264091efe"
+        },
+        {
+          "path": "validation/alignment6/afm/final_service/render_report.json",
+          "sha256": "818e0baeb0d7c46db33af7d6b7f88744d450a0444b11e1723fa5f18b11e7fb90"
+        }
+      ],
+      "inspected_images": [
+        {
+          "path": "validation/alignment6/afm/final_alignment/optical_alignment_front.png",
+          "sha256": "1d8427423e95a9878cddbd064aca5d19dd5620e67e381eb3b7ed65a4d66e372f",
+          "camera": "optical_alignment_front",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_alignment/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 1.5707963267948966,
+            "door_angle": -1.8,
+            "scanner_latch_angle": 0.0,
+            "drawer_travel": 0.0,
+            "cantilever_lift": 0.0
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_alignment/optical_alignment_side.png",
+          "sha256": "c16ed01bec51298833ff846306fb68bda87d1db408cc942e3f2d2d3cf24eccbf",
+          "camera": "optical_alignment_side",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_alignment/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 1.5707963267948966,
+            "door_angle": -1.8,
+            "scanner_latch_angle": 0.0,
+            "drawer_travel": 0.0,
+            "cantilever_lift": 0.0
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_alignment/optical_alignment_top.png",
+          "sha256": "fc962a8dba2d6e90e9405b3a3cc85a5bd5d4af92c0d34d6cf6360f4cc56ac528",
+          "camera": "optical_alignment_top",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_alignment/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 1.5707963267948966,
+            "door_angle": -1.8,
+            "scanner_latch_angle": 0.0,
+            "drawer_travel": 0.0,
+            "cantilever_lift": 0.0
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_closed/door_handle_stowed.png",
+          "sha256": "e3728724318d3df32af9c673490225e347b95d9d54afdcd89892159878119ad9",
+          "camera": "door_handle_stowed",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_closed/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 0.0,
+            "door_angle": 0.0
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_closed/door_release_detail.png",
+          "sha256": "fa9382466420c7f7625603bc8d71e2c2b7e4024595b3581e22386a072cc47492",
+          "camera": "door_release_detail",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_closed/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 0.0,
+            "door_angle": 0.0
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_closed/view_cover_opening.png",
+          "sha256": "85dc63317bca42aafb8046bad042244bd96d2631361335dccd3345bb2079b0c3",
+          "camera": "view_cover_opening",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_closed/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 0.0,
+            "door_angle": 0.0
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_deployed/door_handle_deployed.png",
+          "sha256": "9260bdfbc33757d5e05fce30a24507fffe5d3257ebed468e3cb45bb1b0d529f6",
+          "camera": "door_handle_deployed",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_deployed/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 1.5707963267948966,
+            "door_angle": 0.0
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_open/door_handle_pocket_open.png",
+          "sha256": "727cf5b6f75351fd27e2f5d75f8bcfc18c19e00ecd1463e461029d321e99bf80",
+          "camera": "door_handle_pocket_open",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_open/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 1.5707963267948966,
+            "door_angle": -1.5
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_open/door_latch_keeper.png",
+          "sha256": "04468a2421d3801678c6a0dffade021dd1d2661d63c4dc3f635ef2cbf3250fcb",
+          "camera": "door_latch_keeper",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_open/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 1.5707963267948966,
+            "door_angle": -1.5
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_overview/overview.png",
+          "sha256": "e403a06031c79087c7f9811fd6bf0faae18feee373792bff1191f23cb163be2b",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "render_report": "validation/alignment6/afm/final_overview/render_report.json",
+          "inspection_joint_positions": {
+            "door_latch_angle": 0.0,
+            "door_angle": 0.0
+          },
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_scanner/front.png",
+          "sha256": "8c11d34f806dfb6aed1577c8773f005ec3f249717b75d320a0696607acfd2e05",
+          "camera": "front",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_scanner/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": {
+            "sha256": "a1abd181a5dd9e318a2ebffe746b971a588911679ef110c122cf114869f79fbe",
+            "frame": 189,
+            "frame_sha256": "33633e0ecede85d51b5a340b645514db490cffa7f0b5cf96444a4074de9a06f1",
+            "time_s": 7.600000000000873
+          },
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_scanner/scanner_release_detail.png",
+          "sha256": "d18af7659a01f74aa42a904c10d9ae9dc6feaa9c0e1c681ca7feacbf986feebd",
+          "camera": "scanner_release_detail",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_scanner/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": {
+            "sha256": "a1abd181a5dd9e318a2ebffe746b971a588911679ef110c122cf114869f79fbe",
+            "frame": 189,
+            "frame_sha256": "33633e0ecede85d51b5a340b645514db490cffa7f0b5cf96444a4074de9a06f1",
+            "time_s": 7.600000000000873
+          },
+          "manually_inspected": true
+        },
+        {
+          "path": "validation/alignment6/afm/final_service/front.png",
+          "sha256": "090a1ac442d10573451af614e0389cf605969107a6289afde30c7c7c49e04412",
+          "camera": "front",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "validation/alignment6/afm/final_service/render_report.json",
+          "inspection_joint_positions": {},
+          "measured_trajectory": {
+            "sha256": "f13645dee8fa62e156404106619fd8aea2186bc479c236a696b6be4ab42b4a59",
+            "frame": 0,
+            "frame_sha256": "515e0347d296232dba221916d11a8155a480f4639768a73eb0fce0eb94acaadf",
+            "time_s": 10.599999999999564
+          },
+          "manually_inspected": true
+        }
+      ]
+    },
+    {
+      "asset": "tweezers",
+      "passed": true,
+      "source": {
+        "path": "006_tweezers/spring_tweezers.blend",
+        "sha256": "b89c238d314123892c30b2617fb4ad10c4eefb656f20b7c2c962993a2a459b12"
+      },
+      "source_author_is_reviewer": false,
+      "scope": "Visible final stills and recorded poses only.",
+      "findings": [
+        "The tip view shows the chip supported on the source pedestal; the measured placement view shows the chip at the receiving tray with an open approach between its side rails.",
+        "The long tool arms, substrate, tray and chip retain distinct materials, reflections and shadows. Shallow depth of field limits visual assessment of the distant arm bases.",
+        "The placement is a single measured frame from the existing trajectory; the stills alone do not establish collision-free transfer motion."
+      ],
+      "material_visual_defects": [],
+      "reports": [
+        {
+          "path": "006_tweezers/previews/realism4_render_report.json",
+          "sha256": "f6f3a5e59268b542f7e352ad5d2632506d20f7919e33d7d8953ad1df9db6cb07"
+        }
+      ],
+      "inspected_images": [
+        {
+          "path": "006_tweezers/previews/overview.png",
+          "sha256": "dad4e424236b8d8cbcf8675326dd5f7f65f576acd9566aceff16367131f10f7e",
+          "camera": "overview",
+          "resolution": [
+            3840,
+            3200
+          ],
+          "render_report": "006_tweezers/previews/realism4_render_report.json",
+          "inspection_joint_positions": null,
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "006_tweezers/previews/tips.png",
+          "sha256": "6e82accc152c35fd965a483bf2baf0a4a2bb820b304b761c44945cf6f7ecc7b7",
+          "camera": "tips",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "006_tweezers/previews/realism4_render_report.json",
+          "inspection_joint_positions": null,
+          "measured_trajectory": null,
+          "manually_inspected": true
+        },
+        {
+          "path": "006_tweezers/previews/placement.png",
+          "sha256": "4e9bf3dcfcf5ab120ae6e01ebc9e6da82607cf0be08cdd80555ddb8c45ae641f",
+          "camera": "tips",
+          "resolution": [
+            2560,
+            2160
+          ],
+          "render_report": "006_tweezers/previews/realism4_render_report.json",
+          "inspection_joint_positions": null,
+          "measured_trajectory": {
+            "sha256": "a73fa81dbef6a4085ecf716b38ad6f2cb76dd952a65d3223513e2ad4904cfc14",
+            "frame": 268,
+            "frame_sha256": "075438b33bb12b7aa647e5d3f199c82634589d8550681ca787e28abdd07dd646",
+            "time_s": 10.76
+          },
+          "manually_inspected": true
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "asset": "transfer",
+      "evidence": {
+        "path": "validation/alignment6/transfer/comparisons/alignment_focus_guide.json",
+        "sha256": "3ec65513d550399c9afc52f684d4d6885d98b795282ecf06ac4fb0495d73222b"
+      },
+      "image": {
+        "path": "validation/alignment6/transfer/comparisons/alignment_focus_guide.jpg",
+        "sha256": "6a0b3cc8a71da408c77b50d2da5513695b0ae4ff5d6689c43b99f0bd08ee88b6"
+      },
+      "manually_inspected": true,
+      "full_frames": true,
+      "same_camera_signature": {
+        "matrix_world": [
+          [
+            0.36354249715805054,
+            -0.5125672817230225,
+            0.7778891921043396,
+            0.32377249002456665
+          ],
+          [
+            0.9315776228904724,
+            0.2000262588262558,
+            -0.30356651544570923,
+            -0.07232585549354553
+          ],
+          [
+            1.021520645849705e-09,
+            0.8350235223770142,
+            0.5502142906188965,
+            0.6782780885696411
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "type": "PERSP",
+        "lens_mm": 60.0,
+        "scale": 0.25999999046325684,
+        "clip_start_m": 0.0010000000474974513,
+        "dof_enabled": true,
+        "focus_distance_m": 0.5511999726295471,
+        "fstop": 11.0
+      }
+    },
+    {
+      "asset": "bonder",
+      "evidence": {
+        "path": "validation/alignment6/bonder/comparisons/alignment_focus_guide.json",
+        "sha256": "97aecf7bece6fb537749dd820dc6132899972a31dc22c010703c4e4d767a2798"
+      },
+      "image": {
+        "path": "validation/alignment6/bonder/comparisons/alignment_focus_guide.jpg",
+        "sha256": "a93fb48a27f58c80aba51b2f3d20f0c9da71ddb347aa1f4d106a755a2859a365"
+      },
+      "manually_inspected": true,
+      "full_frames": true,
+      "same_camera_signature": {
+        "matrix_world": [
+          [
+            -0.2676438093185425,
+            -0.29463231563568115,
+            0.9173650145530701,
+            0.5109322667121887
+          ],
+          [
+            0.9635179042816162,
+            -0.08184221386909485,
+            0.25482356548309326,
+            0.07970339059829712
+          ],
+          [
+            -8.057918421400245e-08,
+            0.952099621295929,
+            0.3057880997657776,
+            0.4836439788341522
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "type": "PERSP",
+        "lens_mm": 60.0,
+        "scale": 0.25,
+        "clip_start_m": 0.0010000000474974513,
+        "dof_enabled": true,
+        "focus_distance_m": 0.5678571462631226,
+        "fstop": 11.0
+      }
+    },
+    {
+      "asset": "bonder",
+      "evidence": {
+        "path": "validation/alignment6/bonder/comparisons/alignment_pupil.json",
+        "sha256": "2d57e5da1ad6ae198584f63708b59f6075ba1f180e098b39bedbb084a3bad7c7"
+      },
+      "image": {
+        "path": "validation/alignment6/bonder/comparisons/alignment_pupil.jpg",
+        "sha256": "367136ff0959c0c9f80e68a56bc9aea70485c25c156eddb7a6349a4989c1de63"
+      },
+      "manually_inspected": true,
+      "full_frames": true,
+      "same_camera_signature": {
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9866134524345398,
+            -0.16307634115219116,
+            -0.125
+          ],
+          [
+            0.0,
+            0.16307634115219116,
+            0.9866134524345398,
+            0.18299999833106995
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "type": "PERSP",
+        "lens_mm": 240.0,
+        "scale": 0.014000000432133675,
+        "clip_start_m": 0.0010000000474974513,
+        "dof_enabled": false,
+        "focus_distance_m": 0.09198131412267685,
+        "fstop": 22.0
+      }
+    },
+    {
+      "asset": "bonder",
+      "evidence": {
+        "path": "validation/alignment6/bonder/comparisons/alignment_workfield.json",
+        "sha256": "9a4313a276bf8abf3d70e08a4827d993fea1483688ac3b47133de2c35a04c06f"
+      },
+      "image": {
+        "path": "validation/alignment6/bonder/comparisons/alignment_workfield.jpg",
+        "sha256": "8a208ed0f054492fe0867c8a5f56f8b02a162834a1b7859aeb31cd2c719367a8"
+      },
+      "manually_inspected": true,
+      "full_frames": true,
+      "same_camera_signature": {
+        "matrix_world": [
+          [
+            0.786318302154541,
+            -0.2836170494556427,
+            0.5488759875297546,
+            0.14960792660713196
+          ],
+          [
+            0.6178215742111206,
+            0.3609670400619507,
+            -0.6985694766044617,
+            -0.30041003227233887
+          ],
+          [
+            6.725261414430861e-08,
+            0.8884053826332092,
+            0.4590597450733185,
+            0.24312657117843628
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "type": "PERSP",
+        "lens_mm": 60.0,
+        "scale": 0.11999999731779099,
+        "clip_start_m": 0.0010000000474974513,
+        "dof_enabled": true,
+        "focus_distance_m": 0.2725714147090912,
+        "fstop": 11.0
+      }
+    }
+  ],
+  "limitations": [
+    "A still-image review cannot establish hidden interference, complete joint envelopes, contact forces or robot motion safety; the source-bound geometric/native/browser audits provide those separate checks.",
+    "Optical alignment comments are visual observations of the rendered configurations, not measured calibration or a reconstruction of the internal optical prescription.",
+    "Photo-derived dimensions, surface finishes and lighting remain estimates; visible reflections are not a claim of measured material BRDFs.",
+    "The bonder geometric pupil view deliberately disables depth of field; its opaque central tool occlusion is expected and documented.",
+    "No claim is made that this still renderer and the interactive browser renderer have identical lighting or shading; browser captures require a separate review."
+  ],
+  "raw_reference_media_published": false,
+  "script": {
+    "path": "validation/alignment6/review/write_still_review.py",
+    "sha256": "61546ba7ce7fda1d10d8f59727187d93fa748a8a0c43b1583ba5b7c97b07de48"
+  }
+}

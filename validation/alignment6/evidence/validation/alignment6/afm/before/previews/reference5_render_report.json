@@ -1,0 +1,185 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "d83612dfa33b31f7076937032ad30e130e2fe286eb8c721a9dcb11bcfedb39e7",
+      "source_file": "overview.png",
+      "source_report": "005_afm/validation/reference5/final_cpu_overview/render_report.json",
+      "inspection_joint_positions": {
+        "door_latch_angle": 0.0,
+        "door_angle": 0.0
+      },
+      "measured_trajectory": null
+    },
+    {
+      "file": "door_release.png",
+      "camera": "door_release_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "32522372643c6a38805fcd10609624f15fee8886addd16484c177bf89d41d07a",
+      "source_file": "door_release_detail.png",
+      "source_report": "005_afm/validation/reference5/final_cpu_closed_details/render_report.json",
+      "inspection_joint_positions": {
+        "door_latch_angle": 0.0,
+        "door_angle": 0.0
+      },
+      "measured_trajectory": null
+    },
+    {
+      "file": "door_handle_stowed.png",
+      "camera": "door_handle_stowed",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "25430bfe2bb4bc99983134de0be268d203815315c78396d5510905d098899dde",
+      "source_file": "door_handle_stowed.png",
+      "source_report": "005_afm/validation/reference5/final_cpu_closed_details/render_report.json",
+      "inspection_joint_positions": {
+        "door_latch_angle": 0.0,
+        "door_angle": 0.0
+      },
+      "measured_trajectory": null
+    },
+    {
+      "file": "view_cover_opening.png",
+      "camera": "view_cover_opening",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "9d49966ea48270ea0b43d39d3032b446b452e2eaa839340df827651f722615aa",
+      "source_file": "view_cover_opening.png",
+      "source_report": "005_afm/validation/reference5/final_cpu_closed_details/render_report.json",
+      "inspection_joint_positions": {
+        "door_latch_angle": 0.0,
+        "door_angle": 0.0
+      },
+      "measured_trajectory": null
+    },
+    {
+      "file": "door_handle_deployed.png",
+      "camera": "door_handle_deployed",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "926f90382ebbb809a0166dbcd1127c796679bcfdbefa2f25fe93f856ad9b3a9c",
+      "source_file": "door_handle_deployed.png",
+      "source_report": "005_afm/validation/reference5/final_cpu_deployed/render_report.json",
+      "inspection_joint_positions": {
+        "door_latch_angle": 1.5707963267948966,
+        "door_angle": 0.0
+      },
+      "measured_trajectory": null
+    },
+    {
+      "file": "door_handle_pocket_open.png",
+      "camera": "door_handle_pocket_open",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "4362459d379974f952b796c820c919bbe78794b1632774b9e7974e29e173caa2",
+      "source_file": "door_handle_pocket_open.png",
+      "source_report": "005_afm/validation/reference5/final_cpu_open/render_report.json",
+      "inspection_joint_positions": {
+        "door_latch_angle": 1.5707963267948966,
+        "door_angle": -1.5
+      },
+      "measured_trajectory": null
+    },
+    {
+      "file": "door_latch_keeper.png",
+      "camera": "door_latch_keeper",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "b02fdb4f9a35c4aa3b40cd97e4e782bacd305c1f0f641d7ce7f3e45895c22912",
+      "source_file": "door_latch_keeper.png",
+      "source_report": "005_afm/validation/reference5/final_cpu_open/render_report.json",
+      "inspection_joint_positions": {
+        "door_latch_angle": 1.5707963267948966,
+        "door_angle": -1.5
+      },
+      "measured_trajectory": null
+    },
+    {
+      "file": "open_scanner.png",
+      "camera": "front",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "7556e1d0607920456caa258dcca7f9e5a2b9d80a6fe2f4fa4468053f0499c74c",
+      "source_file": "front.png",
+      "source_report": "005_afm/validation/reference5/final_cpu_scanner/render_report.json",
+      "inspection_joint_positions": {},
+      "measured_trajectory": {
+        "sha256": "9ff0c7567c6b759019e929e7ab76d2d2d8358771037e6ecace0c1339a7bfeb4b",
+        "frame": 189,
+        "frame_sha256": "c00c39e03000b75479471098240515a219c596d61879f75c4be3bbaea0b114d6",
+        "time_s": 7.6
+      }
+    },
+    {
+      "file": "scanner_release.png",
+      "camera": "scanner_release_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "8f0cb1055f24f565c11c6599e074577de2b443ac587f6b4fd62a88be52bf37db",
+      "source_file": "scanner_release_detail.png",
+      "source_report": "005_afm/validation/reference5/final_cpu_scanner/render_report.json",
+      "inspection_joint_positions": {},
+      "measured_trajectory": {
+        "sha256": "9ff0c7567c6b759019e929e7ab76d2d2d8358771037e6ecace0c1339a7bfeb4b",
+        "frame": 189,
+        "frame_sha256": "c00c39e03000b75479471098240515a219c596d61879f75c4be3bbaea0b114d6",
+        "time_s": 7.6
+      }
+    }
+  ],
+  "aliases": {
+    "front.png": "open_scanner.png"
+  },
+  "web_preview_sha256": "84f2ed927444011069690f180840dea980b788759169c156393d8993bd1dee37",
+  "source_reports_sha256": {
+    "005_afm/validation/reference5/final_cpu_overview/render_report.json": "40380dfeb25c7a067d06dabac45974973159efeec893fc5ef6478b10b903319b",
+    "005_afm/validation/reference5/final_cpu_closed_details/render_report.json": "c710d427ae5673c5a360775e363345c1a781afbcb196ac400f2545f67ee1733f",
+    "005_afm/validation/reference5/final_cpu_deployed/render_report.json": "4130cead6b00b19e32674cd448ed22d81944ddae69f55af00f775c16340bb6f4",
+    "005_afm/validation/reference5/final_cpu_open/render_report.json": "0152ddf1c40225a2ad0e27411ab816374052bd4ba80dcab1b952a16577877181",
+    "005_afm/validation/reference5/final_cpu_scanner/render_report.json": "adfd6b2238d3c79030a06b21c3dde0dabd91c8992f7b699c18555046f2897453"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "revision": "alignment6",
+  "asset": "zeiss",
+  "passed": true,
+  "source_sha256": "7361aa2dbd2f77fffbdcf330eed2e1767643b948be5183699a3a5a6769209f0d",
+  "xml_sha256": "6362370b5dafa05d034f1e1d74bf03ec4b3ca8f00a008da79fd23ea51b1f051a",
+  "checks": [
+    {
+      "check": "all_fitted_optical_axes_and_home_paths",
+      "passed": true,
+      "indexed_objectives": 5
+    },
+    {
+      "check": "assembled_holder_slide_chip_supports",
+      "passed": true,
+      "fits": [
+        {
+          "check": "fixed_holder_on_deck",
+          "gap_mm": 0.0,
+          "upper": [
+            "Asymmetric fixed specimen-holder plate"
+          ],
+          "lower": [
+            "Mechanical stage with longitudinal opening"
+          ],
+          "passed": true
+        },
+        {
+          "check": "slide_on_holder",
+          "gap_mm": 1.9208528101444244e-06,
+          "upper": [
+            "Glass sample slide"
+          ],
+          "lower": [
+            "Asymmetric fixed specimen-holder plate"
+          ],
+          "passed": true
+        },
+        {
+          "check": "fixed_screws_on_holder",
+          "gap_mm": -2.561137080192566e-06,
+          "upper": [
+            "Specimen clamp knurled screw",
+            "Specimen clamp knurled screw.001"
+          ],
+          "lower": [
+            "Asymmetric fixed specimen-holder plate"
+          ],
+          "passed": true
+        },
+        {
+          "check": "pivot_stem_on_deck",
+          "gap_mm": -3.4924596548080444e-07,
+          "upper": [
+            "Curved holder pivot stem"
+          ],
+          "lower": [
+            "Mechanical stage with longitudinal opening"
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "check": "full_travel_control_and_cable_exteriors",
+      "passed": true,
+      "domain": {
+        "stage_x_mm": [
+          -35,
+          -30,
+          -25,
+          -20,
+          -15,
+          -10,
+          -5,
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35
+        ],
+        "stage_y_mm": [
+          -25,
+          -18.75,
+          -12.5,
+          -6.25,
+          0,
+          6.25,
+          12.5,
+          18.75,
+          25
+        ],
+        "focus_mm": [
+          -10,
+          -5.75,
+          -1.5,
+          2.75,
+          7
+        ]
+      }
+    },
+    {
+      "check": "sampled_objective_work_surface_contact_coverage",
+      "passed": true,
+      "poses": 135,
+      "unsafe_poses_with_native_contact": 31
+    },
+    {
+      "check": "mechanism_datums_unchanged",
+      "passed": true
+    }
+  ],
+  "baseline_findings": [
+    "The fixed holder penetrated the glass slide by 0.6 mm and floated above its deck mounting.",
+    "Eleven sampled detailed holder/objective intersection poses lacked a native contact."
+  ],
+  "baseline_failures_are_not_final_acceptance": true,
+  "source_reports": [
+    {
+      "path": "validation/alignment6/zeiss/before_geometry.json",
+      "sha256": "2646ca1b22992974c0ef92b54909109d50bec667de9161b5ede6d3b8cd2df066"
+    },
+    {
+      "path": "validation/alignment6/zeiss/before_native_audit.json",
+      "sha256": "ea8dc0391a526742812782f7f0a78976c10809347128053b95592f461d309800"
+    },
+    {
+      "path": "validation/alignment6/zeiss/after_geometry.json",
+      "sha256": "318bfddb7c5f3aa643825b30ce1d27bc3c2b962eefdbbbca408a137ee89763dc"
+    },
+    {
+      "path": "validation/alignment6/zeiss/after_native_audit.json",
+      "sha256": "2ec83a85429cec646d36403ec095907bb3c5d1b35f459218812e282b88fbf9b4"
+    },
+    {
+      "path": "validation/alignment6/zeiss/support_fits.json",
+      "sha256": "90486539f78be9e3323dad7c8359b55f5ef8b8c0bba110ba223691bb1d5e771c"
+    },
+    {
+      "path": "validation/alignment6/zeiss/datums.json",
+      "sha256": "42e92d2c72211ec523cb81fec6c06f8ae754fc67be2a5f1dd28c029c1c98672c"
+    },
+    {
+      "path": "validation/alignment6/zeiss/sections.json",
+      "sha256": "8d4c1f6f338f0ad9a76af59a8465256fe39b3f5a1d97e397d4ac0affeb1fb9fa"
+    },
+    {
+      "path": "validation/alignment6/zeiss/section_plot_report.json",
+      "sha256": "c196f2c41dc81f9e0c2774be95fac4609cd45189323895964e9c840acf375e5b"
+    },
+    {
+      "path": "validation/alignment6/zeiss/clearance_regression.json",
+      "sha256": "985ac3e581874fce2707078409ee16ead2203516861123e6b54840f42db8d695"
+    },
+    {
+      "path": "validation/alignment6/zeiss/contact_regression.json",
+      "sha256": "ec57ef78b592ef91906911cfaf5915b6d3c36492b751cefd941610c1f14aebae"
+    },
+    {
+      "path": "validation/alignment6/zeiss/holder_contact_regression.json",
+      "sha256": "626dad627c699cfe06fe44e938e8eebc576c0597fb8f224e60be68c247ab4965"
+    },
+    {
+      "path": "validation/alignment6/zeiss/loaded_geometry.json",
+      "sha256": "bf77341d83e4dda796d6b0d9dd0507bbfaf9c6ddf26ac8019f4b397f0837f13b"
+    },
+    {
+      "path": "validation/alignment6/zeiss/loaded_holder_geometry.json",
+      "sha256": "928025f74afd305e649f5e60d374b45aa1d886eded5cecedd64037dbe951e5f9"
+    },
+    {
+      "path": "validation/alignment6/zeiss/physics_cleanup.json",
+      "sha256": "2dbe731141c3b395ebd9682da255bca5ddb6967b78b14d7da9007cbbbe1aab09"
+    },
+    {
+      "path": "validation/alignment6/zeiss/contact_proxy_refinement.json",
+      "sha256": "ca43ade276773417b230a02d4605272113bccfd39b56bc702c3e65ee5408947f"
+    },
+    {
+      "path": "validation/alignment6/zeiss/builder_contact_parity.json",
+      "sha256": "298eb8cfd891894ffab2c3d08c2f836a45712f43eb64854e514097fc7c0854ba"
+    },
+    {
+      "path": "validation/alignment6/zeiss/neighbor_contact_geometry.json",
+      "sha256": "611b9ac027434e431a07841423c847dcb401a5d4d73e5679131274fefb0b14f9"
+    },
+    {
+      "path": "validation/alignment6/zeiss/adjacent_objective_trajectory.json",
+      "sha256": "227d70113ae57fefa215e95a5b0ce4100ad3521b724dce936b77c938d28963c7"
+    },
+    {
+      "path": "validation/alignment6/zeiss/adjacent_objective_contact/render_report.json",
+      "sha256": "b21ce1ddfbfdf5fd24077edb1b4c141c7dbb7ce7d3ae932de689cfa1ea63e003"
+    }
+  ]
+}

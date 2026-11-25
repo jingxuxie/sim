@@ -1,0 +1,35 @@
+{
+  "revision": "alignment6",
+  "asset": "afm",
+  "passed": true,
+  "sources": [
+    {
+      "image": "validation/alignment6/afm/before_render/optical_alignment_front.png",
+      "sha256": "0f94fdf49236a81a1abbe4f97d0921644fe61e1f9c3695b499cc0aa87fe39375",
+      "report": "validation/alignment6/afm/before_render/render_report.json",
+      "report_sha256": "c80b2e778cc7efd21345f1b290a9dba7834f3c78fb992070c3da53caa4054c28",
+      "blend_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b"
+    },
+    {
+      "image": "validation/alignment6/afm/final_alignment/optical_alignment_front.png",
+      "sha256": "1d8427423e95a9878cddbd064aca5d19dd5620e67e381eb3b7ed65a4d66e372f",
+      "report": "validation/alignment6/afm/final_alignment/render_report.json",
+      "report_sha256": "250a5aaa2ffe89374ba8b964b6580d46da06bb7ad0ac5d3a92a74b6b23867fa7",
+      "blend_sha256": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565"
+    }
+  ],
+  "output": "005_afm/previews/optical_alignment_comparison.png",
+  "output_sha256": "f5c9039fc81cb3988bfb82778d537cce34bd40a87088a1dc01feb2f3209728b2",
+  "resolution": [
+    2584,
+    1236
+  ],
+  "camera_proof": "validation/alignment6/afm/camera_proof.json",
+  "camera_proof_sha256": "049a0e0267eda81a3d9d32415dd7bf25645ddcc8629f081fc6369289ccae7279",
+  "current_blend_sha256": "349fcfefea87887986587bebe9fcff3b3163596a918890f6bf1a789096dd5565",
+  "camera": "optical_alignment_front",
+  "transformation": "Each complete 2560 by 2160 render is resized to 1280 by 1080 using Lanczos, then placed beside its counterpart with text outside the image panels; no crop, retouching or local exposure adjustment.",
+  "source": "validation/alignment6/afm/compose_comparison.py",
+  "source_sha256": "e31dec37a8816cf22b0dae1be1cc0810fa60a1554502d2301910024f87711979",
+  "raw_reference_media_published": false
+}

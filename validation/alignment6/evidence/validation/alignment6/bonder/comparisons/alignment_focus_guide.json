@@ -1,0 +1,112 @@
+{
+  "revision": "alignment6",
+  "asset": "bonder",
+  "passed": true,
+  "title": "Wire bonder: separate fixed fork and moving focus carriage",
+  "explanation": "The focus fork and buried fasteners previously intersected the optical shell. The set-back fork and explicit rear carriage clear the shell over the checked stroke.",
+  "camera": "alignment_focus_guide",
+  "camera_signature": {
+    "matrix_world": [
+      [
+        -0.2676438093185425,
+        -0.29463231563568115,
+        0.9173650145530701,
+        0.5109322667121887
+      ],
+      [
+        0.9635179042816162,
+        -0.08184221386909485,
+        0.25482356548309326,
+        0.07970339059829712
+      ],
+      [
+        -8.057918421400245e-08,
+        0.952099621295929,
+        0.3057880997657776,
+        0.4836439788341522
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "PERSP",
+    "lens_mm": 60.0,
+    "scale": 0.25,
+    "clip_start_m": 0.0010000000474974513,
+    "dof_enabled": true,
+    "focus_distance_m": 0.5678571462631226,
+    "fstop": 11.0
+  },
+  "camera_source_sha256": "dd904ad417173ba8d48d71ecb8aed1572a58a13507760462711d1cb9cbc446b0",
+  "input_reports": [
+    {
+      "path": "validation/alignment6/bonder/before_diagnostics/render_report.json",
+      "sha256": "8de543e8efb2bb4fe4d2d139b4ea272208ba20a587a7d02fc07f92260ad70dd8"
+    },
+    {
+      "path": "validation/alignment6/bonder/renders/render_report.json",
+      "sha256": "aabb8723090ffab50659c14c5ccb341335c12a2ecfdd605a68962fca270f62b0"
+    }
+  ],
+  "inputs": [
+    {
+      "label": "Before",
+      "image": {
+        "path": "validation/alignment6/bonder/before_diagnostics/alignment_focus_guide.png",
+        "sha256": "7cea31e795d7cff9b1ce49ff85ca754202982228f99e0c9d4bcdf25759c13051"
+      },
+      "source_resolution": [
+        2560,
+        2160
+      ],
+      "placed_resolution": [
+        1280,
+        1080
+      ],
+      "panel_rectangle": [
+        16,
+        100,
+        1296,
+        1180
+      ]
+    },
+    {
+      "label": "After",
+      "image": {
+        "path": "validation/alignment6/bonder/renders/alignment_focus_guide.png",
+        "sha256": "d4922805c9b1525772b2af559019cf258c5b5179cad1236ba1e7cf8e0cee7323"
+      },
+      "source_resolution": [
+        2560,
+        2160
+      ],
+      "placed_resolution": [
+        1280,
+        1080
+      ],
+      "panel_rectangle": [
+        1312,
+        100,
+        2592,
+        1180
+      ]
+    }
+  ],
+  "raw_reference_media_published": false,
+  "image_layout": "Full uncropped frames reduced by exactly 1/2 in each dimension; no image alteration beyond uniform resampling and labels outside the image.",
+  "outputs": [
+    {
+      "path": "validation/alignment6/bonder/comparisons/alignment_focus_guide.png",
+      "sha256": "3524b8c1935de4424518c930999b1d4c2752340d902388f3d07df663f8df281b"
+    },
+    {
+      "path": "validation/alignment6/bonder/comparisons/alignment_focus_guide.jpg",
+      "sha256": "a93fb48a27f58c80aba51b2f3d20f0c9da71ddb347aa1f4d106a755a2859a365"
+    }
+  ],
+  "script": "validation/alignment6/transfer/promote_reviews.py",
+  "script_sha256": "184d9bf250bc6f07458c344de2440122c5c020c8888e71eeea6f7d38b1fafc75"
+}
