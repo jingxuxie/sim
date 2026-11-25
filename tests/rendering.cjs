@@ -5,7 +5,9 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const url=process.env.LAB_TEST_URL||'http://localhost:8000/';
 const out=process.env.LAB_TEST_OUTPUT||path.resolve(__dirname,'../test-results');
 fs.mkdirSync(out,{recursive:true});
-const report={url,started_utc:new Date().toISOString(),checks:[],passed:false};
+const report={url,started_utc:new Date().toISOString(),checks:[],console_errors:[],gpu_errors:[],sources:{},passed:false};
+const responseWork=[];
+const gpuFailure=/GL_(?:INVALID_[A-Z_]+|OUT_OF_MEMORY|CONTEXT_LOST)|createPipeline|Internal Vulkan error|VALIDATE_STATUS|Shader Error/i;
 const write=()=>fs.writeFileSync(path.join(out,'rendering.json'),JSON.stringify(report,null,2)+'\n');write();
 const check=(name,extra={})=>{report.checks.push({check:name,passed:true,...extra});console.log('Passed: '+name)};
 (async()=>{
@@ -15,12 +17,14 @@ const check=(name,extra={})=>{report.checks.push({check:name,passed:true,...extr
   page=await browser.newPage({viewport:{width:1280,height:900}});page.setDefaultTimeout(120000);
   const errors=[],failed=[],requests=[];
   page.on('pageerror',e=>errors.push(e.message));
-  page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});});
+  page.on('console',message=>{if(message.type()==='error'||gpuFailure.test(message.text()))report.console_errors.push(message.text());});
+  page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});if(/\/(app|studio-renderer|progressive-renderer|cavity-lighting|area-shadows|finite-area-shadows|screen-reflections|color-grade)\.js\b/.test(r.url()))responseWork.push((async()=>{report.sources[new URL(r.url()).pathname]=crypto.createHash('sha256').update(await r.body()).digest('hex');})());});
   page.on('request',r=>requests.push(r.url()));
   const wait=(fn,arg,timeout=120000)=>page.waitForFunction(fn,arg,{polling:100,timeout});
   const quality=()=>page.evaluate(()=>window.lab.photoRendering);
   const capture=async name=>{
    assert.equal(await page.evaluate(()=>window.lab.renderCurrentFrame()),true);
+   assert.equal(await page.evaluate(()=>document.querySelector('#canvas canvas').getContext('webgl2').getError()),0,'Completed frame must have no WebGL errors');
    assert.equal(await page.locator('#poster').evaluate(el=>el.hidden),true);
    const file=path.join(out,name+'.png');await page.locator('#canvas').screenshot({path:file});
    const sha256=crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
@@ -79,7 +83,7 @@ const check=(name,extra={})=>{report.checks.push({check:name,passed:true,...extr
   assert.equal(await page.locator('#render-quality').inputValue(),'interactive');
   assert.equal((await quality()).mode,'interactive');
   check('Switching instruments disposes the previous photo scene and keeps live controls working');
-  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
+  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);assert.deepEqual(report.console_errors,[]);
   check('No browser exceptions or failed HTTP responses');
   // Delay the real pause reply to exercise cancellation before that reply can
   // be applied by the page. Physics itself remains the ordinary MuJoCo worker.
@@ -89,9 +93,10 @@ const check=(name,extra={})=>{report.checks.push({check:name,passed:true,...extr
   await page.waitForTimeout(1200);await wait(()=>!window.lab.state.paused);
   assert.equal((await quality()).mode,'interactive');
   check('Canceling before an automatic pause reply arrives restores live simulation');
-  await page.close();
+  await Promise.all(responseWork);await page.close();
   const openCase=async configure=>{
    const p=await browser.newPage({viewport:{width:1000,height:800}});p.setDefaultTimeout(120000);p.__qaPageErrors=[];p.on('pageerror',e=>p.__qaPageErrors.push(e.message));
+   p.on('console',message=>{if(gpuFailure.test(message.text()))report.gpu_errors.push(message.text());});
    if(configure)await configure(p);
    await p.goto(url,{waitUntil:'domcontentloaded'});await p.waitForFunction(()=>window.viewerReady,null,{polling:100});
    await p.locator('[data-asset="nikon"]').click();
@@ -122,7 +127,7 @@ const check=(name,extra={})=>{report.checks.push({check:name,passed:true,...extr
   assert.equal(await page.locator('#render-quality').inputValue(),'interactive');
   assert.equal(await page.locator('#error').evaluate(el=>el.hidden),true);assert.deepEqual(page.__qaPageErrors,[]);
   check('Switching instruments during acceleration preparation cancels the previous scene safely',{error_banner_hidden:true});
-  report.passed=true;
+  assert.deepEqual(report.gpu_errors,[]);report.passed=true;
  }catch(e){report.error=e.stack;try{report.diagnostics=await page.evaluate(()=>({quality:window.lab?.photoRendering,state:window.lab?.state,model:document.getElementById('model-status')?.textContent,status:document.getElementById('render-quality-status')?.textContent}));}catch{}throw e;}
  finally{report.checked_utc=new Date().toISOString();write();await browser.close();}
 })().then(()=>console.log(JSON.stringify(report,null,2))).catch(e=>{console.error(e);process.exit(1)});

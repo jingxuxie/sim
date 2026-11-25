@@ -1,0 +1,2504 @@
+{
+  "checked_utc": "2026-11-24T21:14:47.878919+00:00",
+  "scope": "Current native and browser instrument cable representation; no source or model mutations.",
+  "assets": [
+    {
+      "id": "nikon",
+      "xml": [
+        {
+          "file": "000/e1000.xml",
+          "sha256": "592d5d14dfaac2aaa5d5ee850522b86e6ce4d5fa04001ef674ed99ea2c1899b3",
+          "compiler": {
+            "angle": "radian",
+            "meshdir": "assets/meshes",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 10,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual_mesh": {
+              "type": "mesh",
+              "contype": "0",
+              "conaffinity": "0",
+              "group": "2",
+              "density": "0"
+            },
+            "contact_proxy": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": "0.95 .36 .08 .35",
+              "condim": "4",
+              "friction": ".8 .003 .0001",
+              "solref": ".003 1",
+              "solimp": ".93 .985 .0002"
+            }
+          },
+          "visual_geom_count": 71,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        },
+        {
+          "file": "publish/github-sim/assets/nikon/physics.xml",
+          "sha256": "b5b8c9e5dbd3f9077bfc8726e94828b7723b6eb5b18480f5d3029d379e76c4ee",
+          "compiler": {
+            "angle": "radian",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 10,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual_mesh": {
+              "type": "mesh",
+              "contype": "0",
+              "conaffinity": "0",
+              "group": "2",
+              "density": "0"
+            },
+            "contact_proxy": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": "0.95 .36 .08 .35",
+              "condim": "4",
+              "friction": ".8 .003 .0001",
+              "solref": ".003 1",
+              "solimp": ".93 .985 .0002"
+            }
+          },
+          "visual_geom_count": 0,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        }
+      ],
+      "glb_sha256": "7f4db3fc874352a0eacabb75ec96c8acdf99cded3edbdcc2b3fae7bf59e81b0c",
+      "visual_flex_nodes": [],
+      "mechanism_metadata": {}
+    },
+    {
+      "id": "transfer",
+      "xml": [
+        {
+          "file": "001_transfer_stage/transfer_station.xml",
+          "sha256": "3804e84b6a92e1fdf93d15f7e1c8c90d01597adc2629ed09263e4ad4f878ae03",
+          "compiler": {
+            "angle": "radian",
+            "meshdir": "assets/meshes",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 29,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 128,
+          "visual_geoms": [
+            {
+              "name": "visual_base__alloy",
+              "body": "base",
+              "mesh": "base__alloy",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__black",
+              "body": "base",
+              "mesh": "base__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__bluepaint",
+              "body": "base",
+              "mesh": "base__bluepaint",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__bronze",
+              "body": "base",
+              "mesh": "base__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__brushed",
+              "body": "base",
+              "mesh": "base__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__cyan",
+              "body": "base",
+              "mesh": "base__cyan",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__darkmetal",
+              "body": "base",
+              "mesh": "base__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__graphite",
+              "body": "base",
+              "mesh": "base__graphite",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__ink",
+              "body": "base",
+              "mesh": "base__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__ivory",
+              "body": "base",
+              "mesh": "base__ivory",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__paper",
+              "body": "base",
+              "mesh": "base__paper",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__red",
+              "body": "base",
+              "mesh": "base__red",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__rubber",
+              "body": "base",
+              "mesh": "base__rubber",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__steel",
+              "body": "base",
+              "mesh": "base__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__wire",
+              "body": "base",
+              "mesh": "base__wire",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__yellow",
+              "body": "base",
+              "mesh": "base__yellow",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__black",
+              "body": "scope_focus",
+              "mesh": "scope_focus__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__brushed",
+              "body": "scope_focus",
+              "mesh": "scope_focus__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__darkmetal",
+              "body": "scope_focus",
+              "mesh": "scope_focus__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__graphite",
+              "body": "scope_focus",
+              "mesh": "scope_focus__graphite",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__ink",
+              "body": "scope_focus",
+              "mesh": "scope_focus__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__optic",
+              "body": "scope_focus",
+              "mesh": "scope_focus__optic",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__paper",
+              "body": "scope_focus",
+              "mesh": "scope_focus__paper",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__rubber",
+              "body": "scope_focus",
+              "mesh": "scope_focus__rubber",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__steel",
+              "body": "scope_focus",
+              "mesh": "scope_focus__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_scope_focus__yellow",
+              "body": "scope_focus",
+              "mesh": "scope_focus__yellow",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_light_path_selector__black",
+              "body": "light_path_selector",
+              "mesh": "light_path_selector__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_light_path_selector__etched",
+              "body": "light_path_selector",
+              "mesh": "light_path_selector__etched",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_light_path_selector__steel",
+              "body": "light_path_selector",
+              "mesh": "light_path_selector__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_objective_turret__black",
+              "body": "objective_turret",
+              "mesh": "objective_turret__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_objective_turret__blue",
+              "body": "objective_turret",
+              "mesh": "objective_turret__blue",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_objective_turret__brushed",
+              "body": "objective_turret",
+              "mesh": "objective_turret__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_objective_turret__green",
+              "body": "objective_turret",
+              "mesh": "objective_turret__green",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_objective_turret__ink",
+              "body": "objective_turret",
+              "mesh": "objective_turret__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_objective_turret__optic",
+              "body": "objective_turret",
+              "mesh": "objective_turret__optic",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_objective_turret__red",
+              "body": "objective_turret",
+              "mesh": "objective_turret__red",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_objective_turret__steel",
+              "body": "objective_turret",
+              "mesh": "objective_turret__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x__bronze",
+              "body": "sample_x",
+              "mesh": "sample_x__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x__brushed",
+              "body": "sample_x",
+              "mesh": "sample_x__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x__darkmetal",
+              "body": "sample_x",
+              "mesh": "sample_x__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x__ink",
+              "body": "sample_x",
+              "mesh": "sample_x__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x__steel",
+              "body": "sample_x",
+              "mesh": "sample_x__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y__black",
+              "body": "sample_y",
+              "mesh": "sample_y__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y__bronze",
+              "body": "sample_y",
+              "mesh": "sample_y__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y__brushed",
+              "body": "sample_y",
+              "mesh": "sample_y__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y__ink",
+              "body": "sample_y",
+              "mesh": "sample_y__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y__steel",
+              "body": "sample_y",
+              "mesh": "sample_y__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_fine__black",
+              "body": "sample_fine",
+              "mesh": "sample_fine__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_fine__paper",
+              "body": "sample_fine",
+              "mesh": "sample_fine__paper",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_rotation_clamp__brushed",
+              "body": "rotation_clamp",
+              "mesh": "rotation_clamp__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_rotation_clamp__darkmetal",
+              "body": "rotation_clamp",
+              "mesh": "rotation_clamp__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_rotation_clamp__ink",
+              "body": "rotation_clamp",
+              "mesh": "rotation_clamp__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__black",
+              "body": "sample_theta",
+              "mesh": "sample_theta__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__bronze",
+              "body": "sample_theta",
+              "mesh": "sample_theta__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__brushed",
+              "body": "sample_theta",
+              "mesh": "sample_theta__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__darkmetal",
+              "body": "sample_theta",
+              "mesh": "sample_theta__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__gold",
+              "body": "sample_theta",
+              "mesh": "sample_theta__gold",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__ink",
+              "body": "sample_theta",
+              "mesh": "sample_theta__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__paper",
+              "body": "sample_theta",
+              "mesh": "sample_theta__paper",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__rubber",
+              "body": "sample_theta",
+              "mesh": "sample_theta__rubber",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__steel",
+              "body": "sample_theta",
+              "mesh": "sample_theta__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__violet",
+              "body": "sample_theta",
+              "mesh": "sample_theta__violet",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_theta__wafer",
+              "body": "sample_theta",
+              "mesh": "sample_theta__wafer",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_rotation_fine_spindle__steel",
+              "body": "rotation_fine_spindle",
+              "mesh": "rotation_fine_spindle__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_rotation_fine_knob__brushed",
+              "body": "rotation_fine_knob",
+              "mesh": "rotation_fine_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_rotation_fine_knob__darkmetal",
+              "body": "rotation_fine_knob",
+              "mesh": "rotation_fine_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_rotation_fine_knob__ink",
+              "body": "rotation_fine_knob",
+              "mesh": "rotation_fine_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_rotation_fine_knob__steel",
+              "body": "rotation_fine_knob",
+              "mesh": "rotation_fine_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y_spindle__steel",
+              "body": "sample_y_spindle",
+              "mesh": "sample_y_spindle__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y_knob__black",
+              "body": "sample_y_knob",
+              "mesh": "sample_y_knob__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y_knob__bronze",
+              "body": "sample_y_knob",
+              "mesh": "sample_y_knob__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y_knob__brushed",
+              "body": "sample_y_knob",
+              "mesh": "sample_y_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y_knob__darkmetal",
+              "body": "sample_y_knob",
+              "mesh": "sample_y_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y_knob__ink",
+              "body": "sample_y_knob",
+              "mesh": "sample_y_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_y_knob__steel",
+              "body": "sample_y_knob",
+              "mesh": "sample_y_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x_spindle__steel",
+              "body": "sample_x_spindle",
+              "mesh": "sample_x_spindle__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x_knob__black",
+              "body": "sample_x_knob",
+              "mesh": "sample_x_knob__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x_knob__bronze",
+              "body": "sample_x_knob",
+              "mesh": "sample_x_knob__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x_knob__brushed",
+              "body": "sample_x_knob",
+              "mesh": "sample_x_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x_knob__darkmetal",
+              "body": "sample_x_knob",
+              "mesh": "sample_x_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x_knob__ink",
+              "body": "sample_x_knob",
+              "mesh": "sample_x_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_sample_x_knob__steel",
+              "body": "sample_x_knob",
+              "mesh": "sample_x_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x__bronze",
+              "body": "stamp_x",
+              "mesh": "stamp_x__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x__brushed",
+              "body": "stamp_x",
+              "mesh": "stamp_x__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x__darkmetal",
+              "body": "stamp_x",
+              "mesh": "stamp_x__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x__ink",
+              "body": "stamp_x",
+              "mesh": "stamp_x__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x__steel",
+              "body": "stamp_x",
+              "mesh": "stamp_x__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y__bronze",
+              "body": "stamp_y",
+              "mesh": "stamp_y__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y__brushed",
+              "body": "stamp_y",
+              "mesh": "stamp_y__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y__darkmetal",
+              "body": "stamp_y",
+              "mesh": "stamp_y__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y__ink",
+              "body": "stamp_y",
+              "mesh": "stamp_y__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y__steel",
+              "body": "stamp_y",
+              "mesh": "stamp_y__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z__black",
+              "body": "stamp_z",
+              "mesh": "stamp_z__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z__bronze",
+              "body": "stamp_z",
+              "mesh": "stamp_z__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z__brushed",
+              "body": "stamp_z",
+              "mesh": "stamp_z__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z__darkmetal",
+              "body": "stamp_z",
+              "mesh": "stamp_z__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z__ink",
+              "body": "stamp_z",
+              "mesh": "stamp_z__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z__paper",
+              "body": "stamp_z",
+              "mesh": "stamp_z__paper",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z__steel",
+              "body": "stamp_z",
+              "mesh": "stamp_z__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z__violet",
+              "body": "stamp_z",
+              "mesh": "stamp_z__violet",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_tilt__black",
+              "body": "stamp_tilt",
+              "mesh": "stamp_tilt__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_tilt__brushed",
+              "body": "stamp_tilt",
+              "mesh": "stamp_tilt__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_tilt__ceramic",
+              "body": "stamp_tilt",
+              "mesh": "stamp_tilt__ceramic",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_tilt__darkmetal",
+              "body": "stamp_tilt",
+              "mesh": "stamp_tilt__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_tilt__glass",
+              "body": "stamp_tilt",
+              "mesh": "stamp_tilt__glass",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_tilt__ink",
+              "body": "stamp_tilt",
+              "mesh": "stamp_tilt__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_tilt__steel",
+              "body": "stamp_tilt",
+              "mesh": "stamp_tilt__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_goniometer_spindle__steel",
+              "body": "goniometer_spindle",
+              "mesh": "goniometer_spindle__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_goniometer_knob__brushed",
+              "body": "goniometer_knob",
+              "mesh": "goniometer_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z_spindle__steel",
+              "body": "stamp_z_spindle",
+              "mesh": "stamp_z_spindle__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z_knob__brushed",
+              "body": "stamp_z_knob",
+              "mesh": "stamp_z_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z_knob__darkmetal",
+              "body": "stamp_z_knob",
+              "mesh": "stamp_z_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z_knob__ink",
+              "body": "stamp_z_knob",
+              "mesh": "stamp_z_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_z_knob__steel",
+              "body": "stamp_z_knob",
+              "mesh": "stamp_z_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y_spindle__steel",
+              "body": "stamp_y_spindle",
+              "mesh": "stamp_y_spindle__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y_knob__brushed",
+              "body": "stamp_y_knob",
+              "mesh": "stamp_y_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y_knob__darkmetal",
+              "body": "stamp_y_knob",
+              "mesh": "stamp_y_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y_knob__ink",
+              "body": "stamp_y_knob",
+              "mesh": "stamp_y_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_y_knob__steel",
+              "body": "stamp_y_knob",
+              "mesh": "stamp_y_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x_spindle__steel",
+              "body": "stamp_x_spindle",
+              "mesh": "stamp_x_spindle__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x_knob__brushed",
+              "body": "stamp_x_knob",
+              "mesh": "stamp_x_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x_knob__darkmetal",
+              "body": "stamp_x_knob",
+              "mesh": "stamp_x_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x_knob__ink",
+              "body": "stamp_x_knob",
+              "mesh": "stamp_x_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_stamp_x_knob__steel",
+              "body": "stamp_x_knob",
+              "mesh": "stamp_x_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_illuminator_dimmer__black",
+              "body": "illuminator_dimmer",
+              "mesh": "illuminator_dimmer__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_illuminator_dimmer__paper",
+              "body": "illuminator_dimmer",
+              "mesh": "illuminator_dimmer__paper",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_illuminator_power__graphite",
+              "body": "illuminator_power",
+              "mesh": "illuminator_power__graphite",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_illuminator_power__paper",
+              "body": "illuminator_power",
+              "mesh": "illuminator_power__paper",
+              "default_class": "visual"
+            }
+          ],
+          "named_cable_bodies": []
+        },
+        {
+          "file": "publish/github-sim/assets/transfer/physics.xml",
+          "sha256": "0fbd5245e5a9725ea5fba0de9bec5cfb97900c20b6f5186d99f99d69476aceb2",
+          "compiler": {
+            "angle": "radian",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 29,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 0,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        }
+      ],
+      "glb_sha256": "cd1f987acec2eed6516bd0c82f82cda8ff6e1498b30a56a2e4d1adabb55075b7",
+      "visual_flex_nodes": [
+        {
+          "name": "Connected flexible fiber sheath",
+          "parent": "base",
+          "metadata": {
+            "flex_joint": "scope_focus_travel",
+            "flex_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "flex_weight_window": [
+              0.08,
+              0.92
+            ],
+            "flex_model": "smooth endpoint-preserving visual bend; no cable strain/contact dynamics"
+          },
+          "path_sample_count": 74,
+          "rest_endpoints_m": [
+            [
+              0.45000001788139343,
+              0.011800000444054604,
+              0.04700000211596489
+            ],
+            [
+              -0.07300000637769699,
+              0.06800000369548798,
+              0.4750000238418579
+            ]
+          ]
+        },
+        {
+          "name": "Routed flexible camera cable",
+          "parent": "base",
+          "metadata": {
+            "flex_joint": "scope_focus_travel",
+            "flex_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "flex_weight_window": [
+              0.08,
+              0.92
+            ],
+            "flex_model": "smooth endpoint-preserving visual bend; no cable strain/contact dynamics"
+          },
+          "path_sample_count": 69,
+          "rest_endpoints_m": [
+            [
+              0.17800000309944153,
+              0.22200001776218414,
+              0.029000001028180122
+            ],
+            [
+              -0.027000000700354576,
+              0.036000002175569534,
+              0.5670000314712524
+            ]
+          ]
+        },
+        {
+          "name": "Routed heater electrical lead",
+          "parent": "base",
+          "metadata": {
+            "flex_joints": [
+              {
+                "name": "sample_x_travel",
+                "axis": [
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "name": "sample_y_travel",
+                "axis": [
+                  0.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            ],
+            "flex_rotation": {
+              "joints": [
+                "sample_theta_angle",
+                "sample_fine_angle"
+              ],
+              "axis": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "pivot_m": [
+                -0.105,
+                -0.02,
+                0.114
+              ],
+              "weight_mode": "angle"
+            },
+            "flex_start_body": "base",
+            "flex_start_local_m": [
+              0.018000001087784767,
+              0.18000000715255737,
+              0.029000001028180122
+            ],
+            "flex_end_body": "sample_theta",
+            "flex_end_local_m": [
+              -0.036000002175569534,
+              0.00800000037997961,
+              0.04000000283122063
+            ],
+            "flex_start_site": "heater_host_terminal",
+            "flex_end_site": "heater_electrical_inlet",
+            "flex_weight_window": [
+              0.3920196024450824,
+              0.6749554894271853
+            ],
+            "flex_radius_m": 0.0033,
+            "flex_model": "weighted-angle slack service loop; endpoint follows measured XY and rotation; no strain/contact dynamics"
+          },
+          "path_sample_count": 588,
+          "rest_endpoints_m": [
+            [
+              0.018000001087784767,
+              0.18000000715255737,
+              0.029000001028180122
+            ],
+            [
+              -0.14100000262260437,
+              -0.012000000104308128,
+              0.15400001406669617
+            ]
+          ]
+        },
+        {
+          "name": "Routed workholder vacuum hose",
+          "parent": "base",
+          "metadata": {
+            "flex_joints": [
+              {
+                "name": "sample_x_travel",
+                "axis": [
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "name": "sample_y_travel",
+                "axis": [
+                  0.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            ],
+            "flex_rotation": {
+              "joints": [
+                "sample_theta_angle",
+                "sample_fine_angle"
+              ],
+              "axis": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "pivot_m": [
+                -0.105,
+                -0.02,
+                0.114
+              ],
+              "weight_mode": "angle"
+            },
+            "flex_start_body": "base",
+            "flex_start_local_m": [
+              -0.26600000262260437,
+              0.11800000816583633,
+              0.04000000283122063
+            ],
+            "flex_end_body": "sample_theta",
+            "flex_end_local_m": [
+              0.0,
+              0.03200000151991844,
+              0.04200000315904617
+            ],
+            "flex_start_site": "vacuum_valve_outlet",
+            "flex_end_site": "workholder_vacuum_inlet",
+            "flex_weight_window": [
+              0.5966957509243791,
+              0.7442375886802978
+            ],
+            "flex_radius_m": 0.0018000000000000002,
+            "flex_model": "weighted-angle slack service loop; endpoint follows measured XY and rotation; no strain/contact dynamics"
+          },
+          "path_sample_count": 767,
+          "rest_endpoints_m": [
+            [
+              -0.26600000262260437,
+              0.11800000816583633,
+              0.04000000283122063
+            ],
+            [
+              -0.10500000417232513,
+              0.012000000104308128,
+              0.15600000321865082
+            ]
+          ]
+        }
+      ],
+      "mechanism_metadata": {
+        "flexible_illumination": {
+          "source_site": "illumination_source_port",
+          "microscope_site": "illumination_microscope_port",
+          "rest_path_mm": [
+            [
+              450,
+              11.799999999999997,
+              47
+            ],
+            [
+              450,
+              -11.200000000000003,
+              47
+            ],
+            [
+              407,
+              -30,
+              52
+            ],
+            [
+              327,
+              -7,
+              89
+            ],
+            [
+              254,
+              62,
+              160
+            ],
+            [
+              195,
+              122,
+              349
+            ],
+            [
+              108,
+              152,
+              514
+            ],
+            [
+              0,
+              111,
+              544
+            ],
+            [
+              -65,
+              70,
+              506
+            ],
+            [
+              -73,
+              68,
+              475
+            ]
+          ],
+          "length_mm": 932.2632665636938,
+          "focus_joint": "scope_focus_travel"
+        },
+        "workholder_services": {
+          "model": "Visual slack service loops; all unmeasured routes/connectors are reconstructions, not strain/contact models.",
+          "blue": {
+            "mesh": "Routed workholder vacuum hose",
+            "radius_m": 0.0018000000000000002,
+            "rest_length_m": 0.7658844550041332,
+            "fixed_until_fraction": 0.5966957509243791,
+            "rigid_from_fraction": 0.7442375886802978,
+            "endpoints_m": [
+              [
+                -0.26600000262260437,
+                0.11800000816583633,
+                0.04000000283122063
+              ],
+              [
+                -0.10500000417232513,
+                0.012000000104308128,
+                0.15600000321865082
+              ]
+            ]
+          },
+          "heater": {
+            "mesh": "Routed heater electrical lead",
+            "radius_m": 0.0033,
+            "rest_length_m": 0.5867053549502552,
+            "fixed_until_fraction": 0.3920196024450824,
+            "rigid_from_fraction": 0.6749554894271853,
+            "endpoints_m": [
+              [
+                0.018000001087784767,
+                0.18000000715255737,
+                0.029000001028180122
+              ],
+              [
+                -0.14100000262260437,
+                -0.012000000104308128,
+                0.15400001406669617
+              ]
+            ]
+          },
+          "translation_joints": [
+            "sample_x_travel",
+            "sample_y_travel"
+          ],
+          "rotation_joints": [
+            "sample_theta_angle",
+            "sample_fine_angle"
+          ]
+        },
+        "service_envelope": {
+          "coarse_joint": "sample_theta_angle",
+          "coarse_range_rad": [
+            -1.5707963267948966,
+            1.5707963267948966
+          ],
+          "fine_joint": "sample_fine_angle",
+          "fine_range_rad": [
+            -0.04363323129985824,
+            0.04363323129985824
+          ],
+          "reason": "Attached heater and vacuum services: re-route or disconnect services before larger rotations; cable loads are not simulated.",
+          "basis": "Tested operating envelope for reconstructed attached-service routes, not a calibrated hardware hard stop.",
+          "stamp_setup": "Rest/retracted configuration; stamp approach into these routes requires a separate clearance check."
+        }
+      }
+    },
+    {
+      "id": "probe",
+      "xml": [
+        {
+          "file": "002_probe_station/probe_station.xml",
+          "sha256": "9d923fe66f5a9eb3e7456e6a9fe8baee36e32b6c1d4838cd07e36c448f9c8180",
+          "compiler": {
+            "angle": "radian",
+            "meshdir": "assets/meshes",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 20,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 111,
+          "visual_geoms": [
+            {
+              "name": "visual_base__black",
+              "body": "base",
+              "mesh": "base__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__bronze",
+              "body": "base",
+              "mesh": "base__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__brushed",
+              "body": "base",
+              "mesh": "base__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__darkmetal",
+              "body": "base",
+              "mesh": "base__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__graphite",
+              "body": "base",
+              "mesh": "base__graphite",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__green",
+              "body": "base",
+              "mesh": "base__green",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__ink",
+              "body": "base",
+              "mesh": "base__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__orange",
+              "body": "base",
+              "mesh": "base__orange",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__paper",
+              "body": "base",
+              "mesh": "base__paper",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__red",
+              "body": "base",
+              "mesh": "base__red",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__rubber",
+              "body": "base",
+              "mesh": "base__rubber",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__steel",
+              "body": "base",
+              "mesh": "base__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__tape",
+              "body": "base",
+              "mesh": "base__tape",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_base__yellow",
+              "body": "base",
+              "mesh": "base__yellow",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__black",
+              "body": "optic_focus",
+              "mesh": "optic_focus__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__darkmetal",
+              "body": "optic_focus",
+              "mesh": "optic_focus__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__graphite",
+              "body": "optic_focus",
+              "mesh": "optic_focus__graphite",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__ink",
+              "body": "optic_focus",
+              "mesh": "optic_focus__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__optic",
+              "body": "optic_focus",
+              "mesh": "optic_focus__optic",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__paper",
+              "body": "optic_focus",
+              "mesh": "optic_focus__paper",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__red",
+              "body": "optic_focus",
+              "mesh": "optic_focus__red",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__rubber",
+              "body": "optic_focus",
+              "mesh": "optic_focus__rubber",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__steel",
+              "body": "optic_focus",
+              "mesh": "optic_focus__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_optic_focus__tape",
+              "body": "optic_focus",
+              "mesh": "optic_focus__tape",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_light_path_selector__black",
+              "body": "light_path_selector",
+              "mesh": "light_path_selector__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_light_path_selector__steel",
+              "body": "light_path_selector",
+              "mesh": "light_path_selector__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_x__black",
+              "body": "chuck_x",
+              "mesh": "chuck_x__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_x__brushed",
+              "body": "chuck_x",
+              "mesh": "chuck_x__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_x__darkmetal",
+              "body": "chuck_x",
+              "mesh": "chuck_x__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_x__ink",
+              "body": "chuck_x",
+              "mesh": "chuck_x__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_x__steel",
+              "body": "chuck_x",
+              "mesh": "chuck_x__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_y__black",
+              "body": "chuck_y",
+              "mesh": "chuck_y__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_y__brushed",
+              "body": "chuck_y",
+              "mesh": "chuck_y__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_y__ink",
+              "body": "chuck_y",
+              "mesh": "chuck_y__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_theta__black",
+              "body": "chuck_theta",
+              "mesh": "chuck_theta__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_theta__gold",
+              "body": "chuck_theta",
+              "mesh": "chuck_theta__gold",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_theta__graphite",
+              "body": "chuck_theta",
+              "mesh": "chuck_theta__graphite",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_theta__ink",
+              "body": "chuck_theta",
+              "mesh": "chuck_theta__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_theta__steel",
+              "body": "chuck_theta",
+              "mesh": "chuck_theta__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_theta__violet",
+              "body": "chuck_theta",
+              "mesh": "chuck_theta__violet",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_theta__wafer",
+              "body": "chuck_theta",
+              "mesh": "chuck_theta__wafer",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_y_knob__brushed",
+              "body": "chuck_y_knob",
+              "mesh": "chuck_y_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_y_knob__darkmetal",
+              "body": "chuck_y_knob",
+              "mesh": "chuck_y_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_y_knob__ink",
+              "body": "chuck_y_knob",
+              "mesh": "chuck_y_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_y_knob__steel",
+              "body": "chuck_y_knob",
+              "mesh": "chuck_y_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_x_knob__brushed",
+              "body": "chuck_x_knob",
+              "mesh": "chuck_x_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_x_knob__darkmetal",
+              "body": "chuck_x_knob",
+              "mesh": "chuck_x_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_x_knob__ink",
+              "body": "chuck_x_knob",
+              "mesh": "chuck_x_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_chuck_x_knob__steel",
+              "body": "chuck_x_knob",
+              "mesh": "chuck_x_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_x__black",
+              "body": "left_x",
+              "mesh": "left_x__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_x__brushed",
+              "body": "left_x",
+              "mesh": "left_x__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_x__ink",
+              "body": "left_x",
+              "mesh": "left_x__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_x__steel",
+              "body": "left_x",
+              "mesh": "left_x__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_y__black",
+              "body": "left_y",
+              "mesh": "left_y__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_y__brushed",
+              "body": "left_y",
+              "mesh": "left_y__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_y__ink",
+              "body": "left_y",
+              "mesh": "left_y__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_y__steel",
+              "body": "left_y",
+              "mesh": "left_y__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__black",
+              "body": "left_z",
+              "mesh": "left_z__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__bronze",
+              "body": "left_z",
+              "mesh": "left_z__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__brushed",
+              "body": "left_z",
+              "mesh": "left_z__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__ceramic",
+              "body": "left_z",
+              "mesh": "left_z__ceramic",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__darkmetal",
+              "body": "left_z",
+              "mesh": "left_z__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__green",
+              "body": "left_z",
+              "mesh": "left_z__green",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__ink",
+              "body": "left_z",
+              "mesh": "left_z__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__paper",
+              "body": "left_z",
+              "mesh": "left_z__paper",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__steel",
+              "body": "left_z",
+              "mesh": "left_z__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z__tape",
+              "body": "left_z",
+              "mesh": "left_z__tape",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z_knob__brushed",
+              "body": "left_z_knob",
+              "mesh": "left_z_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z_knob__darkmetal",
+              "body": "left_z_knob",
+              "mesh": "left_z_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z_knob__ink",
+              "body": "left_z_knob",
+              "mesh": "left_z_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_z_knob__steel",
+              "body": "left_z_knob",
+              "mesh": "left_z_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_y_knob__brushed",
+              "body": "left_y_knob",
+              "mesh": "left_y_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_y_knob__darkmetal",
+              "body": "left_y_knob",
+              "mesh": "left_y_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_y_knob__ink",
+              "body": "left_y_knob",
+              "mesh": "left_y_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_y_knob__steel",
+              "body": "left_y_knob",
+              "mesh": "left_y_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_x_knob__brushed",
+              "body": "left_x_knob",
+              "mesh": "left_x_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_x_knob__darkmetal",
+              "body": "left_x_knob",
+              "mesh": "left_x_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_x_knob__ink",
+              "body": "left_x_knob",
+              "mesh": "left_x_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_left_x_knob__steel",
+              "body": "left_x_knob",
+              "mesh": "left_x_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_x__black",
+              "body": "right_x",
+              "mesh": "right_x__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_x__brushed",
+              "body": "right_x",
+              "mesh": "right_x__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_x__ink",
+              "body": "right_x",
+              "mesh": "right_x__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_x__steel",
+              "body": "right_x",
+              "mesh": "right_x__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_y__black",
+              "body": "right_y",
+              "mesh": "right_y__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_y__brushed",
+              "body": "right_y",
+              "mesh": "right_y__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_y__ink",
+              "body": "right_y",
+              "mesh": "right_y__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_y__steel",
+              "body": "right_y",
+              "mesh": "right_y__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z__black",
+              "body": "right_z",
+              "mesh": "right_z__black",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z__blue",
+              "body": "right_z",
+              "mesh": "right_z__blue",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z__bronze",
+              "body": "right_z",
+              "mesh": "right_z__bronze",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z__brushed",
+              "body": "right_z",
+              "mesh": "right_z__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z__ceramic",
+              "body": "right_z",
+              "mesh": "right_z__ceramic",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z__ink",
+              "body": "right_z",
+              "mesh": "right_z__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z__steel",
+              "body": "right_z",
+              "mesh": "right_z__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z__tape",
+              "body": "right_z",
+              "mesh": "right_z__tape",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z__yellow",
+              "body": "right_z",
+              "mesh": "right_z__yellow",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z_knob__blue",
+              "body": "right_z_knob",
+              "mesh": "right_z_knob__blue",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z_knob__brushed",
+              "body": "right_z_knob",
+              "mesh": "right_z_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z_knob__darkmetal",
+              "body": "right_z_knob",
+              "mesh": "right_z_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z_knob__ink",
+              "body": "right_z_knob",
+              "mesh": "right_z_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_z_knob__steel",
+              "body": "right_z_knob",
+              "mesh": "right_z_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_y_knob__blue",
+              "body": "right_y_knob",
+              "mesh": "right_y_knob__blue",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_y_knob__brushed",
+              "body": "right_y_knob",
+              "mesh": "right_y_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_y_knob__darkmetal",
+              "body": "right_y_knob",
+              "mesh": "right_y_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_y_knob__ink",
+              "body": "right_y_knob",
+              "mesh": "right_y_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_y_knob__steel",
+              "body": "right_y_knob",
+              "mesh": "right_y_knob__steel",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_x_knob__blue",
+              "body": "right_x_knob",
+              "mesh": "right_x_knob__blue",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_x_knob__brushed",
+              "body": "right_x_knob",
+              "mesh": "right_x_knob__brushed",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_x_knob__darkmetal",
+              "body": "right_x_knob",
+              "mesh": "right_x_knob__darkmetal",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_x_knob__ink",
+              "body": "right_x_knob",
+              "mesh": "right_x_knob__ink",
+              "default_class": "visual"
+            },
+            {
+              "name": "visual_right_x_knob__steel",
+              "body": "right_x_knob",
+              "mesh": "right_x_knob__steel",
+              "default_class": "visual"
+            }
+          ],
+          "named_cable_bodies": []
+        },
+        {
+          "file": "publish/github-sim/assets/probe/physics.xml",
+          "sha256": "84ed586a796c7a45260498ac5c549ea2058c67a9aa222e1deb9958de4bf59fe8",
+          "compiler": {
+            "angle": "radian",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 20,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 0,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        }
+      ],
+      "glb_sha256": "e8b6959266a494772f4e225f40bef77b3dd8545e0856cbf8a6941b7ab650cc11",
+      "visual_flex_nodes": [
+        {
+          "name": "left flexible triax service loop",
+          "parent": "base",
+          "metadata": {
+            "flex_joints": [
+              {
+                "name": "left_x_travel",
+                "axis": [
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "name": "left_y_travel",
+                "axis": [
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "name": "left_z_travel",
+                "axis": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ],
+            "flex_weight_window": [
+              0.08,
+              0.92
+            ],
+            "flex_model": "smooth endpoint-preserving visual bend; no cable strain/contact dynamics"
+          },
+          "path_sample_count": 54,
+          "rest_endpoints_m": [
+            [
+              -0.024500001221895218,
+              -0.18300001323223114,
+              0.04700000211596489
+            ],
+            [
+              -0.17800000309944153,
+              0.0020000000949949026,
+              0.21400001645088196
+            ]
+          ]
+        },
+        {
+          "name": "right flexible triax service loop",
+          "parent": "base",
+          "metadata": {
+            "flex_joints": [
+              {
+                "name": "right_x_travel",
+                "axis": [
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "name": "right_y_travel",
+                "axis": [
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "name": "right_z_travel",
+                "axis": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ],
+            "flex_weight_window": [
+              0.08,
+              0.92
+            ],
+            "flex_model": "smooth endpoint-preserving visual bend; no cable strain/contact dynamics"
+          },
+          "path_sample_count": 54,
+          "rest_endpoints_m": [
+            [
+              0.024500001221895218,
+              -0.18300001323223114,
+              0.04700000211596489
+            ],
+            [
+              0.17800000309944153,
+              0.0020000000949949026,
+              0.21400001645088196
+            ]
+          ]
+        }
+      ],
+      "mechanism_metadata": {}
+    },
+    {
+      "id": "zeiss",
+      "xml": [
+        {
+          "file": "003_zeiss/zeiss_upright.xml",
+          "sha256": "09ba95d48f9e5d4b322beb789ccc15b08864454c1726d9becd0034ed46c08131",
+          "compiler": {
+            "angle": "radian",
+            "meshdir": "assets/meshes",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 9,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 64,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        },
+        {
+          "file": "publish/github-sim/assets/zeiss/physics.xml",
+          "sha256": "598801935f197bc5c9652aae57a1b8a9a5227aa86b33a7602df59d020c303259",
+          "compiler": {
+            "angle": "radian",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 9,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 0,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        }
+      ],
+      "glb_sha256": "4963dc467bb77769a2493a78a8683644dcd903e6278c88447c6ca1bda44343f4",
+      "visual_flex_nodes": [],
+      "mechanism_metadata": {}
+    },
+    {
+      "id": "bonder",
+      "xml": [
+        {
+          "file": "004_wire_bonder/wire_bonder.xml",
+          "sha256": "d5f7b127263a9a5f5e63741dce0bd605770e95bd5db275ae18208459c6a15175",
+          "compiler": {
+            "angle": "radian",
+            "meshdir": "assets/meshes",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 8,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 45,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        },
+        {
+          "file": "publish/github-sim/assets/bonder/physics.xml",
+          "sha256": "5189808a21706951586fa2163a589101f0f218aba39969ddf5b49ad8e7ee315d",
+          "compiler": {
+            "angle": "radian",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 8,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 0,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        }
+      ],
+      "glb_sha256": "093d331c31c1697b72f1e1621a56babeb4c69ecfeb80d6f07325a64e1221ced6",
+      "visual_flex_nodes": [],
+      "mechanism_metadata": {}
+    },
+    {
+      "id": "afm",
+      "xml": [
+        {
+          "file": "005_afm/cypher_s.xml",
+          "sha256": "63e8464ea60ca1e45509f34089bd40f93c5a337849a9c697dd9b9c5585a4157f",
+          "compiler": {
+            "angle": "radian",
+            "meshdir": "assets/meshes",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 8,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 74,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        },
+        {
+          "file": "publish/github-sim/assets/afm/physics.xml",
+          "sha256": "83deaa689e9be8eb19005f5fa71f5b5adc7f5890cd98233d65c086f321a8be44",
+          "compiler": {
+            "angle": "radian",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 8,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 0,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        }
+      ],
+      "glb_sha256": "01942050cedecf5a741508804c79c3fd55df61f7241f47ae97de704679940b03",
+      "visual_flex_nodes": [],
+      "mechanism_metadata": {}
+    },
+    {
+      "id": "tweezers",
+      "xml": [
+        {
+          "file": "006_tweezers/spring_tweezers.xml",
+          "sha256": "c35d760566844f3c53827904d4bf373ad6f08e803c5c972a84f8d876a011d35b",
+          "compiler": {
+            "angle": "radian",
+            "meshdir": "assets/meshes",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 5,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 17,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        },
+        {
+          "file": "publish/github-sim/assets/tweezers/physics.xml",
+          "sha256": "12920dcc9cb2d6d72e59259023b4f12eb3c14fe2b6858cc307e53667d86979e4",
+          "compiler": {
+            "angle": "radian",
+            "autolimits": "true",
+            "inertiafromgeom": "false",
+            "fusestatic": "false"
+          },
+          "counts": {
+            "body": 6,
+            "flex": 0,
+            "flexcomp": 0,
+            "composite": 0,
+            "tendon": 0,
+            "plugin": 0
+          },
+          "geom_defaults": {
+            "visual": {
+              "type": "mesh",
+              "group": "2",
+              "contype": "0",
+              "conaffinity": "0",
+              "density": "0"
+            },
+            "contact": {
+              "group": "3",
+              "contype": "2",
+              "conaffinity": "1",
+              "rgba": ".8 .3 .1 .3",
+              "condim": "4",
+              "friction": ".8 .002 .0001",
+              "solref": ".003 1",
+              "solimp": ".95 .995 .0001"
+            }
+          },
+          "visual_geom_count": 0,
+          "visual_geoms": [],
+          "named_cable_bodies": []
+        }
+      ],
+      "glb_sha256": "2c79f0f4df2e8a547597144156b3e4ef368cecb295bdf31ce03d6e5ca9525e6e",
+      "visual_flex_nodes": [],
+      "mechanism_metadata": {}
+    }
+  ],
+  "conclusion": "Cables are noncolliding visual geometry. Transfer and probe bend selected meshes from measured mechanism joint positions, without cable dynamics or reaction loads.",
+  "limitations": [
+    "No cable mass per segment, bending/torsional stiffness, axial tension, gravity sag, friction, self-contact, breakage or connector load transmission.",
+    "Native MuJoCo visual OBJ cables remain in their exported rest shape relative to their owning rigid body.",
+    "Existing hose sweeps validate sampled visual clearance only, not physical contact response."
+  ]
+}

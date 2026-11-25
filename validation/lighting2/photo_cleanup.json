@@ -1,0 +1,1716 @@
+{
+  "revision": "lighting2",
+  "scope": "Photo renderer compile/disposal lifetime under reprepare, rapid stop, cancellation, and timeout.",
+  "progressive_renderer_sha256": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8",
+  "harness_sha256": {
+    "lifetime.html": "532d0955708901734371120756f66427f9dbb76a706c3044e994af7546c90a31",
+    "lifetime.js": "e61afe76a602df2fb06c868f57252afe98224aefea0dbfa3d0bf5257918ea039",
+    "lifetime.cjs": "50e928af07623792e3ee2f53e3f3756a65c8e62194f3c7dd2d8b98748e3612cc"
+  },
+  "constructor_overlap_probe": "One-shot, synchronously restored test probe explicitly requests both passes during the vendor constructor; oldest promises are held until newer requests settle. Native rapid-stop cases do not modify upstream behavior.",
+  "program_diagnostics": "Tracks native program creation/deletion, access after deletion, duplicate deletion, and deletion while a promise using that same native program remains pending. Adds no synchronizing GL queries.",
+  "backend_reports": [
+    {
+      "started": "2026-11-24T22:42:00.940Z",
+      "backend": "egl",
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "servedSources": {
+        "/publish/github-sim/progressive-renderer.js": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8",
+        "/publish/github-sim/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85",
+        "/publish/github-sim/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1",
+        "/publish/github-sim/vendor/three/three.module.min.js": "3e690ac7d180b0aadf0891bea39eec643e29e2d3e75c99b18689518665f69ba6"
+      },
+      "passed": true,
+      "render": {
+        "graphics": {
+          "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)"
+        },
+        "checks": [
+          {
+            "name": "constructor and both passes are covered",
+            "passed": true,
+            "jobs": 4,
+            "passes": 2
+          },
+          {
+            "name": "older compiles remain visible after latest request settles",
+            "passed": true,
+            "vendorPrimaryCompiling": false,
+            "compiling": true
+          },
+          {
+            "name": "renderer wrapper restored synchronously",
+            "passed": true
+          },
+          {
+            "name": "reprepare installs the new tracer without blocking",
+            "passed": true
+          },
+          {
+            "name": "retired materials and remapped geometry survive pending polls",
+            "passed": true,
+            "remappedGeometry": 1
+          },
+          {
+            "name": "retired allocations release once their promises settle",
+            "passed": true
+          },
+          {
+            "name": "stop detaches UI immediately",
+            "passed": true
+          },
+          {
+            "name": "repeated stop is idempotent",
+            "passed": true
+          },
+          {
+            "name": "rapid native stop drains all shader polls",
+            "passed": true
+          },
+          {
+            "name": "cancel during scene compilation rejects promptly",
+            "passed": true,
+            "error": {
+              "name": "AbortError",
+              "message": "Photo preparation cancelled"
+            }
+          },
+          {
+            "name": "preparation timeout is preserved",
+            "passed": true,
+            "error": "Photo preparation took too long; use Live view on this device"
+          },
+          {
+            "name": "no material was disposed while a compile promise was pending",
+            "passed": true
+          },
+          {
+            "name": "every compiled owned material was released once",
+            "passed": true,
+            "materials": 30
+          },
+          {
+            "name": "renderer compile function remains unchanged",
+            "passed": true
+          }
+        ],
+        "violations": [],
+        "invalidPrograms": [],
+        "constructorCompileProbe": true,
+        "nativePendingAtStop": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "jobs": [
+          {
+            "id": 0,
+            "phase": "older-constructor-promises",
+            "material": "59d7dcff-4384-49bf-a73e-c833283aa998",
+            "held": true,
+            "settled": true,
+            "program": 1,
+            "nativeSettled": true
+          },
+          {
+            "id": 1,
+            "phase": "older-constructor-promises",
+            "material": "51d88a0b-ae01-4684-b489-fa35535b0518",
+            "held": true,
+            "settled": true,
+            "program": 1,
+            "nativeSettled": true
+          },
+          {
+            "id": 2,
+            "phase": "older-constructor-promises",
+            "material": "59d7dcff-4384-49bf-a73e-c833283aa998",
+            "held": false,
+            "settled": true,
+            "program": 2,
+            "nativeSettled": true
+          },
+          {
+            "id": 3,
+            "phase": "older-constructor-promises",
+            "material": "51d88a0b-ae01-4684-b489-fa35535b0518",
+            "held": false,
+            "settled": true,
+            "program": 3,
+            "nativeSettled": true
+          },
+          {
+            "id": 4,
+            "phase": "reprepare",
+            "material": "e3b74732-52f0-4738-bd90-d65574dc7357",
+            "held": false,
+            "settled": true,
+            "program": 2,
+            "nativeSettled": true
+          },
+          {
+            "id": 5,
+            "phase": "reprepare",
+            "material": "a006336c-bede-4e78-8557-d3f64b1afea8",
+            "held": false,
+            "settled": true,
+            "program": 3,
+            "nativeSettled": true
+          },
+          {
+            "id": 6,
+            "phase": "rapid-native-stop",
+            "material": "5b9a07ab-5e20-4db2-8b25-a49fd81e3b41",
+            "held": false,
+            "settled": true,
+            "program": 5,
+            "nativeSettled": true
+          },
+          {
+            "id": 7,
+            "phase": "rapid-native-stop",
+            "material": "5df36dc4-6766-40a8-98ae-9140176d0f64",
+            "held": false,
+            "settled": true,
+            "program": 6,
+            "nativeSettled": true
+          },
+          {
+            "id": 8,
+            "phase": "rapid-native-stop",
+            "material": "5b2894b3-1570-48da-8e90-014ed7c0dcf8",
+            "held": false,
+            "settled": true,
+            "program": 7,
+            "nativeSettled": true
+          },
+          {
+            "id": 9,
+            "phase": "rapid-native-stop",
+            "material": "e498a895-aa1a-46cb-88af-50da7eece22e",
+            "held": false,
+            "settled": true,
+            "program": 8,
+            "nativeSettled": true
+          },
+          {
+            "id": 10,
+            "phase": "rapid-native-stop",
+            "material": "035d9b44-7d30-414c-9a15-95c5b8c95e55",
+            "held": false,
+            "settled": true,
+            "program": 9,
+            "nativeSettled": true
+          },
+          {
+            "id": 11,
+            "phase": "rapid-native-stop",
+            "material": "617867a5-122f-4ffa-9189-39b6f205efb5",
+            "held": false,
+            "settled": true,
+            "program": 10,
+            "nativeSettled": true
+          },
+          {
+            "id": 12,
+            "phase": "rapid-native-stop",
+            "material": "822a1852-d50e-490b-b525-9f83af2fe150",
+            "held": false,
+            "settled": true,
+            "program": 11,
+            "nativeSettled": true
+          },
+          {
+            "id": 13,
+            "phase": "rapid-native-stop",
+            "material": "3db1acf5-1c19-459d-81ec-ee296a0bd401",
+            "held": false,
+            "settled": true,
+            "program": 12,
+            "nativeSettled": true
+          },
+          {
+            "id": 14,
+            "phase": "rapid-native-stop",
+            "material": "5c446dde-d531-4991-b089-9af79de755a8",
+            "held": false,
+            "settled": true,
+            "program": 13,
+            "nativeSettled": true
+          },
+          {
+            "id": 15,
+            "phase": "rapid-native-stop",
+            "material": "b455eb50-bc7e-4d2f-8d46-aa5834e503ed",
+            "held": false,
+            "settled": true,
+            "program": 14,
+            "nativeSettled": true
+          },
+          {
+            "id": 16,
+            "phase": "rapid-native-stop",
+            "material": "31a4f250-ec83-4d1d-9468-a3076bb6302f",
+            "held": false,
+            "settled": true,
+            "program": 15,
+            "nativeSettled": true
+          },
+          {
+            "id": 17,
+            "phase": "rapid-native-stop",
+            "material": "2cdf5c44-88da-46d5-9753-007a0685052c",
+            "held": false,
+            "settled": true,
+            "program": 16,
+            "nativeSettled": true
+          },
+          {
+            "id": 18,
+            "phase": "rapid-native-stop",
+            "material": "98a02857-463c-4862-b45a-ae6f44b2f22f",
+            "held": false,
+            "settled": true,
+            "program": 17,
+            "nativeSettled": true
+          },
+          {
+            "id": 19,
+            "phase": "rapid-native-stop",
+            "material": "6333bf18-bacd-470c-9330-6b7d30d6ec69",
+            "held": false,
+            "settled": true,
+            "program": 18,
+            "nativeSettled": true
+          },
+          {
+            "id": 20,
+            "phase": "rapid-native-stop",
+            "material": "3e715b72-3153-44eb-8100-9cf8cb1ad776",
+            "held": false,
+            "settled": true,
+            "program": 19,
+            "nativeSettled": true
+          },
+          {
+            "id": 21,
+            "phase": "rapid-native-stop",
+            "material": "747bc53f-a46c-41c6-a4ae-66cbc8a04c69",
+            "held": false,
+            "settled": true,
+            "program": 20,
+            "nativeSettled": true
+          },
+          {
+            "id": 22,
+            "phase": "rapid-native-stop",
+            "material": "60f5b28e-f6eb-4492-9285-3771e7336817",
+            "held": false,
+            "settled": true,
+            "program": 21,
+            "nativeSettled": true
+          },
+          {
+            "id": 23,
+            "phase": "rapid-native-stop",
+            "material": "6e32550a-57e2-473b-9cb4-cc3f86aa8747",
+            "held": false,
+            "settled": true,
+            "program": 22,
+            "nativeSettled": true
+          },
+          {
+            "id": 24,
+            "phase": "rapid-native-stop",
+            "material": "985a9dde-4014-488b-ba17-388883b39cc1",
+            "held": false,
+            "settled": true,
+            "program": 23,
+            "nativeSettled": true
+          },
+          {
+            "id": 25,
+            "phase": "rapid-native-stop",
+            "material": "6a5e17a6-8643-4003-b553-431f47da563f",
+            "held": false,
+            "settled": true,
+            "program": 24,
+            "nativeSettled": true
+          },
+          {
+            "id": 26,
+            "phase": "rapid-native-stop",
+            "material": "a5ff3f5d-f14e-4d8a-8051-5977aa9e20a8",
+            "held": false,
+            "settled": true,
+            "program": 25,
+            "nativeSettled": true
+          },
+          {
+            "id": 27,
+            "phase": "rapid-native-stop",
+            "material": "757e7769-b6cb-4b0a-a368-e132840d6efa",
+            "held": false,
+            "settled": true,
+            "program": 26,
+            "nativeSettled": true
+          },
+          {
+            "id": 28,
+            "phase": "rapid-native-stop",
+            "material": "8c6f057a-9de2-4c63-8aa0-a81c572500d3",
+            "held": false,
+            "settled": true,
+            "program": 27,
+            "nativeSettled": true
+          },
+          {
+            "id": 29,
+            "phase": "rapid-native-stop",
+            "material": "a890810f-62ce-459f-ab2d-5d2584b1fa78",
+            "held": false,
+            "settled": true,
+            "program": 28,
+            "nativeSettled": true
+          },
+          {
+            "id": 30,
+            "phase": "cancel-during-scene-compilation",
+            "material": "b0c2e44c-7a2b-40fc-8462-9092d9411383",
+            "held": false,
+            "settled": true,
+            "program": 29,
+            "nativeSettled": true
+          },
+          {
+            "id": 31,
+            "phase": "cancel-during-scene-compilation",
+            "material": "add92d3c-e03e-4866-8c37-e8fc1ffab88a",
+            "held": false,
+            "settled": true,
+            "program": 30,
+            "nativeSettled": true
+          }
+        ],
+        "materials": [
+          {
+            "uuid": "59d7dcff-4384-49bf-a73e-c833283aa998",
+            "phase": "older-constructor-promises",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "51d88a0b-ae01-4684-b489-fa35535b0518",
+            "phase": "older-constructor-promises",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "e3b74732-52f0-4738-bd90-d65574dc7357",
+            "phase": "reprepare",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "a006336c-bede-4e78-8557-d3f64b1afea8",
+            "phase": "reprepare",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "5b9a07ab-5e20-4db2-8b25-a49fd81e3b41",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "5df36dc4-6766-40a8-98ae-9140176d0f64",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "5b2894b3-1570-48da-8e90-014ed7c0dcf8",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "e498a895-aa1a-46cb-88af-50da7eece22e",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "035d9b44-7d30-414c-9a15-95c5b8c95e55",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "617867a5-122f-4ffa-9189-39b6f205efb5",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "822a1852-d50e-490b-b525-9f83af2fe150",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "3db1acf5-1c19-459d-81ec-ee296a0bd401",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "5c446dde-d531-4991-b089-9af79de755a8",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "b455eb50-bc7e-4d2f-8d46-aa5834e503ed",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "31a4f250-ec83-4d1d-9468-a3076bb6302f",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "2cdf5c44-88da-46d5-9753-007a0685052c",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "98a02857-463c-4862-b45a-ae6f44b2f22f",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "6333bf18-bacd-470c-9330-6b7d30d6ec69",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "3e715b72-3153-44eb-8100-9cf8cb1ad776",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "747bc53f-a46c-41c6-a4ae-66cbc8a04c69",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "60f5b28e-f6eb-4492-9285-3771e7336817",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "6e32550a-57e2-473b-9cb4-cc3f86aa8747",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "985a9dde-4014-488b-ba17-388883b39cc1",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "6a5e17a6-8643-4003-b553-431f47da563f",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "a5ff3f5d-f14e-4d8a-8051-5977aa9e20a8",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "757e7769-b6cb-4b0a-a368-e132840d6efa",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "8c6f057a-9de2-4c63-8aa0-a81c572500d3",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "a890810f-62ce-459f-ab2d-5d2584b1fa78",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "b0c2e44c-7a2b-40fc-8462-9092d9411383",
+            "phase": "cancel-during-scene-compilation",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "add92d3c-e03e-4866-8c37-e8fc1ffab88a",
+            "phase": "cancel-during-scene-compilation",
+            "disposed": 1,
+            "pending": []
+          }
+        ],
+        "glError": 0,
+        "passed": true
+      },
+      "finished": "2026-11-24T22:42:04.305Z"
+    },
+    {
+      "started": "2026-11-24T22:44:01.460Z",
+      "backend": "vulkan",
+      "console": [
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+        }
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "servedSources": {
+        "/publish/github-sim/progressive-renderer.js": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8",
+        "/publish/github-sim/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85",
+        "/publish/github-sim/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1",
+        "/publish/github-sim/vendor/three/three.module.min.js": "3e690ac7d180b0aadf0891bea39eec643e29e2d3e75c99b18689518665f69ba6"
+      },
+      "passed": true,
+      "render": {
+        "graphics": {
+          "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)"
+        },
+        "checks": [
+          {
+            "name": "constructor and both passes are covered",
+            "passed": true,
+            "jobs": 4,
+            "passes": 2
+          },
+          {
+            "name": "older compiles remain visible after latest request settles",
+            "passed": true,
+            "vendorPrimaryCompiling": false,
+            "compiling": true
+          },
+          {
+            "name": "renderer wrapper restored synchronously",
+            "passed": true
+          },
+          {
+            "name": "reprepare installs the new tracer without blocking",
+            "passed": true
+          },
+          {
+            "name": "retired materials and remapped geometry survive pending polls",
+            "passed": true,
+            "remappedGeometry": 1
+          },
+          {
+            "name": "retired allocations release once their promises settle",
+            "passed": true
+          },
+          {
+            "name": "stop detaches UI immediately",
+            "passed": true
+          },
+          {
+            "name": "repeated stop is idempotent",
+            "passed": true
+          },
+          {
+            "name": "rapid native stop drains all shader polls",
+            "passed": true
+          },
+          {
+            "name": "cancel during scene compilation rejects promptly",
+            "passed": true,
+            "error": {
+              "name": "AbortError",
+              "message": "Photo preparation cancelled"
+            }
+          },
+          {
+            "name": "preparation timeout is preserved",
+            "passed": true,
+            "error": "Photo preparation took too long; use Live view on this device"
+          },
+          {
+            "name": "no material was disposed while a compile promise was pending",
+            "passed": true
+          },
+          {
+            "name": "every compiled owned material was released once",
+            "passed": true,
+            "materials": 30
+          },
+          {
+            "name": "renderer compile function remains unchanged",
+            "passed": true
+          }
+        ],
+        "violations": [],
+        "invalidPrograms": [],
+        "constructorCompileProbe": true,
+        "nativePendingAtStop": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "jobs": [
+          {
+            "id": 0,
+            "phase": "older-constructor-promises",
+            "material": "afebafd0-0da5-4ad0-ac0c-74560e137901",
+            "held": true,
+            "settled": true,
+            "program": 1,
+            "nativeSettled": true
+          },
+          {
+            "id": 1,
+            "phase": "older-constructor-promises",
+            "material": "66575044-7045-47b2-942e-4b9c54125d04",
+            "held": true,
+            "settled": true,
+            "program": 1,
+            "nativeSettled": true
+          },
+          {
+            "id": 2,
+            "phase": "older-constructor-promises",
+            "material": "afebafd0-0da5-4ad0-ac0c-74560e137901",
+            "held": false,
+            "settled": true,
+            "program": 2,
+            "nativeSettled": true
+          },
+          {
+            "id": 3,
+            "phase": "older-constructor-promises",
+            "material": "66575044-7045-47b2-942e-4b9c54125d04",
+            "held": false,
+            "settled": true,
+            "program": 3,
+            "nativeSettled": true
+          },
+          {
+            "id": 4,
+            "phase": "reprepare",
+            "material": "ad658845-4726-45ee-bb76-64b59a9f3296",
+            "held": false,
+            "settled": true,
+            "program": 2,
+            "nativeSettled": true
+          },
+          {
+            "id": 5,
+            "phase": "reprepare",
+            "material": "b0fc9025-c806-4219-b139-e5e5008d0a7c",
+            "held": false,
+            "settled": true,
+            "program": 3,
+            "nativeSettled": true
+          },
+          {
+            "id": 6,
+            "phase": "rapid-native-stop",
+            "material": "884c3c61-c59f-4cdb-9344-7a90c846432f",
+            "held": false,
+            "settled": true,
+            "program": 5,
+            "nativeSettled": true
+          },
+          {
+            "id": 7,
+            "phase": "rapid-native-stop",
+            "material": "b53eb0ff-b65d-413a-86da-07c6a107ee2c",
+            "held": false,
+            "settled": true,
+            "program": 6,
+            "nativeSettled": true
+          },
+          {
+            "id": 8,
+            "phase": "rapid-native-stop",
+            "material": "2cc6e38e-6ac4-4691-9445-11f581a8a124",
+            "held": false,
+            "settled": true,
+            "program": 7,
+            "nativeSettled": true
+          },
+          {
+            "id": 9,
+            "phase": "rapid-native-stop",
+            "material": "804842db-067a-4501-83b3-863bb61314e1",
+            "held": false,
+            "settled": true,
+            "program": 8,
+            "nativeSettled": true
+          },
+          {
+            "id": 10,
+            "phase": "rapid-native-stop",
+            "material": "ed2fb5ef-a066-4b49-82db-c5671be23320",
+            "held": false,
+            "settled": true,
+            "program": 9,
+            "nativeSettled": true
+          },
+          {
+            "id": 11,
+            "phase": "rapid-native-stop",
+            "material": "5f3c197c-da70-4fe3-a76b-bb6b3959d914",
+            "held": false,
+            "settled": true,
+            "program": 10,
+            "nativeSettled": true
+          },
+          {
+            "id": 12,
+            "phase": "rapid-native-stop",
+            "material": "7556f215-ae7c-43a6-9bc3-365e23df186a",
+            "held": false,
+            "settled": true,
+            "program": 11,
+            "nativeSettled": true
+          },
+          {
+            "id": 13,
+            "phase": "rapid-native-stop",
+            "material": "d7074738-ab83-446b-b457-8ba94f0e50ea",
+            "held": false,
+            "settled": true,
+            "program": 12,
+            "nativeSettled": true
+          },
+          {
+            "id": 14,
+            "phase": "rapid-native-stop",
+            "material": "e42e42cb-bd16-48b7-8392-d01d1ebe75a5",
+            "held": false,
+            "settled": true,
+            "program": 13,
+            "nativeSettled": true
+          },
+          {
+            "id": 15,
+            "phase": "rapid-native-stop",
+            "material": "c1da3fea-1772-4e6a-870f-f543fbffa0d7",
+            "held": false,
+            "settled": true,
+            "program": 14,
+            "nativeSettled": true
+          },
+          {
+            "id": 16,
+            "phase": "rapid-native-stop",
+            "material": "2666616c-66dd-4065-aaff-3bdc5b98be97",
+            "held": false,
+            "settled": true,
+            "program": 15,
+            "nativeSettled": true
+          },
+          {
+            "id": 17,
+            "phase": "rapid-native-stop",
+            "material": "f986d8f2-8e1c-4884-8798-9f159397535b",
+            "held": false,
+            "settled": true,
+            "program": 16,
+            "nativeSettled": true
+          },
+          {
+            "id": 18,
+            "phase": "rapid-native-stop",
+            "material": "3c1494f7-8922-4e7f-a752-5edcd1149fca",
+            "held": false,
+            "settled": true,
+            "program": 17,
+            "nativeSettled": true
+          },
+          {
+            "id": 19,
+            "phase": "rapid-native-stop",
+            "material": "f1bac938-6da4-43b3-ad0f-de5dc30f840f",
+            "held": false,
+            "settled": true,
+            "program": 18,
+            "nativeSettled": true
+          },
+          {
+            "id": 20,
+            "phase": "rapid-native-stop",
+            "material": "4b47e656-ff32-46c5-a264-8dc2738a743d",
+            "held": false,
+            "settled": true,
+            "program": 19,
+            "nativeSettled": true
+          },
+          {
+            "id": 21,
+            "phase": "rapid-native-stop",
+            "material": "8ef01060-3871-4165-b377-94ffee19e06d",
+            "held": false,
+            "settled": true,
+            "program": 20,
+            "nativeSettled": true
+          },
+          {
+            "id": 22,
+            "phase": "rapid-native-stop",
+            "material": "f717fee5-6739-40fa-87da-1f7e2d7bb98b",
+            "held": false,
+            "settled": true,
+            "program": 21,
+            "nativeSettled": true
+          },
+          {
+            "id": 23,
+            "phase": "rapid-native-stop",
+            "material": "f1fac502-c9de-4bd8-bb06-85c4d5e7b3f7",
+            "held": false,
+            "settled": true,
+            "program": 22,
+            "nativeSettled": true
+          },
+          {
+            "id": 24,
+            "phase": "rapid-native-stop",
+            "material": "bbdd7ef5-d5ae-413a-a542-6ffc0566b3c4",
+            "held": false,
+            "settled": true,
+            "program": 23,
+            "nativeSettled": true
+          },
+          {
+            "id": 25,
+            "phase": "rapid-native-stop",
+            "material": "91449528-ba68-4182-ad48-9a9df91afe62",
+            "held": false,
+            "settled": true,
+            "program": 24,
+            "nativeSettled": true
+          },
+          {
+            "id": 26,
+            "phase": "rapid-native-stop",
+            "material": "ebf188b9-9081-4102-b39f-6442dbbe972d",
+            "held": false,
+            "settled": true,
+            "program": 25,
+            "nativeSettled": true
+          },
+          {
+            "id": 27,
+            "phase": "rapid-native-stop",
+            "material": "f853223e-f1fa-4ef5-80a9-4f6bc948e6fb",
+            "held": false,
+            "settled": true,
+            "program": 26,
+            "nativeSettled": true
+          },
+          {
+            "id": 28,
+            "phase": "rapid-native-stop",
+            "material": "d6f557b4-d1ed-422c-9fa4-ded72aae07ee",
+            "held": false,
+            "settled": true,
+            "program": 27,
+            "nativeSettled": true
+          },
+          {
+            "id": 29,
+            "phase": "rapid-native-stop",
+            "material": "b347cc76-3780-4d32-a252-2815ca0179c2",
+            "held": false,
+            "settled": true,
+            "program": 28,
+            "nativeSettled": true
+          },
+          {
+            "id": 30,
+            "phase": "cancel-during-scene-compilation",
+            "material": "42540981-f1e9-4fd9-bb02-a2255bfe9bd2",
+            "held": false,
+            "settled": true,
+            "program": 29,
+            "nativeSettled": true
+          },
+          {
+            "id": 31,
+            "phase": "cancel-during-scene-compilation",
+            "material": "26882209-6c54-4576-bd1e-bf21fe628f28",
+            "held": false,
+            "settled": true,
+            "program": 30,
+            "nativeSettled": true
+          }
+        ],
+        "materials": [
+          {
+            "uuid": "afebafd0-0da5-4ad0-ac0c-74560e137901",
+            "phase": "older-constructor-promises",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "66575044-7045-47b2-942e-4b9c54125d04",
+            "phase": "older-constructor-promises",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "ad658845-4726-45ee-bb76-64b59a9f3296",
+            "phase": "reprepare",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "b0fc9025-c806-4219-b139-e5e5008d0a7c",
+            "phase": "reprepare",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "884c3c61-c59f-4cdb-9344-7a90c846432f",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "b53eb0ff-b65d-413a-86da-07c6a107ee2c",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "2cc6e38e-6ac4-4691-9445-11f581a8a124",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "804842db-067a-4501-83b3-863bb61314e1",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "ed2fb5ef-a066-4b49-82db-c5671be23320",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "5f3c197c-da70-4fe3-a76b-bb6b3959d914",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "7556f215-ae7c-43a6-9bc3-365e23df186a",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "d7074738-ab83-446b-b457-8ba94f0e50ea",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "e42e42cb-bd16-48b7-8392-d01d1ebe75a5",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "c1da3fea-1772-4e6a-870f-f543fbffa0d7",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "2666616c-66dd-4065-aaff-3bdc5b98be97",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "f986d8f2-8e1c-4884-8798-9f159397535b",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "3c1494f7-8922-4e7f-a752-5edcd1149fca",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "f1bac938-6da4-43b3-ad0f-de5dc30f840f",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "4b47e656-ff32-46c5-a264-8dc2738a743d",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "8ef01060-3871-4165-b377-94ffee19e06d",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "f717fee5-6739-40fa-87da-1f7e2d7bb98b",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "f1fac502-c9de-4bd8-bb06-85c4d5e7b3f7",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "bbdd7ef5-d5ae-413a-a542-6ffc0566b3c4",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "91449528-ba68-4182-ad48-9a9df91afe62",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "ebf188b9-9081-4102-b39f-6442dbbe972d",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "f853223e-f1fa-4ef5-80a9-4f6bc948e6fb",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "d6f557b4-d1ed-422c-9fa4-ded72aae07ee",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "b347cc76-3780-4d32-a252-2815ca0179c2",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "42540981-f1e9-4fd9-bb02-a2255bfe9bd2",
+            "phase": "cancel-during-scene-compilation",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "26882209-6c54-4576-bd1e-bf21fe628f28",
+            "phase": "cancel-during-scene-compilation",
+            "disposed": 1,
+            "pending": []
+          }
+        ],
+        "glError": 0,
+        "passed": true
+      },
+      "finished": "2026-11-24T22:44:05.054Z"
+    }
+  ],
+  "original_diagnosed_failure": {
+    "source_sha256": "981bdf023bb369e285b6ded941eed27749cbc4213937bee88ba7edd2dbb4b39b",
+    "cause": "Three compileAsync polls material.currentProgram. Immediate Photo disposal removed those material properties while compilation polls from either pass were still pending.",
+    "backend_errors": [
+      {
+        "backend": "egl",
+        "page_errors": [
+          "TypeError: Cannot read properties of undefined (reading 'isReady')\n    at http://127.0.0.1:37527/publish/github-sim/vendor/three/three.module.min.js:6:442703\n    at Set.forEach (<anonymous>)\n    at n (http://127.0.0.1:37527/publish/github-sim/vendor/three/three.module.min.js:6:442658)",
+          "TypeError: Cannot read properties of undefined (reading 'isReady')\n    at http://127.0.0.1:37527/publish/github-sim/vendor/three/three.module.min.js:6:442703\n    at Set.forEach (<anonymous>)\n    at n (http://127.0.0.1:37527/publish/github-sim/vendor/three/three.module.min.js:6:442658)"
+        ]
+      },
+      {
+        "backend": "vulkan",
+        "page_errors": [
+          "TypeError: Cannot read properties of undefined (reading 'isReady')\n    at http://127.0.0.1:37528/publish/github-sim/vendor/three/three.module.min.js:6:442703\n    at Set.forEach (<anonymous>)\n    at n (http://127.0.0.1:37528/publish/github-sim/vendor/three/three.module.min.js:6:442658)"
+        ]
+      }
+    ],
+    "fix": "Capture constructor requests and every subsequent compile request from both owned passes, detach stopped tracers immediately, remove recompilation listeners, and defer their allocations until preparation and all tracked promises settle."
+  },
+  "historical_unattributed_graphics_warning": {
+    "status": "Observed once after the material-lifetime fix; not reproduced or attributed. Current checks pass, but this does not establish universal elimination of that warning.",
+    "report": {
+      "started": "2026-11-24T22:33:58.810Z",
+      "backend": "egl",
+      "console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x35f4000c4600] GL_INVALID_VALUE: Program object expected."
+        }
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "servedSources": {
+        "/publish/github-sim/progressive-renderer.js": "b979d6cca877cf604e09bd8fb4bc587ef4f1057f70a1f331fb1cd3246206dd4e",
+        "/publish/github-sim/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85",
+        "/publish/github-sim/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1",
+        "/publish/github-sim/vendor/three/three.module.min.js": "3e690ac7d180b0aadf0891bea39eec643e29e2d3e75c99b18689518665f69ba6"
+      },
+      "passed": false,
+      "render": {
+        "graphics": {
+          "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)"
+        },
+        "checks": [
+          {
+            "name": "constructor and both passes are covered",
+            "passed": true,
+            "jobs": 4,
+            "passes": 2
+          },
+          {
+            "name": "older compiles remain visible after latest request settles",
+            "passed": true,
+            "vendorPrimaryCompiling": false,
+            "compiling": true
+          },
+          {
+            "name": "renderer wrapper restored synchronously",
+            "passed": true
+          },
+          {
+            "name": "reprepare installs the new tracer without blocking",
+            "passed": true
+          },
+          {
+            "name": "retired materials and remapped geometry survive pending polls",
+            "passed": true,
+            "remappedGeometry": 1
+          },
+          {
+            "name": "retired allocations release once their promises settle",
+            "passed": true
+          },
+          {
+            "name": "stop detaches UI immediately",
+            "passed": true
+          },
+          {
+            "name": "repeated stop is idempotent",
+            "passed": true
+          },
+          {
+            "name": "rapid native stop drains all shader polls",
+            "passed": true
+          },
+          {
+            "name": "cancel during scene compilation rejects promptly",
+            "passed": true,
+            "error": {
+              "name": "AbortError",
+              "message": "Photo preparation cancelled"
+            }
+          },
+          {
+            "name": "preparation timeout is preserved",
+            "passed": true,
+            "error": "Photo preparation took too long; use Live view on this device"
+          },
+          {
+            "name": "no material was disposed while a compile promise was pending",
+            "passed": true
+          },
+          {
+            "name": "every compiled owned material was released once",
+            "passed": true,
+            "materials": 12
+          },
+          {
+            "name": "renderer compile function remains unchanged",
+            "passed": true
+          }
+        ],
+        "violations": [],
+        "constructorCompileProbe": true,
+        "nativePendingAtStop": [
+          2,
+          4,
+          6
+        ],
+        "jobs": [
+          {
+            "id": 0,
+            "phase": "older-constructor-promises",
+            "material": "fd19f031-2aa6-45b6-bdd8-faf8c4f8832c",
+            "held": true,
+            "settled": true
+          },
+          {
+            "id": 1,
+            "phase": "older-constructor-promises",
+            "material": "71bd9e9c-96a9-4218-ba48-b09933502b9b",
+            "held": true,
+            "settled": true
+          },
+          {
+            "id": 2,
+            "phase": "older-constructor-promises",
+            "material": "fd19f031-2aa6-45b6-bdd8-faf8c4f8832c",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 3,
+            "phase": "older-constructor-promises",
+            "material": "71bd9e9c-96a9-4218-ba48-b09933502b9b",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 4,
+            "phase": "reprepare",
+            "material": "9fd1df95-adae-4da5-9af1-e8bd31e0db00",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 5,
+            "phase": "reprepare",
+            "material": "9f29044d-9bcf-409a-879d-b1545f671861",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 6,
+            "phase": "rapid-native-stop",
+            "material": "d988c85b-248e-4006-8f64-a7753c96556d",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 7,
+            "phase": "rapid-native-stop",
+            "material": "3f15f41a-04da-40e9-b0f7-450bf1447b9a",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 8,
+            "phase": "rapid-native-stop",
+            "material": "3f99aaf2-af17-4845-ba64-898a41cf1c6e",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 9,
+            "phase": "rapid-native-stop",
+            "material": "9f091028-cca7-4e67-b4c8-0c75b67912c9",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 10,
+            "phase": "rapid-native-stop",
+            "material": "d5d10870-fb89-4ef0-b211-da399bd59c04",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 11,
+            "phase": "rapid-native-stop",
+            "material": "3813f0b7-49c8-483c-9692-37c0cdac969b",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 12,
+            "phase": "cancel-during-scene-compilation",
+            "material": "d029b6e7-25c6-4ed3-b8cf-93e89deaa975",
+            "held": false,
+            "settled": true
+          },
+          {
+            "id": 13,
+            "phase": "cancel-during-scene-compilation",
+            "material": "2b2fa748-b9ba-4f99-b21b-c728c150e4d0",
+            "held": false,
+            "settled": true
+          }
+        ],
+        "materials": [
+          {
+            "uuid": "fd19f031-2aa6-45b6-bdd8-faf8c4f8832c",
+            "phase": "older-constructor-promises",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "71bd9e9c-96a9-4218-ba48-b09933502b9b",
+            "phase": "older-constructor-promises",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "9fd1df95-adae-4da5-9af1-e8bd31e0db00",
+            "phase": "reprepare",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "9f29044d-9bcf-409a-879d-b1545f671861",
+            "phase": "reprepare",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "d988c85b-248e-4006-8f64-a7753c96556d",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "3f15f41a-04da-40e9-b0f7-450bf1447b9a",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "3f99aaf2-af17-4845-ba64-898a41cf1c6e",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "9f091028-cca7-4e67-b4c8-0c75b67912c9",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "d5d10870-fb89-4ef0-b211-da399bd59c04",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "3813f0b7-49c8-483c-9692-37c0cdac969b",
+            "phase": "rapid-native-stop",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "d029b6e7-25c6-4ed3-b8cf-93e89deaa975",
+            "phase": "cancel-during-scene-compilation",
+            "disposed": 1,
+            "pending": []
+          },
+          {
+            "uuid": "2b2fa748-b9ba-4f99-b21b-c728c150e4d0",
+            "phase": "cancel-during-scene-compilation",
+            "disposed": 1,
+            "pending": []
+          }
+        ],
+        "glError": 1281,
+        "passed": false
+      },
+      "finished": "2026-11-24T22:34:04.641Z"
+    }
+  },
+  "repeated_egl_check_history": [
+    {
+      "fixture": "lifetime_egl3",
+      "checked_utc": "2026-11-24T22:31:07.964Z",
+      "passed": true,
+      "source_sha256": "b979d6cca877cf604e09bd8fb4bc587ef4f1057f70a1f331fb1cd3246206dd4e",
+      "native_stop_cycles": 3,
+      "javascript_errors": 0,
+      "graphics_error": 0,
+      "program_ownership_violations": 0
+    },
+    {
+      "fixture": "lifetime_trace_egl2",
+      "checked_utc": "2026-11-24T22:38:03.012Z",
+      "passed": true,
+      "source_sha256": "b979d6cca877cf604e09bd8fb4bc587ef4f1057f70a1f331fb1cd3246206dd4e",
+      "native_stop_cycles": 12,
+      "javascript_errors": 0,
+      "graphics_error": 0,
+      "program_ownership_violations": 0
+    },
+    {
+      "fixture": "lifetime_trace_egl3",
+      "checked_utc": "2026-11-24T22:38:03.591Z",
+      "passed": true,
+      "source_sha256": "b979d6cca877cf604e09bd8fb4bc587ef4f1057f70a1f331fb1cd3246206dd4e",
+      "native_stop_cycles": 12,
+      "javascript_errors": 0,
+      "graphics_error": 0,
+      "program_ownership_violations": 0
+    },
+    {
+      "fixture": "lifetime_trace_egl4",
+      "checked_utc": "2026-11-24T22:40:03.792Z",
+      "passed": true,
+      "source_sha256": "b979d6cca877cf604e09bd8fb4bc587ef4f1057f70a1f331fb1cd3246206dd4e",
+      "native_stop_cycles": 12,
+      "javascript_errors": 0,
+      "graphics_error": 0,
+      "program_ownership_violations": 0
+    },
+    {
+      "fixture": "lifetime_trace_egl5",
+      "checked_utc": "2026-11-24T22:40:03.795Z",
+      "passed": true,
+      "source_sha256": "b979d6cca877cf604e09bd8fb4bc587ef4f1057f70a1f331fb1cd3246206dd4e",
+      "native_stop_cycles": 12,
+      "javascript_errors": 0,
+      "graphics_error": 0,
+      "program_ownership_violations": 0
+    },
+    {
+      "fixture": "lifetime_trace_shared",
+      "checked_utc": "2026-11-24T22:42:04.305Z",
+      "passed": true,
+      "source_sha256": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8",
+      "native_stop_cycles": 12,
+      "javascript_errors": 0,
+      "graphics_error": 0,
+      "program_ownership_violations": 0
+    }
+  ],
+  "independent_review": "No additional demonstrated WebGLProgram ownership defect was found. Shared fullscreen geometry disposal invalidates VAOs but does not itself delete programs. No speculative renderer-wide lifetime change was made.",
+  "limitations": [
+    "The Vulkan backend lacks KHR_parallel_shader_compile and reports its synchronous-compilation fallback as warnings.",
+    "Native program instrumentation may affect JavaScript timing. Independent final full-instrument and rapid-switch application checks must also remain free of errors.",
+    "This is a focused lifetime regression, not a full-instrument performance benchmark or a guarantee for every GPU/browser."
+  ],
+  "passed": true
+}

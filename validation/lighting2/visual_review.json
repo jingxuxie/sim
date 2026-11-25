@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "visual_quality_accepted": true,
+  "functional_capture_passed": true,
+  "sources": {
+    "app.js": "c2bbe224d280d5b4099970e859a0ab11472b429b6d5b6f8f2dae16bf430c47ee",
+    "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "progressive-renderer.js": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8",
+    "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+  },
+  "criterion": "Clear net improvement over the actual previously published live renderer, with no large distracting new artifacts in the reviewed views. Blender Cycles parity is not claimed or required for this acceptance.",
+  "reviewed": [
+    "final_comparison/transfer-overview.jpg",
+    "final_comparison/transfer-detail.jpg",
+    "final_comparison/nikon-overview.jpg",
+    "final_comparison/nikon-detail.jpg",
+    "final_comparison/probe-overview.jpg",
+    "final_comparison/probe-detail.jpg",
+    "final_checks/transfer-interactive-overview.png",
+    "final_checks/transfer-interactive-detail.png",
+    "final_checks/nikon-interactive-overview.png",
+    "final_checks/nikon-interactive-detail.png",
+    "final_checks/probe-interactive-overview.png",
+    "final_checks/probe-interactive-detail.png",
+    "final_checks/zeiss-interactive-overview.png",
+    "final_checks/zeiss-interactive-detail.png",
+    "final_checks/bonder-interactive-overview.png",
+    "final_checks/bonder-interactive-detail.png",
+    "final_checks/afm-interactive-overview.png",
+    "final_checks/afm-interactive-detail.png",
+    "final_checks/tweezers-interactive-overview.png",
+    "final_checks/tweezers-interactive-detail.png"
+  ],
+  "review_method": "Manually compared six matched-camera live views against the frozen previous published renderer and 192-sample source Blender Cycles views; additionally inspected all seven current-source live instrument overviews and details. Inspected Nikon, transfer and probe details at full comparison resolution. All-seven contact sheet contains ordinary UI overlays. Comparison images use only layout, titles, resizing and JPEG encoding; no additional tone or material adjustment.",
+  "findings": [
+    {
+      "asset": "nikon",
+      "assessment": "Soft contact shadows anchor the instrument and cable to the support surface. Cavity and inter-part shading add depth below the stage and around controls without the earlier mottled housing or hard single-source floor shadow. Edges, labels and small controls remain crisp. Polished objective barrels are still noticeably flatter than Cycles."
+    },
+    {
+      "asset": "transfer",
+      "assessment": "The curved upper housing no longer exhibits the earlier false self-shadow lobes. Stage stacks, fasteners, rails and breadboard contacts gain depth while retaining their geometric detail. Reflections stay restrained without the earlier large smeared screen-space patches. Highly reflective surfaces remain less rich than Cycles."
+    },
+    {
+      "asset": "probe",
+      "assessment": "Soft shadows beneath the decks, stage and microscope head provide stronger spatial separation and a less flat orange base. Fine knobs, cables, tips and stage details remain visible. Steel decks and objective barrels still lack the full scene reflections seen in Cycles."
+    },
+    {
+      "asset": "all seven instruments",
+      "assessment": "All seven current live overviews and details render with intact geometry and clear assembly/contact shading. No large distracting new shading, missing-geometry or blur artifact was observed in these views. All seven also passed Photo accumulation, denoising and live-physics resumption checks."
+    }
+  ],
+  "remaining_limitations": [
+    "Real-time visibility uses a finite area-source sampling and filtering approximation. Small soft sampling lobes or bias differences may remain at other camera angles; these six views do not prove artifact-free rendering from every view.",
+    "Live screen-space reflections cannot represent all offscreen or hidden surfaces, and the polished/anisotropic metal response remains substantially less realistic than source Cycles, most clearly on microscope objective barrels.",
+    "The browser Photo path tracer improves still views progressively but does not reproduce all Cycles material features, including anisotropy. Photo mode is a paused refinement mode; live MuJoCo interaction resumes afterward.",
+    "The existing transfer lift lid/carrier overlap affects six bores. It is a separate source-model issue documented in model-findings.md; geometry and physics assets were unchanged in this rendering revision."
+  ],
+  "pose_comparison": {
+    "file": "final_live/pose-comparison.json",
+    "sha256": "aa0b0481c9f48abbe1fff5b6e547d4c04614be51e70af3053cf01297756362ea",
+    "passed": true,
+    "max_camera_matrix_difference": 2.386480923988188e-08,
+    "max_projection_matrix_difference": 6.692401494090561e-11,
+    "max_landmark_difference_pixels": 0.002667983975499723,
+    "max_body_position_difference_m": 4.2964968435810214e-07,
+    "max_body_orientation_difference_radians": 0.005398852544130949,
+    "tolerances": {
+      "camera_matrix": 1e-06,
+      "landmark_pixels": 0.05,
+      "position_m": 1e-05,
+      "orientation_radians": 0.01
+    },
+    "note": "The largest physical drift is ordinary settling of the unloaded transfer goniometer knob. No graphics-only pose override was used."
+  },
+  "comparisons": [
+    {
+      "file": "final_comparison/transfer-overview.jpg",
+      "sha256": "26580a368a7d0b4c01a2588bd0d791b4a948e0b8b8dcb306199c5b31ce773e77"
+    },
+    {
+      "file": "final_comparison/transfer-detail.jpg",
+      "sha256": "d3dead3cad2079b1d65fd8de893ce729263fa82a94d6837ae4ad7cf6f6190ea9"
+    },
+    {
+      "file": "final_comparison/nikon-overview.jpg",
+      "sha256": "1edc6c9d07c523b3505ba2464bc7aa2f187cc4aad18ae889dc8357fe2cdf523d"
+    },
+    {
+      "file": "final_comparison/nikon-detail.jpg",
+      "sha256": "5de950bdcc5d198b3a58aa5b5d9f6c0b37d30a197c21e2f09fb51c0d439fa8c3"
+    },
+    {
+      "file": "final_comparison/probe-overview.jpg",
+      "sha256": "9388671e3e7f988db756e2b6a5494d9cd36b7fffefb8d55a97144377b22e6c0d"
+    },
+    {
+      "file": "final_comparison/probe-detail.jpg",
+      "sha256": "f101501f3134ca809e8efd5e60ff1a24cfb4c9ce274fd8425cba82e16bd0ae0b"
+    },
+    {
+      "file": "final-comparison.jpg",
+      "sha256": "8db952570d6335d64b8700ce598dd2adc9c3ec30b810b0c837b6d59fbe4dbfd5"
+    },
+    {
+      "file": "all-models-live.jpg",
+      "sha256": "97f972021285f2adcf73988d29c6b0ed7feda9c5f456cc7c6c00b9c44820d404"
+    }
+  ],
+  "source_verification": "final_checks/source-verification.json",
+  "performance": "final_timing/performance.json",
+  "performance_qualification": "Diagnostic GPU timings on a shared Slurm A100 allocation through ANGLE/EGL. Adapter/process isolation is unverified. These are GPU component measurements, not end-to-end FPS or a device-performance guarantee."
+}

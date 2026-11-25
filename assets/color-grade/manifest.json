@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "name": "Blender AgX Medium High Contrast",
+  "blender": "4.2.8",
+  "ocio": "2.3.2",
+  "input": "scene-linear Rec.709",
+  "output": "display-encoded sRGB",
+  "display": "sRGB",
+  "view": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "exposureEV": -0.15,
+  "source": "https://github.com/blender/blender/tree/v4.2.8/release/datafiles/colormanagement",
+  "configSHA256": "6a072a5e34fb520a35ee858b3b46271504ddd325fc112d2a78a8be75ea333f56",
+  "processorCacheID": "6c7f9529e501c86a282e6e304d9ecd40",
+  "shader": {
+    "file": "blender-agx.glsl",
+    "sha256": "64a5d32634d317140b580b49e3bd80c069179a524ae0c67de7aee54130d362c0",
+    "bytes": 14261
+  },
+  "textures": [
+    {
+      "file": "labAgX_lut3d_0.f32",
+      "sampler": "labAgX_lut3d_0Sampler",
+      "edge": 37,
+      "channels": 3,
+      "dtype": "float32-le",
+      "interpolation": "nearest",
+      "bytes": 607836,
+      "sha256": "9174984646340cb89db8af731b1fb17e1d04ab05ad38d9a10b2ebbfba1fce8ed"
+    },
+    {
+      "file": "labAgX_lut3d_1.f32",
+      "sampler": "labAgX_lut3d_1Sampler",
+      "edge": 57,
+      "channels": 3,
+      "dtype": "float32-le",
+      "interpolation": "nearest",
+      "bytes": 2222316,
+      "sha256": "cb92475f7c9feb46b589847f26c9ce068c89f1d0a2f7a88aecd0857b42c7fe5f"
+    }
+  ],
+  "interpolation": "Generated GLSL performs tetrahedral interpolation; sample LUTs with nearest filtering."
+}

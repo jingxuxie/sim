@@ -1,23 +1,27 @@
 // npm install --no-save playwright; npx playwright install chromium
 // LAB_TEST_URL=https://jingxuxie.github.io/sim/ node tests/browser.cjs
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
-const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..'),url=process.env.LAB_TEST_URL||'http://localhost:8000/';
 const out=process.env.LAB_TEST_OUTPUT||path.join(root,'test-results');fs.mkdirSync(out,{recursive:true});
 const checks=[];
 let diagnostics;
+const consoleErrors=[];
+const sources={},responseWork=[];
+const gpuFailure=/GL_(?:INVALID_[A-Z_]+|OUT_OF_MEMORY|CONTEXT_LOST)|createPipeline|Internal Vulkan error|VALIDATE_STATUS|Shader Error/i;
 // Do not leave a previous successful report behind when a new run times out.
 const startedUTC=new Date().toISOString();
 fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,status:'running',passed:false},null,2)+'\n');
 (async()=>{
- const browser=await chromium.launch({...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),headless:true,args:['--no-sandbox','--no-proxy-server','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+ const browser=await chromium.launch({...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),headless:true,args:['--no-sandbox','--no-proxy-server',...(process.env.CHROMIUM_GPU_ARGS?JSON.parse(process.env.CHROMIUM_GPU_ARGS):['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader'])]});
  let page;
  try{
   page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[],failed=[],downloads=[];
   // Physics and DOM state progress independently of GPU presentation.
   const waitFor=(fn,arg,options={})=>page.waitForFunction(fn,arg,{polling:100,...options});
   page.on('pageerror',e=>errors.push(e.message));
-  page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});});
+  page.on('console',message=>{if(message.type()==='error'||gpuFailure.test(message.text()))consoleErrors.push(message.text());});
+  page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});if(/\/(app|studio-renderer|progressive-renderer|cavity-lighting|area-shadows|finite-area-shadows|screen-reflections|color-grade)\.js\b/.test(r.url()))responseWork.push((async()=>{sources[new URL(r.url()).pathname]=crypto.createHash('sha256').update(await r.body()).digest('hex');})());});
   page.on('request',r=>{if(/\.(wasm|glb|whl|hdr)(\?|$)/.test(r.url()))downloads.push(r.url());});
   page.on('crash',()=>{console.error('Browser page crashed');process.exit(2);});
   const screenshot=async name=>{
@@ -29,7 +33,10 @@ fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,
    const time=live?await page.evaluate(()=>window.lab.state.time):null;
    // Two RAF callbacks can both occur while an older GPU frame is in flight.
    // Request a new frame of this paused pose and wait for its actual GPU fence.
-   if(live)assert.equal(await page.evaluate(()=>window.lab.renderCurrentFrame()),true);
+   if(live){
+    assert.equal(await page.evaluate(()=>window.lab.renderCurrentFrame()),true);
+    assert.equal(await page.evaluate(()=>document.querySelector('#canvas canvas').getContext('webgl2').getError()),0,'Completed frame must have no WebGL errors');
+   }
    await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
    await page.screenshot({path:out+'/'+name+'.png',fullPage:true});
    if(live&&!wasPaused){await page.click('#pause');await waitFor(t=>window.lab.state.time>t,time);}
@@ -78,7 +85,7 @@ fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,
   await page.click('#pause');await waitFor(t=>window.lab.state.time>t,time);
   await page.click('#back');assert.equal(await page.locator('.card:visible').count(),7);
   checks.push({check:'Pause, resume and return to responsive gallery',passed:true});
-  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
+  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);assert.deepEqual(consoleErrors,[]);
   if(process.env.LAB_ALL_MODELS){
    for(const asset of ['transfer','probe','zeiss','bonder','afm','tweezers']){
     await page.locator('[data-asset="'+asset+'"]').click();
@@ -117,9 +124,9 @@ fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,
     }
     await page.click('#back');
    }
-   assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
+   assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);assert.deepEqual(consoleErrors,[]);
   }
-  await page.close();
+  await Promise.all(responseWork);await page.close();
   for(const scenario of ['javascript disabled','application unavailable','worker unavailable']){
    const p=await browser.newPage({javaScriptEnabled:scenario!=='javascript disabled'});
    if(scenario==='application unavailable')await p.route('**/app.js*',r=>r.abort());
@@ -147,6 +154,6 @@ fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,
   }catch(diagnosticError){diagnostics={...diagnostics,diagnostic_error:diagnosticError.message};}
   console.error('Failure state: '+JSON.stringify(diagnostics));throw e;
  }finally{await browser.close();}
- const report={url,started_utc:startedUTC,checked_utc:new Date().toISOString(),checks,passed:checks.every(c=>c.passed)};
+ const report={url,started_utc:startedUTC,checked_utc:new Date().toISOString(),checks,console_errors:consoleErrors,sources,passed:checks.every(c=>c.passed)};
  fs.writeFileSync(out+'/browser.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
-})().catch(e=>{fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,checked_utc:new Date().toISOString(),checks,passed:false,error:e.message,diagnostics},null,2)+'\n');console.error(e);process.exit(1);});
+})().catch(e=>{fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,checked_utc:new Date().toISOString(),checks,console_errors:consoleErrors,sources,passed:false,error:e.message,diagnostics},null,2)+'\n');console.error(e);process.exit(1);});

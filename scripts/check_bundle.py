@@ -1,6 +1,8 @@
 """Check that the static bundle is complete and deployable under a subpath."""
 import hashlib
 import json
+import math
+import re
 import struct
 import tarfile
 from pathlib import Path
@@ -8,6 +10,19 @@ import xml.etree.ElementTree as ET
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def bundled_file(folder, name):
+    """Resolve a manifest/import reference without allowing host paths."""
+    parsed = urlsplit(name)
+    path = Path(parsed.path)
+    assert not parsed.scheme and not parsed.netloc, name
+    assert not path.is_absolute() and '..' not in path.parts and '\\' not in name, name
+    target = (folder/path).resolve()
+    assert target.is_relative_to(ROOT.resolve()) and target.is_file(), name
+    return target
+
+
 catalog = json.loads((ROOT / 'catalog.json').read_text())
 assert len(catalog['instruments']) == 7
 assert sum(len(x['tasks']) for x in catalog['instruments']) == 18
@@ -42,11 +57,53 @@ for item in catalog['instruments']:
                 image = gltf['images'][gltf['textures'][texture['index']]['source']]
                 assert 'bufferView' in image and 'uri' not in image, (item['id'], 'external texture')
             assert not material['extras'].get('realism3_map_metadata', '').startswith('/'), item['id']
-for name in ('index.html', 'app.js', 'runtime.js', 'worker.js', 'physics.js', 'flexible-details.js', 'contact-overlay.js', 'studio-renderer.js', 'progressive-renderer.js'):
+runtime_files = ('index.html', 'app.js', 'runtime.js', 'worker.js', 'physics.js',
+                 'flexible-details.js', 'contact-overlay.js', 'studio-renderer.js',
+                 'progressive-renderer.js', 'area-shadows.js', 'cavity-lighting.js',
+                 'screen-reflections.js', 'color-grade.js')
+for name in runtime_files:
     text = (ROOT/name).read_text()
     assert '/api/' not in text, name
     assert '/sdf/' not in text, name
+    assert '/cvmfs/' not in text, name
     assert '="/' not in text, name
+    if name.endswith('.js'):
+        imports = re.findall(r'\bfrom\s*[\'\"]([^\'\"]+)[\'\"]', text)
+        imports += re.findall(r'\bimport\s*(?:\(\s*)?[\'\"]([^\'\"]+)[\'\"]', text)
+        for specifier in imports:
+            if specifier == 'three':
+                assert './vendor/three/three.module.min.js' in (ROOT/'index.html').read_text()
+            else:
+                assert specifier.startswith('./'), (name, specifier)
+                bundled_file((ROOT/name).parent, specifier)
+
+grade_dir = ROOT/'assets/color-grade'
+grade = json.loads((grade_dir/'manifest.json').read_text())
+assert grade['version'] == 1 and grade['blender'] == '4.2.8' and grade['ocio'] == '2.3.2'
+assert grade['input'] == 'scene-linear Rec.709' and grade['output'] == 'display-encoded sRGB'
+assert grade['display'] == 'sRGB' and grade['view'] == 'AgX'
+assert grade['look'] == 'AgX - Medium High Contrast' and grade['exposureEV'] == -.15
+assert re.fullmatch(r'[a-f0-9]{64}', grade['configSHA256'])
+assert grade['source'].startswith('https://github.com/blender/blender/')
+assert len(grade['textures']) == 2
+for record in [grade['shader'], *grade['textures']]:
+    data = bundled_file(grade_dir, record['file']).read_bytes()
+    assert len(data) == record['bytes'], record['file']
+    assert hashlib.sha256(data).hexdigest() == record['sha256'], record['file']
+shader = (grade_dir/grade['shader']['file']).read_text()
+assert 'labBlenderAgX' in shader
+for record in grade['textures']:
+    assert record['dtype'] == 'float32-le' and record['channels'] == 3
+    assert record['interpolation'] == 'nearest'
+    assert isinstance(record['edge'], int) and record['edge'] > 1
+    assert record['bytes'] == record['edge']**3 * record['channels'] * 4
+    assert record['sampler'] in shader, record['sampler']
+    assert all(math.isfinite(value[0]) for value in struct.iter_unpack('<f',
+               (grade_dir/record['file']).read_bytes())), record['file']
+for notice in ('NOTICE.txt', 'OpenColorIO-LICENSE.txt', 'Blender-OpenColorIO-LICENSE.txt'):
+    assert bundled_file(grade_dir, notice).stat().st_size > 300
+assert 'Redistribution and use in source and binary forms' in (grade_dir/'OpenColorIO-LICENSE.txt').read_text()
+assert 'color-grade' in (ROOT/'THIRD_PARTY.md').read_text()
 photo_vendor = ROOT/'vendor/pathtracer'
 photo_manifest = json.loads((photo_vendor/'manifest.json').read_text())
 assert photo_manifest['packages'] == {'three-gpu-pathtracer': '0.0.23', 'three-mesh-bvh': '0.7.4'}
@@ -76,4 +133,4 @@ assert json.loads((robot/'validation/portable_verification.json').read_text())['
 for path in ROOT.rglob('*'):
     if path.is_file() and '.git' not in path.parts:
         assert path.stat().st_size < 100*1024*1024, path
-print('Complete static bundle: seven models, 18 fixture tasks, native contact-gripper package, relative URLs and verified dependencies.')
+print('Complete static bundle: seven models, 18 fixture tasks, native contact-gripper package, portable renderer imports, verified display LUTs and dependency notices.')

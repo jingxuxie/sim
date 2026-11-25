@@ -1,0 +1,125 @@
+{
+  "mode": "vulkan",
+  "url": "http://127.0.0.1:18851/",
+  "started_utc": "2026-11-24T23:54:20.477Z",
+  "passed": true,
+  "cases": [
+    {
+      "failure": "current production shaders",
+      "forced_gpu_error": false,
+      "warnings": [],
+      "console_errors": [],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "transfer",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 131
+          },
+          "coverage": {
+            "changedPixels": 105609,
+            "changedFraction": 0.13923401450230719,
+            "rmse": 28.428530177618523
+          },
+          "stage_motion_m": 0.003950741164341101
+        },
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 84066,
+            "changedFraction": 0.11083190507580752,
+            "rmse": 29.98631473544017
+          },
+          "stage_motion_m": 0.011277074988896903
+        }
+      ],
+      "served_sources": {
+        "/app.js": "c33933fbf3343f9d9fdc800f5dd01f5bc9fcdf9a9105d0ab0d2d5a01ab92c2dc",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+      },
+      "passed": true
+    },
+    {
+      "failure": "one-shot invalid draw fault injection",
+      "forced_gpu_error": true,
+      "warnings": [
+        "GL_INVALID_VALUE : glDrawArrays: count < 0"
+      ],
+      "console_errors": [
+        "GL_INVALID_VALUE : glDrawArrays: count < 0"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "transfer",
+          "status": "Compatible lighting · live controls and camera movement.",
+          "state": {
+            "shadowFallback": true,
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 131
+          },
+          "coverage": {
+            "changedPixels": 111386,
+            "changedFraction": 0.14685036255767964,
+            "rmse": 30.79845822090584
+          },
+          "stage_motion_m": 0.003993796041610787
+        },
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": true,
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 85676,
+            "changedFraction": 0.11295451549110086,
+            "rmse": 27.29940831909405
+          },
+          "stage_motion_m": 0.010843086309903128
+        }
+      ],
+      "served_sources": {
+        "/app.js": "c33933fbf3343f9d9fdc800f5dd01f5bc9fcdf9a9105d0ab0d2d5a01ab92c2dc",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "4a4812deb2ff396139fe88d74252c9dd0af6d1f1eedf015cbb67c4d0f53f97e6",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+        "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+      },
+      "gpu_failure_fixture": {
+        "original_sha256": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "injected_sha256": "4a4812deb2ff396139fe88d74252c9dd0af6d1f1eedf015cbb67c4d0f53f97e6",
+        "change": "One-shot gl.drawArrays(TRIANGLES,0,-1) after first shadow update. Real INVALID_VALUE fault injection; not a production-driver failure. Current fallback and cache-recovery code retained."
+      },
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "app.js": "c2bbe224d280d5b4099970e859a0ab11472b429b6d5b6f8f2dae16bf430c47ee"
+  },
+  "checked_utc": "2026-11-24T23:54:45.829Z"
+}

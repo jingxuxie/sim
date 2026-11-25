@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "before": "validation/lighting2/baseline_live",
+  "after": "validation/lighting2/final_live",
+  "comparisons": [
+    {
+      "asset": "transfer",
+      "view": "overview",
+      "camera_matrix_max_difference": 2.386480923988188e-08,
+      "projection_matrix_max_difference": 0.0,
+      "max_site_projection_difference_pixels": 0.0011375556176470474,
+      "max_body_position_difference_m": 4.2964968435810214e-07,
+      "max_body_orientation_difference_radians": 0.005398852544130949,
+      "largest_pose_differences": [
+        {
+          "body": "goniometer_knob",
+          "position_m": 4.2964968435810214e-07,
+          "orientation_radians": 0.005398852544130949
+        },
+        {
+          "body": "stamp_tilt",
+          "position_m": 1.891383716312589e-10,
+          "orientation_radians": 1.1618052288463274e-05
+        },
+        {
+          "body": "stamp_z_knob",
+          "position_m": 1.5798615193851617e-09,
+          "orientation_radians": 1.2287812309317772e-07
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "transfer",
+      "view": "detail",
+      "camera_matrix_max_difference": 0.0,
+      "projection_matrix_max_difference": 0.0,
+      "max_site_projection_difference_pixels": 0.002667983975499723,
+      "max_body_position_difference_m": 4.2964968435810214e-07,
+      "max_body_orientation_difference_radians": 0.005398852544130949,
+      "largest_pose_differences": [
+        {
+          "body": "goniometer_knob",
+          "position_m": 4.2964968435810214e-07,
+          "orientation_radians": 0.005398852544130949
+        },
+        {
+          "body": "stamp_tilt",
+          "position_m": 1.891383716312589e-10,
+          "orientation_radians": 1.1618052288463274e-05
+        },
+        {
+          "body": "stamp_z_knob",
+          "position_m": 1.5798615193851617e-09,
+          "orientation_radians": 1.2287812309317772e-07
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "nikon",
+      "view": "overview",
+      "camera_matrix_max_difference": 0.0,
+      "projection_matrix_max_difference": 0.0,
+      "max_site_projection_difference_pixels": 0.0,
+      "max_body_position_difference_m": 0.0,
+      "max_body_orientation_difference_radians": 0.0,
+      "largest_pose_differences": [
+        {
+          "body": "stand",
+          "position_m": 0.0,
+          "orientation_radians": 0.0
+        },
+        {
+          "body": "lift",
+          "position_m": 0.0,
+          "orientation_radians": 0.0
+        },
+        {
+          "body": "carriage_y",
+          "position_m": 0.0,
+          "orientation_radians": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "nikon",
+      "view": "detail",
+      "camera_matrix_max_difference": 0.0,
+      "projection_matrix_max_difference": 0.0,
+      "max_site_projection_difference_pixels": 0.0,
+      "max_body_position_difference_m": 0.0,
+      "max_body_orientation_difference_radians": 0.0,
+      "largest_pose_differences": [
+        {
+          "body": "stand",
+          "position_m": 0.0,
+          "orientation_radians": 0.0
+        },
+        {
+          "body": "lift",
+          "position_m": 0.0,
+          "orientation_radians": 0.0
+        },
+        {
+          "body": "carriage_y",
+          "position_m": 0.0,
+          "orientation_radians": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "probe",
+      "view": "overview",
+      "camera_matrix_max_difference": 2.7087474485654184e-09,
+      "projection_matrix_max_difference": 6.692401494090561e-11,
+      "max_site_projection_difference_pixels": 8.670108826052616e-07,
+      "max_body_position_difference_m": 1.2610443245186786e-09,
+      "max_body_orientation_difference_radians": 0.0,
+      "largest_pose_differences": [
+        {
+          "body": "optic_focus",
+          "position_m": 1.2610443245186786e-09,
+          "orientation_radians": 0.0
+        },
+        {
+          "body": "light_path_selector",
+          "position_m": 1.2610443245186786e-09,
+          "orientation_radians": 0.0
+        },
+        {
+          "body": "left_x",
+          "position_m": 1.1102230246251565e-16,
+          "orientation_radians": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "probe",
+      "view": "detail",
+      "camera_matrix_max_difference": 1.2189362852410568e-09,
+      "projection_matrix_max_difference": 3.009384581809105e-11,
+      "max_site_projection_difference_pixels": 2.8432440323345477e-06,
+      "max_body_position_difference_m": 1.2610443245186786e-09,
+      "max_body_orientation_difference_radians": 0.0,
+      "largest_pose_differences": [
+        {
+          "body": "optic_focus",
+          "position_m": 1.2610443245186786e-09,
+          "orientation_radians": 0.0
+        },
+        {
+          "body": "light_path_selector",
+          "position_m": 1.2610443245186786e-09,
+          "orientation_radians": 0.0
+        },
+        {
+          "body": "left_x",
+          "position_m": 1.1102230246251565e-16,
+          "orientation_radians": 0.0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "notes": "Reset and pause are ordinary MuJoCo/UI operations. Residual settling drift in unloaded knobs is reported, not overridden with graphics-only transforms. Camera matrix/projection, physical landmark pixels and measured body world poses are checked."
+}

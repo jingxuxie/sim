@@ -1,0 +1,26 @@
+Blender AgX display transform
+
+These display LUTs and GLSL were generated with OpenColorIO 2.3.2 from Blender
+4.2.8's supplied color configuration. The transform is Linear Rec.709 to sRGB,
+AgX, AgX - Medium High Contrast, with -0.15 EV exposure. The included manifest
+records source/configuration hashes and the individual generated asset hashes.
+The GLSL implements the source LUTs' tetrahedral interpolation explicitly.
+
+Source configuration:
+https://github.com/blender/blender/tree/v4.2.8/release/datafiles/colormanagement
+
+Source configuration credits:
+Based on original AgX by Troy Sobotka:
+https://github.com/sobotka/AgX
+https://github.com/sobotka/SB2383-Configuration-Generation
+Further developed by Zijun Eary Zhou, Mark Faderbauer, and Sakari Kapanen:
+https://github.com/EaryChow/AgX
+
+OpenColorIO's BSD 3-Clause license is reproduced in OpenColorIO-LICENSE.txt.
+Blender's historical OpenColorIO/configuration notice is reproduced in
+Blender-OpenColorIO-LICENSE.txt (release/license/OpenColorIO.txt, v3.3.0).
+Blender 4.2.8's configuration header refers to ocio-license.txt; its current
+third-party license overview is release/license/license.md in that repository.
+
+Reproduction script in the simulation workspace:
+validation/lighting2/radiometry/export_grade.py

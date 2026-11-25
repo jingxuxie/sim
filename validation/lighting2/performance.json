@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "slurm_job": "46892031",
+  "allocation_file_sha256": "4b9c64846bded0d6a7f3f1d07b99650f18c58174211d98003142cb1b09823162",
+  "exclusive_node": false,
+  "adapter_process_isolation_verified": false,
+  "models": [
+    {
+      "asset": "nikon",
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)",
+      "canvas_pixels": [
+        1245,
+        1020
+      ],
+      "gpu_median_ms": {
+        "shadow_updates": 21.83168,
+        "cached_main_frames": 32.489472
+      },
+      "stats": {
+        "views": 96,
+        "samplesPerSource": 32,
+        "materialSamplesPerSource": 4,
+        "resolution": 512,
+        "atlas": [
+          4096,
+          6144
+        ],
+        "resolve": [
+          623,
+          510
+        ],
+        "separateSpecularVisibility": true,
+        "visibilityFilter": 3,
+        "updates": 9,
+        "lastUpdateMs": 21.700000047683716
+      }
+    },
+    {
+      "asset": "transfer",
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)",
+      "canvas_pixels": [
+        1245,
+        1020
+      ],
+      "gpu_median_ms": {
+        "shadow_updates": 41.6,
+        "cached_main_frames": 43.93984
+      },
+      "stats": {
+        "views": 96,
+        "samplesPerSource": 32,
+        "materialSamplesPerSource": 4,
+        "resolution": 512,
+        "atlas": [
+          4096,
+          6144
+        ],
+        "resolve": [
+          623,
+          510
+        ],
+        "separateSpecularVisibility": true,
+        "visibilityFilter": 3,
+        "updates": 19,
+        "lastUpdateMs": 42
+      }
+    }
+  ],
+  "method": "EXT_disjoint_timer_query_webgl2 on the actual production pipeline. Two warm updates/frames, five shadow updates, eight cached main frames. App RAF suspended only for measurement; instrument pose/camera verified unchanged afterward.",
+  "limits": "Diagnostic timings on a shared Slurm GPU allocation; actual EGL adapter/process isolation is unverified. GPU component times on the reported GPU/ANGLE EGL setup, not end-to-end frame rate or a browser/device performance guarantee. Shadow updates are cached until the instrument pose changes. Earlier prototype timings are not used as comparative performance evidence."
+}

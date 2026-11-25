@@ -14,6 +14,8 @@
 | OpenBLAS | 0.3.26, official Pyodide archive | BSD license and bundled notices inside the distributed archive |
 | CPython | Distributed by Pyodide 0.28.3 | Python Software Foundation license; see `vendor/pyodide/PYTHON-LICENSE.txt` |
 | Studio Small 09 environment | Poly Haven, Greg Zaal; https://polyhaven.com/a/studio_small_09 | [CC0 and source](assets/lighting/LICENSE.txt) |
+| OpenColorIO generated display shader | 2.3.2; https://github.com/AcademySoftwareFoundation/OpenColorIO | [BSD 3-Clause](assets/color-grade/OpenColorIO-LICENSE.txt) |
+| Blender AgX display transform and generated LUTs | Blender 4.2.8 color configuration; AgX Medium High Contrast | [Credits, source provenance and configuration notices](assets/color-grade/NOTICE.txt); [generated asset hashes](assets/color-grade/manifest.json) |
 | Panda gripper geometry and inertials | MuJoCo Menagerie, pinned commit `eea4c7431b63da8278b0ff31638e0b0e941cec0e`; https://github.com/google-deepmind/mujoco_menagerie | [Apache 2.0](robotics/PANDA_LICENSE); [source fingerprints](robotics/PANDA_SOURCE.json) |
 
 The package hashes for Pyodide's libraries are recorded in
@@ -21,6 +23,10 @@ The package hashes for Pyodide's libraries are recorded in
 compatibility, local import, ray-intersection tolerance and resource-cleanup changes recorded with upstream
 and delivered hashes in [their manifest](vendor/pathtracer/manifest.json).
 Other dependencies are unmodified upstream distributions.
+The display shader and LUTs are generated assets. Their notice preserves the
+AgX authors' credits and distinguishes OpenColorIO's software license from
+Blender's historical configuration notice; it does not relabel the entire
+Blender distribution under the OpenColorIO license.
 Third-party licenses apply to those components independently of the instrument
 reconstructions. Product names identify the reference instruments; this project is
 not an OEM CAD release or manufacturer-endorsed simulator.

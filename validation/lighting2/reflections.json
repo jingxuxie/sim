@@ -1,0 +1,76 @@
+{
+  "redReflectionCenterCoverage": 1.0,
+  "oldReflectionAfterMoveCoverage": 0.0,
+  "sharpNormalizedGradientEnergy": 0.014975446798350698,
+  "roughNormalizedGradientEnergy": 0.009219967611386647,
+  "blackReflectionRGBChange": [
+    -61.61333333333334,
+    -61.66700854700855,
+    -61.66700854700855
+  ],
+  "roughGradientReduction": 0.38432771084986417,
+  "gpu": {
+    "frames": [
+      {
+        "name": "off"
+      },
+      {
+        "name": "sharp"
+      },
+      {
+        "name": "rough-off"
+      },
+      {
+        "name": "rough"
+      },
+      {
+        "name": "moved-off"
+      },
+      {
+        "name": "moved"
+      },
+      {
+        "name": "black-off"
+      },
+      {
+        "name": "black"
+      }
+    ],
+    "timings": [
+      0.277504,
+      0.275456,
+      0.27136,
+      0.272384,
+      0.27136
+    ],
+    "fullFrameTimings": [
+      0.692224,
+      0.68096,
+      0.678912,
+      0.684032,
+      0.679936
+    ],
+    "disjoint": false,
+    "glError": 0,
+    "programs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "drawCalls": 1,
+    "errors": [],
+    "servedSources": {
+      "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+      "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+    }
+  },
+  "screenReflectionsSHA256": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+  "cavityLightingSHA256": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+  "passed": true
+}

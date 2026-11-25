@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import {RectAreaLightUniformsLib} from './vendor/three/RectAreaLightUniformsLib.js';
+import {AreaShadows} from './area-shadows.js?v=lighting2';
 
 // Photographic illumination and scale-aware contact occlusion. This helper
 // never edits the imported object's PBR parameters or physics transforms.
@@ -20,11 +21,7 @@ export class LabStudio {
    light.name=name;light.position.set(...position);light.lookAt(0,.24,.02);scene.add(light);return light;
   });
   this.fill=this.areaLights[1];
-  // WebGL area lights cannot cast shadow maps. This zero-energy helper adds
-  // only their approximate projected floor shadow; it is excluded from the
-  // path tracer, where the rectangular sources cast actual soft shadows.
-  this.key=new THREE.DirectionalLight(0xffffff,0);this.key.castShadow=true;this.key.userData.rasterOnly=true;
-  this.key.shadow.mapSize.set(2048,2048);this.key.shadow.radius=16;this.key.shadow.blurSamples=16;scene.add(this.key,this.key.target);
+  this.areaShadows=new AreaShadows(renderer,scene,this.areaLights);
   const canvas=document.createElement('canvas');canvas.width=canvas.height=256;
   const context=canvas.getContext('2d'),pixels=context.createImageData(256,256);let seed=19;
   for(let i=0;i<pixels.data.length;i+=4){seed=(1664525*seed+1013904223)>>>0;const v=238+(seed%5)-2;pixels.data.set([v,v,v,255],i);}
@@ -32,9 +29,9 @@ export class LabStudio {
   this.ground=new THREE.Mesh(new THREE.PlaneGeometry(100,100),new THREE.MeshStandardMaterial({color:new THREE.Color(.205,.215,.22),roughness:.49,metalness:0}));
   // Submicrometre grain changes the normal, preserving source albedo/roughness.
   this.ground.material.bumpMap=texture;this.ground.material.bumpScale=.000036;
-  this.ground.rotation.x=-Math.PI/2;this.ground.receiveShadow=true;scene.add(this.ground);
-  this.floorShadow=new THREE.Mesh(new THREE.PlaneGeometry(1,1),new THREE.ShadowMaterial({color:0x242323,opacity:.32,depthWrite:false,polygonOffset:true,polygonOffsetFactor:-1,polygonOffsetUnits:-1}));
-  this.floorShadow.rotation.x=-Math.PI/2;this.floorShadow.receiveShadow=true;this.floorShadow.renderOrder=1;this.floorShadow.userData.rasterOnly=true;scene.add(this.floorShadow);
+  this.ground.rotation.x=-Math.PI/2;this.ground.position.y=-.001;this.ground.receiveShadow=true;scene.add(this.ground);
+  this.ground.material.userData.labWideShadows=true;
+  this.areaShadows.applyMaterial(this.ground.material);
   this.pathEnvironmentIntensity=.42;
   // World/object rotation. Tracing code inverts it to obtain the sampling
   // rotation corresponding to Blender's +120-degree texture mapping.
@@ -52,6 +49,9 @@ export class LabStudio {
   this.pathEnvironment.mapping=THREE.EquirectangularReflectionMapping;
   this.pathEnvironment.colorSpace=THREE.LinearSRGBColorSpace;
   this.pathEnvironment.minFilter=this.pathEnvironment.magFilter=THREE.LinearFilter;
+  this.buildEnvironment();
+ }
+ buildEnvironment(){
   const studio=new THREE.Scene();
   // Explicit equirectangular direction lookup avoids a sphere's UV seam/
   // handedness changing the HDR orientation between raster and traced views.
@@ -61,7 +61,16 @@ export class LabStudio {
    fragmentShader:'uniform sampler2D environmentMap;uniform float strength;uniform mat3 sampleRotation;varying vec3 envDirection;void main(){vec3 d=normalize(sampleRotation*envDirection);vec2 uv=vec2(atan(d.z,d.x)*0.15915494309189535+.5,asin(clamp(d.y,-1.0,1.0))*0.3183098861837907+.5);gl_FragColor=vec4(texture2D(environmentMap,uv).rgb*strength,1.0);}'
   });
   studio.add(new THREE.Mesh(new THREE.SphereGeometry(20,48,24),env));
-  const generator=new THREE.PMREMGenerator(this.renderer),next=generator.fromScene(studio,.025,.1,50);
+  const generator=new THREE.PMREMGenerator(this.renderer),room=generator.fromScene(studio,.025,.02,50);
+  // The bench blocks the lower HDR hemisphere and contributes reflected light
+  // in Cycles. Capture that first bounce in the live reflection probe too.
+  // Area sources remain analytic lights; no duplicate luminous panels are baked.
+  studio.environment=room.texture;
+  const probe=this.probePosition||new THREE.Vector3(0,.24,0);
+  const floor=new THREE.Mesh(new THREE.PlaneGeometry(100,100),new THREE.MeshStandardMaterial({color:this.ground.material.color.clone(),roughness:this.ground.material.roughness,metalness:0}));
+  floor.rotation.x=-Math.PI/2;floor.position.y=Math.min(-.005,this.ground.position.y-probe.y);studio.add(floor);
+  for(const source of this.areaLights){const light=source.clone();light.position.sub(probe);studio.add(light);}
+  const next=generator.fromScene(studio,.025,.002,50);room.dispose();
   this.environment?.dispose();this.environment=next;this.scene.environment=next.texture;generator.dispose();
   studio.traverse(o=>{o.geometry?.dispose();o.material?.dispose();});
  }
@@ -87,13 +96,14 @@ export class LabStudio {
  }
  fit(box){
   const center=box.getCenter(new THREE.Vector3()),size=box.getSize(new THREE.Vector3());this.extent=Math.max(size.x,size.y,size.z);
-  const e=this.extent,floor=box.min.y-e*.0005,pad=e*.38,width=size.x+2*pad,depth=size.z+2*pad;
+  // All photographic studios use a bench top at z=-1 mm. Loose cables can
+  // extend below it; their bounding box must not lower the support surface.
+  const e=this.extent,floor=-.001,pad=e*.38,width=size.x+2*pad,depth=size.z+2*pad;
   this.ground.position.y=floor;this.contact.position.set(center.x,floor+e*.00015,center.z);this.contact.scale.set(width,depth,1);
-  this.floorShadow.position.set(center.x,floor+e*.0001,center.z);this.floorShadow.scale.set(width,depth,1);
   const camera=this.contactCamera;camera.left=-width/2;camera.right=width/2;camera.top=depth/2;camera.bottom=-depth/2;camera.near=e*.0001;camera.far=e*.30;
   camera.position.set(center.x,floor-e*.0001,center.z);camera.lookAt(center.x,floor+1,center.z);camera.updateProjectionMatrix();
-  this.key.position.copy(this.areaLights[0].position);this.key.target.position.copy(center);
-  const shadow=this.key.shadow;shadow.camera.left=shadow.camera.bottom=-e;shadow.camera.right=shadow.camera.top=e;shadow.camera.near=e*.1;shadow.camera.far=e*7;shadow.camera.updateProjectionMatrix();shadow.bias=-.00015;shadow.normalBias=e*.0007;
+  this.areaShadows.fit(box);
+  this.probePosition=center.clone();this.buildEnvironment();
   this.dirty=true;this.renderer.shadowMap.needsUpdate=true;
  }
  update(model,force=false){
@@ -110,6 +120,8 @@ export class LabStudio {
     this.blur.uniforms.inputMap.value=this.scratch.texture;this.blur.uniforms.direction.value.set(0,radius/this.raw.height);r.setRenderTarget(destination);r.render(this.blurScene,this.blurCamera);
    };blur(1.2,this.near);blur(7,this.soft);
   }finally{for(const o of hidden)o.visible=true;s.background=oldBackground;s.overrideMaterial=oldOverride;r.shadowMap.enabled=oldShadows;r.setClearColor(oldColor,oldAlpha);r.setRenderTarget(oldTarget);}
+  this.areaShadows.update(model);
+  this.renderer.shadowMap.needsUpdate=true;
   this.dirty=false;this.lastShadow=performance.now();this.shadowUpdates++;return true;
  }
 }

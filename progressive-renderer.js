@@ -2,12 +2,36 @@ import * as THREE from 'three';
 import {WebGLPathTracer,DenoiseMaterial} from './vendor/pathtracer/pathtracer.module.js';
 import {MeshBVH} from './vendor/pathtracer/bvh.module.js';
 import {FullScreenQuad} from './vendor/three/Pass.js';
+import {loadColorGrade} from './color-grade.js?v=lighting2';
 
 // This module is loaded only after the user requests Photo quality. MuJoCo and
 // the ordinary live renderer remain independent of the progressive renderer.
 const tick=()=>new Promise(resolve=>setTimeout(resolve,0));
 const aborted=()=>new DOMException('Photo preparation cancelled','AbortError');
 const textureKeys=['map','normalMap','roughnessMap','metalnessMap','emissiveMap','transmissionMap','thicknessMap','clearcoatMap','clearcoatNormalMap','clearcoatRoughnessMap','alphaMap'];
+const tracerLifetimes=new WeakMap();
+
+function createTracer(renderer){
+ const lifetime={pending:new Set(),retired:false,cleanup:null};
+ const track=promise=>{
+  lifetime.pending.add(promise);
+  // Attach both handlers without creating an unobserved rejected promise.
+  promise.then(()=>lifetime.pending.delete(promise),()=>lifetime.pending.delete(promise));
+  return promise;
+ };
+ // Upstream initializes an empty scene inside its constructor. Guard any
+ // compilation it requests there too; restore the renderer synchronously.
+ const compileAsync=renderer.compileAsync;
+ renderer.compileAsync=function(...args){return track(compileAsync.apply(this,args));};
+ let tracer;
+ try{tracer=new WebGLPathTracer(renderer);}finally{renderer.compileAsync=compileAsync;}
+ tracerLifetimes.set(tracer,lifetime);
+ for(const pass of [tracer._pathTracer,tracer._lowResPathTracer]){
+  const compile=pass.compileMaterial;
+  pass.compileMaterial=function(...args){return lifetime.retired?Promise.resolve():track(compile.apply(this,args));};
+ }
+ return tracer;
+}
 
 class BVHWorker {
  constructor(){this.worker=new Worker(new URL('./vendor/pathtracer/bvh.worker.js',import.meta.url),{type:'module'});this.pending=null;}
@@ -72,28 +96,59 @@ function disposeTracer(tracer){
  const dummy=generator?.staticGeometryGenerator?._dummyMesh;dummy?.geometry.dispose();dummy?.material.dispose();
 }
 
+function retireTracer(tracer,geometry,preparation){
+ const lifetime=tracer&&tracerLifetimes.get(tracer);
+ if(lifetime?.cleanup)return lifetime.cleanup;
+ if(tracer){
+  tracer.pausePathTracing=true;tracer.enablePathTracing=false;
+  for(const pass of [tracer._pathTracer,tracer._lowResPathTracer])pass?.material.removeEventListener('recompilation',pass._compileFunction);
+ }
+ if(lifetime)lifetime.retired=true;
+ const cleanup=(async()=>{
+  // A cancelled worker/build must finish unwinding before its geometry is
+  // freed. compileAsync also keeps polling material program properties; its
+  // complete set of promises, including older overlapping requests and the
+  // low-resolution pass, must settle before materials can be disposed.
+  if(preparation)await preparation;
+  while(lifetime?.pending.size)await Promise.allSettled([...lifetime.pending]);
+  disposeTracer(tracer);
+  for(const item of geometry)item.dispose();
+ })();
+ if(lifetime)lifetime.cleanup=cleanup;
+ return cleanup;
+}
+
 export class ProgressiveRenderer {
  constructor(renderer,{onStatus=()=>{},maxPixels=1500000,maxSamples=512,tiles=4,textureSize=1024,bounces=5,prepareTimeout=60000,denoise=true,photographicContrast=1.28}={}){
   if(!renderer.capabilities.isWebGL2||!renderer.extensions.get('EXT_color_buffer_float'))throw Error('Photo quality needs WebGL 2 floating-point render targets');
   this.renderer=renderer;this.onStatus=onStatus;this.maxPixels=maxPixels;this.maxSamples=maxSamples;this.tileCount=tiles;this.textureSize=textureSize;this.bounces=bounces;this.prepareTimeout=prepareTimeout;
   this.denoiseEnabled=denoise;this.photographicContrast=photographicContrast;this.denoiseQuad=null;this.denoiseTarget=null;
-  this.tracer=null;this.worker=null;this.ready=false;this.preparing=false;this.disposed=false;this._ownedGeometry=[];this._stats={worker:true,meshes:0,triangles:0,uvRemaps:0,mixedUVMaterials:0,prepareMs:0,width:0,height:0};
+  this.tracer=null;this.worker=null;this.ready=false;this.preparing=false;this.disposed=false;this._ownedGeometry=[];this._preparationDone=null;this._retirements=new Set();this._disposePromise=null;this._stats={worker:true,meshes:0,triangles:0,uvRemaps:0,mixedUVMaterials:0,prepareMs:0,width:0,height:0};
  }
  get samples(){return this.tracer?.samples||0;}
- get compiling(){return !!this.tracer?.isCompiling;}
+ get compiling(){return !!tracerLifetimes.get(this.tracer)?.pending.size;}
  get stats(){return {...this._stats,samples:this.samples,maxSamples:this.maxSamples,ready:this.ready,preparing:this.preparing,compiling:this.compiling,denoised:this.denoiseEnabled&&this.samples>=8,photographicContrast:this.photographicContrast};}
- async prepare(source,camera,{environment=null,environmentIntensity=1,environmentRotation=new THREE.Euler(),signal}={}){
+ _retireCurrent(){
+  const tracer=this.tracer,geometry=this._ownedGeometry,preparation=this._preparationDone;
+  this.tracer=null;this.scene=null;this._ownedGeometry=[];this.worker?.dispose();this.worker=null;
+  if(!tracer&&!geometry.length)return Promise.resolve();
+  const cleanup=retireTracer(tracer,geometry,preparation);this._retirements.add(cleanup);
+  cleanup.then(()=>this._retirements.delete(cleanup),()=>this._retirements.delete(cleanup));
+  return cleanup;
+ }
+ async prepare(source,camera,{environment=null,environmentIntensity=1,environmentRotation=new THREE.Euler(),colorGrade,signal}={}){
   if(this.disposed||signal?.aborted)throw aborted();
   if(this.preparing)throw Error('Photo preparation is already running');
   this.preparing=true;this.ready=false;const started=performance.now();
   const cancel=()=>{this.worker?.dispose();};
-  let timeout=false;
+  let timeout=false,finishPreparation;
   const timer=setTimeout(()=>{timeout=true;cancel();},this.prepareTimeout);signal?.addEventListener('abort',cancel,{once:true});
   const check=()=>{if(this.disposed||signal?.aborted)throw aborted();if(timeout)throw Error('Photo preparation took too long; use Live view on this device');};
   try{
+   const grading=colorGrade===undefined?loadColorGrade().catch(error=>{console.warn('Photo color grading uses the approximate fallback:',error.message);return null;}):Promise.resolve(colorGrade);
    this.onStatus('Preparing photo quality…');await tick();check();
-   this.worker?.dispose();disposeTracer(this.tracer);this.tracer=null;
-   for(const geometry of this._ownedGeometry)geometry.dispose();this._ownedGeometry=[];
+   this._retireCurrent();
+   this._preparationDone=new Promise(resolve=>{finishPreparation=resolve;});
    source.updateMatrixWorld(true);camera.updateMatrixWorld(true);
    const scene=new THREE.Scene();scene.background=source.background?.isColor?source.background.clone():new THREE.Color(.18,.18,.18);scene.backgroundRotation=new THREE.Euler();scene.environment=environment;scene.environmentIntensity=environmentIntensity;scene.environmentRotation=environmentRotation.clone();
    const objects=[];source.traverse(o=>{if(!excluded(o)&&(o.isMesh||o.isRectAreaLight||o.isDirectionalLight||o.isSpotLight||o.isPointLight))objects.push(o);});
@@ -124,17 +179,21 @@ export class ProgressiveRenderer {
    }
    if(!stats.meshes)throw Error('No visible instrument surfaces are available for Photo quality');
    check();this._stats=stats;this.scene=scene;
-   const tracer=this.tracer=new WebGLPathTracer(this.renderer);this.worker=new BVHWorker();tracer.setBVHWorker(this.worker);
+   const tracer=this.tracer=createTracer(this.renderer);this.worker=new BVHWorker();tracer.setBVHWorker(this.worker);
    tracer.textureSize.set(this.textureSize,this.textureSize);tracer.bounces=this.bounces;tracer.transmissiveBounces=6;tracer.filterGlossyFactor=.35;tracer.tiles.set(this.tileCount,this.tileCount);tracer.dynamicLowRes=false;tracer.rasterizeScene=false;tracer.renderToCanvas=true;tracer.minSamples=1;tracer.fadeDuration=0;tracer.renderDelay=0;tracer.stableNoise=true;
    // The instruments use metre units; the upstream 100 µm ray bias can erase
    // thin covers and contact details. A 1 µm bias retains these visible parts.
    tracer._pathTracer.material.fragmentShader=tracer._pathTracer.material.fragmentShader.replace('#define RAY_OFFSET 1e-4','#define RAY_OFFSET 1e-6');
-   // Match the live view's display look after AgX and before the sRGB transfer.
-   // Neither this look nor the optional spatial denoiser changes radiance
-   // accumulation, geometry, physical material parameters, or light energy.
-   const contrast=Number(this.photographicContrast).toFixed(3);
-   const look=color=>`vec3 filmLow=pow(clamp(${color},0.0,1.0),vec3(${contrast}));vec3 filmHigh=pow(clamp(1.0-${color},0.0,1.0),vec3(${contrast}));${color}=filmLow/max(filmLow+filmHigh,vec3(0.00001));`;
-   tracer._quad.material.fragmentShader=tracer._quad.material.fragmentShader.replace('return linearToOutputTexel( res );',look('res.rgb')+'return linearToOutputTexel( res );');
+   // Use the exact still-image display transform after radiance accumulation.
+   // Preserve the prior approximation only if its local assets cannot load.
+   const grade=await grading;check();
+   if(grade){grade.installPathDisplay(tracer._quad.material);stats.colorGrade=grade.metadata.name;}
+   else{
+    const contrast=Number(this.photographicContrast).toFixed(3);
+    const look=color=>`vec3 filmLow=pow(clamp(${color},0.0,1.0),vec3(${contrast}));vec3 filmHigh=pow(clamp(1.0-${color},0.0,1.0),vec3(${contrast}));${color}=filmLow/max(filmLow+filmHigh,vec3(0.00001));`;
+    tracer._quad.material.fragmentShader=tracer._quad.material.fragmentShader.replace('return linearToOutputTexel( res );',look('res.rgb')+'return linearToOutputTexel( res );');
+    stats.colorGrade='Approximate AgX fallback';
+   }
    if(!this.denoiseQuad){
     const material=new DenoiseMaterial({sigma:1.2,kSigma:1.667,threshold:.06});
     material.toneMapped=false;
@@ -161,11 +220,10 @@ export class ProgressiveRenderer {
    await tracer.setSceneAsync(scene,camera,{onProgress:value=>{if(!this.disposed&&!signal?.aborted)this.onStatus('Preparing photo quality '+Math.round(value*100)+'%…');}});
    check();this.ready=true;this._stats.prepareMs=performance.now()-started;this.onStatus('Refining photo lighting…');return this.stats;
   }catch(error){
-   this.ready=false;this.worker?.dispose();this.worker=null;
-   disposeTracer(this.tracer);this.tracer=null;
+   this.ready=false;this._retireCurrent();
    if(timeout&&!signal?.aborted)throw Error('Photo preparation took too long; use Live view on this device');
    throw error;
-  }finally{clearTimeout(timer);signal?.removeEventListener('abort',cancel);this.preparing=false;}
+  }finally{finishPreparation?.();this._preparationDone=null;clearTimeout(timer);signal?.removeEventListener('abort',cancel);this.preparing=false;}
  }
  resize(){
   if(!this.tracer)return;
@@ -188,11 +246,12 @@ export class ProgressiveRenderer {
   return true;
  }
  dispose(){
-  if(this.disposed)return;this.disposed=true;this.ready=false;this.worker?.dispose();this.worker=null;
-  // prepare() owns cleanup while its asynchronous build is being cancelled.
-  if(!this.preparing){disposeTracer(this.tracer);this.tracer=null;}
-  this.denoiseQuad?.dispose();this.denoiseQuad?.material.dispose();this.denoiseQuad=null;
-  this.denoiseTarget?.dispose();this.denoiseTarget=null;
-  for(const geometry of this._ownedGeometry)geometry.dispose();this._ownedGeometry=[];this.scene=null;
+  if(this.disposed)return this._disposePromise;this.disposed=true;this.ready=false;
+  this._retireCurrent();
+  const quad=this.denoiseQuad,target=this.denoiseTarget;this.denoiseQuad=null;this.denoiseTarget=null;
+  // Live controls resume immediately. Returning the cleanup promise also lets
+  // explicit teardown/tests wait for the last shader poll before releasing GL.
+  this._disposePromise=Promise.allSettled([...this._retirements]).then(()=>{quad?.dispose();quad?.material.dispose();target?.dispose();});
+  return this._disposePromise;
  }
 }

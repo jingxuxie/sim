@@ -1,0 +1,397 @@
+{
+  "started_utc": "2026-11-24T23:58:41.324Z",
+  "url": "http://127.0.0.1:18856/",
+  "shadow_module": "area-shadows.js",
+  "shadow_options": null,
+  "passed": true,
+  "sources": {
+    "app.js": {
+      "original_sha256": "c2bbe224d280d5b4099970e859a0ab11472b429b6d5b6f8f2dae16bf430c47ee",
+      "routed_sha256": "0427729ce46b154911f27228141fc3f2826f9db56fb8c895536ec22560a1090e"
+    },
+    "studio-renderer.js": {
+      "original_sha256": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+      "routed_sha256": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467"
+    },
+    "/area-shadows.js": {
+      "sha256": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+    },
+    "/screen-reflections.js": {
+      "sha256": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+    },
+    "/cavity-lighting.js": {
+      "sha256": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3"
+    },
+    "/color-grade.js": {
+      "sha256": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+    }
+  },
+  "models": [
+    {
+      "asset": "nikon",
+      "phase": "complete",
+      "shadow_state": {
+        "enabled": true,
+        "active": true,
+        "failed": false
+      },
+      "benchmark": {
+        "timer_extension": true,
+        "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)",
+        "shadow_updates": [
+          {
+            "cpu_ms": 21.600000023841858,
+            "gpu_ms": 21.83168,
+            "complete_wall_ms": 25.799999952316284,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 24.90000009536743,
+            "gpu_ms": 23.185408,
+            "complete_wall_ms": 29,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 24.5,
+            "gpu_ms": 23.177216,
+            "complete_wall_ms": 28.600000023841858,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 23,
+            "gpu_ms": 21.274624,
+            "complete_wall_ms": 27.100000023841858,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 21.700000047683716,
+            "gpu_ms": 19.757056,
+            "complete_wall_ms": 25.700000047683716,
+            "disjoint": false
+          }
+        ],
+        "cached_main_frames": [
+          {
+            "cpu_ms": 4.699999928474426,
+            "gpu_ms": 37.705728,
+            "complete_wall_ms": 41.39999997615814,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 5.799999952316284,
+            "gpu_ms": 38.569984,
+            "complete_wall_ms": 42.699999928474426,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 5.400000095367432,
+            "gpu_ms": 39.176192,
+            "complete_wall_ms": 42.10000002384186,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 4.600000023841858,
+            "gpu_ms": 32.489472,
+            "complete_wall_ms": 37.10000002384186,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 4.299999952316284,
+            "gpu_ms": 30.569472,
+            "complete_wall_ms": 32.799999952316284,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 4,
+            "gpu_ms": 30.55104,
+            "complete_wall_ms": 32.5,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 4.900000095367432,
+            "gpu_ms": 30.778368,
+            "complete_wall_ms": 33.40000009536743,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 4,
+            "gpu_ms": 30.196736,
+            "complete_wall_ms": 32.5,
+            "disjoint": false
+          }
+        ],
+        "stats_before": {
+          "views": 96,
+          "samplesPerSource": 32,
+          "materialSamplesPerSource": 4,
+          "resolution": 512,
+          "atlas": [
+            4096,
+            6144
+          ],
+          "resolve": [
+            623,
+            510
+          ],
+          "separateSpecularVisibility": true,
+          "visibilityFilter": 3,
+          "updates": 2,
+          "lastUpdateMs": 34.60000002384186
+        },
+        "stats_after": {
+          "views": 96,
+          "samplesPerSource": 32,
+          "materialSamplesPerSource": 4,
+          "resolution": 512,
+          "atlas": [
+            4096,
+            6144
+          ],
+          "resolve": [
+            623,
+            510
+          ],
+          "separateSpecularVisibility": true,
+          "visibilityFilter": 3,
+          "updates": 9,
+          "lastUpdateMs": 21.700000047683716
+        },
+        "gl_error": 0,
+        "summary": {
+          "shadow_updates": {
+            "cpu_ms": {
+              "n": 5,
+              "min": 21.600000023841858,
+              "median": 23,
+              "mean": 23.140000033378602,
+              "p95": 24.90000009536743
+            },
+            "gpu_ms": {
+              "n": 5,
+              "min": 19.757056,
+              "median": 21.83168,
+              "mean": 21.845196799999997,
+              "p95": 23.185408
+            },
+            "complete_wall_ms": {
+              "n": 5,
+              "min": 25.700000047683716,
+              "median": 27.100000023841858,
+              "mean": 27.240000009536743,
+              "p95": 29
+            }
+          },
+          "cached_main_frames": {
+            "cpu_ms": {
+              "n": 8,
+              "min": 4,
+              "median": 4.699999928474426,
+              "mean": 4.7125000059604645,
+              "p95": 5.799999952316284
+            },
+            "gpu_ms": {
+              "n": 8,
+              "min": 30.196736,
+              "median": 32.489472,
+              "mean": 33.754624,
+              "p95": 39.176192
+            },
+            "complete_wall_ms": {
+              "n": 8,
+              "min": 32.5,
+              "median": 37.10000002384186,
+              "mean": 36.8125,
+              "p95": 42.699999928474426
+            }
+          }
+        }
+      }
+    },
+    {
+      "asset": "transfer",
+      "phase": "complete",
+      "shadow_state": {
+        "enabled": true,
+        "active": true,
+        "failed": false
+      },
+      "benchmark": {
+        "timer_extension": true,
+        "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)",
+        "shadow_updates": [
+          {
+            "cpu_ms": 41.90000009536743,
+            "gpu_ms": 41.6,
+            "complete_wall_ms": 46,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 44.39999997615814,
+            "gpu_ms": 42.55232,
+            "complete_wall_ms": 48.39999997615814,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 42.700000047683716,
+            "gpu_ms": 40.774656,
+            "complete_wall_ms": 46.800000071525574,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 46.299999952316284,
+            "gpu_ms": 44.374016,
+            "complete_wall_ms": 50.60000002384186,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 42,
+            "gpu_ms": 39.861248,
+            "complete_wall_ms": 46.199999928474426,
+            "disjoint": false
+          }
+        ],
+        "cached_main_frames": [
+          {
+            "cpu_ms": 5.600000023841858,
+            "gpu_ms": 43.547648,
+            "complete_wall_ms": 50.39999997615814,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 5.700000047683716,
+            "gpu_ms": 44.975104,
+            "complete_wall_ms": 50.5,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 6.200000047683716,
+            "gpu_ms": 44.163072,
+            "complete_wall_ms": 47,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 6.100000023841858,
+            "gpu_ms": 44.063744,
+            "complete_wall_ms": 46.89999997615814,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 7.900000095367432,
+            "gpu_ms": 43.664384,
+            "complete_wall_ms": 48.90000009536743,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 5.799999952316284,
+            "gpu_ms": 43.367424,
+            "complete_wall_ms": 46.59999990463257,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 6.300000071525574,
+            "gpu_ms": 43.464704,
+            "complete_wall_ms": 47.10000002384186,
+            "disjoint": false
+          },
+          {
+            "cpu_ms": 6.800000071525574,
+            "gpu_ms": 43.93984,
+            "complete_wall_ms": 47.60000002384186,
+            "disjoint": false
+          }
+        ],
+        "stats_before": {
+          "views": 96,
+          "samplesPerSource": 32,
+          "materialSamplesPerSource": 4,
+          "resolution": 512,
+          "atlas": [
+            4096,
+            6144
+          ],
+          "resolve": [
+            623,
+            510
+          ],
+          "separateSpecularVisibility": true,
+          "visibilityFilter": 3,
+          "updates": 12,
+          "lastUpdateMs": 45.199999928474426
+        },
+        "stats_after": {
+          "views": 96,
+          "samplesPerSource": 32,
+          "materialSamplesPerSource": 4,
+          "resolution": 512,
+          "atlas": [
+            4096,
+            6144
+          ],
+          "resolve": [
+            623,
+            510
+          ],
+          "separateSpecularVisibility": true,
+          "visibilityFilter": 3,
+          "updates": 19,
+          "lastUpdateMs": 42
+        },
+        "gl_error": 0,
+        "summary": {
+          "shadow_updates": {
+            "cpu_ms": {
+              "n": 5,
+              "min": 41.90000009536743,
+              "median": 42.700000047683716,
+              "mean": 43.460000014305116,
+              "p95": 46.299999952316284
+            },
+            "gpu_ms": {
+              "n": 5,
+              "min": 39.861248,
+              "median": 41.6,
+              "mean": 41.832448,
+              "p95": 44.374016
+            },
+            "complete_wall_ms": {
+              "n": 5,
+              "min": 46,
+              "median": 46.800000071525574,
+              "mean": 47.6,
+              "p95": 50.60000002384186
+            }
+          },
+          "cached_main_frames": {
+            "cpu_ms": {
+              "n": 8,
+              "min": 5.600000023841858,
+              "median": 6.200000047683716,
+              "mean": 6.300000041723251,
+              "p95": 7.900000095367432
+            },
+            "gpu_ms": {
+              "n": 8,
+              "min": 43.367424,
+              "median": 43.93984,
+              "mean": 43.898239999999994,
+              "p95": 44.975104
+            },
+            "complete_wall_ms": {
+              "n": 8,
+              "min": 46.59999990463257,
+              "median": 47.60000002384186,
+              "mean": 48.125,
+              "p95": 50.5
+            }
+          }
+        }
+      }
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "fixture": "Routed studio import selects private finite-area-shadows.js. App gets a test-only RAF suspension flag for isolated GPU timings; instrument state is paused normally.",
+  "harness_sha256": "27a903cb61e26cd2c402743fc6e74dd304343eb2832988e2b0a3bc0b0423a24a",
+  "checked_utc": "2026-11-24T23:58:51.823Z"
+}

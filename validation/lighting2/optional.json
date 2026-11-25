@@ -1,0 +1,174 @@
+{
+  "mode": "optional",
+  "url": "http://127.0.0.1:18852/",
+  "started_utc": "2026-11-24T23:54:20.048Z",
+  "passed": true,
+  "cases": [
+    {
+      "failure": "color-grade.js",
+      "forced_gpu_error": false,
+      "warnings": [
+        "Blender display transform unavailable; retaining the interactive look. TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:18852/color-grade.js?v=lighting2"
+      ],
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 84065,
+            "changedFraction": 0.11083058668424522,
+            "rmse": 29.443415992895535
+          },
+          "stage_motion_m": 0.01122673026558135
+        }
+      ],
+      "served_sources": {
+        "/app.js": "c33933fbf3343f9d9fdc800f5dd01f5bc9fcdf9a9105d0ab0d2d5a01ab92c2dc",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+      },
+      "passed": true
+    },
+    {
+      "failure": "cavity-lighting.js",
+      "forced_gpu_error": false,
+      "warnings": [
+        "Ambient shadows unavailable; using direct rendering. TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:18852/cavity-lighting.js?v=lighting2"
+      ],
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "areaEnabled": true,
+            "screenEffectsAvailable": false,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 81813,
+            "changedFraction": 0.10786156888595913,
+            "rmse": 26.343666458368826
+          },
+          "stage_motion_m": 0.01139122441806186
+        }
+      ],
+      "served_sources": {
+        "/app.js": "c33933fbf3343f9d9fdc800f5dd01f5bc9fcdf9a9105d0ab0d2d5a01ab92c2dc",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+      },
+      "passed": true
+    },
+    {
+      "failure": "screen-reflections.js",
+      "forced_gpu_error": false,
+      "warnings": [
+        "Ambient shadows unavailable; using direct rendering. TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:18852/screen-reflections.js?v=lighting2"
+      ],
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "areaEnabled": true,
+            "screenEffectsAvailable": false,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 81813,
+            "changedFraction": 0.10786156888595913,
+            "rmse": 26.34359979719296
+          },
+          "stage_motion_m": 0.01139122441806186
+        }
+      ],
+      "served_sources": {
+        "/app.js": "c33933fbf3343f9d9fdc800f5dd01f5bc9fcdf9a9105d0ab0d2d5a01ab92c2dc",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3"
+      },
+      "passed": true
+    },
+    {
+      "failure": "float color buffers unavailable",
+      "forced_gpu_error": false,
+      "warnings": [
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "Ambient shadows unavailable; using direct rendering. Error: Enhanced studio lighting needs floating-point color targets\n    at setup3D (http://127.0.0.1:18852/app.js?v=lighting2:171:95)\n    at async openInstrument (http://127.0.0.1:18852/app.js?v=lighting2:222:28)",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported."
+      ],
+      "console_errors": [],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "areaEnabled": true,
+            "screenEffectsAvailable": false,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 81813,
+            "changedFraction": 0.10786156888595913,
+            "rmse": 26.343924777172976
+          },
+          "stage_motion_m": 0.01139122441806186
+        }
+      ],
+      "served_sources": {
+        "/app.js": "c33933fbf3343f9d9fdc800f5dd01f5bc9fcdf9a9105d0ab0d2d5a01ab92c2dc",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+      },
+      "capability_fixture": "Test-only WebGL2 getExtension override returns null for EXT_color_buffer_float, exercising the production capability gate; native GPU remains unchanged.",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "app.js": "c2bbe224d280d5b4099970e859a0ab11472b429b6d5b6f8f2dae16bf430c47ee"
+  },
+  "checked_utc": "2026-11-24T23:54:37.652Z"
+}

@@ -1,0 +1,61 @@
+{
+  "revision": "after",
+  "url": "http://127.0.0.1:18855/",
+  "samples": 0,
+  "started_utc": "2026-11-24T23:58:19.480Z",
+  "passed": true,
+  "sources": {
+    "app.js": "c2bbe224d280d5b4099970e859a0ab11472b429b6d5b6f8f2dae16bf430c47ee",
+    "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+  },
+  "views": [
+    {
+      "asset": "transfer",
+      "view": "overview",
+      "snapshot": "transfer-overview.json",
+      "interactive": "transfer-overview-interactive.png"
+    },
+    {
+      "asset": "transfer",
+      "view": "detail",
+      "snapshot": "transfer-detail.json",
+      "interactive": "transfer-detail-interactive.png"
+    },
+    {
+      "asset": "nikon",
+      "view": "overview",
+      "snapshot": "nikon-overview.json",
+      "interactive": "nikon-overview-interactive.png"
+    },
+    {
+      "asset": "nikon",
+      "view": "detail",
+      "snapshot": "nikon-detail.json",
+      "interactive": "nikon-detail-interactive.png"
+    },
+    {
+      "asset": "probe",
+      "view": "overview",
+      "snapshot": "probe-overview.json",
+      "interactive": "probe-overview-interactive.png"
+    },
+    {
+      "asset": "probe",
+      "view": "detail",
+      "snapshot": "probe-detail.json",
+      "interactive": "probe-detail-interactive.png"
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "instrumentation_sha256": "420c9814cfac32d62ab6cca860a3efe23fbc618c955034e2e13703a1c1dcaae5",
+  "graphics": {
+    "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)"
+  },
+  "checked_utc": "2026-11-24T23:58:40.171Z"
+}

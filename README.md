@@ -40,9 +40,33 @@ imaging load another 20 MB on first use. These files are cached by the browser. 
 Chrome or Edge with WebAssembly and WebGL enabled. Complex optics
 and contacts can run slower than real time; the displayed clock is simulation time.
 
-The ordinary interactive view now uses the same rectangular studio lights,
-environment orientation and floor finish as the Blender stills. Photo quality
-adds multiple light bounces and self-shadowing using the actual current 3D scene.
+The ordinary interactive view uses the Blender studio's rectangular lights,
+environment orientation, bench height and display transform. Parts cast soft
+shadows on each other, recessed surfaces receive less indirect light, and suitable
+flat metal surfaces reflect nearby visible geometry. These reflections update
+with the current camera and instrument pose; roughness controls their blur. The reflection probe
+also includes the bench's contribution instead of exposing the lower room HDR.
+Shadow visibility is weighted separately for diffuse light and glossy highlights.
+A filter respects surface boundaries while smoothing those visibility estimates;
+it does not blur the surface textures or the rendered image.
+
+Live reflection tracing uses the current screen's depth and material buffers.
+Objects outside the screen and surfaces hidden behind another part cannot
+contribute; those rays retain the environment reflection. Curved and directionally
+brushed surfaces use environment reflections, since the screen-space estimate
+is unreliable there. Area-source shadows remain an approximation, with some
+residual banding on glossy housings. Blender Cycles traces more
+complete light transport and directional brushed-metal response. Resolution
+alone does not explain the remaining difference. If a graphics driver rejects
+the enhanced shadow shader, the viewer retries with compatible lighting before
+removing the still preview.
+
+The browser's display transform now uses Blender 4.2.8's actual AgX Medium High
+Contrast shader/tables and exposure, shared by Interactive and Photo quality.
+The tables add about 2.8 MB on the first instrument load; a failed download
+retains the previous display look and does not block instrument operation.
+
+Photo quality adds multiple light bounces and traced source visibility using the actual current 3D scene.
 It is not a pre-rendered photograph. It requires WebGL 2 floating-point targets
 and is most useful on a desktop GPU; initial preparation and refinement can be
 slow on software graphics. Early samples are noisy; a gentle edge-preserving
@@ -60,7 +84,8 @@ interactive renderer.
 The browser path tracer retains the exported color, roughness and normal maps;
 brushed-metal anisotropy uses an isotropic approximation in this mode.
 
-[Compare the previous 3D view, improved live lighting, and Photo quality](validation/photo1/comparison.jpg).
+[Compare previous live lighting, the improved live view, and matched Blender renders](validation/lighting2/comparison.jpg).
+The [previous Photo-quality comparison](validation/photo1/comparison.jpg) remains available.
 
 ## Instruments and tasks
 
@@ -110,6 +135,18 @@ This is an executable native MuJoCo task with a Cartesian wrist fixture; a full
 arm and a browser-live robot controller are not included. The linked package
 includes commands, licensed geometry, measured trajectories and validation.
 
+**Cable contact is not simulated.** Flexible cable meshes in the browser and
+Blender follow measured instrument motion through prescribed deformation. Native
+MuJoCo contains decorative cable meshes with `contype="0"`, `conaffinity="0"`
+and `density="0"`; the browser physics export removes those visual meshes.
+Native cable spans retain their rest shape relative to their owning rigid body.
+There are no flexible cable bodies, cable joints, independent cable mass, stiffness, damping,
+tension or collision response. A gripper or hand can pass through a cable even
+when nearby instrument housing proxies collide. Physical cable manipulation
+requires a separate articulated or flexible-body model, attachment constraints,
+and contact validation; the existing hose-clearance results below do not provide
+that capability.
+
 The transfer vacuum and heater lines now terminate in separate fittings and
 follow XY plus rotation. Their declared attached-service envelope is ±90° coarse
 rotation plus ±2.5° fine adjustment, with the stamp retracted. A sampled
@@ -138,7 +175,7 @@ Overview images are 3840×3200; new details are 2560×2160. The live GLBs use th
 
 The transfer source power and dimmer affect microscope images. The dimmer represents a 10–100% relative illumination range; its zero setting is the powered minimum. The coarse ring turns with the clamp released; locking it engages the fine micrometer. Fiber and probe cables follow measured joint motion through visual deformation, without cable contact or strain simulation.
 
-[Delivery audit](validation/photo1.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
+[Delivery audit](validation/lighting2.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
 
 ## Implementation
 
@@ -187,10 +224,13 @@ also passes 54/54 episodes across seeds 0, 11 and 37, with 18 no-action controls
 These are fixture benchmark checks on estimated instrument models, not
 physical-lab calibration results.
 
-The rendering update adds [photo-mode browser checks](validation/photo1/rendering.json),
-[pause/cancellation checks](validation/photo1/lifecycle.json),
-[all-seven-instrument tracing checks](validation/photo1/all_models.json), and
+The rendering update includes [photo-mode browser checks](validation/lighting2/rendering.json),
+[pause/cancellation checks](validation/lighting2/lifecycle.json),
+[all-seven-instrument tracing checks](validation/lighting2/models.json), and
 [micrometre-scale ray-intersection regression checks](validation/photo1/intersection.json).
+Additional checks cover [display-transform agreement](validation/lighting2/grade_gpu.json),
+[local reflections](validation/lighting2/reflections.json) and
+[cable physics coverage](validation/lighting2/cables.json).
 Physics and instrument assets are unchanged from the contact-manipulation release;
 the current summary verifies their hashes before carrying forward that physics
 evidence. Rendering checks cover the current photo and interactive modes.
