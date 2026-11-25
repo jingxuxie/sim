@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "candidate_report_sha256": "f8efe1af7760e9d728978f86bddc70e2e066891ba1c14f6d2a379d31d329256f",
+  "method": "Predeclared pixel crops, no resizing or tone/contrast change. Ordinary RGB conversion, layout labels and JPEG encoding only. Same-view camera/physical-pose comparison is required separately.",
+  "regions": [
+    {
+      "name": "nikon-objectives",
+      "asset": "nikon",
+      "view": "detail",
+      "box": [
+        425,
+        285,
+        750,
+        475
+      ],
+      "target": "Three objective barrels and turret underside",
+      "file": "nikon-objectives.jpg",
+      "sha256": "e2d63a6101b1a0030563f77c6b63110373a23125b35bf7c8f91adef9d3ffa041",
+      "sources": [
+        {
+          "file": "../baseline_live/nikon-detail-interactive.png",
+          "sha256": "fca44b5310ecdad5db4aae24d5ae6527643bfd2f79895a1e29347c4c8b35c51e"
+        },
+        {
+          "file": "../final_live/nikon-detail-interactive.png",
+          "sha256": "2f67d13705afae13323bdacd8f04ca11eda8168ef22614100a197e4eca16946f"
+        },
+        {
+          "file": "../reference_blender/nikon-detail-blender.png",
+          "sha256": "028bfa26859968b8402354aa3e0fa3d25cf27debea367b3ff5c1dcdfcb60fe9f"
+        }
+      ]
+    },
+    {
+      "name": "nikon-stage",
+      "asset": "nikon",
+      "view": "detail",
+      "box": [
+        220,
+        375,
+        875,
+        620
+      ],
+      "target": "Stage deck and slide beneath the objectives",
+      "file": "nikon-stage.jpg",
+      "sha256": "5523061de811b96dd1a8a87b473ce43833b40ad6eb068883fadbfc4c619e2748",
+      "sources": [
+        {
+          "file": "../baseline_live/nikon-detail-interactive.png",
+          "sha256": "fca44b5310ecdad5db4aae24d5ae6527643bfd2f79895a1e29347c4c8b35c51e"
+        },
+        {
+          "file": "../final_live/nikon-detail-interactive.png",
+          "sha256": "2f67d13705afae13323bdacd8f04ca11eda8168ef22614100a197e4eca16946f"
+        },
+        {
+          "file": "../reference_blender/nikon-detail-blender.png",
+          "sha256": "028bfa26859968b8402354aa3e0fa3d25cf27debea367b3ff5c1dcdfcb60fe9f"
+        }
+      ]
+    },
+    {
+      "name": "transfer-objectives",
+      "asset": "transfer",
+      "view": "detail",
+      "box": [
+        405,
+        255,
+        645,
+        490
+      ],
+      "target": "Two objective barrels and turret underside",
+      "file": "transfer-objectives.jpg",
+      "sha256": "d25949175f27adabdbc3396bc7fe178e6971baf7551744a49b72ca7d5b53315f",
+      "sources": [
+        {
+          "file": "../baseline_live/transfer-detail-interactive.png",
+          "sha256": "42682a5865c9c5ba769ed1f242a056186cf119c15fb5c9b951fb97e57c9931a0"
+        },
+        {
+          "file": "../final_live/transfer-detail-interactive.png",
+          "sha256": "174d654d36342ff59f29bf83c14e19b289b6a25d28dab5591d5093acb0e8c14d"
+        },
+        {
+          "file": "../reference_blender/transfer-detail-blender.png",
+          "sha256": "9d89f8c2b67c2e592256f2af6019ac563f016ccdca173f996a9738584bc59fb8"
+        }
+      ]
+    },
+    {
+      "name": "transfer-breadboard",
+      "asset": "transfer",
+      "view": "detail",
+      "box": [
+        20,
+        570,
+        825,
+        960
+      ],
+      "target": "Breadboard, sample stage contact, cables and their reflections",
+      "file": "transfer-breadboard.jpg",
+      "sha256": "9442b7353b92afc292f5857a094b284493787c97d42d250fb7548f05b3028c39",
+      "sources": [
+        {
+          "file": "../baseline_live/transfer-detail-interactive.png",
+          "sha256": "42682a5865c9c5ba769ed1f242a056186cf119c15fb5c9b951fb97e57c9931a0"
+        },
+        {
+          "file": "../final_live/transfer-detail-interactive.png",
+          "sha256": "174d654d36342ff59f29bf83c14e19b289b6a25d28dab5591d5093acb0e8c14d"
+        },
+        {
+          "file": "../reference_blender/transfer-detail-blender.png",
+          "sha256": "9d89f8c2b67c2e592256f2af6019ac563f016ccdca173f996a9738584bc59fb8"
+        }
+      ]
+    },
+    {
+      "name": "transfer-rail",
+      "asset": "transfer",
+      "view": "detail",
+      "box": [
+        580,
+        710,
+        1150,
+        1020
+      ],
+      "target": "T-slot rail and stamp-stage reflection; overlapping lift-top bores excluded",
+      "file": "transfer-rail.jpg",
+      "sha256": "51b292a7ed465f9190ab1148a6e668498bcc495fbae5cd3ad64b86d2ad2da174",
+      "sources": [
+        {
+          "file": "../baseline_live/transfer-detail-interactive.png",
+          "sha256": "42682a5865c9c5ba769ed1f242a056186cf119c15fb5c9b951fb97e57c9931a0"
+        },
+        {
+          "file": "../final_live/transfer-detail-interactive.png",
+          "sha256": "174d654d36342ff59f29bf83c14e19b289b6a25d28dab5591d5093acb0e8c14d"
+        },
+        {
+          "file": "../reference_blender/transfer-detail-blender.png",
+          "sha256": "9d89f8c2b67c2e592256f2af6019ac563f016ccdca173f996a9738584bc59fb8"
+        }
+      ]
+    },
+    {
+      "name": "probe-decks",
+      "asset": "probe",
+      "view": "detail",
+      "box": [
+        20,
+        400,
+        1240,
+        950
+      ],
+      "target": "Both steel decks, manipulators and chuck; barrel bottom included",
+      "file": "probe-decks.jpg",
+      "sha256": "bc4c3d48e04c645a47202c0d8bc9daf1989590a934cc63440ad0305ac104241c",
+      "sources": [
+        {
+          "file": "../baseline_live/probe-detail-interactive.png",
+          "sha256": "1fe8bfe816c22c152089774c293f1a3c732c6964159d544878b142a35f5e6738"
+        },
+        {
+          "file": "../final_live/probe-detail-interactive.png",
+          "sha256": "c36351dca9926351e8d6cf8c5682b692e24017621ba0b1a698ee8f8e50587b36"
+        },
+        {
+          "file": "../reference_blender/probe-detail-blender.png",
+          "sha256": "01cd4946b3054d8c69a98175472e196551888af1ed39e9b00f86d46f3b997fb2"
+        }
+      ]
+    }
+  ]
+}

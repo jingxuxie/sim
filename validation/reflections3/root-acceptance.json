@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "visual_quality_accepted": true,
+  "checked_utc": "2026-11-25T03:29:49.709271+00:00",
+  "sources": {
+    "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+    "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "progressive-renderer.js": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8",
+    "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+    "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+    "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+    "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122",
+    "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5"
+  },
+  "visual_review_sha256": "1340a5934818def7a3502be508bbb0cb76d6f3a43b34034c163f28e0c424a07d",
+  "main_comparison": "final_comparison/all-matched-comparisons.jpg",
+  "artifacts": [
+    {
+      "file": "final_comparison/all-matched-comparisons.jpg",
+      "sha256": "765436abdb81e38d9171abb3c7edbcec043e82d5cd28793cd3934e4e9b4d8c5d"
+    },
+    {
+      "file": "final_comparison/all-seven-contact-sheet.jpg",
+      "sha256": "052ba5d937b39693794779c99351ad75906b947fda0d5ca613218d2a3b962835"
+    },
+    {
+      "file": "final_crops/transfer-breadboard.jpg",
+      "sha256": "9442b7353b92afc292f5857a094b284493787c97d42d250fb7548f05b3028c39"
+    },
+    {
+      "file": "final_crops/transfer-rail.jpg",
+      "sha256": "51b292a7ed465f9190ab1148a6e668498bcc495fbae5cd3ad64b86d2ad2da174"
+    },
+    {
+      "file": "final_crops/probe-decks.jpg",
+      "sha256": "bc4c3d48e04c645a47202c0d8bc9daf1989590a934cc63440ad0305ac104241c"
+    },
+    {
+      "file": "final_crops/nikon-objectives.jpg",
+      "sha256": "e2d63a6101b1a0030563f77c6b63110373a23125b35bf7c8f91adef9d3ffa041"
+    },
+    {
+      "file": "final_live/transfer-detail-interactive.png",
+      "sha256": "174d654d36342ff59f29bf83c14e19b289b6a25d28dab5591d5093acb0e8c14d"
+    },
+    {
+      "file": "final_live/nikon-detail-interactive.png",
+      "sha256": "2f67d13705afae13323bdacd8f04ca11eda8168ef22614100a197e4eca16946f"
+    },
+    {
+      "file": "final_live/probe-detail-interactive.png",
+      "sha256": "c36351dca9926351e8d6cf8c5682b692e24017621ba0b1a698ee8f8e50587b36"
+    }
+  ],
+  "method": "Primary reviewer inspected current production detail PNGs, all six matched-camera comparisons against the published renderer and Cycles, targeted table/objective crops, and all-seven Live/Photo contact sheet. Accepted only after source-matched reports passed and actual receiver binding identities were checked. Earlier stale-binding images were rejected.",
+  "findings": [
+    {
+      "target": "Transfer breadboard and rail",
+      "assessment": "Clear reflected blue cable, sample-stage/knob shapes and dark reflection beneath the raised stamp stage now appear where the previous live view had almost only room illumination. They remain broader and cloudier than the Cycles reference."
+    },
+    {
+      "target": "Nikon and transfer objectives",
+      "assessment": "Longitudinal metallic highlights and neighboring-objective contrast replace the previous uniformly gray barrel appearance. Nikon in particular is substantially closer to the source still."
+    },
+    {
+      "target": "Probe decks",
+      "assessment": "Fasteners, posts and manipulator undersides visibly reflect in the steel decks. The central curved chuck and vertical stage surfaces still lack this local scene-reflection coverage."
+    },
+    {
+      "target": "Seven-instrument overview",
+      "assessment": "No large new missing-geometry, broken-material or lighting artifact observed in the reviewed Live views. Photo thumbnails are low-sample lifecycle evidence, not a visual quality comparison to converged Cycles."
+    }
+  ],
+  "limitations": [
+    "This accepts a material improvement over the published live renderer, not Cycles parity or all-view artifact freedom.",
+    "Planar reflections use macro-plane projection and approximate depth/mip directional filtering; bright rough reflections are still cloudier and less smooth than Cycles.",
+    "Objective probes cover Nikon, transfer, Zeiss and probe assemblies only; other curved parts and unselected planes retain room reflections.",
+    "Objective captures refresh incrementally and can lag physical motion; view-dependent lookup responds immediately to camera motion.",
+    "Source models, physics and cable-contact behavior are unchanged."
+  ]
+}

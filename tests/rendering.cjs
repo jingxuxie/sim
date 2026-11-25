@@ -18,7 +18,7 @@ const check=(name,extra={})=>{report.checks.push({check:name,passed:true,...extr
   const errors=[],failed=[],requests=[];
   page.on('pageerror',e=>errors.push(e.message));
   page.on('console',message=>{if(message.type()==='error'||gpuFailure.test(message.text()))report.console_errors.push(message.text());});
-  page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});if(/\/(app|studio-renderer|progressive-renderer|cavity-lighting|area-shadows|finite-area-shadows|screen-reflections|color-grade)\.js\b/.test(r.url()))responseWork.push((async()=>{report.sources[new URL(r.url()).pathname]=crypto.createHash('sha256').update(await r.body()).digest('hex');})());});
+  page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});if(/\/(app|studio-renderer|progressive-renderer|cavity-lighting|area-shadows|finite-area-shadows|screen-reflections|color-grade|scene-reflections|planar-reflections|objective-reflections|env-axis)\.js\b/.test(r.url()))responseWork.push((async()=>{report.sources[new URL(r.url()).pathname]=crypto.createHash('sha256').update(await r.body()).digest('hex');})());});
   page.on('request',r=>requests.push(r.url()));
   const wait=(fn,arg,timeout=120000)=>page.waitForFunction(fn,arg,{polling:100,timeout});
   const quality=()=>page.evaluate(()=>window.lab.photoRendering);

@@ -1,0 +1,69 @@
+{
+  "images": [
+    {
+      "asset": "transfer",
+      "view": "overview",
+      "file": "transfer-overview.jpg",
+      "sources": [
+        "../baseline_live/transfer-overview-interactive.png",
+        "../final_live/transfer-overview-interactive.png",
+        "../reference_blender/transfer-overview-blender.png"
+      ]
+    },
+    {
+      "asset": "transfer",
+      "view": "detail",
+      "file": "transfer-detail.jpg",
+      "sources": [
+        "../baseline_live/transfer-detail-interactive.png",
+        "../final_live/transfer-detail-interactive.png",
+        "../reference_blender/transfer-detail-blender.png"
+      ]
+    },
+    {
+      "asset": "nikon",
+      "view": "overview",
+      "file": "nikon-overview.jpg",
+      "sources": [
+        "../baseline_live/nikon-overview-interactive.png",
+        "../final_live/nikon-overview-interactive.png",
+        "../reference_blender/nikon-overview-blender.png"
+      ]
+    },
+    {
+      "asset": "nikon",
+      "view": "detail",
+      "file": "nikon-detail.jpg",
+      "sources": [
+        "../baseline_live/nikon-detail-interactive.png",
+        "../final_live/nikon-detail-interactive.png",
+        "../reference_blender/nikon-detail-blender.png"
+      ]
+    },
+    {
+      "asset": "probe",
+      "view": "overview",
+      "file": "probe-overview.jpg",
+      "sources": [
+        "../baseline_live/probe-overview-interactive.png",
+        "../final_live/probe-overview-interactive.png",
+        "../reference_blender/probe-overview-blender.png"
+      ]
+    },
+    {
+      "asset": "probe",
+      "view": "detail",
+      "file": "probe-detail.jpg",
+      "sources": [
+        "../baseline_live/probe-detail-interactive.png",
+        "../final_live/probe-detail-interactive.png",
+        "../reference_blender/probe-detail-blender.png"
+      ]
+    }
+  ],
+  "method": "Same measured camera preset and scene assets. Pose differences must pass the recorded comparison tolerances; no graphics-only pose overrides. Source Cycles uses pinhole optics, original source exposure and display transform. No post-hoc image tone or contrast changes; resizing is limited to contact sheets.",
+  "pose_report": "../final_live/reference-pose-comparison.json",
+  "maximum_landmark_difference_pixels": 0.004678643902202781,
+  "maximum_body_position_difference_m": 6.960047466419983e-07,
+  "maximum_body_orientation_difference_radians": 0.00875274013462941
+}

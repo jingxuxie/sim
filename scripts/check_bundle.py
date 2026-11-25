@@ -60,7 +60,8 @@ for item in catalog['instruments']:
 runtime_files = ('index.html', 'app.js', 'runtime.js', 'worker.js', 'physics.js',
                  'flexible-details.js', 'contact-overlay.js', 'studio-renderer.js',
                  'progressive-renderer.js', 'area-shadows.js', 'cavity-lighting.js',
-                 'screen-reflections.js', 'color-grade.js')
+                 'screen-reflections.js', 'color-grade.js', 'scene-reflections.js',
+                 'planar-reflections.js', 'objective-reflections.js', 'env-axis.js')
 for name in runtime_files:
     text = (ROOT/name).read_text()
     assert '/api/' not in text, name
@@ -133,4 +134,4 @@ assert json.loads((robot/'validation/portable_verification.json').read_text())['
 for path in ROOT.rglob('*'):
     if path.is_file() and '.git' not in path.parts:
         assert path.stat().st_size < 100*1024*1024, path
-print('Complete static bundle: seven models, 18 fixture tasks, native contact-gripper package, portable renderer imports, verified display LUTs and dependency notices.')
+print('Complete static bundle: seven models, 18 fixture tasks, native contact-gripper package, portable scene-reflection imports, verified display LUTs and dependency notices.')

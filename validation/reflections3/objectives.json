@@ -1,0 +1,190 @@
+{
+  "revision": "reflections3",
+  "checked_utc": "2026-11-25T03:12:58.131330+00:00",
+  "scope": "Production objective reflection mode: controlled radiance/material/lifecycle checks and four actual instruments with camera and continuous-pose changes.",
+  "source_hashes": {
+    "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+    "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+  },
+  "production_configuration": {
+    "resolution": 256,
+    "parallax": false,
+    "correctAxes": true,
+    "minUpdateIntervalMs": 40,
+    "maxProbesPerUpdate": 1
+  },
+  "objectiveControls": {
+    "report": "objective_causal/report.json",
+    "configuration": {
+      "resolution": 256,
+      "parallax": false,
+      "correctAxes": true,
+      "minUpdateIntervalMs": 40,
+      "maxProbesPerUpdate": 1
+    },
+    "offscreen_geometry": {
+      "passed": true,
+      "red_card_rgb": [
+        201.34805555555556,
+        83.31319444444445,
+        83.31319444444445
+      ],
+      "note": "The reflector is behind the primary camera and visible to the objective capture."
+    },
+    "dark_radiance_replacement": {
+      "passed": true,
+      "mean_darkening_8bit": 118.68680555555555
+    },
+    "material_update": {
+      "passed": true,
+      "note": "Changing the same reflector material from red to black updates captured radiance."
+    },
+    "moved_reflector": {
+      "passed": true,
+      "rgb_after_move": [
+        202,
+        202,
+        202
+      ]
+    },
+    "camera_orbit": {
+      "passed": true,
+      "additional_captures": 0,
+      "reflected_green_change_8bit": 30.706435185185185
+    },
+    "roughness": {
+      "passed": true,
+      "sharp_gradient": 2.1277777777777778,
+      "rough_gradient": 0.9248456790123457,
+      "gradient_reduction_fraction": 0.5653466782709602
+    },
+    "source_preservation": {
+      "passed": true
+    },
+    "renderer_bookkeeping_ignored": {
+      "passed": true,
+      "glassVersionIncrease": 24,
+      "opaqueVersionIncrease": 6,
+      "additionalCaptures": 0,
+      "pending": false
+    },
+    "real_map_changes": {
+      "passed": true,
+      "assignment": true,
+      "pixels": true,
+      "uv_transform": true
+    },
+    "setup_exception_cleanup": {
+      "caught": true,
+      "restored": true
+    },
+    "dispose_during_preparation": {
+      "sceneUnchanged": true,
+      "restored": true,
+      "pending": 0
+    },
+    "geometry_change": {
+      "passed": true
+    },
+    "minimum_texture_budget": {
+      "passed": true,
+      "forced_texture_units": 16,
+      "max_active_fixture_samplers": 2
+    }
+  },
+  "actualProof": {
+    "report": "objective_packed_probe/report.json",
+    "scope": "Isolated objective reflection evaluation on actual instrument geometry; the shared SceneReflections manager is disposed in this harness. Separate merged-app checks cover joint planar/objective delivery.",
+    "configuration": {
+      "resolution": 256,
+      "parallax": false,
+      "correctAxes": true
+    },
+    "instruments": [
+      {
+        "asset": "nikon",
+        "image": "objective_packed_probe/nikon-no-parallax.png",
+        "probe_count": 4,
+        "continuous_motion": {
+          "ready_throughout": true,
+          "captures_per_probe": [
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "camera_orbit_additional_captures": 0,
+        "max_active_samplers": 15,
+        "full_refresh_cpu_median_ms": 21.399999976158142,
+        "full_refresh_gpu_median_ms": 90.64448,
+        "gl_error": 0
+      },
+      {
+        "asset": "transfer",
+        "image": "objective_packed_probe/transfer-no-parallax.png",
+        "probe_count": 3,
+        "continuous_motion": {
+          "ready_throughout": true,
+          "captures_per_probe": [
+            6,
+            5,
+            5
+          ]
+        },
+        "camera_orbit_additional_captures": 0,
+        "max_active_samplers": 14,
+        "full_refresh_cpu_median_ms": 15.700000047683716,
+        "full_refresh_gpu_median_ms": 65.762304,
+        "gl_error": 0
+      },
+      {
+        "asset": "zeiss",
+        "image": "objective_packed_probe/zeiss-no-parallax.png",
+        "probe_count": 5,
+        "continuous_motion": {
+          "ready_throughout": true,
+          "captures_per_probe": [
+            4,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        "camera_orbit_additional_captures": 0,
+        "max_active_samplers": 14,
+        "full_refresh_cpu_median_ms": 19.600000023841858,
+        "full_refresh_gpu_median_ms": 83.57888,
+        "gl_error": 0
+      },
+      {
+        "asset": "probe",
+        "image": "objective_packed_probe/probe-no-parallax.png",
+        "probe_count": 1,
+        "continuous_motion": {
+          "ready_throughout": true,
+          "captures_per_probe": [
+            16
+          ]
+        },
+        "camera_orbit_additional_captures": 0,
+        "max_active_samplers": 14,
+        "full_refresh_cpu_median_ms": 5,
+        "full_refresh_gpu_median_ms": 8.027136,
+        "gl_error": 0
+      }
+    ],
+    "motion_harness_note": "The fairness stress loop sets the minimum update interval to zero and changes assembly pose before every update. Production uses 40 ms between incremental capture calls."
+  },
+  "errors": [],
+  "limitations": [
+    "View-independent local cubemaps approximate scene radiance; this is not full ray-traced or Cycles transport.",
+    "Parallax correction is disabled because it visibly distorted the Nikon barrel reflection.",
+    "The current implementation supports Nikon, transfer, Zeiss and probe objective assemblies only.",
+    "Production keeps existing captures visible while refreshing one dirty probe at a time; reflected motion can lag by the refresh interval.",
+    "A100 GPU timings establish the test setup cost and do not predict laptop frame rates.",
+    "The source materials and geometry are preserved; these rendering tests do not add native physics or contact validation."
+  ],
+  "passed": true
+}

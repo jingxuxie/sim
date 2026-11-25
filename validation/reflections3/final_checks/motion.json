@@ -1,0 +1,4185 @@
+{
+  "passed": true,
+  "started_utc": "2026-11-25T03:25:43.418Z",
+  "url": "http://127.0.0.1:18931/",
+  "harness_sha256": "a2bfbc1d0b33c8fad2b1ddf4838fb43a1dda078dafa4f691a5400915fa87200d",
+  "instrumentation_sha256": "e64ec83582b48faa798d49187781b0516144eaddf34f0be0cc8ac92d4d6c22a0",
+  "sources": {
+    "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+    "flexible-details.js": "91bc047df9fb127551d6034256ee50638271fb1f38999c9cee4706e1852e75f1",
+    "contact-overlay.js": "f58ad34fb84eedef538c68fdb24d13c30ce28d20ffe23685ec13e727f6d10e83",
+    "runtime.js": "d5318ed974199c50795c1e8f2b3a31463b50815492f3628d859641a604a9c29e",
+    "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+    "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+    "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+    "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+    "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+  },
+  "routed_sources": {
+    "app.js": "49659a84b7438bef3fe59720d37efc7b9126d411f0d71a9d1f09af41c4685b31"
+  },
+  "models": [
+    {
+      "asset": "nikon",
+      "phase": "complete",
+      "before": {
+        "asset": "nikon",
+        "camera": [
+          0.8748932080303584,
+          -1.3877787807814457e-17,
+          -0.4843158830168055,
+          0,
+          -0.1822662853707937,
+          0.9264825944964545,
+          -0.32925522518594996,
+          0,
+          0.4487102358532513,
+          0.3763376171672428,
+          0.8105733292832928,
+          0,
+          0.3402631965158268,
+          0.40522074546488684,
+          0.620475451770526,
+          1
+        ],
+        "projection": [
+          2.8571588214600214,
+          0,
+          0,
+          0,
+          0,
+          3.4874144438409087,
+          0,
+          0,
+          0,
+          0,
+          -1.0011932114523285,
+          -1,
+          0,
+          0,
+          -0.013837362133054478,
+          0
+        ],
+        "q": {
+          "stage_z": -8.353283079578108e-21,
+          "stage_y": 0,
+          "stage_x": 0,
+          "y_angle": 0,
+          "x_angle": 0,
+          "coarse_angle": 0,
+          "fine_angle": 0,
+          "turret_angle": 0,
+          "light_path_travel": 0.012
+        },
+        "poses": {
+          "stand": {
+            "p": [
+              0,
+              0,
+              0
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "lift": {
+            "p": [
+              0,
+              0,
+              -8.154054450554846e-21
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "carriage_y": {
+            "p": [
+              0,
+              0,
+              -8.154054450554846e-21
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "carriage_x": {
+            "p": [
+              0,
+              0,
+              -8.154054450554846e-21
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "knob_y": {
+            "p": [
+              0.109,
+              -0.064,
+              0.072
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "knob_x": {
+            "p": [
+              0.109,
+              -0.064,
+              0.048
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "coarse": {
+            "p": [
+              0.083,
+              0,
+              0.056
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "fine": {
+            "p": [
+              0.103,
+              0,
+              0.056
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "turret": {
+            "p": [
+              0,
+              -0.02932468507,
+              0.2325428782
+            ],
+            "q": [
+              0.9832549075656685,
+              0.1822355254829003,
+              0,
+              0
+            ]
+          },
+          "light_path_selector": {
+            "p": [
+              0.073,
+              -0.065,
+              0.355
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "time": 0.02000000000000001,
+        "paused": true,
+        "reflections": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "generation": 8,
+          "asset": "nikon",
+          "planar": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "updateCount": 3,
+            "captureCount": 9,
+            "receiverCount": 3,
+            "lastUpdateMs": 6.699999809265137,
+            "receivers": [
+              {
+                "label": "Laboratory bench",
+                "area": 0,
+                "captures": 3,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  2.220446049250313e-16,
+                  0.001
+                ]
+              },
+              {
+                "label": "stand__edge plane 0.29676",
+                "area": 0.03494984263208867,
+                "captures": 2,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.2967600222764304
+                ]
+              },
+              {
+                "label": "stand__cream plane 0.34200",
+                "area": 0.03241760568975793,
+                "captures": 2,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.3420000076293945
+                ]
+              }
+            ]
+          },
+          "curved": {
+            "pending": false,
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "preparing": false,
+            "dirty": false,
+            "nextProbe": 0,
+            "updateCount": 4,
+            "captureCount": 4,
+            "lastUpdateMs": 6.300000190734863,
+            "lastCaptureMs": 6.300000190734863,
+            "additionalSamplers": 1,
+            "probes": [
+              {
+                "index": 0,
+                "center": [
+                  0,
+                  0.1904999999686543,
+                  0.06199999999730944
+                ],
+                "radius": 0.0145,
+                "length": 0.05899999999574959,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 1,
+                "center": [
+                  -0.03567854266,
+                  0.19648243527942813,
+                  0.04595933260074164
+                ],
+                "radius": 0.0145,
+                "length": 0.05934999999584439,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 5,
+                "center": [
+                  0.04163420964,
+                  0.2172095475770811,
+                  0.013259962108819712
+                ],
+                "radius": 0.0145,
+                "length": 0.04299999999878943,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 6,
+                "center": [
+                  0.034648868865,
+                  0.19997973323828355,
+                  0.04642226223822452
+                ],
+                "radius": 0.0145,
+                "length": 0.05199999999954935,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              }
+            ],
+            "resolution": 256,
+            "parallax": false,
+            "correctAxes": true
+          }
+        },
+        "bound_reflection_uniforms": [
+          {
+            "label": "Laboratory bench",
+            "target": 48,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 48,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "stand__edge plane 0.29676",
+            "target": 108,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "edge",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 108,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "stand__cream plane 0.34200",
+            "target": 110,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "cream",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 110,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          }
+        ],
+        "image": "nikon-detail-before.png",
+        "image_sha256": "322a8d0ee89c24ae4be0c70acf876c70e76b9f8caab88cf7238d20fa44a592b7",
+        "counters": {
+          "generation": 8,
+          "planar.updateCount": 3,
+          "planar.captureCount": 9,
+          "planar.receivers.0.captures": 3,
+          "planar.receivers.1.captures": 2,
+          "planar.receivers.2.captures": 2,
+          "curved.updateCount": 4,
+          "curved.captureCount": 4,
+          "curved.probes.0.captureCount": 1,
+          "curved.probes.1.captureCount": 1,
+          "curved.probes.2.captureCount": 1,
+          "curved.probes.3.captureCount": 1
+        }
+      },
+      "orbit": {
+        "asset": "nikon",
+        "camera": [
+          0.8816672372591281,
+          0,
+          0.4718716803791645,
+          0,
+          0.25635705138977777,
+          0.8395534849510069,
+          -0.47898956993796665,
+          0,
+          -0.39616151371201525,
+          0.5432770434194872,
+          0.7402068016080272,
+          0,
+          -0.24392808935393476,
+          0.5206519433180902,
+          0.5718201235435261,
+          1
+        ],
+        "projection": [
+          2.8571588214600214,
+          0,
+          0,
+          0,
+          0,
+          3.487414443840909,
+          0,
+          0,
+          0,
+          0,
+          -1.0011932114523285,
+          -1,
+          0,
+          0,
+          -0.013837362133054058,
+          0
+        ],
+        "q": {
+          "stage_z": -8.353283079578108e-21,
+          "stage_y": 0,
+          "stage_x": 0,
+          "y_angle": 0,
+          "x_angle": 0,
+          "coarse_angle": 0,
+          "fine_angle": 0,
+          "turret_angle": 0,
+          "light_path_travel": 0.012
+        },
+        "poses": {
+          "stand": {
+            "p": [
+              0,
+              0,
+              0
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "lift": {
+            "p": [
+              0,
+              0,
+              -8.154054450554846e-21
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "carriage_y": {
+            "p": [
+              0,
+              0,
+              -8.154054450554846e-21
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "carriage_x": {
+            "p": [
+              0,
+              0,
+              -8.154054450554846e-21
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "knob_y": {
+            "p": [
+              0.109,
+              -0.064,
+              0.072
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "knob_x": {
+            "p": [
+              0.109,
+              -0.064,
+              0.048
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "coarse": {
+            "p": [
+              0.083,
+              0,
+              0.056
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "fine": {
+            "p": [
+              0.103,
+              0,
+              0.056
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "turret": {
+            "p": [
+              0,
+              -0.02932468507,
+              0.2325428782
+            ],
+            "q": [
+              0.9832549075656685,
+              0.1822355254829003,
+              0,
+              0
+            ]
+          },
+          "light_path_selector": {
+            "p": [
+              0.073,
+              -0.065,
+              0.355
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "time": 0.02000000000000001,
+        "paused": true,
+        "reflections": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "generation": 40,
+          "asset": "nikon",
+          "planar": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "updateCount": 35,
+            "captureCount": 105,
+            "receiverCount": 3,
+            "lastUpdateMs": 6.700000286102295,
+            "receivers": [
+              {
+                "label": "Laboratory bench",
+                "area": 0,
+                "captures": 35,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  2.220446049250313e-16,
+                  0.001
+                ]
+              },
+              {
+                "label": "stand__edge plane 0.29676",
+                "area": 0.03494984263208867,
+                "captures": 34,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.2967600222764304
+                ]
+              },
+              {
+                "label": "stand__cream plane 0.34200",
+                "area": 0.03241760568975793,
+                "captures": 34,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.3420000076293945
+                ]
+              }
+            ]
+          },
+          "curved": {
+            "pending": false,
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "preparing": false,
+            "dirty": false,
+            "nextProbe": 0,
+            "updateCount": 4,
+            "captureCount": 4,
+            "lastUpdateMs": 6.300000190734863,
+            "lastCaptureMs": 6.300000190734863,
+            "additionalSamplers": 1,
+            "probes": [
+              {
+                "index": 0,
+                "center": [
+                  0,
+                  0.1904999999686543,
+                  0.06199999999730944
+                ],
+                "radius": 0.0145,
+                "length": 0.05899999999574959,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 1,
+                "center": [
+                  -0.03567854266,
+                  0.19648243527942813,
+                  0.04595933260074164
+                ],
+                "radius": 0.0145,
+                "length": 0.05934999999584439,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 5,
+                "center": [
+                  0.04163420964,
+                  0.2172095475770811,
+                  0.013259962108819712
+                ],
+                "radius": 0.0145,
+                "length": 0.04299999999878943,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 6,
+                "center": [
+                  0.034648868865,
+                  0.19997973323828355,
+                  0.04642226223822452
+                ],
+                "radius": 0.0145,
+                "length": 0.05199999999954935,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              }
+            ],
+            "resolution": 256,
+            "parallax": false,
+            "correctAxes": true
+          }
+        },
+        "bound_reflection_uniforms": [
+          {
+            "label": "Laboratory bench",
+            "target": 48,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 48,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "stand__edge plane 0.29676",
+            "target": 108,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "edge",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 108,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "stand__cream plane 0.34200",
+            "target": 110,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "cream",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 110,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          }
+        ],
+        "image": "nikon-detail-orbit.png",
+        "image_sha256": "d891158897969152dfe7fe36c4f610482483d37b027594c993b018a57b1f6d78",
+        "counters": {
+          "generation": 40,
+          "planar.updateCount": 35,
+          "planar.captureCount": 105,
+          "planar.receivers.0.captures": 35,
+          "planar.receivers.1.captures": 34,
+          "planar.receivers.2.captures": 34,
+          "curved.updateCount": 4,
+          "curved.captureCount": 4,
+          "curved.probes.0.captureCount": 1,
+          "curved.probes.1.captureCount": 1,
+          "curved.probes.2.captureCount": 1,
+          "curved.probes.3.captureCount": 1
+        }
+      },
+      "before_motion": {
+        "asset": "nikon",
+        "camera": [
+          0.8748932081445949,
+          0,
+          -0.4843158828104428,
+          0,
+          -0.18226628531314082,
+          0.9264825944796726,
+          -0.32925522526508705,
+          0,
+          0.4487102356539321,
+          0.37633761720855713,
+          0.8105733293744486,
+          0,
+          0.34026319637800395,
+          0.4052207454934518,
+          0.6204754518335516,
+          1
+        ],
+        "projection": [
+          2.8571588214600214,
+          0,
+          0,
+          0,
+          0,
+          3.4874144438409087,
+          0,
+          0,
+          0,
+          0,
+          -1.0011932114523285,
+          -1,
+          0,
+          0,
+          -0.013837362133054374,
+          0
+        ],
+        "q": {
+          "stage_z": -8.353283079578108e-21,
+          "stage_y": 0,
+          "stage_x": 0,
+          "y_angle": 0,
+          "x_angle": 0,
+          "coarse_angle": 0,
+          "fine_angle": 0,
+          "turret_angle": 0,
+          "light_path_travel": 0.012
+        },
+        "poses": {
+          "stand": {
+            "p": [
+              0,
+              0,
+              0
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "lift": {
+            "p": [
+              0,
+              0,
+              -8.154054450554846e-21
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "carriage_y": {
+            "p": [
+              0,
+              0,
+              -8.154054450554846e-21
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "carriage_x": {
+            "p": [
+              0,
+              0,
+              -8.154054450554846e-21
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "knob_y": {
+            "p": [
+              0.109,
+              -0.064,
+              0.072
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "knob_x": {
+            "p": [
+              0.109,
+              -0.064,
+              0.048
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "coarse": {
+            "p": [
+              0.083,
+              0,
+              0.056
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "fine": {
+            "p": [
+              0.103,
+              0,
+              0.056
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "turret": {
+            "p": [
+              0,
+              -0.02932468507,
+              0.2325428782
+            ],
+            "q": [
+              0.9832549075656685,
+              0.1822355254829003,
+              0,
+              0
+            ]
+          },
+          "light_path_selector": {
+            "p": [
+              0.073,
+              -0.065,
+              0.355
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "time": 0.02000000000000001,
+        "paused": true,
+        "reflections": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "generation": 42,
+          "asset": "nikon",
+          "planar": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "updateCount": 37,
+            "captureCount": 111,
+            "receiverCount": 3,
+            "lastUpdateMs": 5.099999904632568,
+            "receivers": [
+              {
+                "label": "Laboratory bench",
+                "area": 0,
+                "captures": 37,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  2.220446049250313e-16,
+                  0.001
+                ]
+              },
+              {
+                "label": "stand__edge plane 0.29676",
+                "area": 0.03494984263208867,
+                "captures": 36,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.2967600222764304
+                ]
+              },
+              {
+                "label": "stand__cream plane 0.34200",
+                "area": 0.03241760568975793,
+                "captures": 36,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.3420000076293945
+                ]
+              }
+            ]
+          },
+          "curved": {
+            "pending": false,
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "preparing": false,
+            "dirty": false,
+            "nextProbe": 0,
+            "updateCount": 4,
+            "captureCount": 4,
+            "lastUpdateMs": 6.300000190734863,
+            "lastCaptureMs": 6.300000190734863,
+            "additionalSamplers": 1,
+            "probes": [
+              {
+                "index": 0,
+                "center": [
+                  0,
+                  0.1904999999686543,
+                  0.06199999999730944
+                ],
+                "radius": 0.0145,
+                "length": 0.05899999999574959,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 1,
+                "center": [
+                  -0.03567854266,
+                  0.19648243527942813,
+                  0.04595933260074164
+                ],
+                "radius": 0.0145,
+                "length": 0.05934999999584439,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 5,
+                "center": [
+                  0.04163420964,
+                  0.2172095475770811,
+                  0.013259962108819712
+                ],
+                "radius": 0.0145,
+                "length": 0.04299999999878943,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 6,
+                "center": [
+                  0.034648868865,
+                  0.19997973323828355,
+                  0.04642226223822452
+                ],
+                "radius": 0.0145,
+                "length": 0.05199999999954935,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              }
+            ],
+            "resolution": 256,
+            "parallax": false,
+            "correctAxes": true
+          }
+        },
+        "bound_reflection_uniforms": [
+          {
+            "label": "Laboratory bench",
+            "target": 48,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 48,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "stand__edge plane 0.29676",
+            "target": 108,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "edge",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 108,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "stand__cream plane 0.34200",
+            "target": 110,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "cream",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 110,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          }
+        ],
+        "image": "nikon-detail-pre-motion.png",
+        "image_sha256": "322a8d0ee89c24ae4be0c70acf876c70e76b9f8caab88cf7238d20fa44a592b7",
+        "counters": {
+          "generation": 42,
+          "planar.updateCount": 37,
+          "planar.captureCount": 111,
+          "planar.receivers.0.captures": 37,
+          "planar.receivers.1.captures": 36,
+          "planar.receivers.2.captures": 36,
+          "curved.updateCount": 4,
+          "curved.captureCount": 4,
+          "curved.probes.0.captureCount": 1,
+          "curved.probes.1.captureCount": 1,
+          "curved.probes.2.captureCount": 1,
+          "curved.probes.3.captureCount": 1
+        }
+      },
+      "moved": {
+        "asset": "nikon",
+        "camera": [
+          0.8748932081464738,
+          -1.3877787807814457e-17,
+          -0.48431588280704857,
+          0,
+          -0.18226628531219297,
+          0.9264825944793963,
+          -0.3292552252663893,
+          0,
+          0.44871023565065354,
+          0.3763376172092374,
+          0.8105733293759475,
+          0,
+          0.34026319637573454,
+          0.4052207454939202,
+          0.6204754518345836,
+          1
+        ],
+        "projection": [
+          2.8571588214600214,
+          0,
+          0,
+          0,
+          0,
+          3.4874144438409087,
+          0,
+          0,
+          0,
+          0,
+          -1.0011932114523285,
+          -1,
+          0,
+          0,
+          -0.013837362133054266,
+          0
+        ],
+        "q": {
+          "stage_z": 6.693794106377524e-16,
+          "stage_y": 0,
+          "stage_x": 0,
+          "y_angle": 0,
+          "x_angle": 0,
+          "coarse_angle": 0,
+          "fine_angle": 0,
+          "turret_angle": 0.8970283846210217,
+          "light_path_travel": 0.012
+        },
+        "poses": {
+          "stand": {
+            "p": [
+              0,
+              0,
+              0
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "lift": {
+            "p": [
+              0,
+              0,
+              6.69517036403063e-16
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "carriage_y": {
+            "p": [
+              0,
+              0,
+              6.69517036403063e-16
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "carriage_x": {
+            "p": [
+              0,
+              0,
+              6.69517036403063e-16
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "knob_y": {
+            "p": [
+              0.109,
+              -0.064,
+              0.07200000000000066
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "knob_x": {
+            "p": [
+              0.109,
+              -0.064,
+              0.04800000000000067
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "coarse": {
+            "p": [
+              0.083,
+              0,
+              0.056
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "fine": {
+            "p": [
+              0.103,
+              0,
+              0.056
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "turret": {
+            "p": [
+              0,
+              -0.02932468507,
+              0.2325428782
+            ],
+            "q": [
+              0.8860068167365791,
+              0.1642116572081678,
+              -0.07902099964551197,
+              0.4263591607416042
+            ]
+          },
+          "light_path_selector": {
+            "p": [
+              0.073,
+              -0.065,
+              0.355
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "time": 0.5000000000000003,
+        "paused": true,
+        "reflections": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "generation": 50,
+          "asset": "nikon",
+          "planar": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "updateCount": 42,
+            "captureCount": 126,
+            "receiverCount": 3,
+            "lastUpdateMs": 5.200000286102295,
+            "receivers": [
+              {
+                "label": "Laboratory bench",
+                "area": 0,
+                "captures": 42,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  2.220446049250313e-16,
+                  0.001
+                ]
+              },
+              {
+                "label": "stand__edge plane 0.29676",
+                "area": 0.03494984263208867,
+                "captures": 41,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.2967600222764304
+                ]
+              },
+              {
+                "label": "stand__cream plane 0.34200",
+                "area": 0.03241760568975793,
+                "captures": 41,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.3420000076293945
+                ]
+              }
+            ]
+          },
+          "curved": {
+            "pending": false,
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "preparing": false,
+            "dirty": false,
+            "nextProbe": 0,
+            "updateCount": 12,
+            "captureCount": 12,
+            "lastUpdateMs": 6.700000286102295,
+            "lastCaptureMs": 6.700000286102295,
+            "additionalSamplers": 1,
+            "probes": [
+              {
+                "index": 0,
+                "center": [
+                  0.035612881471643064,
+                  0.19664150499058436,
+                  0.04600083242301793
+                ],
+                "radius": 0.0145,
+                "length": 0.05899999999574959,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 3
+              },
+              {
+                "index": 1,
+                "center": [
+                  -0.000026697898857369617,
+                  0.19032500276069192,
+                  0.061999992722793114
+                ],
+                "radius": 0.0145,
+                "length": 0.05934999999584439,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 3
+              },
+              {
+                "index": 5,
+                "center": [
+                  0.018551473006363572,
+                  0.22758867606226862,
+                  -0.013778592010514401
+                ],
+                "radius": 0.0145,
+                "length": 0.04299999999878943,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 3
+              },
+              {
+                "index": 6,
+                "center": [
+                  0.04321219475085481,
+                  0.21340701274221388,
+                  0.011443003231981918
+                ],
+                "radius": 0.0145,
+                "length": 0.05199999999954935,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 3
+              }
+            ],
+            "resolution": 256,
+            "parallax": false,
+            "correctAxes": true
+          }
+        },
+        "bound_reflection_uniforms": [
+          {
+            "label": "Laboratory bench",
+            "target": 48,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 48,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "stand__edge plane 0.29676",
+            "target": 108,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "edge",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 108,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "stand__cream plane 0.34200",
+            "target": 110,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "cream",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 110,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          }
+        ],
+        "image": "nikon-detail-mechanism-moved.png",
+        "image_sha256": "b4c93d848564aaac2f91e0c32b2a803b05dccc264af0622e235abe1e84c1f725",
+        "counters": {
+          "generation": 50,
+          "planar.updateCount": 42,
+          "planar.captureCount": 126,
+          "planar.receivers.0.captures": 42,
+          "planar.receivers.1.captures": 41,
+          "planar.receivers.2.captures": 41,
+          "curved.updateCount": 12,
+          "curved.captureCount": 12,
+          "curved.probes.0.captureCount": 3,
+          "curved.probes.1.captureCount": 3,
+          "curved.probes.2.captureCount": 3,
+          "curved.probes.3.captureCount": 3
+        }
+      },
+      "advanced_reflection_counters": [
+        [
+          "generation",
+          50
+        ],
+        [
+          "planar.updateCount",
+          42
+        ],
+        [
+          "planar.captureCount",
+          126
+        ],
+        [
+          "planar.receivers.0.captures",
+          42
+        ],
+        [
+          "planar.receivers.1.captures",
+          41
+        ],
+        [
+          "planar.receivers.2.captures",
+          41
+        ],
+        [
+          "curved.updateCount",
+          12
+        ],
+        [
+          "curved.captureCount",
+          12
+        ],
+        [
+          "curved.probes.0.captureCount",
+          3
+        ],
+        [
+          "curved.probes.1.captureCount",
+          3
+        ],
+        [
+          "curved.probes.2.captureCount",
+          3
+        ],
+        [
+          "curved.probes.3.captureCount",
+          3
+        ]
+      ]
+    },
+    {
+      "asset": "transfer",
+      "phase": "complete",
+      "before": {
+        "asset": "transfer",
+        "camera": [
+          0.8748932080303642,
+          -2.7755575615628914e-17,
+          -0.48431588301679496,
+          0,
+          -0.18226628537079007,
+          0.9264825944964542,
+          -0.3292552251859528,
+          0,
+          0.44871023585324143,
+          0.3763376171672435,
+          0.810573329283298,
+          0,
+          0.40987282342187126,
+          0.5305384970635133,
+          0.796544455213725,
+          1
+        ],
+        "projection": [
+          2.8571588214600214,
+          0,
+          0,
+          0,
+          0,
+          3.4874144438409087,
+          0,
+          0,
+          0,
+          0,
+          -1.0011932114523283,
+          -1,
+          0,
+          0,
+          -0.019171806374861856,
+          0
+        ],
+        "q": {
+          "scope_focus_travel": -8.435905876165832e-8,
+          "light_path_travel": 0.012,
+          "objective_angle": 5.527515919851831e-22,
+          "sample_x_travel": 4.5886028152045805e-17,
+          "sample_y_travel": -2.993222579714504e-17,
+          "sample_fine_angle": -1.2916829352580959e-14,
+          "rotation_lock_angle": 2.20521200168271e-21,
+          "sample_theta_angle": 8.340388838628251e-12,
+          "rotation_fine_spindle_travel": -2.1064095543458907e-15,
+          "rotation_fine_knob_angle": 6.86718693288106e-13,
+          "sample_y_spindle_travel": 2.31590249774849e-17,
+          "sample_y_angle": -2.910470506099084e-13,
+          "sample_x_spindle_travel": -3.838276989140854e-17,
+          "sample_x_angle": 4.823580473165728e-13,
+          "stamp_x_travel": 4.3098638969023726e-26,
+          "stamp_y_travel": -1.0809718913265022e-31,
+          "stamp_z_travel": 8.266580735360822e-11,
+          "stamp_tilt_angle": -0.00001608445068728802,
+          "goniometer_spindle_travel": -0.0000014407322871493698,
+          "goniometer_knob_angle": -0.007350353923438735,
+          "stamp_z_spindle_travel": -4.164189509460254e-9,
+          "stamp_z_angle": 2.9617521999073126e-7,
+          "stamp_y_spindle_travel": 1.9753601198395647e-32,
+          "stamp_y_angle": -2.481558548849227e-28,
+          "stamp_x_spindle_travel": 4.3094091022394254e-26,
+          "stamp_x_angle": 8.884831879821395e-22,
+          "illumination_angle": 4.712388980383893,
+          "illumination_power_angle": 0.35
+        },
+        "poses": {
+          "base": {
+            "p": [
+              0,
+              0,
+              0
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "scope_focus": {
+            "p": [
+              -0.105,
+              0.044,
+              0.36399991683972716
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "light_path_selector": {
+            "p": [
+              -0.029999999999999995,
+              0.039999999999999994,
+              0.3929999168397272
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "objective_turret": {
+            "p": [
+              -0.105,
+              0.006157388699999995,
+              0.27399991683972713
+            ],
+            "q": [
+              0.9867143147216887,
+              0.16246495352323903,
+              -4.4838524504023415e-23,
+              2.723222025406889e-22
+            ]
+          },
+          "sample_x": {
+            "p": [
+              -0.10499999999999995,
+              -0.02,
+              0.04
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_y": {
+            "p": [
+              -0.10499999999999995,
+              -0.02000000000000003,
+              0.063
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_fine": {
+            "p": [
+              -0.10499999999999995,
+              -0.02000000000000003,
+              0.11399999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              -6.621705912573937e-15
+            ]
+          },
+          "rotation_clamp": {
+            "p": [
+              -0.12600000000000042,
+              -0.05499999999999976,
+              0.104
+            ],
+            "q": [
+              1,
+              -7.030349269889722e-36,
+              -1.061712701033704e-21,
+              -6.621705912573937e-15
+            ]
+          },
+          "sample_theta": {
+            "p": [
+              -0.10499999999999995,
+              -0.02000000000000003,
+              0.11399999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              4.141316004222029e-12
+            ]
+          },
+          "rotation_fine_spindle": {
+            "p": [
+              -0.06599999999999995,
+              -0.033999999999997914,
+              0.099
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "rotation_fine_knob": {
+            "p": [
+              -0.06599999999999995,
+              -0.06799999999999792,
+              0.099
+            ],
+            "q": [
+              1,
+              0,
+              -3.4968055121428296e-13,
+              0
+            ]
+          },
+          "sample_y_spindle": {
+            "p": [
+              -0.10499999999999995,
+              -0.07400000000000002,
+              0.057999999999999996
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_y_knob": {
+            "p": [
+              -0.10499999999999995,
+              -0.10800000000000003,
+              0.057999999999999996
+            ],
+            "q": [
+              1,
+              0,
+              1.4486631563652488e-13,
+              0
+            ]
+          },
+          "sample_x_spindle": {
+            "p": [
+              -0.16699999999999998,
+              -0.02,
+              0.035
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_x_knob": {
+            "p": [
+              -0.20099999999999998,
+              -0.02,
+              0.035
+            ],
+            "q": [
+              1,
+              -2.4008698571332635e-13,
+              0,
+              0
+            ]
+          },
+          "stamp_x": {
+            "p": [
+              0.15,
+              -0.02,
+              0.094
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_y": {
+            "p": [
+              0.15,
+              -0.02,
+              0.121
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_z": {
+            "p": [
+              0.15,
+              -0.02,
+              0.17200000010558203
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_tilt": {
+            "p": [
+              0.03,
+              -0.02,
+              0.18200000010558204
+            ],
+            "q": [
+              0.999999999969293,
+              0,
+              -0.000007836704132939575,
+              0
+            ]
+          },
+          "goniometer_spindle": {
+            "p": [
+              0.077,
+              -0.02,
+              0.21599856721174152
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "goniometer_knob": {
+            "p": [
+              0.077,
+              -0.02,
+              0.22999856721174153
+            ],
+            "q": [
+              0.9999934276321213,
+              0,
+              0,
+              -0.003625560999537339
+            ]
+          },
+          "stamp_z_spindle": {
+            "p": [
+              0.0875,
+              -0.0625,
+              0.15599999585265215
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_z_knob": {
+            "p": [
+              0.0875,
+              -0.0625,
+              0.18999999585265215
+            ],
+            "q": [
+              0.9999999999999886,
+              0,
+              0,
+              1.5154197301752747e-7
+            ]
+          },
+          "stamp_y_spindle": {
+            "p": [
+              0.15,
+              -0.0735,
+              0.11599999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_y_knob": {
+            "p": [
+              0.15,
+              -0.1075,
+              0.11599999999999999
+            ],
+            "q": [
+              1,
+              0,
+              1.2157840404817782e-28,
+              0
+            ]
+          },
+          "stamp_x_spindle": {
+            "p": [
+              0.2185,
+              -0.02,
+              0.089
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_x_knob": {
+            "p": [
+              0.2525,
+              -0.02,
+              0.089
+            ],
+            "q": [
+              1,
+              4.4416419074295535e-22,
+              0,
+              0
+            ]
+          },
+          "illuminator_dimmer": {
+            "p": [
+              0.361,
+              0.03944703674,
+              0.08788057709
+            ],
+            "q": [
+              -0.5573453755214648,
+              -0.4351621908948991,
+              -0.4351621908952374,
+              0.5573453755218981
+            ]
+          },
+          "illuminator_power": {
+            "p": [
+              0.395,
+              0.0341,
+              0.026
+            ],
+            "q": [
+              0.9847265389049334,
+              0.17410813759359595,
+              0,
+              0
+            ]
+          }
+        },
+        "time": 0.08000000000000006,
+        "paused": true,
+        "reflections": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "generation": 59,
+          "asset": "transfer",
+          "planar": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "updateCount": 48,
+            "captureCount": 144,
+            "receiverCount": 3,
+            "lastUpdateMs": 8.900000095367432,
+            "receivers": [
+              {
+                "label": "Laboratory bench",
+                "area": 0,
+                "captures": 48,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  2.220446049250313e-16,
+                  0.001
+                ]
+              },
+              {
+                "label": "base__brushed plane 0.02400",
+                "area": 0.26798761552601985,
+                "captures": 5,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.02400000030414222
+                ]
+              },
+              {
+                "label": "base__alloy plane 0.06000",
+                "area": 0.04499624803854019,
+                "captures": 5,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.06000000424683094
+                ]
+              }
+            ]
+          },
+          "curved": {
+            "pending": false,
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "preparing": false,
+            "dirty": false,
+            "nextProbe": 1,
+            "updateCount": 16,
+            "captureCount": 16,
+            "lastUpdateMs": 4.799999713897705,
+            "lastCaptureMs": 4.799999713897705,
+            "additionalSamplers": 1,
+            "probes": [
+              {
+                "index": 0,
+                "center": [
+                  -0.10499999999999998,
+                  0.21908881135494954,
+                  0.020000000004774924
+                ],
+                "radius": 0.017,
+                "length": 0.07099999999952272,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 2
+              },
+              {
+                "index": 1,
+                "center": [
+                  -0.06341977130999998,
+                  0.23491997282371527,
+                  -0.019385219960196064
+                ],
+                "radius": 0.017,
+                "length": 0.06599999999925878,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 2,
+                "center": [
+                  -0.10499999999999998,
+                  0.25103158546132626,
+                  -0.056644624485614914
+                ],
+                "radius": 0.017,
+                "length": 0.059000000001366376,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              }
+            ],
+            "resolution": 256,
+            "parallax": false,
+            "correctAxes": true
+          }
+        },
+        "bound_reflection_uniforms": [
+          {
+            "label": "Laboratory bench",
+            "target": 48,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 48,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "base__brushed plane 0.02400",
+            "target": 185,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "brushed",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 185,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "base__alloy plane 0.06000",
+            "target": 187,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "alloy",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 187,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          }
+        ],
+        "image": "transfer-detail-before.png",
+        "image_sha256": "037149029b06b2ec2c20c8d4ef5a56f8b2154b9af205be7f125e7c5d363520ce",
+        "counters": {
+          "generation": 59,
+          "planar.updateCount": 48,
+          "planar.captureCount": 144,
+          "planar.receivers.0.captures": 48,
+          "planar.receivers.1.captures": 5,
+          "planar.receivers.2.captures": 5,
+          "curved.updateCount": 16,
+          "curved.captureCount": 16,
+          "curved.probes.0.captureCount": 2,
+          "curved.probes.1.captureCount": 1,
+          "curved.probes.2.captureCount": 1
+        }
+      },
+      "orbit": {
+        "asset": "transfer",
+        "camera": [
+          0.8816672372397518,
+          0,
+          0.471871680415368,
+          0,
+          0.25635705141252285,
+          0.8395534849467878,
+          -0.4789895699331884,
+          0,
+          -0.3961615137404192,
+          0.5432770434260071,
+          0.7402068015880401,
+          0,
+          -0.3995301618623557,
+          0.6904695990804358,
+          0.72913200165729,
+          1
+        ],
+        "projection": [
+          2.8571588214600214,
+          0,
+          0,
+          0,
+          0,
+          3.487414443840909,
+          0,
+          0,
+          0,
+          0,
+          -1.0011932114523283,
+          -1,
+          0,
+          0,
+          -0.019171806374861867,
+          0
+        ],
+        "q": {
+          "scope_focus_travel": -8.435905876165832e-8,
+          "light_path_travel": 0.012,
+          "objective_angle": 5.527515919851831e-22,
+          "sample_x_travel": 4.5886028152045805e-17,
+          "sample_y_travel": -2.993222579714504e-17,
+          "sample_fine_angle": -1.2916829352580959e-14,
+          "rotation_lock_angle": 2.20521200168271e-21,
+          "sample_theta_angle": 8.340388838628251e-12,
+          "rotation_fine_spindle_travel": -2.1064095543458907e-15,
+          "rotation_fine_knob_angle": 6.86718693288106e-13,
+          "sample_y_spindle_travel": 2.31590249774849e-17,
+          "sample_y_angle": -2.910470506099084e-13,
+          "sample_x_spindle_travel": -3.838276989140854e-17,
+          "sample_x_angle": 4.823580473165728e-13,
+          "stamp_x_travel": 4.3098638969023726e-26,
+          "stamp_y_travel": -1.0809718913265022e-31,
+          "stamp_z_travel": 8.266580735360822e-11,
+          "stamp_tilt_angle": -0.00001608445068728802,
+          "goniometer_spindle_travel": -0.0000014407322871493698,
+          "goniometer_knob_angle": -0.007350353923438735,
+          "stamp_z_spindle_travel": -4.164189509460254e-9,
+          "stamp_z_angle": 2.9617521999073126e-7,
+          "stamp_y_spindle_travel": 1.9753601198395647e-32,
+          "stamp_y_angle": -2.481558548849227e-28,
+          "stamp_x_spindle_travel": 4.3094091022394254e-26,
+          "stamp_x_angle": 8.884831879821395e-22,
+          "illumination_angle": 4.712388980383893,
+          "illumination_power_angle": 0.35
+        },
+        "poses": {
+          "base": {
+            "p": [
+              0,
+              0,
+              0
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "scope_focus": {
+            "p": [
+              -0.105,
+              0.044,
+              0.36399991683972716
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "light_path_selector": {
+            "p": [
+              -0.029999999999999995,
+              0.039999999999999994,
+              0.3929999168397272
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "objective_turret": {
+            "p": [
+              -0.105,
+              0.006157388699999995,
+              0.27399991683972713
+            ],
+            "q": [
+              0.9867143147216887,
+              0.16246495352323903,
+              -4.4838524504023415e-23,
+              2.723222025406889e-22
+            ]
+          },
+          "sample_x": {
+            "p": [
+              -0.10499999999999995,
+              -0.02,
+              0.04
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_y": {
+            "p": [
+              -0.10499999999999995,
+              -0.02000000000000003,
+              0.063
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_fine": {
+            "p": [
+              -0.10499999999999995,
+              -0.02000000000000003,
+              0.11399999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              -6.621705912573937e-15
+            ]
+          },
+          "rotation_clamp": {
+            "p": [
+              -0.12600000000000042,
+              -0.05499999999999976,
+              0.104
+            ],
+            "q": [
+              1,
+              -7.030349269889722e-36,
+              -1.061712701033704e-21,
+              -6.621705912573937e-15
+            ]
+          },
+          "sample_theta": {
+            "p": [
+              -0.10499999999999995,
+              -0.02000000000000003,
+              0.11399999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              4.141316004222029e-12
+            ]
+          },
+          "rotation_fine_spindle": {
+            "p": [
+              -0.06599999999999995,
+              -0.033999999999997914,
+              0.099
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "rotation_fine_knob": {
+            "p": [
+              -0.06599999999999995,
+              -0.06799999999999792,
+              0.099
+            ],
+            "q": [
+              1,
+              0,
+              -3.4968055121428296e-13,
+              0
+            ]
+          },
+          "sample_y_spindle": {
+            "p": [
+              -0.10499999999999995,
+              -0.07400000000000002,
+              0.057999999999999996
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_y_knob": {
+            "p": [
+              -0.10499999999999995,
+              -0.10800000000000003,
+              0.057999999999999996
+            ],
+            "q": [
+              1,
+              0,
+              1.4486631563652488e-13,
+              0
+            ]
+          },
+          "sample_x_spindle": {
+            "p": [
+              -0.16699999999999998,
+              -0.02,
+              0.035
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_x_knob": {
+            "p": [
+              -0.20099999999999998,
+              -0.02,
+              0.035
+            ],
+            "q": [
+              1,
+              -2.4008698571332635e-13,
+              0,
+              0
+            ]
+          },
+          "stamp_x": {
+            "p": [
+              0.15,
+              -0.02,
+              0.094
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_y": {
+            "p": [
+              0.15,
+              -0.02,
+              0.121
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_z": {
+            "p": [
+              0.15,
+              -0.02,
+              0.17200000010558203
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_tilt": {
+            "p": [
+              0.03,
+              -0.02,
+              0.18200000010558204
+            ],
+            "q": [
+              0.999999999969293,
+              0,
+              -0.000007836704132939575,
+              0
+            ]
+          },
+          "goniometer_spindle": {
+            "p": [
+              0.077,
+              -0.02,
+              0.21599856721174152
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "goniometer_knob": {
+            "p": [
+              0.077,
+              -0.02,
+              0.22999856721174153
+            ],
+            "q": [
+              0.9999934276321213,
+              0,
+              0,
+              -0.003625560999537339
+            ]
+          },
+          "stamp_z_spindle": {
+            "p": [
+              0.0875,
+              -0.0625,
+              0.15599999585265215
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_z_knob": {
+            "p": [
+              0.0875,
+              -0.0625,
+              0.18999999585265215
+            ],
+            "q": [
+              0.9999999999999886,
+              0,
+              0,
+              1.5154197301752747e-7
+            ]
+          },
+          "stamp_y_spindle": {
+            "p": [
+              0.15,
+              -0.0735,
+              0.11599999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_y_knob": {
+            "p": [
+              0.15,
+              -0.1075,
+              0.11599999999999999
+            ],
+            "q": [
+              1,
+              0,
+              1.2157840404817782e-28,
+              0
+            ]
+          },
+          "stamp_x_spindle": {
+            "p": [
+              0.2185,
+              -0.02,
+              0.089
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_x_knob": {
+            "p": [
+              0.2525,
+              -0.02,
+              0.089
+            ],
+            "q": [
+              1,
+              4.4416419074295535e-22,
+              0,
+              0
+            ]
+          },
+          "illuminator_dimmer": {
+            "p": [
+              0.361,
+              0.03944703674,
+              0.08788057709
+            ],
+            "q": [
+              -0.5573453755214648,
+              -0.4351621908948991,
+              -0.4351621908952374,
+              0.5573453755218981
+            ]
+          },
+          "illuminator_power": {
+            "p": [
+              0.395,
+              0.0341,
+              0.026
+            ],
+            "q": [
+              0.9847265389049334,
+              0.17410813759359595,
+              0,
+              0
+            ]
+          }
+        },
+        "time": 0.08000000000000006,
+        "paused": true,
+        "reflections": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "generation": 83,
+          "asset": "transfer",
+          "planar": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "updateCount": 72,
+            "captureCount": 216,
+            "receiverCount": 3,
+            "lastUpdateMs": 10.599999904632568,
+            "receivers": [
+              {
+                "label": "Laboratory bench",
+                "area": 0,
+                "captures": 72,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  2.220446049250313e-16,
+                  0.001
+                ]
+              },
+              {
+                "label": "base__brushed plane 0.02400",
+                "area": 0.26798761552601985,
+                "captures": 29,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.02400000030414222
+                ]
+              },
+              {
+                "label": "base__alloy plane 0.06000",
+                "area": 0.04499624803854019,
+                "captures": 29,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.06000000424683094
+                ]
+              }
+            ]
+          },
+          "curved": {
+            "pending": false,
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "preparing": false,
+            "dirty": false,
+            "nextProbe": 1,
+            "updateCount": 16,
+            "captureCount": 16,
+            "lastUpdateMs": 4.799999713897705,
+            "lastCaptureMs": 4.799999713897705,
+            "additionalSamplers": 1,
+            "probes": [
+              {
+                "index": 0,
+                "center": [
+                  -0.10499999999999998,
+                  0.21908881135494954,
+                  0.020000000004774924
+                ],
+                "radius": 0.017,
+                "length": 0.07099999999952272,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 2
+              },
+              {
+                "index": 1,
+                "center": [
+                  -0.06341977130999998,
+                  0.23491997282371527,
+                  -0.019385219960196064
+                ],
+                "radius": 0.017,
+                "length": 0.06599999999925878,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 2,
+                "center": [
+                  -0.10499999999999998,
+                  0.25103158546132626,
+                  -0.056644624485614914
+                ],
+                "radius": 0.017,
+                "length": 0.059000000001366376,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              }
+            ],
+            "resolution": 256,
+            "parallax": false,
+            "correctAxes": true
+          }
+        },
+        "bound_reflection_uniforms": [
+          {
+            "label": "Laboratory bench",
+            "target": 48,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 48,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "base__brushed plane 0.02400",
+            "target": 185,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "brushed",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 185,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "base__alloy plane 0.06000",
+            "target": 187,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "alloy",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 187,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          }
+        ],
+        "image": "transfer-detail-orbit.png",
+        "image_sha256": "c7cfbd9f92d23b2d26f53fbafb5cfe7a457c74951bcd60f3e6a4d8738995cdcb",
+        "counters": {
+          "generation": 83,
+          "planar.updateCount": 72,
+          "planar.captureCount": 216,
+          "planar.receivers.0.captures": 72,
+          "planar.receivers.1.captures": 29,
+          "planar.receivers.2.captures": 29,
+          "curved.updateCount": 16,
+          "curved.captureCount": 16,
+          "curved.probes.0.captureCount": 2,
+          "curved.probes.1.captureCount": 1,
+          "curved.probes.2.captureCount": 1
+        }
+      },
+      "before_motion": {
+        "asset": "transfer",
+        "camera": [
+          0.8748932081387871,
+          0,
+          -0.4843158828209342,
+          0,
+          -0.18226628531607214,
+          0.9264825944805256,
+          -0.3292552252610642,
+          0,
+          0.4487102356640653,
+          0.3763376172064573,
+          0.8105733293698141,
+          0,
+          0.40987282324063695,
+          0.5305384971010808,
+          0.796544455296609,
+          1
+        ],
+        "projection": [
+          2.8571588214600214,
+          0,
+          0,
+          0,
+          0,
+          3.4874144438409087,
+          0,
+          0,
+          0,
+          0,
+          -1.0011932114523283,
+          -1,
+          0,
+          0,
+          -0.019171806374861856,
+          0
+        ],
+        "q": {
+          "scope_focus_travel": -8.435905876165832e-8,
+          "light_path_travel": 0.012,
+          "objective_angle": 5.527515919851831e-22,
+          "sample_x_travel": 4.5886028152045805e-17,
+          "sample_y_travel": -2.993222579714504e-17,
+          "sample_fine_angle": -1.2916829352580959e-14,
+          "rotation_lock_angle": 2.20521200168271e-21,
+          "sample_theta_angle": 8.340388838628251e-12,
+          "rotation_fine_spindle_travel": -2.1064095543458907e-15,
+          "rotation_fine_knob_angle": 6.86718693288106e-13,
+          "sample_y_spindle_travel": 2.31590249774849e-17,
+          "sample_y_angle": -2.910470506099084e-13,
+          "sample_x_spindle_travel": -3.838276989140854e-17,
+          "sample_x_angle": 4.823580473165728e-13,
+          "stamp_x_travel": 4.3098638969023726e-26,
+          "stamp_y_travel": -1.0809718913265022e-31,
+          "stamp_z_travel": 8.266580735360822e-11,
+          "stamp_tilt_angle": -0.00001608445068728802,
+          "goniometer_spindle_travel": -0.0000014407322871493698,
+          "goniometer_knob_angle": -0.007350353923438735,
+          "stamp_z_spindle_travel": -4.164189509460254e-9,
+          "stamp_z_angle": 2.9617521999073126e-7,
+          "stamp_y_spindle_travel": 1.9753601198395647e-32,
+          "stamp_y_angle": -2.481558548849227e-28,
+          "stamp_x_spindle_travel": 4.3094091022394254e-26,
+          "stamp_x_angle": 8.884831879821395e-22,
+          "illumination_angle": 4.712388980383893,
+          "illumination_power_angle": 0.35
+        },
+        "poses": {
+          "base": {
+            "p": [
+              0,
+              0,
+              0
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "scope_focus": {
+            "p": [
+              -0.105,
+              0.044,
+              0.36399991683972716
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "light_path_selector": {
+            "p": [
+              -0.029999999999999995,
+              0.039999999999999994,
+              0.3929999168397272
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "objective_turret": {
+            "p": [
+              -0.105,
+              0.006157388699999995,
+              0.27399991683972713
+            ],
+            "q": [
+              0.9867143147216887,
+              0.16246495352323903,
+              -4.4838524504023415e-23,
+              2.723222025406889e-22
+            ]
+          },
+          "sample_x": {
+            "p": [
+              -0.10499999999999995,
+              -0.02,
+              0.04
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_y": {
+            "p": [
+              -0.10499999999999995,
+              -0.02000000000000003,
+              0.063
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_fine": {
+            "p": [
+              -0.10499999999999995,
+              -0.02000000000000003,
+              0.11399999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              -6.621705912573937e-15
+            ]
+          },
+          "rotation_clamp": {
+            "p": [
+              -0.12600000000000042,
+              -0.05499999999999976,
+              0.104
+            ],
+            "q": [
+              1,
+              -7.030349269889722e-36,
+              -1.061712701033704e-21,
+              -6.621705912573937e-15
+            ]
+          },
+          "sample_theta": {
+            "p": [
+              -0.10499999999999995,
+              -0.02000000000000003,
+              0.11399999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              4.141316004222029e-12
+            ]
+          },
+          "rotation_fine_spindle": {
+            "p": [
+              -0.06599999999999995,
+              -0.033999999999997914,
+              0.099
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "rotation_fine_knob": {
+            "p": [
+              -0.06599999999999995,
+              -0.06799999999999792,
+              0.099
+            ],
+            "q": [
+              1,
+              0,
+              -3.4968055121428296e-13,
+              0
+            ]
+          },
+          "sample_y_spindle": {
+            "p": [
+              -0.10499999999999995,
+              -0.07400000000000002,
+              0.057999999999999996
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_y_knob": {
+            "p": [
+              -0.10499999999999995,
+              -0.10800000000000003,
+              0.057999999999999996
+            ],
+            "q": [
+              1,
+              0,
+              1.4486631563652488e-13,
+              0
+            ]
+          },
+          "sample_x_spindle": {
+            "p": [
+              -0.16699999999999998,
+              -0.02,
+              0.035
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_x_knob": {
+            "p": [
+              -0.20099999999999998,
+              -0.02,
+              0.035
+            ],
+            "q": [
+              1,
+              -2.4008698571332635e-13,
+              0,
+              0
+            ]
+          },
+          "stamp_x": {
+            "p": [
+              0.15,
+              -0.02,
+              0.094
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_y": {
+            "p": [
+              0.15,
+              -0.02,
+              0.121
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_z": {
+            "p": [
+              0.15,
+              -0.02,
+              0.17200000010558203
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_tilt": {
+            "p": [
+              0.03,
+              -0.02,
+              0.18200000010558204
+            ],
+            "q": [
+              0.999999999969293,
+              0,
+              -0.000007836704132939575,
+              0
+            ]
+          },
+          "goniometer_spindle": {
+            "p": [
+              0.077,
+              -0.02,
+              0.21599856721174152
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "goniometer_knob": {
+            "p": [
+              0.077,
+              -0.02,
+              0.22999856721174153
+            ],
+            "q": [
+              0.9999934276321213,
+              0,
+              0,
+              -0.003625560999537339
+            ]
+          },
+          "stamp_z_spindle": {
+            "p": [
+              0.0875,
+              -0.0625,
+              0.15599999585265215
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_z_knob": {
+            "p": [
+              0.0875,
+              -0.0625,
+              0.18999999585265215
+            ],
+            "q": [
+              0.9999999999999886,
+              0,
+              0,
+              1.5154197301752747e-7
+            ]
+          },
+          "stamp_y_spindle": {
+            "p": [
+              0.15,
+              -0.0735,
+              0.11599999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_y_knob": {
+            "p": [
+              0.15,
+              -0.1075,
+              0.11599999999999999
+            ],
+            "q": [
+              1,
+              0,
+              1.2157840404817782e-28,
+              0
+            ]
+          },
+          "stamp_x_spindle": {
+            "p": [
+              0.2185,
+              -0.02,
+              0.089
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_x_knob": {
+            "p": [
+              0.2525,
+              -0.02,
+              0.089
+            ],
+            "q": [
+              1,
+              4.4416419074295535e-22,
+              0,
+              0
+            ]
+          },
+          "illuminator_dimmer": {
+            "p": [
+              0.361,
+              0.03944703674,
+              0.08788057709
+            ],
+            "q": [
+              -0.5573453755214648,
+              -0.4351621908948991,
+              -0.4351621908952374,
+              0.5573453755218981
+            ]
+          },
+          "illuminator_power": {
+            "p": [
+              0.395,
+              0.0341,
+              0.026
+            ],
+            "q": [
+              0.9847265389049334,
+              0.17410813759359595,
+              0,
+              0
+            ]
+          }
+        },
+        "time": 0.08000000000000006,
+        "paused": true,
+        "reflections": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "generation": 85,
+          "asset": "transfer",
+          "planar": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "updateCount": 74,
+            "captureCount": 222,
+            "receiverCount": 3,
+            "lastUpdateMs": 9.400000095367432,
+            "receivers": [
+              {
+                "label": "Laboratory bench",
+                "area": 0,
+                "captures": 74,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  2.220446049250313e-16,
+                  0.001
+                ]
+              },
+              {
+                "label": "base__brushed plane 0.02400",
+                "area": 0.26798761552601985,
+                "captures": 31,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.02400000030414222
+                ]
+              },
+              {
+                "label": "base__alloy plane 0.06000",
+                "area": 0.04499624803854019,
+                "captures": 31,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.06000000424683094
+                ]
+              }
+            ]
+          },
+          "curved": {
+            "pending": false,
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "preparing": false,
+            "dirty": false,
+            "nextProbe": 1,
+            "updateCount": 16,
+            "captureCount": 16,
+            "lastUpdateMs": 4.799999713897705,
+            "lastCaptureMs": 4.799999713897705,
+            "additionalSamplers": 1,
+            "probes": [
+              {
+                "index": 0,
+                "center": [
+                  -0.10499999999999998,
+                  0.21908881135494954,
+                  0.020000000004774924
+                ],
+                "radius": 0.017,
+                "length": 0.07099999999952272,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 2
+              },
+              {
+                "index": 1,
+                "center": [
+                  -0.06341977130999998,
+                  0.23491997282371527,
+                  -0.019385219960196064
+                ],
+                "radius": 0.017,
+                "length": 0.06599999999925878,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              },
+              {
+                "index": 2,
+                "center": [
+                  -0.10499999999999998,
+                  0.25103158546132626,
+                  -0.056644624485614914
+                ],
+                "radius": 0.017,
+                "length": 0.059000000001366376,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 1
+              }
+            ],
+            "resolution": 256,
+            "parallax": false,
+            "correctAxes": true
+          }
+        },
+        "bound_reflection_uniforms": [
+          {
+            "label": "Laboratory bench",
+            "target": 48,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 48,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "base__brushed plane 0.02400",
+            "target": 185,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "brushed",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 185,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "base__alloy plane 0.06000",
+            "target": 187,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "alloy",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 187,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          }
+        ],
+        "image": "transfer-detail-pre-motion.png",
+        "image_sha256": "037149029b06b2ec2c20c8d4ef5a56f8b2154b9af205be7f125e7c5d363520ce",
+        "counters": {
+          "generation": 85,
+          "planar.updateCount": 74,
+          "planar.captureCount": 222,
+          "planar.receivers.0.captures": 74,
+          "planar.receivers.1.captures": 31,
+          "planar.receivers.2.captures": 31,
+          "curved.updateCount": 16,
+          "curved.captureCount": 16,
+          "curved.probes.0.captureCount": 2,
+          "curved.probes.1.captureCount": 1,
+          "curved.probes.2.captureCount": 1
+        }
+      },
+      "moved": {
+        "asset": "transfer",
+        "camera": [
+          0.8748932081406963,
+          1.3877787807814457e-17,
+          -0.48431588281748544,
+          0,
+          -0.1822662853151083,
+          0.9264825944802455,
+          -0.3292552252623861,
+          0,
+          0.4487102356607345,
+          0.3763376172071469,
+          0.8105733293713377,
+          0,
+          0.4098728232374452,
+          0.5305384971017411,
+          0.7965444552980674,
+          1
+        ],
+        "projection": [
+          2.857158821460021,
+          0,
+          0,
+          0,
+          0,
+          3.4874144438409087,
+          0,
+          0,
+          0,
+          0,
+          -1.0011932114523283,
+          -1,
+          0,
+          0,
+          -0.01917180637486182,
+          0
+        ],
+        "q": {
+          "scope_focus_travel": -0.0000013520085704305726,
+          "light_path_travel": 0.012,
+          "objective_angle": -4.807322777242679e-12,
+          "sample_x_travel": 0.001999496432146668,
+          "sample_y_travel": -2.5447222104257657e-8,
+          "sample_fine_angle": 1.215311027370868e-8,
+          "rotation_lock_angle": 2.761506206459743e-19,
+          "sample_theta_angle": 0.000028440956654197495,
+          "rotation_fine_spindle_travel": 1.1178864784427039e-9,
+          "rotation_fine_knob_angle": 0.000004479686508233801,
+          "sample_y_spindle_travel": 2.5452793572904812e-8,
+          "sample_y_angle": -0.0003197885772226257,
+          "sample_x_spindle_travel": -0.0019994963891620116,
+          "sample_x_angle": 25.12641285156933,
+          "stamp_x_travel": -2.2446181096039523e-24,
+          "stamp_y_travel": -1.0057726090563699e-23,
+          "stamp_z_travel": 3.087510958332923e-9,
+          "stamp_tilt_angle": -0.00014603385666509525,
+          "goniometer_spindle_travel": -0.0000059668418026234095,
+          "goniometer_knob_angle": -0.06422899141349021,
+          "stamp_z_spindle_travel": -1.1369505090646247e-9,
+          "stamp_z_angle": 0.000038799976932357106,
+          "stamp_y_spindle_travel": 1.0050187020434329e-23,
+          "stamp_y_angle": -1.2719018222819145e-19,
+          "stamp_x_spindle_travel": -2.244187444575229e-24,
+          "stamp_x_angle": -2.823889396039826e-20,
+          "illumination_angle": 4.7123889802897345,
+          "illumination_power_angle": 0.35
+        },
+        "poses": {
+          "base": {
+            "p": [
+              0,
+              0,
+              0
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "scope_focus": {
+            "p": [
+              -0.105,
+              0.044,
+              0.36399864918399794
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "light_path_selector": {
+            "p": [
+              -0.029999999999999995,
+              0.039999999999999994,
+              0.39299864918399796
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "objective_turret": {
+            "p": [
+              -0.105,
+              0.006157388699999995,
+              0.27399864918399797
+            ],
+            "q": [
+              0.9867143147216887,
+              0.16246495352323903,
+              3.9051471771357835e-13,
+              -2.3717512837152902e-12
+            ]
+          },
+          "sample_x": {
+            "p": [
+              -0.10300051262027583,
+              -0.02,
+              0.04
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_y": {
+            "p": [
+              -0.10300051262027583,
+              -0.020000025459503724,
+              0.063
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_fine": {
+            "p": [
+              -0.10300051262027583,
+              -0.020000025459503724,
+              0.11399999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              6.097460432156701e-9
+            ]
+          },
+          "rotation_clamp": {
+            "p": [
+              -0.12400051219345361,
+              -0.05500002571559707,
+              0.104
+            ],
+            "q": [
+              1,
+              8.408750393325797e-28,
+              -1.3790578039637366e-19,
+              6.097460432156701e-9
+            ]
+          },
+          "sample_theta": {
+            "p": [
+              -0.10300051262027583,
+              -0.020000025459503724,
+              0.11399999999999999
+            ],
+            "q": [
+              0.9999999998984056,
+              0,
+              0,
+              0.000014254425604972717
+            ]
+          },
+          "rotation_fine_spindle": {
+            "p": [
+              -0.06400051262027584,
+              -0.034000026585107576,
+              0.099
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "rotation_fine_knob": {
+            "p": [
+              -0.06400051262027584,
+              -0.06800002658510758,
+              0.099
+            ],
+            "q": [
+              0.9999999999974792,
+              0,
+              -0.0000022453507939515465,
+              0
+            ]
+          },
+          "sample_y_spindle": {
+            "p": [
+              -0.10300051262027583,
+              -0.07400002546510659,
+              0.057999999999999996
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_y_knob": {
+            "p": [
+              -0.10300051262027583,
+              -0.10800002546510659,
+              0.057999999999999996
+            ],
+            "q": [
+              0.9999999872045594,
+              0,
+              0.00015997150033076406,
+              0
+            ]
+          },
+          "sample_x_spindle": {
+            "p": [
+              -0.1650005126623105,
+              -0.02,
+              0.035
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "sample_x_knob": {
+            "p": [
+              -0.1990005126623105,
+              -0.02,
+              0.035
+            ],
+            "q": [
+              0.9999948123866272,
+              0.003221055701804259,
+              0,
+              0
+            ]
+          },
+          "stamp_x": {
+            "p": [
+              0.15,
+              -0.02,
+              0.094
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_y": {
+            "p": [
+              0.15,
+              -0.02,
+              0.121
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_z": {
+            "p": [
+              0.15,
+              -0.02,
+              0.17200000308774382
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_tilt": {
+            "p": [
+              0.03,
+              -0.02,
+              0.18200000308774383
+            ],
+            "q": [
+              0.9999999973351255,
+              0,
+              -0.00007300513101420682,
+              0
+            ]
+          },
+          "goniometer_spindle": {
+            "p": [
+              0.077,
+              -0.02,
+              0.21599403707175327
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "goniometer_knob": {
+            "p": [
+              0.077,
+              -0.02,
+              0.22999403707175328
+            ],
+            "q": [
+              0.9994845404919195,
+              0,
+              0,
+              -0.032103789770937724
+            ]
+          },
+          "stamp_z_spindle": {
+            "p": [
+              0.0875,
+              -0.0625,
+              0.1559999988632824
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_z_knob": {
+            "p": [
+              0.0875,
+              -0.0625,
+              0.1899999988632824
+            ],
+            "q": [
+              0.9999999998117919,
+              0,
+              0,
+              0.000019401451787141348
+            ]
+          },
+          "stamp_y_spindle": {
+            "p": [
+              0.15,
+              -0.0735,
+              0.11599999999999999
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_y_knob": {
+            "p": [
+              0.15,
+              -0.1075,
+              0.11599999999999999
+            ],
+            "q": [
+              1,
+              0,
+              6.333605148419799e-20,
+              0
+            ]
+          },
+          "stamp_x_spindle": {
+            "p": [
+              0.2185,
+              -0.02,
+              0.089
+            ],
+            "q": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "stamp_x_knob": {
+            "p": [
+              0.2525,
+              -0.02,
+              0.089
+            ],
+            "q": [
+              1,
+              -1.411963268250313e-20,
+              0,
+              0
+            ]
+          },
+          "illuminator_dimmer": {
+            "p": [
+              0.361,
+              0.03944703674,
+              0.08788057709
+            ],
+            "q": [
+              -0.5573453754952536,
+              -0.4351621908744341,
+              -0.4351621909157024,
+              0.5573453755481091
+            ]
+          },
+          "illuminator_power": {
+            "p": [
+              0.395,
+              0.0341,
+              0.026
+            ],
+            "q": [
+              0.9847265389049334,
+              0.17410813759359595,
+              0,
+              0
+            ]
+          }
+        },
+        "time": 1.1399999999999852,
+        "paused": true,
+        "reflections": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "generation": 97,
+          "asset": "transfer",
+          "planar": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "updateCount": 84,
+            "captureCount": 252,
+            "receiverCount": 3,
+            "lastUpdateMs": 8.199999809265137,
+            "receivers": [
+              {
+                "label": "Laboratory bench",
+                "area": 0,
+                "captures": 84,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  2.220446049250313e-16,
+                  0.001
+                ]
+              },
+              {
+                "label": "base__brushed plane 0.02400",
+                "area": 0.26798761552601985,
+                "captures": 41,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.02400000030414222
+                ]
+              },
+              {
+                "label": "base__alloy plane 0.06000",
+                "area": 0.04499624803854019,
+                "captures": 41,
+                "enabled": true,
+                "plane": [
+                  0,
+                  1,
+                  0,
+                  -0.06000000424683094
+                ]
+              }
+            ]
+          },
+          "curved": {
+            "pending": false,
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "preparing": false,
+            "dirty": false,
+            "nextProbe": 1,
+            "updateCount": 28,
+            "captureCount": 28,
+            "lastUpdateMs": 5.199999809265137,
+            "lastCaptureMs": 5.199999809265137,
+            "additionalSamplers": 1,
+            "probes": [
+              {
+                "index": 0,
+                "center": [
+                  -0.10500000000020374,
+                  0.21908754369922037,
+                  0.020000000004774924
+                ],
+                "radius": 0.017,
+                "length": 0.07099999999952272,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 6
+              },
+              {
+                "index": 1,
+                "center": [
+                  -0.06341977130999998,
+                  0.23491870516792202,
+                  -0.019385219960006722
+                ],
+                "radius": 0.017,
+                "length": 0.06599999999925878,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 5
+              },
+              {
+                "index": 2,
+                "center": [
+                  -0.10499999999980549,
+                  0.2510303178055971,
+                  -0.056644624485614914
+                ],
+                "radius": 0.017,
+                "length": 0.059000000001366376,
+                "dirty": false,
+                "captured": true,
+                "captureCount": 5
+              }
+            ],
+            "resolution": 256,
+            "parallax": false,
+            "correctAxes": true
+          }
+        },
+        "bound_reflection_uniforms": [
+          {
+            "label": "Laboratory bench",
+            "target": 48,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 48,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "base__brushed plane 0.02400",
+            "target": 185,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "brushed",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 185,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          },
+          {
+            "label": "base__alloy plane 0.06000",
+            "target": 187,
+            "enabled": 1,
+            "hooks": [
+              {
+                "material": "alloy",
+                "currentMaterial": true,
+                "compiled": true,
+                "textureUniformSame": true,
+                "textureSame": true,
+                "boundTexture": 187,
+                "enabledUniformSame": true,
+                "boundEnabled": 1
+              }
+            ]
+          }
+        ],
+        "image": "transfer-detail-mechanism-moved.png",
+        "image_sha256": "7e4588a1aa9ee29632d3ba68190340d83d33c51f6041fa09a8c7a53e89507781",
+        "counters": {
+          "generation": 97,
+          "planar.updateCount": 84,
+          "planar.captureCount": 252,
+          "planar.receivers.0.captures": 84,
+          "planar.receivers.1.captures": 41,
+          "planar.receivers.2.captures": 41,
+          "curved.updateCount": 28,
+          "curved.captureCount": 28,
+          "curved.probes.0.captureCount": 6,
+          "curved.probes.1.captureCount": 5,
+          "curved.probes.2.captureCount": 5
+        }
+      },
+      "advanced_reflection_counters": [
+        [
+          "generation",
+          97
+        ],
+        [
+          "planar.updateCount",
+          84
+        ],
+        [
+          "planar.captureCount",
+          252
+        ],
+        [
+          "planar.receivers.0.captures",
+          84
+        ],
+        [
+          "planar.receivers.1.captures",
+          41
+        ],
+        [
+          "planar.receivers.2.captures",
+          41
+        ],
+        [
+          "curved.updateCount",
+          28
+        ],
+        [
+          "curved.captureCount",
+          28
+        ],
+        [
+          "curved.probes.0.captureCount",
+          6
+        ],
+        [
+          "curved.probes.1.captureCount",
+          5
+        ],
+        [
+          "curved.probes.2.captureCount",
+          5
+        ]
+      ]
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "console_warnings": [],
+  "failed_requests": [],
+  "scope": "Actual UI camera orbit, MuJoCo mechanism motion and instrument switching. Measured states, reflection diagnostics and live screenshots are recorded. These integration checks supplement the independent analytic reflection fixtures; image differences or counters alone do not prove correct reflected geometry.",
+  "checked_utc": "2026-11-25T03:26:16.104Z"
+}

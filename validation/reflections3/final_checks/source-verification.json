@@ -1,0 +1,575 @@
+{
+  "passed": true,
+  "checked_utc": "2026-11-25T03:28:10.313640+00:00",
+  "sources": {
+    "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+    "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "progressive-renderer.js": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8",
+    "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+    "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+    "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+    "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122",
+    "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5"
+  },
+  "proofs": [
+    {
+      "file": "../final_live/capture.json",
+      "sha256": "f8efe1af7760e9d728978f86bddc70e2e066891ba1c14f6d2a379d31d329256f",
+      "passed": true,
+      "source_checks": [
+        {
+          "module": "app.js",
+          "sha256": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9"
+        },
+        {
+          "module": "studio-renderer.js",
+          "sha256": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467"
+        },
+        {
+          "module": "area-shadows.js",
+          "sha256": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+        },
+        {
+          "module": "screen-reflections.js",
+          "sha256": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+        },
+        {
+          "module": "cavity-lighting.js",
+          "sha256": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3"
+        },
+        {
+          "module": "color-grade.js",
+          "sha256": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+        },
+        {
+          "module": "scene-reflections.js",
+          "sha256": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5"
+        },
+        {
+          "module": "objective-reflections.js",
+          "sha256": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85"
+        },
+        {
+          "module": "planar-reflections.js",
+          "sha256": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+        },
+        {
+          "module": "env-axis.js",
+          "sha256": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+        }
+      ]
+    },
+    {
+      "file": "browser.json",
+      "sha256": "8a9cc0884aacc5f3ec35d77c86ce180bafc8bef95c7893df1e900d9cdd51dfc9",
+      "passed": true,
+      "source_checks": [
+        {
+          "module": "app.js",
+          "sha256": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9"
+        },
+        {
+          "module": "studio-renderer.js",
+          "sha256": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467"
+        },
+        {
+          "module": "area-shadows.js",
+          "sha256": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+        },
+        {
+          "module": "cavity-lighting.js",
+          "sha256": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3"
+        },
+        {
+          "module": "screen-reflections.js",
+          "sha256": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+        },
+        {
+          "module": "scene-reflections.js",
+          "sha256": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5"
+        },
+        {
+          "module": "color-grade.js",
+          "sha256": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+        },
+        {
+          "module": "planar-reflections.js",
+          "sha256": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+        },
+        {
+          "module": "objective-reflections.js",
+          "sha256": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85"
+        },
+        {
+          "module": "env-axis.js",
+          "sha256": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+        }
+      ]
+    },
+    {
+      "file": "rendering.json",
+      "sha256": "c290bdb02f85706a8e119e3190284095f77451854b20c51e442ff90662f09428",
+      "passed": true,
+      "source_checks": [
+        {
+          "module": "app.js",
+          "sha256": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9"
+        },
+        {
+          "module": "studio-renderer.js",
+          "sha256": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467"
+        },
+        {
+          "module": "area-shadows.js",
+          "sha256": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+        },
+        {
+          "module": "cavity-lighting.js",
+          "sha256": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3"
+        },
+        {
+          "module": "screen-reflections.js",
+          "sha256": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+        },
+        {
+          "module": "color-grade.js",
+          "sha256": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+        },
+        {
+          "module": "scene-reflections.js",
+          "sha256": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5"
+        },
+        {
+          "module": "planar-reflections.js",
+          "sha256": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+        },
+        {
+          "module": "objective-reflections.js",
+          "sha256": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85"
+        },
+        {
+          "module": "env-axis.js",
+          "sha256": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+        },
+        {
+          "module": "progressive-renderer.js",
+          "sha256": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8"
+        }
+      ]
+    },
+    {
+      "file": "all-models.json",
+      "sha256": "c42384a1376623121b301c19f5c56da6df65a4ad8a6571469943879826dcb131",
+      "passed": true,
+      "source_checks": [
+        {
+          "module": "app.js",
+          "sha256": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9"
+        },
+        {
+          "module": "studio-renderer.js",
+          "sha256": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467"
+        },
+        {
+          "module": "area-shadows.js",
+          "sha256": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+        },
+        {
+          "module": "cavity-lighting.js",
+          "sha256": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3"
+        },
+        {
+          "module": "screen-reflections.js",
+          "sha256": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+        },
+        {
+          "module": "color-grade.js",
+          "sha256": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+        },
+        {
+          "module": "scene-reflections.js",
+          "sha256": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5"
+        },
+        {
+          "module": "objective-reflections.js",
+          "sha256": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85"
+        },
+        {
+          "module": "planar-reflections.js",
+          "sha256": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+        },
+        {
+          "module": "env-axis.js",
+          "sha256": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+        },
+        {
+          "module": "progressive-renderer.js",
+          "sha256": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8"
+        }
+      ]
+    },
+    {
+      "file": "motion.json",
+      "sha256": "4668f6deaa75c597cdc1ce18a53f014d4e74fe58fe4329092f6be9ca452cef88",
+      "passed": true,
+      "source_checks": [
+        {
+          "module": "app.js",
+          "sha256": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9"
+        },
+        {
+          "module": "studio-renderer.js",
+          "sha256": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467"
+        },
+        {
+          "module": "area-shadows.js",
+          "sha256": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+        },
+        {
+          "module": "screen-reflections.js",
+          "sha256": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+        },
+        {
+          "module": "cavity-lighting.js",
+          "sha256": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3"
+        },
+        {
+          "module": "scene-reflections.js",
+          "sha256": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5"
+        },
+        {
+          "module": "color-grade.js",
+          "sha256": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+        },
+        {
+          "module": "planar-reflections.js",
+          "sha256": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+        },
+        {
+          "module": "objective-reflections.js",
+          "sha256": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85"
+        },
+        {
+          "module": "env-axis.js",
+          "sha256": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+        }
+      ]
+    },
+    {
+      "file": "fallback-vulkan.json",
+      "sha256": "b222355d2f3cbeb98d261487ad7006c05bbd401b0ba4c42ec524b45a335aa4e9",
+      "passed": true,
+      "source_checks": [
+        {
+          "case": "current production shaders",
+          "loaded_original_sources": {
+            "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+            "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+            "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+            "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+            "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+            "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+            "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+            "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+            "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+            "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+          },
+          "intentional_fault_injection": null,
+          "intentional_missing_module_or_capability": false
+        },
+        {
+          "case": "one-shot invalid draw fault injection",
+          "loaded_original_sources": {
+            "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+            "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+            "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+            "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+            "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+            "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+            "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+            "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+            "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+            "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+          },
+          "intentional_fault_injection": {
+            "original_sha256": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+            "injected_sha256": "d4e025090f68b1b08ff8bdc17b27d3e9e86edc02dbbff4afb4f466aec4098e1c",
+            "change": "One-shot gl.drawArrays(TRIANGLES,0,-1) after first planar reflection update. Real INVALID_VALUE fault injection; not a production-driver failure. Current fallback and cache-recovery code retained."
+          },
+          "intentional_missing_module_or_capability": false
+        }
+      ]
+    },
+    {
+      "file": "fallback-optional.json",
+      "sha256": "9a5ff9af2dbd40746a89980eac07ff2506f763b7313630c06aeb47d8e72d0dcb",
+      "passed": true,
+      "source_checks": [
+        {
+          "case": "color-grade.js",
+          "loaded_original_sources": {
+            "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+            "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+            "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+            "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+            "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+            "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+            "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+            "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+            "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+          },
+          "intentional_fault_injection": null,
+          "intentional_missing_module_or_capability": true
+        },
+        {
+          "case": "cavity-lighting.js",
+          "loaded_original_sources": {
+            "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+            "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+            "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+            "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+            "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+            "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+            "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+            "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+          },
+          "intentional_fault_injection": null,
+          "intentional_missing_module_or_capability": true
+        },
+        {
+          "case": "screen-reflections.js",
+          "loaded_original_sources": {
+            "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+            "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+            "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+            "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+            "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+            "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+            "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+            "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+          },
+          "intentional_fault_injection": null,
+          "intentional_missing_module_or_capability": true
+        },
+        {
+          "case": "scene-reflections.js",
+          "loaded_original_sources": {
+            "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+            "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+            "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+            "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+            "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+            "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+          },
+          "intentional_fault_injection": null,
+          "intentional_missing_module_or_capability": true
+        },
+        {
+          "case": "planar-reflections.js",
+          "loaded_original_sources": {
+            "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+            "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+            "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+            "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+            "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+            "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+            "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+            "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85"
+          },
+          "intentional_fault_injection": null,
+          "intentional_missing_module_or_capability": true
+        },
+        {
+          "case": "objective-reflections.js",
+          "loaded_original_sources": {
+            "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+            "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+            "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+            "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+            "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+            "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+            "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+            "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+          },
+          "intentional_fault_injection": null,
+          "intentional_missing_module_or_capability": true
+        },
+        {
+          "case": "float color buffers unavailable",
+          "loaded_original_sources": {
+            "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+            "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+            "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+          },
+          "intentional_fault_injection": null,
+          "intentional_missing_module_or_capability": true
+        }
+      ]
+    },
+    {
+      "file": "../final_timing/timing.json",
+      "sha256": "3a0ab81f9227ecf0b288aba8c4b5125d53a48addba7e63e645eb9d5979618cb7",
+      "passed": true,
+      "source_checks": [
+        {
+          "module": "app.js",
+          "sha256": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9"
+        },
+        {
+          "module": "studio-renderer.js",
+          "sha256": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467"
+        },
+        {
+          "module": "area-shadows.js",
+          "sha256": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+        },
+        {
+          "module": "cavity-lighting.js",
+          "sha256": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3"
+        },
+        {
+          "module": "screen-reflections.js",
+          "sha256": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130"
+        },
+        {
+          "module": "color-grade.js",
+          "sha256": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+        },
+        {
+          "module": "scene-reflections.js",
+          "sha256": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5"
+        },
+        {
+          "module": "planar-reflections.js",
+          "sha256": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+        },
+        {
+          "module": "objective-reflections.js",
+          "sha256": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85"
+        },
+        {
+          "module": "env-axis.js",
+          "sha256": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "publication_file": "assets/transfer/model.glb",
+      "sha256": "cd1f987acec2eed6516bd0c82f82cda8ff6e1498b30a56a2e4d1adabb55075b7"
+    },
+    {
+      "publication_file": "assets/transfer/physics.xml",
+      "sha256": "0fbd5245e5a9725ea5fba0de9bec5cfb97900c20b6f5186d99f99d69476aceb2"
+    },
+    {
+      "publication_file": "assets/transfer/metadata.json",
+      "sha256": "b5bb479a2af76343befe8685467029df70f62d757191eef3d17a2938562ccbe4"
+    },
+    {
+      "publication_file": "assets/transfer/collision.json",
+      "sha256": "205d3f076af54e71b003a8701c60708b752c895dd69ef5743e136c8fd5d052c2"
+    },
+    {
+      "publication_file": "assets/nikon/model.glb",
+      "sha256": "7f4db3fc874352a0eacabb75ec96c8acdf99cded3edbdcc2b3fae7bf59e81b0c"
+    },
+    {
+      "publication_file": "assets/nikon/physics.xml",
+      "sha256": "b5b8c9e5dbd3f9077bfc8726e94828b7723b6eb5b18480f5d3029d379e76c4ee"
+    },
+    {
+      "publication_file": "assets/nikon/metadata.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "publication_file": "assets/nikon/collision.json",
+      "sha256": "9f879ad514b6454ce87d64b6b656cffbe6d91b70ca92ae39e341ebe379af9835"
+    },
+    {
+      "publication_file": "assets/probe/model.glb",
+      "sha256": "e8b6959266a494772f4e225f40bef77b3dd8545e0856cbf8a6941b7ab650cc11"
+    },
+    {
+      "publication_file": "assets/probe/physics.xml",
+      "sha256": "84ed586a796c7a45260498ac5c549ea2058c67a9aa222e1deb9958de4bf59fe8"
+    },
+    {
+      "publication_file": "assets/probe/metadata.json",
+      "sha256": "d0e103933bbfd16564623dfac180f2f6971678dc6cd0bf402760f132ee372821"
+    },
+    {
+      "publication_file": "assets/probe/collision.json",
+      "sha256": "071e072265f24bf7bfa6801cd2f1bd055dfdbcc819751c7387f7cde04caa3a36"
+    },
+    {
+      "publication_file": "assets/zeiss/model.glb",
+      "sha256": "4963dc467bb77769a2493a78a8683644dcd903e6278c88447c6ca1bda44343f4"
+    },
+    {
+      "publication_file": "assets/zeiss/physics.xml",
+      "sha256": "598801935f197bc5c9652aae57a1b8a9a5227aa86b33a7602df59d020c303259"
+    },
+    {
+      "publication_file": "assets/zeiss/metadata.json",
+      "sha256": "455be0b0f2bd6f9eacb967073fde292ed7130349ee1cab2ffb2dcfc629f2dd46"
+    },
+    {
+      "publication_file": "assets/zeiss/collision.json",
+      "sha256": "f1febbff6783546ebb05f36e2ab92feb5be6aa3ee0fae934f815c4d0aee980cd"
+    },
+    {
+      "publication_file": "assets/bonder/model.glb",
+      "sha256": "093d331c31c1697b72f1e1621a56babeb4c69ecfeb80d6f07325a64e1221ced6"
+    },
+    {
+      "publication_file": "assets/bonder/physics.xml",
+      "sha256": "5189808a21706951586fa2163a589101f0f218aba39969ddf5b49ad8e7ee315d"
+    },
+    {
+      "publication_file": "assets/bonder/metadata.json",
+      "sha256": "629bb325eff8c53cbc5e71bc42e980f4b5ce66ea69a59fb1212009c63743a22d"
+    },
+    {
+      "publication_file": "assets/bonder/collision.json",
+      "sha256": "c43d8fc66070105557d9a32d5b540a75a28ad412be2b714625a8c31e2d1f6730"
+    },
+    {
+      "publication_file": "assets/afm/model.glb",
+      "sha256": "01942050cedecf5a741508804c79c3fd55df61f7241f47ae97de704679940b03"
+    },
+    {
+      "publication_file": "assets/afm/physics.xml",
+      "sha256": "83deaa689e9be8eb19005f5fa71f5b5adc7f5890cd98233d65c086f321a8be44"
+    },
+    {
+      "publication_file": "assets/afm/metadata.json",
+      "sha256": "fc44f091e0b38e422505bedabc737963b596fc59d5ac16bb8f394d85b802e152"
+    },
+    {
+      "publication_file": "assets/afm/collision.json",
+      "sha256": "f0f244e53e17ad14f49a21679c45e7006d8c87b44e9a34cbbab5c57f5fce03b4"
+    },
+    {
+      "publication_file": "assets/tweezers/model.glb",
+      "sha256": "2c79f0f4df2e8a547597144156b3e4ef368cecb295bdf31ce03d6e5ca9525e6e"
+    },
+    {
+      "publication_file": "assets/tweezers/physics.xml",
+      "sha256": "12920dcc9cb2d6d72e59259023b4f12eb3c14fe2b6858cc307e53667d86979e4"
+    },
+    {
+      "publication_file": "assets/tweezers/metadata.json",
+      "sha256": "1bd0fd55e1d9efc74b9dcb71c2d62cf6d81fc75f25a1a3e6a8ea7a4bbffac7c8"
+    },
+    {
+      "publication_file": "assets/tweezers/collision.json",
+      "sha256": "0b21296e66aeaf3c95181c60f291f78aa7856d3662c141655fb597bdf0dc9682"
+    }
+  ],
+  "method": "Compare every loaded authored renderer module against the frozen 11-module production manifest. Photo-only progressive-renderer is required in Photo tests. Fault-injected/observational app sources are distinguished from their exact original source hashes. Verify all 28 model, physics, metadata and collision files remain byte-identical to the published baseline."
+}

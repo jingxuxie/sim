@@ -1,0 +1,54 @@
+{
+  "revision": "baseline",
+  "url": "http://127.0.0.1:18811/",
+  "samples": 0,
+  "started_utc": "2026-11-24T21:23:15.253Z",
+  "passed": true,
+  "sources": {
+    "app.js": "3eea3375394cdcafe4b7a6e4d875aef04df08c66af4bee037c337ed2b89cd542",
+    "studio-renderer.js": "9b813ff38fa05531db7e887ed6e66772f3214817400e05a5e23d8c5875869796"
+  },
+  "views": [
+    {
+      "asset": "transfer",
+      "view": "overview",
+      "snapshot": "transfer-overview.json",
+      "interactive": "transfer-overview-interactive.png"
+    },
+    {
+      "asset": "transfer",
+      "view": "detail",
+      "snapshot": "transfer-detail.json",
+      "interactive": "transfer-detail-interactive.png"
+    },
+    {
+      "asset": "nikon",
+      "view": "overview",
+      "snapshot": "nikon-overview.json",
+      "interactive": "nikon-overview-interactive.png"
+    },
+    {
+      "asset": "nikon",
+      "view": "detail",
+      "snapshot": "nikon-detail.json",
+      "interactive": "nikon-detail-interactive.png"
+    },
+    {
+      "asset": "probe",
+      "view": "overview",
+      "snapshot": "probe-overview.json",
+      "interactive": "probe-overview-interactive.png"
+    },
+    {
+      "asset": "probe",
+      "view": "detail",
+      "snapshot": "probe-detail.json",
+      "interactive": "probe-detail-interactive.png"
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "instrumentation_sha256": "2e25189221fbfd33817af84a7836d0bb46e8ffc21036fa6b7e43ad73cdf51748",
+  "checked_utc": "2026-11-24T21:24:56.948Z"
+}

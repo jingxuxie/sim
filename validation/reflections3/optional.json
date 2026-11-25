@@ -1,0 +1,712 @@
+{
+  "mode": "optional",
+  "url": "http://127.0.0.1:18935/",
+  "started_utc": "2026-11-25T03:25:18.506Z",
+  "passed": true,
+  "cases": [
+    {
+      "failure": "color-grade.js",
+      "forced_gpu_error": false,
+      "warnings": [
+        "Blender display transform unavailable; retaining the interactive look. TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:18935/color-grade.js?v=lighting2"
+      ],
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "generation": 4,
+              "asset": "nikon",
+              "planar": {
+                "enabled": true,
+                "ready": true,
+                "failed": false,
+                "lastError": null,
+                "updateCount": 2,
+                "captureCount": 6,
+                "receiverCount": 3,
+                "lastUpdateMs": 334.19999980926514,
+                "receivers": [
+                  {
+                    "label": "Laboratory bench",
+                    "area": 0,
+                    "captures": 2,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      2.220446049250313e-16,
+                      0.001
+                    ]
+                  },
+                  {
+                    "label": "stand__edge plane 0.29676",
+                    "area": 0.03494984263208867,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.2967600222764304
+                    ]
+                  },
+                  {
+                    "label": "stand__cream plane 0.34200",
+                    "area": 0.03241760568975793,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.3420000076293945
+                    ]
+                  }
+                ]
+              },
+              "curved": {
+                "pending": true,
+                "enabled": true,
+                "ready": false,
+                "failed": false,
+                "preparing": false,
+                "dirty": true,
+                "nextProbe": 0,
+                "updateCount": 0,
+                "captureCount": 0,
+                "lastUpdateMs": 0,
+                "lastCaptureMs": 0,
+                "additionalSamplers": 1,
+                "probes": [
+                  {
+                    "index": 0,
+                    "center": [
+                      0,
+                      0.1904999999686543,
+                      0.06199999999730944
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05899999999574959,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 1,
+                    "center": [
+                      -0.03567854266,
+                      0.19648243527942813,
+                      0.04595933260074164
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05934999999584439,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 5,
+                    "center": [
+                      0.04163420964,
+                      0.2172095475770811,
+                      0.013259962108819712
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.04299999999878943,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 6,
+                    "center": [
+                      0.034648868865,
+                      0.19997973323828355,
+                      0.04642226223822452
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05199999999954935,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  }
+                ],
+                "resolution": 256,
+                "parallax": false,
+                "correctAxes": true
+              }
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 84380,
+            "changedFraction": 0.11124588002636783,
+            "rmse": 29.36010340105261
+          },
+          "stage_motion_m": 0.01148733056150148
+        }
+      ],
+      "served_sources": {
+        "/app.js": "eee9cd118699390014b63606b678c13469f7742beb26309ca6d1ef49b07d4aa2",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+        "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+        "/planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+        "/objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+        "/env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+      },
+      "passed": true
+    },
+    {
+      "failure": "cavity-lighting.js",
+      "forced_gpu_error": false,
+      "warnings": [
+        "Ambient shadows unavailable; using direct rendering. TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:18935/cavity-lighting.js?v=lighting2"
+      ],
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "generation": 5,
+              "asset": "nikon",
+              "planar": {
+                "enabled": true,
+                "ready": true,
+                "failed": false,
+                "lastError": null,
+                "updateCount": 2,
+                "captureCount": 6,
+                "receiverCount": 3,
+                "lastUpdateMs": 325.19999980926514,
+                "receivers": [
+                  {
+                    "label": "Laboratory bench",
+                    "area": 0,
+                    "captures": 2,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      2.220446049250313e-16,
+                      0.001
+                    ]
+                  },
+                  {
+                    "label": "stand__edge plane 0.29676",
+                    "area": 0.03494984263208867,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.2967600222764304
+                    ]
+                  },
+                  {
+                    "label": "stand__cream plane 0.34200",
+                    "area": 0.03241760568975793,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.3420000076293945
+                    ]
+                  }
+                ]
+              },
+              "curved": {
+                "pending": true,
+                "enabled": true,
+                "ready": false,
+                "failed": false,
+                "preparing": false,
+                "dirty": true,
+                "nextProbe": 1,
+                "updateCount": 1,
+                "captureCount": 1,
+                "lastUpdateMs": 53.19999980926514,
+                "lastCaptureMs": 53.19999980926514,
+                "additionalSamplers": 1,
+                "probes": [
+                  {
+                    "index": 0,
+                    "center": [
+                      0,
+                      0.1904999999686543,
+                      0.06199999999730944
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05899999999574959,
+                    "dirty": false,
+                    "captured": true,
+                    "captureCount": 1
+                  },
+                  {
+                    "index": 1,
+                    "center": [
+                      -0.03567854266,
+                      0.19648243527942813,
+                      0.04595933260074164
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05934999999584439,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 5,
+                    "center": [
+                      0.04163420964,
+                      0.2172095475770811,
+                      0.013259962108819712
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.04299999999878943,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 6,
+                    "center": [
+                      0.034648868865,
+                      0.19997973323828355,
+                      0.04642226223822452
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05199999999954935,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  }
+                ],
+                "resolution": 256,
+                "parallax": false,
+                "correctAxes": true
+              }
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": false,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 81825,
+            "changedFraction": 0.10787738958470666,
+            "rmse": 26.664985653454295
+          },
+          "stage_motion_m": 0.01145020331318611
+        }
+      ],
+      "served_sources": {
+        "/app.js": "eee9cd118699390014b63606b678c13469f7742beb26309ca6d1ef49b07d4aa2",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+        "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+        "/objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+        "/planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+        "/env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+      },
+      "passed": true
+    },
+    {
+      "failure": "screen-reflections.js",
+      "forced_gpu_error": false,
+      "warnings": [
+        "Ambient shadows unavailable; using direct rendering. TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:18935/screen-reflections.js?v=lighting2"
+      ],
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "generation": 5,
+              "asset": "nikon",
+              "planar": {
+                "enabled": true,
+                "ready": true,
+                "failed": false,
+                "lastError": null,
+                "updateCount": 2,
+                "captureCount": 6,
+                "receiverCount": 3,
+                "lastUpdateMs": 228.39999961853027,
+                "receivers": [
+                  {
+                    "label": "Laboratory bench",
+                    "area": 0,
+                    "captures": 2,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      2.220446049250313e-16,
+                      0.001
+                    ]
+                  },
+                  {
+                    "label": "stand__edge plane 0.29676",
+                    "area": 0.03494984263208867,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.2967600222764304
+                    ]
+                  },
+                  {
+                    "label": "stand__cream plane 0.34200",
+                    "area": 0.03241760568975793,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.3420000076293945
+                    ]
+                  }
+                ]
+              },
+              "curved": {
+                "pending": true,
+                "enabled": true,
+                "ready": false,
+                "failed": false,
+                "preparing": false,
+                "dirty": true,
+                "nextProbe": 1,
+                "updateCount": 1,
+                "captureCount": 1,
+                "lastUpdateMs": 37.89999961853027,
+                "lastCaptureMs": 37.89999961853027,
+                "additionalSamplers": 1,
+                "probes": [
+                  {
+                    "index": 0,
+                    "center": [
+                      0,
+                      0.1904999999686543,
+                      0.06199999999730944
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05899999999574959,
+                    "dirty": false,
+                    "captured": true,
+                    "captureCount": 1
+                  },
+                  {
+                    "index": 1,
+                    "center": [
+                      -0.03567854266,
+                      0.19648243527942813,
+                      0.04595933260074164
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05934999999584439,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 5,
+                    "center": [
+                      0.04163420964,
+                      0.2172095475770811,
+                      0.013259962108819712
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.04299999999878943,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 6,
+                    "center": [
+                      0.034648868865,
+                      0.19997973323828355,
+                      0.04642226223822452
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05199999999954935,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  }
+                ],
+                "resolution": 256,
+                "parallax": false,
+                "correctAxes": true
+              }
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": false,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 81825,
+            "changedFraction": 0.10787738958470666,
+            "rmse": 26.66486747665909
+          },
+          "stage_motion_m": 0.011437960423418386
+        }
+      ],
+      "served_sources": {
+        "/app.js": "eee9cd118699390014b63606b678c13469f7742beb26309ca6d1ef49b07d4aa2",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+        "/planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+        "/objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+        "/env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+      },
+      "passed": true
+    },
+    {
+      "failure": "scene-reflections.js",
+      "forced_gpu_error": false,
+      "warnings": [
+        "Scene reflections unavailable; keeping room reflections. TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:18935/scene-reflections.js?v=reflections3"
+      ],
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": false,
+              "ready": false,
+              "failed": true,
+              "lastError": "Failed to fetch dynamically imported module: http://127.0.0.1:18935/scene-reflections.js?v=reflections3"
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 83711,
+            "changedFraction": 0.11036387607119315,
+            "rmse": 29.974736568392718
+          },
+          "stage_motion_m": 0.01139122441806186
+        }
+      ],
+      "served_sources": {
+        "/app.js": "eee9cd118699390014b63606b678c13469f7742beb26309ca6d1ef49b07d4aa2",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+        "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724"
+      },
+      "passed": true
+    },
+    {
+      "failure": "planar-reflections.js",
+      "forced_gpu_error": false,
+      "warnings": [
+        "Scene reflections unavailable; keeping room reflections. TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:18935/scene-reflections.js?v=reflections3"
+      ],
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": false,
+              "ready": false,
+              "failed": true,
+              "lastError": "Failed to fetch dynamically imported module: http://127.0.0.1:18935/scene-reflections.js?v=reflections3"
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 83476,
+            "changedFraction": 0.11005405405405405,
+            "rmse": 29.988297812864104
+          },
+          "stage_motion_m": 0.011371782171220942
+        }
+      ],
+      "served_sources": {
+        "/app.js": "eee9cd118699390014b63606b678c13469f7742beb26309ca6d1ef49b07d4aa2",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+        "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+        "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+        "/objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85"
+      },
+      "passed": true
+    },
+    {
+      "failure": "objective-reflections.js",
+      "forced_gpu_error": false,
+      "warnings": [
+        "Scene reflections unavailable; keeping room reflections. TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:18935/scene-reflections.js?v=reflections3"
+      ],
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": false,
+              "ready": false,
+              "failed": true,
+              "lastError": "Failed to fetch dynamically imported module: http://127.0.0.1:18935/scene-reflections.js?v=reflections3"
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 83444,
+            "changedFraction": 0.11001186552406064,
+            "rmse": 29.976434038605085
+          },
+          "stage_motion_m": 0.01122673026558135
+        }
+      ],
+      "served_sources": {
+        "/app.js": "eee9cd118699390014b63606b678c13469f7742beb26309ca6d1ef49b07d4aa2",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+        "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+        "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+        "/planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+      },
+      "passed": true
+    },
+    {
+      "failure": "float color buffers unavailable",
+      "forced_gpu_error": false,
+      "warnings": [
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "Ambient shadows unavailable; using direct rendering. Error: Enhanced studio lighting needs floating-point color targets\n    at setup3D (http://127.0.0.1:18935/app.js?v=reflections3:175:95)\n    at async openInstrument (http://127.0.0.1:18935/app.js?v=reflections3:232:28)",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported.",
+        "THREE.WebGLRenderer: EXT_color_buffer_float extension not supported."
+      ],
+      "console_errors": [],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": false,
+              "ready": false,
+              "failed": false,
+              "lastError": null
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": false,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 81813,
+            "changedFraction": 0.10786156888595913,
+            "rmse": 26.343924777172976
+          },
+          "stage_motion_m": 0.01145020331318611
+        }
+      ],
+      "served_sources": {
+        "/app.js": "eee9cd118699390014b63606b678c13469f7742beb26309ca6d1ef49b07d4aa2",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09"
+      },
+      "capability_fixture": "Test-only WebGL2 getExtension override returns null for EXT_color_buffer_float, exercising the production capability gate; native GPU remains unchanged.",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9"
+  },
+  "checked_utc": "2026-11-25T03:25:55.022Z"
+}

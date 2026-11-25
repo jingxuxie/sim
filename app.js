@@ -5,6 +5,7 @@ window.viewerBooted=true;
 const $=id=>document.getElementById(id), fmt=(x,d=3)=>Number(x).toFixed(d);
 let instruments=[],current=null,renderer=null,scene,camera,orbit,model=null,ground=null,THREE,ready=false,selection=0,lastState=null,photograph=false;
 let flexibleDetails,contactOverlay;
+let sceneReflections=null,reflectionSetupError=null,poseRevision=0;
 let viewDirty=true,poseNodes={},inspectionLight,composer,occlusion,reflections,studio,renderFrames=0,modelAbort=null;const baseURL=new URL('./',location.href).href;
 let gpuFrame=null,completedFrame=0,gpuSyncSupported=true,modelLoading=false,modelReady=false;
 let environmentReady=Promise.resolve(),colorGradeReady=Promise.resolve(),photoRenderer=null,photoAbort=null,photoToken=0,photoGeneration=0;
@@ -14,7 +15,7 @@ const photoSampleLimit=512;
 function error(message){$('error').hidden=!message;$('error').textContent=message;}
 let physicsReady=false,cameraEnabled=false,operationBusy=false;
 const runtime=new BrowserRuntime(s=>state(s),message=>{$('physics-status').textContent=message;},message=>error('Simulator stopped: '+message));
-window.lab={runtime,get state(){return lastState;},get rendering(){return{submitted:renderFrames,completed:completedFrame,pending:!!gpuFrame};},get contactShapes(){return contactOverlay?.data;},setPhotoDenoise(enabled){if(!photoRenderer?.ready)return false;photoRenderer.setDenoise(enabled);viewDirty=true;return true;},get photoRendering(){return{mode:renderMode,generation:photoGeneration,ready:!!photoRenderer?.ready,samples:photoRenderer?.samples||0,limit:photoSampleLimit,preparing:!!photoAbort,stats:photoRenderer?.stats};},renderCurrentFrame(){if(!renderer||photograph||modelLoading)return Promise.resolve(false);viewDirty=true;return finishFrame(renderFrames+1,selection);}};
+window.lab={runtime,get reflections(){return sceneReflections?.stats||{enabled:false,ready:false,failed:!!reflectionSetupError,lastError:reflectionSetupError};},get state(){return lastState;},get rendering(){return{submitted:renderFrames,completed:completedFrame,pending:!!gpuFrame};},get contactShapes(){return contactOverlay?.data;},setPhotoDenoise(enabled){if(!photoRenderer?.ready)return false;photoRenderer.setDenoise(enabled);viewDirty=true;return true;},get photoRendering(){return{mode:renderMode,generation:photoGeneration,ready:!!photoRenderer?.ready,samples:photoRenderer?.samples||0,limit:photoSampleLimit,preparing:!!photoAbort,stats:photoRenderer?.stats};},renderCurrentFrame(){if(!renderer||photograph||modelLoading)return Promise.resolve(false);viewDirty=true;return finishFrame(renderFrames+1,selection);}};
 function qualityStatus(message){const el=$('render-quality-status');if(el&&el.textContent!==message)el.textContent=message;}
 function qualityAvailability(){const el=$('render-quality');if(el)el.disabled=!current||!physicsReady||!modelReady||modelLoading;}
 function currentSelection(token,asset){return token===selection&&current?.id===asset;}
@@ -100,7 +101,10 @@ function renderView(){
   if(photoRenderer.samples<photoSampleLimit)photoRenderer.renderSample();else photoRenderer.present();
   const samples=Math.floor(photoRenderer.samples);
   qualityStatus(samples>=photoSampleLimit?'Photo quality ready · physics paused. Drag to inspect another angle.':'Physics paused · refining lighting ('+samples+' / '+photoSampleLimit+').');
- }else if(composer)composer.render();else renderer.render(scene,camera);
+ }else {
+  if(sceneReflections){sceneReflections.update(camera,{poseVersion:poseRevision,sites:lastState?.sites,photo:renderMode==='photo'});if(reflections)reflections.enabled=!sceneReflections.stats.ready;}
+  if(composer)composer.render();else renderer.render(scene,camera);
+ }
  const gl=renderer.getContext(),id=++renderFrames;
  if(gpuFrame)gl.deleteSync(gpuFrame.sync);
  const sync=gpuSyncSupported&&gl.fenceSync?gl.fenceSync(gl.SYNC_GPU_COMMANDS_COMPLETE,0):null;
@@ -184,10 +188,16 @@ async function setup3D(){
  // color space`);composer.addPass(output);
  if(renderer.capabilities.isWebGL2)colorGradeReady=import('./color-grade.js?v=lighting2').then(module=>module.loadColorGrade()).then(grade=>{grade.installOutputPass(output.material);viewDirty=true;return grade;}).catch(e=>{console.warn('Blender display transform unavailable; retaining the interactive look.',e);return null;});
  }catch(e){console.warn('Ambient shadows unavailable; using direct rendering.',e);composer=null;}
+ // Scene-capture reflections are optional; ordinary live rendering remains
+ // available if the module or graphics capabilities are unavailable.
+ if(renderer.capabilities.isWebGL2&&renderer.extensions.has('EXT_color_buffer_float'))try{
+  const {SceneReflections}=await import('./scene-reflections.js?v=reflections3');
+  sceneReflections=new SceneReflections(renderer,scene,{studio,ground,onInvalidate:()=>{viewDirty=true;}});
+ }catch(e){reflectionSetupError=String(e.message||e);console.warn('Scene reflections unavailable; keeping room reflections.',e);}
  new ResizeObserver(()=>{const w=$('canvas').clientWidth,h=$('canvas').clientHeight;if(w&&h){renderer.setSize(w,h,false);composer?.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();photoRenderer?.resize();photoCameraDirty=true;viewDirty=true;}}).observe($('canvas'));
  // Keep at most one rendered frame in flight. This retains every quality
  // setting while preventing slow GPUs from accumulating obsolete poses.
- function draw(){requestAnimationFrame(draw);if(document.hidden||$('workspace').hidden||photograph||modelLoading)return;orbit.update();if(!frameReady())return;if(studio.update(model))viewDirty=true;const refining=renderMode==='photo'&&photoRenderer?.ready&&(photoCameraDirty||photoRenderer.samples<photoSampleLimit);if(viewDirty||refining){syncProjection();try{renderView();}catch(e){console.warn('Photo rendering stopped.',e);const cancelled=stopPhoto();qualityStatus('Photo quality stopped on this device. Interactive view is ready.');restorePhotoPause(cancelled);return;}viewDirty=false;}}
+ function draw(){requestAnimationFrame(draw);if(document.hidden||$('workspace').hidden||photograph||modelLoading)return;orbit.update();if(!frameReady())return;if(studio.update(model))viewDirty=true;const refining=renderMode==='photo'&&photoRenderer?.ready&&(photoCameraDirty||photoRenderer.samples<photoSampleLimit);if(viewDirty||refining||(renderMode==='interactive'&&sceneReflections?.needsFrame)){syncProjection();try{renderView();}catch(e){console.warn('Photo rendering stopped.',e);const cancelled=stopPhoto();qualityStatus('Photo quality stopped on this device. Interactive view is ready.');restorePhotoPause(cancelled);return;}viewDirty=false;}}
  draw();ready=true;
 }
 let threePromise;
@@ -221,15 +231,23 @@ async function openInstrument(item){stopPhoto();const token=++selection;physicsA
  try{
   threePromise??=setup3D();await threePromise;if(token!==selection)return;modelLoading=true;
   inspectionLight.visible=item.id==='afm';
-  if(model){scene.remove(model);disposeModel(model);model=null;poseNodes={};}
+  if(model){sceneReflections?.disposeModel();scene.remove(model);disposeModel(model);model=null;poseNodes={};}
   const bytes=await modelBytes(item.glb,token);if(token!==selection)return;$('model-status').textContent='Preparing detailed geometry…';await new Promise(r=>setTimeout(r,0));
   const {GLTFLoader}=await import('./vendor/three/GLTFLoader.js');const gltf=await new GLTFLoader().parseAsync(bytes,baseURL);if(token!==selection){disposeModel(gltf.scene);return;}
   model=gltf.scene;model.traverse(o=>{if(o.isMesh){o.castShadow=![].concat(o.material).some(m=>(m.transmission||0)>.1||(m.transparent&&m.opacity<.45));o.receiveShadow=true;for(const m of [].concat(o.material)){for(const key of ['map','normalMap','roughnessMap','metalnessMap','aoMap'])if(m[key])m[key].anisotropy=Math.min(8,renderer.capabilities.getMaxAnisotropy());}}});scene.add(model);studio.areaShadows.apply(model);occlusion?.apply(model);flexibleDetails.attach(model);poseNodes={};model.traverse(o=>poseNodes[o.name]=o);studio.fit(new THREE.Box3().setFromObject(model));cameraView();if(lastState){applyPoses(lastState.poses);flexibleDetails.update(lastState.q);}$('poster').hidden=false;
   // Keep the preview visible until the initial GPU frame actually completes.
   if(gpuFrame&&!await finishFrame(gpuFrame.id,token))return;
-  studio.update(model,true);syncProjection();if(!await finishFrame(renderView(),token))return;
-  const gl=renderer.getContext();
-  if(gl.getError()!==gl.NO_ERROR){
+  studio.update(model,true);syncProjection();
+  if(sceneReflections)try{sceneReflections.attach(model,{asset:item.id,sites:lastState?.sites});}catch(e){sceneReflections.disableAfterGraphicsError();console.warn('Scene reflections unavailable for this instrument; keeping room reflections.',e);}
+  if(!await finishFrame(renderView(),token))return;
+  const gl=renderer.getContext();let graphicsError=gl.getError();
+  if(graphicsError!==gl.NO_ERROR&&sceneReflections&&!sceneReflections.failed){
+   sceneReflections.disableAfterGraphicsError();if(reflections)reflections.enabled=true;
+   for(let i=0;i<16&&gl.getError()!==gl.NO_ERROR;i++){}
+   if(!await finishFrame(renderView(),token))return;
+   graphicsError=gl.getError();qualityStatus('Compatible lighting · live controls and camera movement.');
+  }
+  if(graphicsError!==gl.NO_ERROR){
    if(studio.areaShadows.failed)throw Error('Graphics driver could not render this instrument');
    // Some drivers reject shadow shaders only when a draw is submitted. Retry
    // with compatible illumination before removing the still-image preview.
@@ -245,7 +263,7 @@ async function openInstrument(item){stopPhoto();const token=++selection;physicsA
 }
 function applyPoses(poses){if(!model||!poses)return;const basis=new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1,0,0),-Math.PI/2),inv=basis.clone().invert();model.updateMatrixWorld(true);let moved=false;
  for(const [name,p] of Object.entries(poses)){const node=poseNodes[name];if(!node)continue;const values=[...p.p,...p.q],previous=node.userData.lastRenderPose;if(!previous||values.some((v,i)=>Math.abs(v-previous[i])>1e-7)){moved=true;node.userData.lastRenderPose=values;}const world=new THREE.Matrix4().compose(new THREE.Vector3(p.p[0],p.p[2],-p.p[1]),basis.clone().multiply(new THREE.Quaternion(p.q[1],p.q[2],p.q[3],p.q[0])).multiply(inv),new THREE.Vector3(1,1,1));if(node.parent){node.parent.updateWorldMatrix(true,false);world.premultiply(node.parent.matrixWorld.clone().invert());}world.decompose(node.position,node.quaternion,node.scale);node.updateMatrixWorld(true);}
- if(moved){viewDirty=true;if(studio)studio.dirty=true;}
+ if(moved){poseRevision++;viewDirty=true;if(studio)studio.dirty=true;}
 }
 const nikonControls=[['X stage wheel','kx','x_angle',-12.2,12.2],['Y stage wheel','ky','y_angle',-10.6,10.6],['Coarse focus','coarse','coarse_angle',-12.56,5],['Fine focus','fine','fine_angle',-12.56,12.56]];
 function controlText(input,value){return input.dataset.toggle==='true'?(value>(Number(input.min)+Number(input.max))/2?input.dataset.onLabel:input.dataset.offLabel):fmt(value)+' '+input.dataset.unit;}
@@ -287,7 +305,7 @@ function buildControls(item){buildRenderViews(item);buildContactView();$('contro
  if(item.id==='tweezers')for(const [i,name] of ['Tool roll','Tool pitch','Tool yaw'].entries())list.push({name,read:'tool_rotation_'+i,rotationAxis:i,limits:i===2?[-Math.PI,Math.PI]:[-Math.PI/4,Math.PI/4],scale:180/Math.PI,unit:'°'});
  for(const c of list){const row=document.createElement('div');row.className='control';const label=document.createElement('label'),text=document.createElement('span'),out=document.createElement('output');text.textContent=c.name;label.append(text,out);const input=document.createElement('input');input.type='range';input.min=c.limits[0]*c.scale;input.max=c.limits[1]*c.scale;input.step=(input.max-input.min)/(c.toggle?1:1500);input.value=0;input.dataset.toggle=String(!!c.toggle);input.dataset.offLabel=c.offLabel||'Off';input.dataset.onLabel=c.onLabel||'On';input.setAttribute('aria-label',c.name);input.dataset.read=c.read;input.dataset.scale=c.scale;input.dataset.unit=c.unit;if(c.axis!==undefined)input.dataset.fixtureAxis=c.axis;if(c.rotationAxis!==undefined)input.dataset.rotationAxis=c.rotationAxis;input.oninput=()=>{out.textContent=controlText(input,+input.value);};input.onchange=()=>{let action;if(c.rotationAxis!==undefined){const q=lastState?.poses?.tool?.q??[1,0,0,0];const e=new THREE.Euler().setFromQuaternion(new THREE.Quaternion(q[1],q[2],q[3],q[0]),'ZYX');e[['x','y','z'][c.rotationAxis]]=+input.value/c.scale;const result=new THREE.Quaternion().setFromEuler(e);action={tool_quaternion:[result.w,result.x,result.y,result.z]};}else if(c.axis!==undefined){const p=[...(lastState?.poses?.tool?.p??[0,0,.012])];p[c.axis]=+input.value/c.scale;action={tool_position:p};}else action={[c.joint]:+input.value/c.scale};send('command',{action});};row.append(label,input);$('controls').append(row);}
 }
-function state(s){if(!current||s.asset!==current.id)return;if(renderMode==='photo'&&photoPaused&&!s.paused)stopPhoto();lastState=s;applyPoses(s.poses);contactOverlay?.update(s.poses);if(flexibleDetails?.update(s.q)){viewDirty=true;if(studio)studio.dirty=true;}$('connection').textContent='Live MuJoCo · in your browser';
+function state(s){if(!current||s.asset!==current.id)return;if(renderMode==='photo'&&photoPaused&&!s.paused)stopPhoto();lastState=s;applyPoses(s.poses);contactOverlay?.update(s.poses);if(flexibleDetails?.update(s.q)){poseRevision++;viewDirty=true;if(studio)studio.dirty=true;}$('connection').textContent='Live MuJoCo · in your browser';
  for(const input of $('controls').querySelectorAll('input')){let val=input.dataset.fixtureAxis!==undefined?s.poses?.tool?.p[+input.dataset.fixtureAxis]:s.q[input.dataset.read];if(input.dataset.rotationAxis!==undefined&&THREE&&s.poses?.tool){const q=s.poses.tool.q;const e=new THREE.Euler().setFromQuaternion(new THREE.Quaternion(q[1],q[2],q[3],q[0]),'ZYX');val=e[['x','y','z'][+input.dataset.rotationAxis]];}if(val===undefined)continue;if(document.activeElement!==input)input.value=val*input.dataset.scale;input.previousSibling.lastChild.textContent=controlText(input,val*input.dataset.scale);}
  if(s.objective?.indexed&&$('objective-select')&&document.activeElement!==$('objective-select'))$('objective-select').value=s.objective.station-1;
  const splitter=$('light-path-select');if(splitter&&document.activeElement!==splitter){const travel=s.q.light_path_travel;const nearest=current.light_path.positions_m.reduce((a,b)=>Math.abs(b-travel)<Math.abs(a-travel)?b:a);splitter.value=Math.abs(nearest-travel)<.0005?String(nearest):'';}
@@ -295,7 +313,7 @@ function state(s){if(!current||s.asset!==current.id)return;if(renderMode==='phot
  const rows=[['Simulation time',fmt(s.time,2)+' s'],...(m.error_m!==undefined?[['Position error',fmt(m.error_m*1000)+' mm']]:[]),...(m.gap_m!==undefined?[['Tip clearance',fmt(m.gap_m*1000)+' mm']]:[]),...(m.defocus_m!==undefined?[['Defocus',fmt(m.defocus_m*1e6,2)+' µm']]:[]),[m.peak_contact_N!==undefined?'Peak contact':'Contact force',fmt(m.peak_contact_N??Math.max(0,...s.contacts.map(c=>c.normal_N)))+' N']];$('metrics').replaceChildren(...rows.map(([k,v])=>{const d=document.createElement('div');d.className='metric';for(const t of [k,v]){const x=document.createElement('span');x.textContent=t;d.append(x);}return d;}));
  $('events').replaceChildren(...(s.events||[]).map(e=>{const li=document.createElement('li');li.textContent=fmt(e.time,2)+' s · '+e.event.replaceAll('_',' ');return li;}));if(s.guard_events?.length&&s.time-s.guard_events.at(-1).time<3&&!s.success){$('task-status').textContent=s.guard_events.at(-1).reason;}
 }
-$('back').onclick=()=>{stopPhoto();$('workspace').hidden=true;$('gallery').hidden=false;selection++;physicsActions=Promise.resolve();modelReady=false;modelLoading=false;modelAbort?.abort();current=null;physicsReady=false;cameraEnabled=false;qualityAvailability();runtime.close();$('connection').textContent='Gallery ready · runs in your browser';error('');};$('brand').onclick=ev=>{ev.preventDefault();$('back').click();};$('run').onclick=()=>send('task',{task:$('task').value,seed:+$('seed').value,run:true});$('manual').onclick=()=>send('task',{task:$('task').value,seed:+$('seed').value,run:false});$('pause').onclick=()=>send('pause');$('reset').onclick=()=>send('reset');$('overview').onclick=()=>{photograph=false;$('poster').hidden=true;cameraView(false);};$('detail').onclick=()=>{photograph=false;$('poster').hidden=true;cameraView(true);};$('still').onclick=()=>{if(renderMode==='photo')setRenderQuality('interactive');const same=$('poster').getAttribute('src')===current.render&&!$('poster').hidden;photograph=!same;$('poster').src=current.render;$('full-render').href=current.render;$('poster').alt='Static Blender render; live state is available in Full instrument';$('poster').hidden=!photograph;};
+$('back').onclick=()=>{stopPhoto();sceneReflections?.disposeModel();$('workspace').hidden=true;$('gallery').hidden=false;selection++;physicsActions=Promise.resolve();modelReady=false;modelLoading=false;modelAbort?.abort();current=null;physicsReady=false;cameraEnabled=false;qualityAvailability();runtime.close();$('connection').textContent='Gallery ready · runs in your browser';error('');};$('brand').onclick=ev=>{ev.preventDefault();$('back').click();};$('run').onclick=()=>send('task',{task:$('task').value,seed:+$('seed').value,run:true});$('manual').onclick=()=>send('task',{task:$('task').value,seed:+$('seed').value,run:false});$('pause').onclick=()=>send('pause');$('reset').onclick=()=>send('reset');$('overview').onclick=()=>{photograph=false;$('poster').hidden=true;cameraView(false);};$('detail').onclick=()=>{photograph=false;$('poster').hidden=true;cameraView(true);};$('still').onclick=()=>{if(renderMode==='photo')setRenderQuality('interactive');const same=$('poster').getAttribute('src')===current.render&&!$('poster').hidden;photograph=!same;$('poster').src=current.render;$('full-render').href=current.render;$('poster').alt='Static Blender render; live state is available in Full instrument';$('poster').hidden=!photograph;};
 $('detail-still').onclick=()=>{if(renderMode==='photo')setRenderQuality('interactive');photograph=true;$('poster').src=current.detail_render;$('poster').alt='Blender detail render';$('poster').hidden=false;$('full-render').href=current.detail_render;};
 $('task').onchange=updateDemo;
 $('render-quality').onchange=()=>setRenderQuality($('render-quality').value);

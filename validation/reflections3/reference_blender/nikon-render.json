@@ -1,0 +1,2333 @@
+{
+  "asset": "nikon",
+  "source_blend_sha256": "659bfb458fe729b613298881879083e9cdc35092216a8957cb6087de586f0fb7",
+  "device": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA A100-SXM4-40GB"
+    ]
+  },
+  "camera_method": "Measured Three world camera converted by (x,y,z)->(x,-z,y); vertical FOV and pixel dimensions matched; pinhole for equal optics. Source Cycles lights, world, materials and color management retained.",
+  "views": [
+    {
+      "file": "nikon-overview-blender.png",
+      "sha256": "cfbe08ceb9d2706e9e7773bfc55daeff0e6fd8272e51529ca4eaa0dc4f1d2ac5",
+      "snapshot_sha256": "45fe71cb3acbb3cdfe38814b8a5a11a638b98551ebf6e359e37494e66567cbb0",
+      "pixel_size": [
+        1245,
+        1020
+      ],
+      "samples": 192,
+      "denoising": true,
+      "view_transform": "AgX",
+      "look": "AgX - Medium High Contrast",
+      "exposure": -0.15000000596046448,
+      "max_camera_landmark_error_pixels": 0.00026655197709943594,
+      "camera_landmarks": [
+        {
+          "name": "optical_axis",
+          "browser_pixel": [
+            632.5102418188305,
+            648.5895818851939
+          ],
+          "blender_pixel": [
+            632.510407269001,
+            648.5897809267044
+          ],
+          "error_pixels": 0.00025882674094311744
+        },
+        {
+          "name": "lift_datum",
+          "browser_pixel": [
+            632.466392450809,
+            667.1626533778814
+          ],
+          "blender_pixel": [
+            632.4665504693985,
+            667.1628499031067
+          ],
+          "error_pixels": 0.000252174619642434
+        },
+        {
+          "name": "specimen",
+          "browser_pixel": [
+            632.5102418188305,
+            648.5895818851939
+          ],
+          "blender_pixel": [
+            632.510407269001,
+            648.5897809267044
+          ],
+          "error_pixels": 0.00025882674094311744
+        },
+        {
+          "name": "knob_y_center",
+          "browser_pixel": [
+            742.9743717455941,
+            767.378596574784
+          ],
+          "blender_pixel": [
+            742.9744800925255,
+            767.3787787556648
+          ],
+          "error_pixels": 0.00021196445667096982
+        },
+        {
+          "name": "knob_x_center",
+          "browser_pixel": [
+            742.2634157629667,
+            791.6990669462076
+          ],
+          "blender_pixel": [
+            742.2634953260422,
+            791.6992673277855
+          ],
+          "error_pixels": 0.0002155993036489634
+        },
+        {
+          "name": "coarse_center",
+          "browser_pixel": [
+            746.9281906377763,
+            743.842914096281
+          ],
+          "blender_pixel": [
+            746.9282707571983,
+            743.8431000709534
+          ],
+          "error_pixels": 0.00020249864333105692
+        },
+        {
+          "name": "fine_center",
+          "browser_pixel": [
+            767.3051147233335,
+            749.26744207951
+          ],
+          "blender_pixel": [
+            767.3052084445953,
+            749.2676281929016
+          ],
+          "error_pixels": 0.00020837914828297476
+        },
+        {
+          "name": "seat_0",
+          "browser_pixel": [
+            632.6642773997961,
+            583.345452673435
+          ],
+          "blender_pixel": [
+            632.6643884181976,
+            583.3456403017044
+          ],
+          "error_pixels": 0.00021801250639647368
+        },
+        {
+          "name": "tip_0",
+          "browser_pixel": [
+            632.5175875891755,
+            645.4781690439107
+          ],
+          "blender_pixel": [
+            632.5177538394928,
+            645.478355884552
+          ],
+          "error_pixels": 0.00025009716759144947
+        },
+        {
+          "name": "seat_1",
+          "browser_pixel": [
+            611.7174248331813,
+            566.8444312132941
+          ],
+          "blender_pixel": [
+            611.7175720632076,
+            566.8446153402328
+          ],
+          "error_pixels": 0.00023575285833264431
+        },
+        {
+          "name": "tip_1",
+          "browser_pixel": [
+            599.5889927112704,
+            618.5910175707495
+          ],
+          "blender_pixel": [
+            599.5891262590885,
+            618.591211438179
+          ],
+          "error_pixels": 0.00023541367833850631
+        },
+        {
+          "name": "seat_2",
+          "browser_pixel": [
+            620.3982536982916,
+            543.0458398558325
+          ],
+          "blender_pixel": [
+            620.39839848876,
+            543.046036362648
+          ],
+          "error_pixels": 0.00024408852554166514
+        },
+        {
+          "name": "tip_2",
+          "browser_pixel": [
+            619.6702723296844,
+            546.9216668258274
+          ],
+          "blender_pixel": [
+            619.670420140028,
+            546.9218587875366
+          ],
+          "error_pixels": 0.00024227504098325785
+        },
+        {
+          "name": "seat_3",
+          "browser_pixel": [
+            651.4465619338458,
+            529.5765436268148
+          ],
+          "blender_pixel": [
+            651.4466750621796,
+            529.5767319202423
+          ],
+          "error_pixels": 0.00021966436839896693
+        },
+        {
+          "name": "tip_3",
+          "browser_pixel": [
+            652.5195442918429,
+            532.6559886590558
+          ],
+          "blender_pixel": [
+            652.5197196006775,
+            532.6561778783798
+          ],
+          "error_pixels": 0.0002579479406680799
+        },
+        {
+          "name": "seat_4",
+          "browser_pixel": [
+            682.1742414461633,
+            536.097067654742
+          ],
+          "blender_pixel": [
+            682.1744111180305,
+            536.0972732305527
+          ],
+          "error_pixels": 0.00026655197709943594
+        },
+        {
+          "name": "tip_4",
+          "browser_pixel": [
+            685.053063898986,
+            539.5862423261689
+          ],
+          "blender_pixel": [
+            685.0532278418541,
+            539.5864284038544
+          ],
+          "error_pixels": 0.0002479963085132729
+        },
+        {
+          "name": "seat_5",
+          "browser_pixel": [
+            689.871795607175,
+            558.1904477516126
+          ],
+          "blender_pixel": [
+            689.8719102144241,
+            558.190655708313
+          ],
+          "error_pixels": 0.00023744643768688399
+        },
+        {
+          "name": "tip_5",
+          "browser_pixel": [
+            713.8274279473733,
+            592.5935689233279
+          ],
+          "blender_pixel": [
+            713.8275924324989,
+            592.593766450882
+          ],
+          "error_pixels": 0.00025704569861264415
+        },
+        {
+          "name": "seat_6",
+          "browser_pixel": [
+            667.8565807368628,
+            579.4994542361015
+          ],
+          "blender_pixel": [
+            667.8566873073578,
+            579.4996386766434
+          ],
+          "error_pixels": 0.0002130154545196884
+        },
+        {
+          "name": "tip_6",
+          "browser_pixel": [
+            685.8507669783551,
+            632.598127019256
+          ],
+          "blender_pixel": [
+            685.850887298584,
+            632.5983238220215
+          ],
+          "error_pixels": 0.00023066921333051707
+        },
+        {
+          "name": "light_path_grip_site",
+          "browser_pixel": [
+            728.8259905283159,
+            453.34260962506033
+          ],
+          "blender_pixel": [
+            728.8260984420776,
+            453.34285140037537
+          ],
+          "error_pixels": 0.00026476533561017185
+        }
+      ],
+      "max_body_position_error_m": 7.450580596923828e-09,
+      "missing_pose_objects": []
+    },
+    {
+      "file": "nikon-detail-blender.png",
+      "sha256": "028bfa26859968b8402354aa3e0fa3d25cf27debea367b3ff5c1dcdfcb60fe9f",
+      "snapshot_sha256": "4b95f4c95b9e6faeff049b906615878a88c1173a176bda29b9a5e72aca018942",
+      "pixel_size": [
+        1245,
+        1020
+      ],
+      "samples": 192,
+      "denoising": true,
+      "view_transform": "AgX",
+      "look": "AgX - Medium High Contrast",
+      "exposure": -0.15000000596046448,
+      "max_camera_landmark_error_pixels": 0.0003053592926321543,
+      "camera_landmarks": [
+        {
+          "name": "optical_axis",
+          "browser_pixel": [
+            553.192123665155,
+            467.07957457248926
+          ],
+          "blender_pixel": [
+            553.192268460989,
+            467.0797526836395
+          ],
+          "error_pixels": 0.00022954175086134973
+        },
+        {
+          "name": "lift_datum",
+          "browser_pixel": [
+            553.8579091531491,
+            509.5534106131341
+          ],
+          "blender_pixel": [
+            553.8580606877804,
+            509.55363035202026
+          ],
+          "error_pixels": 0.0002669230649195409
+        },
+        {
+          "name": "specimen",
+          "browser_pixel": [
+            553.192123665155,
+            467.07957457248926
+          ],
+          "blender_pixel": [
+            553.192268460989,
+            467.0797526836395
+          ],
+          "error_pixels": 0.00022954175086134973
+        },
+        {
+          "name": "knob_y_center",
+          "browser_pixel": [
+            798.1501134248102,
+            727.9289112745093
+          ],
+          "blender_pixel": [
+            798.150192797184,
+            727.929128408432
+          ],
+          "error_pixels": 0.00023118631898653427
+        },
+        {
+          "name": "knob_x_center",
+          "browser_pixel": [
+            795.8484173536978,
+            782.4495489463633
+          ],
+          "blender_pixel": [
+            795.8484899997711,
+            782.4497428536415
+          ],
+          "error_pixels": 0.00020706879177195573
+        },
+        {
+          "name": "coarse_center",
+          "browser_pixel": [
+            801.4209517547215,
+            681.6469080534359
+          ],
+          "blender_pixel": [
+            801.4210492372513,
+            681.6470950841904
+          ],
+          "error_pixels": 0.00021091075533538996
+        },
+        {
+          "name": "fine_center",
+          "browser_pixel": [
+            845.5972523413208,
+            692.4778983934515
+          ],
+          "blender_pixel": [
+            845.5973133444786,
+            692.4780946969986
+          ],
+          "error_pixels": 0.00020556378055406528
+        },
+        {
+          "name": "seat_0",
+          "browser_pixel": [
+            550.7965869414251,
+            314.25612617133146
+          ],
+          "blender_pixel": [
+            550.7967299222946,
+            314.2563307285309
+          ],
+          "error_pixels": 0.00024957399082240676
+        },
+        {
+          "name": "tip_0",
+          "browser_pixel": [
+            553.0799017243778,
+            459.92036703639167
+          ],
+          "blender_pixel": [
+            553.0800291895866,
+            459.9205720424652
+          ],
+          "error_pixels": 0.00024140188411144457
+        },
+        {
+          "name": "seat_1",
+          "browser_pixel": [
+            506.92441905478853,
+            285.71789550624794
+          ],
+          "blender_pixel": [
+            506.9245693087578,
+            285.7180988788605
+          ],
+          "error_pixels": 0.0002528570244310918
+        },
+        {
+          "name": "tip_1",
+          "browser_pixel": [
+            485.8153857058792,
+            410.4583126712475
+          ],
+          "blender_pixel": [
+            485.8155347406864,
+            410.4584741592407
+          ],
+          "error_pixels": 0.00021974927924435378
+        },
+        {
+          "name": "seat_2",
+          "browser_pixel": [
+            528.925131885902,
+            242.40495582953218
+          ],
+          "blender_pixel": [
+            528.9252845942974,
+            242.405104637146
+          ],
+          "error_pixels": 0.00021322185616546826
+        },
+        {
+          "name": "tip_2",
+          "browser_pixel": [
+            527.9612230813086,
+            252.81100166065855
+          ],
+          "blender_pixel": [
+            527.9613626003265,
+            252.81119585037231
+          ],
+          "error_pixels": 0.00023911336494332895
+        },
+        {
+          "name": "seat_3",
+          "browser_pixel": [
+            596.8800886418313,
+            215.87504483476525
+          ],
+          "blender_pixel": [
+            596.8802453577518,
+            215.87523221969604
+          ],
+          "error_pixels": 0.0002442805600857699
+        },
+        {
+          "name": "tip_3",
+          "browser_pixel": [
+            599.583056969849,
+            224.7579018000598
+          ],
+          "blender_pixel": [
+            599.5831896364689,
+            224.758061170578
+          ],
+          "error_pixels": 0.00020736295254069194
+        },
+        {
+          "name": "seat_4",
+          "browser_pixel": [
+            662.9869946079851,
+            224.10104138992997
+          ],
+          "blender_pixel": [
+            662.9870983958244,
+            224.10121321678162
+          ],
+          "error_pixels": 0.00020073958884630558
+        },
+        {
+          "name": "tip_4",
+          "browser_pixel": [
+            669.3754071934991,
+            233.61564212225304
+          ],
+          "blender_pixel": [
+            669.3755722045898,
+            233.61578106880188
+          ],
+          "error_pixels": 0.0002157192701377975
+        },
+        {
+          "name": "seat_5",
+          "browser_pixel": [
+            679.4688328005492,
+            262.69871378655824
+          ],
+          "blender_pixel": [
+            679.4689437747002,
+            262.69893407821655
+          ],
+          "error_pixels": 0.00024666511083674763
+        },
+        {
+          "name": "tip_5",
+          "browser_pixel": [
+            732.2191160810158,
+            346.84350066510825
+          ],
+          "blender_pixel": [
+            732.2192493081093,
+            346.8436861038208
+          ],
+          "error_pixels": 0.0002283352240435763
+        },
+        {
+          "name": "seat_6",
+          "browser_pixel": [
+            629.6133480433341,
+            303.9504746918323
+          ],
+          "blender_pixel": [
+            629.6134838461876,
+            303.9506757259369
+          ],
+          "error_pixels": 0.0002426048767439412
+        },
+        {
+          "name": "tip_6",
+          "browser_pixel": [
+            670.5642311205902,
+            428.9029326364657
+          ],
+          "blender_pixel": [
+            670.5643808841705,
+            428.9031708240509
+          ],
+          "error_pixels": 0.00028135823380697633
+        },
+        {
+          "name": "light_path_grip_site",
+          "browser_pixel": [
+            772.8718764689922,
+            -46.77944732216239
+          ],
+          "blender_pixel": [
+            772.8720536828041,
+            -46.77919864654541
+          ],
+          "error_pixels": 0.0003053592926321543
+        }
+      ],
+      "max_body_position_error_m": 7.450580596923828e-09,
+      "missing_pose_objects": []
+    }
+  ],
+  "passed": true,
+  "materials": [
+    {
+      "name": "black",
+      "family": "black_coating",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.008568125776946545,
+            0.009721217676997185,
+            0.012286487966775894,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.3700000047683716,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.02500000037252903,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "black_coating_1024_79379feabc6d_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "black_coating_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "black_coating_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "blue",
+      "family": "anodized",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.04817182570695877,
+            0.25015828013420105,
+            0.4677838087081909,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.3199999928474426,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.8500000238418579,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.23999999463558197,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "anodized_1024_ce933eaeb32a_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "anodized_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "anodized_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "bluecam",
+      "family": "anodized",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.016807375475764275,
+            0.08650045841932297,
+            0.23839756846427917,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.3199999928474426,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.8500000238418579,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.23999999463558197,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "anodized_1024_f90a0927f014_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "anodized_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "anodized_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "brass",
+      "family": "machined",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.38132601976394653,
+            0.2581828534603119,
+            0.08228270709514618,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.24500000476837158,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 1.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.2800000011920929,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "machined_1024_cb2c7ea3fdc8_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "machined_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "machined_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "bright",
+      "family": "polished",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.7454041838645935,
+            0.7758222222328186,
+            0.7912979125976562,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.17000000178813934,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 1.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.11999999731779099,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "polished_1024_d8689d477898_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "polished_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "polished_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "charcoal",
+      "family": "black_coating",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.02955683507025242,
+            0.03071344457566738,
+            0.0382043719291687,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.3700000047683716,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.02500000037252903,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "black_coating_1024_7725b0f58574_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "black_coating_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "black_coating_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "cream",
+      "family": "enamel",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.8549926280975342,
+            0.8069522380828857,
+            0.68668532371521,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.3700000047683716,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.09000000357627869,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "enamel_1024_1dc243302a59_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "enamel_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "enamel_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "edge",
+      "family": "enamel",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.48514994978904724,
+            0.4507857859134674,
+            0.37123769521713257,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.3700000047683716,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.09000000357627869,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "enamel_1024_5bdc18ff5c7d_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "enamel_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "enamel_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "enamel",
+      "family": "enamel",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.7230551242828369,
+            0.6795424818992615,
+            0.5711248517036438,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.3700000047683716,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.09000000357627869,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "enamel_1024_ace6ca4d69af_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "enamel_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "enamel_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "green",
+      "family": "satin_paint",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.020288562402129173,
+            0.22322796285152435,
+            0.08865558356046677,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.41999998688697815,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.03500000014901161,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "satin_paint_1024_c24bf1fb0f98_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "satin_paint_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "satin_paint_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "gun",
+      "family": "anodized",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.12213877588510513,
+            0.1384316086769104,
+            0.17144110798835754,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.3199999928474426,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.8500000238418579,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.23999999463558197,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "anodized_1024_7cece15c28f1_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "anodized_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "anodized_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "ink",
+      "family": null,
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.021219009533524513,
+            0.022173885256052017,
+            0.03189603239297867,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.03999999910593033,
+          "linked": false
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.029999999329447746,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    {
+      "name": "label",
+      "family": null,
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.019382361322641373,
+            0.020288562402129173,
+            0.023153366521000862,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.3400000035762787,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.2199999988079071,
+          "linked": false
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.029999999329447746,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    {
+      "name": "led",
+      "family": null,
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.07227185368537903,
+            0.7835378050804138,
+            0.2345505803823471,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.20000000298023224,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.2800000011920929,
+          "linked": false
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.029999999329447746,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    {
+      "name": "metal",
+      "family": "machined",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.4969329833984375,
+            0.5457244515419006,
+            0.5647115111351013,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.24500000476837158,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 1.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.2800000011920929,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "machined_1024_d6ffb17d29ae_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "machined_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "machined_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "optic",
+      "family": null,
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.8600000143051147,
+            0.8899999856948853,
+            0.9399999976158142,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.024000000208616257,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.03999999910593033,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 1.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5099999904632568,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.3499999940395355,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    {
+      "name": "paper",
+      "family": null,
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.8069522380828857,
+            0.7912979125976562,
+            0.7083757519721985,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.4399999976158142,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.029999999329447746,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    {
+      "name": "Photographic bench",
+      "family": null,
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.20499999821186066,
+            0.2150000035762787,
+            0.2199999988079071,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.49000000953674316,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.029999999329447746,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    {
+      "name": "red",
+      "family": "satin_paint",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.4677838087081909,
+            0.05780543014407158,
+            0.04666508734226227,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.41999998688697815,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.03500000014901161,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "satin_paint_1024_dd07f116d2a0_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "satin_paint_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "satin_paint_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "rubber",
+      "family": "rubber",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.014443843625485897,
+            0.015208514407277107,
+            0.019382361322641373,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.6800000071525574,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "rubber_1024_89c59ff215f9_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "rubber_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "rubber_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "sleeve",
+      "family": "rubber",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.2622506618499756,
+            0.2788942754268646,
+            0.26635560393333435,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.6800000071525574,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "rubber_1024_cd0ceabb7f3a_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "rubber_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "rubber_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "slide",
+      "family": null,
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.8600000143051147,
+            0.9200000166893005,
+            0.9300000071525574,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.02500000037252903,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.1599999964237213,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.03999999910593033,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5099999904632568,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    {
+      "name": "violet",
+      "family": "satin_paint",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.16826939582824707,
+            0.17144110798835754,
+            0.30054378509521484,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.41999998688697815,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.03500000014901161,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "satin_paint_1024_1b58735e086b_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "satin_paint_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "satin_paint_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "wafer",
+      "family": null,
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.13013647496700287,
+            0.12213877588510513,
+            0.22696587443351746,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.2199999988079071,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.5899999737739563,
+          "linked": false
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.029999999329447746,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    {
+      "name": "wire",
+      "family": "rubber",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.03433980792760849,
+            0.039546236395835876,
+            0.0423114113509655,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.6800000071525574,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "rubber_1024_82761da80f0c_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "rubber_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "rubber_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "yellow",
+      "family": "satin_paint",
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.7991027235984802,
+            0.4677838087081909,
+            0.021219009533524513,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.41999998688697815,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": true
+        },
+        "Anisotropic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.03500000014901161,
+          "linked": false
+        },
+        "Coat Roughness": {
+          "value": 0.25999999046325684,
+          "linked": false
+        },
+        "Transmission Weight": {
+          "value": 0.0,
+          "linked": false
+        },
+        "IOR": {
+          "value": 1.5,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        }
+      },
+      "images": [
+        {
+          "name": "satin_paint_1024_9de9df57980e_albedo.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB"
+        },
+        {
+          "name": "satin_paint_1024_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        },
+        {
+          "name": "satin_paint_1024_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "color_space": "Non-Color"
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "name": "Window key",
+      "type": "AREA",
+      "energy": 25.0,
+      "position": [
+        -0.6200000047683716,
+        -0.47999998927116394,
+        1.1799999475479126
+      ],
+      "color": [
+        1.0,
+        0.9649999737739563,
+        0.925000011920929
+      ],
+      "size": 0.11999999731779099,
+      "size_y": 0.8199999928474426
+    },
+    {
+      "name": "Ceiling bounce",
+      "type": "AREA",
+      "energy": 8.0,
+      "position": [
+        0.6800000071525574,
+        -0.11999999731779099,
+        1.1200000047683716
+      ],
+      "color": [
+        0.9100000262260437,
+        0.949999988079071,
+        1.0
+      ],
+      "size": 0.8799999952316284,
+      "size_y": 1.100000023841858
+    },
+    {
+      "name": "Rear strip reflection",
+      "type": "AREA",
+      "energy": 11.0,
+      "position": [
+        0.18000000715255737,
+        0.6200000047683716,
+        0.8799999952316284
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": 0.11999999731779099,
+      "size_y": 0.8500000238418579
+    }
+  ]
+}

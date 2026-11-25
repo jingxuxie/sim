@@ -42,24 +42,37 @@ and contacts can run slower than real time; the displayed clock is simulation ti
 
 The ordinary interactive view uses the Blender studio's rectangular lights,
 environment orientation, bench height and display transform. Parts cast soft
-shadows on each other, recessed surfaces receive less indirect light, and suitable
-flat metal surfaces reflect nearby visible geometry. These reflections update
-with the current camera and instrument pose; roughness controls their blur. The reflection probe
-also includes the bench's contribution instead of exposing the lower room HDR.
+shadows on each other, and recessed surfaces receive less indirect light. All seven
+instruments share this lighting and the new scene-reflection system. Broad flat
+surfaces, including the bench and selected instrument decks, reflect the actual
+surrounding assemblies through a reflected camera. Objects outside the main view
+can now appear in those reflections. Roughness and brushing direction control
+their blur, while uncovered directions retain the room environment.
 Shadow visibility is weighted separately for diffuse light and glossy highlights.
 A filter respects surface boundaries while smoothing those visibility estimates;
 it does not blur the surface textures or the rendered image.
 
-Live reflection tracing uses the current screen's depth and material buffers.
-Objects outside the screen and surfaces hidden behind another part cannot
-contribute; those rays retain the environment reflection. Curved and directionally
-brushed surfaces use environment reflections, since the screen-space estimate
-is unreliable there. Area-source shadows remain an approximation, with some
-residual banding on glossy housings. Blender Cycles traces more
-complete light transport and directional brushed-metal response. Resolution
-alone does not explain the remaining difference. If a graphics driver rejects
-the enhanced shadow shader, the viewer retries with compatible lighting before
-removing the still preview.
+Objective barrels on the Nikon, transfer station, Zeiss and probe station use
+local scene captures around each objective. These include nearby instrument parts
+and neighboring objectives, so barrel reflections are no longer limited to the
+static room environment. The source Blender anisotropy is translated into the
+local reflection approximation without changing the exported material settings.
+The bonder, AFM and tweezers use the shared studio lighting and planar captures;
+their curved parts retain room reflections.
+
+The live renderer budgets a bench capture and up to two broad instrument planes.
+Planar captures refresh after camera, pose or environment changes. Objective
+captures are staggered, normally one probe per update with at least 40 ms between
+captures; a full turret refresh can take several frames and lag during motion.
+Camera movement samples the available objective captures immediately. These are
+single-bounce approximations: planar coordinates follow the geometric plane,
+brushed reflections use an approximate directional filter, and objective captures
+do not reconstruct exact per-pixel parallax. Small unselected surfaces still use
+room lighting. Blender Cycles retains more complete light transport and material
+response, so increasing resolution alone cannot make the two views identical.
+The earlier screen-space reflection pass remains a fallback when scene captures
+are unavailable; it cannot reflect objects outside the main screen. Graphics
+fallbacks retain compatible lighting and live instrument controls.
 
 The browser's display transform now uses Blender 4.2.8's actual AgX Medium High
 Contrast shader/tables and exposure, shared by Interactive and Photo quality.
@@ -83,9 +96,12 @@ is intended for inspecting a stationary pose; live task operation uses the
 interactive renderer.
 The browser path tracer retains the exported color, roughness and normal maps;
 brushed-metal anisotropy uses an isotropic approximation in this mode.
+The scene-reflection update changes Interactive rendering; Photo quality still
+uses the unchanged path tracer and pauses physics while refining the measured pose.
 
-[Compare previous live lighting, the improved live view, and matched Blender renders](validation/lighting2/comparison.jpg).
-The [previous Photo-quality comparison](validation/photo1/comparison.jpg) remains available.
+[Compare the previous live view, scene reflections, and matched Blender renders](validation/reflections3/comparison.jpg).
+The [earlier lighting comparison](validation/lighting2/comparison.jpg) and
+[previous Photo-quality comparison](validation/photo1/comparison.jpg) remain available.
 
 ## Instruments and tasks
 
@@ -175,7 +191,7 @@ Overview images are 3840×3200; new details are 2560×2160. The live GLBs use th
 
 The transfer source power and dimmer affect microscope images. The dimmer represents a 10–100% relative illumination range; its zero setting is the powered minimum. The coarse ring turns with the clamp released; locking it engages the fine micrometer. Fiber and probe cables follow measured joint motion through visual deformation, without cable contact or strain simulation.
 
-[Delivery audit](validation/lighting2.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
+[Delivery audit](validation/reflections3.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
 
 ## Implementation
 
@@ -194,6 +210,11 @@ The transfer source power and dimmer affect microscope images. The dimmer repres
   GPU frame submission is bounded, and the preview remains visible until the first
   rendered frame completes. Static still views stop background 3D rendering.
   Full-resolution Blender renders are separate static views, labeled in the UI.
+- `scene-reflections.js` schedules planar scene captures and the four supported
+  instruments' local objective probes. Capture materials retain the source PBR
+  data and share the actual scene geometry; captured radiance replaces the relevant
+  environment contribution instead of adding duplicate light. Capture work is
+  bounded and staggered, without a guaranteed frame rate on an arbitrary GPU.
 - Optional `progressive-renderer.js` loads a locally pinned WebGL path tracer only
   when requested. A dedicated worker builds the ray-intersection acceleration
   structure. Photo geometry is copied from the measured pose; camera changes
@@ -224,16 +245,21 @@ also passes 54/54 episodes across seeds 0, 11 and 37, with 18 no-action controls
 These are fixture benchmark checks on estimated instrument models, not
 physical-lab calibration results.
 
-The rendering update includes [photo-mode browser checks](validation/lighting2/rendering.json),
-[pause/cancellation checks](validation/lighting2/lifecycle.json),
-[all-seven-instrument tracing checks](validation/lighting2/models.json), and
-[micrometre-scale ray-intersection regression checks](validation/photo1/intersection.json).
-Additional checks cover [display-transform agreement](validation/lighting2/grade_gpu.json),
-[local reflections](validation/lighting2/reflections.json) and
+Current rendering evidence includes [browser and Photo-mode checks](validation/reflections3/rendering.json),
+[all-seven-instrument checks](validation/reflections3/models.json),
+[reflection updates during camera and mechanism motion](validation/reflections3/motion.json),
+[planar reflection controls](validation/reflections3/planar.json),
+[objective reflection controls](validation/reflections3/objectives.json), and
+[source and protected-input verification](validation/reflections3/delivery.json).
+Earlier evidence remains available for [pause/cancellation behavior](validation/lighting2/lifecycle.json),
+[micrometre-scale ray intersections](validation/photo1/intersection.json),
+[display-transform agreement](validation/lighting2/grade_gpu.json), and
 [cable physics coverage](validation/lighting2/cables.json).
 Physics and instrument assets are unchanged from the contact-manipulation release;
 the current summary verifies their hashes before carrying forward that physics
-evidence. Rendering checks cover the current photo and interactive modes.
+evidence. Reflections do not add cable contact, tension or deformation physics.
+Controlled rendering checks and matched instrument views do not establish
+equality with Cycles or a frame-rate guarantee for other graphics devices.
 
 ## Develop and publish
 

@@ -1,0 +1,197 @@
+{
+  "passed": true,
+  "errors": [],
+  "hash": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+  "config": {
+    "resolution": 256,
+    "parallax": false,
+    "correctAxes": true,
+    "minUpdateIntervalMs": 40,
+    "maxProbesPerUpdate": 1
+  },
+  "signatureRegression": {
+    "churn": {
+      "glassVersionIncrease": 24,
+      "opaqueVersionIncrease": 6,
+      "additionalCaptures": 0,
+      "pending": false
+    },
+    "mapAssignmentCaptured": true,
+    "mapPixelsCaptured": true,
+    "mapTransformCaptured": true
+  },
+  "red": {
+    "mean": [
+      201.34805555555556,
+      83.31319444444445,
+      83.31319444444445
+    ],
+    "gradient": 2.0722222222222224
+  },
+  "black": {
+    "mean": [
+      83.31319444444445,
+      83.31319444444445,
+      83.31319444444445
+    ],
+    "gradient": 3.1
+  },
+  "moved": {
+    "mean": [
+      202,
+      202,
+      202
+    ],
+    "gradient": 0
+  },
+  "blackDarkening": 118.68680555555555,
+  "lifecycle": {
+    "stable": true,
+    "count": 9,
+    "samplers": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2
+    ],
+    "maxTextures": 16
+  },
+  "orbit": {
+    "unchanged": true,
+    "before": {
+      "mean": [
+        201.34805555555556,
+        83.31319444444445,
+        83.31319444444445
+      ],
+      "gradient": 2.0722222222222224
+    },
+    "after": {
+      "mean": [
+        201.51388888888889,
+        114.01962962962963,
+        114.01962962962963
+      ],
+      "gradient": 1.0361111111111112
+    },
+    "stats": {
+      "pending": false,
+      "enabled": true,
+      "ready": true,
+      "failed": false,
+      "preparing": false,
+      "dirty": false,
+      "nextProbe": 0,
+      "updateCount": 10,
+      "captureCount": 10,
+      "lastUpdateMs": 2.3000000715255737,
+      "lastCaptureMs": 2.3000000715255737,
+      "additionalSamplers": 1,
+      "probes": [
+        {
+          "index": 0,
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.0145,
+          "length": 0.1,
+          "dirty": false,
+          "captured": true,
+          "captureCount": 10
+        }
+      ],
+      "resolution": 256,
+      "parallax": false,
+      "correctAxes": true
+    }
+  },
+  "sharp": {
+    "mean": [
+      202.4711111111111,
+      103.3474537037037,
+      103.3474537037037
+    ],
+    "gradient": 2.1277777777777778
+  },
+  "rough": {
+    "mean": [
+      192.2636574074074,
+      76.82134259259259,
+      76.82134259259259
+    ],
+    "gradient": 0.9248456790123457
+  },
+  "timing": {
+    "cpu": [
+      1.8000000715255737,
+      1.100000023841858,
+      1.399999976158142,
+      2.399999976158142,
+      2.100000023841858,
+      1.399999976158142
+    ],
+    "gpu": [
+      0.497664,
+      0.489472,
+      0.692224,
+      1.2544,
+      0.4864,
+      0.488448
+    ]
+  },
+  "geometryChange": {
+    "updated": true,
+    "stats": {
+      "pending": false,
+      "enabled": true,
+      "ready": true,
+      "failed": false,
+      "preparing": false,
+      "dirty": false,
+      "nextProbe": 0,
+      "updateCount": 20,
+      "captureCount": 20,
+      "lastUpdateMs": 1,
+      "lastCaptureMs": 1,
+      "additionalSamplers": 1,
+      "probes": [
+        {
+          "index": 0,
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.0145,
+          "length": 0.1,
+          "dirty": false,
+          "captured": true,
+          "captureCount": 20
+        }
+      ],
+      "resolution": 256,
+      "parallax": false,
+      "correctAxes": true
+    }
+  },
+  "exception": {
+    "caught": true,
+    "restored": true
+  },
+  "switching": {
+    "sceneUnchanged": true,
+    "restored": true,
+    "pending": 0
+  }
+}

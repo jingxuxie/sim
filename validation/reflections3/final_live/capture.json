@@ -1,0 +1,73 @@
+{
+  "revision": "reflections3",
+  "url": "http://127.0.0.1:18931/",
+  "samples": 0,
+  "harness_sha256": "bdaa0ef03cced2cffe17f29addd1401ef860804e11506f3f6f53e8d01c93bef1",
+  "started_utc": "2026-11-25T03:25:19.122Z",
+  "passed": true,
+  "sources": {
+    "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+    "flexible-details.js": "91bc047df9fb127551d6034256ee50638271fb1f38999c9cee4706e1852e75f1",
+    "contact-overlay.js": "f58ad34fb84eedef538c68fdb24d13c30ce28d20ffe23685ec13e727f6d10e83",
+    "runtime.js": "d5318ed974199c50795c1e8f2b3a31463b50815492f3628d859641a604a9c29e",
+    "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+    "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+    "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+    "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+    "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+  },
+  "views": [
+    {
+      "asset": "transfer",
+      "view": "overview",
+      "snapshot": "transfer-overview.json",
+      "interactive": "transfer-overview-interactive.png"
+    },
+    {
+      "asset": "transfer",
+      "view": "detail",
+      "snapshot": "transfer-detail.json",
+      "interactive": "transfer-detail-interactive.png"
+    },
+    {
+      "asset": "nikon",
+      "view": "overview",
+      "snapshot": "nikon-overview.json",
+      "interactive": "nikon-overview-interactive.png"
+    },
+    {
+      "asset": "nikon",
+      "view": "detail",
+      "snapshot": "nikon-detail.json",
+      "interactive": "nikon-detail-interactive.png"
+    },
+    {
+      "asset": "probe",
+      "view": "overview",
+      "snapshot": "probe-overview.json",
+      "interactive": "probe-overview-interactive.png"
+    },
+    {
+      "asset": "probe",
+      "view": "detail",
+      "snapshot": "probe-detail.json",
+      "interactive": "probe-detail-interactive.png"
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "console_warnings": [],
+  "failed_requests": [],
+  "routed_sources": {
+    "app.js": "8f139726e7ce93b67658d7bfe3edbc300397bfcefc1e52fea46b5ec6c3f909cc"
+  },
+  "instrumentation_sha256": "26606cddc826085028c159a68cc370035b5373cb2d0eadf629511c92c4b156a5",
+  "graphics": {
+    "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)"
+  },
+  "checked_utc": "2026-11-25T03:25:41.723Z"
+}

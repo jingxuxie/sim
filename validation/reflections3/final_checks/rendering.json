@@ -1,0 +1,199 @@
+{
+  "url": "http://127.0.0.1:18932/",
+  "started_utc": "2026-11-25T03:26:15.506Z",
+  "checks": [
+    {
+      "check": "Gallery remains independent of path-tracing downloads",
+      "passed": true
+    },
+    {
+      "check": "Default live mode retains actual instrument geometry without ray-tracing cost",
+      "passed": true,
+      "view": {
+        "file": "quality-live-transfer.png",
+        "sha256": "be268bcbe879fd84106c5739f101e0f20230b5fe27828b2aa7556f6e8d9d1af6",
+        "quality": {
+          "mode": "interactive",
+          "generation": 1,
+          "ready": false,
+          "samples": 0,
+          "limit": 512,
+          "preparing": false
+        }
+      }
+    },
+    {
+      "check": "Photo mode pauses physics and accumulates actual 3D samples with no still-image substitution",
+      "passed": true,
+      "ms": 6551,
+      "view": {
+        "file": "quality-photo-transfer.png",
+        "sha256": "83e223586b03f6f8c6dc9b8a0fd29336d5f12aa7c4c4e34ca8f4883b1d5ad3b0",
+        "quality": {
+          "mode": "photo",
+          "generation": 3,
+          "ready": true,
+          "samples": 2.8125,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 132,
+            "triangles": 1042586,
+            "uvRemaps": 6,
+            "mixedUVMaterials": 0,
+            "prepareMs": 5069.900000095367,
+            "width": 925,
+            "height": 820,
+            "colorGrade": "Blender AgX Medium High Contrast",
+            "samples": 2.8125,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        }
+      }
+    },
+    {
+      "check": "Orbit resets accumulation and renders a different 3D viewpoint",
+      "passed": true,
+      "before": {
+        "mode": "photo",
+        "generation": 3,
+        "ready": true,
+        "samples": 2.8125,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 132,
+          "triangles": 1042586,
+          "uvRemaps": 6,
+          "mixedUVMaterials": 0,
+          "prepareMs": 5069.900000095367,
+          "width": 925,
+          "height": 820,
+          "colorGrade": "Blender AgX Medium High Contrast",
+          "samples": 2.8125,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": false,
+          "photographicContrast": 1.28
+        }
+      },
+      "dragged": {
+        "mode": "photo",
+        "generation": 21,
+        "ready": true,
+        "samples": 2.875,
+        "limit": 512,
+        "preparing": false,
+        "stats": {
+          "worker": true,
+          "meshes": 132,
+          "triangles": 1042586,
+          "uvRemaps": 6,
+          "mixedUVMaterials": 0,
+          "prepareMs": 5069.900000095367,
+          "width": 925,
+          "height": 820,
+          "colorGrade": "Blender AgX Medium High Contrast",
+          "samples": 2.875,
+          "maxSamples": 512,
+          "ready": true,
+          "preparing": false,
+          "compiling": false,
+          "denoised": false,
+          "photographicContrast": 1.28
+        }
+      },
+      "view": {
+        "file": "quality-photo-orbit.png",
+        "sha256": "3dc27c632aea7cadb3835e6b48459c69a802a2cd6a361c0ff19f1e32ae4ffb4b",
+        "quality": {
+          "mode": "photo",
+          "generation": 112,
+          "ready": true,
+          "samples": 4.8125,
+          "limit": 512,
+          "preparing": false,
+          "stats": {
+            "worker": true,
+            "meshes": 132,
+            "triangles": 1042586,
+            "uvRemaps": 6,
+            "mixedUVMaterials": 0,
+            "prepareMs": 5069.900000095367,
+            "width": 925,
+            "height": 820,
+            "colorGrade": "Blender AgX Medium High Contrast",
+            "samples": 4.8125,
+            "maxSamples": 512,
+            "ready": true,
+            "preparing": false,
+            "compiling": false,
+            "denoised": false,
+            "photographicContrast": 1.28
+          }
+        }
+      }
+    },
+    {
+      "check": "An instrument command exits refinement, resumes live physics, and moves the stage",
+      "passed": true
+    },
+    {
+      "check": "Canceling refinement preserves a pause explicitly requested by the user",
+      "passed": true
+    },
+    {
+      "check": "Switching instruments disposes the previous photo scene and keeps live controls working",
+      "passed": true
+    },
+    {
+      "check": "No browser exceptions or failed HTTP responses",
+      "passed": true
+    },
+    {
+      "check": "Canceling before an automatic pause reply arrives restores live simulation",
+      "passed": true
+    },
+    {
+      "check": "module download failed falls back to interactive rendering and preserves pause intent",
+      "passed": true,
+      "error_banner_hidden": true
+    },
+    {
+      "check": "floating-point targets unavailable falls back to interactive rendering and preserves pause intent",
+      "passed": true,
+      "error_banner_hidden": true
+    },
+    {
+      "check": "Switching instruments during acceleration preparation cancels the previous scene safely",
+      "passed": true,
+      "error_banner_hidden": true
+    }
+  ],
+  "console_errors": [],
+  "gpu_errors": [],
+  "sources": {
+    "/app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+    "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+    "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+    "/planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+    "/objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+    "/env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122",
+    "/progressive-renderer.js": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8"
+  },
+  "passed": true,
+  "checked_utc": "2026-11-25T03:26:51.528Z"
+}

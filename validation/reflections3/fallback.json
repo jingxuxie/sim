@@ -1,0 +1,477 @@
+{
+  "mode": "vulkan",
+  "url": "http://127.0.0.1:18934/",
+  "started_utc": "2026-11-25T03:25:17.953Z",
+  "passed": true,
+  "cases": [
+    {
+      "failure": "current production shaders",
+      "forced_gpu_error": false,
+      "warnings": [
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported.",
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+      ],
+      "console_errors": [],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "transfer",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "generation": 4,
+              "asset": "transfer",
+              "planar": {
+                "enabled": true,
+                "ready": true,
+                "failed": false,
+                "lastError": null,
+                "updateCount": 2,
+                "captureCount": 6,
+                "receiverCount": 3,
+                "lastUpdateMs": 204.90000009536743,
+                "receivers": [
+                  {
+                    "label": "Laboratory bench",
+                    "area": 0,
+                    "captures": 2,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      2.220446049250313e-16,
+                      0.001
+                    ]
+                  },
+                  {
+                    "label": "base__brushed plane 0.02400",
+                    "area": 0.26798761552601985,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.02400000030414222
+                    ]
+                  },
+                  {
+                    "label": "base__alloy plane 0.06000",
+                    "area": 0.04499624803854019,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.06000000424683094
+                    ]
+                  }
+                ]
+              },
+              "curved": {
+                "pending": true,
+                "enabled": true,
+                "ready": false,
+                "failed": false,
+                "preparing": false,
+                "dirty": true,
+                "nextProbe": 0,
+                "updateCount": 0,
+                "captureCount": 0,
+                "lastUpdateMs": 0,
+                "lastCaptureMs": 0,
+                "additionalSamplers": 1,
+                "probes": [
+                  {
+                    "index": 0,
+                    "center": [
+                      -0.10500000000014373,
+                      0.21908730531048828,
+                      0.020000000004774924
+                    ],
+                    "radius": 0.017,
+                    "length": 0.07099999999952272,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 1,
+                    "center": [
+                      -0.06341977131,
+                      0.2349184667792088,
+                      -0.01938521996006249
+                    ],
+                    "radius": 0.017,
+                    "length": 0.0659999999992588,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 2,
+                    "center": [
+                      -0.10499999999986276,
+                      0.25103007941686506,
+                      -0.05664462448561491
+                    ],
+                    "radius": 0.017,
+                    "length": 0.059000000001366376,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  }
+                ],
+                "resolution": 256,
+                "parallax": false,
+                "correctAxes": true
+              }
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 131
+          },
+          "coverage": {
+            "changedPixels": 109607,
+            "changedFraction": 0.1445049439683586,
+            "rmse": 29.159442196577714
+          },
+          "stage_motion_m": 0.0037453774560052217
+        },
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "generation": 20,
+              "asset": "nikon",
+              "planar": {
+                "enabled": true,
+                "ready": true,
+                "failed": false,
+                "lastError": null,
+                "updateCount": 14,
+                "captureCount": 42,
+                "receiverCount": 3,
+                "lastUpdateMs": 475.6999999284744,
+                "receivers": [
+                  {
+                    "label": "Laboratory bench",
+                    "area": 0,
+                    "captures": 14,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      2.220446049250313e-16,
+                      0.001
+                    ]
+                  },
+                  {
+                    "label": "stand__edge plane 0.29676",
+                    "area": 0.03494984263208867,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.2967600222764304
+                    ]
+                  },
+                  {
+                    "label": "stand__cream plane 0.34200",
+                    "area": 0.03241760568975793,
+                    "captures": 1,
+                    "enabled": true,
+                    "plane": [
+                      0,
+                      1,
+                      0,
+                      -0.3420000076293945
+                    ]
+                  }
+                ]
+              },
+              "curved": {
+                "pending": true,
+                "enabled": true,
+                "ready": false,
+                "failed": false,
+                "preparing": false,
+                "dirty": true,
+                "nextProbe": 0,
+                "updateCount": 10,
+                "captureCount": 10,
+                "lastUpdateMs": 5.600000023841858,
+                "lastCaptureMs": 5.600000023841858,
+                "additionalSamplers": 1,
+                "probes": [
+                  {
+                    "index": 0,
+                    "center": [
+                      0,
+                      0.1904999999686543,
+                      0.06199999999730944
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05899999999574959,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 1,
+                    "center": [
+                      -0.03567854266,
+                      0.19648243527942813,
+                      0.04595933260074164
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05934999999584439,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 5,
+                    "center": [
+                      0.04163420964,
+                      0.2172095475770811,
+                      0.013259962108819712
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.04299999999878943,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  },
+                  {
+                    "index": 6,
+                    "center": [
+                      0.034648868865,
+                      0.19997973323828355,
+                      0.04642226223822452
+                    ],
+                    "radius": 0.0145,
+                    "length": 0.05199999999954935,
+                    "dirty": true,
+                    "captured": false,
+                    "captureCount": 0
+                  }
+                ],
+                "resolution": 256,
+                "parallax": false,
+                "correctAxes": true
+              }
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 84114,
+            "changedFraction": 0.11089518787079762,
+            "rmse": 30.39323747482776
+          },
+          "stage_motion_m": 0.01139122441806186
+        }
+      ],
+      "served_sources": {
+        "/app.js": "eee9cd118699390014b63606b678c13469f7742beb26309ca6d1ef49b07d4aa2",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+        "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+        "/objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+        "/planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+        "/env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+      },
+      "passed": true
+    },
+    {
+      "failure": "one-shot invalid draw fault injection",
+      "forced_gpu_error": true,
+      "warnings": [
+        "GL_INVALID_VALUE : glDrawArrays: count < 0"
+      ],
+      "console_errors": [
+        "GL_INVALID_VALUE : glDrawArrays: count < 0"
+      ],
+      "page_errors": [],
+      "assets": [
+        {
+          "asset": "transfer",
+          "status": "Compatible lighting \u00b7 live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": true,
+              "ready": false,
+              "failed": true,
+              "lastError": "The graphics driver rejected scene reflections",
+              "generation": 2,
+              "asset": null,
+              "planar": {
+                "enabled": false,
+                "ready": false,
+                "failed": false,
+                "lastError": null,
+                "updateCount": 1,
+                "captureCount": 3,
+                "receiverCount": 1,
+                "lastUpdateMs": 509.39999997615814,
+                "receivers": [
+                  {
+                    "label": "Laboratory bench",
+                    "area": 0,
+                    "captures": 1,
+                    "enabled": false,
+                    "plane": [
+                      0,
+                      1,
+                      2.220446049250313e-16,
+                      0.001
+                    ]
+                  }
+                ]
+              },
+              "curved": {
+                "pending": false,
+                "enabled": false,
+                "ready": false,
+                "failed": false,
+                "preparing": false,
+                "dirty": true,
+                "nextProbe": 0,
+                "updateCount": 0,
+                "captureCount": 0,
+                "lastUpdateMs": 0,
+                "lastCaptureMs": 0,
+                "additionalSamplers": 1,
+                "probes": [],
+                "resolution": 256,
+                "parallax": false,
+                "correctAxes": true
+              }
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 131
+          },
+          "coverage": {
+            "changedPixels": 105649,
+            "changedFraction": 0.13928675016479894,
+            "rmse": 28.435250011197315
+          },
+          "stage_motion_m": 0.003993795604460019
+        },
+        {
+          "asset": "nikon",
+          "status": "Live controls and camera movement.",
+          "state": {
+            "shadowFallback": false,
+            "reflections": {
+              "enabled": true,
+              "ready": false,
+              "failed": true,
+              "lastError": "The graphics driver rejected scene reflections",
+              "generation": 2,
+              "asset": null,
+              "planar": {
+                "enabled": false,
+                "ready": false,
+                "failed": false,
+                "lastError": null,
+                "updateCount": 1,
+                "captureCount": 3,
+                "receiverCount": 1,
+                "lastUpdateMs": 509.39999997615814,
+                "receivers": [
+                  {
+                    "label": "Laboratory bench",
+                    "area": 0,
+                    "captures": 1,
+                    "enabled": false,
+                    "plane": [
+                      0,
+                      1,
+                      2.220446049250313e-16,
+                      0.001
+                    ]
+                  }
+                ]
+              },
+              "curved": {
+                "pending": false,
+                "enabled": false,
+                "ready": false,
+                "failed": false,
+                "preparing": false,
+                "dirty": true,
+                "nextProbe": 0,
+                "updateCount": 0,
+                "captureCount": 0,
+                "lastUpdateMs": 0,
+                "lastCaptureMs": 0,
+                "additionalSamplers": 1,
+                "probes": [],
+                "resolution": 256,
+                "parallax": false,
+                "correctAxes": true
+              }
+            },
+            "areaEnabled": true,
+            "screenEffectsAvailable": true,
+            "modelVisible": true,
+            "meshes": 71
+          },
+          "coverage": {
+            "changedPixels": 83745,
+            "changedFraction": 0.11040870138431114,
+            "rmse": 29.98883867669577
+          },
+          "stage_motion_m": 0.011371782171220942
+        }
+      ],
+      "served_sources": {
+        "/app.js": "eee9cd118699390014b63606b678c13469f7742beb26309ca6d1ef49b07d4aa2",
+        "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+        "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+        "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+        "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+        "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+        "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+        "/objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+        "/planar-reflections.js": "d4e025090f68b1b08ff8bdc17b27d3e9e86edc02dbbff4afb4f466aec4098e1c",
+        "/env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+      },
+      "gpu_failure_fixture": {
+        "original_sha256": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+        "injected_sha256": "d4e025090f68b1b08ff8bdc17b27d3e9e86edc02dbbff4afb4f466aec4098e1c",
+        "change": "One-shot gl.drawArrays(TRIANGLES,0,-1) after first planar reflection update. Real INVALID_VALUE fault injection; not a production-driver failure. Current fallback and cache-recovery code retained."
+      },
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9"
+  },
+  "checked_utc": "2026-11-25T03:25:42.839Z"
+}

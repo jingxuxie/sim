@@ -1,0 +1,212 @@
+{
+  "passed": true,
+  "checked_utc": "2026-11-25T03:29:00.806928+00:00",
+  "sources": {
+    "app.js": "83e6237c8094e61011b9006545b54c47fa4e9a33600ae4d9c11151b8a7bb4ca9",
+    "area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "progressive-renderer.js": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8",
+    "cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+    "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+    "objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+    "env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122",
+    "scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5"
+  },
+  "recommendation": "Accept as a substantial live-reflection improvement: objective metal response and real cable, stage, rail and deck reflections are visibly restored. Both paused readiness and actual compiled shader uniform bindings are now verified. The live renderer remains an approximation of Cycles; root publication acceptance is separate.",
+  "cycles_parity": false,
+  "table_realism_fully_solved": false,
+  "reviewed": [
+    "final_live/transfer-overview-interactive.png",
+    "final_live/transfer-detail-interactive.png",
+    "final_live/nikon-overview-interactive.png",
+    "final_live/nikon-detail-interactive.png",
+    "final_live/probe-overview-interactive.png",
+    "final_live/probe-detail-interactive.png",
+    "final_checks/transfer-interactive-overview.png",
+    "final_checks/transfer-interactive-detail.png",
+    "final_checks/nikon-interactive-overview.png",
+    "final_checks/nikon-interactive-detail.png",
+    "final_checks/probe-interactive-overview.png",
+    "final_checks/probe-interactive-detail.png",
+    "final_checks/zeiss-interactive-overview.png",
+    "final_checks/zeiss-interactive-detail.png",
+    "final_checks/bonder-interactive-overview.png",
+    "final_checks/bonder-interactive-detail.png",
+    "final_checks/afm-interactive-overview.png",
+    "final_checks/afm-interactive-detail.png",
+    "final_checks/tweezers-interactive-overview.png",
+    "final_checks/tweezers-interactive-detail.png",
+    "final_crops/nikon-objectives.jpg",
+    "final_crops/nikon-stage.jpg",
+    "final_crops/transfer-objectives.jpg",
+    "final_crops/transfer-breadboard.jpg",
+    "final_crops/transfer-rail.jpg",
+    "final_crops/probe-decks.jpg",
+    "final_comparison/all-seven-contact-sheet.jpg"
+  ],
+  "comparisons": [
+    {
+      "file": "final_comparison/all-matched-comparisons.jpg",
+      "sha256": "765436abdb81e38d9171abb3c7edbcec043e82d5cd28793cd3934e4e9b4d8c5d"
+    },
+    {
+      "file": "final_comparison/all-seven-contact-sheet.jpg",
+      "sha256": "052ba5d937b39693794779c99351ad75906b947fda0d5ca613218d2a3b962835"
+    },
+    {
+      "file": "final_comparison/all-seven-manifest.json",
+      "sha256": "3d135f80b1b3cca592d46052090c9c3eb960306d13fb8e3da17d03a34d3efe2c"
+    },
+    {
+      "file": "final_comparison/manifest.json",
+      "sha256": "a944c9c57aa2490643134ae57833fec7cf165b61c9b3b19f6bbc4f0aff9808e1"
+    },
+    {
+      "file": "final_comparison/nikon-detail.jpg",
+      "sha256": "c80731541b9f92004c8c873a5ab59726a1d013934588bc64e767fa709c5f4bb5"
+    },
+    {
+      "file": "final_comparison/nikon-matched-comparison.jpg",
+      "sha256": "1ac0c020025452c284f1004dbdf22360462537294f60b7fe66ccda7c294215f4"
+    },
+    {
+      "file": "final_comparison/nikon-overview.jpg",
+      "sha256": "ab2fc40db7d3fc9397150a570e83eec20ed58d91456451cd3c409370616cdf66"
+    },
+    {
+      "file": "final_comparison/probe-detail.jpg",
+      "sha256": "cda73b689e0e71f3dca20bc473cafe51075d678ae7d71c74b33e34c3caa9cdd7"
+    },
+    {
+      "file": "final_comparison/probe-matched-comparison.jpg",
+      "sha256": "15830dfb3bc6653e5c980b0749dc27f31144476e8c1c356d11970164da8eeda8"
+    },
+    {
+      "file": "final_comparison/probe-overview.jpg",
+      "sha256": "1045b90d4596ac3c1280e5f6d210f3ababde828315d1477b9b3a1efab67f62a4"
+    },
+    {
+      "file": "final_comparison/transfer-detail.jpg",
+      "sha256": "9c20d5431c38814c80d481a481750e3898819ffc1952234b0ef8cda1769f400f"
+    },
+    {
+      "file": "final_comparison/transfer-matched-comparison.jpg",
+      "sha256": "c1e1c2b71737b7c725c5f30d4edc21f6f2a8255f59c8e77262bda40109abd686"
+    },
+    {
+      "file": "final_comparison/transfer-overview.jpg",
+      "sha256": "af5fc7dc129a072fdc3979bb5083c77fd1024cfdf10a4eb64286dacab2e0930b"
+    },
+    {
+      "file": "final_crops/manifest.json",
+      "sha256": "03abcc2b5e020f2a8874997e122b2b048cd31fc2c58fe5578199d352c78aa5b6"
+    },
+    {
+      "file": "final_crops/nikon-objectives.jpg",
+      "sha256": "e2d63a6101b1a0030563f77c6b63110373a23125b35bf7c8f91adef9d3ffa041"
+    },
+    {
+      "file": "final_crops/nikon-stage.jpg",
+      "sha256": "5523061de811b96dd1a8a87b473ce43833b40ad6eb068883fadbfc4c619e2748"
+    },
+    {
+      "file": "final_crops/probe-decks.jpg",
+      "sha256": "bc4c3d48e04c645a47202c0d8bc9daf1989590a934cc63440ad0305ac104241c"
+    },
+    {
+      "file": "final_crops/transfer-breadboard.jpg",
+      "sha256": "9442b7353b92afc292f5857a094b284493787c97d42d250fb7548f05b3028c39"
+    },
+    {
+      "file": "final_crops/transfer-objectives.jpg",
+      "sha256": "d25949175f27adabdbc3396bc7fe178e6971baf7551744a49b72ca7d5b53315f"
+    },
+    {
+      "file": "final_crops/transfer-rail.jpg",
+      "sha256": "51b292a7ed465f9190ab1148a6e668498bcc495fbae5cd3ad64b86d2ad2da174"
+    }
+  ],
+  "source_verification": {
+    "file": "final_checks/source-verification.json",
+    "sha256": "ebebab47344a2695a1c985a53313bd66ebeeefbd9b86786aa0176879fab6f42c"
+  },
+  "camera_pose_proofs": [
+    {
+      "file": "final_live/pose-comparison.json",
+      "sha256": "01283bd94a82f1443c66d4a4f3fae51e69f6dc1bfa1047a8891152fc0d9f3f89"
+    },
+    {
+      "file": "final_live/reference-pose-comparison.json",
+      "sha256": "b76f29ec9394f50f72ae8f932161aa008d3dda74f2e110ed3b3092181ad68ab5"
+    }
+  ],
+  "findings": [
+    {
+      "region": "Nikon objective barrels",
+      "result": "Clear improvement: the former nearly uniform pale barrels now show longitudinal metal highlights and darker reflected surroundings. This is visibly closer to the Cycles reference, without the earlier bulbous parallax patch.",
+      "evidence": "final_crops/nikon-objectives.jpg"
+    },
+    {
+      "region": "Transfer objective barrels",
+      "result": "Improved local metal contrast and adjacent-object reflections; the original engravings and rings remain legible. The reference still has brighter, more varied reflections and smoother grazing highlights.",
+      "evidence": "final_crops/transfer-objectives.jpg"
+    },
+    {
+      "region": "Transfer breadboard and rail",
+      "result": "Clear improvement over the published baseline: the blue fiber/cable, stage stack, knobs and rail now form visible local reflections in the actual surfaces. Their positions remain coherent in the matched camera. The earlier merged candidate sampled obsolete targets; current production now passes direct current-texture/uniform identity assertions. Filtering remains cloudier and sometimes more angular than Cycles, and the fine directional sheen, grazing highlights and indirect bounce still differ.",
+      "evidence": "final_crops/transfer-breadboard.jpg"
+    },
+    {
+      "region": "Probe station decks",
+      "result": "Both deck planes now show their manipulator and fastener reflections with materially stronger local contrast. The result is clearly closer to the reference than the room-only baseline, but broad/cloudy reflection filtering differs from Cycles directional sheen. Rounded deck edges, unselected vertical stage faces and the unprobed chuck collar retain the older environment response.",
+      "evidence": "final_crops/probe-decks.jpg"
+    },
+    {
+      "region": "Nikon stage deck",
+      "result": "The changed objective reflections are visible above the stage. The transmissive slide and its reflections still differ from Cycles; this revision does not solve dielectric light transport.",
+      "evidence": "final_crops/nikon-stage.jpg"
+    },
+    {
+      "region": "All seven instruments",
+      "result": "Live overview/detail and Photo lifecycle views remain populated and usable. Zeiss/probe objective coverage is present; the bonder tabletop now reflects its actual fixture. AFM and tweezer detail is preserved. No vanished assemblies or broken full-scene silhouettes were observed. The approximate planar filter remains broad/cloudy on highly reflective tables. Photo screenshots here are eight-sample lifecycle evidence, not converged image-quality references.",
+      "evidence": "final_comparison/all-seven-contact-sheet.jpg"
+    }
+  ],
+  "lifecycle": {
+    "models": 7,
+    "source_and_photo_inventories_identical": true,
+    "actual_post_photo_objective_capture_resumed": [
+      "transfer",
+      "nikon",
+      "probe",
+      "zeiss"
+    ],
+    "report": "final_checks/all-models.json"
+  },
+  "motion": {
+    "passed": true,
+    "assets": [
+      "nikon",
+      "transfer"
+    ],
+    "report": "final_checks/motion.json",
+    "scope": "Actual UI orbit and physical controls; source module analytic fixtures provide independent reflection correctness checks."
+  },
+  "limitations": [
+    "Single-bounce planar captures and local objective probes approximate full light transport. Direct lighting and material response still differ visibly from Cycles.",
+    "Only the bench and up to two selected macro planes per instrument receive planar captures. Rounded rails/edges and other curved metal beyond the four supported objective assemblies still use room illumination.",
+    "Directional roughness filtering is approximate and cannot reproduce arbitrary normal-map bent rays or complete microfacet visibility.",
+    "Objective probe refresh is incremental; reflections may lag a moving mechanism by several frames.",
+    "Transparent/transmissive capture contributors are excluded; dielectric slide and glass behavior remains approximate.",
+    "The known source geometry overlap in six transfer lift-top bores remains unchanged and is excluded from reflection correctness claims.",
+    "No source-model, physical contact, task, or cable-dynamics improvements are claimed by this renderer-only revision."
+  ],
+  "actual_compiled_bindings": {
+    "passed": true,
+    "completed_view_states": 38,
+    "active_receiver_material_checks": 112,
+    "method": "Inspect Three materialProperties.uniforms after a completed main draw; assert current source material, current target texture, and current color/enabled uniform object identities. Includes captured views, real camera/mechanism motion, all-seven lifecycle views, four post-Photo control operations and timing before/after."
+  }
+}

@@ -21,7 +21,7 @@ fs.writeFileSync(out+'/browser.json',JSON.stringify({url,started_utc:startedUTC,
   const waitFor=(fn,arg,options={})=>page.waitForFunction(fn,arg,{polling:100,...options});
   page.on('pageerror',e=>errors.push(e.message));
   page.on('console',message=>{if(message.type()==='error'||gpuFailure.test(message.text()))consoleErrors.push(message.text());});
-  page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});if(/\/(app|studio-renderer|progressive-renderer|cavity-lighting|area-shadows|finite-area-shadows|screen-reflections|color-grade)\.js\b/.test(r.url()))responseWork.push((async()=>{sources[new URL(r.url()).pathname]=crypto.createHash('sha256').update(await r.body()).digest('hex');})());});
+  page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});if(/\/(app|studio-renderer|progressive-renderer|cavity-lighting|area-shadows|finite-area-shadows|screen-reflections|color-grade|scene-reflections|planar-reflections|objective-reflections|env-axis)\.js\b/.test(r.url()))responseWork.push((async()=>{sources[new URL(r.url()).pathname]=crypto.createHash('sha256').update(await r.body()).digest('hex');})());});
   page.on('request',r=>{if(/\.(wasm|glb|whl|hdr)(\?|$)/.test(r.url()))downloads.push(r.url());});
   page.on('crash',()=>{console.error('Browser page crashed');process.exit(2);});
   const screenshot=async name=>{

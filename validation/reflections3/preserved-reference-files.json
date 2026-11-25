@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "purpose": "Complete image references in preserved historical reports. These images are not new current-runtime validation.",
+  "files": [
+    {
+      "file": "baseline_all_models/transfer-photo-detail.png",
+      "sha256": "0e123507cc6d2d39809eee213b5725c7e3d299508403f4d7570470c8920fb194",
+      "reused_from": "validation/lighting2/final_checks/transfer-photo-detail.png",
+      "parent_report": "baseline_all_models/all-models.json",
+      "parent_report_sha256": "e50f20d166362e5246c9c32baa099a2d009888e48344c213cfdcebcd4ef4a988"
+    },
+    {
+      "file": "baseline_all_models/nikon-photo-detail.png",
+      "sha256": "a8f354147357eef590f32066f6866d977134ff5353aee49568467dd5c898950f",
+      "reused_from": "validation/lighting2/final_checks/nikon-photo-detail.png",
+      "parent_report": "baseline_all_models/all-models.json",
+      "parent_report_sha256": "e50f20d166362e5246c9c32baa099a2d009888e48344c213cfdcebcd4ef4a988"
+    },
+    {
+      "file": "baseline_all_models/probe-photo-detail.png",
+      "sha256": "4fcc0d1561a030585d71f33b4bc71a747100ca654c7b4bd486cdc393f5dd7100",
+      "reused_from": "validation/lighting2/final_checks/probe-photo-detail.png",
+      "parent_report": "baseline_all_models/all-models.json",
+      "parent_report_sha256": "e50f20d166362e5246c9c32baa099a2d009888e48344c213cfdcebcd4ef4a988"
+    },
+    {
+      "file": "baseline_all_models/zeiss-photo-detail.png",
+      "sha256": "63cd15b994339a557f4641f846ae6190f84ca6d97667cab8d428391390983b16",
+      "reused_from": "validation/lighting2/final_checks/zeiss-photo-detail.png",
+      "parent_report": "baseline_all_models/all-models.json",
+      "parent_report_sha256": "e50f20d166362e5246c9c32baa099a2d009888e48344c213cfdcebcd4ef4a988"
+    },
+    {
+      "file": "baseline_all_models/bonder-photo-detail.png",
+      "sha256": "752af4c81e956897716e1d09ebeb3e0d8312124a5bfa75d5956451f69dc3e052",
+      "reused_from": "validation/lighting2/final_checks/bonder-photo-detail.png",
+      "parent_report": "baseline_all_models/all-models.json",
+      "parent_report_sha256": "e50f20d166362e5246c9c32baa099a2d009888e48344c213cfdcebcd4ef4a988"
+    },
+    {
+      "file": "baseline_all_models/afm-photo-detail.png",
+      "sha256": "692b63adea348e565a8a1ce14db4506e98fc9d6de9f53f1f7d7183c1f94c38f2",
+      "reused_from": "validation/lighting2/final_checks/afm-photo-detail.png",
+      "parent_report": "baseline_all_models/all-models.json",
+      "parent_report_sha256": "e50f20d166362e5246c9c32baa099a2d009888e48344c213cfdcebcd4ef4a988"
+    },
+    {
+      "file": "baseline_all_models/tweezers-photo-detail.png",
+      "sha256": "e51db8e6f9958d9dce794a9e6fd5a4d4cd869966171cc961f5cc694c03850edd",
+      "reused_from": "validation/lighting2/final_checks/tweezers-photo-detail.png",
+      "parent_report": "baseline_all_models/all-models.json",
+      "parent_report_sha256": "e50f20d166362e5246c9c32baa099a2d009888e48344c213cfdcebcd4ef4a988"
+    },
+    {
+      "file": "reference_camera/transfer-overview-interactive.png",
+      "sha256": "0725199f9c4104cbbe80b5d8bdd5a0640b2d8caa99df6f9853b78a91a68240df",
+      "reused_from": "validation/lighting2/baseline_live/transfer-overview-interactive.png",
+      "parent_report": "reference_camera/capture.json",
+      "parent_report_sha256": "f831ac62ebf5b377f1a20d216939a1fcb30b83ef1abff0009319dcec768dcc91"
+    },
+    {
+      "file": "reference_camera/transfer-detail-interactive.png",
+      "sha256": "6ea5e5e53980eb14fe3d6a6d37270f73c1eb90e2a8044c9c3e3ade08d25baa0a",
+      "reused_from": "validation/lighting2/baseline_live/transfer-detail-interactive.png",
+      "parent_report": "reference_camera/capture.json",
+      "parent_report_sha256": "f831ac62ebf5b377f1a20d216939a1fcb30b83ef1abff0009319dcec768dcc91"
+    },
+    {
+      "file": "reference_camera/nikon-overview-interactive.png",
+      "sha256": "43035ca1e3d915dc33e9721d2cce93d4747c38712dd2dfe637911aa7b171df94",
+      "reused_from": "validation/lighting2/baseline_live/nikon-overview-interactive.png",
+      "parent_report": "reference_camera/capture.json",
+      "parent_report_sha256": "f831ac62ebf5b377f1a20d216939a1fcb30b83ef1abff0009319dcec768dcc91"
+    },
+    {
+      "file": "reference_camera/nikon-detail-interactive.png",
+      "sha256": "3ecaa3be34e69b62a76fcdf8c62e26f463c7fa3819b6c67b0fdda7a185f92f6b",
+      "reused_from": "validation/lighting2/baseline_live/nikon-detail-interactive.png",
+      "parent_report": "reference_camera/capture.json",
+      "parent_report_sha256": "f831ac62ebf5b377f1a20d216939a1fcb30b83ef1abff0009319dcec768dcc91"
+    },
+    {
+      "file": "reference_camera/probe-overview-interactive.png",
+      "sha256": "e45e3d00e3866af7882c3fa3d461ac57535316a8bf84e738c89f993bc43bf3b8",
+      "reused_from": "validation/lighting2/baseline_live/probe-overview-interactive.png",
+      "parent_report": "reference_camera/capture.json",
+      "parent_report_sha256": "f831ac62ebf5b377f1a20d216939a1fcb30b83ef1abff0009319dcec768dcc91"
+    },
+    {
+      "file": "reference_camera/probe-detail-interactive.png",
+      "sha256": "4fead74835a64cad01ad7fa4f86fb81308c913b66fc87e54c3abcafac841ce65",
+      "reused_from": "validation/lighting2/baseline_live/probe-detail-interactive.png",
+      "parent_report": "reference_camera/capture.json",
+      "parent_report_sha256": "f831ac62ebf5b377f1a20d216939a1fcb30b83ef1abff0009319dcec768dcc91"
+    }
+  ]
+}

@@ -1,0 +1,3608 @@
+{
+  "asset": "transfer",
+  "view": {
+    "position": [
+      1.0519579481520585,
+      1.1320403198652498,
+      1.70128063476389
+    ],
+    "quaternion_xyzw": [
+      -0.1856322198936726,
+      0.2454669311652811,
+      0.0479518684632827,
+      0.9502564301032256
+    ],
+    "matrix_world_column_major": [
+      0.8748932080303584,
+      1.3877787807814457e-17,
+      -0.4843158830168055,
+      0,
+      -0.1822662853707938,
+      0.9264825944964544,
+      -0.32925522518595013,
+      0,
+      0.4487102358532513,
+      0.37633761716724307,
+      0.8105733292832926,
+      0,
+      1.0519579481520585,
+      1.1320403198652498,
+      1.70128063476389,
+      1
+    ],
+    "projection": [
+      2.8571588214600214,
+      0,
+      0,
+      0,
+      0,
+      3.4874144438409087,
+      0,
+      0,
+      0,
+      0,
+      -1.0026535159085788,
+      -1,
+      0,
+      0,
+      -0.0426351030344336,
+      0
+    ],
+    "fov_y_degrees": 32,
+    "aspect": 1.2205882352941178,
+    "near": 0.02128930576145649,
+    "far": 16.067400574684143,
+    "target": [
+      0.09668500721454619,
+      0.33084365972411034,
+      -0.02437371015548706
+    ],
+    "width": 1245,
+    "height": 1020
+  },
+  "pose": {
+    "q": {
+      "scope_focus_travel": -8.435905876165832e-8,
+      "light_path_travel": 0.012,
+      "objective_angle": 5.527515919851831e-22,
+      "sample_x_travel": 4.5886028152045805e-17,
+      "sample_y_travel": -2.993222579714504e-17,
+      "sample_fine_angle": -1.2916829352580959e-14,
+      "rotation_lock_angle": 2.20521200168271e-21,
+      "sample_theta_angle": 8.340388838628251e-12,
+      "rotation_fine_spindle_travel": -2.1064095543458907e-15,
+      "rotation_fine_knob_angle": 6.86718693288106e-13,
+      "sample_y_spindle_travel": 2.31590249774849e-17,
+      "sample_y_angle": -2.910470506099084e-13,
+      "sample_x_spindle_travel": -3.838276989140854e-17,
+      "sample_x_angle": 4.823580473165728e-13,
+      "stamp_x_travel": 4.3098638969023726e-26,
+      "stamp_y_travel": -1.0809718913265022e-31,
+      "stamp_z_travel": 8.266580735360822e-11,
+      "stamp_tilt_angle": -0.00001608445068728802,
+      "goniometer_spindle_travel": -0.0000014407322871493698,
+      "goniometer_knob_angle": -0.007350353923438735,
+      "stamp_z_spindle_travel": -4.164189509460254e-9,
+      "stamp_z_angle": 2.9617521999073126e-7,
+      "stamp_y_spindle_travel": 1.9753601198395647e-32,
+      "stamp_y_angle": -2.481558548849227e-28,
+      "stamp_x_spindle_travel": 4.3094091022394254e-26,
+      "stamp_x_angle": 8.884831879821395e-22,
+      "illumination_angle": 4.712388980383893,
+      "illumination_power_angle": 0.35
+    },
+    "poses": {
+      "base": {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "scope_focus": {
+        "p": [
+          -0.105,
+          0.044,
+          0.36399991683972716
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "light_path_selector": {
+        "p": [
+          -0.029999999999999995,
+          0.039999999999999994,
+          0.3929999168397272
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "objective_turret": {
+        "p": [
+          -0.105,
+          0.006157388699999995,
+          0.27399991683972713
+        ],
+        "q": [
+          0.9867143147216887,
+          0.16246495352323903,
+          -4.4838524504023415e-23,
+          2.723222025406889e-22
+        ]
+      },
+      "sample_x": {
+        "p": [
+          -0.10499999999999995,
+          -0.02,
+          0.04
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "sample_y": {
+        "p": [
+          -0.10499999999999995,
+          -0.02000000000000003,
+          0.063
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "sample_fine": {
+        "p": [
+          -0.10499999999999995,
+          -0.02000000000000003,
+          0.11399999999999999
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          -6.621705912573937e-15
+        ]
+      },
+      "rotation_clamp": {
+        "p": [
+          -0.12600000000000042,
+          -0.05499999999999976,
+          0.104
+        ],
+        "q": [
+          1,
+          -7.030349269889722e-36,
+          -1.061712701033704e-21,
+          -6.621705912573937e-15
+        ]
+      },
+      "sample_theta": {
+        "p": [
+          -0.10499999999999995,
+          -0.02000000000000003,
+          0.11399999999999999
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          4.141316004222029e-12
+        ]
+      },
+      "rotation_fine_spindle": {
+        "p": [
+          -0.06599999999999995,
+          -0.033999999999997914,
+          0.099
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "rotation_fine_knob": {
+        "p": [
+          -0.06599999999999995,
+          -0.06799999999999792,
+          0.099
+        ],
+        "q": [
+          1,
+          0,
+          -3.4968055121428296e-13,
+          0
+        ]
+      },
+      "sample_y_spindle": {
+        "p": [
+          -0.10499999999999995,
+          -0.07400000000000002,
+          0.057999999999999996
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "sample_y_knob": {
+        "p": [
+          -0.10499999999999995,
+          -0.10800000000000003,
+          0.057999999999999996
+        ],
+        "q": [
+          1,
+          0,
+          1.4486631563652488e-13,
+          0
+        ]
+      },
+      "sample_x_spindle": {
+        "p": [
+          -0.16699999999999998,
+          -0.02,
+          0.035
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "sample_x_knob": {
+        "p": [
+          -0.20099999999999998,
+          -0.02,
+          0.035
+        ],
+        "q": [
+          1,
+          -2.4008698571332635e-13,
+          0,
+          0
+        ]
+      },
+      "stamp_x": {
+        "p": [
+          0.15,
+          -0.02,
+          0.094
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "stamp_y": {
+        "p": [
+          0.15,
+          -0.02,
+          0.121
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "stamp_z": {
+        "p": [
+          0.15,
+          -0.02,
+          0.17200000010558203
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "stamp_tilt": {
+        "p": [
+          0.03,
+          -0.02,
+          0.18200000010558204
+        ],
+        "q": [
+          0.999999999969293,
+          0,
+          -0.000007836704132939575,
+          0
+        ]
+      },
+      "goniometer_spindle": {
+        "p": [
+          0.077,
+          -0.02,
+          0.21599856721174152
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "goniometer_knob": {
+        "p": [
+          0.077,
+          -0.02,
+          0.22999856721174153
+        ],
+        "q": [
+          0.9999934276321213,
+          0,
+          0,
+          -0.003625560999537339
+        ]
+      },
+      "stamp_z_spindle": {
+        "p": [
+          0.0875,
+          -0.0625,
+          0.15599999585265215
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "stamp_z_knob": {
+        "p": [
+          0.0875,
+          -0.0625,
+          0.18999999585265215
+        ],
+        "q": [
+          0.9999999999999886,
+          0,
+          0,
+          1.5154197301752747e-7
+        ]
+      },
+      "stamp_y_spindle": {
+        "p": [
+          0.15,
+          -0.0735,
+          0.11599999999999999
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "stamp_y_knob": {
+        "p": [
+          0.15,
+          -0.1075,
+          0.11599999999999999
+        ],
+        "q": [
+          1,
+          0,
+          1.2157840404817782e-28,
+          0
+        ]
+      },
+      "stamp_x_spindle": {
+        "p": [
+          0.2185,
+          -0.02,
+          0.089
+        ],
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "stamp_x_knob": {
+        "p": [
+          0.2525,
+          -0.02,
+          0.089
+        ],
+        "q": [
+          1,
+          4.4416419074295535e-22,
+          0,
+          0
+        ]
+      },
+      "illuminator_dimmer": {
+        "p": [
+          0.361,
+          0.03944703674,
+          0.08788057709
+        ],
+        "q": [
+          -0.5573453755214648,
+          -0.4351621908948991,
+          -0.4351621908952374,
+          0.5573453755218981
+        ]
+      },
+      "illuminator_power": {
+        "p": [
+          0.395,
+          0.0341,
+          0.026
+        ],
+        "q": [
+          0.9847265389049334,
+          0.17410813759359595,
+          0,
+          0
+        ]
+      }
+    },
+    "sites": {
+      "illumination_source_port": [
+        0.45,
+        0.0328,
+        0.047
+      ],
+      "vacuum_valve_outlet": [
+        -0.266,
+        0.118,
+        0.04
+      ],
+      "heater_host_terminal": [
+        0.018,
+        0.18,
+        0.029
+      ],
+      "optical_axis": [
+        -0.105,
+        -0.020000000000000004,
+        0.27399991683972713
+      ],
+      "illumination_microscope_port": [
+        -0.073,
+        0.068,
+        0.47499991683972714
+      ],
+      "light_path_grip": [
+        -0.016999999999999994,
+        0.039999999999999994,
+        0.3929999168397272
+      ],
+      "objective_seat_0": [
+        -0.105,
+        -0.02000000000471542,
+        0.2545888113547109
+      ],
+      "objective_axis_0": [
+        -0.105,
+        -0.020000000000223492,
+        0.15458881133019525
+      ],
+      "objective_tip_0": [
+        -0.105,
+        -0.02000000000483444,
+        0.18358881135518818
+      ],
+      "objective_seat_1": [
+        -0.074,
+        0.00936351860563947,
+        0.2645278140621933
+      ],
+      "objective_axis_1": [
+        -0.04193870093999999,
+        0.03973231059788829,
+        0.17480708301066933
+      ],
+      "objective_tip_1": [
+        -0.05283954262,
+        0.029406921314752657,
+        0.20531213158523726
+      ],
+      "objective_seat_2": [
+        -0.105,
+        0.03872703721599436,
+        0.27446681676967566
+      ],
+      "objective_axis_2": [
+        -0.10499999999999998,
+        0.09946462119600008,
+        0.1950253546911434
+      ],
+      "objective_tip_2": [
+        -0.105,
+        0.07456221175523545,
+        0.22759635415297685
+      ],
+      "objective_seat_3": [
+        -0.136,
+        0.009363518605639477,
+        0.2645278140621933
+      ],
+      "objective_axis_3": [
+        -0.16806129906,
+        0.03973231059788831,
+        0.17480708301066933
+      ],
+      "rotation_lock_grip": [
+        -0.12600000000000047,
+        -0.059999999999999755,
+        0.104
+      ],
+      "device_chip_center": [
+        -0.10499999999999995,
+        -0.02000000000000003,
+        0.16325
+      ],
+      "transfer_target": [
+        -0.10499999999999995,
+        -0.02000000000000003,
+        0.16325
+      ],
+      "heater_electrical_inlet": [
+        -0.1410000000000662,
+        -0.012000000000298206,
+        0.154
+      ],
+      "workholder_vacuum_inlet": [
+        -0.10500000000026499,
+        0.011999999999999969,
+        0.156
+      ],
+      "rotation_fine_grip": [
+        -0.06599999999999995,
+        -0.06799999999999792,
+        0.099
+      ],
+      "sample_y_grip_site": [
+        -0.10499999999999995,
+        -0.10800000000000003,
+        0.057999999999999996
+      ],
+      "sample_x_grip_site": [
+        -0.20099999999999998,
+        -0.02,
+        0.035
+      ],
+      "stamp_contact": [
+        -0.1049998197392232,
+        -0.02,
+        0.17049788419687872
+      ],
+      "goniometer_grip": [
+        0.077,
+        -0.02,
+        0.22999856721174153
+      ],
+      "stamp_z_grip_site": [
+        0.0875,
+        -0.0625,
+        0.18999999585265215
+      ],
+      "stamp_y_grip_site": [
+        0.15,
+        -0.1075,
+        0.11599999999999999
+      ],
+      "stamp_x_grip_site": [
+        0.2525,
+        -0.02,
+        0.089
+      ],
+      "illumination_grip": [
+        0.361,
+        0.03168589642968801,
+        0.08982086085369292
+      ],
+      "illumination_power_contact": [
+        0.395,
+        0.029403136435763103,
+        0.02428551096272274
+      ]
+    },
+    "time": 0.08000000000000006,
+    "paused": true
+  },
+  "rendering": {
+    "exposure": 0.9012504626108302,
+    "toneMapping": 6,
+    "environmentIntensity": 0.42,
+    "environmentRotation": [
+      0,
+      -2.0943951023931953,
+      0,
+      "XYZ"
+    ],
+    "floor_y": -0.001
+  },
+  "materials": [
+    {
+      "name": "alloy",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.44999998807907104,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "black",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.02500000037252903,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "bluepaint",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.03500000014901161,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 1,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "bronze",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.2800000011920929,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "brushed",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.44999998807907104,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "darkmetal",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.23999999463558197,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "graphite",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.02500000037252903,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "ink",
+      "type": "MeshStandardMaterial",
+      "color": [
+        0.007499032188206911,
+        0.012286487966775894,
+        0.01850022003054619
+      ],
+      "roughness": 0.44999998807907104,
+      "metalness": 0.029999999329447746,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {}
+    },
+    {
+      "name": "ivory",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.09000000357627869,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "paper",
+      "type": "MeshStandardMaterial",
+      "color": [
+        0.8549926280975342,
+        0.8227857351303101,
+        0.7304607629776001
+      ],
+      "roughness": 0.5099999904632568,
+      "metalness": 0.009999999776482582,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {}
+    },
+    {
+      "name": "red",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.03500000014901161,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 1,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "rubber",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "steel",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.2800000011920929,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "wire",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 1,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "yellow",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.03500000014901161,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "wire",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "cyan",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.23999999463558197,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "gold",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.2800000011920929,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "steel",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.2800000011920929,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 1,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "violet",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.03500000014901161,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "wafer",
+      "type": "MeshStandardMaterial",
+      "color": [
+        0.04817182570695877,
+        0.05126945674419403,
+        0.10702310502529144
+      ],
+      "roughness": 0.17000000178813934,
+      "metalness": 0.699999988079071,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {}
+    },
+    {
+      "name": "etched",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.44999998807907104,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "optic",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        0.8600000143051147,
+        0.8899999856948853,
+        0.9399999976158142
+      ],
+      "roughness": 0.024000000208616257,
+      "metalness": 0,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.03999999910593033,
+      "specularIntensity": 0.699999988079071,
+      "transmission": 1,
+      "ior": 1.5099999904632568,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {}
+    },
+    {
+      "name": "blue",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.23999999463558197,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "green",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.03500000014901161,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "red",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.03500000014901161,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "ceramic",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.05999999865889549,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 0,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 0,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "glass",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        0.8600000143051147,
+        0.9200000166893005,
+        0.9300000071525574
+      ],
+      "roughness": 0.02500000037252903,
+      "metalness": 0,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.1599999964237213,
+      "clearcoatRoughness": 0.03999999910593033,
+      "specularIntensity": 1,
+      "transmission": 0.9800000190734863,
+      "ior": 1.5099999904632568,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {}
+    },
+    {
+      "name": "bronze",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0.2800000011920929,
+      "anisotropyRotation": 0,
+      "clearcoat": 0,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 1,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "violet",
+      "type": "MeshPhysicalMaterial",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 1,
+      "metalness": 1,
+      "anisotropy": 0,
+      "anisotropyRotation": 0,
+      "clearcoat": 0.03500000014901161,
+      "clearcoatRoughness": 0.25999999046325684,
+      "specularIntensity": 1,
+      "transmission": 0,
+      "ior": 1.5,
+      "normalScale": [
+        1,
+        -1
+      ],
+      "maps": {
+        "map": {
+          "channel": 1,
+          "colorSpace": "srgb",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "normalMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "roughnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "metalnessMap": {
+          "channel": 1,
+          "colorSpace": "",
+          "repeat": [
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "illumination_source_port",
+      "blender_world": [
+        0.45,
+        0.0328,
+        0.047
+      ],
+      "pixel": [
+        889.7881831940895,
+        787.0218179869283
+      ]
+    },
+    {
+      "name": "vacuum_valve_outlet",
+      "blender_world": [
+        -0.266,
+        0.118,
+        0.04
+      ],
+      "pixel": [
+        427.21935134615114,
+        633.8818756517011
+      ]
+    },
+    {
+      "name": "heater_host_terminal",
+      "blender_world": [
+        0.018,
+        0.18,
+        0.029
+      ],
+      "pixel": [
+        627.3321796897822,
+        668.3798407816261
+      ]
+    },
+    {
+      "name": "optical_axis",
+      "blender_world": [
+        -0.105,
+        -0.020000000000000004,
+        0.27399991683972713
+      ],
+      "pixel": [
+        462.82539115536736,
+        534.6151400067658
+      ]
+    },
+    {
+      "name": "illumination_microscope_port",
+      "blender_world": [
+        -0.073,
+        0.068,
+        0.47499991683972714
+      ],
+      "pixel": [
+        518.9120189997326,
+        364.4951966549279
+      ]
+    },
+    {
+      "name": "light_path_grip",
+      "blender_world": [
+        -0.016999999999999994,
+        0.039999999999999994,
+        0.3929999168397272
+      ],
+      "pixel": [
+        547.154242538824,
+        441.57559318574226
+      ]
+    },
+    {
+      "name": "objective_seat_0",
+      "blender_world": [
+        -0.105,
+        -0.02000000000471542,
+        0.2545888113547109
+      ],
+      "pixel": [
+        463.35267879685875,
+        548.9930823082653
+      ]
+    },
+    {
+      "name": "objective_axis_0",
+      "blender_world": [
+        -0.105,
+        -0.020000000000223492,
+        0.15458881133019525
+      ],
+      "pixel": [
+        466.0148416415983,
+        621.5842461827945
+      ]
+    },
+    {
+      "name": "objective_tip_0",
+      "blender_world": [
+        -0.105,
+        -0.02000000000483444,
+        0.18358881135518818
+      ],
+      "pixel": [
+        465.2520282012582,
+        600.7840477823944
+      ]
+    },
+    {
+      "name": "objective_seat_1",
+      "blender_world": [
+        -0.074,
+        0.00936351860563947,
+        0.2645278140621933
+      ],
+      "pixel": [
+        496.9416050382271,
+        538.280586933419
+      ]
+    },
+    {
+      "name": "objective_axis_1",
+      "blender_world": [
+        -0.04193870093999999,
+        0.03973231059788829,
+        0.17480708301066933
+      ],
+      "pixel": [
+        532.9991272857524,
+        599.8148091086416
+      ]
+    },
+    {
+      "name": "objective_tip_1",
+      "blender_world": [
+        -0.05283954262,
+        0.029406921314752657,
+        0.20531213158523726
+      ],
+      "pixel": [
+        520.8979692854729,
+        579.16349146994
+      ]
+    },
+    {
+      "name": "objective_seat_2",
+      "blender_world": [
+        -0.105,
+        0.03872703721599436,
+        0.27446681676967566
+      ],
+      "pixel": [
+        488.6481383434758,
+        518.4858103290952
+      ]
+    },
+    {
+      "name": "objective_axis_2",
+      "blender_world": [
+        -0.10499999999999998,
+        0.09946462119600008,
+        0.1950253546911434
+      ],
+      "pixel": [
+        515.6320951017836,
+        559.0903388516738
+      ]
+    },
+    {
+      "name": "objective_tip_2",
+      "blender_world": [
+        -0.105,
+        0.07456221175523545,
+        0.22759635415297685
+      ],
+      "pixel": [
+        504.7933428066285,
+        542.7805577983869
+      ]
+    },
+    {
+      "name": "objective_seat_3",
+      "blender_world": [
+        -0.136,
+        0.009363518605639477,
+        0.2645278140621933
+      ],
+      "pixel": [
+        455.5445063983766,
+        528.9820814545461
+      ]
+    },
+    {
+      "name": "objective_axis_3",
+      "blender_world": [
+        -0.16806129906,
+        0.03973231059788831,
+        0.17480708301066933
+      ],
+      "pixel": [
+        450.5502800808899,
+        579.9912906487742
+      ]
+    },
+    {
+      "name": "rotation_lock_grip",
+      "blender_world": [
+        -0.12600000000000047,
+        -0.059999999999999755,
+        0.104
+      ],
+      "pixel": [
+        435.8464117617712,
+        666.2982838070919
+      ]
+    },
+    {
+      "name": "device_chip_center",
+      "blender_world": [
+        -0.10499999999999995,
+        -0.02000000000000003,
+        0.16325
+      ],
+      "pixel": [
+        465.7877947265099,
+        615.3931899620933
+      ]
+    },
+    {
+      "name": "transfer_target",
+      "blender_world": [
+        -0.10499999999999995,
+        -0.02000000000000003,
+        0.16325
+      ],
+      "pixel": [
+        465.7877947265099,
+        615.3931899620933
+      ]
+    },
+    {
+      "name": "heater_electrical_inlet",
+      "blender_world": [
+        -0.1410000000000662,
+        -0.012000000000298206,
+        0.154
+      ],
+      "pixel": [
+        445.9721294992345,
+        613.6922744123762
+      ]
+    },
+    {
+      "name": "workholder_vacuum_inlet",
+      "blender_world": [
+        -0.10500000000026499,
+        0.011999999999999969,
+        0.156
+      ],
+      "pixel": [
+        479.877586867712,
+        611.0797272761819
+      ]
+    },
+    {
+      "name": "rotation_fine_grip",
+      "blender_world": [
+        -0.06599999999999995,
+        -0.06799999999999792,
+        0.099
+      ],
+      "pixel": [
+        472.2409554071755,
+        683.1441531017349
+      ]
+    },
+    {
+      "name": "sample_y_grip_site",
+      "blender_world": [
+        -0.10499999999999995,
+        -0.10800000000000003,
+        0.057999999999999996
+      ],
+      "pixel": [
+        429.3179482116786,
+        718.4765255312099
+      ]
+    },
+    {
+      "name": "sample_x_grip_site",
+      "blender_world": [
+        -0.20099999999999998,
+        -0.02,
+        0.035
+      ],
+      "pixel": [
+        408.0138150398318,
+        688.3594475555865
+      ]
+    },
+    {
+      "name": "stamp_contact",
+      "blender_world": [
+        -0.1049998197392232,
+        -0.02,
+        0.17049788419687872
+      ],
+      "pixel": [
+        465.59740896395533,
+        610.1985756554274
+      ]
+    },
+    {
+      "name": "goniometer_grip",
+      "blender_world": [
+        0.077,
+        -0.02,
+        0.22999856721174153
+      ],
+      "pixel": [
+        590.3211850405377,
+        596.8229715441264
+      ]
+    },
+    {
+      "name": "stamp_z_grip_site",
+      "blender_world": [
+        0.0875,
+        -0.0625,
+        0.18999999585265215
+      ],
+      "pixel": [
+        580.3732051886955,
+        642.339189641484
+      ]
+    },
+    {
+      "name": "stamp_y_grip_site",
+      "blender_world": [
+        0.15,
+        -0.1075,
+        0.11599999999999999
+      ],
+      "pixel": [
+        607.7650033345074,
+        725.7485267132867
+      ]
+    },
+    {
+      "name": "stamp_x_grip_site",
+      "blender_world": [
+        0.2525,
+        -0.02,
+        0.089
+      ],
+      "pixel": [
+        719.1081353984442,
+        734.6920927803731
+      ]
+    }
+  ]
+}

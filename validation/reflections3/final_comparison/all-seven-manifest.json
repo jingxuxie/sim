@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "file": "all-seven-contact-sheet.jpg",
+  "sha256": "052ba5d937b39693794779c99351ad75906b947fda0d5ca613218d2a3b962835",
+  "source": "../final_checks/all-models.json",
+  "method": "Downsampled contact sheet of actual live overview/detail and eight-sample denoised Photo views. No image tone or contrast adjustments. Full source screenshots retained.",
+  "sources": [
+    {
+      "file": "../final_checks/transfer-interactive-overview.png",
+      "sha256": "f12262fbeab3297cd12fd4395b755365c3b98caf3a0dc68c93218d9c83f8dde3"
+    },
+    {
+      "file": "../final_checks/transfer-interactive-detail.png",
+      "sha256": "4b21c5e5012597ba6a4bdd8ac2b292a62b7e0a16548df71a425d1da354c2d127"
+    },
+    {
+      "file": "../final_checks/transfer-photo-detail.png",
+      "sha256": "7624dc6f80f9551221ec9be078cba8eaf7dddc1ff39244c6b0f1280358e8ef52"
+    },
+    {
+      "file": "../final_checks/nikon-interactive-overview.png",
+      "sha256": "9861b815e806dde9a43bed4e3a7b075d6f66355a36a738876cc1f9a40441445a"
+    },
+    {
+      "file": "../final_checks/nikon-interactive-detail.png",
+      "sha256": "b7fb003f0909c5c792a5c192c3bf4c78780ac02954a710cda17bedea17b9a4cd"
+    },
+    {
+      "file": "../final_checks/nikon-photo-detail.png",
+      "sha256": "781f407728395d1e9de2d52ca9ad9e332d1b67547a7392dc854aaddc7484a83d"
+    },
+    {
+      "file": "../final_checks/probe-interactive-overview.png",
+      "sha256": "c03d7d108471de91caaf85829f0df48f4f280840e4a8e5309d57441a77005ebe"
+    },
+    {
+      "file": "../final_checks/probe-interactive-detail.png",
+      "sha256": "09e347509f2ba150a070e738f9e229e0c568387d7668108b63b7f2f5e07814ea"
+    },
+    {
+      "file": "../final_checks/probe-photo-detail.png",
+      "sha256": "dd81855be7608ce6b1f424089504347e283fc33e4fe80772a35fb880b6b1c8ad"
+    },
+    {
+      "file": "../final_checks/zeiss-interactive-overview.png",
+      "sha256": "90a2af9db823ad10c322469c3c410a132565c8bfbc0bd75c472e21f6e7992820"
+    },
+    {
+      "file": "../final_checks/zeiss-interactive-detail.png",
+      "sha256": "b3c56b62db844c719c602ca1b6b018aef98178f6acce88b0a32ac999f9911e25"
+    },
+    {
+      "file": "../final_checks/zeiss-photo-detail.png",
+      "sha256": "9068715ccf108529d2120ffc50b8db1e0b656434b9dcd5ee1ba54c462c4a46a4"
+    },
+    {
+      "file": "../final_checks/bonder-interactive-overview.png",
+      "sha256": "7ec4ca3ea85435d3b19933ad94385d1487a29c3527b5b1074af7acf1a21a830d"
+    },
+    {
+      "file": "../final_checks/bonder-interactive-detail.png",
+      "sha256": "97543cdb1a7907f6a6ccb0ba8e06a2ca9af9ee0f004620e67f37046ecc3e9634"
+    },
+    {
+      "file": "../final_checks/bonder-photo-detail.png",
+      "sha256": "be3404ac7cf1d785b291dc1f39dd0adb04a445b2ca0ae95e961335d9d31af869"
+    },
+    {
+      "file": "../final_checks/afm-interactive-overview.png",
+      "sha256": "250dd11fed95663ecfd99deef8784a08e6d013c773cdf846c11d0dbbd924c1e7"
+    },
+    {
+      "file": "../final_checks/afm-interactive-detail.png",
+      "sha256": "7495e5c241ab12234439e1dd7bb794fcd896ab6a0db0c1e0909b5999a2e2be89"
+    },
+    {
+      "file": "../final_checks/afm-photo-detail.png",
+      "sha256": "1a3586f91a1690ddb0ea90f745777b1414b3514188dcb25c3bbc94ef77d9ea4f"
+    },
+    {
+      "file": "../final_checks/tweezers-interactive-overview.png",
+      "sha256": "b9a01832c34c8f03b8c8cf38e9f45c07e1e72f1a4b376d6fa233ece2fc3610e1"
+    },
+    {
+      "file": "../final_checks/tweezers-interactive-detail.png",
+      "sha256": "5dbd2b0b340bd9be38263ace4e4ce4d17e991f9483e434b98ad0559a4e4cdafb"
+    },
+    {
+      "file": "../final_checks/tweezers-photo-detail.png",
+      "sha256": "8956bc330270c47021628d81cf80740b3e3aa4ad296a81afeb33dd03137b8cdf"
+    }
+  ]
+}

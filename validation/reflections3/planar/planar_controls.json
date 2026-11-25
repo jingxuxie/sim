@@ -1,0 +1,979 @@
+{
+  "revision": "reflections3",
+  "checked_utc": "2026-11-25T03:26:07.835270+00:00",
+  "scope": "Actual planar reflection module on EGL and Vulkan; controlled one-bounce scene-radiance and lifecycle tests.",
+  "candidate_file": "planar-reflections-elliptical.js",
+  "served_source_hashes": {
+    "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+  },
+  "harness_hashes": {
+    "index.html": "2d744d5482f74bc445edc850665e3fb1d0090e36d9ba3efc1a20cb6031947f83",
+    "fixture.js": "b690a1a149569fd167303aae4fb9f39c22635d7e66153bfaa46520c982cd70e6",
+    "run.cjs": "000dca83be1e3ac256bbfac3ff78df70d451f0f64c12af7c7bdf2a929efcb774",
+    "run.sbatch": "e94adb6f630166a3ec629f0ada0907252a0cd20712ba3f0002d15369a2a60d60",
+    "aggregate.py": "65d933b66976713e600603b914d84c16824e6e3ca14de707e4f282327acd61d9"
+  },
+  "checks": [
+    {
+      "name": "egl: exact served candidate",
+      "passed": true
+    },
+    {
+      "name": "egl: all geometry, energy, anisotropy and cleanup controls",
+      "passed": true
+    },
+    {
+      "name": "egl: real GPU with no JS/shader/GL errors",
+      "passed": true
+    },
+    {
+      "name": "vulkan: exact served candidate",
+      "passed": true
+    },
+    {
+      "name": "vulkan: all geometry, energy, anisotropy and cleanup controls",
+      "passed": true
+    },
+    {
+      "name": "vulkan: real GPU with no JS/shader/GL errors",
+      "passed": true
+    }
+  ],
+  "backend_reports": [
+    {
+      "backend": "egl",
+      "candidateModule": "planar-reflections-elliptical.js",
+      "started": "2026-11-25T03:23:18.334Z",
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "sources": {
+        "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+        "fixture.js": "b690a1a149569fd167303aae4fb9f39c22635d7e66153bfaa46520c982cd70e6"
+      },
+      "servedSources": {
+        "fixture.js": "b690a1a149569fd167303aae4fb9f39c22635d7e66153bfaa46520c982cd70e6",
+        "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+      },
+      "passed": true,
+      "render": {
+        "graphics": {
+          "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)"
+        },
+        "checks": [
+          {
+            "name": "receiver detector selects detailed exposed top above covered original slab",
+            "passed": true,
+            "planes": [
+              {
+                "height": 0.024000000208616257,
+                "area": 0.27388399798011775
+              }
+            ]
+          },
+          {
+            "name": "source is outside the primary camera but reflection is inside",
+            "passed": true,
+            "real": {
+              "x": 320,
+              "y": 627.3741928906197,
+              "ndc": [
+                0,
+                1.614059137044249,
+                0.9903974324162835
+              ]
+            },
+            "mirror": {
+              "x": 320,
+              "y": 236.56609284556166,
+              "ndc": [
+                0,
+                -0.014307946476826395,
+                0.9933100811970007
+              ]
+            }
+          },
+          {
+            "name": "offscreen source produces its physical reflected image",
+            "passed": true,
+            "total": 2752.394783132244,
+            "count": 5800,
+            "peak": 0.6425085999071598,
+            "negative": 0,
+            "centroid": {
+              "x": 319.500313727012,
+              "y": 227.23629575170222
+            },
+            "covariance": {
+              "xx": 352.35148055508034,
+              "yy": 482.17467271650094,
+              "xy": 0.0047616186493542045
+            }
+          },
+          {
+            "name": "same-material reattachment binds current texture and uniform objects",
+            "passed": true,
+            "sameMaterial": true,
+            "textureIsCurrent": true,
+            "textureIsRetired": false,
+            "enabledUniformIsCurrent": true
+          },
+          {
+            "name": "reattached receiver preserves the visible offscreen reflection",
+            "passed": true,
+            "maxDifference": 0,
+            "signal": {
+              "total": 2752.394783132244,
+              "count": 5800,
+              "peak": 0.6425085999071598,
+              "negative": 0,
+              "centroid": {
+                "x": 319.500313727012,
+                "y": 227.23629575170222
+              },
+              "covariance": {
+                "xx": 352.35148055508034,
+                "yy": 482.17467271650094,
+                "xy": 0.0047616186493542045
+              }
+            }
+          },
+          {
+            "name": "translated source updates reflection position",
+            "passed": true,
+            "total": 2775.9639491410926,
+            "count": 6123,
+            "peak": 0.6371962372213602,
+            "negative": 0,
+            "centroid": {
+              "x": 419.73467590636693,
+              "y": 227.45541607635593
+            },
+            "covariance": {
+              "xx": 374.946889451734,
+              "yy": 480.7474717498844,
+              "xy": -1.275709900437505
+            },
+            "expected": {
+              "x": 417.8437932755446,
+              "y": 236.56609284556166,
+              "ndc": [
+                0.3057618539860768,
+                -0.014307946476826395,
+                0.9933100811970007
+              ]
+            }
+          },
+          {
+            "name": "old reflection has no stale red image",
+            "passed": true,
+            "total": 0,
+            "count": 0,
+            "peak": 0,
+            "negative": 0,
+            "centroid": null,
+            "covariance": null
+          },
+          {
+            "name": "camera movement reprojects the current reflected source",
+            "passed": true,
+            "total": 2804.0159204169177,
+            "count": 6026,
+            "peak": 0.6368217691779137,
+            "negative": 0,
+            "centroid": {
+              "x": 450.02255189148696,
+              "y": 215.6391668613817
+            },
+            "covariance": {
+              "xx": 373.08050926416763,
+              "yy": 493.2348653299996,
+              "xy": 10.581777695770143
+            },
+            "expected": {
+              "x": 450.3869622894087,
+              "y": 225.05719451761442,
+              "ndc": [
+                0.40745925715440223,
+                -0.06226168950993988,
+                0.9931780707411376
+              ]
+            }
+          },
+          {
+            "name": "moving receiver pose updates its physical reflection plane",
+            "passed": true,
+            "total": 3011.710004603956,
+            "count": 6136,
+            "peak": 0.6471284609287977,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5018481035452,
+              "y": 277.2767141571146
+            },
+            "covariance": {
+              "xx": 380.7027444973646,
+              "yy": 504.59547618517536,
+              "xy": -0.0007822788757039234
+            },
+            "expected": {
+              "x": 320,
+              "y": 285.951914684224,
+              "ndc": [
+                0,
+                0.19146631118426666,
+                0.9929420142256496
+              ]
+            }
+          },
+          {
+            "name": "intervening actual geometry occludes the reflected source",
+            "passed": true,
+            "total": 0,
+            "count": 0,
+            "peak": 0,
+            "negative": 93.65109426341951,
+            "centroid": null,
+            "covariance": null
+          },
+          {
+            "name": "dark source replaces and attenuates HDR instead of adding light",
+            "passed": true,
+            "total": 219.36324452981353,
+            "count": 1956,
+            "peak": 0.1307886391878128,
+            "negative": 219.36324452981353,
+            "centroid": {
+              "x": 320.0002388162721,
+              "y": 237.3121946595976
+            },
+            "covariance": {
+              "xx": 151.9129864442366,
+              "yy": 164.4198907958271,
+              "xy": -0.0008652493997942656
+            }
+          },
+          {
+            "name": "source material changes propagate into capture and roughness blurs reflection",
+            "passed": true,
+            "total": 1974.9526330903172,
+            "count": 21245,
+            "peak": 0.3186313398182392,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5078506365711,
+              "y": 226.69242403804043
+            },
+            "covariance": {
+              "xx": 924.519391970287,
+              "yy": 744.7524995197018,
+              "xy": -0.05853909645520616
+            }
+          },
+          {
+            "name": "normal-mapped anisotropic receiver retains a coherent reflection center",
+            "passed": true,
+            "zero": {
+              "total": 1987.3474063072354,
+              "count": 16881,
+              "peak": 0.3750567138195038,
+              "negative": 0,
+              "centroid": {
+                "x": 319.4979340933057,
+                "y": 227.906353810624
+              },
+              "covariance": {
+                "xx": 785.7195941299142,
+                "yy": 597.9392102719648,
+                "xy": 0.1515431047300808
+              }
+            },
+            "ninety": {
+              "total": 2007.4440093562007,
+              "count": 16670,
+              "peak": 0.39401841536164284,
+              "negative": 0,
+              "centroid": {
+                "x": 319.4969691950357,
+                "y": 227.36196532093325
+              },
+              "covariance": {
+                "xx": 561.6787932605948,
+                "yy": 735.9800558713978,
+                "xy": 0.0685916273505427
+              }
+            }
+          },
+          {
+            "name": "rotating anisotropy rotates the captured radiance footprint",
+            "passed": true,
+            "xRatio": 1.3988770869712612,
+            "yRatio": 1.230861002637119
+          },
+          {
+            "name": "empty capture adds no duplicate environment or direct source",
+            "passed": true,
+            "maxDifference": 0
+          },
+          {
+            "name": "capture adds no helper lights",
+            "passed": true,
+            "inventory": [
+              "RectAreaLight"
+            ]
+          },
+          {
+            "name": "disposal restores receiver shader hook and source material identity",
+            "passed": true
+          },
+          {
+            "name": "capture preparation exception restores original materials and renderer state",
+            "passed": true
+          },
+          {
+            "name": "capture draw exception restores original materials and renderer state",
+            "passed": true
+          }
+        ],
+        "frames": {
+          "sharp": {
+            "total": 2752.394783132244,
+            "count": 5800,
+            "peak": 0.6425085999071598,
+            "negative": 0,
+            "centroid": {
+              "x": 319.500313727012,
+              "y": 227.23629575170222
+            },
+            "covariance": {
+              "xx": 352.35148055508034,
+              "yy": 482.17467271650094,
+              "xy": 0.0047616186493542045
+            }
+          },
+          "moved": {
+            "total": 2775.9639491410926,
+            "count": 6123,
+            "peak": 0.6371962372213602,
+            "negative": 0,
+            "centroid": {
+              "x": 419.73467590636693,
+              "y": 227.45541607635593
+            },
+            "covariance": {
+              "xx": 374.946889451734,
+              "yy": 480.7474717498844,
+              "xy": -1.275709900437505
+            }
+          },
+          "camera": {
+            "total": 2804.0159204169177,
+            "count": 6026,
+            "peak": 0.6368217691779137,
+            "negative": 0,
+            "centroid": {
+              "x": 450.02255189148696,
+              "y": 215.6391668613817
+            },
+            "covariance": {
+              "xx": 373.08050926416763,
+              "yy": 493.2348653299996,
+              "xy": 10.581777695770143
+            }
+          },
+          "receiver": {
+            "total": 3011.710004603956,
+            "count": 6136,
+            "peak": 0.6471284609287977,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5018481035452,
+              "y": 277.2767141571146
+            },
+            "covariance": {
+              "xx": 380.7027444973646,
+              "yy": 504.59547618517536,
+              "xy": -0.0007822788757039234
+            }
+          },
+          "blocked": {
+            "total": 0,
+            "count": 0,
+            "peak": 0,
+            "negative": 93.65109426341951,
+            "centroid": null,
+            "covariance": null
+          },
+          "dark": {
+            "total": 219.36324452981353,
+            "count": 1956,
+            "peak": 0.1307886391878128,
+            "negative": 219.36324452981353,
+            "centroid": {
+              "x": 320.0002388162721,
+              "y": 237.3121946595976
+            },
+            "covariance": {
+              "xx": 151.9129864442366,
+              "yy": 164.4198907958271,
+              "xy": -0.0008652493997942656
+            }
+          },
+          "rough": {
+            "total": 1974.9526330903172,
+            "count": 21245,
+            "peak": 0.3186313398182392,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5078506365711,
+              "y": 226.69242403804043
+            },
+            "covariance": {
+              "xx": 924.519391970287,
+              "yy": 744.7524995197018,
+              "xy": -0.05853909645520616
+            }
+          },
+          "brushed0": {
+            "total": 1987.3474063072354,
+            "count": 16881,
+            "peak": 0.3750567138195038,
+            "negative": 0,
+            "centroid": {
+              "x": 319.4979340933057,
+              "y": 227.906353810624
+            },
+            "covariance": {
+              "xx": 785.7195941299142,
+              "yy": 597.9392102719648,
+              "xy": 0.1515431047300808
+            }
+          },
+          "brushed90": {
+            "total": 2007.4440093562007,
+            "count": 16670,
+            "peak": 0.39401841536164284,
+            "negative": 0,
+            "centroid": {
+              "x": 319.4969691950357,
+              "y": 227.36196532093325
+            },
+            "covariance": {
+              "xx": 561.6787932605948,
+              "yy": 735.9800558713978,
+              "xy": 0.0685916273505427
+            }
+          }
+        },
+        "state": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "updateCount": 11,
+          "captureCount": 11,
+          "receiverCount": 1,
+          "lastUpdateMs": 0.7000000476837158,
+          "receivers": [
+            {
+              "label": "Measured planar receiver",
+              "area": 0,
+              "captures": 10,
+              "enabled": true,
+              "plane": [
+                0,
+                1,
+                2.220446049250313e-16,
+                0
+              ]
+            }
+          ]
+        },
+        "glError": 0,
+        "passed": true
+      },
+      "sourceMatch": true,
+      "finished": "2026-11-25T03:23:20.534Z"
+    },
+    {
+      "backend": "vulkan",
+      "candidateModule": "planar-reflections-elliptical.js",
+      "started": "2026-11-25T03:23:18.066Z",
+      "console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x16b4000c2a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x16b4000c2a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x16b4000c2a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x16b4000c2a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        }
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "sources": {
+        "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+        "fixture.js": "b690a1a149569fd167303aae4fb9f39c22635d7e66153bfaa46520c982cd70e6"
+      },
+      "servedSources": {
+        "fixture.js": "b690a1a149569fd167303aae4fb9f39c22635d7e66153bfaa46520c982cd70e6",
+        "planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c"
+      },
+      "passed": true,
+      "render": {
+        "graphics": {
+          "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA A100-SXM4-40GB (0x000020B0)), NVIDIA)"
+        },
+        "checks": [
+          {
+            "name": "receiver detector selects detailed exposed top above covered original slab",
+            "passed": true,
+            "planes": [
+              {
+                "height": 0.024000000208616257,
+                "area": 0.27388399798011775
+              }
+            ]
+          },
+          {
+            "name": "source is outside the primary camera but reflection is inside",
+            "passed": true,
+            "real": {
+              "x": 320,
+              "y": 627.3741928906197,
+              "ndc": [
+                0,
+                1.614059137044249,
+                0.9903974324162835
+              ]
+            },
+            "mirror": {
+              "x": 320,
+              "y": 236.56609284556166,
+              "ndc": [
+                0,
+                -0.014307946476826395,
+                0.9933100811970007
+              ]
+            }
+          },
+          {
+            "name": "offscreen source produces its physical reflected image",
+            "passed": true,
+            "total": 2752.39374695858,
+            "count": 5800,
+            "peak": 0.6425085999071598,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5003172515202,
+              "y": 227.23628193296324
+            },
+            "covariance": {
+              "xx": 352.3516241135512,
+              "yy": 482.1745829595602,
+              "xy": 0.004776755289640278
+            }
+          },
+          {
+            "name": "same-material reattachment binds current texture and uniform objects",
+            "passed": true,
+            "sameMaterial": true,
+            "textureIsCurrent": true,
+            "textureIsRetired": false,
+            "enabledUniformIsCurrent": true
+          },
+          {
+            "name": "reattached receiver preserves the visible offscreen reflection",
+            "passed": true,
+            "maxDifference": 0,
+            "signal": {
+              "total": 2752.39374695858,
+              "count": 5800,
+              "peak": 0.6425085999071598,
+              "negative": 0,
+              "centroid": {
+                "x": 319.5003172515202,
+                "y": 227.23628193296324
+              },
+              "covariance": {
+                "xx": 352.3516241135512,
+                "yy": 482.1745829595602,
+                "xy": 0.004776755289640278
+              }
+            }
+          },
+          {
+            "name": "translated source updates reflection position",
+            "passed": true,
+            "total": 2775.9637906504795,
+            "count": 6123,
+            "peak": 0.6371962372213602,
+            "negative": 0,
+            "centroid": {
+              "x": 419.73467426259697,
+              "y": 227.45541466344025
+            },
+            "covariance": {
+              "xx": 374.9468656605459,
+              "yy": 480.74746554202284,
+              "xy": -1.275748968066182
+            },
+            "expected": {
+              "x": 417.8437932755446,
+              "y": 236.56609284556166,
+              "ndc": [
+                0.3057618539860768,
+                -0.014307946476826395,
+                0.9933100811970007
+              ]
+            }
+          },
+          {
+            "name": "old reflection has no stale red image",
+            "passed": true,
+            "total": 0,
+            "count": 0,
+            "peak": 0,
+            "negative": 0,
+            "centroid": null,
+            "covariance": null
+          },
+          {
+            "name": "camera movement reprojects the current reflected source",
+            "passed": true,
+            "total": 2804.0155948391184,
+            "count": 6026,
+            "peak": 0.6368217691779137,
+            "negative": 0,
+            "centroid": {
+              "x": 450.0225535200341,
+              "y": 215.63917070766928
+            },
+            "covariance": {
+              "xx": 373.0805334664474,
+              "yy": 493.2348033741655,
+              "xy": 10.581730502279243
+            },
+            "expected": {
+              "x": 450.3869622894087,
+              "y": 225.05719451761442,
+              "ndc": [
+                0.40745925715440223,
+                -0.06226168950993988,
+                0.9931780707411376
+              ]
+            }
+          },
+          {
+            "name": "moving receiver pose updates its physical reflection plane",
+            "passed": true,
+            "total": 3011.7101751030423,
+            "count": 6136,
+            "peak": 0.6471284609287977,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5018476788502,
+              "y": 277.27671617948306
+            },
+            "covariance": {
+              "xx": 380.7027261310286,
+              "yy": 504.5955198646261,
+              "xy": -0.0007974503241712227
+            },
+            "expected": {
+              "x": 320,
+              "y": 285.951914684224,
+              "ndc": [
+                0,
+                0.19146631118426666,
+                0.9929420142256496
+              ]
+            }
+          },
+          {
+            "name": "intervening actual geometry occludes the reflected source",
+            "passed": true,
+            "total": 0,
+            "count": 0,
+            "peak": 0,
+            "negative": 93.65109435282648,
+            "centroid": null,
+            "covariance": null
+          },
+          {
+            "name": "dark source replaces and attenuates HDR instead of adding light",
+            "passed": true,
+            "total": 219.36324452981353,
+            "count": 1956,
+            "peak": 0.1307886391878128,
+            "negative": 219.36324452981353,
+            "centroid": {
+              "x": 320.0002388162721,
+              "y": 237.3121946595976
+            },
+            "covariance": {
+              "xx": 151.9129864442366,
+              "yy": 164.4198907958271,
+              "xy": -0.0008652493997942656
+            }
+          },
+          {
+            "name": "source material changes propagate into capture and roughness blurs reflection",
+            "passed": true,
+            "total": 1974.3842950873077,
+            "count": 21239,
+            "peak": 0.3186400644481182,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5025792856404,
+              "y": 226.69472326593757
+            },
+            "covariance": {
+              "xx": 924.4342306734907,
+              "yy": 744.8273262692528,
+              "xy": -0.06366869929479435
+            }
+          },
+          {
+            "name": "normal-mapped anisotropic receiver retains a coherent reflection center",
+            "passed": true,
+            "zero": {
+              "total": 1987.0454801917076,
+              "count": 16881,
+              "peak": 0.37499089166522026,
+              "negative": 0,
+              "centroid": {
+                "x": 319.49713888292194,
+                "y": 227.90643707610997
+              },
+              "covariance": {
+                "xx": 785.6972699769103,
+                "yy": 597.9741158149118,
+                "xy": 0.14080039029067848
+              }
+            },
+            "ninety": {
+              "total": 2007.1576126925647,
+              "count": 16670,
+              "peak": 0.3939074259251356,
+              "negative": 0,
+              "centroid": {
+                "x": 319.49601858798593,
+                "y": 227.36187120727828
+              },
+              "covariance": {
+                "xx": 561.6449816276436,
+                "yy": 736.0173902755851,
+                "xy": 0.05744494652026333
+              }
+            }
+          },
+          {
+            "name": "rotating anisotropy rotates the captured radiance footprint",
+            "passed": true,
+            "xRatio": 1.3989215530778263,
+            "yRatio": 1.2308515884045408
+          },
+          {
+            "name": "empty capture adds no duplicate environment or direct source",
+            "passed": true,
+            "maxDifference": 0
+          },
+          {
+            "name": "capture adds no helper lights",
+            "passed": true,
+            "inventory": [
+              "RectAreaLight"
+            ]
+          },
+          {
+            "name": "disposal restores receiver shader hook and source material identity",
+            "passed": true
+          },
+          {
+            "name": "capture preparation exception restores original materials and renderer state",
+            "passed": true
+          },
+          {
+            "name": "capture draw exception restores original materials and renderer state",
+            "passed": true
+          }
+        ],
+        "frames": {
+          "sharp": {
+            "total": 2752.39374695858,
+            "count": 5800,
+            "peak": 0.6425085999071598,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5003172515202,
+              "y": 227.23628193296324
+            },
+            "covariance": {
+              "xx": 352.3516241135512,
+              "yy": 482.1745829595602,
+              "xy": 0.004776755289640278
+            }
+          },
+          "moved": {
+            "total": 2775.9637906504795,
+            "count": 6123,
+            "peak": 0.6371962372213602,
+            "negative": 0,
+            "centroid": {
+              "x": 419.73467426259697,
+              "y": 227.45541466344025
+            },
+            "covariance": {
+              "xx": 374.9468656605459,
+              "yy": 480.74746554202284,
+              "xy": -1.275748968066182
+            }
+          },
+          "camera": {
+            "total": 2804.0155948391184,
+            "count": 6026,
+            "peak": 0.6368217691779137,
+            "negative": 0,
+            "centroid": {
+              "x": 450.0225535200341,
+              "y": 215.63917070766928
+            },
+            "covariance": {
+              "xx": 373.0805334664474,
+              "yy": 493.2348033741655,
+              "xy": 10.581730502279243
+            }
+          },
+          "receiver": {
+            "total": 3011.7101751030423,
+            "count": 6136,
+            "peak": 0.6471284609287977,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5018476788502,
+              "y": 277.27671617948306
+            },
+            "covariance": {
+              "xx": 380.7027261310286,
+              "yy": 504.5955198646261,
+              "xy": -0.0007974503241712227
+            }
+          },
+          "blocked": {
+            "total": 0,
+            "count": 0,
+            "peak": 0,
+            "negative": 93.65109435282648,
+            "centroid": null,
+            "covariance": null
+          },
+          "dark": {
+            "total": 219.36324452981353,
+            "count": 1956,
+            "peak": 0.1307886391878128,
+            "negative": 219.36324452981353,
+            "centroid": {
+              "x": 320.0002388162721,
+              "y": 237.3121946595976
+            },
+            "covariance": {
+              "xx": 151.9129864442366,
+              "yy": 164.4198907958271,
+              "xy": -0.0008652493997942656
+            }
+          },
+          "rough": {
+            "total": 1974.3842950873077,
+            "count": 21239,
+            "peak": 0.3186400644481182,
+            "negative": 0,
+            "centroid": {
+              "x": 319.5025792856404,
+              "y": 226.69472326593757
+            },
+            "covariance": {
+              "xx": 924.4342306734907,
+              "yy": 744.8273262692528,
+              "xy": -0.06366869929479435
+            }
+          },
+          "brushed0": {
+            "total": 1987.0454801917076,
+            "count": 16881,
+            "peak": 0.37499089166522026,
+            "negative": 0,
+            "centroid": {
+              "x": 319.49713888292194,
+              "y": 227.90643707610997
+            },
+            "covariance": {
+              "xx": 785.6972699769103,
+              "yy": 597.9741158149118,
+              "xy": 0.14080039029067848
+            }
+          },
+          "brushed90": {
+            "total": 2007.1576126925647,
+            "count": 16670,
+            "peak": 0.3939074259251356,
+            "negative": 0,
+            "centroid": {
+              "x": 319.49601858798593,
+              "y": 227.36187120727828
+            },
+            "covariance": {
+              "xx": 561.6449816276436,
+              "yy": 736.0173902755851,
+              "xy": 0.05744494652026333
+            }
+          }
+        },
+        "state": {
+          "enabled": true,
+          "ready": true,
+          "failed": false,
+          "lastError": null,
+          "updateCount": 11,
+          "captureCount": 11,
+          "receiverCount": 1,
+          "lastUpdateMs": 0.5,
+          "receivers": [
+            {
+              "label": "Measured planar receiver",
+              "area": 0,
+              "captures": 10,
+              "enabled": true,
+              "plane": [
+                0,
+                1,
+                2.220446049250313e-16,
+                0
+              ]
+            }
+          ]
+        },
+        "glError": 0,
+        "passed": true
+      },
+      "sourceMatch": true,
+      "finished": "2026-11-25T03:23:20.538Z"
+    }
+  ],
+  "limitations": [
+    "One reflected camera captures the first visible geometry layer. This is not path-traced multi-bounce transport or a complete light field.",
+    "Planar reflection coordinates use the geometric plane. Normal-map grain remains in PBR shading without the rejected single-depth coordinate warp.",
+    "The normalized elliptical mip/Gaussian prefilter uses original Blender roughness and anisotropy axes, but is an approximate lobe filter rather than exact GGX path integration.",
+    "Source-distance estimates and capture-frustum edges can limit large rough lobes; original HDR remains where captured geometry is absent.",
+    "These isolated controls do not establish full-instrument appearance, frame rate, or behavior on every browser/GPU. Full-scene matched-image checks are separate."
+  ],
+  "passed": true
+}
