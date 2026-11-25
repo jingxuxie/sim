@@ -1,0 +1,559 @@
+{
+  "revision": "clearance1",
+  "asset": "bonder",
+  "mode": "baseline",
+  "source_blend_sha256": "4bd07776849c709c689bef1ba7482a5d9f5eba6b8b1f9e96eb2c1029db84741c",
+  "source_build_sha256": "95c504545134b4386aa512697daa198e7d8e2ec387e45e80f58c19e9b1c1f3ee",
+  "handle_joint_limits_m": {
+    "x": [
+      -0.0635,
+      0.0635
+    ],
+    "y": [
+      -0.0635,
+      0.0635
+    ],
+    "z": [
+      -0.1016,
+      0.024
+    ]
+  },
+  "aperture_bounds_m": {
+    "x": [
+      0.0315,
+      0.2445
+    ],
+    "y": [
+      -0.0145,
+      0.0745
+    ],
+    "z": [
+      0.0525,
+      0.1165
+    ]
+  },
+  "inspected_internal_parts": [
+    "Hand manipulator moving carriage",
+    "Lower manipulator crossed strap",
+    "Crossed linkage pin",
+    "Crossed linkage pan screw captive washer",
+    "Crossed linkage pan screw domed pan head",
+    "Crossed linkage pan screw recess bottom",
+    "Crossed linkage pan screw recess bottom.001",
+    "Crossed linkage pin.001",
+    "Crossed linkage pan screw captive washer.001",
+    "Crossed linkage pan screw domed pan head.001",
+    "Crossed linkage pan screw recess bottom.002",
+    "Crossed linkage pan screw recess bottom.003",
+    "Lower manipulator crossed strap.001",
+    "Crossed linkage pin.002",
+    "Crossed linkage pan screw captive washer.002",
+    "Crossed linkage pan screw domed pan head.002",
+    "Crossed linkage pan screw recess bottom.004",
+    "Crossed linkage pan screw recess bottom.005",
+    "Crossed linkage pin.003",
+    "Crossed linkage pan screw captive washer.003",
+    "Crossed linkage pan screw domed pan head.003",
+    "Crossed linkage pan screw recess bottom.006",
+    "Crossed linkage pan screw recess bottom.007"
+  ],
+  "minimum_clearances_m": {
+    "aperture_x": -0.011000003695487981,
+    "aperture_y": -0.04950000542402268,
+    "aperture_z": -0.08709999710321426,
+    "tool_floor": -0.034599997103214264
+  },
+  "worst_joint_pose_m": {
+    "aperture_x": [
+      0.0635,
+      -0.0635,
+      -0.1016
+    ],
+    "aperture_y": [
+      -0.0635,
+      0.0635,
+      -0.1016
+    ],
+    "aperture_z": [
+      -0.0635,
+      -0.0635,
+      -0.1016
+    ],
+    "tool_floor": [
+      -0.0635,
+      -0.0635,
+      -0.1016
+    ]
+  },
+  "envelope_samples": [
+    {
+      "handle_xyz_m": [
+        -0.0635,
+        -0.0635,
+        -0.1016
+      ],
+      "gaps_m": {
+        "aperture_x": -0.0026000099778175356,
+        "aperture_y": -0.030000002637505532,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.0635,
+        -0.0635,
+        -0.0388
+      ],
+      "gaps_m": {
+        "aperture_x": -0.0026000099778175356,
+        "aperture_y": -0.030000002637505532,
+        "aperture_z": -0.024299999475479124,
+        "tool_floor": 0.028200000524520874
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.0635,
+        -0.0635,
+        0.024
+      ],
+      "gaps_m": {
+        "aperture_x": -0.0026000099778175356,
+        "aperture_y": -0.030000002637505532,
+        "aperture_z": -0.016500012487173074,
+        "tool_floor": 0.09100000187754631
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.0635,
+        0.0,
+        -0.1016
+      ],
+      "gaps_m": {
+        "aperture_x": -0.0026000099778175356,
+        "aperture_y": 0.013999996602535245,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.0635,
+        0.0,
+        -0.0388
+      ],
+      "gaps_m": {
+        "aperture_x": -0.0026000099778175356,
+        "aperture_y": 0.013999996602535245,
+        "aperture_z": -0.024299999475479124,
+        "tool_floor": 0.028200000524520874
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.0635,
+        0.0,
+        0.024
+      ],
+      "gaps_m": {
+        "aperture_x": -0.0026000099778175356,
+        "aperture_y": 0.013999996602535245,
+        "aperture_z": -0.016500012487173074,
+        "tool_floor": 0.09100000187754631
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.0635,
+        0.0635,
+        -0.1016
+      ],
+      "gaps_m": {
+        "aperture_x": -0.0026000099778175356,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.0635,
+        0.0635,
+        -0.0388
+      ],
+      "gaps_m": {
+        "aperture_x": -0.0026000099778175356,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.024299999475479124,
+        "tool_floor": 0.028200000524520874
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.0635,
+        0.0635,
+        0.024
+      ],
+      "gaps_m": {
+        "aperture_x": -0.0026000099778175356,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.016500012487173074,
+        "tool_floor": 0.09100000187754631
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        -0.0635,
+        -0.1016
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": -0.030000002637505532,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        -0.0635,
+        -0.0388
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": -0.030000002637505532,
+        "aperture_z": -0.024299999475479124,
+        "tool_floor": 0.028200000524520874
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        -0.0635,
+        0.024
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": -0.030000002637505532,
+        "aperture_z": -0.016500012487173074,
+        "tool_floor": 0.09100000187754631
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.0,
+        -0.1016
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.013999996602535245,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.0,
+        -0.0388
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.013999996602535245,
+        "aperture_z": -0.024299999475479124,
+        "tool_floor": 0.028200000524520874
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.0,
+        0.024
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.013999996602535245,
+        "aperture_z": -0.016500012487173074,
+        "tool_floor": 0.09100000187754631
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.0635,
+        -0.1016
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.0635,
+        -0.0388
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.024299999475479124,
+        "tool_floor": 0.028200000524520874
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.0635,
+        0.024
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.016500012487173074,
+        "tool_floor": 0.09100000187754631
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0635,
+        -0.0635,
+        -0.1016
+      ],
+      "gaps_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": -0.030000002637505532,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0635,
+        -0.0635,
+        -0.0388
+      ],
+      "gaps_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": -0.030000002637505532,
+        "aperture_z": -0.024299999475479124,
+        "tool_floor": 0.028200000524520874
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0635,
+        -0.0635,
+        0.024
+      ],
+      "gaps_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": -0.030000002637505532,
+        "aperture_z": -0.016500012487173074,
+        "tool_floor": 0.09100000187754631
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0635,
+        0.0,
+        -0.1016
+      ],
+      "gaps_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": 0.013999996602535245,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0635,
+        0.0,
+        -0.0388
+      ],
+      "gaps_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": 0.013999996602535245,
+        "aperture_z": -0.024299999475479124,
+        "tool_floor": 0.028200000524520874
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0635,
+        0.0,
+        0.024
+      ],
+      "gaps_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": 0.013999996602535245,
+        "aperture_z": -0.016500012487173074,
+        "tool_floor": 0.09100000187754631
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0635,
+        0.0635,
+        -0.1016
+      ],
+      "gaps_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0635,
+        0.0635,
+        -0.0388
+      ],
+      "gaps_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.024299999475479124,
+        "tool_floor": 0.028200000524520874
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0635,
+        0.0635,
+        0.024
+      ],
+      "gaps_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.016500012487173074,
+        "tool_floor": 0.09100000187754631
+      }
+    }
+  ],
+  "lead_deck_checks": [
+    {
+      "part": "Heater red lead",
+      "intersections": [
+        {
+          "fixed": "Work platform casting",
+          "triangle_pairs": 26
+        },
+        {
+          "fixed": "Stainless working deck",
+          "triangle_pairs": 58
+        }
+      ],
+      "min_deck_top_gap_m": -0.003167794108390805
+    },
+    {
+      "part": "Heater braided lead",
+      "intersections": [
+        {
+          "fixed": "Work platform casting",
+          "triangle_pairs": 16
+        },
+        {
+          "fixed": "Stainless working deck",
+          "triangle_pairs": 46
+        }
+      ],
+      "min_deck_top_gap_m": -0.002157368719577786
+    },
+    {
+      "part": "Heater lead tie",
+      "intersections": [
+        {
+          "fixed": "Work platform casting",
+          "triangle_pairs": 30
+        },
+        {
+          "fixed": "Stainless working deck",
+          "triangle_pairs": 12
+        }
+      ],
+      "min_deck_top_gap_m": -0.002999995857477185
+    },
+    {
+      "part": "Heater lead tie.001",
+      "intersections": [
+        {
+          "fixed": "Work platform casting",
+          "triangle_pairs": 26
+        }
+      ],
+      "min_deck_top_gap_m": null
+    }
+  ],
+  "continuous_handle_deck_checks": [
+    {
+      "moving": "Long independent hand lever",
+      "fixed": "Adjustable platform pedestal",
+      "continuous_separation_lower_bound_m": 0.0,
+      "unproven_faces": 259
+    },
+    {
+      "moving": "Long independent hand lever",
+      "fixed": "Work platform casting",
+      "continuous_separation_lower_bound_m": 0.0,
+      "unproven_faces": 267
+    },
+    {
+      "moving": "Long independent hand lever",
+      "fixed": "Stainless working deck",
+      "continuous_separation_lower_bound_m": 0.0,
+      "unproven_faces": 224
+    },
+    {
+      "moving": "Hand lever distal ferrule",
+      "fixed": "Adjustable platform pedestal",
+      "continuous_separation_lower_bound_m": 0.0,
+      "unproven_faces": 199
+    },
+    {
+      "moving": "Hand lever distal ferrule",
+      "fixed": "Work platform casting",
+      "continuous_separation_lower_bound_m": 0.0,
+      "unproven_faces": 221
+    },
+    {
+      "moving": "Hand lever distal ferrule",
+      "fixed": "Stainless working deck",
+      "continuous_separation_lower_bound_m": 0.0,
+      "unproven_faces": 108
+    },
+    {
+      "moving": "Manual ball handle",
+      "fixed": "Adjustable platform pedestal",
+      "continuous_separation_lower_bound_m": 0.0,
+      "unproven_faces": 316
+    },
+    {
+      "moving": "Manual ball handle",
+      "fixed": "Work platform casting",
+      "continuous_separation_lower_bound_m": 0.0,
+      "unproven_faces": 328
+    },
+    {
+      "moving": "Manual ball handle",
+      "fixed": "Stainless working deck",
+      "continuous_separation_lower_bound_m": 0.0,
+      "unproven_faces": 184
+    }
+  ],
+  "exclusions": [
+    "Intended contact within concealed carriage bearings and crossing-link pivot stacks.",
+    "Bond wedge/sample contact and mechanically seated fasteners and saddle mounting feet.",
+    "This Cartesian surrogate is not a factory four-bar reconstruction."
+  ],
+  "method": "Evaluated Blender source vertices give exact translated extrema for the Cartesian handle mechanism; 27 domain corners/midpoints characterize the box domain. Each handle/ball face is also expanded over the complete continuous XYZ domain and checked against conservative detailed deck/casting/pedestal bounds. Actual lead triangles are checked against these surfaces via BVH. The aperture is a conservative skin-plane envelope; service lead contact with its dedicated saddle is intentional.",
+  "passed": false,
+  "source_hardware_sha256": "737fa986fd5d15e22efb8e57dedca30a48606cd22fb7d8b08f6190cee07cb2a0"
+}

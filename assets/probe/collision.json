@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "84ed586a796c7a45260498ac5c549ea2058c67a9aa222e1deb9958de4bf59fe8",
+  "physics_sha256": "48e838a211b1dd91b7b87631d21b365473352fad82d9f1e2410cb183c8e43368",
   "shapes": [
     {
       "name": "base__Orange_cast_foundation",
@@ -416,7 +416,7 @@
       "pos": [
         0.0,
         -0.057,
-        -0.143
+        -0.131325
       ],
       "quat": [
         6.123233995736766e-17,
@@ -425,8 +425,8 @@
         0.0
       ],
       "size": [
-        0.013,
-        0.031,
+        0.01303,
+        0.019325,
         0.0
       ],
       "friction": [
@@ -434,8 +434,124 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Objective_forebody",
+      "body": "optic_focus",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.057,
+        -0.162075
+      ],
+      "quat": [
+        6.123233995736766e-17,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0122,
+        0.011425,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Objective_end_shoulder",
+      "body": "optic_focus",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.057,
+        -0.17375
+      ],
+      "quat": [
+        6.123233995736766e-17,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0105,
+        0.00025,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Objective_front_aperture",
+      "body": "optic_focus",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.057,
+        -0.174
+      ],
+      "quat": [
+        6.123233995736766e-17,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.007,
+        0.00025,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Objective_front_glass",
+      "body": "optic_focus",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.057,
+        -0.1743
+      ],
+      "quat": [
+        6.123233995736766e-17,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.004,
+        0.00015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
       "condim": 4
     },
     {
@@ -608,8 +724,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -637,8 +753,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -666,8 +782,66 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "chuck_theta__Chip_clamp_screw_head_contact",
+      "body": "chuck_theta",
+      "type": "cylinder",
+      "pos": [
+        -0.022,
+        -0.012,
+        0.029
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.003,
+        0.0008,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "chuck_theta__Chip_clamp_screw_head_contact_2",
+      "body": "chuck_theta",
+      "type": "cylinder",
+      "pos": [
+        0.022,
+        -0.012,
+        0.029
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.003,
+        0.0008,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -675,7 +849,7 @@
       "body": "chuck_y_knob",
       "type": "cylinder",
       "pos": [
-        0.0,
+        -0.0035,
         0.0,
         0.0
       ],
@@ -686,8 +860,37 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.014,
+        0.00812,
+        0.0115,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_y_knob__chuck_y_ratchet_contact",
+      "body": "chuck_y_knob",
+      "type": "cylinder",
+      "pos": [
+        -0.018,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0052,
+        0.0035,
         0.0
       ],
       "friction": [
@@ -705,7 +908,7 @@
       "type": "cylinder",
       "pos": [
         0.0,
-        0.0,
+        -0.0035,
         0.0
       ],
       "quat": [
@@ -715,8 +918,37 @@
         -0.0
       ],
       "size": [
-        0.008,
-        0.014,
+        0.00812,
+        0.0115,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "chuck_x_knob__chuck_x_ratchet_contact",
+      "body": "chuck_x_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.018,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0052,
+        0.0035,
         0.0
       ],
       "friction": [
@@ -927,8 +1159,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -967,7 +1199,7 @@
       "pos": [
         0.0,
         0.0,
-        0.0
+        0.0035
       ],
       "quat": [
         1.0,
@@ -976,8 +1208,37 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.014,
+        0.00812,
+        0.0115,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_z_knob__left_z_ratchet_contact",
+      "body": "left_z_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.018
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0052,
+        0.0035,
         0.0
       ],
       "friction": [
@@ -995,7 +1256,7 @@
       "type": "cylinder",
       "pos": [
         0.0,
-        0.0,
+        -0.0035,
         0.0
       ],
       "quat": [
@@ -1005,8 +1266,37 @@
         -0.0
       ],
       "size": [
-        0.008,
-        0.014,
+        0.00812,
+        0.0115,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_y_knob__left_y_ratchet_contact",
+      "body": "left_y_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.018,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0052,
+        0.0035,
         0.0
       ],
       "friction": [
@@ -1023,7 +1313,7 @@
       "body": "left_x_knob",
       "type": "cylinder",
       "pos": [
-        0.0,
+        -0.0035,
         0.0,
         0.0
       ],
@@ -1034,8 +1324,37 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.014,
+        0.00812,
+        0.0115,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "left_x_knob__left_x_ratchet_contact",
+      "body": "left_x_knob",
+      "type": "cylinder",
+      "pos": [
+        -0.018,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0052,
+        0.0035,
         0.0
       ],
       "friction": [
@@ -1246,8 +1565,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -1286,7 +1605,7 @@
       "pos": [
         0.0,
         0.0,
-        0.0
+        0.0035
       ],
       "quat": [
         1.0,
@@ -1295,8 +1614,37 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.014,
+        0.00835,
+        0.0115,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_z_knob__right_z_ratchet_contact",
+      "body": "right_z_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.018
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0052,
+        0.0035,
         0.0
       ],
       "friction": [
@@ -1314,7 +1662,7 @@
       "type": "cylinder",
       "pos": [
         0.0,
-        0.0,
+        -0.0035,
         0.0
       ],
       "quat": [
@@ -1324,8 +1672,37 @@
         -0.0
       ],
       "size": [
-        0.008,
-        0.014,
+        0.00835,
+        0.0115,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_y_knob__right_y_ratchet_contact",
+      "body": "right_y_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.018,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0052,
+        0.0035,
         0.0
       ],
       "friction": [
@@ -1342,7 +1719,7 @@
       "body": "right_x_knob",
       "type": "cylinder",
       "pos": [
-        0.0,
+        0.0035,
         0.0,
         0.0
       ],
@@ -1353,8 +1730,37 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.014,
+        0.00835,
+        0.0115,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "right_x_knob__right_x_ratchet_contact",
+      "body": "right_x_knob",
+      "type": "cylinder",
+      "pos": [
+        0.018,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0052,
+        0.0035,
         0.0
       ],
       "friction": [

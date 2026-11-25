@@ -1,0 +1,71 @@
+{
+  "revision": "clearance1",
+  "passed": true,
+  "table_top_m": 0.024,
+  "trials": [
+    {
+      "seed": 0,
+      "trajectory_sha256": "ddf79606468fe7fe95107035cdd1c7ab24b46268b8a4fe4c447d8d1d03be6b30",
+      "frame_count": 600,
+      "passed": true,
+      "worst": {
+        "time_s": 8.500000000000728,
+        "body": "panda_left_finger",
+        "minimum_table_gap_m": 0.005805163426482372,
+        "lowest_vertex_m": [
+          -0.2172,
+          -0.04863904021383235,
+          0.029805163426482373
+        ]
+      }
+    },
+    {
+      "seed": 11,
+      "trajectory_sha256": "af6607cd6f934ecd2e0de8d7526a82db3f13af30276dcac4f890013b510c0f61",
+      "frame_count": 600,
+      "passed": true,
+      "worst": {
+        "time_s": 8.500000000000728,
+        "body": "panda_left_finger",
+        "minimum_table_gap_m": 0.005896959800119998,
+        "lowest_vertex_m": [
+          -0.2172,
+          -0.04884239712427379,
+          0.02989695980012
+        ]
+      }
+    },
+    {
+      "seed": 37,
+      "trajectory_sha256": "b358e89b0621eef33d1eef29abed75d5787b84bd238ec92576b63714f677035e",
+      "frame_count": 600,
+      "passed": true,
+      "worst": {
+        "time_s": 8.500000000000728,
+        "body": "panda_left_finger",
+        "minimum_table_gap_m": 0.005961916180267715,
+        "lowest_vertex_m": [
+          -0.2172,
+          -0.04861216385977216,
+          0.029961916180267716
+        ]
+      }
+    }
+  ],
+  "source_vertices": {
+    "panda_hand": 20758,
+    "panda_left_finger": 1848,
+    "panda_right_finger": 1848
+  },
+  "source_sha256": {
+    "hand_0.obj": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+    "hand_1.obj": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+    "hand_2.obj": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+    "hand_3.obj": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+    "hand_4.obj": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+    "finger_0.obj": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+    "finger_1.obj": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44"
+  },
+  "method": "Every original visual-mesh vertex is transformed by the measured rigid-body pose and bounded above the infinite z=24mm table-top plane. Triangle interiors are convex combinations of their vertices.",
+  "scope": "All 600 recorded 50 Hz poses in each positive trial; no continuous-time or other-obstacle separation claim."
+}

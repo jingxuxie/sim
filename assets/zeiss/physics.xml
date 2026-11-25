@@ -73,36 +73,36 @@
         <body name="stage_y" pos="0 -0.07 0.17" euler="0 0 0">
           <joint name="stage_y_travel" type="slide" axis="0 1 0" damping="20" frictionloss="0.6" range="-0.025 0.025" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.4" pos="0 0 0" diaginertia="0.00049 0.00049 0.00049" />
-          <geom name="stage_y__Y_runner_side_-1" type="box" pos="-0.0605 0 -0.003" size="0.0245 0.065 0.0045" class="contact" />
-          <geom name="stage_y__Y_runner_end_-1" type="box" pos="0 -0.0435 -0.003" size="0.036 0.0215 0.0045" class="contact" />
-          <geom name="stage_y__Y_runner_side_1" type="box" pos="0.0605 0 -0.003" size="0.0245 0.065 0.0045" class="contact" />
-          <geom name="stage_y__Y_runner_end_1" type="box" pos="0 0.0435 -0.003" size="0.036 0.0215 0.0045" class="contact" />
-          <geom name="stage_y__XY_control_bracket_foot" type="box" pos="0.099 0.051 -0.007" size="0.026 0.0125 0.0045" class="contact" />
-          <geom name="stage_y__XY_control_gear_housing" type="box" pos="0.118 0.051 -0.004" size="0.014 0.013 0.004" class="contact" />
+          <geom name="stage_y__Y_runner_side_-1" type="box" contype="18" conaffinity="9" pos="-0.0605 0 -0.003" size="0.0245 0.065 0.0045" class="contact" />
+          <geom name="stage_y__Y_runner_end_-1" type="box" contype="18" conaffinity="9" pos="0 -0.0435 -0.003" size="0.036 0.0215 0.0045" class="contact" />
+          <geom name="stage_y__Y_runner_side_1" type="box" contype="18" conaffinity="9" pos="0.0605 0 -0.003" size="0.0245 0.065 0.0045" class="contact" />
+          <geom name="stage_y__Y_runner_end_1" type="box" contype="18" conaffinity="9" pos="0 0.0435 -0.003" size="0.036 0.0215 0.0045" class="contact" />
+          <geom name="stage_y__XY_control_bracket_foot" type="box" contype="18" conaffinity="9" pos="0.099 0.051 -0.007" size="0.026 0.0125 0.0045" class="contact" />
+          <geom name="stage_y__XY_control_gear_housing" type="box" contype="18" conaffinity="9" pos="0.118 0.051 -0.006" size="0.014 0.013 0.004" class="contact" />
           <site name="xy_control_mount" pos="0.118 0.051 -0.009" size=".0006" group="4" rgba=".1 .8 .4 1" />
           <body name="stage_x" pos="0 0 0.006" euler="0 0 0">
             <joint name="stage_x_travel" type="slide" axis="1 0 0" damping="20" frictionloss="0.6" range="-0.035 0.035" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.5" pos="0 0 0" diaginertia="0.0006125 0.0006125 0.0006125" />
-            <geom name="stage_x__Black_mechanical_stage_side_-1" type="box" pos="-0.0675 0 0" size="0.0335 0.077 0.007" class="contact" />
-            <geom name="stage_x__Black_mechanical_stage_end_-1" type="box" pos="0 -0.04875 0" size="0.034 0.02825 0.007" class="contact" />
-            <geom name="stage_x__Black_mechanical_stage_side_1" type="box" pos="0.0675 0 0" size="0.0335 0.077 0.007" class="contact" />
-            <geom name="stage_x__Black_mechanical_stage_end_1" type="box" pos="0 0.04875 0" size="0.034 0.02825 0.007" class="contact" />
-            <geom name="stage_x__Metal_specimen_holder_side_-1" type="box" pos="-0.03825 0 0.0082" size="0.01025 0.032 0.0009" class="contact" />
-            <geom name="stage_x__Metal_specimen_holder_end_-1" type="box" pos="0 -0.02325 0.0082" size="0.028 0.00875 0.0009" class="contact" />
-            <geom name="stage_x__Metal_specimen_holder_side_1" type="box" pos="0.03825 0 0.0082" size="0.01025 0.032 0.0009" class="contact" />
-            <geom name="stage_x__Metal_specimen_holder_end_1" type="box" pos="0 0.02325 0.0082" size="0.028 0.00875 0.0009" class="contact" />
-            <geom name="stage_x__Glass_sample_slide" type="box" pos="0 0 0.0089" size="0.0375 0.0125 0.0005" class="contact" />
-            <geom name="stage_x__device_chip" type="box" pos="0 0 0.0097" size="0.0045 0.0045 0.0002" class="contact" />
+            <geom name="stage_x__Black_mechanical_stage_side_-1" type="box" contype="18" conaffinity="9" pos="-0.0675 0 0" size="0.0335 0.077 0.007" class="contact" />
+            <geom name="stage_x__Black_mechanical_stage_end_-1" type="box" contype="18" conaffinity="9" pos="0 -0.04875 0" size="0.034 0.02825 0.007" class="contact" />
+            <geom name="stage_x__Black_mechanical_stage_side_1" type="box" contype="18" conaffinity="9" pos="0.0675 0 0" size="0.0335 0.077 0.007" class="contact" />
+            <geom name="stage_x__Black_mechanical_stage_end_1" type="box" contype="18" conaffinity="9" pos="0 0.04875 0" size="0.034 0.02825 0.007" class="contact" />
+            <geom name="stage_x__Metal_specimen_holder_side_-1" type="box" contype="18" conaffinity="9" pos="-0.03825 0 0.0082" size="0.01025 0.032 0.0009" class="contact" />
+            <geom name="stage_x__Metal_specimen_holder_end_-1" type="box" contype="18" conaffinity="9" pos="0 -0.02325 0.0082" size="0.028 0.00875 0.0009" class="contact" />
+            <geom name="stage_x__Metal_specimen_holder_side_1" type="box" contype="18" conaffinity="9" pos="0.03825 0 0.0082" size="0.01025 0.032 0.0009" class="contact" />
+            <geom name="stage_x__Metal_specimen_holder_end_1" type="box" contype="18" conaffinity="9" pos="0 0.02325 0.0082" size="0.028 0.00875 0.0009" class="contact" />
+            <geom name="stage_x__Glass_sample_slide" type="box" contype="18" conaffinity="9" pos="0 0 0.0089" size="0.0375 0.0125 0.0005" class="contact" />
+            <geom name="stage_x__device_chip" type="box" contype="18" conaffinity="9" pos="0 0 0.0097" size="0.0045 0.0045 0.0002" class="contact" />
             <site name="device_chip_center" pos="0 0 0.0099" size=".0006" group="4" rgba=".1 .8 .4 1" />
           </body>
           <body name="stage_x_knob" pos="0.118 0.051 -0.07" euler="0 0 0">
-            <joint name="stage_x_knob_angle" type="hinge" axis="0 0 1" damping="0.015" frictionloss="0.007" range="-12 12" solimpfriction=".99999 .999999 .000001 .5 2" />
+            <joint name="stage_x_knob_angle" type="hinge" axis="0 0 1" damping="0.015" frictionloss="0.007" range="-13.74446786 13.74446786" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.08" pos="0 0 0" diaginertia="9.8e-05 9.8e-05 9.8e-05" />
             <geom name="stage_x_knob__stage_x_knob_grip" type="cylinder" pos="0 0 0" size="0.0115 0.009" zaxis="0 0 1" class="contact" />
             <site name="stage_x_knob_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
           </body>
           <body name="stage_y_knob" pos="0.118 0.051 -0.05" euler="0 0 0">
-            <joint name="stage_y_knob_angle" type="hinge" axis="0 0 1" damping="0.015" frictionloss="0.007" range="-12 12" solimpfriction=".99999 .999999 .000001 .5 2" />
+            <joint name="stage_y_knob_angle" type="hinge" axis="0 0 1" damping="0.015" frictionloss="0.007" range="-9.817477042 9.817477042" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.08" pos="0 0 0" diaginertia="9.8e-05 9.8e-05 9.8e-05" />
             <geom name="stage_y_knob__stage_y_knob_grip" type="cylinder" pos="0 0 0" size="0.0135 0.009" zaxis="0 0 1" class="contact" />
             <site name="stage_y_knob_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -110,7 +110,7 @@
         </body>
       </body>
       <body name="focus_wheel" pos="0.077 0.026 0.102" euler="0 0 0">
-        <joint name="focus_wheel_angle" type="hinge" axis="1 0 0" damping="0.015" frictionloss="0.007" range="-8 8" solimpfriction=".99999 .999999 .000001 .5 2" />
+        <joint name="focus_wheel_angle" type="hinge" axis="1 0 0" damping="0.015" frictionloss="0.007" range="-15.70796327 10.99557429" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.08" pos="0 0 0" diaginertia="9.8e-05 9.8e-05 9.8e-05" />
         <geom name="focus_wheel__focus_wheel_grip" type="cylinder" pos="0 0 0" size="0.029 0.012" zaxis="1 0 0" class="contact" />
         <geom name="focus_wheel__Opposite_coarse_focus_contact" type="cylinder" pos="-0.154 0 0" size="0.029 0.012" zaxis="-1 0 0" class="contact" />
@@ -121,11 +121,21 @@
         <joint name="turret_angle" type="hinge" axis="0 0 1" damping="0.04" frictionloss="0.005" range="-3.141592654 3.141592654" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.45" pos="0 0 0" diaginertia="0.00055125 0.00055125 0.00055125" />
         <geom name="turret__Silver_nosepiece" type="cylinder" pos="0 0 0" size="0.049 0.0075" zaxis="0 0 1" class="contact" />
-        <geom name="turret__Objective_barrel" type="cylinder" pos="0 -0.03801573497 -0.03613857606" size="0.012 0.029" zaxis="0 -0.2419218956 -0.9702957263" class="contact" />
-        <geom name="turret__Objective_barrel_2" type="cylinder" pos="0.03604007177 -0.01171012917 -0.0356534282" size="0.012 0.0285" zaxis="0.2300813952 -0.07475797705 -0.9702957263" class="contact" />
-        <geom name="turret__Objective_barrel_3" type="cylinder" pos="0.02134970151 0.02938534317 -0.02934650598" size="0.012 0.022" zaxis="0.1421981224 0.1957189249 -0.9702957263" class="contact" />
-        <geom name="turret__Objective_barrel_4" type="cylinder" pos="-0.02198959307 0.03026607833 -0.03371283675" size="0.012 0.0265" zaxis="-0.1421981224 0.1957189249 -0.9702957263" class="contact" />
-        <geom name="turret__Objective_barrel_5" type="cylinder" pos="-0.03627015316 -0.01178488715 -0.03662372393" size="0.012 0.0295" zaxis="-0.2300813952 -0.07475797705 -0.9702957263" class="contact" />
+        <geom name="turret__Objective_barrel" type="cylinder" contype="10" conaffinity="17" pos="0 -0.03696337414 -0.03191778821" size="0.01225 0.02465" zaxis="0 -0.2419218956 -0.9702957263" class="contact" />
+        <geom name="turret__Objective_barrel_2" type="cylinder" contype="10" conaffinity="17" pos="0.03503921716 -0.01138493208 -0.03143264037" size="0.01225 0.02415" zaxis="0.2300813952 -0.07475797705 -0.9702957263" class="contact" />
+        <geom name="turret__Objective_barrel_3" type="cylinder" contype="10" conaffinity="17" pos="0.02073113883 0.028533966 -0.02512571853" size="0.01225 0.01765" zaxis="0.1421981224 0.1957189249 -0.9702957263" class="contact" />
+        <geom name="turret__Objective_barrel_4" type="cylinder" contype="10" conaffinity="17" pos="-0.02137103035 0.02941470118 -0.02949204904" size="0.01225 0.02215" zaxis="-0.1421981224 0.1957189249 -0.9702957263" class="contact" />
+        <geom name="turret__Objective_barrel_5" type="cylinder" contype="10" conaffinity="17" pos="-0.03526929854 -0.01145969006 -0.03240293604" size="0.01225 0.02515" zaxis="-0.2300813952 -0.07475797705 -0.9702957263" class="contact" />
+        <geom name="turret__Objective_front_shoulder_20" type="cylinder" contype="10" conaffinity="17" pos="0 -0.04400934866 -0.06017764953" size="0.00935 0.004475" zaxis="0 -0.2419218719 -0.9702956676" class="contact" />
+        <geom name="turret__Objective_front_glass_20" type="cylinder" contype="10" conaffinity="17" pos="0 -0.04510404513 -0.06456823742" size="0.0036 0.00015" zaxis="0 -0.2419218719 -0.9702956676" class="contact" />
+        <geom name="turret__Objective_front_shoulder_50" type="cylinder" contype="10" conaffinity="17" pos="0.04162529664 -0.01352487921 -0.05920735386" size="0.00935 0.004475" zaxis="0.2300813794 -0.07475797832 -0.9702956676" class="contact" />
+        <geom name="turret__Objective_front_glass_50" type="cylinder" contype="10" conaffinity="17" pos="0.04266641489 -0.01386315906 -0.06359794176" size="0.0036 0.00015" zaxis="0.2300813794 -0.07475797832 -0.9702956676" class="contact" />
+        <geom name="turret__Objective_front_shoulder_5" type="cylinder" contype="10" conaffinity="17" pos="0.02387727213 0.03286424731 -0.04659351018" size="0.00935 0.004475" zaxis="0.1421981156 0.1957189292 -0.9702956676" class="contact" />
+        <geom name="turret__Objective_front_glass_5" type="cylinder" contype="10" conaffinity="17" pos="0.02452071861 0.03374987546 -0.05098409808" size="0.0036 0.00015" zaxis="0.1421981156 0.1957189292 -0.9702956676" class="contact" />
+        <geom name="turret__Objective_front_shoulder_10" type="cylinder" contype="10" conaffinity="17" pos="-0.02515705517 0.03462571767 -0.05532617119" size="0.00935 0.004475" zaxis="-0.1421981156 0.1957189292 -0.9702956676" class="contact" />
+        <geom name="turret__Objective_front_glass_10" type="cylinder" contype="10" conaffinity="17" pos="-0.02580050165 0.03551134583 -0.05971675909" size="0.0036 0.00015" zaxis="-0.1421981156 0.1957189292 -0.9702956676" class="contact" />
+        <geom name="turret__Objective_front_shoulder_100" type="cylinder" contype="10" conaffinity="17" pos="-0.0420854594 -0.01367439516 -0.0611479452" size="0.00935 0.004475" zaxis="-0.2300813794 -0.07475797832 -0.9702956676" class="contact" />
+        <geom name="turret__Objective_front_glass_100" type="cylinder" contype="10" conaffinity="17" pos="-0.04312657765 -0.01401267502 -0.06553853309" size="0.0036 0.00015" zaxis="-0.2300813794 -0.07475797832 -0.9702956676" class="contact" />
         <site name="objective_seat_0" pos="0 -0.031 -0.008" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <site name="objective_tip_0" pos="0 -0.04503146994 -0.06427715212" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <site name="objective_axis_0" pos="0 -0.05519218956 -0.1050295726" size=".0006" group="4" rgba=".1 .8 .4 1" />

@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "83deaa689e9be8eb19005f5fa71f5b5adc7f5890cd98233d65c086f321a8be44",
+  "physics_sha256": "01ba4bde3b1857b5a57b6779c6ab23f6bcc8e2b0b0c0b7cb8e3b1fb2ec1f3391",
   "shapes": [
     {
       "name": "base__Isolation_plinth",

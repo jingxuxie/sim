@@ -74,7 +74,11 @@
         <inertial mass="2.6" pos="0 0 0" diaginertia="0.003185 0.003185 0.003185" />
         <geom name="optic_focus__Focus_carriage_bridge" type="box" pos="0 0.07 -0.012" size="0.046 0.045 0.054" class="contact" />
         <geom name="optic_focus__Mitutoyo_optical_housing_envelope" type="box" pos="0 -0.035 -0.013" size="0.0555 0.061 0.0845" class="contact" />
-        <geom name="optic_focus__Objective_barrel" type="cylinder" pos="0 -0.057 -0.143" size="0.013 0.031" zaxis="0 0 -1" class="contact" />
+        <geom name="optic_focus__Objective_barrel" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.131325" size="0.01303 0.019325" zaxis="0 0 -1" class="contact" />
+        <geom name="optic_focus__Objective_forebody" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.162075" size="0.0122 0.011425" zaxis="0 0 -1" class="contact" />
+        <geom name="optic_focus__Objective_end_shoulder" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.17375" size="0.0105 0.00025" zaxis="0 0 -1" class="contact" />
+        <geom name="optic_focus__Objective_front_aperture" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.174" size="0.007 0.00025" zaxis="0 0 -1" class="contact" />
+        <geom name="optic_focus__Objective_front_glass" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.1743" size="0.004 0.00015" zaxis="0 0 -1" class="contact" />
         <site name="inspection_axis" pos="0 -0.057 -0.174" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <site name="objective_seat_0" pos="0 -0.057 -0.112" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <site name="objective_tip_0" pos="0 -0.057 -0.174" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -98,9 +102,11 @@
           <body name="chuck_theta" pos="0 0 0.061" euler="0 0 0">
             <joint name="chuck_theta_angle" type="hinge" axis="0 0 1" damping="0.04" frictionloss="0.01" range="-0.35 0.35" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.4" pos="0 0 0" diaginertia="0.00049 0.00049 0.00049" />
-            <geom name="chuck_theta__Vacuum_chuck" type="cylinder" pos="0 0 0" size="0.052 0.0085" zaxis="0 0 1" class="contact" />
-            <geom name="chuck_theta__Sample_clamp_block" type="box" pos="0 0 0.019" size="0.0295 0.0225 0.0085" class="contact" />
-            <geom name="chuck_theta__device_chip" type="box" pos="0 0 0.028" size="0.006 0.006 0.00025" class="contact" />
+            <geom name="chuck_theta__Vacuum_chuck" type="cylinder" contype="18" conaffinity="9" pos="0 0 0" size="0.052 0.0085" zaxis="0 0 1" class="contact" />
+            <geom name="chuck_theta__Sample_clamp_block" type="box" contype="18" conaffinity="9" pos="0 0 0.019" size="0.0295 0.0225 0.0085" class="contact" />
+            <geom name="chuck_theta__device_chip" type="box" contype="18" conaffinity="9" pos="0 0 0.028" size="0.006 0.006 0.00025" class="contact" />
+            <geom name="chuck_theta__Chip_clamp_screw_head_contact" type="cylinder" contype="18" conaffinity="9" pos="-0.022 -0.012 0.029" size="0.003 0.0008" zaxis="0 0 1" class="contact" />
+            <geom name="chuck_theta__Chip_clamp_screw_head_contact_2" type="cylinder" contype="18" conaffinity="9" pos="0.022 -0.012 0.029" size="0.003 0.0008" zaxis="0 0 1" class="contact" />
             <site name="device_chip_center" pos="0 0 0.02825" size=".0006" group="4" rgba=".1 .8 .4 1" />
             <site name="left_pad" pos="-0.0004 0 0.028274" size=".0006" group="4" rgba=".1 .8 .4 1" />
             <site name="right_pad" pos="0.0004 0 0.028274" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -109,14 +115,16 @@
         <body name="chuck_y_knob" pos="-0.0955 0 0.023" euler="0 0 0">
           <joint name="chuck_y_angle" type="hinge" axis="-1 0 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
-          <geom name="chuck_y_knob__chuck_y_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="-1 0 0" class="contact" />
+          <geom name="chuck_y_knob__chuck_y_grip" type="cylinder" pos="-0.0035 0 0" size="0.00812 0.0115" zaxis="-1 0 0" class="contact" />
+          <geom name="chuck_y_knob__chuck_y_ratchet_contact" type="cylinder" pos="-0.018 0 0" size="0.0052 0.0035" zaxis="-1 0 0" class="contact" />
           <site name="chuck_y_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
         </body>
       </body>
       <body name="chuck_x_knob" pos="0 -0.1415 0.058" euler="0 0 0">
         <joint name="chuck_x_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-157.0796327 157.0796327" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
-        <geom name="chuck_x_knob__chuck_x_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 -1 0" class="contact" />
+        <geom name="chuck_x_knob__chuck_x_grip" type="cylinder" pos="0 -0.0035 0" size="0.00812 0.0115" zaxis="0 -1 0" class="contact" />
+        <geom name="chuck_x_knob__chuck_x_ratchet_contact" type="cylinder" pos="0 -0.018 0" size="0.0052 0.0035" zaxis="0 -1 0" class="contact" />
         <site name="chuck_x_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
       </body>
       <body name="left_x" pos="-0.163 -0.028 0.158" euler="0 0 0" gravcomp="1">
@@ -134,7 +142,7 @@
             <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
             <geom name="left_z__left_z_moving_table" type="box" pos="0 0 0.003" size="0.021 0.0235 0.0075" class="contact" />
             <geom name="left_z__Needle_holder_bracket" type="box" pos="0.025 0 0.01" size="0.006 0.0185 0.015" class="contact" />
-            <geom name="left_z__Probe_shank" type="capsule" pos="0.1055 0 -0.00975" size="0.0004 0.05601589691" zaxis="0.9558737874 0 -0.293777734" class="contact" />
+            <geom name="left_z__Probe_shank" type="capsule" contype="18" conaffinity="9" pos="0.1055 0 -0.00975" size="0.0004 0.05601589691" zaxis="0.9558737874 0 -0.293777734" class="contact" />
             <geom name="left_z__Probe_tip" type="sphere" contype="1" conaffinity="3" solref=".004 1" friction=".4 .0001 .00001" pos="0.16 0 -0.0265" size="0.00012" zaxis="0 0 1" class="contact" />
             <site name="left_tip" pos="0.16 0 -0.0265" size=".0006" group="4" rgba=".1 .8 .4 1" />
             <site name="left_shank_start" pos="0.051 0 0.007" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -142,21 +150,24 @@
           <body name="left_z_knob" pos="-0.022 0 0.064" euler="0 0 0">
             <joint name="left_z_angle" type="hinge" axis="0 0 1" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
-            <geom name="left_z_knob__left_z_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 0 1" class="contact" />
+            <geom name="left_z_knob__left_z_grip" type="cylinder" pos="0 0 0.0035" size="0.00812 0.0115" zaxis="0 0 1" class="contact" />
+            <geom name="left_z_knob__left_z_ratchet_contact" type="cylinder" pos="0 0 0.018" size="0.0052 0.0035" zaxis="0 0 1" class="contact" />
             <site name="left_z_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
           </body>
         </body>
         <body name="left_y_knob" pos="0 -0.0705 0.02" euler="0 0 0">
           <joint name="left_y_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
-          <geom name="left_y_knob__left_y_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 -1 0" class="contact" />
+          <geom name="left_y_knob__left_y_grip" type="cylinder" pos="0 -0.0035 0" size="0.00812 0.0115" zaxis="0 -1 0" class="contact" />
+          <geom name="left_y_knob__left_y_ratchet_contact" type="cylinder" pos="0 -0.018 0" size="0.0052 0.0035" zaxis="0 -1 0" class="contact" />
           <site name="left_y_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
         </body>
       </body>
       <body name="left_x_knob" pos="-0.239 -0.028 0.158" euler="0 0 0">
         <joint name="left_x_angle" type="hinge" axis="-1 0 0" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
-        <geom name="left_x_knob__left_x_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="-1 0 0" class="contact" />
+        <geom name="left_x_knob__left_x_grip" type="cylinder" pos="-0.0035 0 0" size="0.00812 0.0115" zaxis="-1 0 0" class="contact" />
+        <geom name="left_x_knob__left_x_ratchet_contact" type="cylinder" pos="-0.018 0 0" size="0.0052 0.0035" zaxis="-1 0 0" class="contact" />
         <site name="left_x_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
       </body>
       <body name="right_x" pos="0.163 -0.028 0.158" euler="0 0 0" gravcomp="1">
@@ -174,7 +185,7 @@
             <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
             <geom name="right_z__right_z_moving_table" type="box" pos="0 0 0.003" size="0.021 0.0235 0.0075" class="contact" />
             <geom name="right_z__Needle_holder_bracket" type="box" pos="-0.025 0 0.01" size="0.006 0.0185 0.015" class="contact" />
-            <geom name="right_z__Probe_shank" type="capsule" pos="-0.1055 0 -0.00975" size="0.0004 0.05601589691" zaxis="-0.9558737874 0 -0.293777734" class="contact" />
+            <geom name="right_z__Probe_shank" type="capsule" contype="18" conaffinity="9" pos="-0.1055 0 -0.00975" size="0.0004 0.05601589691" zaxis="-0.9558737874 0 -0.293777734" class="contact" />
             <geom name="right_z__Probe_tip" type="sphere" contype="1" conaffinity="3" solref=".004 1" friction=".4 .0001 .00001" pos="-0.16 0 -0.0265" size="0.00012" zaxis="0 0 1" class="contact" />
             <site name="right_tip" pos="-0.16 0 -0.0265" size=".0006" group="4" rgba=".1 .8 .4 1" />
             <site name="right_shank_start" pos="-0.051 0 0.007" size=".0006" group="4" rgba=".1 .8 .4 1" />
@@ -182,21 +193,24 @@
           <body name="right_z_knob" pos="0.022 0 0.064" euler="0 0 0">
             <joint name="right_z_angle" type="hinge" axis="0 0 1" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
-            <geom name="right_z_knob__right_z_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 0 1" class="contact" />
+            <geom name="right_z_knob__right_z_grip" type="cylinder" pos="0 0 0.0035" size="0.00835 0.0115" zaxis="0 0 1" class="contact" />
+            <geom name="right_z_knob__right_z_ratchet_contact" type="cylinder" pos="0 0 0.018" size="0.0052 0.0035" zaxis="0 0 1" class="contact" />
             <site name="right_z_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
           </body>
         </body>
         <body name="right_y_knob" pos="0 -0.0705 0.02" euler="0 0 0">
           <joint name="right_y_angle" type="hinge" axis="0 -1 0" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
-          <geom name="right_y_knob__right_y_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="0 -1 0" class="contact" />
+          <geom name="right_y_knob__right_y_grip" type="cylinder" pos="0 -0.0035 0" size="0.00835 0.0115" zaxis="0 -1 0" class="contact" />
+          <geom name="right_y_knob__right_y_ratchet_contact" type="cylinder" pos="0 -0.018 0" size="0.0052 0.0035" zaxis="0 -1 0" class="contact" />
           <site name="right_y_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
         </body>
       </body>
       <body name="right_x_knob" pos="0.239 -0.028 0.158" euler="0 0 0">
         <joint name="right_x_angle" type="hinge" axis="1 0 0" damping="1e-05" frictionloss="5e-06" range="-75.39822369 75.39822369" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="0.025" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
-        <geom name="right_x_knob__right_x_grip" type="cylinder" pos="0 0 0" size="0.008 0.014" zaxis="1 0 0" class="contact" />
+        <geom name="right_x_knob__right_x_grip" type="cylinder" pos="0.0035 0 0" size="0.00835 0.0115" zaxis="1 0 0" class="contact" />
+        <geom name="right_x_knob__right_x_ratchet_contact" type="cylinder" pos="0.018 0 0" size="0.0052 0.0035" zaxis="1 0 0" class="contact" />
         <site name="right_x_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
       </body>
     </body>

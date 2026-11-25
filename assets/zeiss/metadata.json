@@ -259,8 +259,8 @@
         "damping": 0.015,
         "frictionloss": 0.007,
         "range": [
-          -8,
-          8
+          -15.707963267948966,
+          10.995574287564276
         ],
         "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
@@ -369,7 +369,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Y runner end -1",
@@ -388,7 +390,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Y runner side 1",
@@ -407,7 +411,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Y runner end 1",
@@ -426,7 +432,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "XY control bracket foot",
@@ -445,7 +453,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "XY control gear housing",
@@ -453,7 +463,7 @@
           "pos_mm": [
             118,
             51,
-            -4
+            -6
           ],
           "size_mm": [
             14,
@@ -464,7 +474,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         }
       ],
       "sites": {
@@ -525,7 +537,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Black mechanical stage end -1",
@@ -544,7 +558,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Black mechanical stage side 1",
@@ -563,7 +579,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Black mechanical stage end 1",
@@ -582,7 +600,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Metal specimen holder side -1",
@@ -601,7 +621,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Metal specimen holder end -1",
@@ -620,7 +642,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Metal specimen holder side 1",
@@ -639,7 +663,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Metal specimen holder end 1",
@@ -658,7 +684,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Glass sample slide",
@@ -677,7 +705,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "device_chip",
@@ -696,7 +726,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         }
       ],
       "sites": {
@@ -732,8 +764,8 @@
         "damping": 0.015,
         "frictionloss": 0.007,
         "range": [
-          -12,
-          12
+          -13.744467859455344,
+          13.744467859455344
         ],
         "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
@@ -792,8 +824,8 @@
         "damping": 0.015,
         "frictionloss": 0.007,
         "range": [
-          -12,
-          12
+          -9.817477042468104,
+          9.817477042468104
         ],
         "solimpfriction": ".99999 .999999 .000001 .5 2"
       },
@@ -883,90 +915,300 @@
           "type": "cylinder",
           "pos_mm": [
             0.0,
-            -38.01573497239036,
-            -36.1385760620039
+            -36.96337414234877,
+            -31.917788207530975
           ],
           "size_mm": [
-            12,
-            29.0
+            12.25,
+            24.65
           ],
           "axis": [
             0.0,
             -0.24192189559966773,
             -0.9702957262759965
-          ]
+          ],
+          "contype": 10,
+          "conaffinity": 17
         },
         {
           "name": "Objective barrel",
           "type": "cylinder",
           "pos_mm": [
-            36.040071769619146,
-            -11.710129171596797,
-            -35.653428198865896
+            35.03921715915203,
+            -11.384932077676059,
+            -31.432640373706818
           ],
           "size_mm": [
-            12,
-            28.5
+            12.25,
+            24.15
           ],
           "axis": [
             0.23008139524453983,
             -0.07475797705169915,
             -0.9702957262759965
-          ]
+          ],
+          "contype": 10,
+          "conaffinity": 17
         },
         {
           "name": "Objective barrel",
           "type": "cylinder",
           "pos_mm": [
-            21.3497015147494,
-            29.385343172357096,
-            -29.34650597807192
+            20.73113882690668,
+            28.53396600112319,
+            -25.125718533992767
           ],
           "size_mm": [
-            12,
-            22.0
+            12.25,
+            17.65
           ],
           "axis": [
             0.14219812244012406,
             0.195718924851533,
             -0.9702957262759965
-          ]
+          ],
+          "contype": 10,
+          "conaffinity": 17
         },
         {
           "name": "Objective barrel",
           "type": "cylinder",
           "pos_mm": [
-            -21.98959306572995,
-            30.266078334189,
-            -33.71283674631391
+            -21.371030347049235,
+            29.41470118239522,
+            -29.492049038410187
           ],
           "size_mm": [
-            12,
-            26.5
+            12.25,
+            22.15
           ],
           "axis": [
             -0.142198122440124,
             0.19571892485153303,
             -0.9702957262759965
-          ]
+          ],
+          "contype": 10,
+          "conaffinity": 17
         },
         {
           "name": "Objective barrel",
           "type": "cylinder",
           "pos_mm": [
-            -36.270153164863686,
-            -11.784887148648489,
-            -36.623723925141896
+            -35.269298538565636,
+            -11.45969005599618,
+            -32.40293604135513
           ],
           "size_mm": [
-            12,
-            29.5
+            12.25,
+            25.15
           ],
           "axis": [
             -0.23008139524453985,
             -0.07475797705169909,
             -0.9702957262759965
-          ]
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front shoulder 20",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -44.009348661452535,
+            -60.17764952778816
+          ],
+          "size_mm": [
+            9.35,
+            4.475
+          ],
+          "axis": [
+            0.0,
+            -0.24192187190055847,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front glass 20",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -45.10404513180256,
+            -64.56823742389679
+          ],
+          "size_mm": [
+            3.6,
+            0.15
+          ],
+          "axis": [
+            0.0,
+            -0.24192187190055847,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front shoulder 50",
+          "type": "cylinder",
+          "pos_mm": [
+            41.62529664486647,
+            -13.524879207089544,
+            -59.20735386013985
+          ],
+          "size_mm": [
+            9.35,
+            4.475
+          ],
+          "axis": [
+            0.23008137941360474,
+            -0.07475797832012177,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front glass 50",
+          "type": "cylinder",
+          "pos_mm": [
+            42.66641488671303,
+            -13.863159058988094,
+            -63.597941756248474
+          ],
+          "size_mm": [
+            3.6,
+            0.15
+          ],
+          "axis": [
+            0.23008137941360474,
+            -0.07475797832012177,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front shoulder 5",
+          "type": "cylinder",
+          "pos_mm": [
+            23.877272134274243,
+            32.864247309044,
+            -46.593510180711746
+          ],
+          "size_mm": [
+            9.35,
+            4.475
+          ],
+          "axis": [
+            0.1421981155872345,
+            0.1957189291715622,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front glass 5",
+          "type": "cylinder",
+          "pos_mm": [
+            24.52071860730648,
+            33.74987546354532,
+            -50.98409807682037
+          ],
+          "size_mm": [
+            3.6,
+            0.15
+          ],
+          "axis": [
+            0.1421981155872345,
+            0.1957189291715622,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front shoulder 10",
+          "type": "cylinder",
+          "pos_mm": [
+            -25.157055174559353,
+            34.62571767158806,
+            -55.326171189546585
+          ],
+          "size_mm": [
+            9.35,
+            4.475
+          ],
+          "axis": [
+            -0.1421981155872345,
+            0.1957189291715622,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front glass 10",
+          "type": "cylinder",
+          "pos_mm": [
+            -25.80050164759159,
+            35.51134582608938,
+            -59.71675908565521
+          ],
+          "size_mm": [
+            3.6,
+            0.15
+          ],
+          "axis": [
+            -0.1421981155872345,
+            0.1957189291715622,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front shoulder 100",
+          "type": "cylinder",
+          "pos_mm": [
+            -42.085459403693676,
+            -13.674395163729788,
+            -61.14794519543648
+          ],
+          "size_mm": [
+            9.35,
+            4.475
+          ],
+          "axis": [
+            -0.23008137941360474,
+            -0.07475797832012177,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front glass 100",
+          "type": "cylinder",
+          "pos_mm": [
+            -43.12657764554024,
+            -14.012675015628338,
+            -65.5385330915451
+          ],
+          "size_mm": [
+            3.6,
+            0.15
+          ],
+          "axis": [
+            -0.23008137941360474,
+            -0.07475797832012177,
+            -0.9702956676483154
+          ],
+          "contype": 10,
+          "conaffinity": 17
         }
       ],
       "sites": {
@@ -1220,7 +1462,9 @@
   "identity": "Zeiss Axioskop marking visible in photo254; head variant, complete objective inventory and socket count partly provisional",
   "geometry_revision": "realism4",
   "geometry_basis": "Photo254/255/256/257/261/262: sloping stand, elongated binocular prisms, nosepiece carrier, condenser hardware and ventilated lamp tower; dimensions remain estimates",
-  "control_geometry_correction": "XY gear housing slimmed; both XY grip links moved+15 mm X/-25 mm Z to remove housing overlap and clear focus wheel across Y travel. Couplings and sample/objective sites unchanged. Opposite focus grip contact added on same existing focus-wheel joint.",
+  "control_geometry_correction": "XY gear housing slimmed; both XY grip links moved+15 mm X/-25 mm Z to clear focus wheel across Y travel. Clearance1 additionally lowers the gearbox roof2 mm and recesses its two fasteners so the moving X deck clears them across full travel; contact envelope moves with it. Couplings and sample/objective sites unchanged. Opposite focus grip contact added on same existing focus-wheel joint.",
+  "clearance_revision": "clearance1",
+  "optical_contact_model": "Dedicated objective/work-surface contact bits preserve robot contact and exclude mated bearings. Objective front shoulders and existing forward glass surfaces have explicit contacts. Retract the stage before changing objective; high focus commands can legitimately meet the specimen. Focus and XY shaft ranges match the existing linear stops through their unchanged pitches.",
   "imaging": {
     "objective_joint": "turret_angle",
     "objective_count": 5,

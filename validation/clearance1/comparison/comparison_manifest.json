@@ -1,0 +1,442 @@
+{
+  "revision": "clearance1-transfer-before-after",
+  "purpose": "Independent same-camera visual evidence of three transfer-station corrections.",
+  "scene_files": {
+    "before": {
+      "path": "validation/clearance1/transfer/before/transfer_station.blend",
+      "sha256": "919ebcdf7bd17e5657d49acf9d61d5a244d14e5df6ebdfba63d63e69b3ff8e0e"
+    },
+    "after": {
+      "path": "001_transfer_stage/transfer_station.blend",
+      "sha256": "49e138ca29ec9dcbf3dd0788d32c26e4fdfa17d2e3e241ad841aee19f8e76c32"
+    }
+  },
+  "render_reports": {
+    "before": {
+      "path": "validation/clearance1/comparison/before/render_report.json",
+      "sha256": "72273523d5d8f7044972c50aa86b684e01b99de05853f97803f96791080ea061"
+    },
+    "after": {
+      "path": "validation/clearance1/stills/transfer/render_report.json",
+      "sha256": "1b08ffa1678b12f0f3f57326b4065af3b3b6ac1142a827789a8804bc58fb5639"
+    }
+  },
+  "camera_provenance": {
+    "method": "Only the three named current camera objects/data were appended to the archived scene; no geometry, light, material or instrument pose edits.",
+    "camera_source_scene": "001_transfer_stage/transfer_station.blend",
+    "camera_source_sha256": "49e138ca29ec9dcbf3dd0788d32c26e4fdfa17d2e3e241ad841aee19f8e76c32",
+    "cameras": [
+      {
+        "name": "clearance_sample_x",
+        "matrix_world": [
+          [
+            0.8320502638816833,
+            0.13433964550495148,
+            -0.5381869673728943,
+            -0.41537219285964966
+          ],
+          [
+            -0.5547002553939819,
+            0.20150931179523468,
+            -0.8072803616523743,
+            -0.32805824279785156
+          ],
+          [
+            -7.901754628392155e-08,
+            0.9702303409576416,
+            0.2421841025352478,
+            0.13541746139526367
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "camera_type": "PERSP",
+        "orthographic_scale_m": 0.18000000715255737,
+        "lens_mm": 60.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start_m": 0.0010000000474974513,
+        "clip_end_m": 1000.0,
+        "dof": {
+          "enabled": true,
+          "focus_distance_m": 0.381600022315979,
+          "fstop": 11.0
+        },
+        "location_m": [
+          -0.41537219285964966,
+          -0.32805824279785156,
+          0.13541746139526367
+        ],
+        "rotation_euler_rad": [
+          1.3261799812316895,
+          7.901754628392155e-08,
+          -0.5880026817321777
+        ]
+      },
+      {
+        "name": "clearance_stamp_z",
+        "matrix_world": [
+          [
+            0.8541984558105469,
+            0.1190498098731041,
+            -0.5061344504356384,
+            -0.11387097835540771
+          ],
+          [
+            -0.5199470520019531,
+            0.19558177888393402,
+            -0.8315063714981079,
+            -0.4099307656288147
+          ],
+          [
+            1.4942358461667027e-09,
+            0.973434567451477,
+            0.22896525263786316,
+            0.27722716331481934
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "camera_type": "PERSP",
+        "orthographic_scale_m": 0.1899999976158142,
+        "lens_mm": 60.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start_m": 0.0010000000474974513,
+        "clip_end_m": 1000.0,
+        "dof": {
+          "enabled": true,
+          "focus_distance_m": 0.4027999937534332,
+          "fstop": 11.0
+        },
+        "location_m": [
+          -0.11387097835540771,
+          -0.4099307656288147,
+          0.27722716331481934
+        ],
+        "rotation_euler_rad": [
+          1.3397817611694336,
+          -1.4942358461667027e-09,
+          -0.5467889904975891
+        ]
+      },
+      {
+        "name": "clearance_camera_lead",
+        "matrix_world": [
+          [
+            -0.7767559289932251,
+            -0.3027331531047821,
+            0.5522706508636475,
+            0.44466039538383484
+          ],
+          [
+            0.6298017501831055,
+            -0.3733712434768677,
+            0.6811341047286987,
+            0.6690813899040222
+          ],
+          [
+            7.834118065375151e-08,
+            0.8768959641456604,
+            0.4806801974773407,
+            0.3910934627056122
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "camera_type": "PERSP",
+        "orthographic_scale_m": 0.3199999928474426,
+        "lens_mm": 60.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start_m": 0.0010000000474974513,
+        "clip_end_m": 1000.0,
+        "dof": {
+          "enabled": true,
+          "focus_distance_m": 0.6783999800682068,
+          "fstop": 11.0
+        },
+        "location_m": [
+          0.44466039538383484,
+          0.6690813899040222,
+          0.3910934627056122
+        ],
+        "rotation_euler_rad": [
+          1.0693660974502563,
+          -7.834118065375151e-08,
+          2.460294723510742
+        ]
+      }
+    ],
+    "metadata_verification": {
+      "script_sha256": "0a4867fb162fea0801400cc5838c68ab42bb097f462491619f5fda73d12465a2",
+      "method": "Re-read the same camera source and evaluated its three appended cameras after dependency-graph update. Corrects initially collected unevaluated matrix metadata; no image pixels were changed.",
+      "source_scene_hashes_unchanged": true,
+      "existing_noncamera_objects_unchanged": true
+    },
+    "existing_noncamera_object_signature_before_after_append": "9cfb686c6a82b7208c2434be50e5dd0f121996c11261ac85783fe229eabf014a",
+    "existing_noncamera_objects_unchanged": true,
+    "source_blend_files_unchanged": true,
+    "archived_scene_saved": false,
+    "current_views_reused_without_rerendering": true,
+    "inspection_joint_positions_override": {},
+    "lighting_material_pose_edits_for_comparison": false
+  },
+  "input_images": [
+    {
+      "version": "before",
+      "camera": "clearance_sample_x",
+      "path": "validation/clearance1/comparison/before/clearance_sample_x.png",
+      "sha256": "e1052d14f3b5a3399afd5b1cbf17959d94920e41da20273777edbb2374de8116",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192
+    },
+    {
+      "version": "after",
+      "camera": "clearance_sample_x",
+      "path": "validation/clearance1/stills/transfer/clearance_sample_x.png",
+      "sha256": "ab8d7176eb99486d0aae6f4ecb0b269090d0c80cee225ff5f0f0c5e9a9a1a03f",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192
+    },
+    {
+      "version": "before",
+      "camera": "clearance_stamp_z",
+      "path": "validation/clearance1/comparison/before/clearance_stamp_z.png",
+      "sha256": "bced8487341f6b715bcc451ea80ebb6f8e540a8c445c664d3f1c7d2d678701ae",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192
+    },
+    {
+      "version": "after",
+      "camera": "clearance_stamp_z",
+      "path": "validation/clearance1/stills/transfer/clearance_stamp_z.png",
+      "sha256": "7ca0113b8962b0725707babdaaac179a688f10c1e2a23dfb2a971e6ff85c05e6",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192
+    },
+    {
+      "version": "before",
+      "camera": "clearance_camera_lead",
+      "path": "validation/clearance1/comparison/before/clearance_camera_lead.png",
+      "sha256": "e165c0a52e671e8f7a473458ca5c2974e23e74307ff96794d206f81dd047a78d",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192
+    },
+    {
+      "version": "after",
+      "camera": "clearance_camera_lead",
+      "path": "validation/clearance1/stills/transfer/clearance_camera_lead.png",
+      "sha256": "edaf46ae511e3f16f987cb606ca6e8fc71c686b51d046cae8871944c6800b26b",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192
+    }
+  ],
+  "composition": {
+    "script": "validation/clearance1/comparison/assemble_comparison.py",
+    "script_sha256": "9adfc233e26b3409141acb4c394af0685e973d786e3bef1ff8ec978eab7700b3",
+    "pillow_version": "11.3.0",
+    "columns": [
+      "before",
+      "after"
+    ],
+    "rows": [
+      {
+        "camera": "clearance_sample_x",
+        "title": "1  Lower stage handwheel / table",
+        "caption": "Measured minimum gap through full rotation: -4.000 mm before; +1.000 mm after.",
+        "crop_box_source_pixels": [
+          700,
+          850,
+          1950,
+          1480
+        ],
+        "panel_size_pixels": [
+          1180,
+          595
+        ],
+        "panels": [
+          {
+            "version": "before",
+            "origin_pixels": [
+              48,
+              290
+            ],
+            "source": "validation/clearance1/comparison/before/clearance_sample_x.png"
+          },
+          {
+            "version": "after",
+            "origin_pixels": [
+              1260,
+              290
+            ],
+            "source": "validation/clearance1/stills/transfer/clearance_sample_x.png"
+          }
+        ]
+      },
+      {
+        "camera": "clearance_stamp_z",
+        "title": "2  Vertical micrometer / support bracket",
+        "caption": "Actuator reoriented and bracket rebuilt so the rotating grip clears the fixed support.",
+        "crop_box_source_pixels": [
+          650,
+          240,
+          2080,
+          1800
+        ],
+        "panel_size_pixels": [
+          1180,
+          1287
+        ],
+        "panels": [
+          {
+            "version": "before",
+            "origin_pixels": [
+              48,
+              1023
+            ],
+            "source": "validation/clearance1/comparison/before/clearance_stamp_z.png"
+          },
+          {
+            "version": "after",
+            "origin_pixels": [
+              1260,
+              1023
+            ],
+            "source": "validation/clearance1/stills/transfer/clearance_stamp_z.png"
+          }
+        ]
+      },
+      {
+        "camera": "clearance_camera_lead",
+        "title": "3  Camera cable routing / terminations",
+        "caption": "Saved rest poses shown. Separate full-focus audit: minimum table gap -10.015 mm to +0.334 mm.",
+        "crop_box_source_pixels": [
+          380,
+          830,
+          1900,
+          1750
+        ],
+        "panel_size_pixels": [
+          1180,
+          714
+        ],
+        "panels": [
+          {
+            "version": "before",
+            "origin_pixels": [
+              48,
+              2448
+            ],
+            "source": "validation/clearance1/comparison/before/clearance_camera_lead.png"
+          },
+          {
+            "version": "after",
+            "origin_pixels": [
+              1260,
+              2448
+            ],
+            "source": "validation/clearance1/stills/transfer/clearance_camera_lead.png"
+          }
+        ]
+      }
+    ],
+    "crop_coordinate_convention": "[left, upper, right, lower], source pixels, right/lower exclusive; identical for both panels in each pair",
+    "resampling": "Pillow LANCZOS, aspect ratio preserved to nearest integer pixel",
+    "color_adjustment": null,
+    "retouching": null,
+    "annotations_over_rendered_pixels": false,
+    "background_srgb": "#f4f5f7",
+    "margin_pixels": 48,
+    "gutter_pixels": 32,
+    "jpeg_quality": 95,
+    "jpeg_chroma_subsampling": 0
+  },
+  "quantitative_evidence": {
+    "reports": [
+      {
+        "path": "validation/clearance1/transfer/before.json",
+        "sha256": "ad21523c7bd5043374b82270feb91b4496af141999a50ce556345a89084da161"
+      },
+      {
+        "path": "validation/clearance1/transfer/after.json",
+        "sha256": "5f4b855f5c4647e4afb3105abb5686887fdc26d3bc8b383bbc65e619030740d6"
+      },
+      {
+        "path": "validation/clearance1/transfer/stages_endpoints.json",
+        "sha256": "66d073d8c4e18b169c1d1c968db8c4c0f6ab93ed840fc0adac5537d5a3c4ea9c"
+      },
+      {
+        "path": "validation/clearance1/transfer/focus_contact.json",
+        "sha256": "408023042ef9173ae048ad0221a87dffc1c407c0e43d26ccff819c86bb9cc284"
+      },
+      {
+        "path": "validation/clearance1/transfer/mechanisms.json",
+        "sha256": "c22a3484ad0d76310fb5e503b164e343ec28431d29752c3ddbda6e83c33b929d"
+      }
+    ],
+    "handwheel_minimum_full_rotation_table_clearance_mm": {
+      "before": -4.000002998594522,
+      "after": 0.9999996836144929
+    },
+    "camera_cable_minimum_full_focus_table_clearance_mm": {
+      "before": -10.014573834836483,
+      "after": 0.33362044394016216
+    },
+    "camera_cable_focus_range_m": [
+      -0.025,
+      0.025
+    ],
+    "limits": [
+      "Panels show saved rest poses; full travel minima are separate measurements, not inferred from the pictured pose.",
+      "These are renders of reconstructed models, not photographs of the lab instruments.",
+      "The camera cable is a driven visual mesh, without cable-contact or strain dynamics.",
+      "Targeted clearance reports do not certify every possible object pair or robot motion."
+    ]
+  },
+  "output": {
+    "path": "validation/clearance1/comparison/comparison.jpg",
+    "sha256": "0a4b1837f17725947f7e9b3b8f3137eabe492920fee4b46df66448739bde4885",
+    "resolution": [
+      2488,
+      3300
+    ],
+    "bytes": 1430093
+  }
+}

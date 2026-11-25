@@ -1,0 +1,55 @@
+{
+  "revision": "clearance1",
+  "asset": "probe",
+  "draft": false,
+  "source_sha256": "d9a97c86f9cc9cd809a91207da5ae921452061834ba586021d4b27051349b9c1",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "4cd17f7da38a7f5380570d1dddda05c99fa00337b9c6ec32fd35e89a7722af95"
+    },
+    {
+      "file": "probing.png",
+      "camera": "probing",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "7c4ee5408e3c2ce8f23c2869f0e9ff43f2aabdc07189c6e1abca6f436577ed2f"
+    },
+    {
+      "file": "optical_head.png",
+      "camera": "optical_head",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "157fbfe35628d68eb6789e529fca39b38324d0a055b0c68b31ba0d73e32a6a44"
+    },
+    {
+      "file": "left_manipulator.png",
+      "camera": "left_manipulator",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "a9062b945c9773ab86b2117633182fba3a02a65171fb19455ce22ae9fe3eda5b"
+    }
+  ]
+}

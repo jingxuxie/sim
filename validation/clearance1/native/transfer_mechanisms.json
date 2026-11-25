@@ -1,0 +1,141 @@
+{
+  "revision": "realism4",
+  "model_sha256": "53cd96d07d8ff929a78a566fded2557edb15ac70c60c8d23dc27671c3b2bffc5",
+  "checks": [
+    {
+      "check": "Native model loads and remains finite",
+      "passed": true,
+      "joints": 28
+    },
+    {
+      "check": "Reset powers the illuminator at full intensity",
+      "passed": true
+    },
+    {
+      "check": "Measured dimmer attenuates camera image",
+      "passed": true,
+      "linear_image_ratio": 0.10069891810417175
+    },
+    {
+      "check": "Power rocker blacks out the camera",
+      "passed": true
+    },
+    {
+      "check": "Power and intensity restore the image",
+      "passed": true
+    },
+    {
+      "check": "Fine drive requires coarse clamp",
+      "passed": true
+    },
+    {
+      "check": "Released coarse platform turns",
+      "passed": true,
+      "coarse_rad": 0.19994391505089784
+    },
+    {
+      "check": "Coarse clamp holds and rejects a coarse command",
+      "passed": true
+    },
+    {
+      "check": "One micrometer turn produces the declared fine angle",
+      "passed": true,
+      "fine_rad": 0.015373929542425176,
+      "expected_rad": 0.015375302663438254
+    },
+    {
+      "check": "Fine thimble translates with its screw",
+      "passed": true
+    },
+    {
+      "check": "Sample orientation contains coarse and fine motion",
+      "passed": true,
+      "measured_total_rad": 0.21532578524985632
+    },
+    {
+      "check": "Released clamp disengages fine control",
+      "passed": true
+    },
+    {
+      "check": "sample_x_travel moves only its named axis",
+      "passed": true,
+      "delta_m": [
+        0.003999958012919275,
+        1.0339287342953085e-09,
+        0.0
+      ],
+      "measured_joint_delta_m": 0.0039999580571223915
+    },
+    {
+      "check": "sample_x_travel micrometer spindle stays engaged",
+      "passed": true
+    },
+    {
+      "check": "sample_y_travel moves only its named axis",
+      "passed": true,
+      "delta_m": [
+        -6.846495849352485e-06,
+        0.003999970471360907,
+        0.0
+      ],
+      "measured_joint_delta_m": 0.003999970498201629
+    },
+    {
+      "check": "sample_y_travel micrometer spindle stays engaged",
+      "passed": true
+    },
+    {
+      "check": "stamp_z_travel moves only its named axis",
+      "passed": true,
+      "delta_m": [
+        3.106240210326572e-07,
+        0.0,
+        0.003996150577527446
+      ],
+      "measured_joint_delta_m": 0.003999787414316378
+    },
+    {
+      "check": "stamp_z_travel micrometer spindle stays engaged",
+      "passed": true
+    },
+    {
+      "check": "Goniometer fixture reaches the requested tilt",
+      "passed": true,
+      "measured_rad": 0.03394780796635685
+    },
+    {
+      "check": "Tilt adjustment turns the goniometer knob",
+      "passed": true
+    },
+    {
+      "check": "No spurious rest or manual contacts",
+      "passed": true,
+      "contact_count": 0
+    },
+    {
+      "check": "transfer.align baseline",
+      "passed": true,
+      "steps": 35,
+      "result": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.335015951780715e-05,
+        "gap_m": 0.007241642639229856
+      }
+    },
+    {
+      "check": "transfer.touch baseline",
+      "passed": true,
+      "steps": 403,
+      "result": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.23939408985196683,
+        "error_m": 1.0767746638220825e-07,
+        "gap_m": 0.0023816571611071646
+      }
+    }
+  ],
+  "passed": true
+}

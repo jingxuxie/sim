@@ -1,0 +1,225 @@
+{
+  "revision": "clearance1-before-comparison",
+  "asset": "transfer",
+  "source_scene": "validation/clearance1/transfer/before/transfer_station.blend",
+  "source_sha256": "919ebcdf7bd17e5657d49acf9d61d5a244d14e5df6ebdfba63d63e69b3ff8e0e",
+  "camera_source_scene": "001_transfer_stage/transfer_station.blend",
+  "camera_source_sha256": "49e138ca29ec9dcbf3dd0788d32c26e4fdfa17d2e3e241ad841aee19f8e76c32",
+  "render_script_sha256": "6e54a99c82305bdad575f04c58209bb933bcb064c8456003e06dbe6aec1a9721",
+  "camera_override": "Only the three named current camera objects/data were appended to the archived scene; no geometry, light, material or instrument pose edits.",
+  "source_scene_hashes_unchanged": true,
+  "existing_noncamera_object_signature": "9cfb686c6a82b7208c2434be50e5dd0f121996c11261ac85783fe229eabf014a",
+  "existing_noncamera_objects_unchanged": true,
+  "cameras": [
+    {
+      "name": "clearance_sample_x",
+      "matrix_world": [
+        [
+          0.8320502638816833,
+          0.13433964550495148,
+          -0.5381869673728943,
+          -0.41537219285964966
+        ],
+        [
+          -0.5547002553939819,
+          0.20150931179523468,
+          -0.8072803616523743,
+          -0.32805824279785156
+        ],
+        [
+          -7.901754628392155e-08,
+          0.9702303409576416,
+          0.2421841025352478,
+          0.13541746139526367
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_type": "PERSP",
+      "orthographic_scale_m": 0.18000000715255737,
+      "lens_mm": 60.0,
+      "sensor_width_mm": 36.0,
+      "sensor_height_mm": 24.0,
+      "shift_x": 0.0,
+      "shift_y": 0.0,
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 1000.0,
+      "dof": {
+        "enabled": true,
+        "focus_distance_m": 0.381600022315979,
+        "fstop": 11.0
+      },
+      "location_m": [
+        -0.41537219285964966,
+        -0.32805824279785156,
+        0.13541746139526367
+      ],
+      "rotation_euler_rad": [
+        1.3261799812316895,
+        7.901754628392155e-08,
+        -0.5880026817321777
+      ]
+    },
+    {
+      "name": "clearance_stamp_z",
+      "matrix_world": [
+        [
+          0.8541984558105469,
+          0.1190498098731041,
+          -0.5061344504356384,
+          -0.11387097835540771
+        ],
+        [
+          -0.5199470520019531,
+          0.19558177888393402,
+          -0.8315063714981079,
+          -0.4099307656288147
+        ],
+        [
+          1.4942358461667027e-09,
+          0.973434567451477,
+          0.22896525263786316,
+          0.27722716331481934
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_type": "PERSP",
+      "orthographic_scale_m": 0.1899999976158142,
+      "lens_mm": 60.0,
+      "sensor_width_mm": 36.0,
+      "sensor_height_mm": 24.0,
+      "shift_x": 0.0,
+      "shift_y": 0.0,
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 1000.0,
+      "dof": {
+        "enabled": true,
+        "focus_distance_m": 0.4027999937534332,
+        "fstop": 11.0
+      },
+      "location_m": [
+        -0.11387097835540771,
+        -0.4099307656288147,
+        0.27722716331481934
+      ],
+      "rotation_euler_rad": [
+        1.3397817611694336,
+        -1.4942358461667027e-09,
+        -0.5467889904975891
+      ]
+    },
+    {
+      "name": "clearance_camera_lead",
+      "matrix_world": [
+        [
+          -0.7767559289932251,
+          -0.3027331531047821,
+          0.5522706508636475,
+          0.44466039538383484
+        ],
+        [
+          0.6298017501831055,
+          -0.3733712434768677,
+          0.6811341047286987,
+          0.6690813899040222
+        ],
+        [
+          7.834118065375151e-08,
+          0.8768959641456604,
+          0.4806801974773407,
+          0.3910934627056122
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_type": "PERSP",
+      "orthographic_scale_m": 0.3199999928474426,
+      "lens_mm": 60.0,
+      "sensor_width_mm": 36.0,
+      "sensor_height_mm": 24.0,
+      "shift_x": 0.0,
+      "shift_y": 0.0,
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 1000.0,
+      "dof": {
+        "enabled": true,
+        "focus_distance_m": 0.6783999800682068,
+        "fstop": 11.0
+      },
+      "location_m": [
+        0.44466039538383484,
+        0.6690813899040222,
+        0.3910934627056122
+      ],
+      "rotation_euler_rad": [
+        1.0693660974502563,
+        -7.834118065375151e-08,
+        2.460294723510742
+      ]
+    }
+  ],
+  "device": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA A100-SXM4-40GB"
+    ]
+  },
+  "resolution": [
+    2560,
+    2160
+  ],
+  "samples": 192,
+  "inspection_joint_positions": {},
+  "renders": [
+    {
+      "file": "validation/clearance1/comparison/before/clearance_sample_x.png",
+      "camera": "clearance_sample_x",
+      "sha256": "e1052d14f3b5a3399afd5b1cbf17959d94920e41da20273777edbb2374de8116",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192
+    },
+    {
+      "file": "validation/clearance1/comparison/before/clearance_stamp_z.png",
+      "camera": "clearance_stamp_z",
+      "sha256": "bced8487341f6b715bcc451ea80ebb6f8e540a8c445c664d3f1c7d2d678701ae",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192
+    },
+    {
+      "file": "validation/clearance1/comparison/before/clearance_camera_lead.png",
+      "camera": "clearance_camera_lead",
+      "sha256": "e165c0a52e671e8f7a473458ca5c2974e23e74307ff96794d206f81dd047a78d",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192
+    }
+  ],
+  "complete": true,
+  "camera_provenance_verification": {
+    "script_sha256": "0a4867fb162fea0801400cc5838c68ab42bb097f462491619f5fda73d12465a2",
+    "method": "Re-read the same camera source and evaluated its three appended cameras after dependency-graph update. Corrects initially collected unevaluated matrix metadata; no image pixels were changed.",
+    "source_scene_hashes_unchanged": true,
+    "existing_noncamera_objects_unchanged": true
+  }
+}

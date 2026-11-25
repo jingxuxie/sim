@@ -6,23 +6,23 @@
   "duration_s": 11.999999999998789,
   "target_knob_angle_rad": -0.2617993877991494,
   "target_stage_displacement_m": -2.0833333333333333e-05,
-  "measured_stage_displacement_m": -2.096454013098698e-05,
-  "final_stage_error_m": 1.3120679765364653e-07,
-  "measured_knob_angle_rad": -0.26344818104558887,
-  "bilateral_contact_steps": 4060,
+  "measured_stage_displacement_m": -2.0963197303564822e-05,
+  "final_stage_error_m": 1.2986397023148963e-07,
+  "measured_knob_angle_rad": -0.2634313065785305,
+  "bilateral_contact_steps": 4088,
   "turn_bilateral_contact_steps": 3094,
-  "peak_normal_force_N": 0.14548904949534816,
-  "peak_penetration_m": 2.0750811106060713e-05,
+  "peak_normal_force_N": 2.677752613033212,
+  "peak_penetration_m": 2.0716364742330925e-05,
   "robot_peak_actuator_forces": {
-    "wrist_x_drive": 0.08858485186740551,
-    "wrist_y_drive": 0.7949578886157457,
-    "wrist_z_drive": 0.7415534317433572,
-    "wrist_roll_drive": 0.014819460241733154,
-    "panda_grip": 1.1017467859221906
+    "wrist_x_drive": 0.08900325570617419,
+    "wrist_y_drive": 0.7972741048671721,
+    "wrist_z_drive": 0.7415534317386809,
+    "wrist_roll_drive": 0.01481823197566311,
+    "panda_grip": 1.116749288990758
   },
-  "max_screw_residual_m": 9.054788551814909e-12,
-  "last_half_second_stage_range_m": 8.91078660511524e-19,
-  "final_stage_speed_m_s": -6.1537609554566895e-18,
+  "max_screw_residual_m": 1.1729593362339009e-10,
+  "last_half_second_stage_range_m": 0.0,
+  "final_stage_speed_m_s": -9.83746043621197e-19,
   "peak_instrument_actuator_force": 0.0,
   "peak_instrument_applied_generalized_force": 0.0,
   "peak_instrument_applied_body_wrench": 0.0,
@@ -30,15 +30,15 @@
   "robot_actuator_count": 5,
   "unintended_contact_count": 0,
   "unintended_contacts": [],
-  "released_at_s": 7.2250000000007475,
+  "released_at_s": 7.236000000000751,
   "final": {
     "time_s": 11.999999999998789,
-    "stage_x_m": -2.096454013098698e-05,
-    "knob_angle_rad": -0.26344818104558887,
+    "stage_x_m": -2.0963197303564822e-05,
+    "knob_angle_rad": -0.2634313065785305,
     "wrist_roll_rad": -0.2617993877991414,
     "wrist_xyz_m": [
-      -2.938556319472671e-128,
-      -1.9039209210399033e-17,
+      1.6042149852746228e-127,
+      -1.9044387400738608e-17,
       0.034999999999999934
     ],
     "finger_positions_m": [
@@ -64,11 +64,11 @@
   "events": [
     {
       "event": "bilateral_grasp",
-      "time_s": 2.6469999999998195
+      "time_s": 2.2099999999998676
     },
     {
       "event": "released",
-      "time_s": 7.2250000000007475
+      "time_s": 7.236000000000751
     }
   ],
   "initial_wrist_offset_m": [
@@ -78,12 +78,22 @@
   ],
   "robot": "Franka Panda parallel gripper",
   "wrist": "Four-axis Cartesian fixture; no articulated arm",
+  "target_contact_shapes": [
+    "sample_x_knob__sample_x_coarse_wheel_contact",
+    "sample_x_knob__sample_x_differential_collar_contact",
+    "sample_x_knob__sample_x_grip"
+  ],
+  "nominal_wrist_position_m": [
+    -0.222,
+    -0.02,
+    0.04
+  ],
   "mujoco_version": "3.3.7",
   "inputs_before": {
-    "robotics/gripper_task.py": "33b5a23152f4b077bdf081d660f4591fa4739ae73aab69ed5e3409215ec2addd",
-    "robotics/build_gripper_scene.py": "20fedce2379d8900786c04e3c5ad8117dac3f365f59a2bbcccbb5fbcfa92cd66",
-    "001_transfer_stage/transfer_station.xml": "3804e84b6a92e1fdf93d15f7e1c8c90d01597adc2629ed09263e4ad4f878ae03",
-    "001_transfer_stage/asset.json": "b5bb479a2af76343befe8685467029df70f62d757191eef3d17a2938562ccbe4",
+    "robotics/gripper_task.py": "e6b97288c90d9515c6bce33f29ccbec489ee84be811ef73e4cd0cadeb01b1d06",
+    "robotics/build_gripper_scene.py": "d03c05b2e3f9ce093d4d4d5ebd8a5acac2ae70bcfe8471e7fdd287e1e76cc673",
+    "001_transfer_stage/transfer_station.xml": "53cd96d07d8ff929a78a566fded2557edb15ac70c60c8d23dc27671c3b2bffc5",
+    "001_transfer_stage/asset.json": "a4bf47938d638b99093b6304c3a2f7d9c95970ec0818c133feeebfd3ef26a900",
     "robotics/assets/panda_gripper/SOURCE.json": "48bac2acea9d58a99cc93643f7ce60dc773fea39b85e6c1d6412f83c5ddbc86a",
     "robotics/assets/panda_gripper/panda.xml": "c047a49f3c770ff2393e2a74f7e0fbd9d99080a305407254f8ff53ac053cde3b",
     "robotics/assets/panda_gripper/LICENSE": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
@@ -97,6 +107,6 @@
     "robotics/assets/panda_gripper/assets/finger_1.obj": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44"
   },
   "inputs_unchanged": true,
-  "scene_sha256": "50df74851395158cd93cd08ba2c5c137bcc16cfd22ad75ec0f1e7d1362194ba9",
+  "scene_sha256": "fe9985fa8725071624f568dc174463dd74711bb032050887df22f1ec45c7f0f3",
   "scene_unchanged": true
 }

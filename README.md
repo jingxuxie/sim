@@ -35,7 +35,7 @@ Existing task recordings show earlier reconstructions. Use the live viewer and
 current rendered stills to inspect the latest models.
 
 The gallery is lightweight and remains visible without JavaScript. Only the selected
-instrument is downloaded (about 6–52 MB including geometry and textures). The runtime adds about 23 MB when you open an instrument; task policies and optical
+instrument is downloaded (about 7–54 MB including geometry and textures). The runtime adds about 23 MB when you open an instrument; task policies and optical
 imaging load another 20 MB on first use. These files are cached by the browser. Use a current desktop
 Chrome or Edge with WebAssembly and WebGL enabled. Complex optics
 and contacts can run slower than real time; the displayed clock is simulation time.
@@ -132,9 +132,10 @@ The transfer, probe and Zeiss screw constraints use input-angle coordinates to
 avoid numerical softness at very small metres-per-radian ratios. Estimated
 holding friction remains passive when fixture actuators are disabled. These
 properties have not been calibrated against laboratory torque/force measurements.
-Some passive mechanisms still drift: with drives disabled, the transfer optical
-head moved 24 µm and the goniometer tilted 0.23° over 20 seconds. These remaining
-limitations are recorded in the [passive-mechanics audit](validation/passive_mechanics.json).
+An [earlier passive-mechanics audit](validation/passive_mechanics.json) documented
+optical-head and goniometer drift with drives disabled. The current gripper task
+checks passive holding for its target micrometer; it does not calibrate every
+instrument mechanism.
 
 Transfer and probe optical focus handwheels remain visual parts: the head slides
 have physics, but these wheels do not yet transmit robot contact to focus motion.
@@ -145,11 +146,12 @@ approach, rather than inferred from the appearance of its mesh.
 
 [Run the parallel-gripper benchmark](robotics/README.md): a Panda gripper grasps
 the transfer station's sample-X micrometer, turns it −15°, releases and retracts.
-All instrument drives are removed. Three contact trials reached the −20.833 µm
-stage target within 0.131 µm, while nine causal controls correctly failed.
+All instrument drives are removed. The linked current report gives the results
+for three contact trials and nine paired causal controls on the corrected mount.
 This is an executable native MuJoCo task with a Cartesian wrist fixture; a full
-arm and a browser-live robot controller are not included. The linked package
-includes commands, licensed geometry, measured trajectories and validation.
+arm and a browser-live robot controller are not included. The benchmark page
+links commands, licensed geometry, measured trajectories and validation; its
+downloadable archive contains the runtime and geometry.
 
 **Cable contact is not simulated.** Flexible cable meshes in the browser and
 Blender follow measured instrument motion through prescribed deformation. Native
@@ -163,20 +165,57 @@ requires a separate articulated or flexible-body model, attachment constraints,
 and contact validation; the existing hose-clearance results below do not provide
 that capability.
 
-The transfer vacuum and heater lines now terminate in separate fittings and
+The transfer vacuum and heater lines terminate in separate fittings and
 follow XY plus rotation. Their declared attached-service envelope is ±90° coarse
-rotation plus ±2.5° fine adjustment, with the stamp retracted. A sampled
-1,539-pose sweep found no intersections; the minimum conservative gap was
-0.589 mm. Larger rotations require rerouting or disconnecting services, which
-is outside the current cable model. All three gripper trajectories were also
-checked against the deformed visual hoses, with at least 10.13 mm clearance.
-[Hose clearance evidence](validation/transfer_hose/summary.json).
+rotation plus ±2.5° fine adjustment, with the stamp retracted. Larger rotations
+require rerouting or disconnecting services, which is outside the current cable
+model. [Current geometry checks](validation/clearance1/geometry.json) and
+[current gripper evidence](robotics/README.md) describe the measured coverage.
+The [earlier hose sweep](validation/transfer_hose/summary.json) remains available
+as historical evidence for the earlier model.
+
+## Clearance corrections
+
+[Compare the transfer-stage clearances before and after correction](validation/clearance1/comparison/comparison.jpg).
+
+The current models correct visible interference and the associated contact
+coverage. The transfer handwheel mount, horizontal thrust pads, vertical
+micrometer bracket, lift-lid bores and camera cable routing were revised.
+The Nikon camera cables and stage loom stay above the bench, and its stage
+clears the fixed motor blocks. The Zeiss stage clears its gearbox. Probe
+micrometers have barrel graduations and contact shapes covering their grips.
+The bonder's heater leads clear the work platform, and its reconstructed handle
+travel fits the housing. The AFM cantilever holder now lifts away from the scanner.
+Tweezers received a new complete placement/contact audit without geometry changes.
+
+Transfer, Zeiss and probe objectives now contact their relevant work surfaces;
+the probe head also contacts installed needle shanks and clamp heads. Excessive
+focus commands therefore load the obstacle and stop instead of passing through
+it. Transfer and probe fixture focus targets move at at most 5 mm/s to resolve
+thin-surface contact at the 1 ms time step. This bounds actuator commands, not
+physical joint positions; the original force limits and contacts determine the
+motion. These fixture settings are simulation estimates, not factory calibration.
+
+The bonder handle travel is ±35 mm X, ±15 mm Y and −21…+6 mm Z, coupled to
+one-eighth as much tool travel. These are validated reconstruction limits,
+not claimed manufacturer specifications.
+
+Checks combine detailed mesh clearances, motion endpoints and sampled sweeps,
+compiled collision coverage, and measured native/browser task execution.
+They do not establish collision freedom for every possible combination of
+instrument controls or arbitrary robot approaches. Intended threaded fits,
+bearings and functional tool/sample contact are identified separately.
+[Current delivery audit](validation/clearance1.json) and
+[validation summary](validation/summary.json) identify the exact tested files.
 
 ## Visual revision 4
 
 [Compare previous and rebuilt instruments](assets/revision4-comparison.jpg).
 
-This revision rebuilds all six non-Nikon instruments. Their moving geometry, housings, fasteners, graduated controls and service connections are reconstructed from the supplied lab references. Nikon retains its revision-3 reconstruction.
+The earlier visual revision rebuilt all six non-Nikon instruments. Their moving
+geometry, housings, fasteners, graduated controls and service connections were
+reconstructed from the supplied lab references. The clearance corrections above
+also update the Nikon reconstruction and refresh affected current stills.
 
 | Instrument | Main corrections |
 | --- | --- |
@@ -191,7 +230,7 @@ Overview images are 3840×3200; new details are 2560×2160. The live GLBs use th
 
 The transfer source power and dimmer affect microscope images. The dimmer represents a 10–100% relative illumination range; its zero setting is the powered minimum. The coarse ring turns with the clamp released; locking it engages the fine micrometer. Fiber and probe cables follow measured joint motion through visual deformation, without cable contact or strain simulation.
 
-[Delivery audit](validation/reflections3.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
+[Delivery audit](validation/clearance1.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
 
 ## Implementation
 
@@ -234,7 +273,8 @@ not ultrasonic welding or metallurgical bond formation.
 
 The browser port was revalidated independently of the native 3.3.7 engine:
 54/54 positive episodes across seeds 0, 1 and 2; 18 no-action controls with zero
-false positives; 60 mechanical/optical checks; 28 flexible-cable geometry checks;
+false positives; 73 mechanism checks; 12 objective-contact/retraction cases
+sampled every millisecond; 32 flexible-cable geometry checks;
 28 compiled-contact-overlay checks; and 18 interactive-page checks covering all seven detailed models, controls and
 gallery fallbacks. A complete 20-second tweezer placement was inspected at
 every 1 ms step: 20,000 steps, zero unintended tool/work-surface contacts.
@@ -245,8 +285,9 @@ also passes 54/54 episodes across seeds 0, 11 and 37, with 18 no-action controls
 These are fixture benchmark checks on estimated instrument models, not
 physical-lab calibration results.
 
-Current rendering evidence includes [browser and Photo-mode checks](validation/reflections3/rendering.json),
-[all-seven-instrument checks](validation/reflections3/models.json),
+Current rendering evidence includes [browser and Photo-mode checks](validation/clearance1/browser/rendering.json)
+and [all-seven-instrument checks](validation/clearance1/browser/all-models.json).
+The unchanged renderer also retains its earlier evidence for
 [reflection updates during camera and mechanism motion](validation/reflections3/motion.json),
 [planar reflection controls](validation/reflections3/planar.json),
 [objective reflection controls](validation/reflections3/objectives.json), and
@@ -255,9 +296,10 @@ Earlier evidence remains available for [pause/cancellation behavior](validation/
 [micrometre-scale ray intersections](validation/photo1/intersection.json),
 [display-transform agreement](validation/lighting2/grade_gpu.json), and
 [cable physics coverage](validation/lighting2/cables.json).
-Physics and instrument assets are unchanged from the contact-manipulation release;
-the current summary verifies their hashes before carrying forward that physics
-evidence. Reflections do not add cable contact, tension or deformation physics.
+Physics, model and still inputs changed in the clearance correction. Native and
+browser benchmarks are rerun on the current inputs; earlier rendering experiments
+are historical evidence for the unchanged renderer. Reflections do not add cable
+contact, tension or deformation physics.
 Controlled rendering checks and matched instrument views do not establish
 equality with Cycles or a frame-rate guarantee for other graphics devices.
 

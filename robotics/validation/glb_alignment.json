@@ -1,11 +1,11 @@
 {
   "passed": true,
-  "glb_sha256": "f0891f3b34c3464ee36d71ce5c15167b70eedf07c4cf8c7f6b84d1f63052ab81",
-  "trajectory_sha256": "2ac6b53684a83673023f439ffde23307c8fa40ff8af966d2d3ee50a89de2ebc2",
+  "glb_sha256": "56c6c594f3acc46310b1a781ff12cf404bdd1601bdf86561d97c9b90a4c34dd4",
+  "trajectory_sha256": "ddf79606468fe7fe95107035cdd1c7ab24b46268b8a4fe4c447d8d1d03be6b30",
   "physical_body_nodes": 33,
   "missing_bodies": [],
-  "maximum_position_error_m": 1.0743827725679749e-08,
-  "maximum_rotation_matrix_error": 3.3450531214760317e-06,
+  "maximum_position_error_m": 1.3509659317685476e-08,
+  "maximum_rotation_matrix_error": 3.3450531213954433e-06,
   "tolerance": {
     "position_m": 1e-06,
     "rotation_matrix_norm": 1e-05

@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "stamp",
+      "passed": true,
+      "setup": [],
+      "approach": {
+        "maximum_optical_penetration_mm": 0.013922674124611574,
+        "minimum_focus_m": -0.01754224927321521,
+        "maximum_individual_contact_force_N": 25.520410454361766,
+        "maximum_total_optical_normal_force_N": 76.56074039831151,
+        "maximum_focus_control_rate_m_s": 0.005000000000001531,
+        "pairs": [
+          [
+            "objective_turret__Objective_barrel",
+            "stamp_tilt__Glass_stamp_slide"
+          ],
+          [
+            "objective_turret__Objective_front_optic_contact",
+            "stamp_tilt__Glass_stamp_slide"
+          ]
+        ],
+        "contact_samples": 18330
+      },
+      "requested_focus_m": -0.025,
+      "stopped_focus_m": -0.01754224927321521,
+      "stopped_turret_rad": 0.013262394327356765,
+      "terminal_contacts": [
+        {
+          "a": "objective_turret__Objective_barrel",
+          "b": "stamp_tilt__Glass_stamp_slide",
+          "normal_N": 25.52014133718263,
+          "penetration_m": 7.225538970673585e-06
+        },
+        {
+          "a": "objective_turret__Objective_barrel",
+          "b": "stamp_tilt__Glass_stamp_slide",
+          "normal_N": 25.52018860676711,
+          "penetration_m": 7.225538970673585e-06
+        },
+        {
+          "a": "objective_turret__Objective_barrel",
+          "b": "stamp_tilt__Glass_stamp_slide",
+          "normal_N": 25.520410454361766,
+          "penetration_m": 7.225538970673585e-06
+        },
+        {
+          "a": "sample_theta__device_chip",
+          "b": "stamp_tilt__Stamp_silicone_pad",
+          "normal_N": 29.617016245741436,
+          "penetration_m": 2.574701015552076e-05
+        },
+        {
+          "a": "sample_theta__device_chip",
+          "b": "stamp_tilt__Stamp_silicone_pad",
+          "normal_N": 29.61693833846899,
+          "penetration_m": 2.574695794530284e-05
+        }
+      ],
+      "release": {
+        "maximum_optical_penetration_mm": 0.009951470795804333,
+        "minimum_focus_m": -0.017543717245297404,
+        "maximum_individual_contact_force_N": 25.547976493595254,
+        "maximum_total_optical_normal_force_N": 76.64344217091083,
+        "maximum_focus_control_rate_m_s": 0.005000000000001531,
+        "pairs": [
+          [
+            "objective_turret__Objective_barrel",
+            "stamp_tilt__Glass_stamp_slide"
+          ],
+          [
+            "objective_turret__Objective_front_optic_contact",
+            "stamp_tilt__Glass_stamp_slide"
+          ]
+        ],
+        "contact_samples": 7583
+      },
+      "retracted_focus_m": 0.009363702438714733,
+      "remaining_optical_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "sample",
+      "passed": true,
+      "setup": [
+        {
+          "maximum_optical_penetration_mm": 0.0,
+          "minimum_focus_m": -2.9681031480892747e-06,
+          "maximum_individual_contact_force_N": 0.0,
+          "maximum_total_optical_normal_force_N": 0.0,
+          "maximum_focus_control_rate_m_s": 0.0,
+          "pairs": [],
+          "contact_samples": 0
+        },
+        {
+          "maximum_optical_penetration_mm": 0.0,
+          "minimum_focus_m": -6.492354708519296e-06,
+          "maximum_individual_contact_force_N": 0.0,
+          "maximum_total_optical_normal_force_N": 0.0,
+          "maximum_focus_control_rate_m_s": 0.0,
+          "pairs": [],
+          "contact_samples": 0
+        }
+      ],
+      "approach": {
+        "maximum_optical_penetration_mm": 0.003133049361610457,
+        "minimum_focus_m": -0.020344620885514707,
+        "maximum_individual_contact_force_N": 20.41616605040846,
+        "maximum_total_optical_normal_force_N": 81.7379837405831,
+        "maximum_focus_control_rate_m_s": 0.005000000000001531,
+        "pairs": [
+          [
+            "objective_turret__Objective_barrel",
+            "sample_theta__device_chip"
+          ]
+        ],
+        "contact_samples": 17835
+      },
+      "requested_focus_m": -0.025,
+      "stopped_focus_m": -0.020344620885514707,
+      "stopped_turret_rad": -0.0015034592058593365,
+      "terminal_contacts": [
+        {
+          "a": "objective_turret__Objective_barrel",
+          "b": "sample_theta__device_chip",
+          "normal_N": 20.41616605040846,
+          "penetration_m": 3.133049361610457e-06
+        },
+        {
+          "a": "objective_turret__Objective_barrel",
+          "b": "sample_theta__device_chip",
+          "normal_N": 20.379306324777414,
+          "penetration_m": 3.133049361610457e-06
+        },
+        {
+          "a": "objective_turret__Objective_barrel",
+          "b": "sample_theta__device_chip",
+          "normal_N": 20.383370798104053,
+          "penetration_m": 3.133049361610457e-06
+        },
+        {
+          "a": "objective_turret__Objective_barrel",
+          "b": "sample_theta__device_chip",
+          "normal_N": 20.411581447904684,
+          "penetration_m": 3.133049361610457e-06
+        }
+      ],
+      "release": {
+        "maximum_optical_penetration_mm": 0.0031331134955968707,
+        "minimum_focus_m": -0.020344668330279876,
+        "maximum_individual_contact_force_N": 20.416575664885148,
+        "maximum_total_optical_normal_force_N": 81.59207760835679,
+        "maximum_focus_control_rate_m_s": 0.005000000000001531,
+        "pairs": [
+          [
+            "objective_turret__Objective_barrel",
+            "sample_theta__device_chip"
+          ]
+        ],
+        "contact_samples": 4230
+      },
+      "retracted_focus_m": 0.009363702438714731,
+      "remaining_optical_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "model_sha256": "53cd96d07d8ff929a78a566fded2557edb15ac70c60c8d23dc27671c3b2bffc5",
+  "metadata_sha256": "a4bf47938d638b99093b6304c3a2f7d9c95970ec0818c133feeebfd3ef26a900",
+  "runtime_sha256": "b8393a87c894a9f3795b570b0ce481a7da3740aa2565bf0fa7be9c6cba686460",
+  "method": "Normal Simulation.command/before_step controls and native1ms MuJoCo integration; no joint teleportation or imposed stopping state."
+}

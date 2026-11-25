@@ -1,0 +1,3386 @@
+{
+  "source_blend": "001_transfer_stage/transfer_station.blend",
+  "source_sha256": "49e138ca29ec9dcbf3dd0788d32c26e4fdfa17d2e3e241ad841aee19f8e76c32",
+  "metadata_sha256": "a4bf47938d638b99093b6304c3a2f7d9c95970ec0818c133feeebfd3ef26a900",
+  "script_sha256": "cb910b9010e0ca4bd6b6b19d732a1672c50a793bcdb4183d8d9f769f79460e6f",
+  "sections": {
+    "stage_actuators": {
+      "passed": true,
+      "stages": [
+        {
+          "stage": "sample_x",
+          "continuous_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "pairs": [
+            {
+              "moving": "sample_x moving drilled plate substrate",
+              "fixed": "sample_x fixed sole",
+              "clearance_mm": 12.500002980232239,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate substrate",
+              "fixed": "sample_x ground raceway",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate substrate",
+              "fixed": "sample_x ground raceway.001",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate substrate",
+              "fixed": "sample_x race end stop relieved cheek",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate substrate",
+              "fixed": "sample_x race end stop relieved cheek.001",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate substrate",
+              "fixed": "sample_x race end stop lower web",
+              "clearance_mm": 10.500006377696991,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate substrate",
+              "fixed": "sample_x race end stop",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate substrate",
+              "fixed": "sample_x actuator mounting extension",
+              "clearance_mm": 12.000001966953278,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate substrate",
+              "fixed": "sample_x actuator split clamp",
+              "clearance_mm": 4.500004649162282,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X",
+              "fixed": "sample_x fixed sole",
+              "clearance_mm": 12.500002980232239,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X",
+              "fixed": "sample_x ground raceway",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X",
+              "fixed": "sample_x ground raceway.001",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X",
+              "fixed": "sample_x race end stop relieved cheek",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X",
+              "fixed": "sample_x race end stop relieved cheek.001",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X",
+              "fixed": "sample_x race end stop lower web",
+              "clearance_mm": 10.500006377696991,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X",
+              "fixed": "sample_x race end stop",
+              "clearance_mm": 74.64187023889785,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X",
+              "fixed": "sample_x actuator mounting extension",
+              "clearance_mm": 12.000001966953278,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X",
+              "fixed": "sample_x actuator split clamp",
+              "clearance_mm": 4.500004649162282,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y",
+              "fixed": "sample_x fixed sole",
+              "clearance_mm": 12.500002980232239,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y",
+              "fixed": "sample_x ground raceway",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y",
+              "fixed": "sample_x ground raceway.001",
+              "clearance_mm": 66.41694522836565,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y",
+              "fixed": "sample_x race end stop relieved cheek",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y",
+              "fixed": "sample_x race end stop relieved cheek.001",
+              "clearance_mm": 32.49631242449524,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y",
+              "fixed": "sample_x race end stop lower web",
+              "clearance_mm": 21.185141432196364,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y",
+              "fixed": "sample_x race end stop",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y",
+              "fixed": "sample_x actuator mounting extension",
+              "clearance_mm": 20.20817269469671,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y",
+              "fixed": "sample_x actuator split clamp",
+              "clearance_mm": 24.983408583324827,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X.001",
+              "fixed": "sample_x fixed sole",
+              "clearance_mm": 12.500002980232239,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X.001",
+              "fixed": "sample_x ground raceway",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X.001",
+              "fixed": "sample_x ground raceway.001",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X.001",
+              "fixed": "sample_x race end stop relieved cheek",
+              "clearance_mm": 74.64188513169863,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X.001",
+              "fixed": "sample_x race end stop relieved cheek.001",
+              "clearance_mm": 74.64188513169863,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X.001",
+              "fixed": "sample_x race end stop lower web",
+              "clearance_mm": 75.33532454707665,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X.001",
+              "fixed": "sample_x race end stop",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X.001",
+              "fixed": "sample_x actuator mounting extension",
+              "clearance_mm": 80.49945787040116,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin X.001",
+              "fixed": "sample_x actuator split clamp",
+              "clearance_mm": 94.60001736879349,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y.001",
+              "fixed": "sample_x fixed sole",
+              "clearance_mm": 12.500002980232239,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y.001",
+              "fixed": "sample_x ground raceway",
+              "clearance_mm": 66.41694522836565,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y.001",
+              "fixed": "sample_x ground raceway.001",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y.001",
+              "fixed": "sample_x race end stop relieved cheek",
+              "clearance_mm": 32.49630871024542,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y.001",
+              "fixed": "sample_x race end stop relieved cheek.001",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y.001",
+              "fixed": "sample_x race end stop lower web",
+              "clearance_mm": 21.185140623311632,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y.001",
+              "fixed": "sample_x race end stop",
+              "clearance_mm": 2.500005066394806,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y.001",
+              "fixed": "sample_x actuator mounting extension",
+              "clearance_mm": 20.20817122914795,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate margin Y.001",
+              "fixed": "sample_x actuator split clamp",
+              "clearance_mm": 24.98340732334033,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate drilled surface",
+              "fixed": "sample_x fixed sole",
+              "clearance_mm": 12.700002640485764,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate drilled surface",
+              "fixed": "sample_x ground raceway",
+              "clearance_mm": 15.692358401647663,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate drilled surface",
+              "fixed": "sample_x ground raceway.001",
+              "clearance_mm": 15.692354698282024,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate drilled surface",
+              "fixed": "sample_x race end stop relieved cheek",
+              "clearance_mm": 2.7000047266483307,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate drilled surface",
+              "fixed": "sample_x race end stop relieved cheek.001",
+              "clearance_mm": 2.7000047266483307,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate drilled surface",
+              "fixed": "sample_x race end stop lower web",
+              "clearance_mm": 10.700006037950516,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate drilled surface",
+              "fixed": "sample_x race end stop",
+              "clearance_mm": 2.7000047266483307,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate drilled surface",
+              "fixed": "sample_x actuator mounting extension",
+              "clearance_mm": 12.664917976633564,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving drilled plate drilled surface",
+              "fixed": "sample_x actuator split clamp",
+              "clearance_mm": 18.40001642704009,
+              "passed": true
+            },
+            {
+              "moving": "sample_x relieved carrier core",
+              "fixed": "sample_x fixed sole",
+              "clearance_mm": 1.7000027000904083,
+              "passed": true
+            },
+            {
+              "moving": "sample_x relieved carrier core",
+              "fixed": "sample_x ground raceway",
+              "clearance_mm": 2.0000040531158447,
+              "passed": true
+            },
+            {
+              "moving": "sample_x relieved carrier core",
+              "fixed": "sample_x ground raceway.001",
+              "clearance_mm": 2.0000003278255463,
+              "passed": true
+            },
+            {
+              "moving": "sample_x relieved carrier core",
+              "fixed": "sample_x race end stop relieved cheek",
+              "clearance_mm": 1.00000500679015,
+              "passed": true
+            },
+            {
+              "moving": "sample_x relieved carrier core",
+              "fixed": "sample_x race end stop relieved cheek.001",
+              "clearance_mm": 1.00000500679015,
+              "passed": true
+            },
+            {
+              "moving": "sample_x relieved carrier core",
+              "fixed": "sample_x race end stop lower web",
+              "clearance_mm": 1.00000500679015,
+              "passed": true
+            },
+            {
+              "moving": "sample_x relieved carrier core",
+              "fixed": "sample_x race end stop",
+              "clearance_mm": 0.999997556209567,
+              "passed": true
+            },
+            {
+              "moving": "sample_x relieved carrier core",
+              "fixed": "sample_x actuator mounting extension",
+              "clearance_mm": 6.118838592701777,
+              "passed": true
+            },
+            {
+              "moving": "sample_x relieved carrier core",
+              "fixed": "sample_x actuator split clamp",
+              "clearance_mm": 21.00001573562621,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving thrust pad",
+              "fixed": "sample_x fixed sole",
+              "clearance_mm": 2.5000013411045074,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving thrust pad",
+              "fixed": "sample_x ground raceway",
+              "clearance_mm": 35.50000302493572,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving thrust pad",
+              "fixed": "sample_x ground raceway.001",
+              "clearance_mm": 35.500000230968,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving thrust pad",
+              "fixed": "sample_x race end stop relieved cheek",
+              "clearance_mm": 1.499999314546585,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving thrust pad",
+              "fixed": "sample_x race end stop relieved cheek.001",
+              "clearance_mm": 1.5000002458691597,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving thrust pad",
+              "fixed": "sample_x race end stop lower web",
+              "clearance_mm": 0.5000047385692596,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving thrust pad",
+              "fixed": "sample_x race end stop",
+              "clearance_mm": 77.00000256299971,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving thrust pad",
+              "fixed": "sample_x actuator mounting extension",
+              "clearance_mm": 2.0000003278255463,
+              "passed": true
+            },
+            {
+              "moving": "sample_x moving thrust pad",
+              "fixed": "sample_x actuator split clamp",
+              "clearance_mm": 9.000006318092336,
+              "passed": true
+            }
+          ],
+          "minimum_clearance_mm": 0.5000047385692596,
+          "maximum_driver_error_mm": 1.1920928955772014e-05,
+          "passed": true
+        },
+        {
+          "stage": "sample_y",
+          "continuous_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "pairs": [
+            {
+              "moving": "sample_y moving drilled plate substrate",
+              "fixed": "sample_y fixed sole",
+              "clearance_mm": 13.50000873208046,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate substrate",
+              "fixed": "sample_y ground raceway",
+              "clearance_mm": 1.5000104904174805,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate substrate",
+              "fixed": "sample_y ground raceway.001",
+              "clearance_mm": 1.5000104904174805,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate substrate",
+              "fixed": "sample_y race end stop relieved cheek",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate substrate",
+              "fixed": "sample_y race end stop relieved cheek.001",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate substrate",
+              "fixed": "sample_y race end stop lower web",
+              "clearance_mm": 11.00001111626625,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate substrate",
+              "fixed": "sample_y race end stop",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate substrate",
+              "fixed": "sample_y actuator mounting extension",
+              "clearance_mm": 12.500006705522537,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate substrate",
+              "fixed": "sample_y actuator split clamp",
+              "clearance_mm": 4.000003635883334,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X",
+              "fixed": "sample_y fixed sole",
+              "clearance_mm": 13.50000873208046,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X",
+              "fixed": "sample_y ground raceway",
+              "clearance_mm": 66.41694725880483,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X",
+              "fixed": "sample_y ground raceway.001",
+              "clearance_mm": 1.5000104904174805,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X",
+              "fixed": "sample_y race end stop relieved cheek",
+              "clearance_mm": 32.538597577899445,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X",
+              "fixed": "sample_y race end stop relieved cheek.001",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X",
+              "fixed": "sample_y race end stop lower web",
+              "clearance_mm": 21.437361433235676,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X",
+              "fixed": "sample_y race end stop",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X",
+              "fixed": "sample_y actuator mounting extension",
+              "clearance_mm": 20.225236641552094,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X",
+              "fixed": "sample_y actuator split clamp",
+              "clearance_mm": 17.85385580852463,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y",
+              "fixed": "sample_y fixed sole",
+              "clearance_mm": 13.50000873208046,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y",
+              "fixed": "sample_y ground raceway",
+              "clearance_mm": 15.671946338559913,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y",
+              "fixed": "sample_y ground raceway.001",
+              "clearance_mm": 15.671946338559913,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y",
+              "fixed": "sample_y race end stop relieved cheek",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y",
+              "fixed": "sample_y race end stop relieved cheek.001",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y",
+              "fixed": "sample_y race end stop lower web",
+              "clearance_mm": 11.00001111626625,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y",
+              "fixed": "sample_y race end stop",
+              "clearance_mm": 53.98342454373938,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y",
+              "fixed": "sample_y actuator mounting extension",
+              "clearance_mm": 12.500006705522537,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y",
+              "fixed": "sample_y actuator split clamp",
+              "clearance_mm": 4.000003635883334,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X.001",
+              "fixed": "sample_y fixed sole",
+              "clearance_mm": 13.50000873208046,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X.001",
+              "fixed": "sample_y ground raceway",
+              "clearance_mm": 1.5000104904174805,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X.001",
+              "fixed": "sample_y ground raceway.001",
+              "clearance_mm": 66.41694725880483,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X.001",
+              "fixed": "sample_y race end stop relieved cheek",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X.001",
+              "fixed": "sample_y race end stop relieved cheek.001",
+              "clearance_mm": 32.538597577899445,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X.001",
+              "fixed": "sample_y race end stop lower web",
+              "clearance_mm": 21.437361433235676,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X.001",
+              "fixed": "sample_y race end stop",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X.001",
+              "fixed": "sample_y actuator mounting extension",
+              "clearance_mm": 20.225236641552094,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin X.001",
+              "fixed": "sample_y actuator split clamp",
+              "clearance_mm": 17.85385580852463,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y.001",
+              "fixed": "sample_y fixed sole",
+              "clearance_mm": 13.50000873208046,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y.001",
+              "fixed": "sample_y ground raceway",
+              "clearance_mm": 15.671946338559913,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y.001",
+              "fixed": "sample_y ground raceway.001",
+              "clearance_mm": 15.671946338559913,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y.001",
+              "fixed": "sample_y race end stop relieved cheek",
+              "clearance_mm": 53.98342454373938,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y.001",
+              "fixed": "sample_y race end stop relieved cheek.001",
+              "clearance_mm": 53.98342454373938,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y.001",
+              "fixed": "sample_y race end stop lower web",
+              "clearance_mm": 55.01100558193623,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y.001",
+              "fixed": "sample_y race end stop",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y.001",
+              "fixed": "sample_y actuator mounting extension",
+              "clearance_mm": 60.211794044106504,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate margin Y.001",
+              "fixed": "sample_y actuator split clamp",
+              "clearance_mm": 73.40000681579113,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate drilled surface",
+              "fixed": "sample_y fixed sole",
+              "clearance_mm": 13.700004667043686,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate drilled surface",
+              "fixed": "sample_y ground raceway",
+              "clearance_mm": 15.692351398489478,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate drilled surface",
+              "fixed": "sample_y ground raceway.001",
+              "clearance_mm": 15.692351398489478,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate drilled surface",
+              "fixed": "sample_y race end stop relieved cheek",
+              "clearance_mm": 4.455335034527095,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate drilled surface",
+              "fixed": "sample_y race end stop relieved cheek.001",
+              "clearance_mm": 4.455335034527095,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate drilled surface",
+              "fixed": "sample_y race end stop lower web",
+              "clearance_mm": 11.621109173422488,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate drilled surface",
+              "fixed": "sample_y race end stop",
+              "clearance_mm": 4.455335034527092,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate drilled surface",
+              "fixed": "sample_y actuator mounting extension",
+              "clearance_mm": 15.063201628960044,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving drilled plate drilled surface",
+              "fixed": "sample_y actuator split clamp",
+              "clearance_mm": 22.600005567073826,
+              "passed": true
+            },
+            {
+              "moving": "sample_y relieved carrier core",
+              "fixed": "sample_y fixed sole",
+              "clearance_mm": 2.200007438659668,
+              "passed": true
+            },
+            {
+              "moving": "sample_y relieved carrier core",
+              "fixed": "sample_y ground raceway",
+              "clearance_mm": 1.9999966025352478,
+              "passed": true
+            },
+            {
+              "moving": "sample_y relieved carrier core",
+              "fixed": "sample_y ground raceway.001",
+              "clearance_mm": 2.0000040531158447,
+              "passed": true
+            },
+            {
+              "moving": "sample_y relieved carrier core",
+              "fixed": "sample_y race end stop relieved cheek",
+              "clearance_mm": 0.999997556209567,
+              "passed": true
+            },
+            {
+              "moving": "sample_y relieved carrier core",
+              "fixed": "sample_y race end stop relieved cheek.001",
+              "clearance_mm": 0.999997556209567,
+              "passed": true
+            },
+            {
+              "moving": "sample_y relieved carrier core",
+              "fixed": "sample_y race end stop lower web",
+              "clearance_mm": 1.0000012814998653,
+              "passed": true
+            },
+            {
+              "moving": "sample_y relieved carrier core",
+              "fixed": "sample_y race end stop",
+              "clearance_mm": 0.9999975562095635,
+              "passed": true
+            },
+            {
+              "moving": "sample_y relieved carrier core",
+              "fixed": "sample_y actuator mounting extension",
+              "clearance_mm": 6.118821058555728,
+              "passed": true
+            },
+            {
+              "moving": "sample_y relieved carrier core",
+              "fixed": "sample_y actuator split clamp",
+              "clearance_mm": 20.500003546476368,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving thrust pad",
+              "fixed": "sample_y fixed sole",
+              "clearance_mm": 3.000006079673767,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving thrust pad",
+              "fixed": "sample_y ground raceway",
+              "clearance_mm": 35.499997437000275,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving thrust pad",
+              "fixed": "sample_y ground raceway.001",
+              "clearance_mm": 35.499997437000275,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving thrust pad",
+              "fixed": "sample_y race end stop relieved cheek",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving thrust pad",
+              "fixed": "sample_y race end stop relieved cheek.001",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving thrust pad",
+              "fixed": "sample_y race end stop lower web",
+              "clearance_mm": 0.5000084638595581,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving thrust pad",
+              "fixed": "sample_y race end stop",
+              "clearance_mm": 61.000001803040504,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving thrust pad",
+              "fixed": "sample_y actuator mounting extension",
+              "clearance_mm": 2.0000040531158447,
+              "passed": true
+            },
+            {
+              "moving": "sample_y moving thrust pad",
+              "fixed": "sample_y actuator split clamp",
+              "clearance_mm": 8.500005304813389,
+              "passed": true
+            }
+          ],
+          "minimum_clearance_mm": 0.5000084638595581,
+          "maximum_driver_error_mm": 2.980232238075642e-06,
+          "passed": true
+        },
+        {
+          "stage": "stamp_x",
+          "continuous_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "pairs": [
+            {
+              "moving": "stamp_x moving drilled plate substrate",
+              "fixed": "stamp_x fixed sole",
+              "clearance_mm": 14.500007033348083,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate substrate",
+              "fixed": "stamp_x ground raceway",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate substrate",
+              "fixed": "stamp_x ground raceway.001",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate substrate",
+              "fixed": "stamp_x race end stop",
+              "clearance_mm": 3.4999996423721313,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate substrate",
+              "fixed": "stamp_x race end stop relieved cheek",
+              "clearance_mm": 3.4999996423721313,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate substrate",
+              "fixed": "stamp_x race end stop relieved cheek.001",
+              "clearance_mm": 3.4999996423721313,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate substrate",
+              "fixed": "stamp_x race end stop lower web",
+              "clearance_mm": 11.500000953674316,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate substrate",
+              "fixed": "stamp_x actuator mounting extension",
+              "clearance_mm": 13.0000039935112,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate substrate",
+              "fixed": "stamp_x actuator split clamp",
+              "clearance_mm": 4.499989748001088,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X",
+              "fixed": "stamp_x fixed sole",
+              "clearance_mm": 14.500007033348083,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X",
+              "fixed": "stamp_x ground raceway",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X",
+              "fixed": "stamp_x ground raceway.001",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X",
+              "fixed": "stamp_x race end stop",
+              "clearance_mm": 3.4999996423721313,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X",
+              "fixed": "stamp_x race end stop relieved cheek",
+              "clearance_mm": 81.17548635915406,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X",
+              "fixed": "stamp_x race end stop relieved cheek.001",
+              "clearance_mm": 81.17548635915406,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X",
+              "fixed": "stamp_x race end stop lower web",
+              "clearance_mm": 81.91129110252818,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X",
+              "fixed": "stamp_x actuator mounting extension",
+              "clearance_mm": 87.07589454869098,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X",
+              "fixed": "stamp_x actuator split clamp",
+              "clearance_mm": 101.099993288517,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y",
+              "fixed": "stamp_x fixed sole",
+              "clearance_mm": 14.500007033348083,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y",
+              "fixed": "stamp_x ground raceway",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y",
+              "fixed": "stamp_x ground raceway.001",
+              "clearance_mm": 65.91707085323264,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y",
+              "fixed": "stamp_x race end stop",
+              "clearance_mm": 6.021624646529116,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y",
+              "fixed": "stamp_x race end stop relieved cheek",
+              "clearance_mm": 6.021624646529104,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y",
+              "fixed": "stamp_x race end stop relieved cheek.001",
+              "clearance_mm": 32.95481782445867,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y",
+              "fixed": "stamp_x race end stop lower web",
+              "clearance_mm": 22.24454841756495,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y",
+              "fixed": "stamp_x actuator mounting extension",
+              "clearance_mm": 22.79956591418135,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y",
+              "fixed": "stamp_x actuator split clamp",
+              "clearance_mm": 30.09351413311628,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X.001",
+              "fixed": "stamp_x fixed sole",
+              "clearance_mm": 14.500007033348083,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X.001",
+              "fixed": "stamp_x ground raceway",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X.001",
+              "fixed": "stamp_x ground raceway.001",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X.001",
+              "fixed": "stamp_x race end stop",
+              "clearance_mm": 81.17549380280599,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X.001",
+              "fixed": "stamp_x race end stop relieved cheek",
+              "clearance_mm": 3.4999996423721313,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X.001",
+              "fixed": "stamp_x race end stop relieved cheek.001",
+              "clearance_mm": 3.4999996423721313,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X.001",
+              "fixed": "stamp_x race end stop lower web",
+              "clearance_mm": 11.500000953674316,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X.001",
+              "fixed": "stamp_x actuator mounting extension",
+              "clearance_mm": 13.0000039935112,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin X.001",
+              "fixed": "stamp_x actuator split clamp",
+              "clearance_mm": 4.500004649162282,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y.001",
+              "fixed": "stamp_x fixed sole",
+              "clearance_mm": 14.500007033348083,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y.001",
+              "fixed": "stamp_x ground raceway",
+              "clearance_mm": 65.91707178431405,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y.001",
+              "fixed": "stamp_x ground raceway.001",
+              "clearance_mm": 1.5000030398368835,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y.001",
+              "fixed": "stamp_x race end stop",
+              "clearance_mm": 6.021624646529116,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y.001",
+              "fixed": "stamp_x race end stop relieved cheek",
+              "clearance_mm": 32.95481690881556,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y.001",
+              "fixed": "stamp_x race end stop relieved cheek.001",
+              "clearance_mm": 6.021624646529104,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y.001",
+              "fixed": "stamp_x race end stop lower web",
+              "clearance_mm": 22.244549958287106,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y.001",
+              "fixed": "stamp_x actuator mounting extension",
+              "clearance_mm": 22.79956656366864,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate margin Y.001",
+              "fixed": "stamp_x actuator split clamp",
+              "clearance_mm": 30.093514656131006,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate drilled surface",
+              "fixed": "stamp_x fixed sole",
+              "clearance_mm": 14.70000296831131,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate drilled surface",
+              "fixed": "stamp_x ground raceway",
+              "clearance_mm": 15.195396198738655,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate drilled surface",
+              "fixed": "stamp_x ground raceway.001",
+              "clearance_mm": 15.19539434778685,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate drilled surface",
+              "fixed": "stamp_x race end stop",
+              "clearance_mm": 6.140027130182981,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate drilled surface",
+              "fixed": "stamp_x race end stop relieved cheek",
+              "clearance_mm": 6.140027130182969,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate drilled surface",
+              "fixed": "stamp_x race end stop relieved cheek.001",
+              "clearance_mm": 6.140027130182969,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate drilled surface",
+              "fixed": "stamp_x race end stop lower web",
+              "clearance_mm": 12.684632161840954,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate drilled surface",
+              "fixed": "stamp_x actuator mounting extension",
+              "clearance_mm": 16.50000393390742,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving drilled plate drilled surface",
+              "fixed": "stamp_x actuator split clamp",
+              "clearance_mm": 24.8999923467636,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x relieved carrier core",
+              "fixed": "stamp_x fixed sole",
+              "clearance_mm": 2.7000010013580322,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x relieved carrier core",
+              "fixed": "stamp_x ground raceway",
+              "clearance_mm": 1.9999966025352478,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x relieved carrier core",
+              "fixed": "stamp_x ground raceway.001",
+              "clearance_mm": 1.999998465180397,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x relieved carrier core",
+              "fixed": "stamp_x race end stop",
+              "clearance_mm": 0.999997556209567,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x relieved carrier core",
+              "fixed": "stamp_x race end stop relieved cheek",
+              "clearance_mm": 1.00000500679015,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x relieved carrier core",
+              "fixed": "stamp_x race end stop relieved cheek.001",
+              "clearance_mm": 1.00000500679015,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x relieved carrier core",
+              "fixed": "stamp_x race end stop lower web",
+              "clearance_mm": 1.00000500679015,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x relieved carrier core",
+              "fixed": "stamp_x actuator mounting extension",
+              "clearance_mm": 6.118837862114117,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x relieved carrier core",
+              "fixed": "stamp_x actuator split clamp",
+              "clearance_mm": 21.000000834465016,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving thrust pad",
+              "fixed": "stamp_x fixed sole",
+              "clearance_mm": 3.4999996423721313,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving thrust pad",
+              "fixed": "stamp_x ground raceway",
+              "clearance_mm": 35.00000201165676,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving thrust pad",
+              "fixed": "stamp_x ground raceway.001",
+              "clearance_mm": 35.00000108033419,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving thrust pad",
+              "fixed": "stamp_x race end stop",
+              "clearance_mm": 90.00000655651091,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving thrust pad",
+              "fixed": "stamp_x race end stop relieved cheek",
+              "clearance_mm": 1.499999314546585,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving thrust pad",
+              "fixed": "stamp_x race end stop relieved cheek.001",
+              "clearance_mm": 1.5000002458691597,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving thrust pad",
+              "fixed": "stamp_x race end stop lower web",
+              "clearance_mm": 0.49999356269836426,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving thrust pad",
+              "fixed": "stamp_x actuator mounting extension",
+              "clearance_mm": 1.9999966025352478,
+              "passed": true
+            },
+            {
+              "moving": "stamp_x moving thrust pad",
+              "fixed": "stamp_x actuator split clamp",
+              "clearance_mm": 8.999991416931142,
+              "passed": true
+            }
+          ],
+          "minimum_clearance_mm": 0.49999356269836426,
+          "maximum_driver_error_mm": 1.1920928955772014e-05,
+          "passed": true
+        },
+        {
+          "stage": "stamp_y",
+          "continuous_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "pairs": [
+            {
+              "moving": "stamp_y moving drilled plate substrate",
+              "fixed": "stamp_y fixed sole",
+              "clearance_mm": 13.499997556209564,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate substrate",
+              "fixed": "stamp_y ground raceway",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate substrate",
+              "fixed": "stamp_y ground raceway.001",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate substrate",
+              "fixed": "stamp_y race end stop relieved cheek",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate substrate",
+              "fixed": "stamp_y race end stop relieved cheek.001",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate substrate",
+              "fixed": "stamp_y race end stop lower web",
+              "clearance_mm": 10.999992489814758,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate substrate",
+              "fixed": "stamp_y race end stop",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate substrate",
+              "fixed": "stamp_y actuator mounting extension",
+              "clearance_mm": 12.500002980232239,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate substrate",
+              "fixed": "stamp_y actuator split clamp",
+              "clearance_mm": 4.000003635883334,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X",
+              "fixed": "stamp_y fixed sole",
+              "clearance_mm": 13.499997556209564,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X",
+              "fixed": "stamp_y ground raceway",
+              "clearance_mm": 83.61344787347284,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X",
+              "fixed": "stamp_y ground raceway.001",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X",
+              "fixed": "stamp_y race end stop relieved cheek",
+              "clearance_mm": 45.199664088468644,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X",
+              "fixed": "stamp_y race end stop relieved cheek.001",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X",
+              "fixed": "stamp_y race end stop lower web",
+              "clearance_mm": 32.988023233294356,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X",
+              "fixed": "stamp_y race end stop",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X",
+              "fixed": "stamp_y actuator mounting extension",
+              "clearance_mm": 31.212338355871577,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X",
+              "fixed": "stamp_y actuator split clamp",
+              "clearance_mm": 30.364613520198315,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y",
+              "fixed": "stamp_y fixed sole",
+              "clearance_mm": 13.499997556209564,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y",
+              "fixed": "stamp_y ground raceway",
+              "clearance_mm": 7.55048712713247,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y",
+              "fixed": "stamp_y ground raceway.001",
+              "clearance_mm": 7.550494429208572,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y",
+              "fixed": "stamp_y race end stop relieved cheek",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y",
+              "fixed": "stamp_y race end stop relieved cheek.001",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y",
+              "fixed": "stamp_y race end stop lower web",
+              "clearance_mm": 10.999992489814758,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y",
+              "fixed": "stamp_y race end stop",
+              "clearance_mm": 53.48420673043008,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y",
+              "fixed": "stamp_y actuator mounting extension",
+              "clearance_mm": 12.500002980232239,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y",
+              "fixed": "stamp_y actuator split clamp",
+              "clearance_mm": 4.000003635883334,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X.001",
+              "fixed": "stamp_y fixed sole",
+              "clearance_mm": 13.499997556209564,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X.001",
+              "fixed": "stamp_y ground raceway",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X.001",
+              "fixed": "stamp_y ground raceway.001",
+              "clearance_mm": 83.61346277223602,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X.001",
+              "fixed": "stamp_y race end stop relieved cheek",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X.001",
+              "fixed": "stamp_y race end stop relieved cheek.001",
+              "clearance_mm": 45.19967152262025,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X.001",
+              "fixed": "stamp_y race end stop lower web",
+              "clearance_mm": 32.988030257450944,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X.001",
+              "fixed": "stamp_y race end stop",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X.001",
+              "fixed": "stamp_y actuator mounting extension",
+              "clearance_mm": 31.21234518287076,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin X.001",
+              "fixed": "stamp_y actuator split clamp",
+              "clearance_mm": 30.364620905849453,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y.001",
+              "fixed": "stamp_y fixed sole",
+              "clearance_mm": 13.499997556209564,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y.001",
+              "fixed": "stamp_y ground raceway",
+              "clearance_mm": 7.55048712713247,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y.001",
+              "fixed": "stamp_y ground raceway.001",
+              "clearance_mm": 7.550494429208572,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y.001",
+              "fixed": "stamp_y race end stop relieved cheek",
+              "clearance_mm": 53.484203011004716,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y.001",
+              "fixed": "stamp_y race end stop relieved cheek.001",
+              "clearance_mm": 53.484203011004716,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y.001",
+              "fixed": "stamp_y race end stop lower web",
+              "clearance_mm": 54.52119049126498,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y.001",
+              "fixed": "stamp_y race end stop",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y.001",
+              "fixed": "stamp_y actuator mounting extension",
+              "clearance_mm": 59.72277564500985,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate margin Y.001",
+              "fixed": "stamp_y actuator split clamp",
+              "clearance_mm": 72.90000580251217,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate drilled surface",
+              "fixed": "stamp_y fixed sole",
+              "clearance_mm": 13.700000941753387,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate drilled surface",
+              "fixed": "stamp_y ground raceway",
+              "clearance_mm": 7.592750858781437,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate drilled surface",
+              "fixed": "stamp_y ground raceway.001",
+              "clearance_mm": 7.592758120211837,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate drilled surface",
+              "fixed": "stamp_y race end stop relieved cheek",
+              "clearance_mm": 4.123106283377717,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate drilled surface",
+              "fixed": "stamp_y race end stop relieved cheek.001",
+              "clearance_mm": 4.123106283377717,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate drilled surface",
+              "fixed": "stamp_y race end stop lower web",
+              "clearance_mm": 11.497822381212451,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate drilled surface",
+              "fixed": "stamp_y race end stop",
+              "clearance_mm": 4.123106283377715,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate drilled surface",
+              "fixed": "stamp_y actuator mounting extension",
+              "clearance_mm": 14.80034202312736,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving drilled plate drilled surface",
+              "fixed": "stamp_y actuator split clamp",
+              "clearance_mm": 22.100004553794864,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y relieved carrier core",
+              "fixed": "stamp_y fixed sole",
+              "clearance_mm": 2.199999988079071,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y relieved carrier core",
+              "fixed": "stamp_y ground raceway",
+              "clearance_mm": 1.9999891519546509,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y relieved carrier core",
+              "fixed": "stamp_y ground raceway.001",
+              "clearance_mm": 1.9999966025352478,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y relieved carrier core",
+              "fixed": "stamp_y race end stop relieved cheek",
+              "clearance_mm": 0.9999938309192685,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y relieved carrier core",
+              "fixed": "stamp_y race end stop relieved cheek.001",
+              "clearance_mm": 0.9999938309192685,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y relieved carrier core",
+              "fixed": "stamp_y race end stop lower web",
+              "clearance_mm": 0.999997556209567,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y relieved carrier core",
+              "fixed": "stamp_y race end stop",
+              "clearance_mm": 0.9999975562095635,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y relieved carrier core",
+              "fixed": "stamp_y actuator mounting extension",
+              "clearance_mm": 6.118817405608809,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y relieved carrier core",
+              "fixed": "stamp_y actuator split clamp",
+              "clearance_mm": 20.49999982118607,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving thrust pad",
+              "fixed": "stamp_y fixed sole",
+              "clearance_mm": 2.99999862909317,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving thrust pad",
+              "fixed": "stamp_y ground raceway",
+              "clearance_mm": 39.99999165534973,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving thrust pad",
+              "fixed": "stamp_y ground raceway.001",
+              "clearance_mm": 39.99999910593033,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving thrust pad",
+              "fixed": "stamp_y race end stop relieved cheek",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving thrust pad",
+              "fixed": "stamp_y race end stop relieved cheek.001",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving thrust pad",
+              "fixed": "stamp_y race end stop lower web",
+              "clearance_mm": 0.49999356269836426,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving thrust pad",
+              "fixed": "stamp_y race end stop",
+              "clearance_mm": 59.99999977648258,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving thrust pad",
+              "fixed": "stamp_y actuator mounting extension",
+              "clearance_mm": 2.0000040531158447,
+              "passed": true
+            },
+            {
+              "moving": "stamp_y moving thrust pad",
+              "fixed": "stamp_y actuator split clamp",
+              "clearance_mm": 8.500005304813389,
+              "passed": true
+            }
+          ],
+          "minimum_clearance_mm": 0.49999356269836426,
+          "maximum_driver_error_mm": 2.980232238075642e-06,
+          "passed": true
+        },
+        {
+          "stage": "stamp_z",
+          "continuous_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "pairs": [
+            {
+              "moving": "stamp_z drilled lift table substrate",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 26.879364856854455,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table substrate",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 26.500004529952992,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table substrate",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 40.50000011920929,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table substrate",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 21.49999886751175,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table substrate",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 1.9999966025352478,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table substrate",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 4.472131023638381,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 28.85307011202012,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 28.499993681907643,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 40.50000011920929,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 21.49999886751175,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 1.9999966025352478,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 1.9999966025352478,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 30.194528503545435,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 28.499993681907643,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 42.35575352665335,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 24.819544686751644,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 12.56024814901393,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 12.56024814901393,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X.001",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 89.85827783331702,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X.001",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 81.26168014225505,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X.001",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 97.41771093940069,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X.001",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 91.17132414481914,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X.001",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 88.62257264053459,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin X.001",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 88.62257264053459,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y.001",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 80.16745316769688,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y.001",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 64.08596034776374,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y.001",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 111.09419879079084,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y.001",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 92.237305776438,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y.001",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 72.96142882032717,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table margin Y.001",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 72.96142882032717,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table drilled surface",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 38.20811361591239,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table drilled surface",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 29.449106614182703,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table drilled surface",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 60.87626969801263,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table drilled surface",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 42.45138389131186,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table drilled surface",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 24.473860096810512,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z drilled lift table drilled surface",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 24.473860096810512,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z internal lift carrier",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 23.248656777581747,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z internal lift carrier",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 5.787912867250439,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z internal lift carrier",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 58.090448817706815,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z internal lift carrier",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 39.85599134103147,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z internal lift carrier",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 22.499997913837483,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z internal lift carrier",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 23.286260090098494,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 6.363965498245211,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 4.500004649162282,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 40.50000011920929,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 21.49999886751175,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 1.9999966025352478,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 1.9999966025352478,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side.001",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 98.50578943074356,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side.001",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 89.41331682478759,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side.001",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 109.5604419896217,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side.001",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 104.04561687360173,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side.001",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 101.8196465605507,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt side.001",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 101.8196465605507,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt rear",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 92.40963700993878,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt rear",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 75.43434691459261,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt rear",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 128.3000037074089,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt rear",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 109.30000245571136,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt rear",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 89.80000019073486,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z lift skirt rear",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 89.80000019073486,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z front face land",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 6.713614250123865,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z front face land",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 5.500006675720204,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z front face land",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 39.8625489568221,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z front face land",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 20.87396954294575,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z front face land",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 1.6800269354440913,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z front face land",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 1.6800269354440913,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z spindle reaction tab",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 7.000002264976491,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z spindle reaction tab",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 7.000002264976491,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z spindle reaction tab",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 15.500001609325409,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z spindle reaction tab",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 6.50002360343932,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z spindle reaction tab",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 1.5000134706497081,
+              "passed": true
+            },
+            {
+              "moving": "stamp_z spindle reaction tab",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 18.500003218650807,
+              "passed": true
+            },
+            {
+              "moving": "Vertical face plate",
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 4.0000006556510925,
+              "passed": true
+            },
+            {
+              "moving": "Vertical face plate",
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 1.0000020265579224,
+              "passed": true
+            },
+            {
+              "moving": "Vertical face plate",
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 39.99999910593033,
+              "passed": true
+            },
+            {
+              "moving": "Vertical face plate",
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 20.999997854232788,
+              "passed": true
+            },
+            {
+              "moving": "Vertical face plate",
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            },
+            {
+              "moving": "Vertical face plate",
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 1.4999955892562866,
+              "passed": true
+            }
+          ],
+          "minimum_clearance_mm": 1.0000020265579224,
+          "maximum_driver_error_mm": 2.980232238075642e-06,
+          "passed": true
+        },
+        {
+          "stage": "goniometer_spindle",
+          "continuous_range_m": [
+            -0.0032,
+            0.0032
+          ],
+          "pairs": [
+            {
+              "moving": "Goniometer actuator spindle",
+              "fixed": "Vertical face plate",
+              "clearance_mm": 7.69999623298645,
+              "passed": true
+            },
+            {
+              "moving": "Goniometer fine adjustment knob",
+              "fixed": "Vertical face plate",
+              "clearance_mm": 1.0000020265579224,
+              "passed": true
+            }
+          ],
+          "minimum_clearance_mm": 1.0000020265579224,
+          "maximum_driver_error_mm": 9.465217590178682e-06,
+          "passed": true
+        }
+      ]
+    },
+    "knob_envelopes": {
+      "passed": true,
+      "knobs": [
+        {
+          "body": "sample_x_knob",
+          "minimum_full_rotation_height_mm": 24.999999683614494,
+          "table_top_mm": 24.0,
+          "minimum_table_clearance_mm": 0.9999996836144929,
+          "full_angle_range_rad": [
+            -157.07963267948966,
+            157.07963267948966
+          ],
+          "spindle_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "radius_mm": 15.000003147606133,
+          "contact_coverage": [
+            {
+              "mesh": "sample_x thimble",
+              "maximum_outside_collision_mm": -5.483627319585738e-06,
+              "passed": true
+            },
+            {
+              "mesh": "sample_x knurled grip",
+              "maximum_outside_collision_mm": 2.506747457178826e-06,
+              "passed": true
+            },
+            {
+              "mesh": "sample_x graduated drum",
+              "maximum_outside_collision_mm": -0.06999714107940383,
+              "passed": true
+            },
+            {
+              "mesh": "sample_x end cap",
+              "maximum_outside_collision_mm": -0.9499978466161793,
+              "passed": true
+            },
+            {
+              "mesh": "sample_x coarse black handwheel",
+              "maximum_outside_collision_mm": 1.0251998902588433e-05,
+              "passed": true
+            },
+            {
+              "mesh": "sample_x gold differential collar",
+              "maximum_outside_collision_mm": 2.4709197882222256e-06,
+              "passed": true
+            }
+          ],
+          "fixed_support_clearance": [
+            {
+              "fixed": "sample_x actuator mounting extension",
+              "clearance_mm": 8.499997854232777,
+              "passed": true
+            },
+            {
+              "fixed": "sample_x actuator split clamp",
+              "clearance_mm": 1.4999836683273204,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        {
+          "body": "sample_y_knob",
+          "minimum_full_rotation_height_mm": 48.000002790984475,
+          "table_top_mm": 24.0,
+          "minimum_table_clearance_mm": 24.00000279098447,
+          "full_angle_range_rad": [
+            -157.07963267948966,
+            157.07963267948966
+          ],
+          "spindle_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "radius_mm": 15.000005672875083,
+          "contact_coverage": [
+            {
+              "mesh": "sample_y thimble",
+              "maximum_outside_collision_mm": 1.9669532773380904e-06,
+              "passed": true
+            },
+            {
+              "mesh": "sample_y knurled grip",
+              "maximum_outside_collision_mm": 3.646633783133124e-06,
+              "passed": true
+            },
+            {
+              "mesh": "sample_y graduated drum",
+              "maximum_outside_collision_mm": -0.0699943844810133,
+              "passed": true
+            },
+            {
+              "mesh": "sample_y end cap",
+              "maximum_outside_collision_mm": -0.9499957424629544,
+              "passed": true
+            },
+            {
+              "mesh": "sample_y coarse black handwheel",
+              "maximum_outside_collision_mm": 1.3411045073075112e-05,
+              "passed": true
+            },
+            {
+              "mesh": "sample_y gold differential collar",
+              "maximum_outside_collision_mm": 4.999242703834783e-06,
+              "passed": true
+            }
+          ],
+          "fixed_support_clearance": [
+            {
+              "fixed": "sample_y actuator mounting extension",
+              "clearance_mm": 8.499997854232792,
+              "passed": true
+            },
+            {
+              "fixed": "sample_y actuator split clamp",
+              "clearance_mm": 0.9999901056289701,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        {
+          "body": "stamp_x_knob",
+          "minimum_full_rotation_height_mm": 85.75483357946423,
+          "table_top_mm": 24.0,
+          "minimum_table_clearance_mm": 61.754833579464226,
+          "full_angle_range_rad": [
+            -157.07963267948966,
+            157.07963267948966
+          ],
+          "spindle_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "radius_mm": 8.24517065246555,
+          "contact_coverage": [
+            {
+              "mesh": "stamp_x thimble",
+              "maximum_outside_collision_mm": -5.483627319585738e-06,
+              "passed": true
+            },
+            {
+              "mesh": "stamp_x knurled grip",
+              "maximum_outside_collision_mm": 4.378289312698125e-06,
+              "passed": true
+            },
+            {
+              "mesh": "stamp_x graduated drum",
+              "maximum_outside_collision_mm": -0.06999530847244702,
+              "passed": true
+            },
+            {
+              "mesh": "stamp_x end cap",
+              "maximum_outside_collision_mm": -6.19888305616878e-06,
+              "passed": true
+            }
+          ],
+          "fixed_support_clearance": [
+            {
+              "fixed": "stamp_x actuator mounting extension",
+              "clearance_mm": 8.500012755393971,
+              "passed": true
+            },
+            {
+              "fixed": "stamp_x actuator split clamp",
+              "clearance_mm": 1.5000134706497081,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        {
+          "body": "stamp_y_knob",
+          "minimum_full_rotation_height_mm": 112.75483807097137,
+          "table_top_mm": 24.0,
+          "minimum_table_clearance_mm": 88.75483807097137,
+          "full_angle_range_rad": [
+            -157.07963267948966,
+            157.07963267948966
+          ],
+          "spindle_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "radius_mm": 8.245168723958132,
+          "contact_coverage": [
+            {
+              "mesh": "stamp_y thimble",
+              "maximum_outside_collision_mm": 1.9669532773380904e-06,
+              "passed": true
+            },
+            {
+              "mesh": "stamp_y knurled grip",
+              "maximum_outside_collision_mm": 7.534419270774362e-06,
+              "passed": true
+            },
+            {
+              "mesh": "stamp_y graduated drum",
+              "maximum_outside_collision_mm": -0.06999151316508002,
+              "passed": true
+            },
+            {
+              "mesh": "stamp_y end cap",
+              "maximum_outside_collision_mm": 8.702278137678876e-06,
+              "passed": true
+            }
+          ],
+          "fixed_support_clearance": [
+            {
+              "fixed": "stamp_y actuator mounting extension",
+              "clearance_mm": 8.499997854232792,
+              "passed": true
+            },
+            {
+              "fixed": "stamp_y actuator split clamp",
+              "clearance_mm": 0.9999901056289701,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        {
+          "body": "stamp_z_knob",
+          "minimum_full_rotation_height_mm": 213.00001740455627,
+          "table_top_mm": 24.0,
+          "minimum_table_clearance_mm": 189.00001740455627,
+          "full_angle_range_rad": [
+            -157.07963267948966,
+            157.07963267948966
+          ],
+          "spindle_range_m": [
+            -0.0125,
+            0.0125
+          ],
+          "radius_mm": 8.245175978312764,
+          "contact_coverage": [
+            {
+              "mesh": "stamp_z thimble",
+              "maximum_outside_collision_mm": -5.483627319585738e-06,
+              "passed": true
+            },
+            {
+              "mesh": "stamp_z knurled grip",
+              "maximum_outside_collision_mm": 5.165402706258648e-06,
+              "passed": true
+            },
+            {
+              "mesh": "stamp_z graduated drum",
+              "maximum_outside_collision_mm": -0.06999457557456575,
+              "passed": true
+            },
+            {
+              "mesh": "stamp_z end cap",
+              "maximum_outside_collision_mm": -6.19888305616878e-06,
+              "passed": true
+            }
+          ],
+          "fixed_support_clearance": [
+            {
+              "fixed": "stamp_z actuator mounting extension",
+              "clearance_mm": 72.00001478195189,
+              "passed": true
+            },
+            {
+              "fixed": "stamp_z actuator mounting attachment",
+              "clearance_mm": 72.03531325073656,
+              "passed": true
+            },
+            {
+              "fixed": "stamp_z fixed actuator bracket upright",
+              "clearance_mm": 25.99016690467035,
+              "passed": true
+            },
+            {
+              "fixed": "stamp_z fixed actuator bracket head",
+              "clearance_mm": 18.500003218650807,
+              "passed": true
+            },
+            {
+              "fixed": "stamp_z lift actuator foot",
+              "clearance_mm": 13.499993085861195,
+              "passed": true
+            },
+            {
+              "fixed": "stamp_z lift actuator clamp",
+              "clearance_mm": 4.500019550323476,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        {
+          "body": "rotation_fine_knob",
+          "minimum_full_rotation_height_mm": 92.66961508553099,
+          "table_top_mm": 24.0,
+          "minimum_table_clearance_mm": 68.66961508553099,
+          "full_angle_range_rad": [
+            -17.830912588144816,
+            17.830912588144816
+          ],
+          "spindle_range_m": [
+            -0.002,
+            0.002
+          ],
+          "radius_mm": 6.3303918286077945,
+          "contact_coverage": [
+            {
+              "mesh": "481-A fine thimble",
+              "maximum_outside_collision_mm": 4.646145133554991e-06,
+              "passed": true
+            },
+            {
+              "mesh": "481-A fine graduated collar",
+              "maximum_outside_collision_mm": 5.548287162170096e-06,
+              "passed": true
+            },
+            {
+              "mesh": "481-A fine cap",
+              "maximum_outside_collision_mm": 3.0675485736611496e-06,
+              "passed": true
+            }
+          ],
+          "fixed_support_clearance": [
+            {
+              "fixed": "481-A fine drive brass bearing",
+              "clearance_mm": 14.499999910593031,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        {
+          "body": "goniometer_knob",
+          "minimum_full_rotation_height_mm": 227.80000619888304,
+          "table_top_mm": 24.0,
+          "minimum_table_clearance_mm": 203.80000619888307,
+          "full_angle_range_rad": [
+            -38.38179489312529,
+            38.38179489312529
+          ],
+          "spindle_range_m": [
+            -0.0032,
+            0.0032
+          ],
+          "radius_mm": 10.000003799060487,
+          "contact_coverage": [
+            {
+              "mesh": "Goniometer fine adjustment knob",
+              "maximum_outside_collision_mm": 3.799060486336936e-06,
+              "passed": true
+            }
+          ],
+          "fixed_support_clearance": [
+            {
+              "fixed": "Vertical face plate",
+              "clearance_mm": 0.9999961413348635,
+              "passed": true
+            },
+            {
+              "fixed": "Goniometer actuator mounting pad",
+              "clearance_mm": 20.800003933906545,
+              "passed": true
+            },
+            {
+              "fixed": "Goniometer actuator brass collar",
+              "clearance_mm": 13.800004649162284,
+              "passed": true
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "thrust_engagement": {
+      "passed": true,
+      "checks": [
+        {
+          "stage": "sample_x",
+          "travel_m": -0.0125,
+          "spindle_to_reaction_plane_mm": -1.4901161193847656e-05,
+          "passed": true
+        },
+        {
+          "stage": "sample_x",
+          "travel_m": 0.0,
+          "spindle_to_reaction_plane_mm": -1.4901161193847656e-05,
+          "passed": true
+        },
+        {
+          "stage": "sample_x",
+          "travel_m": 0.0125,
+          "spindle_to_reaction_plane_mm": -1.4901161193847656e-05,
+          "passed": true
+        },
+        {
+          "stage": "sample_y",
+          "travel_m": -0.0125,
+          "spindle_to_reaction_plane_mm": 0.0,
+          "passed": true
+        },
+        {
+          "stage": "sample_y",
+          "travel_m": 0.0,
+          "spindle_to_reaction_plane_mm": -3.725290298461914e-06,
+          "passed": true
+        },
+        {
+          "stage": "sample_y",
+          "travel_m": 0.0125,
+          "spindle_to_reaction_plane_mm": -7.450580596923828e-06,
+          "passed": true
+        },
+        {
+          "stage": "stamp_x",
+          "travel_m": -0.0125,
+          "spindle_to_reaction_plane_mm": -1.4901161193847656e-05,
+          "passed": true
+        },
+        {
+          "stage": "stamp_x",
+          "travel_m": 0.0,
+          "spindle_to_reaction_plane_mm": -1.4901161193847656e-05,
+          "passed": true
+        },
+        {
+          "stage": "stamp_x",
+          "travel_m": 0.0125,
+          "spindle_to_reaction_plane_mm": 0.0,
+          "passed": true
+        },
+        {
+          "stage": "stamp_y",
+          "travel_m": -0.0125,
+          "spindle_to_reaction_plane_mm": 0.0,
+          "passed": true
+        },
+        {
+          "stage": "stamp_y",
+          "travel_m": 0.0,
+          "spindle_to_reaction_plane_mm": -3.725290298461914e-06,
+          "passed": true
+        },
+        {
+          "stage": "stamp_y",
+          "travel_m": 0.0125,
+          "spindle_to_reaction_plane_mm": -7.450580596923828e-06,
+          "passed": true
+        },
+        {
+          "stage": "stamp_z",
+          "travel_m": -0.0125,
+          "spindle_to_reaction_plane_mm": 1.4901161193847656e-05,
+          "passed": true
+        },
+        {
+          "stage": "stamp_z",
+          "travel_m": 0.0,
+          "spindle_to_reaction_plane_mm": 0.0,
+          "passed": true
+        },
+        {
+          "stage": "stamp_z",
+          "travel_m": 0.0125,
+          "spindle_to_reaction_plane_mm": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    "camera_cable": {
+      "passed": true,
+      "checks": [
+        {
+          "focus_m": -0.025,
+          "minimum_surface_height_mm": 24.333620443940163,
+          "minimum_table_clearance_mm": 0.33362044394016216,
+          "minimum_vertex_m": [
+            0.02981446497142315,
+            0.20936627686023712,
+            0.024333620443940163
+          ],
+          "passed": true
+        },
+        {
+          "focus_m": 0.0,
+          "minimum_surface_height_mm": 25.092795491218567,
+          "minimum_table_clearance_mm": 1.0927954912185665,
+          "minimum_vertex_m": [
+            0.03938981145620346,
+            0.21055322885513306,
+            0.025092795491218567
+          ],
+          "passed": true
+        },
+        {
+          "focus_m": 0.025,
+          "minimum_surface_height_mm": 25.65057761967182,
+          "minimum_table_clearance_mm": 1.6505776196718212,
+          "minimum_vertex_m": [
+            0.051333215087652206,
+            0.21204133331775665,
+            0.02565057761967182
+          ],
+          "passed": true
+        }
+      ],
+      "continuous_proof": "Each vertex is affine in focus; the two range endpoints bound all intermediate heights."
+    },
+    "bores": {
+      "passed": true,
+      "carrier_top_mm": 180.00000715255737,
+      "lid_underside_mm": 180.0000058412552,
+      "checks": [
+        {
+          "travel_m": -0.0125,
+          "x_mm": -25.4,
+          "y_mm": -12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": -0.0125,
+          "x_mm": -25.4,
+          "y_mm": 12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": -0.0125,
+          "x_mm": 0.0,
+          "y_mm": -12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": -0.0125,
+          "x_mm": 0.0,
+          "y_mm": 12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": -0.0125,
+          "x_mm": 25.4,
+          "y_mm": -12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": -0.0125,
+          "x_mm": 25.4,
+          "y_mm": 12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0,
+          "x_mm": -25.4,
+          "y_mm": -12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0,
+          "x_mm": -25.4,
+          "y_mm": 12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0,
+          "x_mm": 0.0,
+          "y_mm": -12.7,
+          "depth_mm": 5.799995565414428,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0,
+          "x_mm": 0.0,
+          "y_mm": 12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0,
+          "x_mm": 25.4,
+          "y_mm": -12.7,
+          "depth_mm": 5.799995565414428,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0,
+          "x_mm": 25.4,
+          "y_mm": 12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0125,
+          "x_mm": -25.4,
+          "y_mm": -12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0125,
+          "x_mm": -25.4,
+          "y_mm": 12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0125,
+          "x_mm": 0.0,
+          "y_mm": -12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0125,
+          "x_mm": 0.0,
+          "y_mm": 12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0125,
+          "x_mm": 25.4,
+          "y_mm": -12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        },
+        {
+          "travel_m": 0.0125,
+          "x_mm": 25.4,
+          "y_mm": 12.7,
+          "depth_mm": 5.800010466575622,
+          "first_surface": "stamp_z drilled lift table drilled surface",
+          "passed": true
+        }
+      ]
+    },
+    "goniometer_mount": {
+      "passed": true,
+      "tilt_range_rad": [
+        -0.0872665,
+        0.0872665
+      ],
+      "checks": [
+        {
+          "part": "Goniometer actuator mounting pad",
+          "fixed": "Vertical face plate",
+          "clearance_mm": 0.5000010132789612,
+          "passed": true
+        },
+        {
+          "part": "Goniometer actuator brass collar",
+          "fixed": "Vertical face plate",
+          "clearance_mm": 3.4999996423721313,
+          "passed": true
+        },
+        {
+          "part": "Goniometer actuator mounting pad",
+          "fixed": "Goniometer moving face (full tilt sweep)",
+          "clearance_mm": 0.9657442569732666,
+          "passed": true
+        },
+        {
+          "part": "Goniometer actuator brass collar",
+          "fixed": "Goniometer moving face (full tilt sweep)",
+          "clearance_mm": 1.6465038061141968,
+          "passed": true
+        }
+      ]
+    },
+    "smaller_controls": {
+      "passed": true,
+      "sampled_mesh_checks": [
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.0,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.08726646259971647,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.17453292519943295,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.2617993877991494,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.3490658503988659,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.4363323129985824,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.5235987755982988,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.6108652381980153,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.6981317007977318,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.7853981633974483,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.8726646259971648,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 0.9599310885968813,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 1.0471975511965976,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 1.1344640137963142,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 1.2217304763960306,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 1.3089969389957472,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 1.3962634015954636,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 1.48352986419518,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "rotation_clamp",
+          "joint": "rotation_lock_angle",
+          "value": 1.5707963267948966,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.0,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.019444444444444445,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.03888888888888889,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.058333333333333334,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.07777777777777778,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.09722222222222222,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.11666666666666667,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.13611111111111113,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.15555555555555556,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.175,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.19444444444444445,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.2138888888888889,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.23333333333333334,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.25277777777777777,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.27222222222222225,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.2916666666666667,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.3111111111111111,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.33055555555555555,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_power",
+          "joint": "illumination_power_angle",
+          "value": 0.35,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_dimmer",
+          "joint": "illumination_angle",
+          "value": 0.0,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_dimmer",
+          "joint": "illumination_angle",
+          "value": 2.356194490192345,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "illuminator_dimmer",
+          "joint": "illumination_angle",
+          "value": 4.71238898038469,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "light_path_selector",
+          "joint": "light_path_travel",
+          "value": 0.0,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "light_path_selector",
+          "joint": "light_path_travel",
+          "value": 0.006,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "light_path_selector",
+          "joint": "light_path_travel",
+          "value": 0.012,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "scope_focus",
+          "joint": "scope_focus_travel",
+          "value": -0.025,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "scope_focus",
+          "joint": "scope_focus_travel",
+          "value": 0.0,
+          "intersections": [],
+          "passed": true
+        },
+        {
+          "body": "scope_focus",
+          "joint": "scope_focus_travel",
+          "value": 0.025,
+          "intersections": [],
+          "passed": true
+        }
+      ],
+      "continuous_certificate": {
+        "lock_drum_minimum_radial_clearance_mm": 0.9961482137109817,
+        "rocker_minimum_opening_clearance_mm": 0.9999899864197026,
+        "rocker_compound_proxy_clearances": [
+          {
+            "name": "Fiber-Lite housing left",
+            "clearance_mm": 1.0000114440917862,
+            "passed": true
+          },
+          {
+            "name": "Fiber-Lite housing right",
+            "clearance_mm": 0.9999899864196471,
+            "passed": true
+          },
+          {
+            "name": "Fiber-Lite housing lower",
+            "clearance_mm": 1.1567686051130281,
+            "passed": true
+          },
+          {
+            "name": "Fiber-Lite housing upper",
+            "clearance_mm": 1.7499995231628416,
+            "passed": true
+          },
+          {
+            "name": "Fiber-Lite housing pocket back",
+            "clearance_mm": 6.541352629661546,
+            "passed": true
+          },
+          {
+            "name": "Illuminator switch cavity liner",
+            "clearance_mm": 5.84134652614593,
+            "passed": true
+          },
+          {
+            "name": "Illuminator rocker surround side",
+            "clearance_mm": 1.0000114440917862,
+            "passed": true
+          },
+          {
+            "name": "Illuminator rocker surround end",
+            "clearance_mm": 1.1567686051130281,
+            "passed": true
+          },
+          {
+            "name": "Illuminator rocker surround side",
+            "clearance_mm": 0.9999899864197026,
+            "passed": true
+          },
+          {
+            "name": "Illuminator rocker surround end",
+            "clearance_mm": 1.7499995231628416,
+            "passed": true
+          }
+        ],
+        "passed": true
+      },
+      "intended_mating_exclusion": "Narrow locking stem inside its boss/bore; rocker axle bearings. Exterior drums/shells are checked."
+    }
+  },
+  "limitations": [
+    "Targeted continuous swept AABBs prove separation of named actuator/stage solids; not every instrument pair.",
+    "Mating fixed parts, sleeve/spindle guidance and thread interfaces are intentional assembly engagement.",
+    "Contact coverage checks metal grip vertices against the union of collision cylinders; ink is excluded.",
+    "Camera cable is a driven visual mesh, without cable-contact or strain dynamics."
+  ],
+  "source_unchanged": true,
+  "passed": true
+}

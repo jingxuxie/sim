@@ -20,11 +20,31 @@ fs.mkdirSync(out,{recursive:true});
    await step({door_latch_angle:1.1},1.5);await step({door_angle:-1.8},3.5);await step({scanner_latch_angle:1.2},1.5);
    s=await step({drawer_travel:.1},3);
    check('AFM release sequence opens scanner',s.q.drawer_travel>.09&&s.q.door_angle<-1.3);
+   s=await step({cantilever_lift:0},.8);const holderRest=s.sites.cantilever_mount[2];
+   s=await step({cantilever_lift:.5},2.5);
+   check('AFM positive holder lift raises the probe nose clear of the scanner',s.q.cantilever_lift>.45&&s.sites.cantilever_mount[2]-holderRest>.006,{measured_rad:s.q.cantilever_lift,nose_rise_m:s.sites.cantilever_mount[2]-holderRest});
+   s=await step({cantilever_lift:0},2);
+   check('AFM holder returns to the scanner seat',Math.abs(s.q.cantilever_lift)<.015&&Math.abs(s.sites.cantilever_mount[2]-holderRest)<.0003);
    s=await step({door_angle:0,scanner_latch_angle:0},1);
    check('AFM drawer must return before door closure or scanner relatch',s.q.drawer_travel>.09&&s.q.door_angle<-1.1&&s.q.scanner_latch_angle>.65);
    await step({drawer_travel:0},3);await step({scanner_latch_angle:0},1.5);await step({door_angle:0},3.5);
    s=await step({door_latch_angle:0},1.5);
    check('AFM complete close and relatch sequence',s.q.drawer_travel<.002&&Math.abs(s.q.door_angle)<.025&&s.q.scanner_latch_angle<.15&&s.q.door_latch_angle<.15);
+   await open('bonder');
+   const bonderMeta=await (await fetch(catalog.find(x=>x.id==='bonder').metadata)).json();
+   for(const [axis,limits] of Object.entries({x:[-.035,.035],y:[-.015,.015],z:[-.021,.006]})){
+    const declared=bonderMeta.links['handle_'+axis].joint.range,output=bonderMeta.links['tool_'+axis].joint.range;
+    check('Bonder '+axis+' declared travel matches the validated reconstructed envelope',declared.every((v,i)=>Math.abs(v-limits[i])<1e-10)&&output.every((v,i)=>Math.abs(v-limits[i]/8)<1e-10),{handle_range_m:declared,tool_range_m:output});
+    for(const [side,target] of [[0,-1e9],[1,1e9]]){
+     await rt.request('command',{action:{['handle_'+axis+'_travel']:target}});s=await rt.request('snapshot');
+     check('Bonder '+axis+' command clamps at '+(side?'upper':'lower')+' reconstructed stop',Math.abs(s.targets['handle_'+axis+'_travel']-limits[side])<1e-10,{target_m:s.targets['handle_'+axis+'_travel'],stop_m:limits[side]});
+    }
+   }
+   await rt.request('reset');
+   for(const target of [-.035,.035]){
+    s=await step({handle_x_travel:target},2.5);
+    check('Bonder measured X travel remains inside its cavity envelope at '+target+' m',Math.abs(s.q.handle_x_travel-target)<.0003&&Math.abs(s.q.tool_x_travel-s.q.handle_x_travel/8)<.00004,{handle_m:s.q.handle_x_travel,tool_m:s.q.tool_x_travel});
+   }
    for(const asset of ['nikon','zeiss','transfer','probe']){
     await open(asset);
     for(const position of [0,.006,.012]){

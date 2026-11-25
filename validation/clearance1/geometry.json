@@ -1,0 +1,959 @@
+{
+  "revision": "clearance1",
+  "generated_utc": "2026-11-25T05:03:39.506538+00:00",
+  "baseline_manifest": "validation/clearance1/baseline-manifest.json",
+  "baseline_commit": "5bc5cbc517d2f6c426618eeaa6cdd3ac3d9bdd80",
+  "scope": "Specific exterior solids, table gaps, mechanism/connector travel and objective/work-surface approach/retraction across seven reconstructed instruments. This is not an exhaustive collision certification or manufacturer-calibrated CAD.",
+  "units": "millimetres for fields ending_mm; metres/radians where explicitly named",
+  "assets": [
+    {
+      "asset": "nikon",
+      "current_artifacts_sha256": {
+        "000/e1000.blend": "d58e5043ab7c9e09f3d1ccf0fdc6308a0bc4cbd17e45d0486e93a75572413c7b",
+        "000/e1000.xml": "2245e4ee191c85fd09839bc3ae185d6d37065c27eb0de355978cb97b857eac50",
+        "000/assets/e1000.glb": "f98e7cc3c438be8acf31f8138e46c7550dfdfe80aac060112c26b5b9f05ce023"
+      },
+      "current_builder_sources_sha256": {
+        "000/src/browser_viewer.py": "636b6e0c8eb30b492074ad243ca76c95bb6f2b318ba3e182b10a76cd4313cd64",
+        "000/src/build_physics.py": "0dec008bebb2ba3b2227a40c6ab67df213f9a674a08246e612639dcc22c44c41",
+        "000/src/build_visual.py": "3585fa4885a7e1e8b65e33bc9fdb7f73b55e0c1d0df9b0a11aa894f4a824d9b4",
+        "000/src/check_blend.py": "350880da916898a97e62f36e4ef191fc843c28f7db1fdc96bc47685b703cdc62",
+        "000/src/design.py": "85499ac47d89aa4c7eb2a7361fbf04758ecb3343af338b46e26e8b92df97454b",
+        "000/src/microscope.py": "da4550565578ea6ea5a5ae2a61734f60945ec4d59203484a2353d70db6c35819",
+        "000/src/present.py": "20eb262c7d125e6becda4449d9234a9e0d5e874eb7dead91d0b8190cd40ba19d",
+        "000/src/realism_geometry.py": "69ad8ff08b52ea28f7950002c77238278ab960b1e5774714420a3e1bb4c05627",
+        "000/src/render_demo.py": "1afbb25f787aba08410bbc246c9f6a925fc7becaa873884a10eadab3cb00ac2f",
+        "000/src/validate.py": "8e823ca623f805669d3606aea0698493c1f22c402bbdc6345ec6099d6c6741c1"
+      },
+      "geometry_changed": true,
+      "passed_reported_checks": true,
+      "reports": [
+        "validation/clearance1/microscopes/before_nikon.json",
+        "validation/clearance1/microscopes/after_nikon.json"
+      ],
+      "motion_domain": {
+        "focus_mm": [
+          -10,
+          -5,
+          0,
+          4
+        ],
+        "stage_xy_mm": {
+          "x": [
+            -39,
+            0,
+            39
+          ],
+          "y": [
+            -27,
+            0,
+            27
+          ]
+        }
+      },
+      "structural_triangle_pair_failures": {
+        "before": 18,
+        "after": 0
+      },
+      "current_below_bench_meshes": [],
+      "pair_coverage": {
+        "selected_stage_pairs": {
+          "moving": [
+            "Black 212.5 mm mechanical stage"
+          ],
+          "targets": [
+            "D-sub stamped rear shield",
+            "Hanging XY gear housing",
+            "Motor mounting block",
+            "Motor mounting block.001"
+          ]
+        },
+        "check_kinds": [
+          "cables_to_bench",
+          "cables_to_exterior",
+          "grips_to_bench",
+          "loom_attachments",
+          "stage_deck_to_controls"
+        ],
+        "record_count": 25
+      },
+      "intended_fit_exclusions": [
+        "Fasteners inside their own tapped seats; spindle/bearing insertion; nested covered slide bearings.",
+        "Feet/base against bench are intended support interfaces.",
+        "Objective/specimen contact is a functional unsafe-focus domain; no removal of those contacts or reduction of focus limits."
+      ],
+      "limitation": "Targeted evaluated exterior mesh pairs and support-plane gaps, not an exhaustive all-pairs CAD certification. Optical unsafe commands are assessed separately by native load/retract tests.",
+      "changes": [
+        "Camera tails now end in complete terminals above the bench.",
+        "Stage loom bends between fixed resting terminal and moving lift connector in Blender/browser.",
+        "Both motor mounting blocks and their physical envelope clear the moving XY deck."
+      ],
+      "measurements_mm": {
+        "Camera data service cable / bench": {
+          "before": -18.60248500108719,
+          "after": 3.065027365460992
+        },
+        "Camera coax service cable / bench": {
+          "before": -14.963489189743996,
+          "after": 3.7254940941929817
+        },
+        "Stage grey loom / bench": {
+          "before": -28.05239351093769,
+          "after": 5.625990521162748
+        },
+        "moving deck / motor blocks": {
+          "before": -0.49999402835965157,
+          "after": 1.4999951235949993
+        }
+      },
+      "loom_endpoint_maximum_error_mm": 1.4105198479793718e-05,
+      "cable_scope": "The stage loom is prescribed visual deformation only; native MuJoCo retains a decorative rest mesh. No cable contact, elasticity, or robot-driven dynamics is claimed. Camera cables remain static.",
+      "functional_contact_scope": "Indexed20\u00d7/40\u00d7 objectives encounter the centered specimen before the+4 mm bare-stage stop; existing Nikon objective/stage contact masks remain active. The audit does not declare unsafe high-focus commands free of contact.",
+      "evidence_sha256": {
+        "validation/clearance1/microscopes/before_nikon.json": "07825c55371411d0826707b1ac9fa0cffc8a682b091ba3c9f6e6aa48c97d69a0",
+        "validation/clearance1/microscopes/after_nikon.json": "f55b501103881d5d2d89a4f8ccac1e762fde758ea4c3ddc754fd62463bd6f887"
+      }
+    },
+    {
+      "asset": "transfer",
+      "current_artifacts_sha256": {
+        "001_transfer_stage/transfer_station.blend": "49e138ca29ec9dcbf3dd0788d32c26e4fdfa17d2e3e241ad841aee19f8e76c32",
+        "001_transfer_stage/transfer_station.xml": "53cd96d07d8ff929a78a566fded2557edb15ac70c60c8d23dc27671c3b2bffc5",
+        "001_transfer_stage/assets/transfer_station.glb": "26647287feb94f54908060f78328a873c29ebe41f3b789a6b394a90806e141ab",
+        "001_transfer_stage/asset.json": "a4bf47938d638b99093b6304c3a2f7d9c95970ec0818c133feeebfd3ef26a900"
+      },
+      "current_builder_sources_sha256": {
+        "001_transfer_stage/build.py": "27693ab839297946b6467a44cf65d1d1fc0413ab5c214ce3e2467a64e6129073",
+        "001_transfer_stage/geometry_revision4.py": "ba5647a70ab78d41249f6ef1c36386541c212b60b52260e87307037f1bc4db39"
+      },
+      "geometry_changed": true,
+      "passed_reported_checks": true,
+      "reports": [
+        "validation/clearance1/transfer/before.json",
+        "validation/clearance1/transfer/after.json",
+        "validation/clearance1/transfer/stages_endpoints.json",
+        "validation/clearance1/transfer/focus_contact.json",
+        "validation/clearance1/transfer/mechanisms.json"
+      ],
+      "pair_coverage": [
+        "stage_actuators",
+        "knob_envelopes",
+        "thrust_engagement",
+        "camera_cable",
+        "bores",
+        "goniometer_mount",
+        "smaller_controls"
+      ],
+      "changes": [
+        "Elevated exposed handwheel, corrected vertical actuator mounting/engagement and matching collision envelopes.",
+        "Camera lead stays above the table through full focus travel; cable endpoints remain attached.",
+        "Restored six open lid bores, goniometer mounting clearance, rotation lock clearance and a real rocker pocket.",
+        "Optical/work-surface contacts plus finite5 mm/s focus-fixture slew stop/retract before passage through the stamp/sample."
+      ],
+      "motion_domain": {
+        "stage_travel": [
+          {
+            "stage": "sample_x",
+            "continuous_range_m": [
+              -0.0125,
+              0.0125
+            ]
+          },
+          {
+            "stage": "sample_y",
+            "continuous_range_m": [
+              -0.0125,
+              0.0125
+            ]
+          },
+          {
+            "stage": "stamp_x",
+            "continuous_range_m": [
+              -0.0125,
+              0.0125
+            ]
+          },
+          {
+            "stage": "stamp_y",
+            "continuous_range_m": [
+              -0.0125,
+              0.0125
+            ]
+          },
+          {
+            "stage": "stamp_z",
+            "continuous_range_m": [
+              -0.0125,
+              0.0125
+            ]
+          }
+        ],
+        "optical_focus_m": [
+          -0.025,
+          0.025
+        ],
+        "goniometer_rad": [
+          -0.0872665,
+          0.0872665
+        ]
+      },
+      "measurements_mm": {
+        "sample_x_wheel / table": {
+          "before": -4.000002998594522,
+          "after": 0.9999996836144929
+        },
+        "camera_cable / table": {
+          "before": -10.014573834836483,
+          "after": 0.33362044394016216
+        },
+        "minimum_stage_swept_gap": 0.49999356269836426,
+        "minimum_lid_bore_depth": 5.799995565414428
+      },
+      "native_optical_contact": {
+        "report": "validation/clearance1/transfer/focus_contact.json",
+        "passed": true,
+        "cases": [
+          {
+            "case": "stamp",
+            "stopped_focus_mm": -17.54224927321521,
+            "maximum_optical_penetration_mm": 0.013922674124611574,
+            "maximum_individual_normal_force_N": 25.520410454361766,
+            "passed": true
+          },
+          {
+            "case": "sample",
+            "stopped_focus_mm": -20.344620885514708,
+            "maximum_optical_penetration_mm": 0.003133049361610457,
+            "maximum_individual_normal_force_N": 20.41616605040846,
+            "passed": true
+          }
+        ]
+      },
+      "safe_setup": "Retract the optical head before moving the stamp/sample through its path. Installed stamp glass is the first obstacle in the reset setup.",
+      "intended_fit_exclusions": [
+        "Screw sleeve/thrust-pad engagement and shaft bearings.",
+        "Cable/connector insertions within the separately measured insertion allowance.",
+        "Narrow locking stem inside its boss/bore; rocker axle bearings. Exterior drums/shells are checked."
+      ],
+      "limitations": [
+        "Targeted continuous swept AABBs prove separation of named actuator/stage solids; not every instrument pair.",
+        "Mating fixed parts, sleeve/spindle guidance and thread interfaces are intentional assembly engagement.",
+        "Contact coverage checks metal grip vertices against the union of collision cylinders; ink is excluded.",
+        "Camera cable is a driven visual mesh, without cable-contact or strain dynamics."
+      ],
+      "evidence_sha256": {
+        "validation/clearance1/transfer/before.json": "ad21523c7bd5043374b82270feb91b4496af141999a50ce556345a89084da161",
+        "validation/clearance1/transfer/after.json": "5f4b855f5c4647e4afb3105abb5686887fdc26d3bc8b383bbc65e619030740d6",
+        "validation/clearance1/transfer/stages_endpoints.json": "66d073d8c4e18b169c1d1c968db8c4c0f6ab93ed840fc0adac5537d5a3c4ea9c",
+        "validation/clearance1/transfer/focus_contact.json": "408023042ef9173ae048ad0221a87dffc1c407c0e43d26ccff819c86bb9cc284",
+        "validation/clearance1/transfer/mechanisms.json": "c22a3484ad0d76310fb5e503b164e343ec28431d29752c3ddbda6e83c33b929d"
+      }
+    },
+    {
+      "asset": "probe",
+      "current_artifacts_sha256": {
+        "002_probe_station/probe_station.blend": "d9a97c86f9cc9cd809a91207da5ae921452061834ba586021d4b27051349b9c1",
+        "002_probe_station/probe_station.xml": "4457612b67f147caef36b30c8f741c2cd4c65cfe5eac5144159c4756152c8ff0",
+        "002_probe_station/assets/probe_station.glb": "a4f17a0d8db4323f3fb5dbac3acc9c56917ac80768ec001c57dd8368121cf6ff",
+        "002_probe_station/asset.json": "8d97913e118313152fc1618d4b600905d90bde18703a8d548964fb4c53e9dedc"
+      },
+      "current_builder_sources_sha256": {
+        "002_probe_station/build.py": "0836b5c8c53f0cfda13877b365c37f6f5cd9432ab4299930a32f2e9c5821e29f",
+        "002_probe_station/geometry_support.py": "f6d33ea5e3c2c389b7022df7467499d059e7427fb42c82838cf381218c216db4",
+        "002_probe_station/reference_geometry.py": "92b516c75a5ff50a45dbf8f013ed0ba217167ba720c2a7573a58c56c38999db2"
+      },
+      "geometry_changed": true,
+      "passed_reported_checks": true,
+      "reports": [
+        "validation/clearance1/microscopes/before_probe.json",
+        "validation/clearance1/microscopes/after_probe.json",
+        "validation/clearance1/microscopes/probe_optical_contact_after.json",
+        "validation/clearance1/microscopes/probe_optical_contact_before.json",
+        "validation/clearance1/microscopes/optical_before_probe.json",
+        "validation/clearance1/microscopes/probe_optical_contact_unlimited_step.json"
+      ],
+      "motion_domain": {
+        "manipulator_xyz_mm": [
+          -6,
+          0,
+          6
+        ],
+        "optical_focus_mm": [
+          -20,
+          20
+        ],
+        "chuck_xy_mm": [
+          -12.5,
+          0,
+          12.5
+        ]
+      },
+      "structural_triangle_pair_failures": {
+        "before": 0,
+        "after": 0
+      },
+      "current_below_bench_meshes": [],
+      "pair_coverage": {
+        "selected_stage_pairs": null,
+        "check_kinds": [
+          "chuck_grips_to_tables",
+          "chuck_x_to_foundation",
+          "left_x_to_platen",
+          "probe_travel",
+          "rack_wheel_to_platen",
+          "right_x_to_platen"
+        ],
+        "record_count": 67
+      },
+      "intended_fit_exclusions": [
+        "Fasteners inside their own tapped seats; spindle/bearing insertion; nested covered slide bearings.",
+        "Feet/base against bench are intended support interfaces.",
+        "Objective/specimen contact is a functional unsafe-focus domain; no removal of those contacts or reduction of focus limits."
+      ],
+      "limitation": "Targeted evaluated exterior mesh pairs and support-plane gaps, not an exhaustive all-pairs CAD certification. Optical unsafe commands are assessed separately by native load/retract tests.",
+      "changes": [
+        "Radially protruding dial markings replaced by cylindrical micrometer graduations; full thimble/ratchet contacts match the detailed meshes.",
+        "Raised clamp screw heads and stepped objective end have explicit physical contact; existing needle/pad and robot contact bits are preserved.",
+        "Installed needle shanks also contact the descending objective. The explicit optical-focus fixture target slews at5 mm/s to avoid impact/tunneling."
+      ],
+      "measurements_mm": {
+        "chuck_x_to_foundation": {
+          "before": 5.769999353900239,
+          "after": 7.908590992961301
+        },
+        "left_x_to_platen": {
+          "before": 2.2700082912593587,
+          "after": 4.408592608248824
+        },
+        "right_x_to_platen": {
+          "before": 2.2700082912593587,
+          "after": 4.15584559529043
+        }
+      },
+      "full_grip_contact_coverage_maximum_excess_mm": 1.4186528354831474e-05,
+      "original_micrometer_marker_outside_grip_proxy_mm": 2.23,
+      "unconstrained_optical_clamp_domain": {
+        "x_y_mm": [
+          -12.5,
+          -6.25,
+          0,
+          6.25,
+          12.5
+        ],
+        "theta_rad": [
+          -0.35,
+          0,
+          0.35
+        ],
+        "optic_focus_mm": -20,
+        "poses": 75,
+        "intersecting_poses": 4
+      },
+      "native_optical_contact": {
+        "report": "validation/clearance1/microscopes/probe_optical_contact_after.json",
+        "passed": true,
+        "runtime_sha256": {
+          "benchmarks/sim.py": "b8393a87c894a9f3795b570b0ce481a7da3740aa2565bf0fa7be9c6cba686460",
+          "benchmarks/fixture_control.py": "1180cf8b9e7d5785650c5ecb0bf4189a444fe0c16c6029607145f221ccf90c44"
+        },
+        "maximum_penetration_mm": 0.009910802562901626,
+        "maximum_individual_normal_force_N": 11.09602259010699,
+        "cases": [
+          {
+            "commanded_chuck_x_y_mm": [
+              0,
+              0
+            ],
+            "commanded_theta_rad": 0,
+            "loaded_optical_focus_mm": -18.939697766765942,
+            "contact_samples": 6438,
+            "contact_pairs": [
+              [
+                "left_z__Probe_shank",
+                "optic_focus__Objective_forebody"
+              ],
+              [
+                "optic_focus__Objective_forebody",
+                "right_z__Probe_shank"
+              ]
+            ],
+            "retracted_focus_mm": -0.08428976025155988,
+            "passed": true
+          },
+          {
+            "commanded_chuck_x_y_mm": [
+              -12.5,
+              12.5
+            ],
+            "commanded_theta_rad": -0.35,
+            "loaded_optical_focus_mm": -19.261082453469303,
+            "contact_samples": 6438,
+            "contact_pairs": [
+              [
+                "left_z__Probe_shank",
+                "optic_focus__Objective_forebody"
+              ],
+              [
+                "optic_focus__Objective_forebody",
+                "right_z__Probe_shank"
+              ]
+            ],
+            "retracted_focus_mm": -0.08428976025155967,
+            "passed": true
+          },
+          {
+            "commanded_chuck_x_y_mm": [
+              -12.5,
+              12.5
+            ],
+            "commanded_theta_rad": 0,
+            "loaded_optical_focus_mm": -19.26108245346934,
+            "contact_samples": 6438,
+            "contact_pairs": [
+              [
+                "left_z__Probe_shank",
+                "optic_focus__Objective_forebody"
+              ],
+              [
+                "optic_focus__Objective_forebody",
+                "right_z__Probe_shank"
+              ]
+            ],
+            "retracted_focus_mm": -0.08428976025155967,
+            "passed": true
+          },
+          {
+            "commanded_chuck_x_y_mm": [
+              12.5,
+              12.5
+            ],
+            "commanded_theta_rad": 0,
+            "loaded_optical_focus_mm": -19.2610824534693,
+            "contact_samples": 6438,
+            "contact_pairs": [
+              [
+                "left_z__Probe_shank",
+                "optic_focus__Objective_forebody"
+              ],
+              [
+                "optic_focus__Objective_forebody",
+                "right_z__Probe_shank"
+              ]
+            ],
+            "retracted_focus_mm": -0.08428976025155967,
+            "passed": true
+          },
+          {
+            "commanded_chuck_x_y_mm": [
+              12.5,
+              12.5
+            ],
+            "commanded_theta_rad": 0.35,
+            "loaded_optical_focus_mm": -19.261082453469307,
+            "contact_samples": 6438,
+            "contact_pairs": [
+              [
+                "left_z__Probe_shank",
+                "optic_focus__Objective_forebody"
+              ],
+              [
+                "optic_focus__Objective_forebody",
+                "right_z__Probe_shank"
+              ]
+            ],
+            "retracted_focus_mm": -0.08428976025155967,
+            "passed": true
+          }
+        ],
+        "unchanged_probe_tasks": [
+          {
+            "task": "probe.align",
+            "seed": 0,
+            "success": true
+          },
+          {
+            "task": "probe.align",
+            "seed": 11,
+            "success": true
+          },
+          {
+            "task": "probe.align",
+            "seed": 37,
+            "success": true
+          },
+          {
+            "task": "probe.touch",
+            "seed": 0,
+            "success": true
+          },
+          {
+            "task": "probe.touch",
+            "seed": 11,
+            "success": true
+          },
+          {
+            "task": "probe.touch",
+            "seed": 37,
+            "success": true
+          }
+        ]
+      },
+      "fixture_control_rates_m_s": {
+        "optic_focus_travel": 0.005
+      },
+      "safe_setup": "Raise the optical head before coarse chuck/needle positioning. A centered chip has1.3 mm geometric gap at the nominal low head limit, but installed angled needle shanks physically stop descent sooner; that limit is not a guaranteed reachable operating pose.",
+      "evidence_sha256": {
+        "validation/clearance1/microscopes/before_probe.json": "b8b2afebc8cdc6a6f6a5ab5493520325352b1e60e7f087801c7870ce5f338682",
+        "validation/clearance1/microscopes/after_probe.json": "899e137108315df8e383f216fa1c4053531d587c58628d546f410e03f77d4aa4",
+        "validation/clearance1/microscopes/probe_optical_contact_after.json": "ec8f0c7e2015b76d0bc2dc409654e0105e97a8fa0eeebebf1bdb1b8dd8f700c1",
+        "validation/clearance1/microscopes/probe_optical_contact_before.json": "3b5ea8633a6454f01f5fbc662aefa8985d19cbd619ddbe96bb922a3d62c8f5e4",
+        "validation/clearance1/microscopes/optical_before_probe.json": "bfb772812aac0696c515bfbe2259a0af26c5b8a3c97b4029e3670ad8139b893e",
+        "validation/clearance1/microscopes/probe_optical_contact_unlimited_step.json": "771f90e864fab40cbc93bbd904ee27d5a4a72bd60cf81c419253e6f6f6b3ca39"
+      }
+    },
+    {
+      "asset": "zeiss",
+      "current_artifacts_sha256": {
+        "003_zeiss/zeiss_upright.blend": "9e3cd2b96321143ac728299675aaa64ca9ec46f2d009f51bcee142f300619f5b",
+        "003_zeiss/zeiss_upright.xml": "dd2965859c037631fd072ee2d70ea80c86fc192d60300927018105dfae323912",
+        "003_zeiss/assets/zeiss_upright.glb": "9f15f3b946558cac3e17b8afe86460695acbdde5bb2eb33d49e97306ce151b52",
+        "003_zeiss/asset.json": "a8687f0b04c21ad3f49c4ce3589d9343dc0a16655924ce2b0828597c3ca13d4c"
+      },
+      "current_builder_sources_sha256": {
+        "003_zeiss/build.py": "20cb8ac91ac1e3c603873313a4c80d35ef8a0d327e7abb7d3fcba37b1bb06904",
+        "003_zeiss/geometry_support.py": "f6d33ea5e3c2c389b7022df7467499d059e7427fb42c82838cf381218c216db4",
+        "003_zeiss/reference_geometry.py": "9c101afdfe84bc62e5241b9a007be36941dc6f5ca715a75c58c36414c189b2c7"
+      },
+      "geometry_changed": true,
+      "passed_reported_checks": true,
+      "reports": [
+        "validation/clearance1/microscopes/before_zeiss.json",
+        "validation/clearance1/microscopes/after_zeiss.json",
+        "validation/clearance1/microscopes/zeiss_optical_contact_after.json",
+        "validation/clearance1/microscopes/zeiss_optical_contact_before.json"
+      ],
+      "motion_domain": {
+        "stage_x_mm": [
+          -35,
+          -30,
+          -25,
+          -20,
+          -15,
+          -10,
+          -5,
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35
+        ],
+        "stage_y_mm": [
+          -25,
+          -18.75,
+          -12.5,
+          -6.25,
+          0,
+          6.25,
+          12.5,
+          18.75,
+          25
+        ],
+        "focus_mm": [
+          -10,
+          -5.75,
+          -1.5,
+          2.75,
+          7
+        ]
+      },
+      "structural_triangle_pair_failures": {
+        "before": 22,
+        "after": 0
+      },
+      "current_below_bench_meshes": [],
+      "pair_coverage": {
+        "selected_stage_pairs": {
+          "moving": [
+            "Black mechanical stage",
+            "Mechanical-stage edge seam",
+            "Mechanical-stage edge seam.001",
+            "Stage end service cap",
+            "Stage end service cap.001"
+          ],
+          "targets": [
+            "Cantilever XY gearbox support",
+            "Shallow XY gearbox",
+            "XY support fixing head",
+            "XY support fixing head.001",
+            "XY support fixing hex recess",
+            "XY support fixing hex recess.001"
+          ]
+        },
+        "check_kinds": [
+          "camera_cable_to_bench",
+          "deck_to_gearbox",
+          "xy_grips_to_focus_and_casings"
+        ],
+        "record_count": 61
+      },
+      "intended_fit_exclusions": [
+        "Fasteners inside their own tapped seats; spindle/bearing insertion; nested covered slide bearings.",
+        "Feet/base against bench are intended support interfaces.",
+        "Objective/specimen contact is a functional unsafe-focus domain; no removal of those contacts or reduction of focus limits."
+      ],
+      "limitation": "Targeted evaluated exterior mesh pairs and support-plane gaps, not an exhaustive all-pairs CAD certification. Optical unsafe commands are assessed separately by native load/retract tests.",
+      "changes": [
+        "Gearbox roof and two fixing heads lowered below the traversing X deck.",
+        "Objective/front glass and stage surfaces now have mutual contact, preserving robot contact.",
+        "Focus and XY shaft angular limits agree with the existing linear travel limits and unchanged pitches."
+      ],
+      "measurements_mm": {
+        "moving deck / gearbox": {
+          "before": -1.0000099427998066,
+          "after": 0.9999941103160381
+        }
+      },
+      "shaft_range_correction_rad": {
+        "focus_before": [
+          -8,
+          8
+        ],
+        "focus_after": [
+          -15.707963267948966,
+          10.995574287564276
+        ],
+        "x_before": [
+          -12,
+          12
+        ],
+        "x_after": [
+          -13.744467859455344,
+          13.744467859455344
+        ],
+        "y_after": [
+          -9.817477042468104,
+          9.817477042468104
+        ]
+      },
+      "native_optical_contact": {
+        "report": "validation/clearance1/microscopes/zeiss_optical_contact_after.json",
+        "passed": true,
+        "runtime_sha256": {
+          "benchmarks/sim.py": "b8393a87c894a9f3795b570b0ce481a7da3740aa2565bf0fa7be9c6cba686460",
+          "benchmarks/fixture_control.py": "1180cf8b9e7d5785650c5ecb0bf4189a444fe0c16c6029607145f221ccf90c44"
+        },
+        "maximum_penetration_mm": 0.005249067109371375,
+        "maximum_individual_normal_force_N": 9.663337134451053,
+        "cases": [
+          {
+            "magnification": 20,
+            "expected_contact": true,
+            "contact_samples": 86625,
+            "loaded_focus_mm": 2.3925136238169604,
+            "retracted_focus_mm": -4.999928115507914,
+            "contact_pairs": [
+              [
+                "stage_x__device_chip",
+                "turret__Objective_front_glass_20"
+              ]
+            ],
+            "passed": true
+          },
+          {
+            "magnification": 50,
+            "expected_contact": true,
+            "contact_samples": 78060,
+            "loaded_focus_mm": 3.3924307718057474,
+            "retracted_focus_mm": -4.999910215443906,
+            "contact_pairs": [
+              [
+                "stage_x__device_chip",
+                "turret__Objective_front_glass_50"
+              ]
+            ],
+            "passed": true
+          },
+          {
+            "magnification": 5,
+            "expected_contact": false,
+            "contact_samples": 0,
+            "loaded_focus_mm": 6.0259849025015795,
+            "retracted_focus_mm": -4.999844167016987,
+            "contact_pairs": [],
+            "passed": true
+          },
+          {
+            "magnification": 10,
+            "expected_contact": false,
+            "contact_samples": 0,
+            "loaded_focus_mm": 6.0259849025015795,
+            "retracted_focus_mm": -4.999844167016987,
+            "contact_pairs": [],
+            "passed": true
+          },
+          {
+            "magnification": 100,
+            "expected_contact": true,
+            "contact_samples": 95205,
+            "loaded_focus_mm": 1.3923452572794222,
+            "retracted_focus_mm": -4.999942687822202,
+            "contact_pairs": [
+              [
+                "stage_x__device_chip",
+                "turret__Objective_front_glass_100"
+              ]
+            ],
+            "passed": true
+          }
+        ],
+        "unchanged_probe_tasks": []
+      },
+      "safe_setup": "Retract the stage before rotating the turret or positioning the specimen.20\u00d7/50\u00d7/100\u00d7 are physically blocked by the specimen at high-focus commands;5\u00d7/10\u00d7 stay clear in the tested centered setup.",
+      "evidence_sha256": {
+        "validation/clearance1/microscopes/before_zeiss.json": "2d16c02e2d7ef33f64de591169f31af39ef7d5a6617df434a20f7ea9a6ceaf7b",
+        "validation/clearance1/microscopes/after_zeiss.json": "29d64eb78eb99200d520dc26bb99c7e36b618b30666cbbc4d96f33cf900afe11",
+        "validation/clearance1/microscopes/zeiss_optical_contact_after.json": "d452cbe4441fd7f7652d975ef3b4c598b03aba6f9f6ff560389a734c4f5a3829",
+        "validation/clearance1/microscopes/zeiss_optical_contact_before.json": "9759ee02b6a150b70b1e1892e972163209d15d34160abe763fff949deb636490"
+      }
+    },
+    {
+      "asset": "bonder",
+      "current_artifacts_sha256": {
+        "004_wire_bonder/wire_bonder.blend": "40407e0dd504b71c255678a31fe7abe9d62113144fdbf66ed775a15521e37932",
+        "004_wire_bonder/wire_bonder.xml": "65d56a4038d23c011efe9528c88b1ee8d252adc993611403ca8e74be3d17704a",
+        "004_wire_bonder/assets/wire_bonder.glb": "d93386d649ddb000b162ab09bb9296f9c97f033a7b53bc922856cd79ba4dadbb",
+        "004_wire_bonder/asset.json": "a4f2496e971f28f35d97a168e3d4542766cdd860fb144ab8f2e27ccb91f8db34"
+      },
+      "current_builder_sources_sha256": {
+        "004_wire_bonder/build.py": "b329dd9ba5871de6bc870ca435e0ab733bd7161800b4735c0bb9f6afed8758a1",
+        "004_wire_bonder/hardware_7700.py": "c1c14feb5265cc32c7cb6de48f154a74055aec0adc864adeb073f19ec96edaf0"
+      },
+      "geometry_changed": true,
+      "passed_reported_checks": true,
+      "revision": "clearance1",
+      "report": "004_wire_bonder/validation/clearance1/current.json",
+      "changes": [
+        "Heater lead bends stay above the deck until beyond the casting edge; buried rings replaced by surface-mounted saddles.",
+        "Lower carriage and crossed straps fit the opening throughout reconstructed travel.",
+        "Handle travel and 8:1 tool output limits share one clearance-derived envelope."
+      ],
+      "inspected_pairs": [
+        "Carriage/crossed straps vs cavity side, rear, floor and roof skin planes",
+        "Lever/ferrule/ball vs deck, casting and pedestal over continuous full travel",
+        "Heater leads/saddles vs detailed deck/casting/pedestal"
+      ],
+      "domain": {
+        "x": [
+          -0.035,
+          0.035
+        ],
+        "y": [
+          -0.015,
+          0.015
+        ],
+        "z": [
+          -0.021,
+          0.006
+        ]
+      },
+      "baseline_clearances_m": {
+        "aperture_x": -0.011000003695487981,
+        "aperture_y": -0.04950000542402268,
+        "aperture_z": -0.08709999710321426,
+        "tool_floor": -0.034599997103214264
+      },
+      "current_clearances_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      },
+      "minimum_continuous_handle_platform_separation_m": 0.0027125940620899153,
+      "lead_deck_skin_gaps_m": {
+        "Heater red lead": 0.0026902770400047335,
+        "Heater braided lead": 0.00248041653633118,
+        "Heater lead saddle": 0.0014000041186809573,
+        "Heater lead saddle.001": 0.0014000041186809573,
+        "Heater lead saddle.002": 0.0014000041186809573,
+        "Heater lead saddle.003": 0.0014000041186809573
+      },
+      "scope": "Evaluated Blender source vertices give exact translated extrema for the Cartesian handle mechanism; 27 domain corners/midpoints characterize the box domain. Each handle/ball face is also expanded over the complete continuous XYZ domain and checked against conservative detailed deck/casting/pedestal bounds. Actual lead triangles are checked against these surfaces via BVH. The aperture is a conservative skin-plane envelope; service lead contact with its dedicated saddle is intentional.",
+      "exclusions": [
+        "Intended contact within concealed carriage bearings and crossing-link pivot stacks.",
+        "Bond wedge/sample contact and mechanically seated fasteners and saddle mounting feet.",
+        "This Cartesian surrogate is not a factory four-bar reconstruction."
+      ],
+      "limitation": "The envelope is measured from the reconstructed model; it is not a manufacturer travel specification. Internal transmission remains the documented equivalent Cartesian 8:1 mechanism.",
+      "reports": [
+        "004_wire_bonder/validation/clearance1/summary.json",
+        "004_wire_bonder/validation/clearance1/current.json"
+      ],
+      "evidence_sha256": {
+        "004_wire_bonder/validation/clearance1/summary.json": "b782dbfb5a6e9456ba84d0fe4481d5160039309d7eb994173d55d24242cd48c8",
+        "004_wire_bonder/validation/clearance1/current.json": "f8301593956e3bd798b5a8596d193f5dde18d841a0dcb2b5e9837863b305e941"
+      }
+    },
+    {
+      "asset": "afm",
+      "current_artifacts_sha256": {
+        "005_afm/cypher_s.blend": "ded0eec018e08015beb88ba7ca0c28e4c1a48c73b4d99e04b5ef7cb1a23d0756",
+        "005_afm/cypher_s.xml": "8791be300b47bed66e55e75d5e4819504db20c49e48d1b5dd2936b9f5aac9f8d",
+        "005_afm/assets/cypher_s.glb": "01942050cedecf5a741508804c79c3fd55df61f7241f47ae97de704679940b03",
+        "005_afm/asset.json": "a370b79bd7efec936599114afdb574b8bf1023dd5f1b418beffa117109d0efc7"
+      },
+      "current_builder_sources_sha256": {
+        "005_afm/build.py": "49daac49f58474ca9dafcc0a66e60b915b3037fdf954f79f9b31ebebb248358a",
+        "005_afm/geometry_revision4.py": "6c0f8df6b8a0591d6161dd70f39ac1392a4c95fe5679a4966f0114346495ef91"
+      },
+      "geometry_changed": true,
+      "passed_reported_checks": true,
+      "revision": "clearance1",
+      "report": "005_afm/validation/clearance1/current.json",
+      "changes": [
+        "Carrier hinge axis changes to local -X so positive lift raises the front nose instead of driving it into the sample socket and scanner deck."
+      ],
+      "inspected_pairs": {
+        "moving": [
+          "Probe holder tab",
+          "Silicon cantilever chip",
+          "Cantilever beam",
+          "Cantilever clamp machined upper plate",
+          "Cantilever fork nose",
+          "Cantilever fork precision ledge",
+          "Cantilever fork precision ledge.001"
+        ],
+        "fixed": [
+          "Scanner top rolled front lip",
+          "Scanner deck machined plate",
+          "Asymmetric scanner working plate",
+          "Machined sample socket rim",
+          "Sample socket recessed floor"
+        ]
+      },
+      "domain": {
+        "cantilever_lift_rad": [
+          0,
+          0.55
+        ],
+        "drawer_travel_m": [
+          0,
+          0.105
+        ]
+      },
+      "baseline_intersecting_lift_poses": 18,
+      "current_intersecting_lift_poses": 0,
+      "baseline_min_chip_deck_plane_clearance_m": -0.0024406534433364935,
+      "current_min_chip_deck_plane_clearance_m": 0.007150002121925347,
+      "shell_release_samples": {
+        "drawer_samples": 22,
+        "scanner_release_samples": 15,
+        "door_samples": 21,
+        "door_release_samples": 15
+      },
+      "shell_release_intersections": {
+        "drawer_samples": 0,
+        "scanner_release_samples": 0,
+        "door_samples": 0,
+        "door_release_samples": 0
+      },
+      "measured_positive_lift": {
+        "command_rad": 0.5,
+        "measured_rad": 0.4911591347370844,
+        "before_m": [
+          0.0019999999999999983,
+          -0.1321422645952634,
+          0.20220000000000002
+        ],
+        "after_m": [
+          0.0019999999999999983,
+          -0.1289527774992222,
+          0.20995795218921232
+        ],
+        "rise_m": 0.007757952189212297,
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "scope": "Triangle intersections between actual source holder/nose meshes and scanner working plates/socket at 12 lift angles and both drawer endpoints. Heights independently verify the positive lift direction. Existing drawer/door/release sweeps are rerun separately.",
+      "exclusions": [
+        "The intended hinge/pivot and dovetail mating interfaces.",
+        "AFM tip/sample approach contact is a separate instrument task."
+      ],
+      "reports": [
+        "005_afm/validation/clearance1/summary.json",
+        "005_afm/validation/clearance1/current.json"
+      ],
+      "evidence_sha256": {
+        "005_afm/validation/clearance1/summary.json": "a59bde30f4dfead993484f0535c45dbef3e4a625f6a4be82f59c95643ea2d026",
+        "005_afm/validation/clearance1/current.json": "43d10c80e1beb2962a19d1e6093fd0f83b4980e290eee8d318d094aeb1fe1b8d"
+      }
+    },
+    {
+      "asset": "tweezers",
+      "current_artifacts_sha256": {
+        "006_tweezers/spring_tweezers.blend": "b89c238d314123892c30b2617fb4ad10c4eefb656f20b7c2c962993a2a459b12",
+        "006_tweezers/spring_tweezers.xml": "c35d760566844f3c53827904d4bf373ad6f08e803c5c972a84f8d876a011d35b",
+        "006_tweezers/assets/spring_tweezers.glb": "2c79f0f4df2e8a547597144156b3e4ef368cecb295bdf31ce03d6e5ca9525e6e",
+        "006_tweezers/asset.json": "1bd0fd55e1d9efc74b9dcb71c2d62cf6d81fc75f25a1a3e6a8ea7a4bbffac7c8"
+      },
+      "current_builder_sources_sha256": {
+        "006_tweezers/build.py": "0283593ea91f983469c7fb4a39c1165625cf2bde67730576533216903117a4f5",
+        "006_tweezers/geometry_revision4.py": "b7978b3ce88cd9646e922dabb7728258abe894e9c68264bd24e217a60bd4c811"
+      },
+      "geometry_changed": false,
+      "passed_reported_checks": true,
+      "revision": "clearance1",
+      "report": "006_tweezers/validation/clearance1/current.json",
+      "changes": [],
+      "checks": {
+        "structural_blade_and_heel_meshes_inside_collision_union": true,
+        "all_fixed_visual_triangles_inside_expanded_boxes": true,
+        "tool_surface_contact_masks_enabled": true,
+        "negative_low_approach_rejected": true,
+        "complete_positive_tasks_succeed": true,
+        "full_horizons_without_unintended_contact": true,
+        "visual_clearance_exceeds_adjacent_step_displacement": true,
+        "gentle_release_and_settling": true,
+        "settled_and_retracted": true
+      },
+      "positive_episodes": [
+        {
+          "task": "tweezers.place",
+          "success_time_s": 12.53999999999849,
+          "min_structural_tool_tray_separation_lower_bound_m": 0.0004959975029663966,
+          "failure": null
+        },
+        {
+          "task": "tweezers.pick",
+          "success_time_s": 3.6199999999997123,
+          "min_structural_tool_tray_separation_lower_bound_m": 0.009133079156411834,
+          "failure": null
+        }
+      ],
+      "negative_control": {
+        "time_s": 7.440000000000819,
+        "reason": "tool_collided_with_work_surface"
+      },
+      "scope": "Every exported triangle is clipped against the union of retained local collision boxes. Tool decoration outside those boxes is independently enclosed and checked during replay. Static boxes are expanded 50 um to include printing and shallow fixing washers; physics collision geometry is unchanged.",
+      "reports": [
+        "006_tweezers/validation/clearance1/summary.json",
+        "006_tweezers/validation/clearance1/current.json"
+      ],
+      "evidence_sha256": {
+        "006_tweezers/validation/clearance1/summary.json": "8c77d7dbcdd762e762d6943aa14a51fd9cf71b02fbf89c55acf3e658f914b124",
+        "006_tweezers/validation/clearance1/current.json": "26174b69842436f1d1026925445a4dbc21812fe3230a68c826709f1ac2656dbe"
+      }
+    }
+  ],
+  "passed_all_reported_checks": true
+}

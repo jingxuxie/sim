@@ -1,0 +1,434 @@
+{
+  "url": "http://127.0.0.1:18943/",
+  "engine": "MuJoCo 4.0.1 WASM",
+  "checked_utc": "2026-11-25T05:06:00.645Z",
+  "checks": [
+    {
+      "check": "AFM locked door and scanner commands rejected",
+      "passed": true
+    },
+    {
+      "check": "AFM release sequence opens scanner",
+      "passed": true
+    },
+    {
+      "check": "AFM positive holder lift raises the probe nose clear of the scanner",
+      "passed": true,
+      "measured_rad": 0.4911591347370844,
+      "nose_rise_m": 0.007757952189212297
+    },
+    {
+      "check": "AFM holder returns to the scanner seat",
+      "passed": true
+    },
+    {
+      "check": "AFM drawer must return before door closure or scanner relatch",
+      "passed": true
+    },
+    {
+      "check": "AFM complete close and relatch sequence",
+      "passed": true
+    },
+    {
+      "check": "Bonder x declared travel matches the validated reconstructed envelope",
+      "passed": true,
+      "handle_range_m": [
+        -0.035,
+        0.035
+      ],
+      "tool_range_m": [
+        -0.004375,
+        0.004375
+      ]
+    },
+    {
+      "check": "Bonder x command clamps at lower reconstructed stop",
+      "passed": true,
+      "target_m": -0.035,
+      "stop_m": -0.035
+    },
+    {
+      "check": "Bonder x command clamps at upper reconstructed stop",
+      "passed": true,
+      "target_m": 0.035,
+      "stop_m": 0.035
+    },
+    {
+      "check": "Bonder y declared travel matches the validated reconstructed envelope",
+      "passed": true,
+      "handle_range_m": [
+        -0.015,
+        0.015
+      ],
+      "tool_range_m": [
+        -0.001875,
+        0.001875
+      ]
+    },
+    {
+      "check": "Bonder y command clamps at lower reconstructed stop",
+      "passed": true,
+      "target_m": -0.015,
+      "stop_m": -0.015
+    },
+    {
+      "check": "Bonder y command clamps at upper reconstructed stop",
+      "passed": true,
+      "target_m": 0.015,
+      "stop_m": 0.015
+    },
+    {
+      "check": "Bonder z declared travel matches the validated reconstructed envelope",
+      "passed": true,
+      "handle_range_m": [
+        -0.021,
+        0.006
+      ],
+      "tool_range_m": [
+        -0.002625,
+        0.00075
+      ]
+    },
+    {
+      "check": "Bonder z command clamps at lower reconstructed stop",
+      "passed": true,
+      "target_m": -0.021,
+      "stop_m": -0.021
+    },
+    {
+      "check": "Bonder z command clamps at upper reconstructed stop",
+      "passed": true,
+      "target_m": 0.006,
+      "stop_m": 0.006
+    },
+    {
+      "check": "Bonder measured X travel remains inside its cavity envelope at -0.035 m",
+      "passed": true,
+      "handle_m": -0.03499999999661143,
+      "tool_m": -0.004374999999576031
+    },
+    {
+      "check": "Bonder measured X travel remains inside its cavity envelope at 0.035 m",
+      "passed": true,
+      "handle_m": 0.03499999999999421,
+      "tool_m": 0.0043749999999997515
+    },
+    {
+      "check": "nikon optical routing 0 m",
+      "passed": true,
+      "camera_throughput": 0,
+      "eyepiece_throughput": 1
+    },
+    {
+      "check": "nikon camera actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "nikon eyepiece actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 20569172
+    },
+    {
+      "check": "nikon optical routing 0.006 m",
+      "passed": true,
+      "camera_throughput": 0.8,
+      "eyepiece_throughput": 0.19999999999999996
+    },
+    {
+      "check": "nikon camera actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 18436256
+    },
+    {
+      "check": "nikon eyepiece actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 9199566
+    },
+    {
+      "check": "nikon optical routing 0.012 m",
+      "passed": true,
+      "camera_throughput": 1,
+      "eyepiece_throughput": 0
+    },
+    {
+      "check": "nikon camera actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 20569089
+    },
+    {
+      "check": "nikon eyepiece actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "nikon selector transit blocks image",
+      "passed": true
+    },
+    {
+      "check": "Nikon empty objective socket is dark",
+      "passed": true
+    },
+    {
+      "check": "Measured Nikon focus changes specimen sharpness",
+      "passed": true,
+      "focused": 0.03007788211107254,
+      "defocused": 0.00008465486462228
+    },
+    {
+      "check": "zeiss optical routing 0 m",
+      "passed": true,
+      "camera_throughput": 0,
+      "eyepiece_throughput": 1
+    },
+    {
+      "check": "zeiss camera actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "zeiss eyepiece actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 20569172
+    },
+    {
+      "check": "zeiss optical routing 0.006 m",
+      "passed": true,
+      "camera_throughput": 0.5,
+      "eyepiece_throughput": 0.5
+    },
+    {
+      "check": "zeiss camera actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14698257
+    },
+    {
+      "check": "zeiss eyepiece actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14696211
+    },
+    {
+      "check": "zeiss optical routing 0.012 m",
+      "passed": true,
+      "camera_throughput": 1,
+      "eyepiece_throughput": 0
+    },
+    {
+      "check": "zeiss camera actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 20567910
+    },
+    {
+      "check": "zeiss eyepiece actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "zeiss selector transit blocks image",
+      "passed": true
+    },
+    {
+      "check": "transfer optical routing 0 m",
+      "passed": true,
+      "camera_throughput": 0,
+      "eyepiece_throughput": 0.9999999999925161
+    },
+    {
+      "check": "transfer camera actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "transfer eyepiece actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 20387498
+    },
+    {
+      "check": "transfer optical routing 0.006 m",
+      "passed": true,
+      "camera_throughput": 0.49999999998965705,
+      "eyepiece_throughput": 0.49999999998965705
+    },
+    {
+      "check": "transfer camera actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14569926
+    },
+    {
+      "check": "transfer eyepiece actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 14569635
+    },
+    {
+      "check": "transfer optical routing 0.012 m",
+      "passed": true,
+      "camera_throughput": 0.9999999999658155,
+      "eyepiece_throughput": 0
+    },
+    {
+      "check": "transfer camera actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 20387813
+    },
+    {
+      "check": "transfer eyepiece actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "transfer selector transit blocks image",
+      "passed": true
+    },
+    {
+      "check": "probe optical routing 0 m",
+      "passed": true,
+      "camera_throughput": 0,
+      "eyepiece_throughput": 1
+    },
+    {
+      "check": "probe camera actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "probe eyepiece actual image pixels at 0 m",
+      "passed": true,
+      "pixel_sum": 19162608
+    },
+    {
+      "check": "probe optical routing 0.006 m",
+      "passed": true,
+      "camera_throughput": 0.5,
+      "eyepiece_throughput": 0.5
+    },
+    {
+      "check": "probe camera actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 13600857
+    },
+    {
+      "check": "probe eyepiece actual image pixels at 0.006 m",
+      "passed": true,
+      "pixel_sum": 13599502
+    },
+    {
+      "check": "probe optical routing 0.012 m",
+      "passed": true,
+      "camera_throughput": 1,
+      "eyepiece_throughput": 0
+    },
+    {
+      "check": "probe camera actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 19162559
+    },
+    {
+      "check": "probe eyepiece actual image pixels at 0.012 m",
+      "passed": true,
+      "pixel_sum": 0
+    },
+    {
+      "check": "probe selector transit blocks image",
+      "passed": true
+    },
+    {
+      "check": "Transfer attached-service envelope rejects unsupported coarse rotation",
+      "passed": true
+    },
+    {
+      "check": "Transfer attached-service envelope accepts its boundary",
+      "passed": true
+    },
+    {
+      "check": "Transfer fine micrometer requires the coarse clamp",
+      "passed": true
+    },
+    {
+      "check": "Transfer released coarse ring rotates",
+      "passed": true,
+      "measured_rad": 0.20012930376595522,
+      "target_rad": 0.2,
+      "q": {
+        "scope_focus_travel": -0.0000017809253441626862,
+        "light_path_travel": 0.012,
+        "objective_angle": 2.9410451118964303e-12,
+        "sample_x_travel": 1.0785086722785639e-7,
+        "sample_y_travel": -4.7317111032375245e-8,
+        "sample_fine_angle": -3.5633305264964765e-9,
+        "rotation_lock_angle": -1.730574285381733e-16,
+        "sample_theta_angle": 0.20012930376595522,
+        "rotation_fine_spindle_travel": -1.7569173446726044e-10,
+        "rotation_fine_knob_angle": -0.0000017225144056336104,
+        "sample_y_spindle_travel": 4.7329168880466715e-8,
+        "sample_y_angle": -0.0005946119665901719,
+        "sample_x_spindle_travel": -1.0786274414499946e-7,
+        "sample_x_angle": 0.0013553013743237991,
+        "stamp_x_travel": -1.4512160593128581e-24,
+        "stamp_y_travel": -4.442094463518686e-23,
+        "stamp_z_travel": -4.924364690892706e-11,
+        "stamp_tilt_angle": -0.00014391454586000287,
+        "goniometer_spindle_travel": -0.0000058926595926346855,
+        "goniometer_knob_angle": -0.0632967904563151,
+        "stamp_z_spindle_travel": -4.273807027175257e-9,
+        "stamp_z_angle": -6.188335756103238e-7,
+        "stamp_y_spindle_travel": 4.4423411214345465e-23,
+        "stamp_y_angle": -5.583135836587043e-19,
+        "stamp_x_spindle_travel": -1.4504238426475116e-24,
+        "stamp_x_angle": -1.809345067635034e-20,
+        "illumination_angle": 4.712388980246155,
+        "illumination_power_angle": 0.35
+      },
+      "guards": [
+        {
+          "time": 0,
+          "control": "rotation_fine_knob_angle",
+          "reason": "Lock the coarse rotation before fine adjustment"
+        }
+      ]
+    },
+    {
+      "check": "Transfer locked ring holds while tangent micrometer turns",
+      "passed": true,
+      "coarse_rad": 0.20011890890803574,
+      "fine_rad": 0.015373929702507033
+    },
+    {
+      "check": "Transfer fine spindle advances 0.635 mm per turn",
+      "passed": true
+    },
+    {
+      "check": "Transfer released clamp disengages fine adjustment",
+      "passed": true
+    },
+    {
+      "check": "Transfer dimmer changes measured optical throughput",
+      "passed": true,
+      "throughput": 0.1
+    },
+    {
+      "check": "Transfer source power blacks out microscope",
+      "passed": true
+    },
+    {
+      "check": "Transfer source restores full illumination",
+      "passed": true
+    },
+    {
+      "check": "Transfer tilt drives the visible goniometer screw",
+      "passed": true
+    },
+    {
+      "check": "Probe image uses the photographed 5× / NA 0.14 objective",
+      "passed": true
+    },
+    {
+      "check": "Jaw command clamps to physical actuator range",
+      "passed": true
+    },
+    {
+      "check": "Nonfinite commands rejected",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

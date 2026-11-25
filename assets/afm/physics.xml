@@ -120,7 +120,7 @@
         <site name="scanner_connector" pos="0.11 0.009 0.142" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <site name="puck_socket" pos="0.008 -0.04 0.2004" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <body name="cantilever_carrier" pos="-0.025 -0.015 0.2" euler="0 0 0">
-          <joint name="cantilever_lift" type="hinge" axis="1 0 0" damping="0.012" frictionloss="0.005" range="0 0.55" stiffness="0.018" springref="0" />
+          <joint name="cantilever_lift" type="hinge" axis="-1 0 0" damping="0.012" frictionloss="0.005" range="0 0.55" stiffness="0.018" springref="0" />
           <inertial mass="0.035" pos="0 0 0" diaginertia="4.2875e-05 4.2875e-05 4.2875e-05" />
           <geom name="cantilever_carrier__Cantilever_carrier" type="box" pos="0 -0.005 0.007" size="0.0125 0.016 0.004" class="contact" />
           <geom name="cantilever_carrier__Probe_holder_tab" type="box" pos="0.015 -0.017 0.004" size="0.01 0.004 0.0015" class="contact" />

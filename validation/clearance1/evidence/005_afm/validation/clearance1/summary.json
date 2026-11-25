@@ -1,0 +1,98 @@
+{
+  "revision": "clearance1",
+  "asset": "afm",
+  "passed": true,
+  "geometry_changed": true,
+  "report": "005_afm/validation/clearance1/current.json",
+  "hashes": {
+    "005_afm/build.py": "49daac49f58474ca9dafcc0a66e60b915b3037fdf954f79f9b31ebebb248358a",
+    "005_afm/asset.json": "a370b79bd7efec936599114afdb574b8bf1023dd5f1b418beffa117109d0efc7",
+    "005_afm/cypher_s.xml": "8791be300b47bed66e55e75d5e4819504db20c49e48d1b5dd2936b9f5aac9f8d",
+    "005_afm/cypher_s.blend": "ded0eec018e08015beb88ba7ca0c28e4c1a48c73b4d99e04b5ef7cb1a23d0756",
+    "005_afm/assets/cypher_s.glb": "01942050cedecf5a741508804c79c3fd55df61f7241f47ae97de704679940b03",
+    "005_afm/validation/clearance1/current.json": "43d10c80e1beb2962a19d1e6093fd0f83b4980e290eee8d318d094aeb1fe1b8d"
+  },
+  "changes": [
+    "Carrier hinge axis changes to local -X so positive lift raises the front nose instead of driving it into the sample socket and scanner deck."
+  ],
+  "inspected_pairs": {
+    "moving": [
+      "Probe holder tab",
+      "Silicon cantilever chip",
+      "Cantilever beam",
+      "Cantilever clamp machined upper plate",
+      "Cantilever fork nose",
+      "Cantilever fork precision ledge",
+      "Cantilever fork precision ledge.001"
+    ],
+    "fixed": [
+      "Scanner top rolled front lip",
+      "Scanner deck machined plate",
+      "Asymmetric scanner working plate",
+      "Machined sample socket rim",
+      "Sample socket recessed floor"
+    ]
+  },
+  "domain": {
+    "cantilever_lift_rad": [
+      0,
+      0.55
+    ],
+    "drawer_travel_m": [
+      0,
+      0.105
+    ]
+  },
+  "baseline_intersecting_lift_poses": 18,
+  "current_intersecting_lift_poses": 0,
+  "baseline_min_chip_deck_plane_clearance_m": -0.0024406534433364935,
+  "current_min_chip_deck_plane_clearance_m": 0.007150002121925347,
+  "shell_release_samples": {
+    "drawer_samples": 22,
+    "scanner_release_samples": 15,
+    "door_samples": 21,
+    "door_release_samples": 15
+  },
+  "shell_release_intersections": {
+    "drawer_samples": 0,
+    "scanner_release_samples": 0,
+    "door_samples": 0,
+    "door_release_samples": 0
+  },
+  "measured_positive_lift": {
+    "command_rad": 0.5,
+    "measured_rad": 0.4911591347370844,
+    "before_m": [
+      0.0019999999999999983,
+      -0.1321422645952634,
+      0.20220000000000002
+    ],
+    "after_m": [
+      0.0019999999999999983,
+      -0.1289527774992222,
+      0.20995795218921232
+    ],
+    "rise_m": 0.007757952189212297,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "scope": "Triangle intersections between actual source holder/nose meshes and scanner working plates/socket at 12 lift angles and both drawer endpoints. Heights independently verify the positive lift direction. Existing drawer/door/release sweeps are rerun separately.",
+  "exclusions": [
+    "The intended hinge/pivot and dovetail mating interfaces.",
+    "AFM tip/sample approach contact is a separate instrument task."
+  ],
+  "stills": {
+    "report": "005_afm/previews/clearance1_render_report.json",
+    "render_count": 4,
+    "report_sha256": "2f8353b394039c0749ebcdb96cbfaa3993dbe48281bc06c08760aa1618c31cf4",
+    "web_preview_sha256": "a4e34cd983ab0d370d5a2b174f0cb1b1f16ba57b959895e15a73f4a18a54127d"
+  }
+}

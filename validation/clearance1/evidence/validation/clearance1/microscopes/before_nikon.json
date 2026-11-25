@@ -1,0 +1,320 @@
+{
+  "asset": "nikon",
+  "phase": "before",
+  "source_sha256": "659bfb458fe729b613298881879083e9cdc35092216a8957cb6087de586f0fb7",
+  "bench_top_z_mm": -1,
+  "method": "Evaluated detailed meshes with Blender drivers; exact mesh Z extrema for support planes; BVH triangle intersection for exterior assembly pairs.",
+  "intended_fit_exclusions": [
+    "Fasteners inside their own tapped seats; spindle/bearing insertion; nested covered slide bearings.",
+    "Feet/base against bench are intended support interfaces.",
+    "Objective/specimen contact is a functional unsafe-focus domain; no removal of those contacts or reduction of focus limits."
+  ],
+  "rest_below_bench": [
+    {
+      "object": "Camera coax service cable",
+      "minimum_z_mm": -15.963489189743996,
+      "signed_gap_mm": -14.963489189743996
+    },
+    {
+      "object": "Camera data service cable",
+      "minimum_z_mm": -19.60248500108719,
+      "signed_gap_mm": -18.60248500108719
+    },
+    {
+      "object": "Stage grey loom",
+      "minimum_z_mm": -19.05239373445511,
+      "signed_gap_mm": -18.05239373445511
+    }
+  ],
+  "checks": [
+    {
+      "kind": "cables_to_bench",
+      "focus_mm": -10,
+      "signed_surface_gaps_mm": {
+        "Camera data service cable": -18.60248500108719,
+        "Camera coax service cable": -14.963489189743996,
+        "Stage grey loom": -28.05239351093769
+      }
+    },
+    {
+      "kind": "grips_to_bench",
+      "focus_mm": -10,
+      "minimum_surface_gap_mm": 26.900001521222293
+    },
+    {
+      "kind": "cables_to_exterior",
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "kind": "cables_to_bench",
+      "focus_mm": -5,
+      "signed_surface_gaps_mm": {
+        "Camera data service cable": -18.60248500108719,
+        "Camera coax service cable": -14.963489189743996,
+        "Stage grey loom": -23.0523936226964
+      }
+    },
+    {
+      "kind": "grips_to_bench",
+      "focus_mm": -5,
+      "minimum_surface_gap_mm": 31.90000047814101
+    },
+    {
+      "kind": "cables_to_exterior",
+      "focus_mm": -5,
+      "intersections": []
+    },
+    {
+      "kind": "cables_to_bench",
+      "focus_mm": 0,
+      "signed_surface_gaps_mm": {
+        "Camera data service cable": -18.60248500108719,
+        "Camera coax service cable": -14.963489189743996,
+        "Stage grey loom": -18.05239373445511
+      }
+    },
+    {
+      "kind": "grips_to_bench",
+      "focus_mm": 0,
+      "minimum_surface_gap_mm": 33.00000096123394
+    },
+    {
+      "kind": "cables_to_exterior",
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "kind": "cables_to_bench",
+      "focus_mm": 4,
+      "signed_surface_gaps_mm": {
+        "Camera data service cable": -18.60248500108719,
+        "Camera coax service cable": -14.963489189743996,
+        "Stage grey loom": -14.052393544465303
+      }
+    },
+    {
+      "kind": "grips_to_bench",
+      "focus_mm": 4,
+      "minimum_surface_gap_mm": 33.00230539912683
+    },
+    {
+      "kind": "cables_to_exterior",
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "motor_mount_vertical_gap_mm": -0.49999402835965157,
+      "intersections": [
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block",
+          "triangle_pairs": 28
+        },
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block.001",
+          "triangle_pairs": 42
+        }
+      ]
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "motor_mount_vertical_gap_mm": -0.49999402835965157,
+      "intersections": [
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block",
+          "triangle_pairs": 42
+        },
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block.001",
+          "triangle_pairs": 40
+        }
+      ]
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "motor_mount_vertical_gap_mm": -0.49999402835965157,
+      "intersections": [
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block",
+          "triangle_pairs": 42
+        },
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block.001",
+          "triangle_pairs": 28
+        }
+      ]
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "motor_mount_vertical_gap_mm": -0.49999402835965157,
+      "intersections": [
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block",
+          "triangle_pairs": 40
+        },
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block.001",
+          "triangle_pairs": 62
+        }
+      ]
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        0,
+        0
+      ],
+      "motor_mount_vertical_gap_mm": -0.49999402835965157,
+      "intersections": [
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block",
+          "triangle_pairs": 62
+        },
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block.001",
+          "triangle_pairs": 62
+        }
+      ]
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        0,
+        27
+      ],
+      "motor_mount_vertical_gap_mm": -0.49999402835965157,
+      "intersections": [
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block",
+          "triangle_pairs": 60
+        },
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block.001",
+          "triangle_pairs": 36
+        }
+      ]
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "motor_mount_vertical_gap_mm": -0.49999402835965157,
+      "intersections": [
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block",
+          "triangle_pairs": 72
+        },
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block.001",
+          "triangle_pairs": 30
+        }
+      ]
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        39,
+        0
+      ],
+      "motor_mount_vertical_gap_mm": -0.49999402835965157,
+      "intersections": [
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block",
+          "triangle_pairs": 66
+        },
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block.001",
+          "triangle_pairs": 68
+        }
+      ]
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        39,
+        27
+      ],
+      "motor_mount_vertical_gap_mm": -0.49999402835965157,
+      "intersections": [
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block",
+          "triangle_pairs": 30
+        },
+        {
+          "moving": "Black 212.5 mm mechanical stage",
+          "target": "Motor mounting block.001",
+          "triangle_pairs": 72
+        }
+      ]
+    }
+  ],
+  "motion_domain": {
+    "focus_mm": [
+      -10,
+      -5,
+      0,
+      4
+    ],
+    "stage_xy_mm": {
+      "x": [
+        -39,
+        0,
+        39
+      ],
+      "y": [
+        -27,
+        0,
+        27
+      ]
+    }
+  },
+  "audited_stage_pairs": {
+    "moving": [
+      "Black 212.5 mm mechanical stage"
+    ],
+    "targets": [
+      "D-sub stamped rear shield",
+      "Hanging XY gear housing",
+      "Motor mounting block",
+      "Motor mounting block.001"
+    ]
+  },
+  "intersections_count": 18,
+  "passed_reported_exterior_pairs": false
+}

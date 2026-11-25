@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "0fbd5245e5a9725ea5fba0de9bec5cfb97900c20b6f5186d99f99d69476aceb2",
+  "physics_sha256": "69336dc1f74d6e2ac313f280bf9aca1bc22ac7091ce3aa5d6f1d9d1795cd952a",
   "shapes": [
     {
       "name": "base__Optical_breadboard",
@@ -149,6 +149,64 @@
       "condim": 4
     },
     {
+      "name": "base__sample_x_actuator_mounting_extension",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.171,
+        -0.02,
+        0.03
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.012,
+        0.0095,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__sample_x_actuator_split_clamp",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.182,
+        -0.02,
+        0.04
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.0085,
+        0.0075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
       "name": "base__Extrusion_beam",
       "body": "base",
       "type": "box",
@@ -236,11 +294,69 @@
       "condim": 4
     },
     {
-      "name": "base__Fiber-Lite_housing",
+      "name": "base__stamp_x_actuator_mounting_extension",
       "body": "base",
       "type": "box",
       "pos": [
-        0.41,
+        0.2225,
+        -0.02,
+        0.084
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.012,
+        0.0095,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__stamp_x_actuator_split_clamp",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.2335,
+        -0.02,
+        0.094
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.0085,
+        0.0075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Fiber-Lite_housing_left",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.3553200073,
         0.14,
         0.063
       ],
@@ -251,9 +367,270 @@
         0.0
       ],
       "size": [
-        0.08636,
-        0.1054,
+        0.03167999268,
+        0.1053999939,
         0.062
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Fiber-Lite_housing_right",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.4496799927,
+        0.14,
+        0.063
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04667999268,
+        0.1053999939,
+        0.062
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Fiber-Lite_housing_lower",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.395,
+        0.14,
+        0.007125
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.1053999939,
+        0.006125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Fiber-Lite_housing_upper",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.395,
+        0.14,
+        0.081875
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.1053999939,
+        0.043125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Fiber-Lite_housing_pocket_back",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.395,
+        0.145,
+        0.026
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.1003999939,
+        0.01275
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Illuminator_switch_cavity_liner",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.395,
+        0.0442,
+        0.026
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0078,
+        0.0003,
+        0.01255
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Illuminator_rocker_surround_side",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.386,
+        0.03409999847,
+        0.026
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.001,
+        0.0015,
+        0.0145
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Illuminator_rocker_surround_end",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.395,
+        0.03409999847,
+        0.012375
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.0015,
+        0.000875
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Illuminator_rocker_surround_side_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.404,
+        0.03409999847,
+        0.026
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.001,
+        0.0015,
+        0.0145
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Illuminator_rocker_surround_end_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.395,
+        0.03409999847,
+        0.039625
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.0015,
+        0.000875
       ],
       "friction": [
         0.8,
@@ -463,8 +840,153 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_grip_ring",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.04158022869,
+        -0.04125793917
+      ],
+      "quat": [
+        0.16246495354853088,
+        0.9867143147175244,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0153,
+        0.009,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_smooth_barrel_ring",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.04141992219,
+        -0.04078433403
+      ],
+      "quat": [
+        0.16246495354853088,
+        0.9867143147175244,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0152,
+        0.0085,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_identification_band",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.04510697159,
+        -0.05167725222
+      ],
+      "quat": [
+        0.16246495354853088,
+        0.9867143147175244,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0151,
+        0.00075,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_aperture_contact",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.05376352233,
+        -0.07725192972
+      ],
+      "quat": [
+        0.16246495354853088,
+        0.9867143147175244,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0078,
+        0.0002,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_front_optic_contact",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.05382764493,
+        -0.07744137178
+      ],
+      "quat": [
+        0.16246495354853088,
+        0.9867143147175244,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0045,
+        0.00015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
       "condim": 4
     },
     {
@@ -492,8 +1014,182 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_adjustment_ring",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.03548858187,
+        -2.17304891e-18,
+        -0.02326094389
+      ],
+      "quat": [
+        0.16246495354853088,
+        6.041882634368101e-17,
+        0.9867143147175244,
+        -0.0
+      ],
+      "size": [
+        0.0158,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_adjustment_ring_2",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.04029777673,
+        -2.467527164e-18,
+        -0.03746909805
+      ],
+      "quat": [
+        0.16246495354853088,
+        6.041882634368101e-17,
+        0.9867143147175244,
+        -0.0
+      ],
+      "size": [
+        0.0158,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_adjustment_ring_3",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.0444657456,
+        -2.722741651e-18,
+        -0.04978283167
+      ],
+      "quat": [
+        0.16246495354853088,
+        6.041882634368101e-17,
+        0.9867143147175244,
+        -0.0
+      ],
+      "size": [
+        0.0158,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_magnification_band",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.04895432747,
+        -2.997588022e-18,
+        -0.06304377555
+      ],
+      "quat": [
+        0.16246495354853088,
+        6.041882634368101e-17,
+        0.9867143147175244,
+        -0.0
+      ],
+      "size": [
+        0.01505,
+        0.00085,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_aperture_contact_2",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.05216045738,
+        -3.193906859e-18,
+        -0.07251587833
+      ],
+      "quat": [
+        0.16246495354853088,
+        6.041882634368101e-17,
+        0.9867143147175244,
+        -0.0
+      ],
+      "size": [
+        0.0078,
+        0.0002,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_front_optic_contact_2",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        0.05222457998,
+        -3.197833235e-18,
+        -0.07270532039
+      ],
+      "quat": [
+        0.16246495354853088,
+        6.041882634368101e-17,
+        0.9867143147175244,
+        -0.0
+      ],
+      "size": [
+        0.0045,
+        0.00015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
       "condim": 4
     },
     {
@@ -521,8 +1217,182 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_adjustment_ring_4",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        4.346097819e-18,
+        0.03548858187,
+        -0.02326094389
+      ],
+      "quat": [
+        0.16246495354853088,
+        -0.9867143147175244,
+        1.2083765271813792e-16,
+        0.0
+      ],
+      "size": [
+        0.0158,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_adjustment_ring_5",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        4.935054328e-18,
+        0.04029777673,
+        -0.03746909805
+      ],
+      "quat": [
+        0.16246495354853088,
+        -0.9867143147175244,
+        1.2083765271813792e-16,
+        0.0
+      ],
+      "size": [
+        0.0158,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_adjustment_ring_6",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        5.445483303e-18,
+        0.0444657456,
+        -0.04978283167
+      ],
+      "quat": [
+        0.16246495354853088,
+        -0.9867143147175244,
+        1.2083765271813792e-16,
+        0.0
+      ],
+      "size": [
+        0.0158,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_magnification_band_2",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        5.720329674e-18,
+        0.04671003654,
+        -0.05641330361
+      ],
+      "quat": [
+        0.16246495354853088,
+        -0.9867143147175244,
+        1.2083765271813792e-16,
+        0.0
+      ],
+      "size": [
+        0.01505,
+        0.00085,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_aperture_contact_3",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        6.112967346e-18,
+        0.04991616644,
+        -0.06588540639
+      ],
+      "quat": [
+        0.16246495354853088,
+        -0.9867143147175244,
+        1.2083765271813792e-16,
+        0.0
+      ],
+      "size": [
+        0.0078,
+        0.0002,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "objective_turret__Objective_front_optic_contact_3",
+      "body": "objective_turret",
+      "type": "cylinder",
+      "pos": [
+        6.1208201e-18,
+        0.04998028904,
+        -0.06607484844
+      ],
+      "quat": [
+        0.16246495354853088,
+        -0.9867143147175244,
+        1.2083765271813792e-16,
+        0.0
+      ],
+      "size": [
+        0.0045,
+        0.00015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
       "condim": 4
     },
     {
@@ -602,6 +1472,64 @@
         0.051,
         0.048,
         0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_x__sample_y_actuator_mounting_extension",
+      "body": "sample_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.058,
+        0.013
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0095,
+        0.012,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_x__sample_y_actuator_split_clamp",
+      "body": "sample_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.069,
+        0.023
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.0085,
+        0.0075
       ],
       "friction": [
         0.8,
@@ -734,7 +1662,7 @@
       "type": "cylinder",
       "pos": [
         0.0,
-        -0.005,
+        -0.0065,
         0.0
       ],
       "quat": [
@@ -782,8 +1710,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -811,8 +1739,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -840,8 +1768,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -869,8 +1797,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -903,12 +1831,12 @@
       "condim": 4
     },
     {
-      "name": "sample_y_knob__sample_y_grip",
-      "body": "sample_y_knob",
+      "name": "rotation_fine_knob__481-A_fine_collar_contact",
+      "body": "rotation_fine_knob",
       "type": "cylinder",
       "pos": [
         0.0,
-        0.0,
+        0.011,
         0.0
       ],
       "quat": [
@@ -918,8 +1846,182 @@
         -0.0
       ],
       "size": [
-        0.011,
-        0.018,
+        0.0063,
+        0.0025,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "rotation_fine_knob__481-A_fine_cap",
+      "body": "rotation_fine_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.014,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0056,
+        0.001,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_y_knob__sample_y_coarse_wheel_contact",
+      "body": "sample_y_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.021,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.015,
+        0.004,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_y_knob__sample_y_differential_collar_contact",
+      "body": "sample_y_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.016,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0135,
+        0.0015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_y_knob__sample_y_grip",
+      "body": "sample_y_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.0035,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.01115,
+        0.0155,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_x_knob__sample_x_coarse_wheel_contact",
+      "body": "sample_x_knob",
+      "type": "cylinder",
+      "pos": [
+        -0.021,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.015,
+        0.004,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_x_knob__sample_x_differential_collar_contact",
+      "body": "sample_x_knob",
+      "type": "cylinder",
+      "pos": [
+        -0.016,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0135,
+        0.0015,
         0.0
       ],
       "friction": [
@@ -936,7 +2038,7 @@
       "body": "sample_x_knob",
       "type": "cylinder",
       "pos": [
-        0.0,
+        -0.0035,
         0.0,
         0.0
       ],
@@ -947,8 +2049,8 @@
         0.0
       ],
       "size": [
-        0.011,
-        0.018,
+        0.01115,
+        0.0155,
         0.0
       ],
       "friction": [
@@ -1037,6 +2139,64 @@
         0.0555,
         0.0475,
         0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_x__stamp_y_actuator_mounting_extension",
+      "body": "stamp_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.0575,
+        0.017
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0095,
+        0.012,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_x__stamp_y_actuator_split_clamp",
+      "body": "stamp_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.0685,
+        0.027
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.0085,
+        0.0075
       ],
       "friction": [
         0.8,
@@ -1193,6 +2353,122 @@
       "condim": 4
     },
     {
+      "name": "stamp_y__stamp_z_actuator_mounting_extension",
+      "body": "stamp_y",
+      "type": "box",
+      "pos": [
+        -0.0625,
+        -0.073,
+        0.016
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0155,
+        0.024,
+        0.004
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_y__stamp_z_actuator_mounting_attachment",
+      "body": "stamp_y",
+      "type": "box",
+      "pos": [
+        -0.045,
+        -0.0455,
+        0.016
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.007,
+        0.0135,
+        0.004
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_y__stamp_z_fixed_actuator_bracket_upright",
+      "body": "stamp_y",
+      "type": "box",
+      "pos": [
+        -0.0625,
+        -0.09,
+        0.04275
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.012,
+        0.005,
+        0.03075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_y__stamp_z_fixed_actuator_bracket_head",
+      "body": "stamp_y",
+      "type": "box",
+      "pos": [
+        -0.0625,
+        -0.081,
+        0.0695
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.012,
+        0.015,
+        0.004
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
       "name": "stamp_z__stamp_z_drilled_lift_table",
       "body": "stamp_z",
       "type": "box",
@@ -1228,7 +2504,7 @@
       "pos": [
         0.0,
         0.0,
-        0.001
+        -0.003
       ],
       "quat": [
         1.0,
@@ -1239,7 +2515,36 @@
       "size": [
         0.037,
         0.0285,
-        0.015
+        0.011
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_z__stamp_z_spindle_reaction_tab",
+      "body": "stamp_z",
+      "type": "box",
+      "pos": [
+        -0.0625,
+        -0.0505,
+        -0.008
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.013,
+        0.019,
+        0.0035
       ],
       "friction": [
         0.8,
@@ -1309,6 +2614,35 @@
       "condim": 4
     },
     {
+      "name": "stamp_z__Goniometer_actuator_mounting_pad",
+      "body": "stamp_z",
+      "type": "box",
+      "pos": [
+        -0.0725,
+        0.0,
+        0.0325
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.005,
+        0.009,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
       "name": "stamp_tilt__Goniometer_moving_face",
       "body": "stamp_tilt",
       "type": "box",
@@ -1333,8 +2667,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -1362,8 +2696,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -1391,8 +2725,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -1420,8 +2754,8 @@
         0.002,
         0.0001
       ],
-      "contype": 1,
-      "conaffinity": 3,
+      "contype": 17,
+      "conaffinity": 11,
       "condim": 4
     },
     {
@@ -1460,7 +2794,7 @@
       "pos": [
         0.0,
         0.0,
-        0.0
+        0.0035
       ],
       "quat": [
         1.0,
@@ -1469,8 +2803,8 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.018,
+        0.00815,
+        0.0155,
         0.0
       ],
       "friction": [
@@ -1488,7 +2822,7 @@
       "type": "cylinder",
       "pos": [
         0.0,
-        0.0,
+        -0.0035,
         0.0
       ],
       "quat": [
@@ -1498,8 +2832,8 @@
         -0.0
       ],
       "size": [
-        0.008,
-        0.018,
+        0.00815,
+        0.0155,
         0.0
       ],
       "friction": [
@@ -1516,7 +2850,7 @@
       "body": "stamp_x_knob",
       "type": "cylinder",
       "pos": [
-        0.0,
+        0.0035,
         0.0,
         0.0
       ],
@@ -1527,8 +2861,8 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.018,
+        0.00815,
+        0.0155,
         0.0
       ],
       "friction": [

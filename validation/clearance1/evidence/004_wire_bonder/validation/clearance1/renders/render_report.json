@@ -1,0 +1,77 @@
+{
+  "revision": "clearance1",
+  "asset": "bonder",
+  "draft": false,
+  "source_sha256": "40407e0dd504b71c255678a31fe7abe9d62113144fdbf66ed775a15521e37932",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "662817a640773a6470b9ddf550869cc8f61b8c0326230cf66bfc5ecdbfc8a125"
+    },
+    {
+      "file": "tool.png",
+      "camera": "tool",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "9f77f494107050c54997cbf43a3c55d01fac6c11b648feafa2a58d3cdb5f5b1c"
+    },
+    {
+      "file": "head_detail.png",
+      "camera": "head_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "87342e3dfaf16ef409bf498ae4887d18df08e4b5dd07710b3eec65c7f3a010df"
+    },
+    {
+      "file": "optical_head.png",
+      "camera": "optical_head",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "21ae8d35bb78e6b9e6666d2915f0e10cb71b07351c381802209d9746e7518917"
+    },
+    {
+      "file": "heater_detail.png",
+      "camera": "heater_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "431c70306aad66f03ad9beae9fdd5e477cfffc4972db57f3048a4d3f02841264"
+    },
+    {
+      "file": "rear_service.png",
+      "camera": "rear_service",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "68c27e66345558b088985e631164e275bf9eef76e7be64b3d2b12cabefe4e363"
+    }
+  ]
+}

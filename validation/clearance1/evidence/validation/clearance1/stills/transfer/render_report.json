@@ -1,0 +1,123 @@
+{
+  "revision": "clearance1",
+  "asset": "transfer",
+  "draft": false,
+  "source_sha256": "49e138ca29ec9dcbf3dd0788d32c26e4fdfa17d2e3e241ad841aee19f8e76c32",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "overview",
+    "mechanisms",
+    "rotation_detail",
+    "illumination",
+    "stamp_stage",
+    "optical_head",
+    "clearance_sample_x",
+    "clearance_stamp_z",
+    "clearance_camera_lead"
+  ],
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "30e18c4b90f92f4df0b675ce5e28961660bc8aacbdda9577a1b48f7bd7ce9cb9"
+    },
+    {
+      "file": "mechanisms.png",
+      "camera": "mechanisms",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "4a65320707ace08b92db77c84d08abc1d07e6df724c9961ec965300b552c0a50"
+    },
+    {
+      "file": "rotation_detail.png",
+      "camera": "rotation_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "04bba140d440613b6ffdb0b76bccf3e75ad8b3076da9eb4e2753f09dd35d18f0"
+    },
+    {
+      "file": "illumination.png",
+      "camera": "illumination",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "93fa097dfae3ace2f424c8892fd24392c844d985953161a4a8201e7f7b2aecbc"
+    },
+    {
+      "file": "stamp_stage.png",
+      "camera": "stamp_stage",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "5ceb0cc5315779ed2f2d91a16b36e92952a20542991d5c20151fa26b075bcd57"
+    },
+    {
+      "file": "optical_head.png",
+      "camera": "optical_head",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "632338a9e105d83b4b4df58726606dbf261a0a91bd4c4048e89875133a1e260f"
+    },
+    {
+      "file": "clearance_sample_x.png",
+      "camera": "clearance_sample_x",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "ab8d7176eb99486d0aae6f4ecb0b269090d0c80cee225ff5f0f0c5e9a9a1a03f"
+    },
+    {
+      "file": "clearance_stamp_z.png",
+      "camera": "clearance_stamp_z",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "7ca0113b8962b0725707babdaaac179a688f10c1e2a23dfb2a971e6ff85c05e6"
+    },
+    {
+      "file": "clearance_camera_lead.png",
+      "camera": "clearance_camera_lead",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "edaf46ae511e3f16f987cb606ca6e8fc71c686b51d046cae8871944c6800b26b"
+    }
+  ],
+  "complete": true
+}

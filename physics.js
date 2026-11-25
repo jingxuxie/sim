@@ -23,6 +23,10 @@ export class Simulation {
     }
     const byId=Object.values(this.joints);
     for(let i=0;i<m.nu;i++)this.drives[byId[m.actuator_trnid[2*i]].name]=i;
+    this.fixtureControlRates=Object.entries(meta.fixture_control_rates||{}).map(([name,rate])=>{
+      if(!(name in this.drives)||!Number.isFinite(rate)||rate<=0)throw Error('Invalid fixture control rate for '+name);
+      return {name,actuator:this.drives[name],rate};
+    });
     this.fixtureTracking=this.trackingSpecs();
     this.reset();
   }
@@ -122,6 +126,7 @@ export class Simulation {
   }
   beforeStep(){
     const d=this.d,dt=this.opt.timestep;
+    const previousControls=this.fixtureControlRates.map(spec=>d.ctrl[spec.actuator]);
     if(this.asset==='transfer'&&this.meta.rotation_mechanism){
       const locked=this.q('rotation_lock_angle')>=this.meta.rotation_mechanism.lock_threshold_rad;
       this.lock('rotation_coarse_lock',locked);this.lock('rotation_fine_lock',!locked);
@@ -152,6 +157,12 @@ export class Simulation {
       }else d.ctrl[i]=this.targets[name];
     }
     this.trackFixtures();
+    // Slew only the fixture actuator target. Measured joints remain dynamic,
+    // with the authored force limits and contacts determining their motion.
+    this.fixtureControlRates.forEach((spec,index)=>{
+      const delta=spec.rate*dt,previous=previousControls[index];
+      d.ctrl[spec.actuator]=clamp(d.ctrl[spec.actuator],previous-delta,previous+delta);
+    });
     if(this.asset==='tweezers'){
       const pos=d.mocap_pos,delta=this.mocapTarget.map((x,i)=>x-pos[i]),fraction=Math.min(1,.025*dt/Math.max(Math.hypot(...delta),1e-12));
       for(let i=0;i<3;i++)pos[i]+=delta[i]*fraction;

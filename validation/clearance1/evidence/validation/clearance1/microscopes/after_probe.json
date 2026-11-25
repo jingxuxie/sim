@@ -1,0 +1,3772 @@
+{
+  "asset": "probe",
+  "phase": "after",
+  "source_sha256": "d9a97c86f9cc9cd809a91207da5ae921452061834ba586021d4b27051349b9c1",
+  "bench_top_z_mm": -1,
+  "method": "Evaluated detailed meshes with Blender drivers; exact mesh Z extrema for support planes; BVH triangle intersection for exterior assembly pairs.",
+  "intended_fit_exclusions": [
+    "Fasteners inside their own tapped seats; spindle/bearing insertion; nested covered slide bearings.",
+    "Feet/base against bench are intended support interfaces.",
+    "Objective/specimen contact is a functional unsafe-focus domain; no removal of those contacts or reduction of focus limits."
+  ],
+  "rest_below_bench": [],
+  "checks": [
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        -12.5,
+        -12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        -12.5,
+        0
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        -12.5,
+        12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        0,
+        -12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        0,
+        0
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        0,
+        12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        12.5,
+        -12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        12.5,
+        0
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        12.5,
+        12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_x_to_foundation",
+      "minimum_vertical_surface_gap_mm": 7.908590992961301
+    },
+    {
+      "kind": "left_x_to_platen",
+      "minimum_vertical_surface_gap_mm": 4.408592608248824
+    },
+    {
+      "kind": "right_x_to_platen",
+      "minimum_vertical_surface_gap_mm": 4.15584559529043
+    },
+    {
+      "kind": "rack_wheel_to_platen",
+      "horizontal_clearance_mm": 3.5,
+      "intersections": []
+    }
+  ],
+  "motion_domain": {
+    "manipulator_xyz_mm": [
+      -6,
+      0,
+      6
+    ],
+    "optical_focus_mm": [
+      -20,
+      20
+    ],
+    "chuck_xy_mm": [
+      -12.5,
+      0,
+      12.5
+    ]
+  },
+  "grip_contact_coverage": {
+    "method": "All evaluated vertices against the union of the same-link authored contact cylinders; maximum signed radial/axial excess.",
+    "maximum_outside_proxy_mm": 1.4186528354831474e-05,
+    "meshes": [
+      {
+        "object": "chuck_x axial micrometer graduation",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.001",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.002",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.003",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.004",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.005",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.006",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.007",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.008",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.009",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.010",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.011",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.012",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.013",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.014",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.015",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.016",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.017",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.018",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.019",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.020",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.021",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.022",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.023",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.024",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.025",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.026",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.027",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.028",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.029",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.030",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.031",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.032",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.033",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.034",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.035",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.036",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.037",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.038",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.039",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.040",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.041",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.042",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.043",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.044",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.045",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.046",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.047",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.048",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x axial micrometer graduation.049",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x bevel thimble",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 8.932839051789543e-07
+      },
+      {
+        "object": "chuck_x graduated rim",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_x ratchet",
+        "link": "chuck_x_knob",
+        "maximum_outside_proxy_mm": 7.001960889135156e-06
+      },
+      {
+        "object": "chuck_y axial micrometer graduation",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.001",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.002",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.003",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.004",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.005",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.006",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.007",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.008",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.009",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.010",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.011",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.012",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.013",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.014",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.015",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.016",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.017",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.018",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.019",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.020",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.021",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.022",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.023",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.024",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.025",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.026",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.027",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.028",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.029",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.030",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.031",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.032",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.033",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.034",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.035",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.036",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.037",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.038",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.039",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.040",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.041",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.042",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.043",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.044",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.045",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.046",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.047",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.048",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y axial micrometer graduation.049",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y bevel thimble",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 1.3218347250099072e-06
+      },
+      {
+        "object": "chuck_y graduated rim",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "chuck_y ratchet",
+        "link": "chuck_y_knob",
+        "maximum_outside_proxy_mm": 9.963266722062825e-07
+      },
+      {
+        "object": "left_x axial micrometer graduation",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.001",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.002",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.003",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.004",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.005",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.006",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.007",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.008",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.009",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.010",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.011",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.012",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.013",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.014",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.015",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.016",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.017",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.018",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.019",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.020",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.021",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.022",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.023",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.024",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.025",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.026",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.027",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.028",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.029",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.030",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.031",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.032",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.033",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.034",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.035",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.036",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.037",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.038",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.039",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.040",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.041",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.042",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.043",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.044",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.045",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.046",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.047",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.048",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x axial micrometer graduation.049",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x bevel thimble",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 1.3218347111321194e-06
+      },
+      {
+        "object": "left_x graduated rim",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_x ratchet",
+        "link": "left_x_knob",
+        "maximum_outside_proxy_mm": 9.963266722062825e-07
+      },
+      {
+        "object": "left_y axial micrometer graduation",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.001",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.002",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.003",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.004",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.005",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.006",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.007",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.008",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.009",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.010",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.011",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.012",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.013",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.014",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.015",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.016",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.017",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.018",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.019",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.020",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.021",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.022",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.023",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.024",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.025",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.026",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.027",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.028",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.029",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.030",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.031",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.032",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.033",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.034",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.035",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.036",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.037",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.038",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.039",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.040",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.041",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.042",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.043",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.044",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.045",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.046",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.047",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.048",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y axial micrometer graduation.049",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y bevel thimble",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 8.932839051789543e-07
+      },
+      {
+        "object": "left_y graduated rim",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_y ratchet",
+        "link": "left_y_knob",
+        "maximum_outside_proxy_mm": 8.344313556091221e-07
+      },
+      {
+        "object": "left_z axial micrometer graduation",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.001",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.002",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.003",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.004",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.005",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.006",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.007",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.008",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.009",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.010",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.011",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.012",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.013",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.014",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.015",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.016",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.017",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.018",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.019",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.020",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.021",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.022",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.023",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.024",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.025",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.026",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.027",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.028",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.029",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.030",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.031",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.032",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.033",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.034",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.035",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.036",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.037",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.038",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.039",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.040",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.041",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.042",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.043",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.044",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.045",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.046",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.047",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.048",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z axial micrometer graduation.049",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z bevel thimble",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 5.960464483090178e-07
+      },
+      {
+        "object": "left_z graduated rim",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "left_z ratchet",
+        "link": "left_z_knob",
+        "maximum_outside_proxy_mm": 6.783753631316863e-06
+      },
+      {
+        "object": "Right blue micrometer sleeve",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 1.2513105378253453e-06
+      },
+      {
+        "object": "Right blue thimble end",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 1.4186528354831474e-05
+      },
+      {
+        "object": "right_x axial micrometer graduation",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.001",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.002",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.003",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.004",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.005",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.006",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.007",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.008",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.009",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.010",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.011",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.012",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.013",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.014",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.015",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.016",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.017",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.018",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.019",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.020",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.021",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.022",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.023",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.024",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.025",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.026",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.027",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.028",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.029",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.030",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.031",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.032",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.033",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.034",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.035",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.036",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.037",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.038",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.039",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.040",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.041",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.042",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.043",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.044",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.045",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.046",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.047",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.048",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x axial micrometer graduation.049",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x bevel thimble",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 1.3218347111321194e-06
+      },
+      {
+        "object": "right_x graduated rim",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_x ratchet",
+        "link": "right_x_knob",
+        "maximum_outside_proxy_mm": 9.963266661347503e-07
+      },
+      {
+        "object": "Right blue micrometer sleeve.001",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 9.467286468667346e-07
+      },
+      {
+        "object": "Right blue thimble end.001",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.001",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.002",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.003",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.004",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.005",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.006",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.007",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.008",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.009",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.010",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.011",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.012",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.013",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.014",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.015",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.016",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.017",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.018",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.019",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.020",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.021",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.022",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.023",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.024",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.025",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.026",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.027",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.028",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.029",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.030",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.031",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.032",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.033",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.034",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.035",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.036",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.037",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.038",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.039",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.040",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.041",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.042",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.043",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.044",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.045",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.046",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.047",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.048",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y axial micrometer graduation.049",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y bevel thimble",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 8.932839051789543e-07
+      },
+      {
+        "object": "right_y graduated rim",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_y ratchet",
+        "link": "right_y_knob",
+        "maximum_outside_proxy_mm": 8.344313556091221e-07
+      },
+      {
+        "object": "Right blue micrometer sleeve.002",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 7.700964969881152e-07
+      },
+      {
+        "object": "Right blue thimble end.002",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.001",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.002",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.003",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.004",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.005",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.006",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.007",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.008",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.009",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.010",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.011",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.012",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.013",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.014",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.015",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.016",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.017",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.018",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.019",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.020",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.021",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.022",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.023",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.024",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.025",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.026",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.027",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.028",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.029",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.030",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.031",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.032",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.033",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.034",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.035",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.036",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.037",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.038",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.039",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.040",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.041",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.042",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.043",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.044",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.045",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.046",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.047",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.048",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z axial micrometer graduation.049",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z bevel thimble",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 5.960464483090178e-07
+      },
+      {
+        "object": "right_z graduated rim",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 0.0
+      },
+      {
+        "object": "right_z ratchet",
+        "link": "right_z_knob",
+        "maximum_outside_proxy_mm": 6.783753631316863e-06
+      }
+    ],
+    "passed": true
+  },
+  "functional_contact_envelope": {
+    "scope": "Indexed objective stations and centered XY specimen only. Signed vertical extrema plus exact triangle intersection; negative gap is an unsafe commanded pose, not evidence that native dynamics permits passage.",
+    "poses": [
+      {
+        "focus_mm": -20,
+        "signed_vertical_gap_mm": 1.2999686633916319,
+        "sample_intersections": []
+      },
+      {
+        "focus_mm": 0,
+        "signed_vertical_gap_mm": 21.29997939222769,
+        "sample_intersections": []
+      },
+      {
+        "focus_mm": 20,
+        "signed_vertical_gap_mm": 41.29999012106375,
+        "sample_intersections": []
+      }
+    ],
+    "chuck_fixture_domain": {
+      "x_y_mm": [
+        -12.5,
+        -6.25,
+        0,
+        6.25,
+        12.5
+      ],
+      "theta_rad": [
+        -0.35,
+        0,
+        0.35
+      ],
+      "optic_focus_mm": -20
+    },
+    "chuck_fixture_sweep": [
+      {
+        "x_mm": -12.5,
+        "y_mm": -12.5,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": -12.5,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": -12.5,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": -6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": -6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": -6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": 0,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": 0,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": 0,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": 6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": 6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": 6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": 12.5,
+        "theta_rad": -0.35,
+        "intersections": [
+          {
+            "moving": "Mitutoyo front black aperture",
+            "target": "Chip clamp screw head.001",
+            "triangle_pairs": 53
+          },
+          {
+            "moving": "Mitutoyo front black aperture",
+            "target": "Chip clamp screw hex recess.001",
+            "triangle_pairs": 11
+          }
+        ]
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": 12.5,
+        "theta_rad": 0,
+        "intersections": [
+          {
+            "moving": "Mitutoyo front black aperture",
+            "target": "Chip clamp screw head.001",
+            "triangle_pairs": 22
+          }
+        ]
+      },
+      {
+        "x_mm": -12.5,
+        "y_mm": 12.5,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": -12.5,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": -12.5,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": -12.5,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": -6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": -6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": -6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": 0,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": 0,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": 0,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": 6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": 6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": 6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": 12.5,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": 12.5,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": -6.25,
+        "y_mm": 12.5,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": -12.5,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": -12.5,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": -12.5,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": -6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": -6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": -6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 0,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 0,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 0,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 12.5,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 12.5,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 12.5,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": -12.5,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": -12.5,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": -12.5,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": -6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": -6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": -6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": 0,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": 0,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": 0,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": 6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": 6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": 6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": 12.5,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": 12.5,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 6.25,
+        "y_mm": 12.5,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": -12.5,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": -12.5,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": -12.5,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": -6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": -6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": -6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": 0,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": 0,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": 0,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": 6.25,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": 6.25,
+        "theta_rad": 0,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": 6.25,
+        "theta_rad": 0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": 12.5,
+        "theta_rad": -0.35,
+        "intersections": []
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": 12.5,
+        "theta_rad": 0,
+        "intersections": [
+          {
+            "moving": "Mitutoyo front black aperture",
+            "target": "Chip clamp screw head",
+            "triangle_pairs": 22
+          }
+        ]
+      },
+      {
+        "x_mm": 12.5,
+        "y_mm": 12.5,
+        "theta_rad": 0.35,
+        "intersections": [
+          {
+            "moving": "Mitutoyo front black aperture",
+            "target": "Chip clamp screw head",
+            "triangle_pairs": 53
+          },
+          {
+            "moving": "Mitutoyo front black aperture",
+            "target": "Chip clamp screw hex recess",
+            "triangle_pairs": 11
+          }
+        ]
+      }
+    ]
+  },
+  "intersections_count": 0,
+  "passed_reported_exterior_pairs": true
+}

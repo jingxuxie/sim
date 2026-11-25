@@ -1,0 +1,46 @@
+{
+  "revision": "clearance1",
+  "asset": "tweezers",
+  "passed": true,
+  "geometry_changed": false,
+  "report": "006_tweezers/validation/clearance1/current.json",
+  "hashes": {
+    "006_tweezers/build.py": "0283593ea91f983469c7fb4a39c1165625cf2bde67730576533216903117a4f5",
+    "006_tweezers/asset.json": "1bd0fd55e1d9efc74b9dcb71c2d62cf6d81fc75f25a1a3e6a8ea7a4bbffac7c8",
+    "006_tweezers/spring_tweezers.xml": "c35d760566844f3c53827904d4bf373ad6f08e803c5c972a84f8d876a011d35b",
+    "006_tweezers/spring_tweezers.blend": "b89c238d314123892c30b2617fb4ad10c4eefb656f20b7c2c962993a2a459b12",
+    "006_tweezers/assets/spring_tweezers.glb": "2c79f0f4df2e8a547597144156b3e4ef368cecb295bdf31ce03d6e5ca9525e6e",
+    "006_tweezers/validation/clearance1/current.json": "26174b69842436f1d1026925445a4dbc21812fe3230a68c826709f1ac2656dbe"
+  },
+  "changes": [],
+  "checks": {
+    "structural_blade_and_heel_meshes_inside_collision_union": true,
+    "all_fixed_visual_triangles_inside_expanded_boxes": true,
+    "tool_surface_contact_masks_enabled": true,
+    "negative_low_approach_rejected": true,
+    "complete_positive_tasks_succeed": true,
+    "full_horizons_without_unintended_contact": true,
+    "visual_clearance_exceeds_adjacent_step_displacement": true,
+    "gentle_release_and_settling": true,
+    "settled_and_retracted": true
+  },
+  "positive_episodes": [
+    {
+      "task": "tweezers.place",
+      "success_time_s": 12.53999999999849,
+      "min_structural_tool_tray_separation_lower_bound_m": 0.0004959975029663966,
+      "failure": null
+    },
+    {
+      "task": "tweezers.pick",
+      "success_time_s": 3.6199999999997123,
+      "min_structural_tool_tray_separation_lower_bound_m": 0.009133079156411834,
+      "failure": null
+    }
+  ],
+  "negative_control": {
+    "time_s": 7.440000000000819,
+    "reason": "tool_collided_with_work_surface"
+  },
+  "scope": "Every exported triangle is clipped against the union of retained local collision boxes. Tool decoration outside those boxes is independently enclosed and checked during replay. Static boxes are expanded 50 um to include printing and shallow fixing washers; physics collision geometry is unchanged."
+}

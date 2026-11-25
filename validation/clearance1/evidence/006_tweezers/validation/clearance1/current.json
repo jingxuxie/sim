@@ -1,0 +1,765 @@
+{
+  "revision": "clearance1",
+  "passed": true,
+  "checks": {
+    "structural_blade_and_heel_meshes_inside_collision_union": true,
+    "all_fixed_visual_triangles_inside_expanded_boxes": true,
+    "tool_surface_contact_masks_enabled": true,
+    "negative_low_approach_rejected": true,
+    "complete_positive_tasks_succeed": true,
+    "full_horizons_without_unintended_contact": true,
+    "visual_clearance_exceeds_adjacent_step_displacement": true,
+    "gentle_release_and_settling": true,
+    "settled_and_retracted": true
+  },
+  "mesh_coverage": [
+    {
+      "triangles": 2488,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 0,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 5e-05,
+      "mesh": "base__brushed",
+      "body": "base"
+    },
+    {
+      "triangles": 3344,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 0,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 5e-05,
+      "mesh": "base__ceramic",
+      "body": "base"
+    },
+    {
+      "triangles": 428,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 0,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 5e-05,
+      "mesh": "base__cutting_mat_blue",
+      "body": "base"
+    },
+    {
+      "triangles": 752,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 0,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 5e-05,
+      "mesh": "base__ink",
+      "body": "base"
+    },
+    {
+      "triangles": 9392,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 0,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 5e-05,
+      "mesh": "base__label",
+      "body": "base"
+    },
+    {
+      "triangles": 5560,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 0,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 5e-05,
+      "mesh": "base__steel",
+      "body": "base"
+    },
+    {
+      "triangles": 3612,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 608,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 0,
+      "mesh": "jaw_left__brushed",
+      "body": "jaw_left"
+    },
+    {
+      "triangles": 64,
+      "max_vertex_outside_proxy_m": 3.5165133339537524e-06,
+      "triangles_requiring_union_clipping": 52,
+      "uncovered_triangles": 52,
+      "first_uncovered_triangles": [
+        {
+          "triangle": 0,
+          "uncovered_area_m2": 1.2412034768858928e-07
+        },
+        {
+          "triangle": 1,
+          "uncovered_area_m2": 1.0998742316878573e-07
+        },
+        {
+          "triangle": 2,
+          "uncovered_area_m2": 5.086450855305481e-08
+        },
+        {
+          "triangle": 3,
+          "uncovered_area_m2": 6.499743108498854e-08
+        },
+        {
+          "triangle": 8,
+          "uncovered_area_m2": 3.4797916872495983e-09
+        }
+      ],
+      "certified": false,
+      "proxy_padding_m": 0,
+      "mesh": "jaw_left__ink",
+      "body": "jaw_left"
+    },
+    {
+      "triangles": 16,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 4,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 0,
+      "mesh": "jaw_left__paper",
+      "body": "jaw_left"
+    },
+    {
+      "triangles": 876,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 76,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 0,
+      "mesh": "jaw_left__steel",
+      "body": "jaw_left"
+    },
+    {
+      "triangles": 3612,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 608,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 0,
+      "mesh": "jaw_right__brushed",
+      "body": "jaw_right"
+    },
+    {
+      "triangles": 876,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 76,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 0,
+      "mesh": "jaw_right__steel",
+      "body": "jaw_right"
+    },
+    {
+      "triangles": 2772,
+      "max_vertex_outside_proxy_m": 4.400000001500426e-09,
+      "triangles_requiring_union_clipping": 0,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 0,
+      "mesh": "tool__brushed",
+      "body": "tool"
+    },
+    {
+      "triangles": 516,
+      "max_vertex_outside_proxy_m": 0.0,
+      "triangles_requiring_union_clipping": 0,
+      "uncovered_triangles": 0,
+      "first_uncovered_triangles": [],
+      "certified": true,
+      "proxy_padding_m": 0,
+      "mesh": "tool__darkmetal",
+      "body": "tool"
+    }
+  ],
+  "decorative_meshes_checked_by_independent_enclosing_boxes": [
+    "jaw_left__ink"
+  ],
+  "static_decoration_allowance_m": 5e-05,
+  "episodes": [
+    {
+      "task": "tweezers.place",
+      "approach": "old 8.85 mm straight approach",
+      "first_success_time_s": null,
+      "first_failure": {
+        "time_s": 7.440000000000819,
+        "reason": "tool_collided_with_work_surface"
+      },
+      "simulated_seconds": 7.440000000000819,
+      "final_metrics": {
+        "success": false,
+        "failure": "tool_collided_with_work_surface",
+        "peak_contact_N": 1.8023483830302554,
+        "unintended_tool_contact_count": 8,
+        "error_m": 1.3653194112974994e-06,
+        "chip_z_m": 0.011556918492535371,
+        "bilateral_contact": true,
+        "settling_drop_m": 0.0,
+        "release": null,
+        "chip_tilt_deg": 0.20713051224433307,
+        "tray_support_contact": false,
+        "tool_retracted": false
+      },
+      "events": [
+        {
+          "event": "bilateral_grasp",
+          "time": 2.34
+        },
+        {
+          "event": "chip_lifted",
+          "time": 3.34
+        }
+      ],
+      "clearance": {
+        "physics_step_s": 0.001,
+        "min_structural_tool_base_separation_lower_bound_m": 0.0,
+        "min_structural_tool_tray_separation_lower_bound_m": 0.0,
+        "min_decorative_tool_base_separation_lower_bound_m": 0.004550442765917982,
+        "min_separation_time_s": 7.433000000000817,
+        "min_separation_pair": [
+          "jaw_left__Spring_blade_36",
+          "base__Tray_locating_edge"
+        ],
+        "maximum_adjacent_pose_displacement_bound_m": 5.198386802663021e-05,
+        "unintended_contact_physics_steps": 7,
+        "peak_unintended_force_N": 1.8231507566867562,
+        "peak_unintended_penetration_m": 3.724659198470828e-05,
+        "loss_of_bilateral_grasp": null,
+        "fully_released_from_tips": null,
+        "max_chip_center_settling_drop_m": 0.0,
+        "peak_chip_tray_contact_N": 0.0,
+        "first_unintended_contacts": [
+          {
+            "time_s": 7.435000000000818,
+            "contacts": [
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.3385191495255877,
+                "penetration_m": 1.4215514090343084e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.338519024190067,
+                "penetration_m": 1.4215513057825603e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.2696862040610495,
+                "penetration_m": 1.418066498313476e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.2687504540764833,
+                "penetration_m": 1.4180190161955033e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.338521121980375,
+                "penetration_m": 1.4215530339433131e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.3385209966448146,
+                "penetration_m": 1.4215529306915645e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.2687518239637021,
+                "penetration_m": 1.4180206976671482e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.2696874267752356,
+                "penetration_m": 1.4180679786101934e-05
+              }
+            ]
+          },
+          {
+            "time_s": 7.436000000000818,
+            "contacts": [
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.3455934641604657,
+                "penetration_m": 2.5453305342740955e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.3455932121778464,
+                "penetration_m": 2.545330301527716e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.2503094442358285,
+                "penetration_m": 2.5191488431209266e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.2490177279320298,
+                "penetration_m": 2.518792656192403e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.3455974297136255,
+                "penetration_m": 2.5453341970858147e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.345597177730733,
+                "penetration_m": 2.545333964339406e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.2490208780401852,
+                "penetration_m": 2.5187962563992784e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.2503122401645888,
+                "penetration_m": 2.519152017253459e-05
+              }
+            ]
+          },
+          {
+            "time_s": 7.437000000000818,
+            "contacts": [
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.425176440713853,
+                "penetration_m": 3.056652102607492e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.4251760656452204,
+                "penetration_m": 3.056651691717148e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.3010853248281433,
+                "penetration_m": 2.9976491698208854e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.2994130352369466,
+                "penetration_m": 2.9968465701910695e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.4251823433289108,
+                "penetration_m": 3.0566585689320026e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.4251819682594034,
+                "penetration_m": 3.0566581580416325e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.2994177980638184,
+                "penetration_m": 2.9968527891823033e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.3010895475778284,
+                "penetration_m": 2.9976546560389686e-05
+              }
+            ]
+          },
+          {
+            "time_s": 7.438000000000819,
+            "contacts": [
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.5364691943810556,
+                "penetration_m": 3.307891017644338e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.5364687049017791,
+                "penetration_m": 3.3078904219199635e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.3828977296886873,
+                "penetration_m": 3.211754577782722e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.3808441823141093,
+                "penetration_m": 3.210446910587539e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.5364768975354621,
+                "penetration_m": 3.3079003927655394e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.5364764080543158,
+                "penetration_m": 3.307899797041129e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.3808503206147176,
+                "penetration_m": 3.2104558105020236e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.382903171054858,
+                "penetration_m": 3.211762431503344e-05
+              }
+            ]
+          },
+          {
+            "time_s": 7.439000000000819,
+            "contacts": [
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.664228358684751,
+                "penetration_m": 3.461862119677033e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.6642277464600732,
+                "penetration_m": 3.4618613392379085e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.4797893117687493,
+                "penetration_m": 3.326971975116993e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.4773447199935679,
+                "penetration_m": 3.325137188764249e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.664237993549972,
+                "penetration_m": 3.461874401716552e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.6642373813219589,
+                "penetration_m": 3.461873621277379e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.4773522641094783,
+                "penetration_m": 3.325148746966655e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.479795999169967,
+                "penetration_m": 3.326982176443072e-05
+              }
+            ]
+          },
+          {
+            "time_s": 7.440000000000819,
+            "contacts": [
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.8023365935920668,
+                "penetration_m": 3.5910533727951484e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.8023358444609638,
+                "penetration_m": 3.5910524109777896e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.584126931768852,
+                "penetration_m": 3.4169916783226616e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.581262797254828,
+                "penetration_m": 3.414624070144941e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.8023483830302554,
+                "penetration_m": 3.591068509244235e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.8023476338937952,
+                "penetration_m": 3.5910675474268106e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.5812718378775499,
+                "penetration_m": 3.414638223593684e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.5841349461947376,
+                "penetration_m": 3.41700417149533e-05
+              }
+            ]
+          },
+          {
+            "time_s": 7.440000000000819,
+            "contacts": [
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.8231370816704433,
+                "penetration_m": 3.7246412894213275e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.8231362127256483,
+                "penetration_m": 3.724640151424086e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.578879150883814,
+                "penetration_m": 3.5114765811948736e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_left__Spring_blade_36",
+                "normal_N": 1.5757070826144892,
+                "penetration_m": 3.508577062879073e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.8231507566867562,
+                "penetration_m": 3.724659198470828e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.8231498877341858,
+                "penetration_m": 3.724658060473503e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.5757173487877851,
+                "penetration_m": 3.5085937231581556e-05
+              },
+              {
+                "a": "base__Tray_locating_edge",
+                "b": "jaw_right__Spring_blade_36",
+                "normal_N": 1.5788882522538814,
+                "penetration_m": 3.511491288020969e-05
+              }
+            ]
+          }
+        ],
+        "distance_method": "Euclidean separation of world AABBs enclosing each OBB at every 1 ms physics step. This is a conservative spatial lower bound. Zero denotes overlapping enclosing boxes, not an assertion of exact contact. Contact events/forces come independently from the MuJoCo solver. The maximum adjacent-pose displacement is provided as a sampling margin; this does not claim a general continuous-time dynamics proof."
+      }
+    },
+    {
+      "task": "tweezers.place",
+      "approach": "pitched delivery through open Y end",
+      "first_success_time_s": 12.53999999999849,
+      "first_failure": null,
+      "simulated_seconds": 20.00000000000146,
+      "final_metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.010556732791049121,
+        "unintended_tool_contact_count": 0,
+        "error_m": 7.463079313560848e-05,
+        "chip_z_m": 0.0090983187707916,
+        "bilateral_contact": false,
+        "settling_drop_m": 0.0006108798519809094,
+        "release": {
+          "time_s": 10.759999999999476,
+          "center_z_m": 0.00945919862277251,
+          "bottom_gap_m": 6.112822771272772e-05,
+          "tilt_deg": 7.690805469528002
+        },
+        "chip_tilt_deg": 1.2074182697257333e-06,
+        "tray_support_contact": true,
+        "tool_retracted": true
+      },
+      "events": [
+        {
+          "event": "bilateral_grasp",
+          "time": 2.34
+        },
+        {
+          "event": "chip_lifted",
+          "time": 3.34
+        },
+        {
+          "event": "chip_released",
+          "time": 10.76
+        },
+        {
+          "event": "chip_settled_on_tray",
+          "time": 10.8
+        },
+        {
+          "event": "tool_retracted",
+          "time": 12.26
+        }
+      ],
+      "clearance": {
+        "physics_step_s": 0.001,
+        "min_structural_tool_base_separation_lower_bound_m": 0.0004959975029663966,
+        "min_structural_tool_tray_separation_lower_bound_m": 0.0004959975029663966,
+        "min_decorative_tool_base_separation_lower_bound_m": 0.004550442765917982,
+        "min_separation_time_s": 9.061000000000417,
+        "min_separation_pair": [
+          "jaw_left__Flat_precision_tip_4",
+          "base__Target_insert"
+        ],
+        "maximum_adjacent_pose_displacement_bound_m": 7.451116803739012e-05,
+        "unintended_contact_physics_steps": 0,
+        "peak_unintended_force_N": 0.0,
+        "peak_unintended_penetration_m": 0.0,
+        "loss_of_bilateral_grasp": {
+          "time_s": 10.758999999999476,
+          "center_z_m": 0.009471451473620097,
+          "lowest_corner_gap_m": 6.778521848175775e-05,
+          "tilt_deg": 7.77082822549372
+        },
+        "fully_released_from_tips": {
+          "time_s": 10.758999999999476,
+          "center_z_m": 0.009471451473620097,
+          "lowest_corner_gap_m": 6.778521848175775e-05,
+          "tilt_deg": 7.77082822549372
+        },
+        "max_chip_center_settling_drop_m": 0.0007278896321886216,
+        "peak_chip_tray_contact_N": 0.0028401112115637216,
+        "first_unintended_contacts": [],
+        "distance_method": "Euclidean separation of world AABBs enclosing each OBB at every 1 ms physics step. This is a conservative spatial lower bound. Zero denotes overlapping enclosing boxes, not an assertion of exact contact. Contact events/forces come independently from the MuJoCo solver. The maximum adjacent-pose displacement is provided as a sampling margin; this does not claim a general continuous-time dynamics proof."
+      }
+    },
+    {
+      "task": "tweezers.pick",
+      "approach": "grip and lift",
+      "first_success_time_s": 3.6199999999997123,
+      "first_failure": null,
+      "simulated_seconds": 11.999999999998789,
+      "final_metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.010622458104319717,
+        "unintended_tool_contact_count": 0,
+        "error_m": 0.024188128264405445,
+        "chip_z_m": 0.022229187142430985,
+        "bilateral_contact": true,
+        "settling_drop_m": 0.0,
+        "release": null,
+        "chip_tilt_deg": 0.36730163373520774,
+        "tray_support_contact": false,
+        "tool_retracted": false
+      },
+      "events": [
+        {
+          "event": "bilateral_grasp",
+          "time": 2.34
+        },
+        {
+          "event": "chip_lifted",
+          "time": 3.34
+        }
+      ],
+      "clearance": {
+        "physics_step_s": 0.001,
+        "min_structural_tool_base_separation_lower_bound_m": 0.0009047238003955393,
+        "min_structural_tool_tray_separation_lower_bound_m": 0.009133079156411834,
+        "min_decorative_tool_base_separation_lower_bound_m": 0.004550442765917982,
+        "min_separation_time_s": 2.64299999999982,
+        "min_separation_pair": [
+          "jaw_right__Flat_precision_tip_4",
+          "base__Pick-up_pedestal"
+        ],
+        "maximum_adjacent_pose_displacement_bound_m": 2.5000551598859577e-05,
+        "unintended_contact_physics_steps": 0,
+        "peak_unintended_force_N": 0.0,
+        "peak_unintended_penetration_m": 0.0,
+        "loss_of_bilateral_grasp": null,
+        "fully_released_from_tips": null,
+        "max_chip_center_settling_drop_m": 0.0,
+        "peak_chip_tray_contact_N": 0.0,
+        "first_unintended_contacts": [],
+        "distance_method": "Euclidean separation of world AABBs enclosing each OBB at every 1 ms physics step. This is a conservative spatial lower bound. Zero denotes overlapping enclosing boxes, not an assertion of exact contact. Contact events/forces come independently from the MuJoCo solver. The maximum adjacent-pose displacement is provided as a sampling margin; this does not claim a general continuous-time dynamics proof."
+      }
+    }
+  ],
+  "coverage_method": "Every exported triangle is clipped against the union of retained local collision boxes. Tool decoration outside those boxes is independently enclosed and checked during replay. Static boxes are expanded 50 um to include printing and shallow fixing washers; physics collision geometry is unchanged.",
+  "sha256": {
+    "006_tweezers/build.py": "0283593ea91f983469c7fb4a39c1165625cf2bde67730576533216903117a4f5",
+    "006_tweezers/geometry_revision4.py": "b7978b3ce88cd9646e922dabb7728258abe894e9c68264bd24e217a60bd4c811",
+    "006_tweezers/spring_tweezers.xml": "c35d760566844f3c53827904d4bf373ad6f08e803c5c972a84f8d876a011d35b",
+    "006_tweezers/assets/spring_tweezers.glb": "2c79f0f4df2e8a547597144156b3e4ef368cecb295bdf31ce03d6e5ca9525e6e",
+    "benchmarks/tasks.py": "a59eb817e9963cde7bdad3ec41069ab3eb8b40155ba8f2cae4c3d5ef4df22993",
+    "benchmarks/sim.py": "9aa6fa10d60c5f7f30aa6af6a3717da35a651c9b7d45a4d0a7a3c5bd955b5bbc"
+  }
+}

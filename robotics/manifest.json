@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
+  "revision": "clearance1",
   "task": "transfer.gripper_turn_sample_x",
   "files": {
     "PANDA_LICENSE": {
@@ -11,107 +12,123 @@
       "sha256": "48bac2acea9d58a99cc93643f7ce60dc773fea39b85e6c1d6412f83c5ddbc86a"
     },
     "README.md": {
-      "bytes": 3001,
-      "sha256": "e1b34774e16a8873a9857afc646ce90a19411b07ad75c1b10e8472b1af67acf0"
+      "bytes": 2679,
+      "sha256": "4005b2168d394fa74c7eb488f21aee820df88278613208cc4225c4a12566f8f0"
     },
     "contact_task.mp4": {
-      "bytes": 1030498,
-      "sha256": "030e5d6427fa93ea5ae7f1a92db76172e443d29542374c4ecbb4b06e76d79e53"
+      "bytes": 979358,
+      "sha256": "90b51624e9409fc2491d6775fed6d0babf77153eab87db95ed6fb6298b3e850a"
     },
     "model.glb": {
-      "bytes": 56087400,
-      "sha256": "f0891f3b34c3464ee36d71ce5c15167b70eedf07c4cf8c7f6b84d1f63052ab81"
+      "bytes": 54135740,
+      "sha256": "56c6c594f3acc46310b1a781ff12cf404bdd1601bdf86561d97c9b90a4c34dd4"
     },
     "portable.tar.gz": {
-      "bytes": 311014,
-      "sha256": "34bc570f12e03e862b50b66a7626c9f452cf8a0463cba853f7d5fb63f3748d15"
+      "bytes": 314458,
+      "sha256": "dfdda8bd42852a8c37bb6b992ab3ab356c030ca8ab3b334942ec4c6d569d35b4"
     },
     "preview.png": {
-      "bytes": 6035338,
-      "sha256": "fd844d94cf292db3722df7d52f0529b654a0a3adbf7da4a1198d721f7831bd03"
+      "bytes": 6045458,
+      "sha256": "83f6b29dd80aea4d864dc5e89a787d6d073b292c4d74e9d87fb33e41459234eb"
     },
     "render_report.json": {
       "bytes": 646,
-      "sha256": "024f3b8dbfe327d40e66bc96b8bbcd8fb4f4128e1903a1d9bf26fb92520f74fd"
+      "sha256": "2545e02fac07062d713e64da0b6cc34762b74f1063529283809ede106907df65"
     },
     "trajectory.json": {
-      "bytes": 2710953,
-      "sha256": "2ac6b53684a83673023f439ffde23307c8fa40ff8af966d2d3ee50a89de2ebc2"
+      "bytes": 2704674,
+      "sha256": "ddf79606468fe7fe95107035cdd1c7ab24b46268b8a4fe4c447d8d1d03be6b30"
     },
     "validation/contact/seed_0/report.json": {
-      "bytes": 4180,
-      "sha256": "fe7310140b01b24798f9fe0d59b58e6926718bee0106093eb37b739888a6f977"
+      "bytes": 4428,
+      "sha256": "a48aeb6a278d8f529835b060dd570c276f5197abae0eb2204e03cbb193b803af"
     },
     "validation/contact/seed_11/report.json": {
-      "bytes": 4185,
-      "sha256": "35235b11c313bcf3112018317164a9fd93d1c798d59c081079b3ac9e178e38bd"
+      "bytes": 4410,
+      "sha256": "438091c3e9f59a7e229116902ee3e63c29ca5fc5988059be52064f22a4986003"
     },
     "validation/contact/seed_37/report.json": {
-      "bytes": 4156,
-      "sha256": "6d7b58174782433e5a9c0503a687d2ecdb88e3a598a8a41e6702edd330ea5b7c"
+      "bytes": 4404,
+      "sha256": "a33e5c2bd51f834af0b661bde5b4eeb172a0a129b21418c2b5a9d638817defa4"
     },
     "validation/contacts_disabled/seed_0/report.json": {
-      "bytes": 4031,
-      "sha256": "5a6d2c256a2b443ab5f6e7a05d30aeb5ccbd3489b8f8b5ffc0b4e3f1a4bc2fde"
+      "bytes": 4283,
+      "sha256": "cc1ff3639df9c3c86016205bd6a626f38607f672f8b7c79153cfde9262269140"
     },
     "validation/contacts_disabled/seed_11/report.json": {
-      "bytes": 4036,
-      "sha256": "99e4cdd33e80ff18713692231e854b79661ebb15794e20e2a319134a1fceb640"
+      "bytes": 4288,
+      "sha256": "9b48edf25ec855c724b6ba4308a893c9ba3fe60b8fd52d5621309829d8869447"
     },
     "validation/contacts_disabled/seed_37/report.json": {
-      "bytes": 4033,
-      "sha256": "c6eea6862c2d2c2a2953e489f1689925a09f703279019707012f864bbf63acc4"
+      "bytes": 4284,
+      "sha256": "d91548389d5d5e6ea546363ab650391a8952cdeca45f606830a370804fa87ac8"
     },
     "validation/glb_alignment.json": {
       "bytes": 599,
-      "sha256": "5d30d77d1650517aaf9cb9e2570ae680a2107d979749e4d4f63c227f03c01096"
+      "sha256": "f50e276f195efb1ba5014427fd61cee3df7eeaa79f2fcdf1e929734822509d81"
+    },
+    "validation/hose_seed_0.json": {
+      "bytes": 524472,
+      "sha256": "0658ede70dd8e70464dc1723c899f7ddbe45ad155c098a5ae715584d6c26e882"
+    },
+    "validation/hose_seed_11.json": {
+      "bytes": 524711,
+      "sha256": "02b8e99bbd356f44fc84f897809ca4a644d68c94ac168c9f64598327249a835c"
+    },
+    "validation/hose_seed_37.json": {
+      "bytes": 524839,
+      "sha256": "4c9cb1863ecfed4072020080c14430b64d38efd0ada7313cf490be46f29ab0cf"
     },
     "validation/missed_grasp/seed_0/report.json": {
-      "bytes": 4028,
-      "sha256": "a98d54f62e079faa38fb716e291a304a415b87e69f7ba8f7a94642c51c07db9a"
+      "bytes": 4280,
+      "sha256": "6535ebaad265d9324bcb4f0cde3d24494ef511a7b7596c01d4a85b2cfcf9355d"
     },
     "validation/missed_grasp/seed_11/report.json": {
-      "bytes": 4033,
-      "sha256": "e1ee00225e9740fa40f42287805d54a78d25766369436a069b6e0a406329184f"
+      "bytes": 4285,
+      "sha256": "0c7d49e0a07f50c642bdf2b61967426b5fce54bdcc58894a032cd51ccb20ca14"
     },
     "validation/missed_grasp/seed_37/report.json": {
-      "bytes": 4030,
-      "sha256": "11c77e0fe99572693eabc06f92499cbf1c94473badd04b95769b5a96dfada332"
+      "bytes": 4281,
+      "sha256": "e37e07ed91126022e17f1e38d0a575e21a56c0228978929fd4f4a8625ffe6714"
     },
     "validation/no_turn/seed_0/report.json": {
-      "bytes": 4181,
-      "sha256": "9680eee6ba1480138b64143362a365e55e10396ffeab947d619941c2e7a5d18d"
+      "bytes": 4438,
+      "sha256": "21b16457f6096798099b520a1a32bd28b3efe406466d0e6c3aad89bca93cc347"
     },
     "validation/no_turn/seed_11/report.json": {
-      "bytes": 4186,
-      "sha256": "4816bf41dc54bd9196d5e1741d730f78c3b9a292d5a88be27f594da17769698e"
+      "bytes": 4437,
+      "sha256": "ad514c85ff698571b8c67a7b8d3a3c746402ea6bdf90cfc7396d32d54ab6e083"
     },
     "validation/no_turn/seed_37/report.json": {
-      "bytes": 4184,
-      "sha256": "d483b181d85bcde14ada4ab3fee3ae6a36ae8f8e30ae274bb3e79916e32ba629"
+      "bytes": 4431,
+      "sha256": "7aeb392cfdb73d4a9baaf73ce3ce9c2f97e42b0fe5945b89d546f0896ef4d2a2"
     },
     "validation/portable_summary.json": {
-      "bytes": 2030,
-      "sha256": "071899210c7c1763530cb8f5341f8353e74463f4b8d9b4f40e9b477c55c9daee"
+      "bytes": 2033,
+      "sha256": "67034f3db429df58e693cdc286687847294708800ba46cadadc3e3935edbacb8"
     },
     "validation/portable_verification.json": {
-      "bytes": 494,
-      "sha256": "36a361829e9aa8b406443a8c514a046a01562f103e4bb4bcd0c63b6149cab6e4"
+      "bytes": 6485,
+      "sha256": "81a689255a383bed8fa6c5675a6045a736781ef5a1262fb8e9e6125b77cbf190"
     },
     "validation/summary.json": {
-      "bytes": 5103,
-      "sha256": "4d50b7391c0c57d0d9aa8a357068175f3ee46d94012d00cf9c28d3fb22f848f2"
+      "bytes": 5104,
+      "sha256": "37b27f33320fbe42cc21495f290edd0186a839bb6db0bfcb18c5e83b98be3124"
+    },
+    "validation/visual_table_clearance.json": {
+      "bytes": 2508,
+      "sha256": "1b22f85ee52212209fa2cc71f8f1c936b66adacc90d82b9711d7dd99cf30bcec"
     },
     "video_report.json": {
-      "bytes": 408,
-      "sha256": "a48dbbf8c4aa9572cd05a458d3c413fa266c4f1bc5fcc05cb2b331c2bb7da368"
+      "bytes": 405,
+      "sha256": "46b42b9d620f094d78a4e76f61712a1c7f96bba24b793f6c3d6ec4c406047bf4"
     },
     "visuals_report.json": {
       "bytes": 1029,
-      "sha256": "f5b77e0df93ff743db0f4095b58f82ceab4f5355180547345de927cd06b5d410"
+      "sha256": "558dadb9a77c32130a85e2314514406df3599d9049e7318a8d7a5e4e71b15438"
     }
   },
-  "scope": "Native gripper contact benchmark with Cartesian wrist; no full arm/browser robot control",
+  "scope": "Native MuJoCo contact task; Cartesian wrist fixture, no articulated arm",
   "native_positive_trials": 3,
   "native_negative_controls": 9,
   "portable_checks": 4

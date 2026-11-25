@@ -116,6 +116,44 @@
           ]
         },
         {
+          "name": "sample_x actuator mounting extension",
+          "type": "box",
+          "pos_mm": [
+            -171.0,
+            -20.0,
+            30.0
+          ],
+          "size_mm": [
+            12.0,
+            9.5,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "sample_x actuator split clamp",
+          "type": "box",
+          "pos_mm": [
+            -182.0,
+            -20.0,
+            40.0
+          ],
+          "size_mm": [
+            8.0,
+            8.5,
+            7.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
           "name": "Extrusion beam",
           "type": "box",
           "pos_mm": [
@@ -173,17 +211,226 @@
           ]
         },
         {
-          "name": "Fiber-Lite housing",
+          "name": "stamp_x actuator mounting extension",
           "type": "box",
           "pos_mm": [
-            410,
-            140,
-            63
+            222.5,
+            -20.0,
+            84.0
           ],
           "size_mm": [
-            86.36,
-            105.4,
-            62
+            12.0,
+            9.5,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "stamp_x actuator split clamp",
+          "type": "box",
+          "pos_mm": [
+            233.5,
+            -20.0,
+            94.0
+          ],
+          "size_mm": [
+            8.0,
+            8.5,
+            7.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Fiber-Lite housing left",
+          "type": "box",
+          "pos_mm": [
+            355.32000732421875,
+            140.0,
+            63.0
+          ],
+          "size_mm": [
+            31.67999267578125,
+            105.39999389648438,
+            62.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Fiber-Lite housing right",
+          "type": "box",
+          "pos_mm": [
+            449.67999267578125,
+            140.0,
+            63.0
+          ],
+          "size_mm": [
+            46.67999267578125,
+            105.39999389648438,
+            62.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Fiber-Lite housing lower",
+          "type": "box",
+          "pos_mm": [
+            395.0,
+            140.0,
+            7.125
+          ],
+          "size_mm": [
+            8.0,
+            105.39999389648438,
+            6.125
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Fiber-Lite housing upper",
+          "type": "box",
+          "pos_mm": [
+            395.0,
+            140.0,
+            81.875
+          ],
+          "size_mm": [
+            8.0,
+            105.39999389648438,
+            43.125
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Fiber-Lite housing pocket back",
+          "type": "box",
+          "pos_mm": [
+            395.0,
+            145.0,
+            26.0
+          ],
+          "size_mm": [
+            8.0,
+            100.39999389648438,
+            12.75
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Illuminator switch cavity liner",
+          "type": "box",
+          "pos_mm": [
+            395.0,
+            44.199999999999996,
+            26.0
+          ],
+          "size_mm": [
+            7.8,
+            0.3,
+            12.55
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Illuminator rocker surround side",
+          "type": "box",
+          "pos_mm": [
+            386.0,
+            34.099998474121094,
+            26.0
+          ],
+          "size_mm": [
+            1,
+            1.5,
+            14.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Illuminator rocker surround end",
+          "type": "box",
+          "pos_mm": [
+            395.0,
+            34.099998474121094,
+            12.375
+          ],
+          "size_mm": [
+            8,
+            1.5,
+            0.875
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Illuminator rocker surround side",
+          "type": "box",
+          "pos_mm": [
+            404.0,
+            34.099998474121094,
+            26.0
+          ],
+          "size_mm": [
+            1,
+            1.5,
+            14.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Illuminator rocker surround end",
+          "type": "box",
+          "pos_mm": [
+            395.0,
+            34.099998474121094,
+            39.625
+          ],
+          "size_mm": [
+            8,
+            1.5,
+            0.875
           ],
           "axis": [
             0,
@@ -466,7 +713,121 @@
             0.0,
             -0.32061299058567627,
             -0.9472102777460288
-          ]
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective grip ring",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -41.58022868932731,
+            -41.25793916561895
+          ],
+          "size_mm": [
+            15.3,
+            9
+          ],
+          "axis": [
+            0.0,
+            -0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective smooth barrel ring",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -41.41992219403448,
+            -40.78433402674594
+          ],
+          "size_mm": [
+            15.2,
+            8.5
+          ],
+          "axis": [
+            0.0,
+            -0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective identification band",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -45.106971585769756,
+            -51.67725222082527
+          ],
+          "size_mm": [
+            15.1,
+            0.75
+          ],
+          "axis": [
+            0.0,
+            -0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective aperture contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -53.76352233158302,
+            -77.25192971996805
+          ],
+          "size_mm": [
+            7.8,
+            0.2
+          ],
+          "axis": [
+            0.0,
+            -0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective front optic contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -53.827644929700156,
+            -77.44137177551725
+          ],
+          "size_mm": [
+            4.5,
+            0.15
+          ],
+          "axis": [
+            0.0,
+            -0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
         },
         {
           "name": "Objective barrel",
@@ -484,7 +845,143 @@
             0.32061299058567627,
             -1.9631883634290447e-17,
             -0.9472102777460288
-          ]
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective adjustment ring",
+          "type": "cylinder",
+          "pos_mm": [
+            35.48858186819947,
+            -2.1730489095584638e-15,
+            -23.2609438884444
+          ],
+          "size_mm": [
+            15.8,
+            3
+          ],
+          "axis": [
+            0.32061299058567627,
+            -1.9631883634290447e-17,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective adjustment ring",
+          "type": "cylinder",
+          "pos_mm": [
+            40.29777672698461,
+            -2.4675271640728204e-15,
+            -37.46909805463484
+          ],
+          "size_mm": [
+            15.8,
+            3
+          ],
+          "axis": [
+            0.32061299058567627,
+            -1.9631883634290447e-17,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective adjustment ring",
+          "type": "cylinder",
+          "pos_mm": [
+            44.4657456045984,
+            -2.7227416513185962e-15,
+            -49.78283166533321
+          ],
+          "size_mm": [
+            15.8,
+            3
+          ],
+          "axis": [
+            0.32061299058567627,
+            -1.9631883634290447e-17,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective magnification band",
+          "type": "cylinder",
+          "pos_mm": [
+            48.95432747279787,
+            -2.997588022198663e-15,
+            -63.043775553777614
+          ],
+          "size_mm": [
+            15.05,
+            0.85
+          ],
+          "axis": [
+            0.32061299058567627,
+            -1.9631883634290447e-17,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective aperture contact",
+          "type": "cylinder",
+          "pos_mm": [
+            52.160457378654634,
+            -3.193906858541567e-15,
+            -72.5158783312379
+          ],
+          "size_mm": [
+            7.8,
+            0.2
+          ],
+          "axis": [
+            0.32061299058567627,
+            -1.9631883634290447e-17,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective front optic contact",
+          "type": "cylinder",
+          "pos_mm": [
+            52.22457997677177,
+            -3.1978332352684253e-15,
+            -72.70532038678712
+          ],
+          "size_mm": [
+            4.5,
+            0.15
+          ],
+          "axis": [
+            0.32061299058567627,
+            -1.9631883634290447e-17,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
         },
         {
           "name": "Objective barrel",
@@ -502,7 +999,143 @@
             3.9263767268580894e-17,
             0.32061299058567627,
             -0.9472102777460288
-          ]
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective adjustment ring",
+          "type": "cylinder",
+          "pos_mm": [
+            4.3460978191169276e-15,
+            35.48858186819947,
+            -23.2609438884444
+          ],
+          "size_mm": [
+            15.8,
+            3
+          ],
+          "axis": [
+            3.9263767268580894e-17,
+            0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective adjustment ring",
+          "type": "cylinder",
+          "pos_mm": [
+            4.935054328145641e-15,
+            40.29777672698461,
+            -37.46909805463484
+          ],
+          "size_mm": [
+            15.8,
+            3
+          ],
+          "axis": [
+            3.9263767268580894e-17,
+            0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective adjustment ring",
+          "type": "cylinder",
+          "pos_mm": [
+            5.4454833026371925e-15,
+            44.4657456045984,
+            -49.78283166533321
+          ],
+          "size_mm": [
+            15.8,
+            3
+          ],
+          "axis": [
+            3.9263767268580894e-17,
+            0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective magnification band",
+          "type": "cylinder",
+          "pos_mm": [
+            5.720329673517259e-15,
+            46.710036538698134,
+            -56.41330360955541
+          ],
+          "size_mm": [
+            15.05,
+            0.85
+          ],
+          "axis": [
+            3.9263767268580894e-17,
+            0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective aperture contact",
+          "type": "cylinder",
+          "pos_mm": [
+            6.112967346203068e-15,
+            49.916166444554904,
+            -65.8854063870157
+          ],
+          "size_mm": [
+            7.8,
+            0.2
+          ],
+          "axis": [
+            3.9263767268580894e-17,
+            0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
+        },
+        {
+          "name": "Objective front optic contact",
+          "type": "cylinder",
+          "pos_mm": [
+            6.120820099656785e-15,
+            49.98028904267204,
+            -66.0748484425649
+          ],
+          "size_mm": [
+            4.5,
+            0.15
+          ],
+          "axis": [
+            3.9263767268580894e-17,
+            0.32061299058567627,
+            -0.9472102777460288
+          ],
+          "contype": 10,
+          "conaffinity": 17,
+          "solref": ".002 1",
+          "solimp": ".99 .999 .0001"
         }
       ],
       "sites": {
@@ -672,6 +1305,44 @@
             0,
             1
           ]
+        },
+        {
+          "name": "sample_y actuator mounting extension",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -58.0,
+            13.0
+          ],
+          "size_mm": [
+            9.5,
+            12.0,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "sample_y actuator split clamp",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -69.0,
+            23.0
+          ],
+          "size_mm": [
+            8.0,
+            8.5,
+            7.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
         }
       ],
       "sites": {},
@@ -680,9 +1351,9 @@
     "sample_x_spindle": {
       "parent": "base",
       "pos_mm": [
-        -167.0,
+        -182.0,
         -20.0,
-        35.0
+        40.0
       ],
       "euler": [
         0,
@@ -750,16 +1421,52 @@
       ],
       "collisions": [
         {
+          "name": "sample_x_coarse_wheel_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            -21.0,
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            15,
+            4
+          ],
+          "axis": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "sample_x_differential_collar_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            -16.0,
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            13.5,
+            1.5
+          ],
+          "axis": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
           "name": "sample_x_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            -3.5,
+            0.0,
+            0.0
           ],
           "size_mm": [
-            11,
-            18
+            11.15,
+            15.5
           ],
           "axis": [
             -1.0,
@@ -892,8 +1599,8 @@
       "parent": "sample_x",
       "pos_mm": [
         0.0,
-        -54.0,
-        18.0
+        -69.0,
+        23.0
       ],
       "euler": [
         0,
@@ -961,16 +1668,52 @@
       ],
       "collisions": [
         {
+          "name": "sample_y_coarse_wheel_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -21.0,
+            0.0
+          ],
+          "size_mm": [
+            15,
+            4
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "name": "sample_y_differential_collar_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -16.0,
+            0.0
+          ],
+          "size_mm": [
+            13.5,
+            1.5
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
           "name": "sample_y_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            0.0,
+            -3.5,
+            0.0
           ],
           "size_mm": [
-            11,
-            18
+            11.15,
+            15.5
           ],
           "axis": [
             0.0,
@@ -1062,7 +1805,7 @@
           "type": "cylinder",
           "pos_mm": [
             0,
-            -5,
+            -6.5,
             0
           ],
           "size_mm": [
@@ -1080,7 +1823,7 @@
         "rotation_lock_grip": {
           "pos_mm": [
             0,
-            -5,
+            -6.5,
             0
           ]
         }
@@ -1175,6 +1918,42 @@
             -1,
             0
           ]
+        },
+        {
+          "name": "481-A fine collar contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            11,
+            0
+          ],
+          "size_mm": [
+            6.3,
+            2.5
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "name": "481-A fine cap",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            -14,
+            0
+          ],
+          "size_mm": [
+            5.6,
+            1.0
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ]
         }
       ],
       "sites": {
@@ -1234,7 +2013,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Heater support",
@@ -1253,7 +2034,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Heated workholder",
@@ -1272,7 +2055,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "device_chip",
@@ -1291,7 +2076,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         }
       ],
       "sites": {
@@ -1412,6 +2199,44 @@
             0,
             1
           ]
+        },
+        {
+          "name": "stamp_y actuator mounting extension",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -57.5,
+            17.0
+          ],
+          "size_mm": [
+            9.5,
+            12.0,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "stamp_y actuator split clamp",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -68.5,
+            27.0
+          ],
+          "size_mm": [
+            8.0,
+            8.5,
+            7.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
         }
       ],
       "sites": {},
@@ -1420,9 +2245,9 @@
     "stamp_x_spindle": {
       "parent": "base",
       "pos_mm": [
-        218.5,
+        233.5,
         -20.0,
-        89.0
+        94.0
       ],
       "euler": [
         0,
@@ -1493,13 +2318,13 @@
           "name": "stamp_x_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            3.5,
+            0.0,
+            0.0
           ],
           "size_mm": [
-            8,
-            18
+            8.15,
+            15.5
           ],
           "axis": [
             1.0,
@@ -1643,6 +2468,82 @@
             0,
             1
           ]
+        },
+        {
+          "name": "stamp_z actuator mounting extension",
+          "type": "box",
+          "pos_mm": [
+            -62.5,
+            -73.0,
+            16.0
+          ],
+          "size_mm": [
+            15.5,
+            24.0,
+            4.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "stamp_z actuator mounting attachment",
+          "type": "box",
+          "pos_mm": [
+            -45.0,
+            -45.5,
+            16.0
+          ],
+          "size_mm": [
+            7.0,
+            13.5,
+            4.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "stamp_z fixed actuator bracket upright",
+          "type": "box",
+          "pos_mm": [
+            -62.5,
+            -90.0,
+            42.75
+          ],
+          "size_mm": [
+            12.0,
+            5.0,
+            30.75
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "stamp_z fixed actuator bracket head",
+          "type": "box",
+          "pos_mm": [
+            -62.5,
+            -81.0,
+            69.5
+          ],
+          "size_mm": [
+            12.0,
+            15.0,
+            4.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
         }
       ],
       "sites": {},
@@ -1652,8 +2553,8 @@
       "parent": "stamp_x",
       "pos_mm": [
         0.0,
-        -53.5,
-        22.0
+        -68.5,
+        27.0
       ],
       "euler": [
         0,
@@ -1724,13 +2625,13 @@
           "name": "stamp_y_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            0.0,
+            -3.5,
+            0.0
           ],
           "size_mm": [
-            8,
-            18
+            8.15,
+            15.5
           ],
           "axis": [
             0.0,
@@ -1805,12 +2706,31 @@
           "pos_mm": [
             0,
             0,
-            1
+            -3
           ],
           "size_mm": [
             37.0,
             28.5,
-            15.0
+            11.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "stamp_z spindle reaction tab",
+          "type": "box",
+          "pos_mm": [
+            -62.5,
+            -50.5,
+            -8
+          ],
+          "size_mm": [
+            13.0,
+            19.0,
+            3.5
           ],
           "axis": [
             0,
@@ -1855,6 +2775,25 @@
             0,
             1
           ]
+        },
+        {
+          "name": "Goniometer actuator mounting pad",
+          "type": "box",
+          "pos_mm": [
+            -72.5,
+            0,
+            32.5
+          ],
+          "size_mm": [
+            5.0,
+            9.0,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
         }
       ],
       "sites": {},
@@ -1864,8 +2803,8 @@
       "parent": "stamp_y",
       "pos_mm": [
         -62.5,
-        -42.5,
-        35.0
+        -58.5,
+        82.5
       ],
       "euler": [
         0,
@@ -1936,13 +2875,13 @@
           "name": "stamp_z_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            0.0,
+            0.0,
+            3.5
           ],
           "size_mm": [
-            8,
-            18
+            8.15,
+            15.5
           ],
           "axis": [
             0.0,
@@ -2009,7 +2948,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Horizontal stamp support",
@@ -2028,7 +2969,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Glass stamp slide",
@@ -2047,7 +2990,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Stamp silicone pad",
@@ -2067,8 +3012,8 @@
             0,
             1
           ],
-          "contype": 1,
-          "conaffinity": 3
+          "contype": 17,
+          "conaffinity": 11
         }
       ],
       "sites": {
@@ -2084,9 +3029,9 @@
     "goniometer_spindle": {
       "parent": "stamp_z",
       "pos_mm": [
-        -73,
+        -78,
         0,
-        44
+        48.5
       ],
       "euler": [
         0,
@@ -2249,9 +3194,9 @@
     "illuminator_power": {
       "parent": "base",
       "pos_mm": [
-        395,
-        34.099999999999994,
-        26
+        395.0,
+        34.099998474121094,
+        26.0
       ],
       "euler": [
         0,
@@ -2580,6 +3525,9 @@
   "initial_joint_positions": {
     "illumination_angle": 4.71238898038469,
     "illumination_power_angle": 0.35
+  },
+  "fixture_control_rates": {
+    "scope_focus_travel": 0.005
   },
   "rotation_mechanism": {
     "diameter_mm": 73.2,

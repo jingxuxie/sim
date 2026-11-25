@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "598801935f197bc5c9652aae57a1b8a9a5227aa86b33a7602df59d020c303259",
+  "physics_sha256": "c3bab0e4419e26b8e7600dc22b18a1d6b2256003f581aaa7b45dfbdca6186cc9",
   "shapes": [
     {
       "name": "base__Foot_contact",
@@ -289,8 +289,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -318,8 +318,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -347,8 +347,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -376,8 +376,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -405,8 +405,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -416,7 +416,7 @@
       "pos": [
         0.118,
         0.051,
-        -0.004
+        -0.006
       ],
       "quat": [
         1.0,
@@ -434,8 +434,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -463,8 +463,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -492,8 +492,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -521,8 +521,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -550,8 +550,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -579,8 +579,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -608,8 +608,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -637,8 +637,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -666,8 +666,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -695,8 +695,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -724,8 +724,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 18,
+      "conaffinity": 9,
       "condim": 4
     },
     {
@@ -879,8 +879,8 @@
       "type": "cylinder",
       "pos": [
         0.0,
-        -0.03801573497,
-        -0.03613857606
+        -0.03696337414,
+        -0.03191778821
       ],
       "quat": [
         0.12186934340242568,
@@ -889,8 +889,8 @@
         -0.0
       ],
       "size": [
-        0.012,
-        0.029,
+        0.01225,
+        0.02465,
         0.0
       ],
       "friction": [
@@ -898,8 +898,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 10,
+      "conaffinity": 17,
       "condim": 4
     },
     {
@@ -907,9 +907,9 @@
       "body": "turret",
       "type": "cylinder",
       "pos": [
-        0.03604007177,
-        -0.01171012917,
-        -0.0356534282
+        0.03503921716,
+        -0.01138493208,
+        -0.03143264037
       ],
       "quat": [
         0.12186934338161517,
@@ -918,8 +918,8 @@
         -0.0
       ],
       "size": [
-        0.012,
-        0.0285,
+        0.01225,
+        0.02415,
         0.0
       ],
       "friction": [
@@ -927,8 +927,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 10,
+      "conaffinity": 17,
       "condim": 4
     },
     {
@@ -936,9 +936,9 @@
       "body": "turret",
       "type": "cylinder",
       "pos": [
-        0.02134970151,
-        0.02938534317,
-        -0.02934650598
+        0.02073113883,
+        0.028533966,
+        -0.02512571853
       ],
       "quat": [
         0.12186934340979022,
@@ -947,8 +947,8 @@
         0.0
       ],
       "size": [
-        0.012,
-        0.022,
+        0.01225,
+        0.01765,
         0.0
       ],
       "friction": [
@@ -956,8 +956,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 10,
+      "conaffinity": 17,
       "condim": 4
     },
     {
@@ -965,9 +965,9 @@
       "body": "turret",
       "type": "cylinder",
       "pos": [
-        -0.02198959307,
-        0.03026607833,
-        -0.03371283675
+        -0.02137103035,
+        0.02941470118,
+        -0.02949204904
       ],
       "quat": [
         0.12186934340979022,
@@ -976,8 +976,8 @@
         0.0
       ],
       "size": [
-        0.012,
-        0.0265,
+        0.01225,
+        0.02215,
         0.0
       ],
       "friction": [
@@ -985,8 +985,8 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 10,
+      "conaffinity": 17,
       "condim": 4
     },
     {
@@ -994,9 +994,9 @@
       "body": "turret",
       "type": "cylinder",
       "pos": [
-        -0.03627015316,
-        -0.01178488715,
-        -0.03662372393
+        -0.03526929854,
+        -0.01145969006,
+        -0.03240293604
       ],
       "quat": [
         0.12186934338161517,
@@ -1005,8 +1005,8 @@
         0.0
       ],
       "size": [
-        0.012,
-        0.0295,
+        0.01225,
+        0.02515,
         0.0
       ],
       "friction": [
@@ -1014,8 +1014,298 @@
         0.002,
         0.0001
       ],
-      "contype": 2,
-      "conaffinity": 1,
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_shoulder_20",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.04400934866,
+        -0.06017764953
+      ],
+      "quat": [
+        0.12186933903760774,
+        0.9925461521775885,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.00935,
+        0.004475,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_glass_20",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.04510404513,
+        -0.06456823742
+      ],
+      "quat": [
+        0.12186933903760774,
+        0.9925461521775885,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0036,
+        0.00015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_shoulder_50",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.04162529664,
+        -0.01352487921,
+        -0.05920735386
+      ],
+      "quat": [
+        0.12186934338224725,
+        0.3067136523709866,
+        0.9439674775080068,
+        -0.0
+      ],
+      "size": [
+        0.00935,
+        0.004475,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_glass_50",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.04266641489,
+        -0.01386315906,
+        -0.06359794176
+      ],
+      "quat": [
+        0.12186934338224725,
+        0.3067136523709866,
+        0.9439674775080068,
+        -0.0
+      ],
+      "size": [
+        0.0036,
+        0.00015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_shoulder_5",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.02387727213,
+        0.03286424731,
+        -0.04659351018
+      ],
+      "quat": [
+        0.12186935020775934,
+        -0.8029867232122703,
+        0.583403962812012,
+        0.0
+      ],
+      "size": [
+        0.00935,
+        0.004475,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_glass_5",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        0.02452071861,
+        0.03374987546,
+        -0.05098409808
+      ],
+      "quat": [
+        0.12186935020775934,
+        -0.8029867232122703,
+        0.583403962812012,
+        0.0
+      ],
+      "size": [
+        0.0036,
+        0.00015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_shoulder_10",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.02515705517,
+        0.03462571767,
+        -0.05532617119
+      ],
+      "quat": [
+        0.12186935020775934,
+        -0.8029867232122703,
+        -0.583403962812012,
+        0.0
+      ],
+      "size": [
+        0.00935,
+        0.004475,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_glass_10",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.02580050165,
+        0.03551134583,
+        -0.05971675909
+      ],
+      "quat": [
+        0.12186935020775934,
+        -0.8029867232122703,
+        -0.583403962812012,
+        0.0
+      ],
+      "size": [
+        0.0036,
+        0.00015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_shoulder_100",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.0420854594,
+        -0.01367439516,
+        -0.0611479452
+      ],
+      "quat": [
+        0.12186934338224725,
+        0.3067136523709866,
+        -0.9439674775080068,
+        0.0
+      ],
+      "size": [
+        0.00935,
+        0.004475,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "turret__Objective_front_glass_100",
+      "body": "turret",
+      "type": "cylinder",
+      "pos": [
+        -0.04312657765,
+        -0.01401267502,
+        -0.06553853309
+      ],
+      "quat": [
+        0.12186934338224725,
+        0.3067136523709866,
+        -0.9439674775080068,
+        0.0
+      ],
+      "size": [
+        0.0036,
+        0.00015,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 10,
+      "conaffinity": 17,
       "condim": 4
     },
     {

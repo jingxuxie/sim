@@ -324,8 +324,8 @@
         "damping": 0.6,
         "frictionloss": 0.01,
         "range": [
-          -0.0079375,
-          0.0079375
+          -0.004375,
+          0.004375
         ]
       },
       "mass": 0.07,
@@ -357,8 +357,8 @@
         "damping": 0.6,
         "frictionloss": 0.01,
         "range": [
-          -0.0079375,
-          0.0079375
+          -0.001875,
+          0.001875
         ]
       },
       "mass": 0.07,
@@ -390,8 +390,8 @@
         "damping": 0.6,
         "frictionloss": 0.01,
         "range": [
-          -0.0127,
-          0.003
+          -0.002625,
+          0.00075
         ]
       },
       "mass": 0.07,
@@ -542,8 +542,8 @@
         "damping": 1.0,
         "frictionloss": 0.15,
         "range": [
-          -0.0635,
-          0.0635
+          -0.035,
+          0.035
         ]
       },
       "mass": 0.12,
@@ -575,8 +575,8 @@
         "damping": 1.0,
         "frictionloss": 0.15,
         "range": [
-          -0.0635,
-          0.0635
+          -0.015,
+          0.015
         ]
       },
       "mass": 0.12,
@@ -608,8 +608,8 @@
         "damping": 1.0,
         "frictionloss": 0.15,
         "range": [
-          -0.1016,
-          0.024
+          -0.021,
+          0.006
         ]
       },
       "mass": 0.12,
@@ -740,6 +740,21 @@
   "identity": "West\u00b7Bond 7700-series architecture; exact installed D/E suffix and convertible head unverified",
   "reconstruction": "Realism4: photo-specific SZ51 curved optical shell/focus fork, machined head cheeks and asymmetric yoke, wire clamp/feed and threaded flanged spool, slotted heater clamp, rounded access openings, crossed lower linkage detail and service hardware. Lab photos 266, 268, 269, 270 and the manipulation video are primary; 7700D/E references establish architecture.",
   "geometry_revision": "realism4",
+  "clearance_revision": "clearance1",
+  "reconstructed_handle_operating_envelope_m": {
+    "x": [
+      -0.035,
+      0.035
+    ],
+    "y": [
+      -0.015,
+      0.015
+    ],
+    "z": [
+      -0.021,
+      0.006
+    ]
+  },
   "source_photo_ids": [
     "wire_bonder_265",
     "wire_bonder_266",
@@ -758,5 +773,5 @@
     305
   ],
   "manufacturer_reference": "https://westbond.com/wp-content/uploads/2022/05/B7700D.pdf",
-  "assumptions": "8:1 equivalent Cartesian coupling represents small-displacement internal counterbalanced mechanics. Visible upper-head rods move with the reduced carriage; no full closed-chain four-bar claim. The -79 style platform is fixed at the benchmark reference height. Tool forces, ultrasound, heat and bond formation require calibration."
+  "assumptions": "8:1 equivalent Cartesian coupling represents small-displacement internal counterbalanced mechanics. Visible upper-head rods move with the reduced carriage; no full closed-chain four-bar claim. Handle travel is a reconstructed clearance-limited operating envelope, not a manufacturer travel claim. The -79 style platform is fixed at the benchmark reference height. Tool forces, ultrasound, heat and bond formation require calibration."
 }

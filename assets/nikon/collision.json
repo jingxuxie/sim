@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "b5b8c9e5dbd3f9077bfc8726e94828b7723b6eb5b18480f5d3029d379e76c4ee",
+  "physics_sha256": "d86f075a66a013727e753df7515ca604c02d60ff6416c56982113cadfd5bdbc3",
   "shapes": [
     {
       "name": "shell_base",
@@ -619,7 +619,7 @@
       "pos": [
         0.081,
         -0.111,
-        0.128
+        0.126
       ],
       "quat": [
         1.0,
@@ -630,7 +630,7 @@
       "size": [
         0.02,
         0.018,
-        0.016
+        0.0185
       ],
       "friction": [
         0.8,
@@ -677,7 +677,7 @@
       "pos": [
         0.081,
         -0.015,
-        0.128
+        0.126
       ],
       "quat": [
         1.0,
@@ -688,7 +688,7 @@
       "size": [
         0.02,
         0.018,
-        0.016
+        0.0185
       ],
       "friction": [
         0.8,

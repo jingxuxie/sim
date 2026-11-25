@@ -1,0 +1,4407 @@
+{
+  "harness_sha256": "cb7beda8444af0b32435b05b6e8e5b120d4dc9c21334f2b307afc3daef475b12",
+  "url": "http://127.0.0.1:18943/",
+  "started_utc": "2026-11-25T05:07:48.839Z",
+  "passed": true,
+  "models": [
+    {
+      "asset": "transfer",
+      "phase": "complete",
+      "views": [
+        {
+          "file": "transfer-interactive-overview.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 1,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 8,
+            "asset": "transfer",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 4,
+              "captureCount": 12,
+              "receiverCount": 3,
+              "lastUpdateMs": 11.199999809265137,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 4,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__brushed plane 0.02400",
+                  "area": 0.26798761552601985,
+                  "captures": 3,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.02400000030414222
+                  ]
+                },
+                {
+                  "label": "base__alloy plane 0.06000",
+                  "area": 0.04499624803854019,
+                  "captures": 3,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.06000000424683094
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 3,
+              "captureCount": 3,
+              "lastUpdateMs": 7.600000381469727,
+              "lastCaptureMs": 7.600000381469727,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    -0.10499999999992424,
+                    0.21908647292437147,
+                    0.020000000004774914
+                  ],
+                  "radius": 0.017,
+                  "length": 0.07099999999952272,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 1,
+                  "center": [
+                    -0.06341977131,
+                    0.23491763439316102,
+                    -0.019385219960266487
+                  ],
+                  "radius": 0.017,
+                  "length": 0.06599999999925879,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 2,
+                  "center": [
+                    -0.1050000000000723,
+                    0.2510292470307482,
+                    -0.056644624485614914
+                  ],
+                  "radius": 0.017,
+                  "length": 0.059000000001366376,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__brushed plane 0.02400",
+              "target": 128,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "brushed",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 128,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__alloy plane 0.06000",
+              "target": 130,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "alloy",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 130,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "transfer-interactive-detail.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 1,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 9,
+            "asset": "transfer",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 5,
+              "captureCount": 15,
+              "receiverCount": 3,
+              "lastUpdateMs": 9.699999809265137,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 5,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__brushed plane 0.02400",
+                  "area": 0.26798761552601985,
+                  "captures": 4,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.02400000030414222
+                  ]
+                },
+                {
+                  "label": "base__alloy plane 0.06000",
+                  "area": 0.04499624803854019,
+                  "captures": 4,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.06000000424683094
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 3,
+              "captureCount": 3,
+              "lastUpdateMs": 7.600000381469727,
+              "lastCaptureMs": 7.600000381469727,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    -0.10499999999992424,
+                    0.21908647292437147,
+                    0.020000000004774914
+                  ],
+                  "radius": 0.017,
+                  "length": 0.07099999999952272,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 1,
+                  "center": [
+                    -0.06341977131,
+                    0.23491763439316102,
+                    -0.019385219960266487
+                  ],
+                  "radius": 0.017,
+                  "length": 0.06599999999925879,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 2,
+                  "center": [
+                    -0.1050000000000723,
+                    0.2510292470307482,
+                    -0.056644624485614914
+                  ],
+                  "radius": 0.017,
+                  "length": 0.059000000001366376,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__brushed plane 0.02400",
+              "target": 128,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "brushed",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 128,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__alloy plane 0.06000",
+              "target": 130,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "alloy",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 130,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "transfer-photo-detail.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 3,
+            "ready": true,
+            "samples": 8.6875,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 133,
+              "triangles": 940378,
+              "uvRemaps": 7,
+              "mixedUVMaterials": 0,
+              "prepareMs": 4729.400000572205,
+              "width": 1085,
+              "height": 920,
+              "colorGrade": "Blender AgX Medium High Contrast",
+              "samples": 8.6875,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 9,
+            "asset": "transfer",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 5,
+              "captureCount": 15,
+              "receiverCount": 3,
+              "lastUpdateMs": 9.699999809265137,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 5,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__brushed plane 0.02400",
+                  "area": 0.26798761552601985,
+                  "captures": 4,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.02400000030414222
+                  ]
+                },
+                {
+                  "label": "base__alloy plane 0.06000",
+                  "area": 0.04499624803854019,
+                  "captures": 4,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.06000000424683094
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 3,
+              "captureCount": 3,
+              "lastUpdateMs": 7.600000381469727,
+              "lastCaptureMs": 7.600000381469727,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    -0.10499999999992424,
+                    0.21908647292437147,
+                    0.020000000004774914
+                  ],
+                  "radius": 0.017,
+                  "length": 0.07099999999952272,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 1,
+                  "center": [
+                    -0.06341977131,
+                    0.23491763439316102,
+                    -0.019385219960266487
+                  ],
+                  "radius": 0.017,
+                  "length": 0.06599999999925879,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 2,
+                  "center": [
+                    -0.1050000000000723,
+                    0.2510292470307482,
+                    -0.056644624485614914
+                  ],
+                  "radius": 0.017,
+                  "length": 0.059000000001366376,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__brushed plane 0.02400",
+              "target": 128,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "brushed",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 128,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__alloy plane 0.06000",
+              "target": 130,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "alloy",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 130,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_inventory": {
+        "sha256": "7edfdbce4fac3e4b78d458e8a7496555b3e927e527c91689e19a1547bd6a8410",
+        "meshes": 133,
+        "triangles": 940378,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "photo_inventory": {
+        "sha256": "7edfdbce4fac3e4b78d458e8a7496555b3e927e527c91689e19a1547bd6a8410",
+        "meshes": 133,
+        "triangles": 940378,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "resumed_bindings": [
+        {
+          "label": "Laboratory bench",
+          "target": 48,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 48,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        },
+        {
+          "label": "base__brushed plane 0.02400",
+          "target": 128,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "brushed",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 128,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        },
+        {
+          "label": "base__alloy plane 0.06000",
+          "target": 130,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "alloy",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 130,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        }
+      ],
+      "curved_capture_resumed": {
+        "before": 4,
+        "after": 10,
+        "ready": true,
+        "pending": false
+      },
+      "ms": 14952,
+      "live_resumed": true
+    },
+    {
+      "asset": "nikon",
+      "phase": "complete",
+      "views": [
+        {
+          "file": "nikon-interactive-overview.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 6,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 24,
+            "asset": "nikon",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 12,
+              "captureCount": 36,
+              "receiverCount": 3,
+              "lastUpdateMs": 191.29999923706055,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 12,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "Upper_cover_recessed_joint plane 0.29676",
+                  "area": 0.035028003957986886,
+                  "captures": 1,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.2967600222764304
+                  ]
+                },
+                {
+                  "label": "Upper_illuminator_cover plane 0.34200",
+                  "area": 0.034001223211729825,
+                  "captures": 1,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.34200000762939453
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 14,
+              "captureCount": 14,
+              "lastUpdateMs": 12.5,
+              "lastCaptureMs": 12.5,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    0,
+                    0.1904999999686543,
+                    0.06199999999730944
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05899999999574959,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 1,
+                  "center": [
+                    -0.03567854266,
+                    0.19648243527942813,
+                    0.04595933260074164
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05934999999584439,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 5,
+                  "center": [
+                    0.04163420964,
+                    0.2172095475770811,
+                    0.013259962108819712
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.04299999999878943,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 6,
+                  "center": [
+                    0.034648868865,
+                    0.19997973323828355,
+                    0.04642226223822452
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05199999999954935,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "Upper_cover_recessed_joint plane 0.29676",
+              "target": 242,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "edge",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 242,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "Upper_illuminator_cover plane 0.34200",
+              "target": 244,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "cream",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 244,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "nikon-interactive-detail.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 6,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 25,
+            "asset": "nikon",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 13,
+              "captureCount": 39,
+              "receiverCount": 3,
+              "lastUpdateMs": 14.300000190734863,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 13,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "Upper_cover_recessed_joint plane 0.29676",
+                  "area": 0.035028003957986886,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.2967600222764304
+                  ]
+                },
+                {
+                  "label": "Upper_illuminator_cover plane 0.34200",
+                  "area": 0.034001223211729825,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.34200000762939453
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 14,
+              "captureCount": 14,
+              "lastUpdateMs": 12.5,
+              "lastCaptureMs": 12.5,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    0,
+                    0.1904999999686543,
+                    0.06199999999730944
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05899999999574959,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 1,
+                  "center": [
+                    -0.03567854266,
+                    0.19648243527942813,
+                    0.04595933260074164
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05934999999584439,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 5,
+                  "center": [
+                    0.04163420964,
+                    0.2172095475770811,
+                    0.013259962108819712
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.04299999999878943,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 6,
+                  "center": [
+                    0.034648868865,
+                    0.19997973323828355,
+                    0.04642226223822452
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05199999999954935,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "Upper_cover_recessed_joint plane 0.29676",
+              "target": 242,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "edge",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 242,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "Upper_illuminator_cover plane 0.34200",
+              "target": 244,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "cream",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 244,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "nikon-photo-detail.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 8,
+            "ready": true,
+            "samples": 9.0625,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 722,
+              "triangles": 320428,
+              "uvRemaps": 10,
+              "mixedUVMaterials": 0,
+              "prepareMs": 1833.6999998092651,
+              "width": 1085,
+              "height": 920,
+              "colorGrade": "Blender AgX Medium High Contrast",
+              "samples": 9.0625,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 25,
+            "asset": "nikon",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 13,
+              "captureCount": 39,
+              "receiverCount": 3,
+              "lastUpdateMs": 14.300000190734863,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 13,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "Upper_cover_recessed_joint plane 0.29676",
+                  "area": 0.035028003957986886,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.2967600222764304
+                  ]
+                },
+                {
+                  "label": "Upper_illuminator_cover plane 0.34200",
+                  "area": 0.034001223211729825,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.34200000762939453
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 14,
+              "captureCount": 14,
+              "lastUpdateMs": 12.5,
+              "lastCaptureMs": 12.5,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    0,
+                    0.1904999999686543,
+                    0.06199999999730944
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05899999999574959,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 1,
+                  "center": [
+                    -0.03567854266,
+                    0.19648243527942813,
+                    0.04595933260074164
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05934999999584439,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 5,
+                  "center": [
+                    0.04163420964,
+                    0.2172095475770811,
+                    0.013259962108819712
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.04299999999878943,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 6,
+                  "center": [
+                    0.034648868865,
+                    0.19997973323828355,
+                    0.04642226223822452
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05199999999954935,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "Upper_cover_recessed_joint plane 0.29676",
+              "target": 242,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "edge",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 242,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "Upper_illuminator_cover plane 0.34200",
+              "target": 244,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "cream",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 244,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_inventory": {
+        "sha256": "21942be4833a0b051eaeaf3b89933d857ad4cb31970a8554a79ac448aa3396e4",
+        "meshes": 722,
+        "triangles": 320428,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "photo_inventory": {
+        "sha256": "21942be4833a0b051eaeaf3b89933d857ad4cb31970a8554a79ac448aa3396e4",
+        "meshes": 722,
+        "triangles": 320428,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "resumed_bindings": [
+        {
+          "label": "Laboratory bench",
+          "target": 48,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 48,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        },
+        {
+          "label": "Upper_cover_recessed_joint plane 0.29676",
+          "target": 242,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "edge",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 242,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        },
+        {
+          "label": "Upper_illuminator_cover plane 0.34200",
+          "target": 244,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "cream",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 244,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        }
+      ],
+      "curved_capture_resumed": {
+        "before": 14,
+        "after": 20,
+        "ready": true,
+        "pending": false
+      },
+      "ms": 10548,
+      "live_resumed": true
+    },
+    {
+      "asset": "probe",
+      "phase": "complete",
+      "views": [
+        {
+          "file": "probe-interactive-overview.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 11,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 36,
+            "asset": "probe",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 18,
+              "captureCount": 54,
+              "receiverCount": 3,
+              "lastUpdateMs": 183.70000076293945,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 18,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__orange plane 0.04200",
+                  "area": 0.17483202423381883,
+                  "captures": 1,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.04200000315904617
+                  ]
+                },
+                {
+                  "label": "base__brushed plane 0.14550",
+                  "area": 0.07009800804150101,
+                  "captures": 1,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.14550001174211497
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 21,
+              "captureCount": 21,
+              "lastUpdateMs": 20.399999618530273,
+              "lastCaptureMs": 20.399999618530273,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    0,
+                    0.22299997243398337,
+                    0.028
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.062,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__orange plane 0.04200",
+              "target": 340,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "orange",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 340,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__brushed plane 0.14550",
+              "target": 342,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "brushed",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 342,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "probe-interactive-detail.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 11,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 37,
+            "asset": "probe",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 19,
+              "captureCount": 57,
+              "receiverCount": 3,
+              "lastUpdateMs": 8,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 19,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__orange plane 0.04200",
+                  "area": 0.17483202423381883,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.04200000315904617
+                  ]
+                },
+                {
+                  "label": "base__brushed plane 0.14550",
+                  "area": 0.07009800804150101,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.14550001174211497
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 21,
+              "captureCount": 21,
+              "lastUpdateMs": 20.399999618530273,
+              "lastCaptureMs": 20.399999618530273,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    0,
+                    0.22299997243398337,
+                    0.028
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.062,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__orange plane 0.04200",
+              "target": 340,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "orange",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 340,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__brushed plane 0.14550",
+              "target": 342,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "brushed",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 342,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "probe-photo-detail.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 13,
+            "ready": true,
+            "samples": 8.8125,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 113,
+              "triangles": 628518,
+              "uvRemaps": 1,
+              "mixedUVMaterials": 0,
+              "prepareMs": 3018.7000007629395,
+              "width": 1085,
+              "height": 920,
+              "colorGrade": "Blender AgX Medium High Contrast",
+              "samples": 8.8125,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 37,
+            "asset": "probe",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 19,
+              "captureCount": 57,
+              "receiverCount": 3,
+              "lastUpdateMs": 8,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 19,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__orange plane 0.04200",
+                  "area": 0.17483202423381883,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.04200000315904617
+                  ]
+                },
+                {
+                  "label": "base__brushed plane 0.14550",
+                  "area": 0.07009800804150101,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.14550001174211497
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 21,
+              "captureCount": 21,
+              "lastUpdateMs": 20.399999618530273,
+              "lastCaptureMs": 20.399999618530273,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    0,
+                    0.22299997243398337,
+                    0.028
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.062,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__orange plane 0.04200",
+              "target": 340,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "orange",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 340,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__brushed plane 0.14550",
+              "target": 342,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "brushed",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 342,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_inventory": {
+        "sha256": "1c464affb30d8f6a0159825d6f255506eb4c57301c604d54de741d595d100f85",
+        "meshes": 113,
+        "triangles": 628518,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "photo_inventory": {
+        "sha256": "1c464affb30d8f6a0159825d6f255506eb4c57301c604d54de741d595d100f85",
+        "meshes": 113,
+        "triangles": 628518,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "resumed_bindings": [
+        {
+          "label": "Laboratory bench",
+          "target": 48,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 48,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        },
+        {
+          "label": "base__orange plane 0.04200",
+          "target": 340,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "orange",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 340,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        },
+        {
+          "label": "base__brushed plane 0.14550",
+          "target": 342,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "brushed",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 342,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        }
+      ],
+      "curved_capture_resumed": {
+        "before": 21,
+        "after": 22,
+        "ready": true,
+        "pending": false
+      },
+      "ms": 10015,
+      "live_resumed": true
+    },
+    {
+      "asset": "zeiss",
+      "phase": "complete",
+      "views": [
+        {
+          "file": "zeiss-interactive-overview.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 16,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 48,
+            "asset": "zeiss",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 23,
+              "captureCount": 69,
+              "receiverCount": 3,
+              "lastUpdateMs": 169.39999961853027,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 23,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "stage_x__black plane 0.18300",
+                  "area": 0.027650372728214863,
+                  "captures": 1,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.183000000216067
+                  ]
+                },
+                {
+                  "label": "stage_y__graphite plane 0.17150",
+                  "area": 0.01836893289748332,
+                  "captures": 1,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.17149999419227227
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 28,
+              "captureCount": 28,
+              "lastUpdateMs": 5,
+              "lastCaptureMs": 5,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    0,
+                    0.21773805542813976,
+                    0.06999999999700358
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.0579999999949547,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 1,
+                  "center": [
+                    0.03604007177,
+                    0.22457269434314586,
+                    0.04459315100515285
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05700000000029769,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 2,
+                  "center": [
+                    0.021349701515,
+                    0.24063416859095632,
+                    0.006244172395791106
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.04400000000343759,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 3,
+                  "center": [
+                    -0.021989593065,
+                    0.23661060562963765,
+                    0.004333287818494498
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05299999999615029,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 4,
+                  "center": [
+                    -0.036270153165,
+                    0.2236131349569347,
+                    0.04443095256769619
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05899999999740221,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "stage_x__black plane 0.18300",
+              "target": 440,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "black",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 440,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "stage_y__graphite plane 0.17150",
+              "target": 442,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "graphite",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 442,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "zeiss-interactive-detail.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 16,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 49,
+            "asset": "zeiss",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 24,
+              "captureCount": 72,
+              "receiverCount": 3,
+              "lastUpdateMs": 8.59999942779541,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 24,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "stage_x__black plane 0.18300",
+                  "area": 0.027650372728214863,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.183000000216067
+                  ]
+                },
+                {
+                  "label": "stage_y__graphite plane 0.17150",
+                  "area": 0.01836893289748332,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.17149999419227227
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 28,
+              "captureCount": 28,
+              "lastUpdateMs": 5,
+              "lastCaptureMs": 5,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    0,
+                    0.21773805542813976,
+                    0.06999999999700358
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.0579999999949547,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 1,
+                  "center": [
+                    0.03604007177,
+                    0.22457269434314586,
+                    0.04459315100515285
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05700000000029769,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 2,
+                  "center": [
+                    0.021349701515,
+                    0.24063416859095632,
+                    0.006244172395791106
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.04400000000343759,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 3,
+                  "center": [
+                    -0.021989593065,
+                    0.23661060562963765,
+                    0.004333287818494498
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05299999999615029,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 4,
+                  "center": [
+                    -0.036270153165,
+                    0.2236131349569347,
+                    0.04443095256769619
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05899999999740221,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "stage_x__black plane 0.18300",
+              "target": 440,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "black",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 440,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "stage_y__graphite plane 0.17150",
+              "target": 442,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "graphite",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 442,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "zeiss-photo-detail.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 18,
+            "ready": true,
+            "samples": 8.8125,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 65,
+              "triangles": 537422,
+              "uvRemaps": 1,
+              "mixedUVMaterials": 0,
+              "prepareMs": 2697.5,
+              "width": 1085,
+              "height": 920,
+              "colorGrade": "Blender AgX Medium High Contrast",
+              "samples": 8.8125,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 49,
+            "asset": "zeiss",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 24,
+              "captureCount": 72,
+              "receiverCount": 3,
+              "lastUpdateMs": 8.59999942779541,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 24,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "stage_x__black plane 0.18300",
+                  "area": 0.027650372728214863,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.183000000216067
+                  ]
+                },
+                {
+                  "label": "stage_y__graphite plane 0.17150",
+                  "area": 0.01836893289748332,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.17149999419227227
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "preparing": false,
+              "dirty": false,
+              "nextProbe": 0,
+              "updateCount": 28,
+              "captureCount": 28,
+              "lastUpdateMs": 5,
+              "lastCaptureMs": 5,
+              "additionalSamplers": 1,
+              "probes": [
+                {
+                  "index": 0,
+                  "center": [
+                    0,
+                    0.21773805542813976,
+                    0.06999999999700358
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.0579999999949547,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 1,
+                  "center": [
+                    0.03604007177,
+                    0.22457269434314586,
+                    0.04459315100515285
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05700000000029769,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 2,
+                  "center": [
+                    0.021349701515,
+                    0.24063416859095632,
+                    0.006244172395791106
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.04400000000343759,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 3,
+                  "center": [
+                    -0.021989593065,
+                    0.23661060562963765,
+                    0.004333287818494498
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05299999999615029,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                },
+                {
+                  "index": 4,
+                  "center": [
+                    -0.036270153165,
+                    0.2236131349569347,
+                    0.04443095256769619
+                  ],
+                  "radius": 0.0145,
+                  "length": 0.05899999999740221,
+                  "dirty": false,
+                  "captured": true,
+                  "captureCount": 1
+                }
+              ],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "stage_x__black plane 0.18300",
+              "target": 440,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "black",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 440,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "stage_y__graphite plane 0.17150",
+              "target": 442,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "graphite",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 442,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_inventory": {
+        "sha256": "07a9c767af11045c8beb6ac476be777c3ad45834947de787f621315fa47e9ec5",
+        "meshes": 65,
+        "triangles": 537422,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "photo_inventory": {
+        "sha256": "07a9c767af11045c8beb6ac476be777c3ad45834947de787f621315fa47e9ec5",
+        "meshes": 65,
+        "triangles": 537422,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "resumed_bindings": [
+        {
+          "label": "Laboratory bench",
+          "target": 48,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 48,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        },
+        {
+          "label": "stage_x__black plane 0.18300",
+          "target": 440,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "black",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 440,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        },
+        {
+          "label": "stage_y__graphite plane 0.17150",
+          "target": 442,
+          "enabled": 1,
+          "hooks": [
+            {
+              "material": "graphite",
+              "currentMaterial": true,
+              "compiled": true,
+              "textureUniformSame": true,
+              "textureSame": true,
+              "boundTexture": 442,
+              "enabledUniformSame": true,
+              "boundEnabled": 1
+            }
+          ]
+        }
+      ],
+      "curved_capture_resumed": {
+        "before": 28,
+        "after": 34,
+        "ready": true,
+        "pending": false
+      },
+      "ms": 10253,
+      "live_resumed": true
+    },
+    {
+      "asset": "bonder",
+      "phase": "complete",
+      "views": [
+        {
+          "file": "bonder-interactive-overview.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 21,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 59,
+            "asset": "bonder",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 28,
+              "captureCount": 84,
+              "receiverCount": 3,
+              "lastUpdateMs": 152.80000019073486,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 28,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__warm plane 0.03800",
+                  "area": 0.12208000750660908,
+                  "captures": 1,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.038000002503395074
+                  ]
+                },
+                {
+                  "label": "base__brushed plane 0.05100",
+                  "area": 0.09843100389266013,
+                  "captures": 1,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.05100000253878534
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": false,
+              "failed": false,
+              "preparing": false,
+              "dirty": true,
+              "nextProbe": 0,
+              "updateCount": 34,
+              "captureCount": 34,
+              "lastUpdateMs": 4.5,
+              "lastCaptureMs": 4.5,
+              "additionalSamplers": 1,
+              "probes": [],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__warm plane 0.03800",
+              "target": 561,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "warm",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 561,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__brushed plane 0.05100",
+              "target": 563,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "brushed",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 563,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "bonder-interactive-detail.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 21,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 60,
+            "asset": "bonder",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 29,
+              "captureCount": 87,
+              "receiverCount": 3,
+              "lastUpdateMs": 8,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 29,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__warm plane 0.03800",
+                  "area": 0.12208000750660908,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.038000002503395074
+                  ]
+                },
+                {
+                  "label": "base__brushed plane 0.05100",
+                  "area": 0.09843100389266013,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.05100000253878534
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": false,
+              "failed": false,
+              "preparing": false,
+              "dirty": true,
+              "nextProbe": 0,
+              "updateCount": 34,
+              "captureCount": 34,
+              "lastUpdateMs": 4.5,
+              "lastCaptureMs": 4.5,
+              "additionalSamplers": 1,
+              "probes": [],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__warm plane 0.03800",
+              "target": 561,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "warm",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 561,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__brushed plane 0.05100",
+              "target": 563,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "brushed",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 563,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "bonder-photo-detail.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 23,
+            "ready": true,
+            "samples": 8.6875,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 46,
+              "triangles": 530042,
+              "uvRemaps": 7,
+              "mixedUVMaterials": 0,
+              "prepareMs": 2740.800000190735,
+              "width": 1085,
+              "height": 920,
+              "colorGrade": "Blender AgX Medium High Contrast",
+              "samples": 8.6875,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 60,
+            "asset": "bonder",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 29,
+              "captureCount": 87,
+              "receiverCount": 3,
+              "lastUpdateMs": 8,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 29,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__warm plane 0.03800",
+                  "area": 0.12208000750660908,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.038000002503395074
+                  ]
+                },
+                {
+                  "label": "base__brushed plane 0.05100",
+                  "area": 0.09843100389266013,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.05100000253878534
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": false,
+              "failed": false,
+              "preparing": false,
+              "dirty": true,
+              "nextProbe": 0,
+              "updateCount": 34,
+              "captureCount": 34,
+              "lastUpdateMs": 4.5,
+              "lastCaptureMs": 4.5,
+              "additionalSamplers": 1,
+              "probes": [],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__warm plane 0.03800",
+              "target": 561,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "warm",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 561,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__brushed plane 0.05100",
+              "target": 563,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "brushed",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 563,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_inventory": {
+        "sha256": "67e115f60032e73776bf1c373a02880a79f55f7b2cdd806626ff739ca2d97205",
+        "meshes": 46,
+        "triangles": 530042,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "photo_inventory": {
+        "sha256": "67e115f60032e73776bf1c373a02880a79f55f7b2cdd806626ff739ca2d97205",
+        "meshes": 46,
+        "triangles": 530042,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "ms": 10237,
+      "live_resumed": true
+    },
+    {
+      "asset": "afm",
+      "phase": "complete",
+      "views": [
+        {
+          "file": "afm-interactive-overview.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 26,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 65,
+            "asset": "afm",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 32,
+              "captureCount": 96,
+              "receiverCount": 3,
+              "lastUpdateMs": 9.699999809265137,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 32,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__graphite plane 0.02600",
+                  "area": 0.12052200962591186,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.026000000536441803
+                  ]
+                },
+                {
+                  "label": "base__afm_satin_shell plane 0.06800",
+                  "area": 0.10842872780030377,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.06800000369548799
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": false,
+              "failed": false,
+              "preparing": false,
+              "dirty": true,
+              "nextProbe": 0,
+              "updateCount": 34,
+              "captureCount": 34,
+              "lastUpdateMs": 4.5,
+              "lastCaptureMs": 4.5,
+              "additionalSamplers": 1,
+              "probes": [],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__graphite plane 0.02600",
+              "target": 680,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "graphite",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 680,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__afm_satin_shell plane 0.06800",
+              "target": 682,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "afm_satin_shell",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 682,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "afm-interactive-detail.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 26,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 66,
+            "asset": "afm",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 33,
+              "captureCount": 99,
+              "receiverCount": 3,
+              "lastUpdateMs": 5.100000381469727,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 33,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__graphite plane 0.02600",
+                  "area": 0.12052200962591186,
+                  "captures": 3,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.026000000536441803
+                  ]
+                },
+                {
+                  "label": "base__afm_satin_shell plane 0.06800",
+                  "area": 0.10842872780030377,
+                  "captures": 3,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.06800000369548799
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": false,
+              "failed": false,
+              "preparing": false,
+              "dirty": true,
+              "nextProbe": 0,
+              "updateCount": 34,
+              "captureCount": 34,
+              "lastUpdateMs": 4.5,
+              "lastCaptureMs": 4.5,
+              "additionalSamplers": 1,
+              "probes": [],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__graphite plane 0.02600",
+              "target": 680,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "graphite",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 680,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__afm_satin_shell plane 0.06800",
+              "target": 682,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "afm_satin_shell",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 682,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "afm-photo-detail.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 28,
+            "ready": true,
+            "samples": 9,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 75,
+              "triangles": 483092,
+              "uvRemaps": 8,
+              "mixedUVMaterials": 0,
+              "prepareMs": 2384.4000005722046,
+              "width": 1085,
+              "height": 920,
+              "colorGrade": "Blender AgX Medium High Contrast",
+              "samples": 9,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 66,
+            "asset": "afm",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 33,
+              "captureCount": 99,
+              "receiverCount": 3,
+              "lastUpdateMs": 5.100000381469727,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 33,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__graphite plane 0.02600",
+                  "area": 0.12052200962591186,
+                  "captures": 3,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.026000000536441803
+                  ]
+                },
+                {
+                  "label": "base__afm_satin_shell plane 0.06800",
+                  "area": 0.10842872780030377,
+                  "captures": 3,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.06800000369548799
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": false,
+              "failed": false,
+              "preparing": false,
+              "dirty": true,
+              "nextProbe": 0,
+              "updateCount": 34,
+              "captureCount": 34,
+              "lastUpdateMs": 4.5,
+              "lastCaptureMs": 4.5,
+              "additionalSamplers": 1,
+              "probes": [],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__graphite plane 0.02600",
+              "target": 680,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "graphite",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 680,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__afm_satin_shell plane 0.06800",
+              "target": 682,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "afm_satin_shell",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 682,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_inventory": {
+        "sha256": "2beff166f205aab982663ba679fb0b42e79b4af47150be777a9dfb77ba1c9606",
+        "meshes": 75,
+        "triangles": 483092,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          },
+          {
+            "name": "",
+            "type": "PointLight",
+            "color": [
+              0.21586050010324417,
+              1,
+              0.10224173307914941
+            ],
+            "intensity": 0.025
+          }
+        ]
+      },
+      "photo_inventory": {
+        "sha256": "2beff166f205aab982663ba679fb0b42e79b4af47150be777a9dfb77ba1c9606",
+        "meshes": 75,
+        "triangles": 483092,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          },
+          {
+            "name": "",
+            "type": "PointLight",
+            "color": [
+              0.21586050010324417,
+              1,
+              0.10224173307914941
+            ],
+            "intensity": 0.025
+          }
+        ]
+      },
+      "ms": 8875,
+      "live_resumed": true
+    },
+    {
+      "asset": "tweezers",
+      "phase": "complete",
+      "views": [
+        {
+          "file": "tweezers-interactive-overview.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 31,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 72,
+            "asset": "tweezers",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 37,
+              "captureCount": 108,
+              "receiverCount": 2,
+              "lastUpdateMs": 1.6000003814697266,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 37,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__cutting_mat_blue plane 0.00400",
+                  "area": 0.016896001485824597,
+                  "captures": 2,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.004000000189989805
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": false,
+              "failed": false,
+              "preparing": false,
+              "dirty": true,
+              "nextProbe": 0,
+              "updateCount": 34,
+              "captureCount": 34,
+              "lastUpdateMs": 4.5,
+              "lastCaptureMs": 4.5,
+              "additionalSamplers": 1,
+              "probes": [],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__cutting_mat_blue plane 0.00400",
+              "target": 761,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "cutting_mat_blue",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 761,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tweezers-interactive-detail.png",
+          "quality": {
+            "mode": "interactive",
+            "generation": 31,
+            "ready": false,
+            "samples": 0,
+            "limit": 512,
+            "preparing": false
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 73,
+            "asset": "tweezers",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 38,
+              "captureCount": 110,
+              "receiverCount": 2,
+              "lastUpdateMs": 1.5,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 38,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__cutting_mat_blue plane 0.00400",
+                  "area": 0.016896001485824597,
+                  "captures": 3,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.004000000189989805
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": false,
+              "failed": false,
+              "preparing": false,
+              "dirty": true,
+              "nextProbe": 0,
+              "updateCount": 34,
+              "captureCount": 34,
+              "lastUpdateMs": 4.5,
+              "lastCaptureMs": 4.5,
+              "additionalSamplers": 1,
+              "probes": [],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__cutting_mat_blue plane 0.00400",
+              "target": 761,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "cutting_mat_blue",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 761,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tweezers-photo-detail.png",
+          "quality": {
+            "mode": "photo",
+            "generation": 33,
+            "ready": true,
+            "samples": 8.875,
+            "limit": 512,
+            "preparing": false,
+            "stats": {
+              "worker": true,
+              "meshes": 18,
+              "triangles": 40446,
+              "uvRemaps": 1,
+              "mixedUVMaterials": 0,
+              "prepareMs": 409.80000019073486,
+              "width": 1085,
+              "height": 920,
+              "colorGrade": "Blender AgX Medium High Contrast",
+              "samples": 8.875,
+              "maxSamples": 512,
+              "ready": true,
+              "preparing": false,
+              "compiling": false,
+              "denoised": true,
+              "photographicContrast": 1.28
+            }
+          },
+          "reflections": {
+            "enabled": true,
+            "ready": true,
+            "failed": false,
+            "lastError": null,
+            "generation": 73,
+            "asset": "tweezers",
+            "planar": {
+              "enabled": true,
+              "ready": true,
+              "failed": false,
+              "lastError": null,
+              "updateCount": 38,
+              "captureCount": 110,
+              "receiverCount": 2,
+              "lastUpdateMs": 1.5,
+              "receivers": [
+                {
+                  "label": "Laboratory bench",
+                  "area": 0,
+                  "captures": 38,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    2.220446049250313e-16,
+                    0.001
+                  ]
+                },
+                {
+                  "label": "base__cutting_mat_blue plane 0.00400",
+                  "area": 0.016896001485824597,
+                  "captures": 3,
+                  "enabled": true,
+                  "plane": [
+                    0,
+                    1,
+                    0,
+                    -0.004000000189989805
+                  ]
+                }
+              ]
+            },
+            "curved": {
+              "pending": false,
+              "enabled": true,
+              "ready": false,
+              "failed": false,
+              "preparing": false,
+              "dirty": true,
+              "nextProbe": 0,
+              "updateCount": 34,
+              "captureCount": 34,
+              "lastUpdateMs": 4.5,
+              "lastCaptureMs": 4.5,
+              "additionalSamplers": 1,
+              "probes": [],
+              "resolution": 256,
+              "parallax": false,
+              "correctAxes": true
+            }
+          },
+          "bound_reflection_uniforms": [
+            {
+              "label": "Laboratory bench",
+              "target": 48,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 48,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            },
+            {
+              "label": "base__cutting_mat_blue plane 0.00400",
+              "target": 761,
+              "enabled": 1,
+              "hooks": [
+                {
+                  "material": "cutting_mat_blue",
+                  "currentMaterial": true,
+                  "compiled": true,
+                  "textureUniformSame": true,
+                  "textureSame": true,
+                  "boundTexture": 761,
+                  "enabledUniformSame": true,
+                  "boundEnabled": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_inventory": {
+        "sha256": "b284df1a3ee0369371a51fc44604363d2a385e3fde2991019f982d5b93ed80e3",
+        "meshes": 18,
+        "triangles": 40446,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "photo_inventory": {
+        "sha256": "b284df1a3ee0369371a51fc44604363d2a385e3fde2991019f982d5b93ed80e3",
+        "meshes": 18,
+        "triangles": 40446,
+        "lights": [
+          {
+            "name": "Window key",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              0.965,
+              0.925
+            ],
+            "intensity": 80.87141417271106,
+            "width": 0.12,
+            "height": 0.82
+          },
+          {
+            "name": "Ceiling bounce",
+            "type": "RectAreaLight",
+            "color": [
+              0.91,
+              0.95,
+              1
+            ],
+            "intensity": 2.6306602163949644,
+            "width": 0.88,
+            "height": 1.1
+          },
+          {
+            "name": "Rear strip reflection",
+            "type": "RectAreaLight",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 34.32753674531076,
+            "width": 0.12,
+            "height": 0.85
+          }
+        ]
+      },
+      "ms": 5984,
+      "live_resumed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "console_warnings": [],
+  "failed_requests": [],
+  "sources": {
+    "/app.js": "fa993e316519f7f552590d16797c6aa1a4edf5fb7f4bd84d49d9fc8d929c5cd2",
+    "/runtime.js": "58047277d9dd814ce5138bc1fecd1e92365f59bd5a5187f2ac339c9567c1a3af",
+    "/contact-overlay.js": "f58ad34fb84eedef538c68fdb24d13c30ce28d20ffe23685ec13e727f6d10e83",
+    "/flexible-details.js": "91bc047df9fb127551d6034256ee50638271fb1f38999c9cee4706e1852e75f1",
+    "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+    "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+    "/planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+    "/objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+    "/env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122",
+    "/progressive-renderer.js": "d5864d740ae31ea375df17432a3f2d15871fcb6f4054c0dd7fc31f6c35d01fb8",
+    "/vendor/pathtracer/pathtracer.module.js": "d48d780adfcdd61805e410d9c0605b082c4d1bd461c6286cdc8f882d6b0add85",
+    "/vendor/pathtracer/bvh.module.js": "43786aabc2aad48766b58a689ba411d043810a639ff5c0cda820f2683acee8d1"
+  },
+  "instrumentation_sha256": "26f610f35f01bfd24d105f01437c768785b28d64377337d9ce7cbad031e6fc4e",
+  "injected_app_sha256": "62e2a7cb3d5546d2776ce12c1704f7f5634b7ecaf00f6614676fcba3d5cf7d50",
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA Corporation, NVIDIA A100-SXM4-40GB/PCIe/SSE2, OpenGL ES 3.2)",
+    "vendor": "Google Inc. (NVIDIA Corporation)"
+  },
+  "checked_utc": "2026-11-25T05:09:00.206Z"
+}

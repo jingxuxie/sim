@@ -1,8 +1,8 @@
 {
   "task": "transfer.gripper_turn_sample_x",
   "scope": "Four-axis Cartesian fixture; no articulated arm",
-  "trajectory_sha256": "2ac6b53684a83673023f439ffde23307c8fa40ff8af966d2d3ee50a89de2ebc2",
-  "blend_sha256": "fa46a46540d4c943938ac3099578f9ebbfee100f8be4c9bc807f4d42117ae6e8",
+  "trajectory_sha256": "ddf79606468fe7fe95107035cdd1c7ab24b46268b8a4fe4c447d8d1d03be6b30",
+  "blend_sha256": "85f87fcfce92d266b5e1f2d69238de8f9bf8e7dbeb8857ecf84050dc4540aa3c",
   "resolution": [
     2880,
     2160
@@ -14,7 +14,7 @@
       "frame": 309,
       "time_s": 6.200000000000405,
       "camera": "robot_contact",
-      "sha256": "fd844d94cf292db3722df7d52f0529b654a0a3adbf7da4a1198d721f7831bd03"
+      "sha256": "83f6b29dd80aea4d864dc5e89a787d6d073b292c4d74e9d87fb33e41459234eb"
     }
   ],
   "frames_are_measured": true,

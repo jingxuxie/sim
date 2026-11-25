@@ -1,0 +1,179 @@
+{
+  "asset": "probe",
+  "phase": "before",
+  "xml_sha256": "9d923fe66f5a9eb3e7456e6a9fe8baee36e32b6c1d4838cd07e36c448f9c8180",
+  "method": "Normal Simulation fixture commands/mj_step only after reset. Position chuck with head retracted, command minimum optical focus, then retract the head; installed probes remain active. Frozen baseline physics uses current noncolliding visual meshes only for model loading.",
+  "cases": [
+    {
+      "commanded_chuck_x_y_mm": [
+        0,
+        0
+      ],
+      "commanded_theta_rad": 0,
+      "loaded_optical_focus_mm": -19.97233024122612,
+      "contact_samples": 20,
+      "maximum_contact_penetration_mm": 0.35503480800535214,
+      "peak_normal_force_N": 182.0973039543951,
+      "contact_pairs": [
+        [
+          "left_z__Probe_tip",
+          "optic_focus__Objective_barrel"
+        ],
+        [
+          "optic_focus__Objective_barrel",
+          "right_z__Probe_tip"
+        ]
+      ],
+      "retracted_focus_mm": 0.04975012988973385,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        -12.5,
+        12.5
+      ],
+      "commanded_theta_rad": -0.35,
+      "loaded_optical_focus_mm": -19.972330241226107,
+      "contact_samples": 20,
+      "maximum_contact_penetration_mm": 0.3550348080052689,
+      "peak_normal_force_N": 182.09730395439132,
+      "contact_pairs": [
+        [
+          "left_z__Probe_tip",
+          "optic_focus__Objective_barrel"
+        ],
+        [
+          "optic_focus__Objective_barrel",
+          "right_z__Probe_tip"
+        ]
+      ],
+      "retracted_focus_mm": 0.04975012988984275,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        -12.5,
+        12.5
+      ],
+      "commanded_theta_rad": 0,
+      "loaded_optical_focus_mm": -19.972330241226107,
+      "contact_samples": 20,
+      "maximum_contact_penetration_mm": 0.3550348080052689,
+      "peak_normal_force_N": 182.09730395439132,
+      "contact_pairs": [
+        [
+          "left_z__Probe_tip",
+          "optic_focus__Objective_barrel"
+        ],
+        [
+          "optic_focus__Objective_barrel",
+          "right_z__Probe_tip"
+        ]
+      ],
+      "retracted_focus_mm": 0.04975012988984275,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        12.5,
+        12.5
+      ],
+      "commanded_theta_rad": 0,
+      "loaded_optical_focus_mm": -19.97233024122612,
+      "contact_samples": 20,
+      "maximum_contact_penetration_mm": 0.3550348080051856,
+      "peak_normal_force_N": 182.09730395439132,
+      "contact_pairs": [
+        [
+          "left_z__Probe_tip",
+          "optic_focus__Objective_barrel"
+        ],
+        [
+          "optic_focus__Objective_barrel",
+          "right_z__Probe_tip"
+        ]
+      ],
+      "retracted_focus_mm": 0.04975012988973385,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        12.5,
+        12.5
+      ],
+      "commanded_theta_rad": 0.35,
+      "loaded_optical_focus_mm": -19.97233024122612,
+      "contact_samples": 20,
+      "maximum_contact_penetration_mm": 0.3550348080051856,
+      "peak_normal_force_N": 182.09730395439132,
+      "contact_pairs": [
+        [
+          "left_z__Probe_tip",
+          "optic_focus__Objective_barrel"
+        ],
+        [
+          "optic_focus__Objective_barrel",
+          "right_z__Probe_tip"
+        ]
+      ],
+      "retracted_focus_mm": 0.04975012988973385,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    }
+  ],
+  "passed": false
+}

@@ -1,0 +1,601 @@
+{
+  "revision": "clearance1",
+  "asset": "afm",
+  "mode": "baseline",
+  "source_blend_sha256": "f9473a2e4f9554bc90f9524658d2da6c596224eda87eae53ff870f1c009edbc7",
+  "source_build_sha256": "8a87ec7d059efcef5b1774b78d0afd24353738ffc850a875e8a38d4dbd0ab8ef",
+  "pairs": {
+    "moving": [
+      "Probe holder tab",
+      "Silicon cantilever chip",
+      "Cantilever beam",
+      "Cantilever clamp machined upper plate",
+      "Cantilever fork nose",
+      "Cantilever fork precision ledge",
+      "Cantilever fork precision ledge.001"
+    ],
+    "fixed": [
+      "Scanner top rolled front lip",
+      "Scanner deck machined plate",
+      "Asymmetric scanner working plate",
+      "Machined sample socket rim",
+      "Sample socket recessed floor"
+    ]
+  },
+  "samples": [
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.0,
+      "intersections": [],
+      "min_beam_height_m": 0.20211251080036163,
+      "min_chip_height_m": 0.20215000212192535
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.05,
+      "intersections": [],
+      "min_beam_height_m": 0.20125895738601685,
+      "min_chip_height_m": 0.20126166939735413
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.1,
+      "intersections": [],
+      "min_beam_height_m": 0.20040228962898254,
+      "min_chip_height_m": 0.2003702074289322
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.15000000000000002,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 14
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 24
+        }
+      ],
+      "min_beam_height_m": 0.19954459369182587,
+      "min_chip_height_m": 0.19947780668735504
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.2,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 34
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 36
+        }
+      ],
+      "min_beam_height_m": 0.19868804514408112,
+      "min_chip_height_m": 0.1985856592655182
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.25,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 42
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 32
+        }
+      ],
+      "min_beam_height_m": 0.197834774851799,
+      "min_chip_height_m": 0.19769684970378876
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.30000000000000004,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 14
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 46
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 32
+        }
+      ],
+      "min_beam_height_m": 0.19698691368103027,
+      "min_chip_height_m": 0.19681380689144135
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.35000000000000003,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 33
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 28
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 15
+        }
+      ],
+      "min_beam_height_m": 0.19614659249782562,
+      "min_chip_height_m": 0.19593872129917145
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.4,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 50
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 44
+        }
+      ],
+      "min_beam_height_m": 0.1953158974647522,
+      "min_chip_height_m": 0.19507376849651337
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.45,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 52
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 18
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 26
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 36
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 112
+        }
+      ],
+      "min_beam_height_m": 0.19449689984321594,
+      "min_chip_height_m": 0.1942211389541626
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.5,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 26
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 54
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 58
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 144
+        },
+        {
+          "moving": "Cantilever fork precision ledge",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 30
+        },
+        {
+          "moving": "Cantilever fork precision ledge.001",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 30
+        }
+      ],
+      "min_beam_height_m": 0.1936916708946228,
+      "min_chip_height_m": 0.19338224828243256
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.55,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 26
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 48
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 88
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 168
+        },
+        {
+          "moving": "Cantilever fork precision ledge",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Cantilever fork precision ledge",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Cantilever fork precision ledge.001",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Cantilever fork precision ledge.001",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 24
+        }
+      ],
+      "min_beam_height_m": 0.19290220737457275,
+      "min_chip_height_m": 0.1925593465566635
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.0,
+      "intersections": [],
+      "min_beam_height_m": 0.20211251080036163,
+      "min_chip_height_m": 0.20215000212192535
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.05,
+      "intersections": [],
+      "min_beam_height_m": 0.20125895738601685,
+      "min_chip_height_m": 0.20126166939735413
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.1,
+      "intersections": [],
+      "min_beam_height_m": 0.20040228962898254,
+      "min_chip_height_m": 0.2003702074289322
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.15000000000000002,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 14
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 24
+        }
+      ],
+      "min_beam_height_m": 0.19954459369182587,
+      "min_chip_height_m": 0.19947780668735504
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.2,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 34
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 36
+        }
+      ],
+      "min_beam_height_m": 0.19868804514408112,
+      "min_chip_height_m": 0.1985856592655182
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.25,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 42
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 32
+        }
+      ],
+      "min_beam_height_m": 0.197834774851799,
+      "min_chip_height_m": 0.19769684970378876
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.30000000000000004,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 14
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 46
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 32
+        }
+      ],
+      "min_beam_height_m": 0.19698691368103027,
+      "min_chip_height_m": 0.19681380689144135
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.35000000000000003,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 33
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 28
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 15
+        }
+      ],
+      "min_beam_height_m": 0.19614659249782562,
+      "min_chip_height_m": 0.19593872129917145
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.4,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 50
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 44
+        }
+      ],
+      "min_beam_height_m": 0.1953158974647522,
+      "min_chip_height_m": 0.19507376849651337
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.45,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 52
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Machined sample socket rim",
+          "triangle_pairs": 18
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Silicon cantilever chip",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 26
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 36
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 112
+        }
+      ],
+      "min_beam_height_m": 0.19449689984321594,
+      "min_chip_height_m": 0.1942211389541626
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.5,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 26
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 54
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 58
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 144
+        },
+        {
+          "moving": "Cantilever fork precision ledge",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 30
+        },
+        {
+          "moving": "Cantilever fork precision ledge.001",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 30
+        }
+      ],
+      "min_beam_height_m": 0.1936916708946228,
+      "min_chip_height_m": 0.19338224828243256
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.55,
+      "intersections": [
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 26
+        },
+        {
+          "moving": "Probe holder tab",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 48
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 88
+        },
+        {
+          "moving": "Cantilever fork nose",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 168
+        },
+        {
+          "moving": "Cantilever fork precision ledge",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Cantilever fork precision ledge",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Cantilever fork precision ledge.001",
+          "fixed": "Scanner deck machined plate",
+          "triangle_pairs": 24
+        },
+        {
+          "moving": "Cantilever fork precision ledge.001",
+          "fixed": "Asymmetric scanner working plate",
+          "triangle_pairs": 24
+        }
+      ],
+      "min_beam_height_m": 0.19290220737457275,
+      "min_chip_height_m": 0.1925593465566635
+    }
+  ],
+  "minimum_chip_deck_plane_clearance_m": -0.0024406534433364935,
+  "beam_rises_when_lift_increases": false,
+  "exclusions": [
+    "The intended hinge/pivot and dovetail mating interfaces.",
+    "AFM tip/sample approach contact is a separate instrument task."
+  ],
+  "method": "Triangle intersections between actual source holder/nose meshes and scanner working plates/socket at 12 lift angles and both drawer endpoints. Heights independently verify the positive lift direction. Existing drawer/door/release sweeps are rerun separately.",
+  "passed": false
+}

@@ -1,0 +1,55 @@
+{
+  "revision": "clearance1",
+  "asset": "zeiss",
+  "draft": false,
+  "source_sha256": "fc7d78371c0999eb127466c54709403c7c66cb3a86eee230a43f22227cecb82e",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "e3d800f8f8c6a770b1b45f2e25aad76bd772cf897df925626b1d353e215fc8ba"
+    },
+    {
+      "file": "stage.png",
+      "camera": "stage",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "73f32563c1337b3773118e59aff686c25929d2e7843420afc914be53fcf59065"
+    },
+    {
+      "file": "optical_head.png",
+      "camera": "optical_head",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "bb37dd6902af73a273e2e9bbe94bf69fdc192b4c42c6179cf7b315bad1ac3de0"
+    },
+    {
+      "file": "condenser.png",
+      "camera": "condenser",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "817ddef971625842093b42a18d90f53ac3ea8b081414ff50b2c08f05562a000d"
+    }
+  ]
+}

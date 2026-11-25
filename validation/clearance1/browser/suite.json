@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "modes": {
+    "physics": {
+      "passed": true,
+      "report": "physics.json",
+      "sha256": "0af6241eeb53043e3d0798d35b4a9d3b6c1256f5c94fa52f1169160ab35b1ec6"
+    },
+    "mechanisms": {
+      "passed": true,
+      "report": "mechanisms.json",
+      "sha256": "950ea1e13f5fe84cb918fe0693ab06d9124f23ae0f59de5b435f6e92cd9f5857"
+    },
+    "flexible": {
+      "passed": true,
+      "report": "flexible.json",
+      "sha256": "3fa919ee373ed8662b31aebb52f4fdfacfbd19ee0b4046969f2e3ddc3d34bbef"
+    },
+    "contact-shapes": {
+      "passed": true,
+      "report": "contact-shapes.json",
+      "sha256": "c2d1226d69b136ea228cf46520eded02d6132e8f7c318df190eb150f5f61e8a9"
+    },
+    "focus-contact": {
+      "passed": true,
+      "report": "focus-contact.json",
+      "sha256": "f5f652a1603e8304266664aa6bd958855b64f7f18b05987394bd87ee9aadfe2b"
+    },
+    "browser": {
+      "passed": true,
+      "report": "browser.json",
+      "sha256": "692c5c753aaf9f3dfbb4cb42807d4bc66af3a79b762a7f61c2046aeffccb513f"
+    },
+    "rendering": {
+      "passed": true,
+      "report": "rendering.json",
+      "sha256": "2c3f001a5417ae7eca6370883bf97a4b85987637a57ab7abf30f96ec8e40a520"
+    },
+    "all-models": {
+      "passed": true,
+      "report": "all-models.json",
+      "sha256": "311a9849b57ceb90e07cc79b18a24ea8df36f1bb03e6b20f59679179ed2ee7f9"
+    },
+    "closeups": {
+      "passed": true,
+      "report": "closeups.json",
+      "sha256": "130378745ea722420da3e833b3d95f44c2c84641355f6071ad31eba127120a62"
+    }
+  },
+  "jobs": [
+    {
+      "id": 46932923,
+      "state": "FAILED",
+      "completed_modes": [
+        "physics",
+        "mechanisms",
+        "flexible",
+        "contact-shapes",
+        "focus-contact",
+        "browser",
+        "rendering",
+        "all-models"
+      ],
+      "failure": "Closeup harness used the Blender cable name with spaces instead of the actual exported GLTFLoader name with underscores.",
+      "archive": "../browser_attempts/46932923/"
+    },
+    {
+      "id": 46933881,
+      "state": "COMPLETED",
+      "completed_modes": [
+        "closeups"
+      ],
+      "change": "Exact cable-node lookup corrected; physical assertions, model and runtime unchanged."
+    }
+  ],
+  "source_verification": {
+    "passed": true,
+    "input_files": 59,
+    "original_manifest": "inputs_initial.json",
+    "final_manifest": "inputs_after.json",
+    "changed_inputs": []
+  },
+  "counts": {
+    "baseline_runs": 54,
+    "no_action_controls": 18,
+    "mechanism_checks": 73,
+    "flexible_checks": 32,
+    "collision_overlay_checks": 28,
+    "focus_contact_cases": 12,
+    "ui_checks": 18,
+    "rendering_checks": 12,
+    "live_photo_instruments": 7,
+    "live_photo_views": 21,
+    "clearance_closeups": 3,
+    "clearance_motion_checks": 4
+  },
+  "visible_clearances": {
+    "minimum_wheel_gap_mm": 1.000046334347207,
+    "minimum_cable_gap_at_live_checked_poses_mm": 0.8737558722496028,
+    "minimum_cable_gap_across_full_kinematic_focus_deformation_mm": 0.3276618421077723
+  },
+  "screenshot_review": {
+    "reviewed": true,
+    "interactive_sheet": "review-interactive.jpg",
+    "photo_sheet": "review-photo.jpg",
+    "closeups": [
+      "clearance-sample_x_handwheel.png",
+      "clearance-vertical_micrometer.png",
+      "clearance-camera_cable.png"
+    ],
+    "observations": [
+      "Handwheel is above the breadboard; tabletop reflections remain visible.",
+      "Vertical drive, goniometer and rebuilt bracket are visibly separated.",
+      "Camera cable rises from the tabletop; no downward excursion is visible.",
+      "All seven instruments render in Live and Photo with matching source inventories and no browser or GPU errors."
+    ],
+    "photo_capture_note": "Photo screenshots capture the early8-sample progressive preview used by the renderer test, not a converged still."
+  }
+}

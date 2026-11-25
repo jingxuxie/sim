@@ -1,0 +1,45 @@
+{
+  "revision": "clearance1",
+  "passed": true,
+  "task_success": true,
+  "open_scanner_frame": 189,
+  "open_scanner_time_s": 7.6,
+  "open_scanner_q": {
+    "door_angle": -1.7997023678465383,
+    "door_latch_angle": 1.0999999999999894,
+    "scanner_latch_angle": 1.1999999999968116,
+    "drawer_travel": 0.10014161606264264,
+    "cantilever_lift": 1.410290052722688e-19,
+    "engage_angle": -6.084651020696956e-20
+  },
+  "positive_lift": {
+    "command_rad": 0.5,
+    "measured_rad": 0.4911591347370844,
+    "before_m": [
+      0.0019999999999999983,
+      -0.1321422645952634,
+      0.20220000000000002
+    ],
+    "after_m": [
+      0.0019999999999999983,
+      -0.1289527774992222,
+      0.20995795218921232
+    ],
+    "rise_m": 0.007757952189212297,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "hashes": {
+    "005_afm/cypher_s.xml": "8791be300b47bed66e55e75d5e4819504db20c49e48d1b5dd2936b9f5aac9f8d",
+    "005_afm/asset.json": "a370b79bd7efec936599114afdb574b8bf1023dd5f1b418beffa117109d0efc7",
+    "005_afm/validation/clearance1/access_trajectory.json": "97845a94050628f831fc364a5d713fee784260c88d82df7011f49ded0e9c10df"
+  }
+}

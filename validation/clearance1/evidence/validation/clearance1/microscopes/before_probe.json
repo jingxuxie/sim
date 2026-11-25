@@ -1,0 +1,1094 @@
+{
+  "asset": "probe",
+  "phase": "before",
+  "source_sha256": "4cb91a542d59983530752d8f9b48997ad3474eb19bf4fc644af1ed38544c0935",
+  "bench_top_z_mm": -1,
+  "method": "Evaluated detailed meshes with Blender drivers; exact mesh Z extrema for support planes; BVH triangle intersection for exterior assembly pairs.",
+  "intended_fit_exclusions": [
+    "Fasteners inside their own tapped seats; spindle/bearing insertion; nested covered slide bearings.",
+    "Feet/base against bench are intended support interfaces.",
+    "Objective/specimen contact is a functional unsafe-focus domain; no removal of those contacts or reduction of focus limits."
+  ],
+  "rest_below_bench": [],
+  "checks": [
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        0,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        0,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        0,
+        -6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        -6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        0,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        0,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        -6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        -6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        0
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        0
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": -20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "probe_travel",
+      "left_xyz_mm": [
+        6,
+        6,
+        6
+      ],
+      "right_xyz_mm": [
+        -6,
+        -6,
+        6
+      ],
+      "optical_focus_mm": 20,
+      "grip_table_intersections": [],
+      "cover_intersections": [],
+      "cable_intersections": [],
+      "optics_intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        -12.5,
+        -12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        -12.5,
+        0
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        -12.5,
+        12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        0,
+        -12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        0,
+        0
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        0,
+        12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        12.5,
+        -12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        12.5,
+        0
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_grips_to_tables",
+      "xy_mm": [
+        12.5,
+        12.5
+      ],
+      "intersections": []
+    },
+    {
+      "kind": "chuck_x_to_foundation",
+      "minimum_vertical_surface_gap_mm": 5.769999353900239
+    },
+    {
+      "kind": "left_x_to_platen",
+      "minimum_vertical_surface_gap_mm": 2.2700082912593587
+    },
+    {
+      "kind": "right_x_to_platen",
+      "minimum_vertical_surface_gap_mm": 2.2700082912593587
+    },
+    {
+      "kind": "rack_wheel_to_platen",
+      "horizontal_clearance_mm": 3.5,
+      "intersections": []
+    }
+  ],
+  "motion_domain": {
+    "manipulator_xyz_mm": [
+      -6,
+      0,
+      6
+    ],
+    "optical_focus_mm": [
+      -20,
+      20
+    ],
+    "chuck_xy_mm": [
+      -12.5,
+      0,
+      12.5
+    ]
+  },
+  "intersections_count": 0,
+  "passed_reported_exterior_pairs": true
+}

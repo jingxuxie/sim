@@ -1,0 +1,38 @@
+{
+  "revision": "clearance1",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "ded0eec018e08015beb88ba7ca0c28e4c1a48c73b4d99e04b5ef7cb1a23d0756",
+  "inspection_joint_positions": {},
+  "measured_trajectory": {
+    "sha256": "97845a94050628f831fc364a5d713fee784260c88d82df7011f49ded0e9c10df",
+    "frame": 189,
+    "frame_sha256": "c40cb459beac7618496079fd747788d17e528acd9dbb6a67510e0631dbcff507",
+    "time_s": 7.6
+  },
+  "focus_body": null,
+  "renders": [
+    {
+      "file": "front.png",
+      "camera": "front",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "c42dadc873d373ac92ae8dfaeb4ee2187e382eeb5c2b4fff3762f0b240894771"
+    },
+    {
+      "file": "scanner_release_detail.png",
+      "camera": "scanner_release_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "74430481e7306713c7f59b120e8b719eac21e0f0e0f94d14a6447345056ff042"
+    }
+  ]
+}

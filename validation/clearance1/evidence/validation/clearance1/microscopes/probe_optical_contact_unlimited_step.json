@@ -1,0 +1,350 @@
+{
+  "asset": "probe",
+  "phase": "after",
+  "xml_sha256": "4457612b67f147caef36b30c8f741c2cd4c65cfe5eac5144159c4756152c8ff0",
+  "method": "Normal Simulation fixture commands/mj_step only after reset. Position chuck with head retracted, command minimum optical focus, then retract the head; installed probes remain active. Frozen baseline physics uses current noncolliding visual meshes only for model loading.",
+  "cases": [
+    {
+      "commanded_chuck_x_y_mm": [
+        0,
+        0
+      ],
+      "commanded_theta_rad": 0,
+      "loaded_optical_focus_mm": -18.978608978381867,
+      "contact_samples": 4932,
+      "maximum_contact_penetration_mm": 0.40585134930600153,
+      "peak_normal_force_N": 375.10719592844686,
+      "contact_pairs": [
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_end_shoulder"
+        ],
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_forebody"
+        ],
+        [
+          "optic_focus__Objective_end_shoulder",
+          "right_z__Probe_shank"
+        ],
+        [
+          "optic_focus__Objective_forebody",
+          "right_z__Probe_shank"
+        ]
+      ],
+      "retracted_focus_mm": 0.040922720608444284,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        -12.5,
+        12.5
+      ],
+      "commanded_theta_rad": -0.35,
+      "loaded_optical_focus_mm": -19.342705471576156,
+      "contact_samples": 4926,
+      "maximum_contact_penetration_mm": 0.40585134930600153,
+      "peak_normal_force_N": 375.1071959284462,
+      "contact_pairs": [
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_end_shoulder"
+        ],
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_forebody"
+        ],
+        [
+          "optic_focus__Objective_end_shoulder",
+          "right_z__Probe_shank"
+        ],
+        [
+          "optic_focus__Objective_forebody",
+          "right_z__Probe_shank"
+        ]
+      ],
+      "retracted_focus_mm": 0.04401490168109646,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        -12.5,
+        12.5
+      ],
+      "commanded_theta_rad": 0,
+      "loaded_optical_focus_mm": -19.342705471576103,
+      "contact_samples": 4926,
+      "maximum_contact_penetration_mm": 0.40585134930600153,
+      "peak_normal_force_N": 375.1071959284459,
+      "contact_pairs": [
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_end_shoulder"
+        ],
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_forebody"
+        ],
+        [
+          "optic_focus__Objective_end_shoulder",
+          "right_z__Probe_shank"
+        ],
+        [
+          "optic_focus__Objective_forebody",
+          "right_z__Probe_shank"
+        ]
+      ],
+      "retracted_focus_mm": 0.04401490168109896,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        12.5,
+        12.5
+      ],
+      "commanded_theta_rad": 0,
+      "loaded_optical_focus_mm": -19.342705471576092,
+      "contact_samples": 4926,
+      "maximum_contact_penetration_mm": 0.40585134930600153,
+      "peak_normal_force_N": 375.10719592844583,
+      "contact_pairs": [
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_end_shoulder"
+        ],
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_forebody"
+        ],
+        [
+          "optic_focus__Objective_end_shoulder",
+          "right_z__Probe_shank"
+        ],
+        [
+          "optic_focus__Objective_forebody",
+          "right_z__Probe_shank"
+        ]
+      ],
+      "retracted_focus_mm": 0.04401490168109858,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        12.5,
+        12.5
+      ],
+      "commanded_theta_rad": 0.35,
+      "loaded_optical_focus_mm": -19.342705471576135,
+      "contact_samples": 4926,
+      "maximum_contact_penetration_mm": 0.40585134930600153,
+      "peak_normal_force_N": 375.10719592844356,
+      "contact_pairs": [
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_end_shoulder"
+        ],
+        [
+          "left_z__Probe_shank",
+          "optic_focus__Objective_forebody"
+        ],
+        [
+          "optic_focus__Objective_end_shoulder",
+          "right_z__Probe_shank"
+        ],
+        [
+          "optic_focus__Objective_forebody",
+          "right_z__Probe_shank"
+        ]
+      ],
+      "retracted_focus_mm": 0.04401490168109589,
+      "residual_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    }
+  ],
+  "unchanged_probe_tasks": [
+    {
+      "task": "probe.align",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.74,
+      "wall_s": 0.167,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 4.777329032213717e-05,
+        "gap_m": 0.00022599999999997622
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.align",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.76,
+      "wall_s": 0.168,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 4.503416802309108e-05,
+        "gap_m": 0.00022599999999997622
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.align",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.74,
+      "wall_s": 0.173,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 4.15925019404204e-05,
+        "gap_m": 0.00022599999999997622
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.touch",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 6.74,
+      "wall_s": 1.496,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.5433754338308189,
+        "error_m": 4.411953239200577e-08,
+        "gap_m": 0.0008374878077406778
+      },
+      "events": [
+        {
+          "event": "left_contact",
+          "time": 1.08
+        },
+        {
+          "event": "right_contact",
+          "time": 1.08
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.touch",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 6.74,
+      "wall_s": 1.541,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.5433754338294836,
+        "error_m": 4.414516766465436e-08,
+        "gap_m": 0.0008374878077406778
+      },
+      "events": [
+        {
+          "event": "left_contact",
+          "time": 1.08
+        },
+        {
+          "event": "right_contact",
+          "time": 1.08
+        }
+      ],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "probe.touch",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 6.74,
+      "wall_s": 1.562,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.5433754338297075,
+        "error_m": 4.38070926072429e-08,
+        "gap_m": 0.00083748780774065
+      },
+      "events": [
+        {
+          "event": "left_contact",
+          "time": 1.08
+        },
+        {
+          "event": "right_contact",
+          "time": 1.08
+        }
+      ],
+      "controller": "bench fixture"
+    }
+  ],
+  "passed": false
+}

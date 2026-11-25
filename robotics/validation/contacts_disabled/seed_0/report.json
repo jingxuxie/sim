@@ -6,9 +6,9 @@
   "duration_s": 11.999999999998789,
   "target_knob_angle_rad": -0.2617993877991494,
   "target_stage_displacement_m": -2.0833333333333333e-05,
-  "measured_stage_displacement_m": 6.704487247233115e-18,
-  "final_stage_error_m": 2.0833333333340038e-05,
-  "measured_knob_angle_rad": 8.424768760114623e-14,
+  "measured_stage_displacement_m": -6.666403557806595e-18,
+  "final_stage_error_m": 2.0833333333326665e-05,
+  "measured_knob_angle_rad": -8.377123853723966e-14,
   "bilateral_contact_steps": 0,
   "turn_bilateral_contact_steps": 0,
   "peak_normal_force_N": 0.0,
@@ -20,9 +20,9 @@
     "wrist_roll_drive": 0.014591103134983525,
     "panda_grip": 0.03267505678399152
   },
-  "max_screw_residual_m": 7.183054449748863e-19,
-  "last_half_second_stage_range_m": 8.822193114359928e-19,
-  "final_stage_speed_m_s": -5.204694752942728e-21,
+  "max_screw_residual_m": 7.18362458001512e-19,
+  "last_half_second_stage_range_m": 9.119688124229468e-19,
+  "final_stage_speed_m_s": 2.0570872571767713e-21,
   "peak_instrument_actuator_force": 0.0,
   "peak_instrument_applied_generalized_force": 0.0,
   "peak_instrument_applied_body_wrench": 0.0,
@@ -33,12 +33,12 @@
   "released_at_s": 6.500000000000505,
   "final": {
     "time_s": 11.999999999998789,
-    "stage_x_m": 6.704487247233115e-18,
-    "knob_angle_rad": 8.424768760114623e-14,
+    "stage_x_m": -6.666403557806595e-18,
+    "knob_angle_rad": -8.377123853723966e-14,
     "wrist_roll_rad": -0.2617993877991414,
     "wrist_xyz_m": [
       0.0,
-      -1.903761530874587e-17,
+      -1.903479987166557e-17,
       0.034999999999999934
     ],
     "finger_positions_m": [
@@ -74,12 +74,22 @@
   ],
   "robot": "Franka Panda parallel gripper",
   "wrist": "Four-axis Cartesian fixture; no articulated arm",
+  "target_contact_shapes": [
+    "sample_x_knob__sample_x_coarse_wheel_contact",
+    "sample_x_knob__sample_x_differential_collar_contact",
+    "sample_x_knob__sample_x_grip"
+  ],
+  "nominal_wrist_position_m": [
+    -0.222,
+    -0.02,
+    0.04
+  ],
   "mujoco_version": "3.3.7",
   "inputs_before": {
-    "robotics/gripper_task.py": "33b5a23152f4b077bdf081d660f4591fa4739ae73aab69ed5e3409215ec2addd",
-    "robotics/build_gripper_scene.py": "20fedce2379d8900786c04e3c5ad8117dac3f365f59a2bbcccbb5fbcfa92cd66",
-    "001_transfer_stage/transfer_station.xml": "3804e84b6a92e1fdf93d15f7e1c8c90d01597adc2629ed09263e4ad4f878ae03",
-    "001_transfer_stage/asset.json": "b5bb479a2af76343befe8685467029df70f62d757191eef3d17a2938562ccbe4",
+    "robotics/gripper_task.py": "e6b97288c90d9515c6bce33f29ccbec489ee84be811ef73e4cd0cadeb01b1d06",
+    "robotics/build_gripper_scene.py": "d03c05b2e3f9ce093d4d4d5ebd8a5acac2ae70bcfe8471e7fdd287e1e76cc673",
+    "001_transfer_stage/transfer_station.xml": "53cd96d07d8ff929a78a566fded2557edb15ac70c60c8d23dc27671c3b2bffc5",
+    "001_transfer_stage/asset.json": "a4bf47938d638b99093b6304c3a2f7d9c95970ec0818c133feeebfd3ef26a900",
     "robotics/assets/panda_gripper/SOURCE.json": "48bac2acea9d58a99cc93643f7ce60dc773fea39b85e6c1d6412f83c5ddbc86a",
     "robotics/assets/panda_gripper/panda.xml": "c047a49f3c770ff2393e2a74f7e0fbd9d99080a305407254f8ff53ac053cde3b",
     "robotics/assets/panda_gripper/LICENSE": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
@@ -93,6 +103,6 @@
     "robotics/assets/panda_gripper/assets/finger_1.obj": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44"
   },
   "inputs_unchanged": true,
-  "scene_sha256": "50df74851395158cd93cd08ba2c5c137bcc16cfd22ad75ec0f1e7d1362194ba9",
+  "scene_sha256": "fe9985fa8725071624f568dc174463dd74711bb032050887df22f1ec45c7f0f3",
   "scene_unchanged": true
 }

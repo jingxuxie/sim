@@ -1,0 +1,69 @@
+{
+  "revision": "clearance1",
+  "assets": [
+    {
+      "asset": "zeiss",
+      "source_sha256": "9e3cd2b96321143ac728299675aaa64ca9ec46f2d009f51bcee142f300619f5b",
+      "renders": [
+        {
+          "file": "003_zeiss/previews/overview.png",
+          "sha256": "ac5e8846facb2635c076f1028c9d75a9c4ade02450dba6b3e892c49b88cdbba3"
+        },
+        {
+          "file": "003_zeiss/previews/stage.png",
+          "sha256": "58c039184dab3b3136e50644bd789d324da777c2e24a2482b2e7857c41a765d7"
+        },
+        {
+          "file": "003_zeiss/previews/optical_head.png",
+          "sha256": "2cac5a0ae6e31f1ca69b8f8f3f4817b755d48297ce875587ebc8f467a7fdceb1"
+        },
+        {
+          "file": "003_zeiss/previews/condenser.png",
+          "sha256": "0fdc56b316848c00fe76523b0f3c3942e0bda5637d84104bc46b619bc62e1b8a"
+        }
+      ],
+      "thumbnail": {
+        "file": "003_zeiss/previews/web_preview.jpg",
+        "resolution": [
+          1200,
+          1000
+        ],
+        "jpeg_quality": 92,
+        "sha256": "ad29b285f18b9c2d162ee57677f3181e6ea4f7b5afc3104234fa2d2251e3983c"
+      },
+      "prior_render_report_archive": "validation/clearance1/stills/zeiss_final/previous_preview_render_report.json"
+    },
+    {
+      "asset": "probe",
+      "source_sha256": "d9a97c86f9cc9cd809a91207da5ae921452061834ba586021d4b27051349b9c1",
+      "renders": [
+        {
+          "file": "002_probe_station/previews/overview.png",
+          "sha256": "4cd17f7da38a7f5380570d1dddda05c99fa00337b9c6ec32fd35e89a7722af95"
+        },
+        {
+          "file": "002_probe_station/previews/probing.png",
+          "sha256": "7c4ee5408e3c2ce8f23c2869f0e9ff43f2aabdc07189c6e1abca6f436577ed2f"
+        },
+        {
+          "file": "002_probe_station/previews/optical_head.png",
+          "sha256": "157fbfe35628d68eb6789e529fca39b38324d0a055b0c68b31ba0d73e32a6a44"
+        },
+        {
+          "file": "002_probe_station/previews/left_manipulator.png",
+          "sha256": "a9062b945c9773ab86b2117633182fba3a02a65171fb19455ce22ae9fe3eda5b"
+        }
+      ],
+      "thumbnail": {
+        "file": "002_probe_station/previews/web_preview.jpg",
+        "resolution": [
+          1200,
+          1000
+        ],
+        "jpeg_quality": 92,
+        "sha256": "778905be39299d5d543c46b36d482e1cb655ecaaaeaf1bc965a0ad2e94fa5a75"
+      },
+      "prior_render_report_archive": "validation/clearance1/stills/probe_final/previous_preview_render_report.json"
+    }
+  ]
+}

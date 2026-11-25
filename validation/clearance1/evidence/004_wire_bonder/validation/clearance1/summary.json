@@ -1,0 +1,73 @@
+{
+  "revision": "clearance1",
+  "asset": "bonder",
+  "passed": true,
+  "geometry_changed": true,
+  "report": "004_wire_bonder/validation/clearance1/current.json",
+  "hashes": {
+    "004_wire_bonder/build.py": "b329dd9ba5871de6bc870ca435e0ab733bd7161800b4735c0bb9f6afed8758a1",
+    "004_wire_bonder/asset.json": "a4f2496e971f28f35d97a168e3d4542766cdd860fb144ab8f2e27ccb91f8db34",
+    "004_wire_bonder/wire_bonder.xml": "65d56a4038d23c011efe9528c88b1ee8d252adc993611403ca8e74be3d17704a",
+    "004_wire_bonder/wire_bonder.blend": "40407e0dd504b71c255678a31fe7abe9d62113144fdbf66ed775a15521e37932",
+    "004_wire_bonder/assets/wire_bonder.glb": "d93386d649ddb000b162ab09bb9296f9c97f033a7b53bc922856cd79ba4dadbb",
+    "004_wire_bonder/validation/clearance1/current.json": "f8301593956e3bd798b5a8596d193f5dde18d841a0dcb2b5e9837863b305e941"
+  },
+  "changes": [
+    "Heater lead bends stay above the deck until beyond the casting edge; buried rings replaced by surface-mounted saddles.",
+    "Lower carriage and crossed straps fit the opening throughout reconstructed travel.",
+    "Handle travel and 8:1 tool output limits share one clearance-derived envelope."
+  ],
+  "inspected_pairs": [
+    "Carriage/crossed straps vs cavity side, rear, floor and roof skin planes",
+    "Lever/ferrule/ball vs deck, casting and pedestal over continuous full travel",
+    "Heater leads/saddles vs detailed deck/casting/pedestal"
+  ],
+  "domain": {
+    "x": [
+      -0.035,
+      0.035
+    ],
+    "y": [
+      -0.015,
+      0.015
+    ],
+    "z": [
+      -0.021,
+      0.006
+    ]
+  },
+  "baseline_clearances_m": {
+    "aperture_x": -0.011000003695487981,
+    "aperture_y": -0.04950000542402268,
+    "aperture_z": -0.08709999710321426,
+    "tool_floor": -0.034599997103214264
+  },
+  "current_clearances_m": {
+    "aperture_x": 0.01749999818205833,
+    "aperture_y": 0.0010000009909272162,
+    "aperture_z": 0.000500008687376978,
+    "tool_floor": 0.050000010058283806
+  },
+  "minimum_continuous_handle_platform_separation_m": 0.0027125940620899153,
+  "lead_deck_skin_gaps_m": {
+    "Heater red lead": 0.0026902770400047335,
+    "Heater braided lead": 0.00248041653633118,
+    "Heater lead saddle": 0.0014000041186809573,
+    "Heater lead saddle.001": 0.0014000041186809573,
+    "Heater lead saddle.002": 0.0014000041186809573,
+    "Heater lead saddle.003": 0.0014000041186809573
+  },
+  "scope": "Evaluated Blender source vertices give exact translated extrema for the Cartesian handle mechanism; 27 domain corners/midpoints characterize the box domain. Each handle/ball face is also expanded over the complete continuous XYZ domain and checked against conservative detailed deck/casting/pedestal bounds. Actual lead triangles are checked against these surfaces via BVH. The aperture is a conservative skin-plane envelope; service lead contact with its dedicated saddle is intentional.",
+  "exclusions": [
+    "Intended contact within concealed carriage bearings and crossing-link pivot stacks.",
+    "Bond wedge/sample contact and mechanically seated fasteners and saddle mounting feet.",
+    "This Cartesian surrogate is not a factory four-bar reconstruction."
+  ],
+  "limitation": "The envelope is measured from the reconstructed model; it is not a manufacturer travel specification. Internal transmission remains the documented equivalent Cartesian 8:1 mechanism.",
+  "stills": {
+    "report": "004_wire_bonder/previews/clearance1_render_report.json",
+    "render_count": 6,
+    "report_sha256": "2e90b9cb4eeb5fa2a2e3817fa3b25f46081164879a135d457f42e62d006b4af2",
+    "web_preview_sha256": "048121d9a02dc353c1bd2f318c94a03c54dd26a0283e0a8c25dd8a5502ec78d6"
+  }
+}

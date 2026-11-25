@@ -322,17 +322,99 @@
           "pos_mm": [
             0.0,
             -57.0,
-            -143.0
+            -131.325
           ],
           "size_mm": [
-            13,
-            31.0
+            13.03,
+            19.325
           ],
           "axis": [
             0,
             0,
             -1
-          ]
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective forebody",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -57.0,
+            -162.075
+          ],
+          "size_mm": [
+            12.2,
+            11.425
+          ],
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective end shoulder",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -57.0,
+            -173.75
+          ],
+          "size_mm": [
+            10.5,
+            0.25
+          ],
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front aperture",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            -57,
+            -174
+          ],
+          "size_mm": [
+            7,
+            0.25
+          ],
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "contype": 10,
+          "conaffinity": 17
+        },
+        {
+          "name": "Objective front glass",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -57.0,
+            -174.3
+          ],
+          "size_mm": [
+            4,
+            0.15
+          ],
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "contype": 10,
+          "conaffinity": 17
         }
       ],
       "sites": {
@@ -532,18 +614,36 @@
           "name": "chuck_x_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            0.0,
+            -3.5,
+            0.0
           ],
           "size_mm": [
-            8,
-            14
+            8.12,
+            11.5
           ],
           "axis": [
             0,
             -1,
             0
+          ]
+        },
+        {
+          "name": "chuck_x_ratchet_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -18.0,
+            0.0
+          ],
+          "size_mm": [
+            5.2,
+            3.5
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
           ]
         }
       ],
@@ -668,18 +768,36 @@
           "name": "chuck_y_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            -3.5,
+            0.0,
+            0.0
           ],
           "size_mm": [
-            8,
-            14
+            8.12,
+            11.5
           ],
           "axis": [
             -1,
             0,
             0
+          ]
+        },
+        {
+          "name": "chuck_y_ratchet_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            -18.0,
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            5.2,
+            3.5
+          ],
+          "axis": [
+            -1.0,
+            0.0,
+            0.0
           ]
         }
       ],
@@ -740,7 +858,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Sample clamp block",
@@ -759,7 +879,9 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "device_chip",
@@ -778,7 +900,49 @@
             0,
             0,
             1
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Chip clamp screw head contact",
+          "type": "cylinder",
+          "pos_mm": [
+            -22,
+            -12,
+            29
+          ],
+          "size_mm": [
+            3,
+            0.8
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Chip clamp screw head contact",
+          "type": "cylinder",
+          "pos_mm": [
+            22,
+            -12,
+            29
+          ],
+          "size_mm": [
+            3,
+            0.8
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
         }
       ],
       "sites": {
@@ -917,18 +1081,36 @@
           "name": "left_x_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            -3.5,
+            0.0,
+            0.0
           ],
           "size_mm": [
-            8,
-            14
+            8.12,
+            11.5
           ],
           "axis": [
             -1,
             0,
             0
+          ]
+        },
+        {
+          "name": "left_x_ratchet_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            -18.0,
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            5.2,
+            3.5
+          ],
+          "axis": [
+            -1.0,
+            0.0,
+            0.0
           ]
         }
       ],
@@ -1054,18 +1236,36 @@
           "name": "left_y_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            0.0,
+            -3.5,
+            0.0
           ],
           "size_mm": [
-            8,
-            14
+            8.12,
+            11.5
           ],
           "axis": [
             0,
             -1,
             0
+          ]
+        },
+        {
+          "name": "left_y_ratchet_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -18.0,
+            0.0
+          ],
+          "size_mm": [
+            5.2,
+            3.5
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
           ]
         }
       ],
@@ -1164,7 +1364,9 @@
             0.9558737874031067,
             0.0,
             -0.293777734041214
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Probe tip",
@@ -1245,18 +1447,36 @@
           "name": "left_z_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            0.0,
+            0.0,
+            3.5
           ],
           "size_mm": [
-            8,
-            14
+            8.12,
+            11.5
           ],
           "axis": [
             0,
             0,
             1
+          ]
+        },
+        {
+          "name": "left_z_ratchet_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            0.0,
+            18.0
+          ],
+          "size_mm": [
+            5.2,
+            3.5
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
           ]
         }
       ],
@@ -1382,18 +1602,36 @@
           "name": "right_x_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            3.5,
+            0.0,
+            0.0
           ],
           "size_mm": [
-            8,
-            14
+            8.35,
+            11.5
           ],
           "axis": [
             1,
             0,
             0
+          ]
+        },
+        {
+          "name": "right_x_ratchet_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            18.0,
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            5.2,
+            3.5
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            0.0
           ]
         }
       ],
@@ -1519,18 +1757,36 @@
           "name": "right_y_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            0.0,
+            -3.5,
+            0.0
           ],
           "size_mm": [
-            8,
-            14
+            8.35,
+            11.5
           ],
           "axis": [
             0,
             -1,
             0
+          ]
+        },
+        {
+          "name": "right_y_ratchet_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            -18.0,
+            0.0
+          ],
+          "size_mm": [
+            5.2,
+            3.5
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
           ]
         }
       ],
@@ -1629,7 +1885,9 @@
             -0.9558737874031067,
             0.0,
             -0.293777734041214
-          ]
+          ],
+          "contype": 18,
+          "conaffinity": 9
         },
         {
           "name": "Probe tip",
@@ -1710,18 +1968,36 @@
           "name": "right_z_grip",
           "type": "cylinder",
           "pos_mm": [
-            0,
-            0,
-            0
+            0.0,
+            0.0,
+            3.5
           ],
           "size_mm": [
-            8,
-            14
+            8.35,
+            11.5
           ],
           "axis": [
             0,
             0,
             1
+          ]
+        },
+        {
+          "name": "right_z_ratchet_contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0.0,
+            0.0,
+            18.0
+          ],
+          "size_mm": [
+            5.2,
+            3.5
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
           ]
         }
       ],
@@ -1942,6 +2218,12 @@
   },
   "geometry_revision": "realism4",
   "geometry_basis": "Photo243/245/246/247: slotted optical frame, tapered head, asymmetric covered manipulators, rack handwheel and chuck hardware; new static detail dimensions are estimates",
+  "clearance_revision": "clearance1",
+  "control_geometry_correction": "Micrometer marks follow cylindrical barrels instead of protruding radial dial strips; contact envelopes cover complete thimbles, right blue sleeves and separate ratchets. Joint/grasp locations unchanged.",
+  "optical_contact_model": "Dedicated optical/work-surface bits preserve existing robot and needle/pad contacts. Stepped objective end/aperture/glass and raised chuck clamp screws have explicit contacts; centered minimum-focus specimen gap is1.3 mm, while extreme chuck travel can meet a clamp screw. Retract the optical head before coarse chuck positioning.",
+  "fixture_control_rates": {
+    "optic_focus_travel": 0.005
+  },
   "estimated_dimensions_mm": [
     470,
     416,

@@ -93,9 +93,9 @@
         <geom name="stage_gearbox" type="box" pos="0.094 -0.06 0.118" size="0.0175 0.034 0.0135" class="contact_proxy" />
         <geom name="fork_-1" type="box" pos="-0.06 -0.042 0.128" size="0.0075 0.0515 0.0095" class="contact_proxy" />
         <geom name="fork_1" type="box" pos="0.06 -0.042 0.128" size="0.0075 0.0515 0.0095" class="contact_proxy" />
-        <geom name="motor_module_0" type="box" pos="0.081 -0.111 0.128" size="0.02 0.018 0.016" class="contact_proxy" />
+        <geom name="motor_module_0" type="box" pos="0.081 -0.111 0.126" size="0.02 0.018 0.0185" class="contact_proxy" />
         <geom name="motor_endcap_0" type="cylinder" pos="0.081 -0.111 0.107" size="0.013 0.006" class="contact_proxy" zaxis="0 0 1" />
-        <geom name="motor_module_1" type="box" pos="0.081 -0.015 0.128" size="0.02 0.018 0.016" class="contact_proxy" />
+        <geom name="motor_module_1" type="box" pos="0.081 -0.015 0.126" size="0.02 0.018 0.0185" class="contact_proxy" />
         <geom name="motor_endcap_1" type="cylinder" pos="0.081 -0.015 0.107" size="0.013 0.006" class="contact_proxy" zaxis="0 0 1" />
         <geom name="stage_connector" type="box" pos="0.107 -0.063 0.111" size="0.0035 0.0205 0.017" class="contact_proxy" />
         <geom name="condenser" type="cylinder" pos="0 -0.062 0.105" size="0.019 0.0245" class="contact_proxy" zaxis="0 0 1" />

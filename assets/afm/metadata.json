@@ -956,7 +956,7 @@
         "name": "cantilever_lift",
         "type": "hinge",
         "axis": [
-          1,
+          -1,
           0,
           0
         ],
@@ -1196,6 +1196,8 @@
   "reference_group": "oxford_afm",
   "identity": "Cypher S visible on scanner in user video",
   "geometry_revision": "realism4",
+  "clearance_revision": "clearance1",
+  "cantilever_lift_direction": "Positive angle about local -X lifts the front nose clear of the scanner socket.",
   "estimated_dimensions_mm": [
     334,
     438,

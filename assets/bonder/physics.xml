@@ -79,13 +79,13 @@
         <site name="inspection_axis_above" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
       </body>
       <body name="tool_x" pos="0 -0.11 0.113" euler="0 0 0" gravcomp="1">
-        <joint name="tool_x_travel" type="slide" axis="1 0 0" damping="0.6" frictionloss="0.01" range="-0.0079375 0.0079375" />
+        <joint name="tool_x_travel" type="slide" axis="1 0 0" damping="0.6" frictionloss="0.01" range="-0.004375 0.004375" />
         <inertial mass="0.07" pos="0 0 0" diaginertia="8.575e-05 8.575e-05 8.575e-05" />
         <body name="tool_y" pos="0 0 0" euler="0 0 0" gravcomp="1">
-          <joint name="tool_y_travel" type="slide" axis="0 1 0" damping="0.6" frictionloss="0.01" range="-0.0079375 0.0079375" />
+          <joint name="tool_y_travel" type="slide" axis="0 1 0" damping="0.6" frictionloss="0.01" range="-0.001875 0.001875" />
           <inertial mass="0.07" pos="0 0 0" diaginertia="8.575e-05 8.575e-05 8.575e-05" />
           <body name="tool_z" pos="0 0 0" euler="0 0 0" gravcomp="1">
-            <joint name="tool_z_travel" type="slide" axis="0 0 1" damping="0.6" frictionloss="0.01" range="-0.0127 0.003" />
+            <joint name="tool_z_travel" type="slide" axis="0 0 1" damping="0.6" frictionloss="0.01" range="-0.002625 0.00075" />
             <inertial mass="0.07" pos="0 0 0" diaginertia="8.575e-05 8.575e-05 8.575e-05" />
             <geom name="tool_z__Tool_yoke_cheek" type="box" pos="-0.026 -0.003 0.02" size="0.003 0.003 0.018" class="contact" />
             <geom name="tool_z__Tool_yoke_cheek_2" type="box" pos="0.026 -0.003 0.02" size="0.003 0.003 0.018" class="contact" />
@@ -99,13 +99,13 @@
         </body>
       </body>
       <body name="handle_x" pos="0.17 0.037 0.088" euler="0 0 0" gravcomp="1">
-        <joint name="handle_x_travel" type="slide" axis="1 0 0" damping="1.0" frictionloss="0.15" range="-0.0635 0.0635" />
+        <joint name="handle_x_travel" type="slide" axis="1 0 0" damping="1.0" frictionloss="0.15" range="-0.035 0.035" />
         <inertial mass="0.12" pos="0 0 0" diaginertia="0.000147 0.000147 0.000147" />
         <body name="handle_y" pos="0 0 0" euler="0 0 0" gravcomp="1">
-          <joint name="handle_y_travel" type="slide" axis="0 1 0" damping="1.0" frictionloss="0.15" range="-0.0635 0.0635" />
+          <joint name="handle_y_travel" type="slide" axis="0 1 0" damping="1.0" frictionloss="0.15" range="-0.015 0.015" />
           <inertial mass="0.12" pos="0 0 0" diaginertia="0.000147 0.000147 0.000147" />
           <body name="handle_z" pos="0 0 0" euler="0 0 0" gravcomp="1">
-            <joint name="handle_z_travel" type="slide" axis="0 0 1" damping="1.0" frictionloss="0.15" range="-0.1016 0.024" />
+            <joint name="handle_z_travel" type="slide" axis="0 0 1" damping="1.0" frictionloss="0.15" range="-0.021 0.006" />
             <inertial mass="0.12" pos="0 0 0" diaginertia="0.000147 0.000147 0.000147" />
             <geom name="handle_z__Long_independent_hand_lever" type="cylinder" contype="1" conaffinity="3" pos="0.0205 -0.1165 -0.004" size="0.0053 0.1006901187" zaxis="0.2035949528 -0.9782488942 -0.03972584382" class="contact" />
             <geom name="handle_z__Manual_ball_handle" type="sphere" contype="1" conaffinity="3" pos="0.043 -0.228 0.003" size="0.02" zaxis="0 0 1" class="contact" />
@@ -118,9 +118,9 @@
   </worldbody>
   <actuator>
     <position name="scope_focus_travel_drive" joint="scope_focus_travel" kp="12000" kv="140" forcerange="-40 40" ctrlrange="-0.015 0.02" />
-    <position name="handle_x_travel_drive" joint="handle_x_travel" kp="2400" kv="35" forcerange="-8 8" ctrlrange="-0.0635 0.0635" />
-    <position name="handle_y_travel_drive" joint="handle_y_travel" kp="2400" kv="35" forcerange="-8 8" ctrlrange="-0.0635 0.0635" />
-    <position name="handle_z_travel_drive" joint="handle_z_travel" kp="2400" kv="35" forcerange="-8 8" ctrlrange="-0.1016 0.024" />
+    <position name="handle_x_travel_drive" joint="handle_x_travel" kp="2400" kv="35" forcerange="-8 8" ctrlrange="-0.035 0.035" />
+    <position name="handle_y_travel_drive" joint="handle_y_travel" kp="2400" kv="35" forcerange="-8 8" ctrlrange="-0.015 0.015" />
+    <position name="handle_z_travel_drive" joint="handle_z_travel" kp="2400" kv="35" forcerange="-8 8" ctrlrange="-0.021 0.006" />
   </actuator>
   <sensor>
     <jointpos name="scope_focus_travel_position" joint="scope_focus_travel" />

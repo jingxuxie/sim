@@ -16,13 +16,13 @@ const save=()=>fs.writeFileSync(out+'/flexible.json',JSON.stringify(report,null,
    const catalog=JSON.parse(document.getElementById('instrument-catalog').textContent).instruments,results=[];
    const toThree=p=>new T.Vector3(p[0],p[2],-p[1]);
    const names=(m,kind,count)=>Object.fromEntries(Array.from({length:count},(_,i)=>{const v=m[kind](i),name=v.name;v.delete();return[name,i];}));
-   for(const key of ['transfer','probe']){
+   for(const key of ['nikon','transfer','probe']){
     const item=catalog.find(x=>x.id===key);
     const [bytes,meta,xml]=await Promise.all([fetch(item.glb).then(r=>r.arrayBuffer()),fetch(item.metadata).then(r=>r.json()),fetch(item.physics).then(r=>r.text())]);
     const scene=(await new GLTFLoader().parseAsync(bytes,location.href)).scene,flex=new FlexibleDetails(T);flex.attach(scene);
-    const count=key==='transfer'?4:2;if(flex.parts.length!==count)throw Error(key+' expected '+count+' flexible meshes');
+    const count={nikon:1,transfer:4,probe:2}[key];if(flex.parts.length!==count)throw Error(key+' expected '+count+' flexible meshes');
     const m=mj.MjModel.from_xml_string(xml),d=new mj.MjData(m),bodies=names(m,'body',m.nbody),jids=names(m,'jnt',m.njnt);
-    const joints=Object.fromEntries(Object.values(meta.links).filter(x=>x.joint).map(x=>[x.joint.name,x.joint]));
+    const joints=Object.fromEntries(Object.entries(jids).map(([name,id])=>[name,{range:Array.from(m.jnt_range.slice(2*id,2*id+2))}]));
     const zero=Object.fromEntries(flex.parts.flatMap(p=>[...p.inputs.map(i=>i.joint),...(p.rotation?.joints||[])].map(n=>[n,0])));
     for(const part of flex.parts){
      const data=part.mesh.userData,restWorld=[];
@@ -41,9 +41,10 @@ const save=()=>fs.writeFileSync(out+'/flexible.json',JSON.stringify(report,null,
       mj.mj_forward(m,d);
       const pivot=data.flex_rotation?toThree(data.flex_rotation.pivot_m):new T.Vector3();
       const axis=data.flex_rotation?toThree(data.flex_rotation.axis).normalize():new T.Vector3(0,1,0);
-      let maxError=0,fixedCount=0,movingCount=0,maxFixed=0;
+      let maxError=0,fixedCount=0,movingCount=0,maxFixed=0,minHeight=Infinity;
       for(let i=0;i<part.position.count;i++){
        const actual=new T.Vector3().fromBufferAttribute(part.position,i).applyMatrix4(part.mesh.matrixWorld);
+       minHeight=Math.min(minHeight,actual.y);
        const expected=restWorld[i].clone().sub(pivot).applyAxisAngle(axis,angle*part.weights[i]).add(pivot).addScaledVector(delta,part.weights[i]);
        maxError=Math.max(maxError,actual.distanceTo(expected));
        if(part.weights[i]<1e-7){fixedCount++;maxFixed=Math.max(maxFixed,actual.distanceTo(restWorld[i]));}
@@ -57,7 +58,7 @@ const save=()=>fs.writeFileSync(out+'/flexible.json',JSON.stringify(report,null,
        const expected=toThree(data.flex_path_m.at(-1)).sub(pivot).applyAxisAngle(axis,angle).add(pivot).add(delta);
        endpointError=expected.distanceTo(toThree(native.toArray()));
       }else if(part.rotation)throw Error('Rotating hose lacks native endpoint metadata');
-      results.push({check:key+' '+part.mesh.name+' translation '+translation+' rotation '+rotation,passed:fixedCount>0&&movingCount>0&&maxError<2e-7&&maxFixed<2e-7&&endpointError<2e-7,max_vertex_error_m:maxError,native_attachment_error_m:endpointError,fixed_vertices:fixedCount,moving_vertices:movingCount});
+      results.push({check:key+' '+part.mesh.name+' translation '+translation+' rotation '+rotation,passed:fixedCount>0&&movingCount>0&&maxError<2e-7&&maxFixed<2e-7&&endpointError<2e-7&&(key!=='nikon'||minHeight>0),max_vertex_error_m:maxError,native_attachment_error_m:endpointError,fixed_vertices:fixedCount,moving_vertices:movingCount,minimum_world_height_m:minHeight});
      }
     }
     flex.update(zero);let maxRest=0;

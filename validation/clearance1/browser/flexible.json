@@ -1,0 +1,284 @@
+{
+  "url": "http://127.0.0.1:18943/",
+  "started_utc": "2026-11-25T05:06:01.399Z",
+  "checks": [
+    {
+      "check": "nikon Stage_grey_loom translation -1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 2.0861625621426683e-9,
+      "native_attachment_error_m": 7.176854663083103e-9,
+      "fixed_vertices": 3568,
+      "moving_vertices": 3632,
+      "minimum_world_height_m": 0.004625990521162748
+    },
+    {
+      "check": "nikon Stage_grey_loom translation 1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 3.6954879711892374e-9,
+      "native_attachment_error_m": 7.176854663083103e-9,
+      "fixed_vertices": 3568,
+      "moving_vertices": 3632,
+      "minimum_world_height_m": 0.004625990521162748
+    },
+    {
+      "check": "nikon Stage_grey_loom translation 0 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 0,
+      "native_attachment_error_m": 7.176854663083103e-9,
+      "fixed_vertices": 3568,
+      "moving_vertices": 3632,
+      "minimum_world_height_m": 0.004625990521162748
+    },
+    {
+      "check": "nikon returns to rest without accumulated deformation",
+      "passed": true,
+      "max_local_error_m": 0
+    },
+    {
+      "check": "transfer Connected_flexible_fiber_sheath translation -1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 2.9802322387695312e-8,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 6024,
+      "moving_vertices": 6048,
+      "minimum_world_height_m": 0.041469722986221313
+    },
+    {
+      "check": "transfer Connected_flexible_fiber_sheath translation 1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 2.9802322387695312e-8,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 6024,
+      "moving_vertices": 6048,
+      "minimum_world_height_m": 0.041469722986221313
+    },
+    {
+      "check": "transfer Connected_flexible_fiber_sheath translation 0 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 0,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 6024,
+      "moving_vertices": 6048,
+      "minimum_world_height_m": 0.041469722986221313
+    },
+    {
+      "check": "transfer Routed_flexible_camera_cable translation -1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 2.9802322387695312e-8,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 5536,
+      "moving_vertices": 5600,
+      "minimum_world_height_m": 0.024327661842107773
+    },
+    {
+      "check": "transfer Routed_flexible_camera_cable translation 1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 2.9802322387695312e-8,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 5536,
+      "moving_vertices": 5600,
+      "minimum_world_height_m": 0.02565440535545349
+    },
+    {
+      "check": "transfer Routed_flexible_camera_cable translation 0 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 0,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 5536,
+      "moving_vertices": 5600,
+      "minimum_world_height_m": 0.025092795491218567
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation -1 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 1.0103928087607664e-8,
+      "native_attachment_error_m": 1.1254789450577684e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059,
+      "minimum_world_height_m": 0.02562638185918331
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation -1 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 7.831460197491749e-9,
+      "native_attachment_error_m": 1.1254789451651215e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059,
+      "minimum_world_height_m": 0.02562638185918331
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 1 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 9.486690943325937e-9,
+      "native_attachment_error_m": 1.1254789450577684e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059,
+      "minimum_world_height_m": 0.02562638185918331
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 1 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 5.10034599665545e-9,
+      "native_attachment_error_m": 1.1254789451651215e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059,
+      "minimum_world_height_m": 0.02562638185918331
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 0 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 1.0285615526190322e-8,
+      "native_attachment_error_m": 1.1254789450577684e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059,
+      "minimum_world_height_m": 0.02562638185918331
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 0 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 5.195067305661299e-9,
+      "native_attachment_error_m": 1.1254789451651215e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059,
+      "minimum_world_height_m": 0.02562638185918331
+    },
+    {
+      "check": "transfer Routed_heater_electrical_lead translation 0 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 1.3877787807814457e-17,
+      "native_attachment_error_m": 1.1254789451916133e-8,
+      "fixed_vertices": 14768,
+      "moving_vertices": 12059,
+      "minimum_world_height_m": 0.02562638185918331
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation -1 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 9.276470920868544e-9,
+      "native_attachment_error_m": 4.406336598661658e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592,
+      "minimum_world_height_m": 0.027011055499315262
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation -1 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 1.0109395585200669e-8,
+      "native_attachment_error_m": 4.406336612915231e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592,
+      "minimum_world_height_m": 0.027011055499315262
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 1 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 9.40910802129476e-9,
+      "native_attachment_error_m": 4.406336600327e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592,
+      "minimum_world_height_m": 0.027011055499315262
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 1 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 9.200348086200745e-9,
+      "native_attachment_error_m": 4.406336616325932e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592,
+      "minimum_world_height_m": 0.027011055499315262
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 0 rotation -1",
+      "passed": true,
+      "max_vertex_error_m": 9.286109248833997e-9,
+      "native_attachment_error_m": 4.406336601992342e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592,
+      "minimum_world_height_m": 0.027011055499315262
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 0 rotation 1",
+      "passed": true,
+      "max_vertex_error_m": 7.887971009148106e-9,
+      "native_attachment_error_m": 4.4063366096817856e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592,
+      "minimum_world_height_m": 0.027011055499315262
+    },
+    {
+      "check": "transfer Routed_workholder_vacuum_hose translation 0 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 1.3877787807814457e-17,
+      "native_attachment_error_m": 4.4063366101375315e-9,
+      "fixed_vertices": 29296,
+      "moving_vertices": 12592,
+      "minimum_world_height_m": 0.027011055499315262
+    },
+    {
+      "check": "transfer returns to rest without accumulated deformation",
+      "passed": true,
+      "max_local_error_m": 0
+    },
+    {
+      "check": "probe left_flexible_triax_service_loop translation -1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 1.5215917079756294e-8,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 714,
+      "moving_vertices": 742,
+      "minimum_world_height_m": 0.04578731954097748
+    },
+    {
+      "check": "probe left_flexible_triax_service_loop translation 1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 1.1175870895385742e-8,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 714,
+      "moving_vertices": 742,
+      "minimum_world_height_m": 0.045828212052583694
+    },
+    {
+      "check": "probe left_flexible_triax_service_loop translation 0 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 0,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 714,
+      "moving_vertices": 742,
+      "minimum_world_height_m": 0.045828212052583694
+    },
+    {
+      "check": "probe right_flexible_triax_service_loop translation -1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 1.0878174264814466e-8,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 714,
+      "moving_vertices": 742,
+      "minimum_world_height_m": 0.04578731954097748
+    },
+    {
+      "check": "probe right_flexible_triax_service_loop translation 1 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 1.4969786938344594e-8,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 714,
+      "moving_vertices": 742,
+      "minimum_world_height_m": 0.045828212052583694
+    },
+    {
+      "check": "probe right_flexible_triax_service_loop translation 0 rotation 0",
+      "passed": true,
+      "max_vertex_error_m": 0,
+      "native_attachment_error_m": 0,
+      "fixed_vertices": 714,
+      "moving_vertices": 742,
+      "minimum_world_height_m": 0.045828212052583694
+    },
+    {
+      "check": "probe returns to rest without accumulated deformation",
+      "passed": true,
+      "max_local_error_m": 0
+    }
+  ],
+  "passed": true,
+  "checked_utc": "2026-11-25T05:06:05.022Z"
+}

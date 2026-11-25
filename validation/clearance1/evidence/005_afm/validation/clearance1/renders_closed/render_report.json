@@ -1,0 +1,33 @@
+{
+  "revision": "clearance1",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "ded0eec018e08015beb88ba7ca0c28e4c1a48c73b4d99e04b5ef7cb1a23d0756",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "9181c84e8c1df07bb66f45280ad7c98e40d2ea215e6decf797b56bc865cdf72d"
+    },
+    {
+      "file": "door_release_detail.png",
+      "camera": "door_release_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "8510d1fb65e5da14fb18415dcd04027a3d549bfdc1b4e7d7fb4b2701c56098f7"
+    }
+  ]
+}

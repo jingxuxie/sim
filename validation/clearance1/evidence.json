@@ -1,0 +1,186 @@
+{
+  "root": "evidence/",
+  "note": "Report source paths are relative to the authoring workspace. Current and baseline measurements are labeled separately; native asset hashes identify inputs.",
+  "files": [
+    {
+      "file": "evidence/validation/clearance1/microscopes/after_nikon.json",
+      "sha256": "f55b501103881d5d2d89a4f8ccac1e762fde758ea4c3ddc754fd62463bd6f887"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/after_probe.json",
+      "sha256": "899e137108315df8e383f216fa1c4053531d587c58628d546f410e03f77d4aa4"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/after_zeiss.json",
+      "sha256": "29d64eb78eb99200d520dc26bb99c7e36b618b30666cbbc4d96f33cf900afe11"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/before_nikon.json",
+      "sha256": "07825c55371411d0826707b1ac9fa0cffc8a682b091ba3c9f6e6aa48c97d69a0"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/before_probe.json",
+      "sha256": "b8b2afebc8cdc6a6f6a5ab5493520325352b1e60e7f087801c7870ce5f338682"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/before_zeiss.json",
+      "sha256": "2d16c02e2d7ef33f64de591169f31af39ef7d5a6617df434a20f7ea9a6ceaf7b"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/optical_before_probe.json",
+      "sha256": "bfb772812aac0696c515bfbe2259a0af26c5b8a3c97b4029e3670ad8139b893e"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/probe_optical_contact_after.json",
+      "sha256": "ec8f0c7e2015b76d0bc2dc409654e0105e97a8fa0eeebebf1bdb1b8dd8f700c1"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/probe_optical_contact_before.json",
+      "sha256": "3b5ea8633a6454f01f5fbc662aefa8985d19cbd619ddbe96bb922a3d62c8f5e4"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/probe_optical_contact_unlimited_step.json",
+      "sha256": "771f90e864fab40cbc93bbd904ee27d5a4a72bd60cf81c419253e6f6f6b3ca39"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/still_promotion.json",
+      "sha256": "7c02e0bcca42453308645fee1953e9470a9d58a78b0d893a8623e51fa6b44351"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/zeiss_optical_contact_after.json",
+      "sha256": "d452cbe4441fd7f7652d975ef3b4c598b03aba6f9f6ff560389a734c4f5a3829"
+    },
+    {
+      "file": "evidence/validation/clearance1/microscopes/zeiss_optical_contact_before.json",
+      "sha256": "9759ee02b6a150b70b1e1892e972163209d15d34160abe763fff949deb636490"
+    },
+    {
+      "file": "evidence/validation/clearance1/transfer/after.json",
+      "sha256": "5f4b855f5c4647e4afb3105abb5686887fdc26d3bc8b383bbc65e619030740d6"
+    },
+    {
+      "file": "evidence/validation/clearance1/transfer/before.json",
+      "sha256": "ad21523c7bd5043374b82270feb91b4496af141999a50ce556345a89084da161"
+    },
+    {
+      "file": "evidence/validation/clearance1/transfer/focus_contact.json",
+      "sha256": "408023042ef9173ae048ad0221a87dffc1c407c0e43d26ccff819c86bb9cc284"
+    },
+    {
+      "file": "evidence/validation/clearance1/transfer/focus_trace.json",
+      "sha256": "40a40036ca011bacabc72997aae5f3e312bce53cd3771d91c9dd8b7fb6ca2219"
+    },
+    {
+      "file": "evidence/validation/clearance1/transfer/mechanisms.json",
+      "sha256": "c22a3484ad0d76310fb5e503b164e343ec28431d29752c3ddbda6e83c33b929d"
+    },
+    {
+      "file": "evidence/validation/clearance1/transfer/stages_endpoints.json",
+      "sha256": "66d073d8c4e18b169c1d1c968db8c4c0f6ab93ed840fc0adac5537d5a3c4ea9c"
+    },
+    {
+      "file": "evidence/004_wire_bonder/validation/clearance1/baseline.json",
+      "sha256": "ed3a305ff3d6e3ec4c38e6b689277da11a31e15d6aa999c9a3edcfd31e97c3fc"
+    },
+    {
+      "file": "evidence/004_wire_bonder/validation/clearance1/current.json",
+      "sha256": "f8301593956e3bd798b5a8596d193f5dde18d841a0dcb2b5e9837863b305e941"
+    },
+    {
+      "file": "evidence/004_wire_bonder/validation/clearance1/renders/render_report.json",
+      "sha256": "72de7b471e0898ba5729e4b4687f2c206f119d426680c491ef86c84659aa4cd5"
+    },
+    {
+      "file": "evidence/004_wire_bonder/validation/clearance1/summary.json",
+      "sha256": "b782dbfb5a6e9456ba84d0fe4481d5160039309d7eb994173d55d24242cd48c8"
+    },
+    {
+      "file": "evidence/005_afm/validation/clearance1/access_trajectory.json",
+      "sha256": "97845a94050628f831fc364a5d713fee784260c88d82df7011f49ded0e9c10df"
+    },
+    {
+      "file": "evidence/005_afm/validation/clearance1/baseline.json",
+      "sha256": "3292429d4f126a62b68eb839142a9f9f23f932f7cddada5d7f5900a29e9e4723"
+    },
+    {
+      "file": "evidence/005_afm/validation/clearance1/current.json",
+      "sha256": "43d10c80e1beb2962a19d1e6093fd0f83b4980e290eee8d318d094aeb1fe1b8d"
+    },
+    {
+      "file": "evidence/005_afm/validation/clearance1/render_pose_validation.json",
+      "sha256": "5f4840120b5fdca4eba864ea9840d9599ee5be6695b08ace1bfdfeeeb10b7c46"
+    },
+    {
+      "file": "evidence/005_afm/validation/clearance1/renders_closed/render_report.json",
+      "sha256": "6ebf003eb7938f16da8cdd51694b3d4fd2940e2ca21ad33e1b3600124e9f63ac"
+    },
+    {
+      "file": "evidence/005_afm/validation/clearance1/renders_open/render_report.json",
+      "sha256": "c13c8add5fc4149348e2397533cf1fe7f8c9df2f60eac335385299c784a3b22c"
+    },
+    {
+      "file": "evidence/005_afm/validation/clearance1/shell_release_sweeps.json",
+      "sha256": "728323ae28400e9f2104a760202ef0f0fdd6377ae72f8945ff20170bda519da0"
+    },
+    {
+      "file": "evidence/005_afm/validation/clearance1/summary.json",
+      "sha256": "a59bde30f4dfead993484f0535c45dbef3e4a625f6a4be82f59c95643ea2d026"
+    },
+    {
+      "file": "evidence/006_tweezers/validation/clearance1/current.json",
+      "sha256": "26174b69842436f1d1026925445a4dbc21812fe3230a68c826709f1ac2656dbe"
+    },
+    {
+      "file": "evidence/006_tweezers/validation/clearance1/summary.json",
+      "sha256": "8c77d7dbcdd762e762d6943aa14a51fd9cf71b02fbf89c55acf3e658f914b124"
+    },
+    {
+      "file": "evidence/validation/clearance1/stills/nikon/render_report.json",
+      "sha256": "9df39c9bb0db9060c8cf8ed51198c7d74e574c5e5ff1ddac2bdfc641a8437573"
+    },
+    {
+      "file": "evidence/validation/clearance1/stills/probe/render_report.json",
+      "sha256": "7bfda7d841060d7fb9efc4f8bc11772ef1ac3b037c50b7b822e619e14e540365"
+    },
+    {
+      "file": "evidence/validation/clearance1/stills/probe_final/render_report.json",
+      "sha256": "41dd87467e2f82516052c3eac59d1403576c1be6ac76987cebff2c6aa6878a5f"
+    },
+    {
+      "file": "evidence/validation/clearance1/stills/transfer/render_report.json",
+      "sha256": "1b08ffa1678b12f0f3f57326b4065af3b3b6ac1142a827789a8804bc58fb5639"
+    },
+    {
+      "file": "evidence/validation/clearance1/stills/zeiss/render_report.json",
+      "sha256": "bdb4c7ed93acf01428bd7785d83b7130c621f6356880c005f2ef6d3875063193"
+    },
+    {
+      "file": "evidence/validation/clearance1/stills/zeiss_final/render_report.json",
+      "sha256": "1b2fe515b2847bb67df03aa91c17509b11c88ac53912e7903763a6371c0e96c3"
+    },
+    {
+      "file": "evidence/000/previews/clearance1_render_report.json",
+      "sha256": "b33b467ed694e7eab65b988df666c238a65a307161a62edd00b9c467cba967bf"
+    },
+    {
+      "file": "evidence/001_transfer_stage/previews/clearance1_render_report.json",
+      "sha256": "b172afa18a8cbfd94486e2ca5f1c30dfc6b2c3b7a8a2efe0740929e30ab71864"
+    },
+    {
+      "file": "evidence/002_probe_station/previews/render_report.json",
+      "sha256": "41dd87467e2f82516052c3eac59d1403576c1be6ac76987cebff2c6aa6878a5f"
+    },
+    {
+      "file": "evidence/003_zeiss/previews/render_report.json",
+      "sha256": "1b2fe515b2847bb67df03aa91c17509b11c88ac53912e7903763a6371c0e96c3"
+    },
+    {
+      "file": "evidence/004_wire_bonder/previews/clearance1_render_report.json",
+      "sha256": "2e90b9cb4eeb5fa2a2e3817fa3b25f46081164879a135d457f42e62d006b4af2"
+    },
+    {
+      "file": "evidence/005_afm/previews/clearance1_render_report.json",
+      "sha256": "2f8353b394039c0749ebcdb96cbfaa3993dbe48281bc06c08760aa1618c31cf4"
+    }
+  ]
+}

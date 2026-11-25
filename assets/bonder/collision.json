@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "5189808a21706951586fa2163a589101f0f218aba39969ddf5b49ad8e7ee315d",
+  "physics_sha256": "6497be376b1b0682e2be98554d09758d3a69bcca1102e48b81293aff5ae9e875",
   "shapes": [
     {
       "name": "base__Rear_cast_instrument_foot",
