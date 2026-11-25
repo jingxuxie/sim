@@ -1,0 +1,328 @@
+{
+  "asset": "nikon",
+  "phase": "reference5",
+  "source_sha256": "2b1c792e7a16f61dd2a4b6514b42a5bb0c9aae97db7e7813dd15baf03c0d2b19",
+  "bench_top_z_mm": -1,
+  "method": "Evaluated detailed meshes with Blender drivers; exact mesh Z extrema for support planes; BVH triangle intersection for exterior assembly pairs.",
+  "intended_fit_exclusions": [
+    "Fasteners inside their own tapped seats; spindle/bearing insertion; nested covered slide bearings.",
+    "Feet/base against bench are intended support interfaces.",
+    "Objective/specimen contact is a functional unsafe-focus domain; no removal of those contacts or reduction of focus limits."
+  ],
+  "rest_below_bench": [],
+  "checks": [
+    {
+      "kind": "cables_to_bench",
+      "focus_mm": -10,
+      "signed_surface_gaps_mm": {
+        "Camera data service cable": 3.065027365460992,
+        "Camera coax service cable": 3.7254940941929817,
+        "Stage grey loom": 5.625990521162748
+      }
+    },
+    {
+      "kind": "loom_attachments",
+      "focus_mm": -10,
+      "fixed_endpoint_error_mm": 1.4105198479793718e-05,
+      "moving_endpoint_error_mm": 9.605593847777385e-06
+    },
+    {
+      "kind": "grips_to_bench",
+      "focus_mm": -10,
+      "minimum_surface_gap_mm": 26.900001521222293
+    },
+    {
+      "kind": "cables_to_exterior",
+      "focus_mm": -10,
+      "intersections": []
+    },
+    {
+      "kind": "cables_to_bench",
+      "focus_mm": -5,
+      "signed_surface_gaps_mm": {
+        "Camera data service cable": 3.065027365460992,
+        "Camera coax service cable": 3.7254940941929817,
+        "Stage grey loom": 5.625990521162748
+      }
+    },
+    {
+      "kind": "loom_attachments",
+      "focus_mm": -5,
+      "fixed_endpoint_error_mm": 1.4105198479793718e-05,
+      "moving_endpoint_error_mm": 9.189577830189158e-06
+    },
+    {
+      "kind": "grips_to_bench",
+      "focus_mm": -5,
+      "minimum_surface_gap_mm": 31.90000047814101
+    },
+    {
+      "kind": "cables_to_exterior",
+      "focus_mm": -5,
+      "intersections": []
+    },
+    {
+      "kind": "cables_to_bench",
+      "focus_mm": 0,
+      "signed_surface_gaps_mm": {
+        "Camera data service cable": 3.065027365460992,
+        "Camera coax service cable": 3.7254940941929817,
+        "Stage grey loom": 5.625990521162748
+      }
+    },
+    {
+      "kind": "loom_attachments",
+      "focus_mm": 0,
+      "fixed_endpoint_error_mm": 1.4105198479793718e-05,
+      "moving_endpoint_error_mm": 8.195443285041094e-06
+    },
+    {
+      "kind": "grips_to_bench",
+      "focus_mm": 0,
+      "minimum_surface_gap_mm": 33.00000096123394
+    },
+    {
+      "kind": "cables_to_exterior",
+      "focus_mm": 0,
+      "intersections": []
+    },
+    {
+      "kind": "cables_to_bench",
+      "focus_mm": 4,
+      "signed_surface_gaps_mm": {
+        "Camera data service cable": 3.065027365460992,
+        "Camera coax service cable": 3.7254940941929817,
+        "Stage grey loom": 5.625990521162748
+      }
+    },
+    {
+      "kind": "loom_attachments",
+      "focus_mm": 4,
+      "fixed_endpoint_error_mm": 1.4105198479793718e-05,
+      "moving_endpoint_error_mm": 8.609100940544248e-06
+    },
+    {
+      "kind": "grips_to_bench",
+      "focus_mm": 4,
+      "minimum_surface_gap_mm": 33.00230539912683
+    },
+    {
+      "kind": "cables_to_exterior",
+      "focus_mm": 4,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        -39,
+        -27
+      ],
+      "motor_mount_vertical_gap_mm": 1.4999951235949993,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        -39,
+        0
+      ],
+      "motor_mount_vertical_gap_mm": 1.4999951235949993,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        -39,
+        27
+      ],
+      "motor_mount_vertical_gap_mm": 1.4999951235949993,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        0,
+        -27
+      ],
+      "motor_mount_vertical_gap_mm": 1.4999951235949993,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        0,
+        0
+      ],
+      "motor_mount_vertical_gap_mm": 1.4999951235949993,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        0,
+        27
+      ],
+      "motor_mount_vertical_gap_mm": 1.4999951235949993,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        39,
+        -27
+      ],
+      "motor_mount_vertical_gap_mm": 1.4999951235949993,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        39,
+        0
+      ],
+      "motor_mount_vertical_gap_mm": 1.4999951235949993,
+      "intersections": []
+    },
+    {
+      "kind": "stage_deck_to_controls",
+      "xy_mm": [
+        39,
+        27
+      ],
+      "motor_mount_vertical_gap_mm": 1.4999951235949993,
+      "intersections": []
+    }
+  ],
+  "motion_domain": {
+    "focus_mm": [
+      -10,
+      -5,
+      0,
+      4
+    ],
+    "stage_xy_mm": {
+      "x": [
+        -39,
+        0,
+        39
+      ],
+      "y": [
+        -27,
+        0,
+        27
+      ]
+    }
+  },
+  "audited_stage_pairs": {
+    "moving": [
+      "Black 212.5 mm mechanical stage"
+    ],
+    "targets": [
+      "D-sub stamped rear shield",
+      "Hanging XY gear housing",
+      "Motor mounting block",
+      "Motor mounting block.001"
+    ]
+  },
+  "functional_contact_envelope": {
+    "scope": "Indexed objective stations and centered XY specimen only. Signed vertical extrema plus exact triangle intersection; negative gap is an unsafe commanded pose, not evidence that native dynamics permits passage.",
+    "poses": [
+      {
+        "station": 0,
+        "focus_mm": -10,
+        "signed_vertical_gap_mm": 12.740001915415938,
+        "sample_intersections": []
+      },
+      {
+        "station": 0,
+        "focus_mm": 0,
+        "signed_vertical_gap_mm": 2.7399965509979083,
+        "sample_intersections": []
+      },
+      {
+        "station": 0,
+        "focus_mm": 4,
+        "signed_vertical_gap_mm": -1.259996654072587,
+        "sample_intersections": [
+          {
+            "moving": "Port 1 black front lens guard",
+            "target": "Flake substrate",
+            "triangle_pairs": 184
+          },
+          {
+            "moving": "Port 1 CFI objective body",
+            "target": "Flake substrate",
+            "triangle_pairs": 192
+          }
+        ]
+      },
+      {
+        "station": 1,
+        "focus_mm": -10,
+        "signed_vertical_gap_mm": 12.389988569130733,
+        "sample_intersections": []
+      },
+      {
+        "station": 1,
+        "focus_mm": 0,
+        "signed_vertical_gap_mm": 2.3899832047127036,
+        "sample_intersections": []
+      },
+      {
+        "station": 1,
+        "focus_mm": 4,
+        "signed_vertical_gap_mm": -1.6100100003577922,
+        "sample_intersections": [
+          {
+            "moving": "Port 2 black front lens guard",
+            "target": "Flake substrate",
+            "triangle_pairs": 168
+          },
+          {
+            "moving": "Port 2 CFI objective body",
+            "target": "Flake substrate",
+            "triangle_pairs": 168
+          }
+        ]
+      },
+      {
+        "station": 5,
+        "focus_mm": -10,
+        "signed_vertical_gap_mm": 28.740004477464943,
+        "sample_intersections": []
+      },
+      {
+        "station": 5,
+        "focus_mm": 0,
+        "signed_vertical_gap_mm": 18.739999113046913,
+        "sample_intersections": []
+      },
+      {
+        "station": 5,
+        "focus_mm": 4,
+        "signed_vertical_gap_mm": 14.740005907976418,
+        "sample_intersections": []
+      },
+      {
+        "station": 6,
+        "focus_mm": -10,
+        "signed_vertical_gap_mm": 19.74000086619737,
+        "sample_intersections": []
+      },
+      {
+        "station": 6,
+        "focus_mm": 0,
+        "signed_vertical_gap_mm": 9.739995501779342,
+        "sample_intersections": []
+      },
+      {
+        "station": 6,
+        "focus_mm": 4,
+        "signed_vertical_gap_mm": 5.740002296708846,
+        "sample_intersections": []
+      }
+    ]
+  },
+  "intersections_count": 0,
+  "passed_reported_exterior_pairs": true
+}

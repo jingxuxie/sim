@@ -1,0 +1,49 @@
+{
+  "status": "photo corrections implemented; targeted checks in progress",
+  "private_reference_only": true,
+  "photos": [
+    "transfer_stage_227",
+    "transfer_stage_231",
+    "transfer_stage_236"
+  ],
+  "findings": [
+    {
+      "photo_ids": [
+        227,
+        236
+      ],
+      "finding": "The front vertical adjustment is a compact upward-facing scalloped knob, exposed shaft and brass split collar in a cylindrical mount, with a separate bored cylindrical lower foot. The clearance1 tall graduated micrometer and raised rectangular bracket do not reproduce this construction.",
+      "plan": "Reconstruct the compact drive and genuine bored foot, preserving positive full-stroke clearance and the screw coupling."
+    },
+    {
+      "photo_ids": [
+        227,
+        236
+      ],
+      "finding": "Horizontal micrometers use split clamp blocks with actual transverse bores. The current mounting clamp is a solid box visually covering the collar.",
+      "plan": "Machine the visible bore and split without changing the sample-X grip position or its 1 mm table clearance."
+    },
+    {
+      "photo_ids": [
+        231
+      ],
+      "finding": "Photo231 shows balls seated between the rotary top and the workholder, with separate threaded preload rods. The old model had a 6.8 mm gap below each ball and rods through the ball centers.",
+      "plan": "Balls now tangent to the unchanged top/support planes; separate rods and socket heads occupy the photographed surrounding plate. Heater/sample positions and service routes stay fixed."
+    },
+    {
+      "photo_ids": [
+        231
+      ],
+      "finding": "Refreshing the hose audit exposed a previous route/handwheel interference at sample-X -12.5 mm and sample-Y +12.5 mm. Every offending surface was the unchanged sample-Y black handwheel.",
+      "implemented": "The fixed vacuum-routing knee is raised six mm; service endpoints and all instrument/robot target sites stay fixed. The route is a reconstructed safe service envelope, not a measured flexible-cable dynamics model."
+    }
+  ],
+  "preserve": [
+    "sample-X grip world position (-216,-20,40) mm",
+    "sample-X handwheel/table clearance 1 mm",
+    "all stage travel and screw constraints",
+    "focus control rate 5 mm/s",
+    "service hose safe routes",
+    "robotic task target positions"
+  ]
+}

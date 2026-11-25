@@ -1,0 +1,77 @@
+{
+  "asset": "probe",
+  "revision": "reference5",
+  "xml_sha256": "c1c2fcdbe89655cb44a9ca773d429a8441fc136e888d4ff4acc3a5910fc4906a",
+  "baseline_xml_sha256": "4457612b67f147caef36b30c8f741c2cd4c65cfe5eac5144159c4756152c8ff0",
+  "script_sha256": "8ad0150607265cf89a530582311a45b7bdf6c0c0b0aa358961babd8b70323ff6",
+  "checks": [
+    {
+      "check": "existing_joint_and_site_datums",
+      "joint_max_delta_SI": 0.0,
+      "site_max_delta_m": 0.0,
+      "nq_before_after": [
+        19,
+        19
+      ],
+      "nv_before_after": [
+        19,
+        19
+      ],
+      "passed": true
+    },
+    {
+      "check": "native_guide_slot",
+      "z_mm": 196.0,
+      "before": {
+        "distance_mm": 11.999999999999996,
+        "geom": "base__Microscope_upright"
+      },
+      "after": {
+        "distance_mm": null,
+        "geom": null
+      },
+      "passed": true
+    },
+    {
+      "check": "native_guide_slot",
+      "z_mm": 399.0,
+      "before": {
+        "distance_mm": 11.999999999999996,
+        "geom": "base__Microscope_upright"
+      },
+      "after": {
+        "distance_mm": null,
+        "geom": null
+      },
+      "passed": true
+    },
+    {
+      "check": "native_recessed_optical_slot",
+      "y_mm": -60.5,
+      "before": {
+        "distance_mm": 9.500000000000002,
+        "geom": "optic_focus__Mitutoyo_optical_housing_envelope"
+      },
+      "after": {
+        "distance_mm": 21.500000000000004,
+        "geom": "optic_focus__Optical_housing_inner_core"
+      },
+      "passed": true
+    },
+    {
+      "check": "native_recessed_optical_slot",
+      "y_mm": -33.5,
+      "before": {
+        "distance_mm": 9.500000000000002,
+        "geom": "optic_focus__Mitutoyo_optical_housing_envelope"
+      },
+      "after": {
+        "distance_mm": 21.500000000000004,
+        "geom": "optic_focus__Optical_housing_inner_core"
+      },
+      "passed": true
+    }
+  ],
+  "task_cases": [],
+  "passed": true
+}

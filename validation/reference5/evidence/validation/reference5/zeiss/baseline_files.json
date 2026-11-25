@@ -1,0 +1,402 @@
+[
+  {
+    "path": "validation/reference5/zeiss/before/asset.json",
+    "sha256": "a8687f0b04c21ad3f49c4ce3589d9343dc0a16655924ce2b0828597c3ca13d4c",
+    "bytes": 32603
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__black.obj",
+    "sha256": "eb74a746e0efc37283e58ae0c64a25a7ab3b93d0c262444fc3a673717a0dd10f",
+    "bytes": 5212912
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__brushed.obj",
+    "sha256": "ee796cbb765ebd36ce1d38a5d5d48ada8d00dafff8be856b975abdd97627619a",
+    "bytes": 50087
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__cyan.obj",
+    "sha256": "43330a73bad5736b1a6a30cdc46763962470bdbf4eaac8f17578fb13fc71effb",
+    "bytes": 50805
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__darkmetal.obj",
+    "sha256": "3b99d11db844a8b236cc952ddd0fc7cfc5b5987a8ae134526fc91773aa644b8f",
+    "bytes": 561331
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__glass.obj",
+    "sha256": "5dec12df7ecac99a68df917a98f5f70646e21e3f806621d5bc7e6eab50b7363a",
+    "bytes": 221271
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__graphite.obj",
+    "sha256": "c54a902de3cfcabf265914b31c32d45735c1bf21b63f4d6c2f5fb6586707b340",
+    "bytes": 221952
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__green.obj",
+    "sha256": "7afbf89af549f96e38dca2147d6c4e745d3314da6117c2b83bc11cbb228b14cb",
+    "bytes": 49967
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__ink.obj",
+    "sha256": "2803ee05a883dbd3699b678c5f19be6fd7605601c4d11534075d64e30fa0c6c4",
+    "bytes": 3366000
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__ivory.obj",
+    "sha256": "c4d24d4103375f2be67cf06c8186872633145954828ad141c80f046a69eaf5e7",
+    "bytes": 6461196
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__optic.obj",
+    "sha256": "f796fcafae2d5a210a1544d70fb185fd24522c7f69f5c1938db85a07a2f0e79a",
+    "bytes": 673340
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__paper.obj",
+    "sha256": "1713230a1e57ebbb1faf63883b888ecacde4765b57dc65616356b466bbe78c5b",
+    "bytes": 8958474
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__rubber.obj",
+    "sha256": "f36181de9e3bc8902f54af15ef94d6c5e787c39a239a14b5fa64059a2deb5a23",
+    "bytes": 1443676
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__steel.obj",
+    "sha256": "c541b64fb0f8d89d5d057c3898ca7039f5fe54e3b375b07c7fc900c491db6a67",
+    "bytes": 3611394
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/base__wire.obj",
+    "sha256": "dd5df542eac3c816ab4bb446df8abcaca1487d5b0de7e175d5b40d8017b6c0c8",
+    "bytes": 384289
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus__black.obj",
+    "sha256": "d639e50d3694a468785d0085e8415c9e5935a7b79a93c35ee7d3f5f0dda5c302",
+    "bytes": 522226
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus__bronze.obj",
+    "sha256": "777dd69a032ba55537e3f42ad4e897ddd61f505e4fe0f640d81a39f9e7091449",
+    "bytes": 172023
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus__brushed.obj",
+    "sha256": "c4c608ebc97130f41963740f06e233817e36bdb7a3244111c645f39c63a2ff91",
+    "bytes": 83343
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus__graphite.obj",
+    "sha256": "97ab4c3e15a0cfe83043aba4311aa71feae2018c6f460b5a49a037651e0ff90d",
+    "bytes": 50404
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus__ink.obj",
+    "sha256": "900e9c2911c2632101f40e6522e3b5d2dc34f1cb45b0295b358327355fbfc30d",
+    "bytes": 17927
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus__ivory.obj",
+    "sha256": "fd2afebc7cdc3a48f05a08ce0525a5d82c49a328d530d29230e97d1596e437be",
+    "bytes": 949177
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus__optic.obj",
+    "sha256": "a6cde6880321687bea4b3c630b8199ad33bed1a98410107fa783a3a17ac5f14f",
+    "bytes": 83947
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus__paper.obj",
+    "sha256": "a29bba9ae54821c61c719196507005fa4118c9bccbdf9b5eb9a65854d36342c9",
+    "bytes": 131465
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus__steel.obj",
+    "sha256": "ef275f7e86b46522cf99dd93a60b21fa48598018750124a1273b16a99dd1e1c5",
+    "bytes": 1685179
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus_wheel__black.obj",
+    "sha256": "0751556abd590292448c9669e5f4a3b5538c7468dc504b8b85b9ef727171e14f",
+    "bytes": 925936
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus_wheel__etched.obj",
+    "sha256": "1b226c67da0a76930ee4fbe6a72b17040fde630e70d930145725b944b2b28a9e",
+    "bytes": 2197168
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus_wheel__graphite.obj",
+    "sha256": "3ed52e1e0fa75ba9a215cb30d1490ce59cbb82429307c23f6c56331dce647760",
+    "bytes": 83886
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus_wheel__ink.obj",
+    "sha256": "c195a483f34ea0e39ef3b081a3c771bc4839efe4df9db8cd54e6d66051d98734",
+    "bytes": 12070184
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/focus_wheel__paper.obj",
+    "sha256": "cab8eb497931f7fd80bfb734abd916d3e0a986b18ba3197a6d568dac2f83642e",
+    "bytes": 193507
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/light_path_selector__black.obj",
+    "sha256": "defa967dac8c2f6fbebd649c40b82038c61b01204d88acad1ab1e82e8e1524a3",
+    "bytes": 84466
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/light_path_selector__steel.obj",
+    "sha256": "14b72b46c083b5b3a48d562ed53a4a811b97e5e29ea252e1f6738aa165e3c0d5",
+    "bytes": 217079
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__black.obj",
+    "sha256": "bb91166671a13012148bf08c14148753a3dfd2e02cfdaedffe01bac4e3caed57",
+    "bytes": 627149
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__brushed.obj",
+    "sha256": "4835718cd5d08d50377de530e5b63708b0de7f374a7bd34094e3753df1841973",
+    "bytes": 50867
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__glass.obj",
+    "sha256": "4d4bedd56f508333a94c6fea34dd65ce39edbf30cd4f0d7c3a10d2a77461b43b",
+    "bytes": 51047
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__gold.obj",
+    "sha256": "8c1de8189a15d881f9c64a6a0be61d3b7b8a980a36f53d7a6f075a8beac6e58c",
+    "bytes": 656077
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__graphite.obj",
+    "sha256": "298e2d0a292a436b4ea1f7c93f04ac70283a2a2db7969ae8896bd5d320e41a0d",
+    "bytes": 103926
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__ink.obj",
+    "sha256": "e730781b32ce8e46f1f43603f3d4bba667ab76547ae0927d5c00d5e352ae3edb",
+    "bytes": 3551
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__paper.obj",
+    "sha256": "693a2308a266dd989924d47373c9a65baaeb66a2d4da6c06c8adfa93598375b9",
+    "bytes": 369895
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__steel.obj",
+    "sha256": "10b045bb03bcc7a9b1f3d8139309892933888287e65a382d10a7c9e99438ef18",
+    "bytes": 1025042
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__violet.obj",
+    "sha256": "4943b65aa6ce05bae7e93c9ce7675d034ce4d0731e78e9c9f55597a76c3238bb",
+    "bytes": 50987
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x__wafer.obj",
+    "sha256": "2d5ce5b8c22d796eee38e12c28fb473b8d085f72fe6f8059859d9b3fdc38ff5c",
+    "bytes": 51249
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x_knob__black.obj",
+    "sha256": "d14e1dc91a60f7a1997764ded900b7879aa80395d2262b9060a291c7fb039bf8",
+    "bytes": 312148
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x_knob__etched.obj",
+    "sha256": "e0bc8f182861dcd83763f7c16d1e20b0f62706ac14af2dfc0943d450ba20befb",
+    "bytes": 2195319
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x_knob__graphite.obj",
+    "sha256": "8911aa4ece54329a1e0946d9b70f256db81b6153de8f6a83b01503066ce1d919",
+    "bytes": 84765
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_x_knob__paper.obj",
+    "sha256": "cc83f8b75d534783ecec06176981c4ad7fadbff011c23e8e2ac7397244a2e015",
+    "bytes": 5186
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_y__black.obj",
+    "sha256": "e167dd546998ef8e3c23b6d2a1c68f6c8ca645fa89d6ecb0e1204e406bcbbb2e",
+    "bytes": 102508
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_y__brushed.obj",
+    "sha256": "9a6cd97ced33949b3beccfb76f42a28a6ba3f98fcf9da4f69fa4fe6297c45606",
+    "bytes": 190064
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_y__graphite.obj",
+    "sha256": "f19af84b7e713bc4925ee18efb061604e3195fff2da258cc0eeb48ad583c7b7a",
+    "bytes": 465137
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_y__ink.obj",
+    "sha256": "0188ea1bcc1e93a636a99fb181fd8ef67ea31e8ef6b585e42322a8a88056dbdc",
+    "bytes": 10197
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_y__steel.obj",
+    "sha256": "4ae2a0ec84db8a2238abfe19957e543ff384c06303a697b4de6dd586023a8e75",
+    "bytes": 704112
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_y_knob__black.obj",
+    "sha256": "5bd25ce0f05c7bda29508cee8c723fd8f34e4fe1616692c033fa76aa51c90c17",
+    "bytes": 311960
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_y_knob__etched.obj",
+    "sha256": "1db22cd4058141ba17afece5bd24ccd7ebbac6b3d186fe6ffc52f9708599d96e",
+    "bytes": 2193281
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_y_knob__graphite.obj",
+    "sha256": "68b8e22692dc95f222a73379cd24a4909b1b435d6e9422e7c38414b4ad8b2146",
+    "bytes": 84649
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/stage_y_knob__paper.obj",
+    "sha256": "c802a887698952d2cf6f09949324a76783d734a96947ec6663d8671a9ef87430",
+    "bytes": 3725
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__black.obj",
+    "sha256": "c45a9f70975b6917f9fd4b8f202529c9333c2156c17a5640dc5b4a5cc40917be",
+    "bytes": 892263
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__blue.obj",
+    "sha256": "a634a5150591277053648ffd50a2ddb2df7934a9913aacd5aa7e2ac94870b7fe",
+    "bytes": 84730
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__brushed.obj",
+    "sha256": "378cf7395a061948df12ca560cfe6bca14d144a26b2d2c0f02b716c91ff4a864",
+    "bytes": 1664714
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__darkmetal.obj",
+    "sha256": "5e7292615a3ce3f39ee3577a4cfc2e6be8125251a3f3e6fcae99330a806e1818",
+    "bytes": 84377
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__green.obj",
+    "sha256": "63d1c1978308a7b872a3d6834f5eaf0f00c271fe29113122209ce175304981c3",
+    "bytes": 85341
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__ink.obj",
+    "sha256": "9df161b8362ccf88786294107a87c3e730fe02c8d48beac8b8e53bb52de009fb",
+    "bytes": 2235939
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__optic.obj",
+    "sha256": "83ffeabc41a32b8b930c9ee21cfb38a705691e586c84be9c1e30772f1021780a",
+    "bytes": 439410
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__paper.obj",
+    "sha256": "c2792f652b5289529111e9f500fe3fc4cbdc4c3683a95297ec411906e158892e",
+    "bytes": 85130
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__red.obj",
+    "sha256": "56d3894098435b772de6fb1e174809c02792ae2e70ac812d676f6081a8816a2e",
+    "bytes": 83777
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__steel.obj",
+    "sha256": "54264f91863853b4959a9da6a012f3b2a70472093dfe6b7e47860c374dc36c6a",
+    "bytes": 2415727
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes/turret__yellow.obj",
+    "sha256": "e542b5513a0f9e1cb36f6d9cb54372d5913d0b75367f2fe07ad90eeb794b24df",
+    "bytes": 84179
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/meshes.json",
+    "sha256": "8ff7ef46b4b0e5f8add38a4bd66b16399555357dccebfccb1dffb53dc3d862ca",
+    "bytes": 7300
+  },
+  {
+    "path": "validation/reference5/zeiss/before/assets/zeiss_upright.glb",
+    "sha256": "9f15f3b946558cac3e17b8afe86460695acbdde5bb2eb33d49e97306ce151b52",
+    "bytes": 27154052
+  },
+  {
+    "path": "validation/reference5/zeiss/before/build.py",
+    "sha256": "20cb8ac91ac1e3c603873313a4c80d35ef8a0d327e7abb7d3fcba37b1bb06904",
+    "bytes": 12064
+  },
+  {
+    "path": "validation/reference5/zeiss/before/geometry_support.py",
+    "sha256": "f6d33ea5e3c2c389b7022df7467499d059e7427fb42c82838cf381218c216db4",
+    "bytes": 3701
+  },
+  {
+    "path": "validation/reference5/zeiss/before/previews/condenser.png",
+    "sha256": "0fdc56b316848c00fe76523b0f3c3942e0bda5637d84104bc46b619bc62e1b8a",
+    "bytes": 5121668
+  },
+  {
+    "path": "validation/reference5/zeiss/before/previews/details.log",
+    "sha256": "74c2a52fcf6774098856e0024414d78330f06dc2c8e66d929151daebc095a78e",
+    "bytes": 226575
+  },
+  {
+    "path": "validation/reference5/zeiss/before/previews/final_still.log",
+    "sha256": "90c7ce891c1273e74c889e5ab786618c6feecf0c12b46157f0a1ef3e66ec74ba",
+    "bytes": 187436
+  },
+  {
+    "path": "validation/reference5/zeiss/before/previews/optical_head.png",
+    "sha256": "2cac5a0ae6e31f1ca69b8f8f3f4817b755d48297ce875587ebc8f467a7fdceb1",
+    "bytes": 5224546
+  },
+  {
+    "path": "validation/reference5/zeiss/before/previews/overview.png",
+    "sha256": "ac5e8846facb2635c076f1028c9d75a9c4ade02450dba6b3e892c49b88cdbba3",
+    "bytes": 10758890
+  },
+  {
+    "path": "validation/reference5/zeiss/before/previews/render_report.json",
+    "sha256": "1b2fe515b2847bb67df03aa91c17509b11c88ac53912e7903763a6371c0e96c3",
+    "bytes": 1324
+  },
+  {
+    "path": "validation/reference5/zeiss/before/previews/stage.png",
+    "sha256": "58c039184dab3b3136e50644bd789d324da777c2e24a2482b2e7857c41a765d7",
+    "bytes": 5255393
+  },
+  {
+    "path": "validation/reference5/zeiss/before/previews/web_preview.jpg",
+    "sha256": "ad29b285f18b9c2d162ee57677f3181e6ea4f7b5afc3104234fa2d2251e3983c",
+    "bytes": 94415
+  },
+  {
+    "path": "validation/reference5/zeiss/before/reference_geometry.py",
+    "sha256": "9c101afdfe84bc62e5241b9a007be36941dc6f5ca715a75c58c36414c189b2c7",
+    "bytes": 16674
+  },
+  {
+    "path": "validation/reference5/zeiss/before/zeiss_upright.blend",
+    "sha256": "9e3cd2b96321143ac728299675aaa64ca9ec46f2d009f51bcee142f300619f5b",
+    "bytes": 50942261
+  },
+  {
+    "path": "validation/reference5/zeiss/before/zeiss_upright.xml",
+    "sha256": "dd2965859c037631fd072ee2d70ea80c86fc192d60300927018105dfae323912",
+    "bytes": 31036
+  }
+]

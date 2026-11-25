@@ -1,19 +1,19 @@
 {
   "task": "transfer.gripper_turn_sample_x",
   "scope": "Four-axis Cartesian fixture; no articulated arm",
-  "trajectory_sha256": "ddf79606468fe7fe95107035cdd1c7ab24b46268b8a4fe4c447d8d1d03be6b30",
-  "instrument_blend_sha256": "49e138ca29ec9dcbf3dd0788d32c26e4fdfa17d2e3e241ad841aee19f8e76c32",
-  "instrument_xml_sha256": "53cd96d07d8ff929a78a566fded2557edb15ac70c60c8d23dc27671c3b2bffc5",
+  "trajectory_sha256": "5d3048495ff1cbcfc64ee5b5d06923250a8b013d7901e9dfaffc7dd99524b4dc",
+  "instrument_blend_sha256": "31d20bd5a4662cb331a6521fccb15e1dcbdefcb05a63bf2195315ed4adb75367",
+  "instrument_xml_sha256": "88f11e5c08bba05e1c025cdf0b544a386fcfdf592636eeeb98665177b45a7278",
   "robot_vendor_sha256": "48bac2acea9d58a99cc93643f7ce60dc773fea39b85e6c1d6412f83c5ddbc86a",
   "initial_pose_time_s": 0.02000000000000001,
   "assets": {
     "transfer_gripper.blend": {
-      "bytes": 81451902,
-      "sha256": "85f87fcfce92d266b5e1f2d69238de8f9bf8e7dbeb8857ecf84050dc4540aa3c"
+      "bytes": 83978342,
+      "sha256": "6b8ac9c8d81e45b2e79bdfcaa044238fa4e486a40e1d352d07ca547ff867bcff"
     },
     "transfer_gripper.glb": {
-      "bytes": 54135740,
-      "sha256": "56c6c594f3acc46310b1a781ff12cf404bdd1601bdf86561d97c9b90a4c34dd4"
+      "bytes": 58828072,
+      "sha256": "3c1238d8f5c8e953d30718aa350e3a84cb9d1d20814381030c11b32784a038f7"
     }
   },
   "materials": "Menagerie source colors with estimated PBR finish; no measured reflectance",

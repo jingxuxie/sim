@@ -1,0 +1,482 @@
+[
+  {
+    "path": "validation/reference5/nikon/before/assets/e1000.glb",
+    "sha256": "f98e7cc3c438be8acf31f8138e46c7550dfdfe80aac060112c26b5b9f05ce023",
+    "bytes": 22951800
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_x__black.obj",
+    "sha256": "e75209b39e4d5c0801e0f29a3f5f9b0e37974cdff435bde9537a8aa7b3825e70",
+    "bytes": 1576776
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_x__charcoal.obj",
+    "sha256": "8c8c8feb632e8fa0801eee1c530fea6e434163fd9b6f3c895fc25ba97606089a",
+    "bytes": 577515
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_x__edge.obj",
+    "sha256": "0a0e3075911b292ed956f481a7e1151eb0d4fa4adceff82558c4a8e5669a1044",
+    "bytes": 358529
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_x__gun.obj",
+    "sha256": "155d5ae976c496252a9c4d21aefb7c2f8d85ec1805b908161a2918ceddc7d852",
+    "bytes": 1171977
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_x__ink.obj",
+    "sha256": "353a264be9f41a6725f583c5b3dcb64a092f861ff0c6c0b501f809787c05a402",
+    "bytes": 90636
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_x__metal.obj",
+    "sha256": "c13c4d5c9691a895b0cea8811451afc3aa099d4a22f3fcb6147141e2047b89cb",
+    "bytes": 1891012
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_x__paper.obj",
+    "sha256": "92baf7c549a1cf04a9dc626b67fae39aac6d6f4e80294dffef544cc103918cce",
+    "bytes": 46439
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_x__slide.obj",
+    "sha256": "0a12c8fc57d807b10f77a9ec966f86fa2f6b95436cc7b9a3c1e661b7a465e966",
+    "bytes": 46327
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_x__wafer.obj",
+    "sha256": "dbeb88d9430bef62c6da131671fa58c124540286fadbb5e3bd3d3b4426711830",
+    "bytes": 46531
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_y__charcoal.obj",
+    "sha256": "9c4b83891cccd9e44faba2017e89a994aa0fef2cb69868f5ed027d1d5a80a2fb",
+    "bytes": 437326
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/carriage_y__metal.obj",
+    "sha256": "59d6c59575e41e3d381f14988c3b4f7c9ee5c62afeea0bdaa39b770fc72341a1",
+    "bytes": 162038
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/coarse__charcoal.obj",
+    "sha256": "b855e97ae61fa4fac58efd880e0ce2a14f3762494a34952b3104a9387ea7e387",
+    "bytes": 80546
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/coarse__edge.obj",
+    "sha256": "26bc95252d6f5f87d7a7b58ecd88616d125b2215337e8347199790ccbb33301d",
+    "bytes": 2590129
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/coarse__gun.obj",
+    "sha256": "bf6659261498ef3983234528b9eb3c0c31b1c405dde1aff75d72dc83dc7bb3b7",
+    "bytes": 80507
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/coarse__paper.obj",
+    "sha256": "03f92eab99bd5310ee2d7202393fdcf3667fd8971acbf9d6b388de7a484cee75",
+    "bytes": 814
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/coarse__rubber.obj",
+    "sha256": "ca2ad5ff6c6767287071a21d5e85d17e511d644f511c7ab8248c5defc7d39d20",
+    "bytes": 236936
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/fine__charcoal.obj",
+    "sha256": "3113701d6ca80f2f4eb0c6543c03aaec2c477b88df2412cc878052042104079d",
+    "bytes": 80720
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/fine__edge.obj",
+    "sha256": "742c513cac69f2e75726fc557fbcac8f9c6b3161ae6e7870a4b357ab30a1b373",
+    "bytes": 2598914
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/fine__gun.obj",
+    "sha256": "891a04470d5bc196b1850703be229b6c7e9d710392bd134af9db00193e083ad6",
+    "bytes": 80680
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/fine__paper.obj",
+    "sha256": "2c1d9782d3ea8b78373253b6d67ab87045dd2c015ec4922512a815cdf688461f",
+    "bytes": 20455
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/fine__rubber.obj",
+    "sha256": "80ba92717936be1291926dc93d1c8a062c66197e0d63683484992de586389d66",
+    "bytes": 194221
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/knob_x__charcoal.obj",
+    "sha256": "94047c96601fe1fe3a53e76432d863dc517ea1e8aa45b637859644aafbb52921",
+    "bytes": 164221
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/knob_x__edge.obj",
+    "sha256": "38fd73767a198e8c1cfdcb1f8a3df81ba3a6b6b580f24212def34dbc6d57a763",
+    "bytes": 47713
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/knob_x__rubber.obj",
+    "sha256": "f08d9194931b993b3be5da26383c66614b2b9faf04e4c9bdbb69d30bdf70d477",
+    "bytes": 137787
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/knob_y__charcoal.obj",
+    "sha256": "dfc74c4d8d11fa4e41b3f285c3273a8edb36ea2501a8815896016bd1ae12f4c0",
+    "bytes": 163881
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/knob_y__edge.obj",
+    "sha256": "27ea30deafb8b443e55d9ade914921bd54ead856858cd013cc55dd03f1f2de24",
+    "bytes": 47445
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/knob_y__rubber.obj",
+    "sha256": "1fc5221c55544f3920734b6b2f700ae5a91151a4294e3be3e4148692c909b156",
+    "bytes": 138079
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__black.obj",
+    "sha256": "a3fea6f71782d6ad79a7da8c483ebcd9e566f3c813c4aa0c56c46597de389d88",
+    "bytes": 855349
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__brass.obj",
+    "sha256": "48f0f780b5a0aa2543669cb2786c6b3fafb1792ab94a469227236ab0ef25f2d0",
+    "bytes": 294364
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__bright.obj",
+    "sha256": "82e47998343c6d9e4ed2c4c33925f4e599f7f4bd507c88a9c847563a5f23b100",
+    "bytes": 395046
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__charcoal.obj",
+    "sha256": "911e7a8a8537486be41a115f292c3c202afb090c77c3ba162d8c9ca013213313",
+    "bytes": 487661
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__edge.obj",
+    "sha256": "c5cc43fc19bcb8f3c494640076c2ed8145704987fd4b0689e51b24f6c82c5df9",
+    "bytes": 118117
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__gun.obj",
+    "sha256": "016a9815efe203b591adfa9501d52e4866d862dc9ff72bda551f2c047771573f",
+    "bytes": 733206
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__ink.obj",
+    "sha256": "ad789344574bad736c9b961fc37db70d75483a7a607c26bafe856bde864ddb7a",
+    "bytes": 187030
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__metal.obj",
+    "sha256": "57b5cbd3b9b0fc87c16e2ca3a8cfe162dcbfddc4e76e9fdc7466143277ab9b77",
+    "bytes": 1935494
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__optic.obj",
+    "sha256": "cc1dcbe6dd26e6d2407a52ecdb8dcf0fbbaf0446fee3ae1d91c138d5cc2c8f23",
+    "bytes": 80243
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__rubber.obj",
+    "sha256": "a493783844bbb10a92dad27edaa6814b141bd1318853accf15dedeae99cf858a",
+    "bytes": 127803
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__sleeve.obj",
+    "sha256": "27dbf9c40b84cc565db78985546cfdbabc5fc06fb5b6ec7a769369a5d864d324",
+    "bytes": 304610
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/lift__wire.obj",
+    "sha256": "329d8c9382c9579ddb442372e4d47bb7da10577e022436830a2462e6dd43f571",
+    "bytes": 93240
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/light_path_selector__black.obj",
+    "sha256": "b72982970b31fe1f0e00ed8a312f15a4cbda8bcd812eeeea32b5fdbcc7f156d5",
+    "bytes": 96121
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/light_path_selector__metal.obj",
+    "sha256": "a5f586edca8648ce57150e439a772d069c4db9be1d40fbe97fa3152564396152",
+    "bytes": 81352
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__black.obj",
+    "sha256": "560dfc3c5334261abc7e9765a87415f4a049f20ef15383cb61c695ead7583dc1",
+    "bytes": 4890684
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__bluecam.obj",
+    "sha256": "958b13dc176c703bbf3db4a51cf8fa18c917e35308035cc26b6189e2fe9adb2a",
+    "bytes": 854187
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__brass.obj",
+    "sha256": "0600f6b6ccab662e905df9f9a9d744c587f5bc4995ff18156271a5ec72951e8d",
+    "bytes": 412816
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__charcoal.obj",
+    "sha256": "61908296a6ed18a36a2e5becde853194c9691d49143c7052cce95418ab628ff8",
+    "bytes": 2719953
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__cream.obj",
+    "sha256": "0b102b9dfc18f097d7abc10c543517794b1f8833d64c3e2dd899b94811151d11",
+    "bytes": 933635
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__edge.obj",
+    "sha256": "aa1b026e91695d61b4656bef38b335e64ff360cc175c41cf9502c723af666560",
+    "bytes": 290072
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__enamel.obj",
+    "sha256": "e2f6ee2c6179fefe6fe9d904e7ef69a6be013a595700668c21675f23e100baa4",
+    "bytes": 2211967
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__green.obj",
+    "sha256": "44cdcf8ba961a3243177634eb5ce6339d56f3bdc568b573ff3caae277264f6da",
+    "bytes": 378041
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__gun.obj",
+    "sha256": "edda25eaf3e6501f335137292456e70c286fe54d18cf47a312a232938949b745",
+    "bytes": 3698953
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__ink.obj",
+    "sha256": "5f0812f96f85b807d6ed4d9a11272ff579b9a8f8ae02d9115e55b07e7cd99168",
+    "bytes": 2725760
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__label.obj",
+    "sha256": "3b09a754f903606d9d1882da5ca7a7ca3429d2063fed5281a9e4de6962a8eee9",
+    "bytes": 143229
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__led.obj",
+    "sha256": "e7bd263b46b93f20139abadcb291625e3157ba57f7f0ff4ebafac5fef9c313d6",
+    "bytes": 160069
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__metal.obj",
+    "sha256": "9f6f7ac11e55f65c60cad6de24ffa1ec3f2a4aacddb2ac1b9f839c4dd99a3924",
+    "bytes": 764733
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__optic.obj",
+    "sha256": "fd3b917851f094dcdd2c557116fb9eee3e4e4b171cd8a66eb83e6b03f15bb030",
+    "bytes": 1203931
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__paper.obj",
+    "sha256": "36750dfcf6a9afc62bceb54b5501af657c8e070c6c15f0ebff9a65a5c76c10b2",
+    "bytes": 3429895
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__red.obj",
+    "sha256": "2abebf767be7c492a7a5262bcdb1d90632767d7f9d571fc58981cbff31a42bd4",
+    "bytes": 237969
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__rubber.obj",
+    "sha256": "c14ade1890219caf8752c17def0cc92af7fce6409f45d1a3d8bac5dc2d5d6ece",
+    "bytes": 1984128
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__sleeve.obj",
+    "sha256": "b525fc81fa82fa472b47d96bf5d3896f6b6887691ea1e31428fd35c009b44ff5",
+    "bytes": 2736331
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__slide.obj",
+    "sha256": "dae4ee657bc484685491f022a7d509dc2e5cdaa78dfe73bf20676684c1a6739c",
+    "bytes": 261905
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__violet.obj",
+    "sha256": "ef9472d4c3d6fb2ba2c8b256befb8a1f2f3af2726c4eea3c07f2d666b9c3303e",
+    "bytes": 480918
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__wire.obj",
+    "sha256": "e080ec14dd4fd3ca2397dd0ecedb13959a55ff33a90de8ab2162819e548bf942",
+    "bytes": 800108
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/stand__yellow.obj",
+    "sha256": "32fa2b13c96e432a8a3c922100dc7dfd895113cec8cd7fc48e67b506f0e652ec",
+    "bytes": 197236
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__black.obj",
+    "sha256": "ab4055e1d1d706211921932a86a4cd80a4fb9ff68f4c403db5f7c93dbb4cc2f4",
+    "bytes": 673174
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__blue.obj",
+    "sha256": "09f46db496b9f00a69260a348264ce7defdc441ab602f98dde0e7b3bb7bfe1a6",
+    "bytes": 80892
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__bright.obj",
+    "sha256": "a1e519c51c433f530ee0d8787bd591e9aa3ce41711f0a196f3a100d6e270aa6c",
+    "bytes": 420305
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__charcoal.obj",
+    "sha256": "b596ed579fcd3600201f58120cab3fd8a35554011aa17758628d0abcfa7f6b3f",
+    "bytes": 390133
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__green.obj",
+    "sha256": "15dd64835c7f05ca786e75760b82900b9e49e384b589a21a51c0e8e596d33d0f",
+    "bytes": 81249
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__gun.obj",
+    "sha256": "8ed466f26a85fc18e096c30ea1951b76b2d8551b3a923cc4f6385e4ec21399fc",
+    "bytes": 1296869
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__ink.obj",
+    "sha256": "219eaac34a79c2f8a593e6cbfd8befd4a3c4801a55878ae1a09cda31fef0492e",
+    "bytes": 1490124
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__metal.obj",
+    "sha256": "f38de186296239cd159f862001e5d0755a7f2bd1d94f6387889d7c8a1b0c73c2",
+    "bytes": 2826695
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__optic.obj",
+    "sha256": "ad00f958018153a7a16aa1140400db420bfaf4b65fbcb4ac4488b93be9625eda",
+    "bytes": 334402
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__paper.obj",
+    "sha256": "8e312d98c54e0fddc0c42ad1c99c57e1e6ed169c6024eef34446c37600bfbc4d",
+    "bytes": 228647
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__red.obj",
+    "sha256": "c59803d52dbc56ec2d02d11ece00aae640a857e74bcbb41cc264a01aa971cd9d",
+    "bytes": 80697
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__rubber.obj",
+    "sha256": "fc9a4361bd351f3e7e9d6a67d547740e51c42a502095d0a62b569ec419c7e3c2",
+    "bytes": 462407
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes/turret__yellow.obj",
+    "sha256": "06ca6bff231afb14b613647f11d74cd272cb060badca536510baec34cba16f58",
+    "bytes": 80524
+  },
+  {
+    "path": "validation/reference5/nikon/before/assets/meshes.json",
+    "sha256": "6d115b8cb23e360e5230f01f8024543785d3b709ddad9e92a3bdcb74d0096fd8",
+    "bytes": 4362
+  },
+  {
+    "path": "validation/reference5/nikon/before/e1000.blend",
+    "sha256": "d58e5043ab7c9e09f3d1ccf0fdc6308a0bc4cbd17e45d0486e93a75572413c7b",
+    "bytes": 53641510
+  },
+  {
+    "path": "validation/reference5/nikon/before/e1000.xml",
+    "sha256": "2245e4ee191c85fd09839bc3ae185d6d37065c27eb0de355978cb97b857eac50",
+    "bytes": 31187
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/clearance1_render_report.json",
+    "sha256": "b33b467ed694e7eab65b988df666c238a65a307161a62edd00b9c467cba967bf",
+    "bytes": 1451
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/controls.png",
+    "sha256": "8f3a91c0d201017c5edc1ae67a41d02cc9e4a6fa828aeece3cd8f2446ede279d",
+    "bytes": 5386244
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/controls_rgba.png",
+    "sha256": "598c56ff4faf782170c8b388cec973a9a01ef118f62d82bc7df486fdbd1ec583",
+    "bytes": 2099724
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/details.log",
+    "sha256": "2bb6158593927abee0730c1fa1a58c94381e9d9e0b3d2bb54ca30c410dd1f334",
+    "bytes": 535730
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/final_still.log",
+    "sha256": "936562d75f9e755e701fc83a6b2dbbeba44603717e0010b0f8d7962d5d749d3e",
+    "bytes": 192476
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/lab_view.png",
+    "sha256": "b22705b8dbda8a7ef8740de5de8619719d6fdf5977fa7d9fccc5fca1c1b8fd83",
+    "bytes": 10680626
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/lab_view_rgba.png",
+    "sha256": "1a2db02bbf1db016d76c33d5b6ae66a66488686fe04e8461dedbbf35f10ed8b1",
+    "bytes": 1972163
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/mechanisms.mp4",
+    "sha256": "44a20bdfb6b44ab13335dcdddfafa9b4fd45269a7e70d9ac7cdae5d8e5c78c3a",
+    "bytes": 306243
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/operator_view.png",
+    "sha256": "098193ae889a8415d522e3f922f50dcc5d471ed69f6a0ecae48bd0ffd8057a32",
+    "bytes": 4930266
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/operator_view_rgba.png",
+    "sha256": "89472783cd01392bc35cba3b3cd009a61178270153934f82d694d9dac0d8b993",
+    "bytes": 1968784
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/optical_head.png",
+    "sha256": "d1c053e73f3a78e64ae38e020e0c194e0d6d3f123e0fdff4afcf8aadf0836c9b",
+    "bytes": 5086426
+  },
+  {
+    "path": "validation/reference5/nikon/before/previews/web_preview.jpg",
+    "sha256": "36672b15e25755f0db884b97a86e2c3fbd2512cdffd9cd1c4d3b21aa42053749",
+    "bytes": 90361
+  },
+  {
+    "path": "validation/reference5/nikon/before/src/build_physics.py",
+    "sha256": "0dec008bebb2ba3b2227a40c6ab67df213f9a674a08246e612639dcc22c44c41",
+    "bytes": 8840
+  },
+  {
+    "path": "validation/reference5/nikon/before/src/build_visual.py",
+    "sha256": "3585fa4885a7e1e8b65e33bc9fdb7f73b55e0c1d0df9b0a11aa894f4a824d9b4",
+    "bytes": 37833
+  },
+  {
+    "path": "validation/reference5/nikon/before/src/design.py",
+    "sha256": "85499ac47d89aa4c7eb2a7361fbf04758ecb3343af338b46e26e8b92df97454b",
+    "bytes": 2487
+  },
+  {
+    "path": "validation/reference5/nikon/before/src/realism_geometry.py",
+    "sha256": "69ad8ff08b52ea28f7950002c77238278ab960b1e5774714420a3e1bb4c05627",
+    "bytes": 9528
+  }
+]

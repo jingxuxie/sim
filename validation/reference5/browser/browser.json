@@ -1,0 +1,94 @@
+{
+  "url": "http://127.0.0.1:18945/",
+  "started_utc": "2026-11-25T06:51:34.139Z",
+  "checked_utc": "2026-11-25T06:52:12.577Z",
+  "checks": [
+    {
+      "check": "Static gallery, all seven instruments, no eager runtime/model downloads",
+      "ms": 93,
+      "passed": true
+    },
+    {
+      "check": "Real Nikon stage motion and objective indexing, without cross-origin isolation",
+      "passed": true
+    },
+    {
+      "check": "Contact shapes load lazily and toggle independently of the visual instrument",
+      "passed": true
+    },
+    {
+      "check": "Live microscope image; measured splitter routes light to eyepieces and blacks out camera",
+      "passed": true
+    },
+    {
+      "check": "Run baseline button executes a live task and reports measured success",
+      "passed": true
+    },
+    {
+      "check": "Pause, resume and return to responsive gallery",
+      "passed": true
+    },
+    {
+      "check": "transfer detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "Transfer contact overlay replaces prior instrument data and renders",
+      "passed": true
+    },
+    {
+      "check": "Transfer UI operates lock, fine micrometer in turns and source power",
+      "passed": true
+    },
+    {
+      "check": "Additional source-matched render views are available from the instrument UI",
+      "passed": true
+    },
+    {
+      "check": "probe detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "zeiss detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "bonder detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "afm detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "tweezers detailed GLB and live physics load",
+      "passed": true
+    },
+    {
+      "check": "javascript disabled leaves gallery accessible",
+      "passed": true
+    },
+    {
+      "check": "application unavailable leaves gallery accessible",
+      "passed": true
+    },
+    {
+      "check": "worker unavailable leaves gallery accessible",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "sources": {
+    "/app.js": "fa993e316519f7f552590d16797c6aa1a4edf5fb7f4bd84d49d9fc8d929c5cd2",
+    "/studio-renderer.js": "78fd3677649c7362db297757d1ce55e58f217afedc02a433201e77085e8a8467",
+    "/area-shadows.js": "28e13155a7fc725bbcb1c1065cc17553bc44e0b66e98e6a53ccb6bbd8449ce09",
+    "/cavity-lighting.js": "de344f97963f4064895f210b760d74373c3b263b683f14ada603053fbe00e7f3",
+    "/screen-reflections.js": "b584bd43a1d371ea530aefd05cc3e9fe383cac626c1641063836adeab737b130",
+    "/scene-reflections.js": "d0adf102fdb83dadd76ebbf884b41026634b095217e19a2962bbfaa2fdfdf9d5",
+    "/color-grade.js": "182911e7963ed5e809f35b412b8624943a3875d3895013227ae7e92522b4d724",
+    "/planar-reflections.js": "dc8f7a4d6cd632c68a92e6e97bbdd10c258fef70dd09d3e932cdee18c322ec4c",
+    "/objective-reflections.js": "30076947103109791430afb3ce02721fd4a65cd3650d83bbbf1613253359cd85",
+    "/env-axis.js": "059c3367ddd4400e8978bc293c762096de07f5218304a53d03bd2ddbb5c65122"
+  },
+  "passed": true
+}

@@ -1,0 +1,159 @@
+{
+  "asset": "zeiss",
+  "phase": "after",
+  "xml_sha256": "273df4cf8b5db833087101c298b11db2ef01e03a3bd6ece653f59f6d769d0d3e",
+  "metadata_sha256": "c30a2f1ea38c66097e64063afa256054689135a7e19828eb4ae02b76b8dbd652",
+  "runtime_sha256": {
+    "benchmarks/sim.py": "b8393a87c894a9f3795b570b0ce481a7da3740aa2565bf0fa7be9c6cba686460",
+    "benchmarks/fixture_control.py": "1180cf8b9e7d5785650c5ecb0bf4189a444fe0c16c6029607145f221ccf90c44"
+  },
+  "method": "Normal Simulation fixture commands and mj_step; no qpos overwrite after reset. Retract to\u22125 mm before indexing, then hold+7 mm focus command30 s and retract to\u22125 mm. Frozen baseline physics uses current noncolliding visual meshes only for model loading.",
+  "cases": [
+    {
+      "station": 0,
+      "magnification": 20,
+      "expected_contact": true,
+      "focus_before_mm": -4.999909449204392,
+      "contact_samples": 86625,
+      "maximum_contact_penetration_mm": 0.005249067109371375,
+      "peak_normal_force_N": 9.663337134451053,
+      "loaded_focus_mm": 2.3925136238169604,
+      "highest_focus_mm": 2.3933081432514496,
+      "loaded_turret_error_rad": 2.2351978360113583e-06,
+      "retracted_focus_mm": -4.999928115507914,
+      "residual_contacts": [],
+      "contact_pairs": [
+        [
+          "stage_x__device_chip",
+          "turret__Objective_front_glass_20"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 1,
+      "magnification": 50,
+      "expected_contact": true,
+      "focus_before_mm": -4.999909449204392,
+      "contact_samples": 78060,
+      "maximum_contact_penetration_mm": 0.005229829765480026,
+      "peak_normal_force_N": 9.572192593780345,
+      "loaded_focus_mm": 3.3924307718057474,
+      "highest_focus_mm": 3.393151745680288,
+      "loaded_turret_error_rad": 0.0005273901093441058,
+      "retracted_focus_mm": -4.999910215443906,
+      "residual_contacts": [],
+      "contact_pairs": [
+        [
+          "stage_x__device_chip",
+          "turret__Objective_front_glass_50"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 2,
+      "magnification": 5,
+      "expected_contact": false,
+      "focus_before_mm": -4.999909449204392,
+      "contact_samples": 0,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "loaded_focus_mm": 6.0259849025015795,
+      "highest_focus_mm": 6.0259849025015795,
+      "loaded_turret_error_rad": 0.0005960963584215051,
+      "retracted_focus_mm": -4.999844167016987,
+      "residual_contacts": [],
+      "contact_pairs": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 3,
+      "magnification": 10,
+      "expected_contact": false,
+      "focus_before_mm": -4.999909449204392,
+      "contact_samples": 0,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "loaded_focus_mm": 6.0259849025015795,
+      "highest_focus_mm": 6.0259849025015795,
+      "loaded_turret_error_rad": -0.0005960963584215051,
+      "retracted_focus_mm": -4.999844167016987,
+      "residual_contacts": [],
+      "contact_pairs": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "station": 4,
+      "magnification": 100,
+      "expected_contact": true,
+      "focus_before_mm": -4.999909449204392,
+      "contact_samples": 95205,
+      "maximum_contact_penetration_mm": 0.005233481387626016,
+      "peak_normal_force_N": 9.589687702800862,
+      "loaded_focus_mm": 1.3923452572794222,
+      "highest_focus_mm": 1.3931496895757942,
+      "loaded_turret_error_rad": -0.0005153879779951076,
+      "retracted_focus_mm": -4.999942687822202,
+      "residual_contacts": [],
+      "contact_pairs": [
+        [
+          "stage_x__device_chip",
+          "turret__Objective_front_glass_100"
+        ]
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

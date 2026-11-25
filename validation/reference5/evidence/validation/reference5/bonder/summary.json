@@ -1,0 +1,129 @@
+{
+  "revision": "reference5",
+  "asset": "bonder",
+  "changed": true,
+  "passed": true,
+  "frozen": true,
+  "photo_ids": [
+    "wire_bonder_266",
+    "wire_bonder_268",
+    "wire_bonder_269",
+    "wire_bonder_270"
+  ],
+  "video": {
+    "path": "images/wire_bonder/37bd654f58ba94c1c96ac230a7252aca.mp4",
+    "slurm_job": 46937568,
+    "inspected_frames": [
+      "second_001.jpg",
+      "second_002.jpg",
+      "second_003.jpg",
+      "second_004.jpg",
+      "second_005.jpg",
+      "second_006.jpg",
+      "second_007.jpg",
+      "second_008.jpg"
+    ],
+    "finding": "Independent lower-right lever, rail and crossed straps remain separate from the upper reduced-motion head throughout manipulation. The video supports the existing architecture; it does not establish an exact manufacturer linkage or factory travel."
+  },
+  "findings": [
+    {
+      "photo_ids": [
+        268
+      ],
+      "finding": "The separate upper tool head and lower-right handle cavity, open yoke, parallel rods, flanged spool and cream feed sleeve are already represented. Their independent architecture and 8:1 equivalent coupling must be preserved."
+    },
+    {
+      "photo_ids": [
+        268
+      ],
+      "finding": "The spool rims appear opaque satin metal, whereas current stills show dark refractive glass rims. The front head frame is satin grey with polished shafts, but the model uses the same bright brushed metal on the large frame and rods.",
+      "plan": "Check video and other views, then correct supported material/construction distinctions without changing tool sites or contact geometry."
+    },
+    {
+      "photo_ids": [
+        268
+      ],
+      "finding": "The photographed descending tool is a silver taper/blade, whereas current model is a bronze lathed needle. Its small tip location is benchmark-critical.",
+      "plan": "Use further local evidence to refine only the supported visible shank/taper while preserving the contact tip and task coordinates."
+    },
+    {
+      "photo_ids": [
+        268,
+        270
+      ],
+      "video_frames": [
+        "second_001.jpg"
+      ],
+      "finding": "The gold/black granular heater jacket is thin, with a separate folded metal liner and an air gap around the raised platen. The former six-mm wall filled the gap and the uniform brown grain obscured the photo-specific material structure.",
+      "implemented": "Two-mm insulating wall, folded metal liner and rolled lip, visible air gap; synthetic photo-scaled mineral-flake PBR maps are embedded in the native scene and GLB. Platen and chip contacts are unchanged."
+    }
+  ],
+  "changes": [
+    "Replaced transparent spool flanges with opaque satin metal and rolled polished rims visible in photo268.",
+    "Distinguished the satin grey open head frame from its polished guide rods.",
+    "Replaced the bronze lathed needle with a silver tapered prismatic wedge, preserving its contact tip and adding upper-shank contact coverage.",
+    "Rebuilt the heater perimeter as a thin granular insulating wall, separate folded metal liner/rolled edge, and an air gap around the unchanged raised platen.",
+    "Added deterministic photo-scaled mica-like PBR albedo/roughness/metal/normal maps, retained in both native stills and the interactive GLB."
+  ],
+  "builder_hashes": {
+    "004_wire_bonder/build.py": "8917559c12a8393b95898b20bb20ee948a32ca9814a1497312f6e61f7ed223f1",
+    "004_wire_bonder/hardware_7700.py": "7ebd142e32a94543a03ce661c4e27e222c480308b1e2fb509fa6a6b5ac8fe021",
+    "004_wire_bonder/make_heater_texture.py": "ea916532ffabd344f140e5c533306560c797c9223a99536d01d9077a1f06414a"
+  },
+  "model_hashes": {
+    "004_wire_bonder/wire_bonder.blend": "90c5f7900f3968247434a3421027417c6b63d4b418a5a467b7f3db51524c9bed",
+    "004_wire_bonder/wire_bonder.xml": "f9f20f44ee1d022cf2670e88a2b4de155542208f7cc5baa1d5ec164fa2ee9e1f",
+    "004_wire_bonder/asset.json": "c377e031f755175f827b8d941e33b64842ceb21e00348c4c11c9d3a75de938b3",
+    "004_wire_bonder/assets/wire_bonder.glb": "c43452524ed2d409887fb7cfb05929ba4671b7a357fdf6dc467d2911c7ec4ca6",
+    "004_wire_bonder/assets/meshes.json": "2bd3e6b675a036d4652cef47acf0a0882f3e34a020402e2d283a99f49bc09ccc"
+  },
+  "targeted_checks": [
+    {
+      "path": "validation/reference5/bonder/current.json",
+      "sha256": "b72d9d5cfab254a07188cf1b13c561495ca60780accfdcc5ffc272a77c6fe9ca",
+      "passed": true
+    },
+    {
+      "path": "validation/reference5/bonder/native.json",
+      "sha256": "1cd63a40f53186d1a624fab138dafbb41a4286c3b2757b08716b1d41e73a4cff",
+      "passed": true
+    },
+    {
+      "path": "validation/reference5/bonder/portable.json",
+      "sha256": "b773742e8c82ece99666506b5cc292334d1dc1f408e13ed97112e1b66f925388",
+      "passed": true
+    }
+  ],
+  "current_artifacts_sha256": {
+    "004_wire_bonder/build.py": "8917559c12a8393b95898b20bb20ee948a32ca9814a1497312f6e61f7ed223f1",
+    "004_wire_bonder/hardware_7700.py": "7ebd142e32a94543a03ce661c4e27e222c480308b1e2fb509fa6a6b5ac8fe021",
+    "004_wire_bonder/make_heater_texture.py": "ea916532ffabd344f140e5c533306560c797c9223a99536d01d9077a1f06414a",
+    "004_wire_bonder/wire_bonder.blend": "90c5f7900f3968247434a3421027417c6b63d4b418a5a467b7f3db51524c9bed",
+    "004_wire_bonder/wire_bonder.xml": "f9f20f44ee1d022cf2670e88a2b4de155542208f7cc5baa1d5ec164fa2ee9e1f",
+    "004_wire_bonder/asset.json": "c377e031f755175f827b8d941e33b64842ceb21e00348c4c11c9d3a75de938b3",
+    "004_wire_bonder/assets/wire_bonder.glb": "c43452524ed2d409887fb7cfb05929ba4671b7a357fdf6dc467d2911c7ec4ca6",
+    "004_wire_bonder/assets/meshes.json": "2bd3e6b675a036d4652cef47acf0a0882f3e34a020402e2d283a99f49bc09ccc"
+  },
+  "evidence_sha256": {
+    "validation/reference5/bonder/current.json": "b72d9d5cfab254a07188cf1b13c561495ca60780accfdcc5ffc272a77c6fe9ca",
+    "validation/reference5/bonder/native.json": "1cd63a40f53186d1a624fab138dafbb41a4286c3b2757b08716b1d41e73a4cff",
+    "validation/reference5/bonder/portable.json": "b773742e8c82ece99666506b5cc292334d1dc1f408e13ed97112e1b66f925388"
+  },
+  "promoted_render_report": "004_wire_bonder/previews/reference5_render_report.json",
+  "promoted_render_report_sha256": "f03d87d2bcc89ec76b2f378a260f26b0ceded4fba80e6e70787f5ba01fa8a9c5",
+  "render_count": 6,
+  "metrics": {
+    "task_runs": 6,
+    "all_tasks_succeed": true,
+    "handle_to_head_reduction_ratios": [
+      0.12499999934114042,
+      0.1250000000742251
+    ]
+  },
+  "limitations": [
+    "8:1 equivalent Cartesian coupling remains a small-displacement surrogate for the concealed counterbalanced linkage.",
+    "Handle travel is a clearance-limited reconstructed operating envelope, not a verified manufacturer specification.",
+    "Wedge shape and mica grain scale are photo-supported estimates; bonding heat, ultrasound and material processing are not calibrated."
+  ],
+  "private_reference_policy": "Raw laboratory photos and decoded video frames remain local; only rendered model previews are promoted."
+}

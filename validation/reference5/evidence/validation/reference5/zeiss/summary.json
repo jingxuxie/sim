@@ -1,0 +1,342 @@
+{
+  "revision": "reference5",
+  "asset": "zeiss",
+  "changed": true,
+  "passed": true,
+  "reference_photos": [
+    {
+      "photo_id": 257,
+      "private_reference": true,
+      "path": "images/microscope_old/Weixin Image_20261123002137_257_2.jpg",
+      "sha256": "178670fc4127da5abdc45762a10d5f440fbc644220ca422cb296e0ea8ff4dc29",
+      "bytes": 243946
+    },
+    {
+      "photo_id": 258,
+      "private_reference": true,
+      "path": "images/microscope_old/Weixin Image_20261123002137_258_2.jpg",
+      "sha256": "9557a047c2eb6cce77840b835721f83cff7252bba4a6f63785bcd9f68a5e6911",
+      "bytes": 151699
+    },
+    {
+      "photo_id": 261,
+      "private_reference": true,
+      "path": "images/microscope_old/Weixin Image_20261123002137_261_2.jpg",
+      "sha256": "538535c796b4fe3aeeb9b0bbe3c747873ef2e02572918e504809fc4fdf981781",
+      "bytes": 194320
+    },
+    {
+      "photo_id": 262,
+      "private_reference": true,
+      "path": "images/microscope_old/Weixin Image_20261123002137_262_2.jpg",
+      "sha256": "0dcec1ff01ec9b2ee4fe56d3333062b82b1e91b5197378e934968afd79070c83",
+      "bytes": 176428
+    }
+  ],
+  "reference_findings": [
+    {
+      "photos": [
+        257,
+        258
+      ],
+      "region": "Black stage aperture under the glass slide and asymmetric specimen holder",
+      "observed": "The aperture is a front-to-back obround, with rounded ends and exposed inner walls.",
+      "prior_error": "The model had a crosswise rectangular aperture, with a lower runner blocking the longitudinal opening.",
+      "correction": "Rebuilt the top stage and lower runner around aligned longitudinal rounded openings, with native contact strips/tangents instead of a hull across the hole."
+    },
+    {
+      "photos": [
+        258,
+        261,
+        262
+      ],
+      "region": "Underside of the stage, above the condenser",
+      "observed": "The support leaves the central condenser-to-specimen optical path open.",
+      "prior_error": "A solid stage-support slab occupied the optical path.",
+      "correction": "Replaced the slab with two support arms and a rear bridge; specimen and objective positions are unchanged."
+    }
+  ],
+  "source_models": [
+    {
+      "path": "003_zeiss/zeiss_upright.blend",
+      "sha256": "f32057dd1c36cf69b831997e6ee79679f3824b0344e378474d3a69d1177cf0dd",
+      "bytes": 51024925
+    },
+    {
+      "path": "003_zeiss/zeiss_upright.xml",
+      "sha256": "273df4cf8b5db833087101c298b11db2ef01e03a3bd6ece653f59f6d769d0d3e",
+      "bytes": 49262
+    },
+    {
+      "path": "003_zeiss/assets/zeiss_upright.glb",
+      "sha256": "d5eaa523505b7665477e0068482abfc3135c36698bd0b8c13c2c87944dd53580",
+      "bytes": 27486484
+    },
+    {
+      "path": "003_zeiss/assets/meshes.json",
+      "sha256": "28908bb1ca5f0dfd3bf9a7a172fd73a5cd8efd877934344f43994abb50819259",
+      "bytes": 7301
+    },
+    {
+      "path": "003_zeiss/asset.json",
+      "sha256": "c30a2f1ea38c66097e64063afa256054689135a7e19828eb4ae02b76b8dbd652",
+      "bytes": 68392
+    }
+  ],
+  "builder_files": [
+    {
+      "path": "003_zeiss/build.py",
+      "sha256": "80c967dbb3bad7e1d1894e6fb8604a9803ef46a8f16e0870a3e1ce3d399ca8a7",
+      "bytes": 12570
+    },
+    {
+      "path": "003_zeiss/reference_geometry.py",
+      "sha256": "9c101afdfe84bc62e5241b9a007be36941dc6f5ca715a75c58c36414c189b2c7",
+      "bytes": 16674
+    },
+    {
+      "path": "003_zeiss/reference_construction.py",
+      "sha256": "21c3ac9b8d0ce3a213dd12d9210b8838c20af00927a598d17301e6743ea8fc65",
+      "bytes": 3405
+    },
+    {
+      "path": "003_zeiss/geometry_support.py",
+      "sha256": "f6d33ea5e3c2c389b7022df7467499d059e7427fb42c82838cf381218c216db4",
+      "bytes": 3701
+    },
+    {
+      "path": "tools/photography.py",
+      "sha256": "d72172b252587871c73257f39379abb642ec17eb1e7a472dd637395ec77a60e7",
+      "bytes": 7224
+    },
+    {
+      "path": "tools/realism_materials.py",
+      "sha256": "ceebc444f75b93866c4bedd9bcf22239518d5ed56cfa079468eb51dbb68c4700",
+      "bytes": 24000
+    },
+    {
+      "path": "tools/assetkit.py",
+      "sha256": "4a4e85a00c924bfcfb5b7d68ee6e4c24839c72c34017c8f03bbe7444d50c8ba2",
+      "bytes": 23609
+    },
+    {
+      "path": "tools/hardware.py",
+      "sha256": "17670ec29e9256d1c3a33d6618ff86b173370700e59213274916abcac5d351c0",
+      "bytes": 10238
+    },
+    {
+      "path": "tools/contact_mechanics.py",
+      "sha256": "734ee0dd0ba3a3642ad3f47ef3bbeebd53a430677dac1249261c5b23673abdca",
+      "bytes": 7432
+    }
+  ],
+  "baseline_manifest": {
+    "path": "validation/reference5/zeiss/baseline_files.json",
+    "sha256": "6a1a9cadc2da8a90be32911e08791688a3d3b287944549e42357aa6836ac5383",
+    "bytes": 15355
+  },
+  "baseline_model": {
+    "path": "validation/reference5/zeiss/before/zeiss_upright.blend",
+    "sha256": "9e3cd2b96321143ac728299675aaa64ca9ec46f2d009f51bcee142f300619f5b",
+    "bytes": 50942261
+  },
+  "targeted_validation": {
+    "construction_geometry": {
+      "passed": true,
+      "path": "validation/reference5/zeiss/construction_geometry.json",
+      "sha256": "f2895af3dfbd96b9e98a6a7756c87fde7072905c4568640864e209d4fa9bcfd5",
+      "bytes": 4375
+    },
+    "clearance_regression": {
+      "passed": true,
+      "path": "validation/reference5/zeiss/clearance_regression.json",
+      "sha256": "dea6cd61e51c8fb018efb8e52c837622b47f735d000fe852d352f5af8f4fd8db",
+      "bytes": 15157
+    },
+    "native_construction": {
+      "passed": true,
+      "path": "validation/reference5/zeiss/native_construction.json",
+      "sha256": "14dd2bf4fd23c005906abf157b09efac794417d9f1f415117856e7b041fd9043",
+      "bytes": 3465
+    },
+    "optical_contact": {
+      "passed": true,
+      "path": "validation/reference5/zeiss/optical_contact.json",
+      "sha256": "0081211b3ff82eadc178fb467a1f57747604af3b3321c4c952f20295958cb535",
+      "bytes": 4352
+    }
+  },
+  "validation_scripts": [
+    {
+      "path": "validation/reference5/microscopes/construction_geometry.py",
+      "sha256": "2283c41a4dd32e1fb3e9a87302efb5d4e148ef11f8ddf537b71e5a12cba1050b",
+      "bytes": 6115
+    },
+    {
+      "path": "validation/reference5/microscopes/clearance_regression.py",
+      "sha256": "7bcf7f175be993e6263ad9a1672d003b789c58618da4ba14a2709720b6cf313e",
+      "bytes": 19089
+    },
+    {
+      "path": "validation/reference5/microscopes/native_construction.py",
+      "sha256": "8ad0150607265cf89a530582311a45b7bdf6c0c0b0aa358961babd8b70323ff6",
+      "bytes": 6801
+    },
+    {
+      "path": "validation/reference5/microscopes/zeiss_contact_regression.py",
+      "sha256": "349f85e1e1a423f4f866ccd59f196953940fe9973facbab9470774d62e6c85f1",
+      "bytes": 4413
+    }
+  ],
+  "preserved_interfaces": {
+    "check": "existing_joint_and_site_datums",
+    "joint_max_delta_SI": 0.0,
+    "site_max_delta_m": 0.0,
+    "nq_before_after": [
+      8,
+      8
+    ],
+    "nv_before_after": [
+      8,
+      8
+    ],
+    "passed": true
+  },
+  "task_cases": [
+    {
+      "task": "zeiss.center",
+      "seed": 0,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 11,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 37,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 0,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 11,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 37,
+      "success": true,
+      "failure": null
+    }
+  ],
+  "current_promoted_render_report": {
+    "path": "003_zeiss/previews/render_report.json",
+    "sha256": "271790aa9b6ecd848da7660f7b070f2c93ce8194c37ad161675a0456fc253cf8",
+    "bytes": 1841
+  },
+  "promoted_views": [
+    {
+      "path": "003_zeiss/previews/overview.png",
+      "sha256": "7c6cc0c269d89e75df34c265490a15b5dbaa18ee16ec0b58254ad6a7574ae78f",
+      "bytes": 10761464
+    },
+    {
+      "path": "003_zeiss/previews/stage.png",
+      "sha256": "3563e2cbe2c637d77b46e8a59050f55d3cd69135d67b8492ed03e981bac3620a",
+      "bytes": 5258822
+    },
+    {
+      "path": "003_zeiss/previews/optical_head.png",
+      "sha256": "00ce398551f52e46b098fd226fcc1419a3bd1bb48a89d5243777a9876950f5db",
+      "bytes": 5223381
+    },
+    {
+      "path": "003_zeiss/previews/condenser.png",
+      "sha256": "818920aee4c2fced3b2cdf83dd04f3edc615578faf270d1ddd2fdd1eac730624",
+      "bytes": 5121831
+    },
+    {
+      "path": "003_zeiss/previews/construction_stage.png",
+      "sha256": "c924e882b10827ca6074d4539d82d608e5a3e4c594d6eb955bc781f75b83ef1c",
+      "bytes": 5196122
+    }
+  ],
+  "extra_inspection_view": {
+    "path": "003_zeiss/previews/construction_stage.png",
+    "sha256": "c924e882b10827ca6074d4539d82d608e5a3e4c594d6eb955bc781f75b83ef1c",
+    "bytes": 5196122
+  },
+  "thumbnail": {
+    "path": "003_zeiss/previews/web_preview.jpg",
+    "sha256": "0f353812d50989b18bf35a67c08a04dd6120d79831bb1e7d4615713013db240c",
+    "bytes": 89341,
+    "jpeg_quality": 92,
+    "maximum_resolution": [
+      1200,
+      1000
+    ]
+  },
+  "estimates_and_limits": [
+    "Top aperture44x92 mm and lower runner aperture46x94 mm are photo estimates.",
+    "Native rounded-end contacts use tangent boxes with less than0.12 mm undercoverage relative to the nominal circular boundary.",
+    "Exact fitted head variant, objective inventory, stage dimensions and internal transmissions remain provisional.",
+    "No geometry dimensions, masses, friction, torque, compliance or control ratios were measured on the real hardware in this revision.",
+    "These renders depict reconstructed models. Original lab photographs remain private and are not copied into public model textures.",
+    "Targeted opening/contact/clearance checks are not a certification of all object pairs or arbitrary robot motions.",
+    "Existing visual cable deformation is retained; no new cable contact, elasticity or strain dynamics are claimed."
+  ],
+  "source_frozen": true,
+  "summary_generator": {
+    "path": "validation/reference5/microscopes/promote_and_summarize.py",
+    "sha256": "b9c65d1b69bc196816976937a67b7b891b63cce680f0ee8eb43ddd0c1f1e8796",
+    "bytes": 11040
+  },
+  "optical_contact_cases": [
+    {
+      "station": 0,
+      "magnification": 20,
+      "maximum_contact_penetration_mm": 0.005249067109371375,
+      "peak_normal_force_N": 9.663337134451053,
+      "passed": true
+    },
+    {
+      "station": 1,
+      "magnification": 50,
+      "maximum_contact_penetration_mm": 0.005229829765480026,
+      "peak_normal_force_N": 9.572192593780345,
+      "passed": true
+    },
+    {
+      "station": 2,
+      "magnification": 5,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "passed": true
+    },
+    {
+      "station": 3,
+      "magnification": 10,
+      "maximum_contact_penetration_mm": 0.0,
+      "peak_normal_force_N": 0.0,
+      "passed": true
+    },
+    {
+      "station": 4,
+      "magnification": 100,
+      "maximum_contact_penetration_mm": 0.005233481387626016,
+      "peak_normal_force_N": 9.589687702800862,
+      "passed": true
+    }
+  ]
+}

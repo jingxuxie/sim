@@ -1,0 +1,62 @@
+{
+  "revision": "reference5-afm-before",
+  "asset": "afm",
+  "draft": false,
+  "complete": true,
+  "source": "005_afm/validation/reference5/before/cypher_s.blend",
+  "source_sha256": "ded0eec018e08015beb88ba7ca0c28e4c1a48c73b4d99e04b5ef7cb1a23d0756",
+  "camera_source": "005_afm/cypher_s.blend",
+  "camera_source_sha256": "7d8b135810498542fe561b49ba417bc360500efc2d9a8ce806c77a55b29de247",
+  "camera": {
+    "name": "door_handle_stowed",
+    "matrix_world": [
+      [
+        0.6362257599830627,
+        -0.24159866571426392,
+        0.732698380947113,
+        0.49566414952278137
+      ],
+      [
+        0.7715029716491699,
+        0.19923609495162964,
+        -0.6042252779006958,
+        -0.41519153118133545
+      ],
+      [
+        5.36263300432438e-08,
+        0.9497026205062866,
+        0.3131532073020935,
+        0.34677696228027344
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "PERSP",
+    "lens_mm": 60.0,
+    "orthographic_scale_m": 0.20999999344348907,
+    "dof_enabled": true,
+    "focus_distance_m": 0.42399999499320984,
+    "fstop": 11.0
+  },
+  "method": "Appended only the current door_handle_stowed camera object/data to the archived original scene. Preserved original geometry, lights, materials and pose; no scene file was saved.",
+  "original_object_signature_before_after": "11b81e21ea4ab1e439497bdc918ba931266e391c9b7afaba662ede9518148b09",
+  "existing_objects_unchanged": true,
+  "source_files_unchanged": true,
+  "renders": [
+    {
+      "file": "door_handle_before.png",
+      "camera": "door_handle_stowed",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "sha256": "97298e54d43545e834c7ece9c1bd05d124cc71180e4c23ff2f3b2859abc2eeb5"
+    }
+  ],
+  "script_sha256": "6365e46e5fa4124ad10a034c5148087da337902a2af208445525a3a613f677fe"
+}

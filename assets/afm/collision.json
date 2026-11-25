@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "01ba4bde3b1857b5a57b6779c6ab23f6bcc8e2b0b0c0b7cb8e3b1fb2ec1f3391",
+  "physics_sha256": "3d9d99131a99ef4ed22dd2937be22e36e6414a1ca70fe6fba044a04f63b36eb7",
   "shapes": [
     {
       "name": "base__Isolation_plinth",
@@ -671,13 +671,13 @@
       "condim": 4
     },
     {
-      "name": "door__Door_anodized_stile",
-      "body": "door",
+      "name": "base__Keeper_bracket_forward_tab",
+      "body": "base",
       "type": "box",
       "pos": [
-        0.043,
-        -0.005,
-        0.187
+        0.1353,
+        -0.1408,
+        0.254
       ],
       "quat": [
         1.0,
@@ -686,9 +686,9 @@
         0.0
       ],
       "size": [
-        0.043,
-        0.013,
-        0.188
+        0.0053,
+        0.0007,
+        0.0135
       ],
       "friction": [
         0.8,
@@ -700,11 +700,98 @@
       "condim": 4
     },
     {
-      "name": "door__Door_anodized_stile_2",
+      "name": "base__Keeper_bracket_side_attachment",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.1413,
+        -0.13425,
+        0.254
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0007,
+        0.00725,
+        0.0135
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Enclosure_cylindrical_keeper",
+      "body": "base",
+      "type": "cylinder",
+      "pos": [
+        0.137,
+        -0.14725,
+        0.254
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.005,
+        0.00575,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Keeper_roller_shoulder",
+      "body": "base",
+      "type": "cylinder",
+      "pos": [
+        0.137,
+        -0.1533,
+        0.254
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        -0.0
+      ],
+      "size": [
+        0.0055,
+        0.0003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_anodized_stile",
       "body": "door",
       "type": "box",
       "pos": [
-        0.279,
+        0.043,
         -0.005,
         0.187
       ],
@@ -816,13 +903,13 @@
       "condim": 4
     },
     {
-      "name": "door_latch__Lift_paddle_grip",
-      "body": "door_latch",
+      "name": "door__Door_cheek_inboard_of_receiver",
+      "body": "door",
       "type": "box",
       "pos": [
-        0.027,
-        -0.003,
-        0.0
+        0.2638,
+        -0.005,
+        0.187
       ],
       "quat": [
         1.0,
@@ -831,9 +918,618 @@
         0.0
       ],
       "size": [
-        0.017,
-        0.0095,
-        0.0052
+        0.0278,
+        0.013,
+        0.188
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_cheek_outboard_of_receiver",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.30645,
+        -0.005,
+        0.187
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00205,
+        0.013,
+        0.188
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_keeper_receiver_blind_front",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.298,
+        -0.01,
+        0.187
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0064,
+        0.008,
+        0.188
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_keeper_receiver_lower_wall",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.298,
+        0.003,
+        0.0843
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0064,
+        0.005,
+        0.0853
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_keeper_receiver_upper_wall",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.298,
+        0.003,
+        0.2787
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0064,
+        0.005,
+        0.0963
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_pocket_front_wall",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.31525,
+        -0.0155,
+        0.187
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00675,
+        0.0025,
+        0.188
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_pocket_rear_wall_below_shaft",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.31525,
+        0.0055,
+        0.086425
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00675,
+        0.0025,
+        0.087425
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_pocket_rear_wall_above_shaft",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.31525,
+        0.0055,
+        0.276575
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00675,
+        0.0025,
+        0.098425
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_shaft_bore_inboard_wall",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.311975,
+        0.0055,
+        0.176
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.003475,
+        0.0025,
+        0.00215
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_shaft_bore_outboard_wall",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.320875,
+        0.0055,
+        0.176
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.001125,
+        0.0025,
+        0.00215
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_pocket_upper_wall",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.31525,
+        -0.005,
+        0.281
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00675,
+        0.008,
+        0.094
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_pocket_lower_wall",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.31525,
+        -0.005,
+        0.037
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00675,
+        0.008,
+        0.038
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_release_pocket_lower_stop",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.3123,
+        -0.005,
+        0.0783
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0036,
+        0.0046,
+        0.00085
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_receiver_plate_inboard_rim",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.29105,
+        0.0107,
+        0.176
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00055,
+        0.0006,
+        0.0125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_receiver_plate_outboard_rim",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.30495,
+        0.0107,
+        0.176
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00055,
+        0.0006,
+        0.0125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_receiver_plate_lower_rim",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.298,
+        0.0107,
+        0.16655
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0064,
+        0.0006,
+        0.00305
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door__Door_receiver_plate_upper_rim",
+      "body": "door",
+      "type": "box",
+      "pos": [
+        0.298,
+        0.0107,
+        0.18545
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0064,
+        0.0006,
+        0.00305
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door_latch__Door_folding_handle_upper_grip",
+      "body": "door_latch",
+      "type": "box",
+      "pos": [
+        0.0016,
+        0.0,
+        -0.021
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0018,
+        0.006,
+        0.02
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door_latch__Door_folding_handle_lower_grip",
+      "body": "door_latch",
+      "type": "box",
+      "pos": [
+        0.0016,
+        0.0,
+        -0.062
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0018,
+        0.0062,
+        0.021
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door_latch__Door_handle_finger_lip",
+      "body": "door_latch",
+      "type": "box",
+      "pos": [
+        -0.00025,
+        0.0,
+        -0.0841
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0013,
+        0.0054,
+        0.00375
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door_latch__Door_release_hinge_barrel",
+      "body": "door_latch",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        -0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0032,
+        0.0062,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "door_latch__Enclosure_latch_cam_shaft",
+      "body": "door_latch",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0102,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        -0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.002,
+        0.0052,
+        0.0
       ],
       "friction": [
         0.8,
@@ -1293,16 +1989,16 @@
       "anchored_to_world": false
     },
     "door_latch": {
-      "mass_kg": 0.045,
+      "mass_kg": 0.035,
       "diagonal_inertia_kg_m2": [
-        5.5125e-05,
-        5.5125e-05,
-        5.5125e-05
+        2.4e-05,
+        2.5e-05,
+        1.2e-06
       ],
       "inertia_position": [
+        0.0014,
         0.0,
-        0.0,
-        0.0
+        -0.044
       ],
       "inertia_orientation": [
         1.0,

@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "6497be376b1b0682e2be98554d09758d3a69bcca1102e48b81293aff5ae9e875",
+  "physics_sha256": "c8874fbcf0f47c8369fc0f93439d5b34fa37ce44e78a7d538163874c53ecddf8",
   "shapes": [
     {
       "name": "base__Rear_cast_instrument_foot",
@@ -236,6 +236,122 @@
       "condim": 4
     },
     {
+      "name": "base__Granular_heater_insulation_side_-1",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.044,
+        -0.109,
+        0.08
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.001,
+        0.042,
+        0.0125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Granular_heater_insulation_end_-1",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.15,
+        0.08
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.043,
+        0.001,
+        0.0125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Granular_heater_insulation_side_1",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.044,
+        -0.109,
+        0.08
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.001,
+        0.042,
+        0.0125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Granular_heater_insulation_end_1",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.068,
+        0.08
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.043,
+        0.001,
+        0.0125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
       "name": "base__Workholder_metal_platen",
       "body": "base",
       "type": "box",
@@ -436,6 +552,35 @@
       ],
       "contype": 2,
       "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "tool_z__Bond_tool_shank_contact",
+      "body": "tool_z",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        -0.0085
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0012,
+        0.0035,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 1,
+      "conaffinity": 3,
       "condim": 4
     },
     {

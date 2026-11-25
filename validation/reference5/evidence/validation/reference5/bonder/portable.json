@@ -1,0 +1,38 @@
+{
+  "revision": "reference5",
+  "passed": true,
+  "checks": {
+    "mica_albedo_embedded": true,
+    "mica_roughness_and_metal_embedded": true,
+    "mica_normal_embedded": true,
+    "jacket_uvs_present": true,
+    "platen_contact_unchanged": true,
+    "chip_contact_unchanged": true,
+    "joint_limits_and_sites_unchanged": true
+  },
+  "glb_sha256": "c43452524ed2d409887fb7cfb05929ba4671b7a357fdf6dc467d2911c7ec4ca6",
+  "material": {
+    "doubleSided": true,
+    "extensions": {
+      "KHR_materials_clearcoat": {
+        "clearcoatRoughnessFactor": 0.30000001192092896
+      }
+    },
+    "extras": {
+      "finish_kind": "paint",
+      "realism3_preserve": true
+    },
+    "name": "heater_mica",
+    "normalTexture": {
+      "index": 21
+    },
+    "pbrMetallicRoughness": {
+      "baseColorTexture": {
+        "index": 22
+      },
+      "metallicRoughnessTexture": {
+        "index": 23
+      }
+    }
+  }
+}

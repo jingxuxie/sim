@@ -1,0 +1,322 @@
+{
+  "revision": "reference5",
+  "asset": "nikon",
+  "changed": true,
+  "passed": true,
+  "reference_photos": [
+    {
+      "photo_id": 222,
+      "private_reference": true,
+      "path": "images/Nikon_e1000/Weixin Image_20261123002137_222_2.jpg",
+      "sha256": "85ebdd112f48517641b0ce2cc9b9e6069d8a76d947880dbdb556547f57c97834",
+      "bytes": 179571
+    },
+    {
+      "photo_id": 225,
+      "private_reference": true,
+      "path": "images/Nikon_e1000/Weixin Image_20261123002137_225_2.jpg",
+      "sha256": "f070b6077ac93403500c05fe7f01abc69d28ecafa2f11ad92023b20ea0a90d36",
+      "bytes": 232708
+    }
+  ],
+  "reference_findings": [
+    {
+      "photos": [
+        225
+      ],
+      "region": "Lower left focus assembly below the stage",
+      "observed": "Nested opposite-side coarse/fine grips and a graduated outer face are visible.",
+      "prior_error": "Only the right-hand focus wheels were modeled; the opposite side was blank.",
+      "correction": "Added the photographed left coarse/fine assemblies, support bosses, graduated annulus, through-shaft ends and native contacts on the existing coarse/fine links."
+    },
+    {
+      "photos": [
+        222,
+        225
+      ],
+      "region": "Focus shafts on both sides of the stand",
+      "observed": "The controls occupy the same horizontal shaft line below the mechanical stage.",
+      "correction": "Both opposite grips rotate with the existing shaft joints; no independent left-hand degrees of freedom were invented."
+    }
+  ],
+  "source_models": [
+    {
+      "path": "000/e1000.blend",
+      "sha256": "2b1c792e7a16f61dd2a4b6514b42a5bb0c9aae97db7e7813dd15baf03c0d2b19",
+      "bytes": 54730074
+    },
+    {
+      "path": "000/e1000.xml",
+      "sha256": "d95913219fa79e27c60092bd7e27535e03cc1dda7ad408c5c167aa2e7223f92b",
+      "bytes": 32787
+    },
+    {
+      "path": "000/assets/e1000.glb",
+      "sha256": "b109721a73f41b2de5c717dd114bbbd72095577f246a37314a793ca384539dc6",
+      "bytes": 23741084
+    },
+    {
+      "path": "000/assets/meshes.json",
+      "sha256": "fac71dab440070a83b98cfe7165508d0fba70de1bbea40a9fd07ec0041caca47",
+      "bytes": 4538
+    }
+  ],
+  "builder_files": [
+    {
+      "path": "000/src/build_visual.py",
+      "sha256": "3cbf2efe64edc9b52490e3905eeb85b3e9f32c5bd73a39fefb98c5c12a156753",
+      "bytes": 39532
+    },
+    {
+      "path": "000/src/build_physics.py",
+      "sha256": "caeb05f87db956f458eb01e4812e6995d563c8bea23e8e98f15ab4ee01c1b58a",
+      "bytes": 9243
+    },
+    {
+      "path": "000/src/design.py",
+      "sha256": "85499ac47d89aa4c7eb2a7361fbf04758ecb3343af338b46e26e8b92df97454b",
+      "bytes": 2487
+    },
+    {
+      "path": "000/src/realism_geometry.py",
+      "sha256": "69ad8ff08b52ea28f7950002c77238278ab960b1e5774714420a3e1bb4c05627",
+      "bytes": 9528
+    },
+    {
+      "path": "tools/photography.py",
+      "sha256": "d72172b252587871c73257f39379abb642ec17eb1e7a472dd637395ec77a60e7",
+      "bytes": 7224
+    },
+    {
+      "path": "tools/realism_materials.py",
+      "sha256": "ceebc444f75b93866c4bedd9bcf22239518d5ed56cfa079468eb51dbb68c4700",
+      "bytes": 24000
+    }
+  ],
+  "baseline_manifest": {
+    "path": "validation/reference5/nikon/baseline_files.json",
+    "sha256": "f2e217535037110a21b7f8fc897a78ba4e831e4bd30b192aa2b31fd0a6471859",
+    "bytes": 18362
+  },
+  "baseline_model": {
+    "path": "validation/reference5/nikon/before/e1000.blend",
+    "sha256": "d58e5043ab7c9e09f3d1ccf0fdc6308a0bc4cbd17e45d0486e93a75572413c7b",
+    "bytes": 53641510
+  },
+  "targeted_validation": {
+    "construction_geometry": {
+      "passed": true,
+      "path": "validation/reference5/nikon/construction_geometry.json",
+      "sha256": "779d2dd03620f3c0d8e34c506c85a33d9771e0ae1ea302ce18d57b592200b21c",
+      "bytes": 3682
+    },
+    "clearance_regression": {
+      "passed": true,
+      "path": "validation/reference5/nikon/clearance_regression.json",
+      "sha256": "d745db959b502802e83e823cf253b14922834469ee5d80e6996dd0bd68676985",
+      "bytes": 8294
+    },
+    "native_construction": {
+      "passed": true,
+      "path": "validation/reference5/nikon/native_construction.json",
+      "sha256": "cdbf23ff0dcf99375d32441bfafc8137eaa53c2681e2a423cca5198e6497c967",
+      "bytes": 4846
+    }
+  },
+  "validation_scripts": [
+    {
+      "path": "validation/reference5/microscopes/construction_geometry.py",
+      "sha256": "2283c41a4dd32e1fb3e9a87302efb5d4e148ef11f8ddf537b71e5a12cba1050b",
+      "bytes": 6115
+    },
+    {
+      "path": "validation/reference5/microscopes/clearance_regression.py",
+      "sha256": "7bcf7f175be993e6263ad9a1672d003b789c58618da4ba14a2709720b6cf313e",
+      "bytes": 19089
+    },
+    {
+      "path": "validation/reference5/microscopes/native_construction.py",
+      "sha256": "8ad0150607265cf89a530582311a45b7bdf6c0c0b0aa358961babd8b70323ff6",
+      "bytes": 6801
+    }
+  ],
+  "preserved_interfaces": {
+    "check": "existing_joint_and_site_datums",
+    "joint_max_delta_SI": 0.0,
+    "site_max_delta_m": 0.0,
+    "nq_before_after": [
+      9,
+      9
+    ],
+    "nv_before_after": [
+      9,
+      9
+    ],
+    "passed": true
+  },
+  "task_cases": [
+    {
+      "task": "nikon.center",
+      "seed": 0,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "nikon.center",
+      "seed": 11,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "nikon.center",
+      "seed": 37,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 0,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 11,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "nikon.focus",
+      "seed": 37,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 0,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 11,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "nikon.objective",
+      "seed": 37,
+      "success": true,
+      "failure": null
+    }
+  ],
+  "current_promoted_render_report": {
+    "path": "000/previews/render_report.json",
+    "sha256": "c3360f3180b0d86f564c9c958022862f9906f448ba807a90f2f7ca0ce82f79f4",
+    "bytes": 1883
+  },
+  "promoted_views": [
+    {
+      "path": "000/previews/lab_view.png",
+      "sha256": "4623abecf28a6edbaebee64067df01209f325359522ef37a98f5fd1b9cbb310f",
+      "bytes": 10706801
+    },
+    {
+      "path": "000/previews/operator_view.png",
+      "sha256": "ccc0fe1f4e48b5f51eaac1001709b33a3355201650d6c8475bddc33a5816c1a7",
+      "bytes": 4938613
+    },
+    {
+      "path": "000/previews/controls.png",
+      "sha256": "4a913ececb0e26f4b53fbab7085af66d3bd37c5aa25f2fc3e8441cacd3e2a95d",
+      "bytes": 5389169
+    },
+    {
+      "path": "000/previews/optical_head.png",
+      "sha256": "3ae03a22c9613c439ed20297685bc6b07772794373bffee181888372a8731c53",
+      "bytes": 5106051
+    },
+    {
+      "path": "000/previews/construction_focus.png",
+      "sha256": "d3dae2d6f7bd1d594c593abaa479d0ca33115ff24716952baab8f06255edf23c",
+      "bytes": 4939345
+    }
+  ],
+  "extra_inspection_view": {
+    "path": "000/previews/construction_focus.png",
+    "sha256": "d3dae2d6f7bd1d594c593abaa479d0ca33115ff24716952baab8f06255edf23c",
+    "bytes": 4939345
+  },
+  "thumbnail": {
+    "path": "000/previews/web_preview.jpg",
+    "sha256": "3cd89f3948e9d436fba496035d022f6d6e04fdb0be24e6579bc787b439c90d0a",
+    "bytes": 91022,
+    "jpeg_quality": 92,
+    "maximum_resolution": [
+      1200,
+      1000
+    ]
+  },
+  "estimates_and_limits": [
+    "Left coarse/fine center X coordinates -86/-106 mm, diameters48/30.6 mm, axial spacings and scale division count are reconstruction estimates.",
+    "Existing focus pitches, original right-hand controls, objective and specimen datums are retained.",
+    "No geometry dimensions, masses, friction, torque, compliance or control ratios were measured on the real hardware in this revision.",
+    "These renders depict reconstructed models. Original lab photographs remain private and are not copied into public model textures.",
+    "Targeted opening/contact/clearance checks are not a certification of all object pairs or arbitrary robot motions.",
+    "Existing visual cable deformation is retained; no new cable contact, elasticity or strain dynamics are claimed."
+  ],
+  "source_frozen": true,
+  "summary_generator": {
+    "path": "validation/reference5/microscopes/promote_and_summarize.py",
+    "sha256": "b9c65d1b69bc196816976937a67b7b891b63cce680f0ee8eb43ddd0c1f1e8796",
+    "bytes": 11040
+  },
+  "physical_contact_cases": [
+    {
+      "check": "opposite_coarse_physical_contact",
+      "contact_samples": 907,
+      "peak_normal_force_N": 2.0977036797249804,
+      "shaft_rad": 1.1075751439493662,
+      "sample_delta_mm": [
+        0.0,
+        0.0,
+        0.8813802950262406
+      ],
+      "unwanted_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "check": "opposite_fine_physical_contact",
+      "contact_samples": 907,
+      "peak_normal_force_N": 2.0996959052151327,
+      "shaft_rad": 1.208127132692585,
+      "sample_delta_mm": [
+        0.0,
+        0.0,
+        0.01922794050512877
+      ],
+      "unwanted_contacts": [],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ]
+}

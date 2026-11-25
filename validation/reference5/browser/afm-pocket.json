@@ -1,0 +1,166 @@
+{
+  "revision": "reference5",
+  "url": "http://127.0.0.1:18945/",
+  "passed": true,
+  "checks": [
+    {
+      "check": "Closed handle fits in recessed pocket",
+      "exterior_clearance_m": 0.0007211729852407145,
+      "passed": true
+    },
+    {
+      "check": "Door remains locked with handle stowed",
+      "passed": true
+    },
+    {
+      "check": "Folding blade extends outward and upward at deployment",
+      "passed": true
+    },
+    {
+      "check": "Released door opens with deployed handle",
+      "passed": true
+    },
+    {
+      "check": "Closed handle fits in recessed pocket",
+      "exterior_clearance_m": 0.0007211349524494648,
+      "passed": true
+    },
+    {
+      "check": "Door closes and handle returns into pocket",
+      "passed": true
+    }
+  ],
+  "views": [
+    {
+      "name": "handle-stowed",
+      "file": "afm-handle-stowed.png",
+      "sha256": "03bbf98aa59fa7d209005d19d9a14c06042c229f179eb8a811a39b14ea445720",
+      "state": {
+        "bounds": {
+          "min": [
+            0.3143999994117549,
+            -0.011400000303983696,
+            0.08499967120261108
+          ],
+          "max": [
+            0.3212788270147593,
+            0.0014000003039836807,
+            0.17920000012261533
+          ]
+        },
+        "vertices": 3081,
+        "q": {
+          "door_angle": 5.39181159507872e-18,
+          "door_latch_angle": -0.00013557293780034886,
+          "scanner_latch_angle": 2.295780547880129e-22,
+          "drawer_travel": 2.0050062730402196e-14,
+          "cantilever_lift": 3.164897261909877e-19,
+          "engage_angle": 3.7775701948098055e-19
+        },
+        "time": 1.1399999999999852,
+        "paused": true
+      }
+    },
+    {
+      "name": "handle-deployed",
+      "file": "afm-handle-deployed.png",
+      "sha256": "d58ba83c5aa22a0fef0281d58d22c745d081b57761ffc6dda3c0f86155a76c95",
+      "state": {
+        "bounds": {
+          "min": [
+            0.3144005147076097,
+            -0.01140000030398372,
+            0.1728005142461997
+          ],
+          "max": [
+            0.40863019367084336,
+            0.0014000003039836778,
+            0.17952477997112637
+          ]
+        },
+        "vertices": 3081,
+        "q": {
+          "door_angle": -9.37575781311888e-8,
+          "door_latch_angle": 1.5529119649466179,
+          "scanner_latch_angle": 2.0463586769374636e-22,
+          "drawer_travel": 5.747123777929416e-15,
+          "cantilever_lift": 3.7854501702816477e-19,
+          "engage_angle": 4.350765108419655e-20
+        },
+        "time": 2.9399999999997872,
+        "paused": true
+      }
+    },
+    {
+      "name": "pocket-door-open",
+      "file": "afm-pocket-door-open.png",
+      "sha256": "523550fe5b0439947513d120c9708ae896f657a639871a3031d87a10687630c5",
+      "state": {
+        "bounds": {
+          "min": [
+            0.31440018632305944,
+            -0.011400000303983748,
+            0.172800185859939
+          ],
+          "max": [
+            0.4086216767309921,
+            0.0014000003039836284,
+            0.17958672315253227
+          ]
+        },
+        "vertices": 3081,
+        "q": {
+          "door_angle": -1.6395429089416305,
+          "door_latch_angle": 1.5600005255868312,
+          "scanner_latch_angle": 5.357628480791878e-21,
+          "drawer_travel": 6.444632821024567e-16,
+          "cantilever_lift": 4.550596850098237e-19,
+          "engage_angle": 4.56184422542598e-19
+        },
+        "time": 5.220000000000078,
+        "paused": true
+      }
+    },
+    {
+      "name": "handle-restowed",
+      "file": "afm-handle-restowed.png",
+      "sha256": "64c0333ab46dc1487bf4b205226a64434b25fb774b14a27f9bfa35340575d118",
+      "state": {
+        "bounds": {
+          "min": [
+            0.31439999940987207,
+            -0.011400000303983675,
+            0.08499968217882233
+          ],
+          "max": [
+            0.32127886504755054,
+            0.0014000003039837195,
+            0.17920000012449722
+          ]
+        },
+        "vertices": 3081,
+        "q": {
+          "door_angle": -0.001855772198871351,
+          "door_latch_angle": -0.0001312308874881328,
+          "scanner_latch_angle": 1.1788399366636227e-22,
+          "drawer_travel": 1.4840615398185342e-15,
+          "cantilever_lift": 2.2704275795988113e-19,
+          "engage_angle": -1.2139336054860386e-19
+        },
+        "time": 9.260000000000307,
+        "paused": true
+      }
+    }
+  ],
+  "errors": [],
+  "sources": {
+    "/app.js": "fa993e316519f7f552590d16797c6aa1a4edf5fb7f4bd84d49d9fc8d929c5cd2",
+    "/assets/afm/model.glb": "fec033dec01233fd049901a498e5e967ad6c352ca77005538e4539bc58053d96",
+    "/assets/afm/physics.xml": "3d9d99131a99ef4ed22dd2937be22e36e6414a1ca70fe6fba044a04f63b36eb7",
+    "/assets/afm/metadata.json": "e0b992aec0de2f7d734bb119e9b34bb062dc7495cd13d36f608dc6444b7d62eb"
+  },
+  "harness_sha256": "aa42149e6911d55cc55b98202069eb013f0e79d7e852908dd1c4b2b66c7bd3b2",
+  "instrumentation_sha256": "680b051d4ac8189b1a5ed3ac7db0eef287e7aea1ce855c620e8be0a6c1da9094",
+  "source_capture": "Hash original asset response bytes from route.fetch and forward the same bytes to the viewer.",
+  "app_sha256": "fa993e316519f7f552590d16797c6aa1a4edf5fb7f4bd84d49d9fc8d929c5cd2"
+}

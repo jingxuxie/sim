@@ -1,0 +1,136 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "module": "005_afm/geometry_reference5.py",
+  "baseline_door_spec_sha256": "40e6e12f3b47a761cae513bdfe7e7a2ee599ff2993b5da68cb6c24535a2c1fcc",
+  "removed_objects": [
+    "Door latch fixed keeper",
+    "Keeper engagement slot",
+    "Keeper mounting screw head",
+    "Keeper mounting screw head.001",
+    "Keeper mounting screw hex recess",
+    "Keeper mounting screw hex recess.001",
+    "Latch housing screw counterbore",
+    "Latch housing screw counterbore.001",
+    "Latch internal bearing case",
+    "Latch housing screw head",
+    "Latch housing screw head.001",
+    "Latch inner case screw head",
+    "Latch inner case screw head.001",
+    "Latch housing screw hex recess",
+    "Latch housing screw hex recess.001",
+    "Latch inner case screw hex recess",
+    "Latch inner case screw hex recess.001",
+    "Latch recessed mounting plate",
+    "Door latch spindle",
+    "Latch eccentric cam",
+    "Latch pivot washer",
+    "Latch pivot washer.001",
+    "Formed door cheek.001",
+    "Sculpted enclosure release paddle",
+    "Release paddle machined thumb land"
+  ],
+  "observations": [
+    {
+      "reference": "Weixin Image_20261123002137_272_2.jpg",
+      "detail": "Long handle sits flush in a narrow vertical groove at the right edge of the closed door."
+    },
+    {
+      "reference": "c9434d428539e41606a5fb75a9cd14c8.mp4",
+      "time_s": [
+        1.5,
+        1.75,
+        2.0,
+        2.25
+      ],
+      "detail": "Upper pivot remains fixed as the lower end swings out and upward, becoming almost horizontal."
+    },
+    {
+      "reference": "bd351619ddd06a52c2a4103d389febf2.mp4",
+      "time_s": [
+        23.0,
+        23.5,
+        24.0,
+        24.5
+      ],
+      "detail": "Return motion folds the handle downward into the side groove."
+    },
+    {
+      "reference": "c9434d428539e41606a5fb75a9cd14c8.mp4",
+      "time_s": [
+        3.25,
+        6.25
+      ],
+      "detail": "Open door exposes a projecting metal keeper and inner latch hardware."
+    }
+  ],
+  "hinge": {
+    "pivot_door_local_mm": [
+      317.6,
+      -5.0,
+      176.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "range_rad": [
+      0,
+      1.5707963267948966
+    ],
+    "stowed_direction": [
+      0,
+      0,
+      -1
+    ],
+    "deployed_direction": [
+      1,
+      0,
+      0
+    ],
+    "blade_length_mm": 91
+  },
+  "pocket": {
+    "width_mm": 16.0,
+    "height_mm": 112.0,
+    "center_z_mm": 131.0,
+    "back_x_mm": 308.5,
+    "nominal_side_x_mm": 322.0
+  },
+  "keeper_receiver": {
+    "center_door_local_mm": [
+      298.0,
+      176.0
+    ],
+    "radius_mm": 6.4,
+    "bore_y_range_door_local_mm": [
+      -2.0,
+      20.0
+    ],
+    "keeper_center_base_mm": [
+      137.0,
+      -147.25,
+      254.0
+    ],
+    "keeper_radius_mm": 5.0,
+    "keeper_length_mm": 11.5
+  },
+  "fixed_side_seals": {
+    "front_y_base_mm": -142.6,
+    "nominal_gasket_overlap_mm": 0.35,
+    "description": "Fixed strips seat in actual side-shell recesses behind the rigid door liner; the small nominal overlap is confined to the compliant gasket."
+  },
+  "unchanged_interlocks": {
+    "door_release_threshold_rad": 0.5,
+    "scanner_release_threshold_rad": 0.65,
+    "drawer_requires_door_rad": -1.1
+  },
+  "upper_view_opening": "Revision4 already cuts a real oval recess through the front cover and places a perforated backing 6.5mm behind it; this reference-visible opening is retained for depth audit.",
+  "limits": [
+    "Dimensions, mass, inertia and keeper mounting are estimates.",
+    "The hidden catch is unresolved. A clear spindle/receiver replaces the unsupported solid cam; latch actuation retains the finite-force fixture and existing state interlock.",
+    "Pocket contacts are compound analytic proxies; rounded boundary corners are slightly under-covered.",
+    "Raw lab reference images and videos are private and are not part of the public asset."
+  ]
+}

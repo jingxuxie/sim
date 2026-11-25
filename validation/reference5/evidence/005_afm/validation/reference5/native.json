@@ -1,0 +1,3115 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "engine": "3.3.7",
+  "sources": {
+    "005_afm/cypher_s.xml": "b868d749342a86642da7667b24fed065dd9389ab7222b7cd90ca9b6a047e114e",
+    "005_afm/asset.json": "e0b992aec0de2f7d734bb119e9b34bb062dc7495cd13d36f608dc6444b7d62eb",
+    "005_afm/build.py": "67c4ca614c2a736abbc0854063bea8615902498a5ef13274ed6eac35b574b098",
+    "005_afm/geometry_revision4.py": "6c0f8df6b8a0591d6161dd70f39ac1392a4c95fe5679a4966f0114346495ef91",
+    "005_afm/geometry_reference5.py": "311f1a720d004f38fba593c681714a5a1bcc709614e6a295684bdc4a5a8c47b7",
+    "benchmarks/sim.py": "b8393a87c894a9f3795b570b0ce481a7da3740aa2565bf0fa7be9c6cba686460",
+    "benchmarks/tasks.py": "a59eb817e9963cde7bdad3ec41069ab3eb8b40155ba8f2cae4c3d5ef4df22993",
+    "005_afm/validation/reference5/check_native.py": "15859963703d843e43cc45a9ee614c52431b05f7f2207000d9900fb26a743ea9"
+  },
+  "tasks": [
+    {
+      "task": "afm.access",
+      "seed": 0,
+      "mode": "fixture_baseline",
+      "success": true,
+      "passed": true,
+      "duration_s": 7.600000000000873,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 0.10014161606264264,
+        "door_rad": -1.7997123685733951
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "trajectory": "afm_access_trajectory.json"
+    },
+    {
+      "task": "afm.access",
+      "seed": 0,
+      "mode": "no_action",
+      "success": false,
+      "passed": true,
+      "duration_s": 14.019999999997669,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 1.3064750548031369e-14,
+        "door_rad": -3.8833465190094018e-19
+      },
+      "events": [],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.access",
+      "seed": 11,
+      "mode": "fixture_baseline",
+      "success": true,
+      "passed": true,
+      "duration_s": 7.600000000000873,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 0.10014161606264264,
+        "door_rad": -1.7997123685733951
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.access",
+      "seed": 11,
+      "mode": "no_action",
+      "success": false,
+      "passed": true,
+      "duration_s": 14.019999999997669,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 1.3064750548031369e-14,
+        "door_rad": -3.8833465190094018e-19
+      },
+      "events": [],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.access",
+      "seed": 37,
+      "mode": "fixture_baseline",
+      "success": true,
+      "passed": true,
+      "duration_s": 7.600000000000873,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 0.10014161606264264,
+        "door_rad": -1.7997123685733951
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.access",
+      "seed": 37,
+      "mode": "no_action",
+      "success": false,
+      "passed": true,
+      "duration_s": 14.019999999997669,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 1.3064750548031369e-14,
+        "door_rad": -3.8833465190094018e-19
+      },
+      "events": [],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 0,
+      "mode": "fixture_baseline",
+      "success": true,
+      "passed": true,
+      "duration_s": 16.459999999997134,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 3.955576299766238e-13,
+        "door_rad": -0.001614972107112765
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "trajectory": "afm_cycle_trajectory.json"
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 0,
+      "mode": "no_action",
+      "success": false,
+      "passed": true,
+      "duration_s": 20.00000000000146,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 1.3064750799268454e-14,
+        "door_rad": -4.021601122686891e-19
+      },
+      "events": [],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 11,
+      "mode": "fixture_baseline",
+      "success": true,
+      "passed": true,
+      "duration_s": 16.459999999997134,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 3.955576299766238e-13,
+        "door_rad": -0.001614972107112765
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 11,
+      "mode": "no_action",
+      "success": false,
+      "passed": true,
+      "duration_s": 20.00000000000146,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 1.3064750799268454e-14,
+        "door_rad": -4.021601122686891e-19
+      },
+      "events": [],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 37,
+      "mode": "fixture_baseline",
+      "success": true,
+      "passed": true,
+      "duration_s": 16.459999999997134,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 3.955576299766238e-13,
+        "door_rad": -0.001614972107112765
+      },
+      "events": [
+        {
+          "event": "scanner_accessible",
+          "time": 7.32
+        }
+      ],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "task": "afm.cycle",
+      "seed": 37,
+      "mode": "no_action",
+      "success": false,
+      "passed": true,
+      "duration_s": 20.00000000000146,
+      "metrics": {
+        "success": false,
+        "failure": null,
+        "peak_contact_N": 0.003937708670898151,
+        "drawer_m": 1.3064750799268454e-14,
+        "door_rad": -4.021601122686891e-19
+      },
+      "events": [],
+      "peak_penetration_m": 5.755053427763489e-06,
+      "peak_normal_force_N": 0.003937708670898151,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "checks": {
+    "range_and_axis": {
+      "range_rad": [
+        0.0,
+        1.570796327
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "passed": true
+    },
+    "handle_motion": {
+      "stowed_site_m": [
+        0.15519999999999998,
+        -0.159,
+        0.16849999999999998
+      ],
+      "deployed_site_m": [
+        0.24209999999999998,
+        -0.159,
+        0.2526
+      ],
+      "outward_mm": 86.9,
+      "rise_mm": 84.10000000000001,
+      "passed": true
+    },
+    "closed_interlocks": {
+      "rejected": {
+        "door_angle": true,
+        "drawer_travel": true
+      },
+      "passed": true
+    },
+    "extended_drawer_interlocks": {
+      "rejected": {
+        "door_angle": true,
+        "scanner_latch_angle": true
+      },
+      "passed": true
+    },
+    "compiled_pocket_probe": {
+      "radius_mm": 2,
+      "samples": [
+        {
+          "point_door_local_mm": [
+            314,
+            -8,
+            95
+          ],
+          "contacts": [],
+          "passed": true
+        },
+        {
+          "point_door_local_mm": [
+            314,
+            -8,
+            125
+          ],
+          "contacts": [],
+          "passed": true
+        },
+        {
+          "point_door_local_mm": [
+            314,
+            -8,
+            150
+          ],
+          "contacts": [],
+          "passed": true
+        },
+        {
+          "point_door_local_mm": [
+            314,
+            -5,
+            95
+          ],
+          "contacts": [],
+          "passed": true
+        },
+        {
+          "point_door_local_mm": [
+            314,
+            -5,
+            125
+          ],
+          "contacts": [],
+          "passed": true
+        },
+        {
+          "point_door_local_mm": [
+            314,
+            -5,
+            150
+          ],
+          "contacts": [],
+          "passed": true
+        },
+        {
+          "point_door_local_mm": [
+            314,
+            -2,
+            95
+          ],
+          "contacts": [],
+          "passed": true
+        },
+        {
+          "point_door_local_mm": [
+            314,
+            -2,
+            125
+          ],
+          "contacts": [],
+          "passed": true
+        },
+        {
+          "point_door_local_mm": [
+            314,
+            -2,
+            150
+          ],
+          "contacts": [],
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "probe_positive_controls": {
+      "back_wall": [
+        {
+          "a": "pocket_access_probe_geom",
+          "b": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": -0.003000000000000005
+        }
+      ],
+      "stowed_handle": [
+        {
+          "a": "pocket_access_probe_geom",
+          "b": "door_latch__Door_folding_handle_lower_grip",
+          "distance_m": -0.002999999999999977
+        }
+      ],
+      "passed": true
+    },
+    "compiled_pocket_rays": {
+      "expected_back_wall_distance_m": 0.0335,
+      "samples": [
+        {
+          "y_mm": -9,
+          "z_mm": 97,
+          "hit": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.03350000000000002,
+          "passed": true
+        },
+        {
+          "y_mm": -9,
+          "z_mm": 126,
+          "hit": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.03350000000000002,
+          "passed": true
+        },
+        {
+          "y_mm": -9,
+          "z_mm": 151,
+          "hit": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.03350000000000002,
+          "passed": true
+        },
+        {
+          "y_mm": -5,
+          "z_mm": 97,
+          "hit": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.03350000000000002,
+          "passed": true
+        },
+        {
+          "y_mm": -5,
+          "z_mm": 126,
+          "hit": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.03350000000000002,
+          "passed": true
+        },
+        {
+          "y_mm": -5,
+          "z_mm": 151,
+          "hit": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.03350000000000002,
+          "passed": true
+        },
+        {
+          "y_mm": -1,
+          "z_mm": 97,
+          "hit": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.03350000000000002,
+          "passed": true
+        },
+        {
+          "y_mm": -1,
+          "z_mm": 126,
+          "hit": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.03350000000000002,
+          "passed": true
+        },
+        {
+          "y_mm": -1,
+          "z_mm": 151,
+          "hit": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.03350000000000002,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "compiled_receiver_clearance": {
+      "samples": [
+        {
+          "door_angle_rad": -0.0,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0009000000011970528,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_outboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008988537549472532,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.002,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008974150076225781,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.003,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008956837631823421,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.004,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008936600233941677,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.005,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008913437903205573,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.006,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008887350663188111,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.007,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008858338540410125,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.008,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008826401564337981,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.009000000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008791539767383032,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.01,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008753753184900972,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.011,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008713042073495271,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.012,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008669406055111195,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.013000000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008622845408162018,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.014,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008573362501431356,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.015,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008520953151113785,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.016,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008465618602761842,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.017,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008407359555292659,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.018000000000000002,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008346176149757316,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.019,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008282068465970058,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.02,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008215036462270913,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.021,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008145080184535809,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.022,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008072199918519549,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.023,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.000799639543267574,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.024,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0007919955675179387,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.025,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0007911413932487133,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.026000000000000002,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0007905786817438297,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.027,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008368388934355214,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.028,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.000972604933973982,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.029,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0009709917692015594,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.03,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008074620642097663,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.031,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0007292833292041895,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.032,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0007182582401395371,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.033,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0007077541920630111,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.034,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0006969578362554847,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.035,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0006858691835175497,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.036000000000000004,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.000682224256655456,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.037,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0006815728199392468,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.038,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0007062264329043573,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.039,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0008321947565996328,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.04,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.001028131511294468,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.041,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0012618535116410855,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.042,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0015159839110837471,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.043000000000000003,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0017818115781572995,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.044,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0020548015116715183,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.045,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0023324400160014093,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.046,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0026132456466278755,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.047,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0028962971200682864,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.048,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0031809947285479363,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.049,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.003466932714292384,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.05,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0037538273873426917,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.051000000000000004,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.004041474757690862,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.052000000000000005,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.004329724551561879,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.053,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.004618463712859909,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.054,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.004907605603262927,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.055,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.005197082740204856,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.056,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.005486841796151905,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.057,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.005776840081204189,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.058,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.006067043021564146,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.059000000000000004,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.006357422320719211,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.06,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0066479545975740946,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.061,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0069386203635384966,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.062,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.007229403244289313,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.063,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.007520289380687249,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.064,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.007811266962602186,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.065,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.00810232586253419,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.066,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.008393457345006006,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.067,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.008684653834081898,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.068,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.00897590872590623,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.069,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.009267216236422304,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.07,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.009558571276812367,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.07100000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.009849969350951927,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.07200000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.0101414064704738,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.073,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.010432879084016106,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.074,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.010724384017968148,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.075,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.011015918426593904,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.076,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.011307479749847735,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.077,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.011599065677534047,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.078,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.011890656443260993,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.079,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.012182224296993836,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.08,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.01247376866850432,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.1,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.018299276035308613,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.15000000000000002,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.03283369069446086,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.2,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.04736446911924421,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.25,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.061872648340160916,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.30000000000000004,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.07634517027817357,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.35000000000000003,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.09077155012380564,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.4,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.45,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.5,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.55,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.6000000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.65,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.7000000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.75,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.8,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.8500000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.9,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.9500000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.0,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.05,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.1,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.1500000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.2000000000000002,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.25,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.3,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.35,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.4000000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.4500000000000002,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.5,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.55,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.6,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.6500000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.7000000000000002,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.75,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.8,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.85,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.9000000000000001,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.9500000000000002,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -2.0,
+          "handle_angle_rad": 0,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.0,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0009000000011970528,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_outboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008988537549472532,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.002,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008974150076225781,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.003,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008956837631823421,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.004,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008936600233941677,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.005,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008913437903205573,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.006,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008887350663188111,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.007,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008858338540410125,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.008,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008826401564337981,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.009000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008791539767383032,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.01,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008753753184900972,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.011,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008713042073495271,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.012,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008669406055111195,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.013000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008622845408162018,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.014,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008573362501431356,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.015,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008520953151113785,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.016,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008465618602761842,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.017,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008407359555292659,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.018000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008346176149757316,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.019,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008282068465970058,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.02,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008215036462270913,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.021,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008145080184535809,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.022,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008072199918519549,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.023,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.000799639543267574,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.024,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0007919955675179387,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.025,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0007911413932487133,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.026000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0007905786817438297,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.027,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008368388934355214,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.028,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.000972604933973982,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_cheek_inboard_of_receiver"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.029,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0009709917692015594,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.03,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008074620642097663,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.031,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0007292833292041895,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.032,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0007182582401395371,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.033,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0007077541920630111,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.034,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0006969578362554847,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.035,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0006858691835175497,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.036000000000000004,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.000682224256655456,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.037,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0006815728199392468,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.038,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0007062264329043573,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.039,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0008321947565996328,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.04,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.001028131511294468,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.041,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0012618535116410855,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.042,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0015159839110837471,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.043000000000000003,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0017818115781572995,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.044,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0020548015116715183,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.045,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0023324400160014093,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.046,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0026132456466278755,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.047,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0028962971200682864,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.048,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0031809947285479363,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.049,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.003466932714292384,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.05,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0037538273873426917,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.051000000000000004,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.004041474757690862,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.052000000000000005,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.004329724551561879,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.053,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.004618463712859909,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.054,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.004907605603262927,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.055,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.005197082740204856,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.056,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.005486841796151905,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.057,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.005776840081204189,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.058,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.006067043021564146,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.059000000000000004,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.006357422320719211,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.06,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0066479545975740946,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.061,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0069386203635384966,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.062,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.007229403244289313,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.063,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.007520289380687249,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.064,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.007811266962602186,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.065,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.00810232586253419,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.066,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.008393457345006006,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.067,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.008684653834081898,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.068,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.00897590872590623,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.069,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.009267216236422304,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.07,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.009558571276812367,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.07100000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.009849969350951927,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.07200000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.0101414064704738,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.073,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.010432879084016106,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.074,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.010724384017968148,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.075,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.011015918426593904,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.076,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.011307479749847735,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.077,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.011599065677534047,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.078,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.011890656443260993,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.079,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.012182224296993836,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.08,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.01247376866850432,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.1,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.018299276035308613,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.15000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.03283369069446086,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.2,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.04736446911924421,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.25,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.061872648340160916,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.30000000000000004,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.07634517027817357,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.35000000000000003,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.09077155012380564,
+          "closest_pair": [
+            "base__Keeper_roller_shoulder",
+            "door__Door_receiver_plate_inboard_rim"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.4,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.45,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.5,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.55,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.6000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.65,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.7000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.75,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.8,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.8500000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.9,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -0.9500000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.0,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.05,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.1,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.1500000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.2000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.25,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.3,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.35,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.4000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.4500000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.5,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.55,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.6,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.6500000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.7000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.75,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.8,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.85,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.9000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -1.9500000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        },
+        {
+          "door_angle_rad": -2.0,
+          "handle_angle_rad": 1.5707963267948966,
+          "minimum_distance_m": 0.1,
+          "closest_pair": [
+            "base__Enclosure_cylindrical_keeper",
+            "door__Door_anodized_stile"
+          ],
+          "passed": true
+        }
+      ],
+      "minimum_distance_m": 0.0006815728199392468,
+      "shaft_clearance": [
+        {
+          "geom": "door__Door_anodized_stile",
+          "distance_m": 0.1
+        },
+        {
+          "geom": "door__Door_blue_transverse_band",
+          "distance_m": 0.1
+        },
+        {
+          "geom": "door__Door_blue_transverse_band_2",
+          "distance_m": 0.1
+        },
+        {
+          "geom": "door__Door_glazing",
+          "distance_m": 0.07972709702499486
+        },
+        {
+          "geom": "door__Door_cheek_inboard_of_receiver",
+          "distance_m": 0.024000000005687534
+        },
+        {
+          "geom": "door__Door_cheek_outboard_of_receiver",
+          "distance_m": 0.007100000000442546
+        },
+        {
+          "geom": "door__Door_keeper_receiver_blind_front",
+          "distance_m": 0.011377170122662329
+        },
+        {
+          "geom": "door__Door_keeper_receiver_lower_wall",
+          "distance_m": 0.012669696663762277
+        },
+        {
+          "geom": "door__Door_keeper_receiver_upper_wall",
+          "distance_m": 0.012669696663946746
+        },
+        {
+          "geom": "door__Door_pocket_front_wall",
+          "distance_m": 0.012999999999999984
+        },
+        {
+          "geom": "door__Door_pocket_rear_wall_below_shaft",
+          "distance_m": 0.0001500000197405248
+        },
+        {
+          "geom": "door__Door_pocket_rear_wall_above_shaft",
+          "distance_m": 0.0001500000195164918
+        },
+        {
+          "geom": "door__Door_shaft_bore_inboard_wall",
+          "distance_m": 0.00015000000000077451
+        },
+        {
+          "geom": "door__Door_shaft_bore_outboard_wall",
+          "distance_m": 0.00015000000000083002
+        },
+        {
+          "geom": "door__Door_pocket_upper_wall",
+          "distance_m": 0.009000000000863291
+        },
+        {
+          "geom": "door__Door_pocket_lower_wall",
+          "distance_m": 0.09900000000040671
+        },
+        {
+          "geom": "door__Door_release_pocket_lower_stop",
+          "distance_m": 0.09486576213118293
+        },
+        {
+          "geom": "door__Door_receiver_plate_inboard_rim",
+          "distance_m": 0.024000000000000025
+        },
+        {
+          "geom": "door__Door_receiver_plate_outboard_rim",
+          "distance_m": 0.010099999999999998
+        },
+        {
+          "geom": "door__Door_receiver_plate_lower_rim",
+          "distance_m": 0.012669696659780584
+        },
+        {
+          "geom": "door__Door_receiver_plate_upper_rim",
+          "distance_m": 0.012669696659780584
+        }
+      ],
+      "positive_control_overlap_m": -0.005000000000000003,
+      "box_positive_control_overlap_m": -0.008400000000000001,
+      "method": "Cylinders use mj_geomDistance with collision masks bypassed. Box/box pairs use the separating-axis lower bound from actual compiled geom transforms and sizes, because the MuJoCo3.3.7 distance dispatcher can return zero for separated boxes. Keeper, shoulder and mounting bracket versus every door contact geom; initial opening sampled at 1 mrad and full door travel at 50 mrad. A probe placed inside the keeper must return negative distance.",
+      "passed": true
+    },
+    "locked_pull": {
+      "force_N": 5,
+      "duration_s": 1.9999999999998905,
+      "drawer_m": 6.710139181994375e-08,
+      "door_rad": -1.0128388517739542e-06,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  },
+  "scope": "Two existing fixture tasks over three seeds and paired no-action controls; state interlocks and a small-probe/ray audit of the compiled pocket. These do not constitute general robot-policy or calibrated latch-force validation.",
+  "passed": true
+}

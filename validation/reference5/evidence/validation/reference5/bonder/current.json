@@ -1,0 +1,537 @@
+{
+  "revision": "reference5",
+  "asset": "bonder",
+  "mode": "current",
+  "source_blend_sha256": "90c5f7900f3968247434a3421027417c6b63d4b418a5a467b7f3db51524c9bed",
+  "source_build_sha256": "8917559c12a8393b95898b20bb20ee948a32ca9814a1497312f6e61f7ed223f1",
+  "source_hardware_sha256": "7ebd142e32a94543a03ce661c4e27e222c480308b1e2fb509fa6a6b5ac8fe021",
+  "handle_joint_limits_m": {
+    "x": [
+      -0.035,
+      0.035
+    ],
+    "y": [
+      -0.015,
+      0.015
+    ],
+    "z": [
+      -0.021,
+      0.006
+    ]
+  },
+  "aperture_bounds_m": {
+    "x": [
+      0.0315,
+      0.2445
+    ],
+    "y": [
+      -0.0145,
+      0.0745
+    ],
+    "z": [
+      0.0525,
+      0.1165
+    ]
+  },
+  "inspected_internal_parts": [
+    "Hand manipulator moving carriage",
+    "Lower manipulator crossed strap",
+    "Crossed linkage pin",
+    "Crossed linkage pan screw captive washer",
+    "Crossed linkage pan screw domed pan head",
+    "Crossed linkage pan screw recess bottom",
+    "Crossed linkage pan screw recess bottom.001",
+    "Crossed linkage pin.001",
+    "Crossed linkage pan screw captive washer.001",
+    "Crossed linkage pan screw domed pan head.001",
+    "Crossed linkage pan screw recess bottom.002",
+    "Crossed linkage pan screw recess bottom.003",
+    "Lower manipulator crossed strap.001",
+    "Crossed linkage pin.002",
+    "Crossed linkage pan screw captive washer.002",
+    "Crossed linkage pan screw domed pan head.002",
+    "Crossed linkage pan screw recess bottom.004",
+    "Crossed linkage pan screw recess bottom.005",
+    "Crossed linkage pin.003",
+    "Crossed linkage pan screw captive washer.003",
+    "Crossed linkage pan screw domed pan head.003",
+    "Crossed linkage pan screw recess bottom.006",
+    "Crossed linkage pan screw recess bottom.007"
+  ],
+  "minimum_clearances_m": {
+    "aperture_x": 0.01749999818205833,
+    "aperture_y": 0.0010000009909272162,
+    "aperture_z": 0.000500008687376978,
+    "tool_floor": 0.050000010058283806
+  },
+  "worst_joint_pose_m": {
+    "aperture_x": [
+      0.035,
+      -0.015,
+      -0.021
+    ],
+    "aperture_y": [
+      -0.035,
+      0.015,
+      -0.021
+    ],
+    "aperture_z": [
+      -0.035,
+      -0.015,
+      -0.021
+    ],
+    "tool_floor": [
+      -0.035,
+      -0.015,
+      -0.021
+    ]
+  },
+  "envelope_samples": [
+    {
+      "handle_xyz_m": [
+        -0.035,
+        -0.015,
+        -0.021
+      ],
+      "gaps_m": {
+        "aperture_x": 0.025899991899728775,
+        "aperture_y": 0.018499999724328517,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.035,
+        -0.015,
+        -0.007500000000000001
+      ],
+      "gaps_m": {
+        "aperture_x": 0.025899991899728775,
+        "aperture_y": 0.018499999724328517,
+        "aperture_z": 0.014000008571892979,
+        "tool_floor": 0.0635000099427998
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.035,
+        -0.015,
+        0.006
+      ],
+      "gaps_m": {
+        "aperture_x": 0.025899991899728775,
+        "aperture_y": 0.018499999724328517,
+        "aperture_z": 0.008499994404613978,
+        "tool_floor": 0.07700000982731581
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.035,
+        0.0,
+        -0.021
+      ],
+      "gaps_m": {
+        "aperture_x": 0.025899991899728775,
+        "aperture_y": 0.01600000065565109,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.035,
+        0.0,
+        -0.007500000000000001
+      ],
+      "gaps_m": {
+        "aperture_x": 0.025899991899728775,
+        "aperture_y": 0.01600000065565109,
+        "aperture_z": 0.014000008571892979,
+        "tool_floor": 0.0635000099427998
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.035,
+        0.0,
+        0.006
+      ],
+      "gaps_m": {
+        "aperture_x": 0.025899991899728775,
+        "aperture_y": 0.01600000065565109,
+        "aperture_z": 0.008499994404613978,
+        "tool_floor": 0.07700000982731581
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.035,
+        0.015,
+        -0.021
+      ],
+      "gaps_m": {
+        "aperture_x": 0.025899991899728775,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.035,
+        0.015,
+        -0.007500000000000001
+      ],
+      "gaps_m": {
+        "aperture_x": 0.025899991899728775,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.014000008571892979,
+        "tool_floor": 0.0635000099427998
+      }
+    },
+    {
+      "handle_xyz_m": [
+        -0.035,
+        0.015,
+        0.006
+      ],
+      "gaps_m": {
+        "aperture_x": 0.025899991899728775,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.008499994404613978,
+        "tool_floor": 0.07700000982731581
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        -0.015,
+        -0.021
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.018499999724328517,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        -0.015,
+        -0.007500000000000001
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.018499999724328517,
+        "aperture_z": 0.014000008571892979,
+        "tool_floor": 0.0635000099427998
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        -0.015,
+        0.006
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.018499999724328517,
+        "aperture_z": 0.008499994404613978,
+        "tool_floor": 0.07700000982731581
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.0,
+        -0.021
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.01600000065565109,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.0,
+        -0.007500000000000001
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.01600000065565109,
+        "aperture_z": 0.014000008571892979,
+        "tool_floor": 0.0635000099427998
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.0,
+        0.006
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.01600000065565109,
+        "aperture_z": 0.008499994404613978,
+        "tool_floor": 0.07700000982731581
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.015,
+        -0.021
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.015,
+        -0.007500000000000001
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.014000008571892979,
+        "tool_floor": 0.0635000099427998
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.0,
+        0.015,
+        0.006
+      ],
+      "gaps_m": {
+        "aperture_x": 0.05249999833106994,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.008499994404613978,
+        "tool_floor": 0.07700000982731581
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.035,
+        -0.015,
+        -0.021
+      ],
+      "gaps_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.018499999724328517,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.035,
+        -0.015,
+        -0.007500000000000001
+      ],
+      "gaps_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.018499999724328517,
+        "aperture_z": 0.014000008571892979,
+        "tool_floor": 0.0635000099427998
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.035,
+        -0.015,
+        0.006
+      ],
+      "gaps_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.018499999724328517,
+        "aperture_z": 0.008499994404613978,
+        "tool_floor": 0.07700000982731581
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.035,
+        0.0,
+        -0.021
+      ],
+      "gaps_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.01600000065565109,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.035,
+        0.0,
+        -0.007500000000000001
+      ],
+      "gaps_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.01600000065565109,
+        "aperture_z": 0.014000008571892979,
+        "tool_floor": 0.0635000099427998
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.035,
+        0.0,
+        0.006
+      ],
+      "gaps_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.01600000065565109,
+        "aperture_z": 0.008499994404613978,
+        "tool_floor": 0.07700000982731581
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.035,
+        0.015,
+        -0.021
+      ],
+      "gaps_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.000500008687376978,
+        "tool_floor": 0.050000010058283806
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.035,
+        0.015,
+        -0.007500000000000001
+      ],
+      "gaps_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.014000008571892979,
+        "tool_floor": 0.0635000099427998
+      }
+    },
+    {
+      "handle_xyz_m": [
+        0.035,
+        0.015,
+        0.006
+      ],
+      "gaps_m": {
+        "aperture_x": 0.01749999818205833,
+        "aperture_y": 0.0010000009909272162,
+        "aperture_z": 0.008499994404613978,
+        "tool_floor": 0.07700000982731581
+      }
+    }
+  ],
+  "lead_deck_checks": [
+    {
+      "part": "Heater red lead",
+      "intersections": [],
+      "min_deck_top_gap_m": 0.0026902770400047335
+    },
+    {
+      "part": "Heater braided lead",
+      "intersections": [],
+      "min_deck_top_gap_m": 0.00248041653633118
+    },
+    {
+      "part": "Heater lead saddle",
+      "intersections": [],
+      "min_deck_top_gap_m": 0.0014000041186809573
+    },
+    {
+      "part": "Heater lead saddle.001",
+      "intersections": [],
+      "min_deck_top_gap_m": 0.0014000041186809573
+    },
+    {
+      "part": "Heater lead saddle.002",
+      "intersections": [],
+      "min_deck_top_gap_m": 0.0014000041186809573
+    },
+    {
+      "part": "Heater lead saddle.003",
+      "intersections": [],
+      "min_deck_top_gap_m": 0.0014000041186809573
+    }
+  ],
+  "continuous_handle_deck_checks": [
+    {
+      "moving": "Long independent hand lever",
+      "fixed": "Adjustable platform pedestal",
+      "continuous_separation_lower_bound_m": 0.01971259498596191,
+      "unproven_faces": 0
+    },
+    {
+      "moving": "Long independent hand lever",
+      "fixed": "Work platform casting",
+      "continuous_separation_lower_bound_m": 0.005212595403194423,
+      "unproven_faces": 0
+    },
+    {
+      "moving": "Long independent hand lever",
+      "fixed": "Stainless working deck",
+      "continuous_separation_lower_bound_m": 0.0027125940620899153,
+      "unproven_faces": 0
+    },
+    {
+      "moving": "Hand lever distal ferrule",
+      "fixed": "Adjustable platform pedestal",
+      "continuous_separation_lower_bound_m": 0.02687223199932298,
+      "unproven_faces": 0
+    },
+    {
+      "moving": "Hand lever distal ferrule",
+      "fixed": "Work platform casting",
+      "continuous_separation_lower_bound_m": 0.018300458888835292,
+      "unproven_faces": 0
+    },
+    {
+      "moving": "Hand lever distal ferrule",
+      "fixed": "Stainless working deck",
+      "continuous_separation_lower_bound_m": 0.024260032643141728,
+      "unproven_faces": 0
+    },
+    {
+      "moving": "Manual ball handle",
+      "fixed": "Adjustable platform pedestal",
+      "continuous_separation_lower_bound_m": 0.02381724498587311,
+      "unproven_faces": 0
+    },
+    {
+      "moving": "Manual ball handle",
+      "fixed": "Work platform casting",
+      "continuous_separation_lower_bound_m": 0.012715675524779504,
+      "unproven_faces": 0
+    },
+    {
+      "moving": "Manual ball handle",
+      "fixed": "Stainless working deck",
+      "continuous_separation_lower_bound_m": 0.016967695013888527,
+      "unproven_faces": 0
+    }
+  ],
+  "exclusions": [
+    "Intended contact within concealed carriage bearings and crossing-link pivot stacks.",
+    "Bond wedge/sample contact and mechanically seated fasteners and saddle mounting feet.",
+    "This Cartesian surrogate is not a factory four-bar reconstruction."
+  ],
+  "method": "Evaluated Blender source vertices give exact translated extrema for the Cartesian handle mechanism; 27 domain corners/midpoints characterize the box domain. Each handle/ball face is also expanded over the complete continuous XYZ domain and checked against conservative detailed deck/casting/pedestal bounds. Actual lead triangles are checked against these surfaces via BVH. The aperture is a conservative skin-plane envelope; service lead contact with its dedicated saddle is intentional.",
+  "passed": true
+}

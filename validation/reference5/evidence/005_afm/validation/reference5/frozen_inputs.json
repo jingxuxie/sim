@@ -1,0 +1,34 @@
+{
+  "revision": "reference5",
+  "passed": true,
+  "stage": "validated_and_render_promoted",
+  "inputs_sha256": {
+    "005_afm/build.py": "67c4ca614c2a736abbc0854063bea8615902498a5ef13274ed6eac35b574b098",
+    "005_afm/geometry_revision4.py": "6c0f8df6b8a0591d6161dd70f39ac1392a4c95fe5679a4966f0114346495ef91",
+    "005_afm/geometry_reference5.py": "311f1a720d004f38fba593c681714a5a1bcc709614e6a295684bdc4a5a8c47b7",
+    "005_afm/cypher_s.blend": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+    "005_afm/cypher_s.xml": "b868d749342a86642da7667b24fed065dd9389ab7222b7cd90ca9b6a047e114e",
+    "005_afm/asset.json": "e0b992aec0de2f7d734bb119e9b34bb062dc7495cd13d36f608dc6444b7d62eb",
+    "005_afm/assets/cypher_s.glb": "fec033dec01233fd049901a498e5e967ad6c352ca77005538e4539bc58053d96"
+  },
+  "evidence_sha256": {
+    "005_afm/validation/reference5/native.json": "57edb4961b20bb6015390ab1f629ddb4148d887b78fc8c095ccd7dcfa7829b81",
+    "005_afm/validation/reference5/geometry.json": "41b71a5d28d0b5f2aedf0030f11d27447ccb1f26fa779bcb42dda8f47f949ae5",
+    "005_afm/validation/reference5/keeper_fit.json": "10819658db6a00b052023923996b340d22d935f79bad4490bda75ac530d34cab",
+    "005_afm/validation/reference5/comparison/camera_signature.json": "9ce38b3975b496b3e01b0f1874d3e8047bea4655b88b46bd4e039756d4c5f819"
+  },
+  "jobs": {
+    "build": "46943434",
+    "validation": "46943958",
+    "final_render_groups": {
+      "overview": "46944199",
+      "closed_details": "46944200",
+      "deployed": "46944201",
+      "open": "46944202",
+      "scanner": "46944203"
+    }
+  },
+  "render_promotion_pending": false,
+  "promoted_summary_sha256": "d0476eac0d792e299ed1f70e0fa525007a1a15a32d6d91ba778e17cbdc19a30e",
+  "promoted_render_report_sha256": "2fbea9f012b0ced5546de7e6eddbdfca53a21e1391c4deab23f2b1faee0f5d14"
+}

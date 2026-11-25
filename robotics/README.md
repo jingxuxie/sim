@@ -11,11 +11,11 @@ This benchmark runs in native MuJoCo and has no browser-live robot controller.
 
 The current task uses the raised handwheel mount and full thimble, collar and
 wheel collision coverage. All three contact trials passed: maximum stage error
-0.1299 µm for a −20.833 µm target, maximum native penetration
-20.72 µm, peak individual normal force 3.2664 N,
+0.1358 µm for a −20.833 µm target, maximum native penetration
+20.71 µm, peak individual normal force 0.7090 N,
 and zero unintended robot/instrument contacts. Instrument actuator force and
 applied wrench were zero. Nine paired controls (disabled contact, missed grasp,
-no turn) failed the task as expected; maximum stage drift was 0.0396 µm.
+no turn) failed the task as expected; maximum stage drift was 0.0377 µm.
 The portable package reproduced all seed-0 physical metrics exactly.
 
 ```sh

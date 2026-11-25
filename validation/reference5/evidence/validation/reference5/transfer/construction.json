@@ -1,0 +1,793 @@
+{
+  "revision": "reference5",
+  "passed": true,
+  "checks": {
+    "full_xyz_support_sweep": true,
+    "lower_foot_cross_bore_open": true,
+    "support_balls_seated": true,
+    "preload_rods_separate": true,
+    "sample_x_grip_unchanged": true,
+    "pitch_and_limits_preserved": true,
+    "couplings_preserved": true,
+    "target_sites_preserved": true,
+    "focus_slew_preserved": true
+  },
+  "source_sha256": "31d20bd5a4662cb331a6521fccb15e1dcbdefcb05a63bf2195315ed4adb75367",
+  "minimum_support_clearance_mm": 2.499997615814209,
+  "support_pairs": [
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "Extrusion beam",
+      "clearance_mm": 33.500003814697266,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "Rail carriage substrate",
+      "clearance_mm": 19.000004231929783,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "Rail carriage margin X",
+      "clearance_mm": 13.000006973743442,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "Rail carriage margin Y",
+      "clearance_mm": 13.000006973743442,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "Rail carriage margin X.001",
+      "clearance_mm": 112.75194731477141,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "Rail carriage margin Y.001",
+      "clearance_mm": 115.53372788019156,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "Rail carriage drilled surface",
+      "clearance_mm": 18.526736518999428,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_x fixed sole",
+      "clearance_mm": 8.500005304813389,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_x moving drilled plate substrate",
+      "clearance_mm": 2.499997615814209,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_x moving drilled plate margin X",
+      "clearance_mm": 2.500005066394806,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_x moving drilled plate margin Y",
+      "clearance_mm": 22.90000021457672,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_x moving drilled plate margin X.001",
+      "clearance_mm": 99.1000086069107,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_x moving drilled plate margin Y.001",
+      "clearance_mm": 63.66136971286643,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_x moving drilled plate drilled surface",
+      "clearance_mm": 24.46160260563676,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_x relieved carrier core",
+      "clearance_mm": 19.00000125169754,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_y fixed sole",
+      "clearance_mm": 5.500003695487976,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_y moving drilled plate substrate",
+      "clearance_mm": 9.962426054188882,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_y moving drilled plate margin X",
+      "clearance_mm": 9.962433158933722,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_y moving drilled plate margin Y",
+      "clearance_mm": 23.095670624646836,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_y moving drilled plate margin X.001",
+      "clearance_mm": 99.1454068409845,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_y moving drilled plate margin Y.001",
+      "clearance_mm": 75.45873126585445,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_y moving drilled plate drilled surface",
+      "clearance_mm": 31.138721725710134,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_y relieved carrier core",
+      "clearance_mm": 26.201139959486365,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_z fixed lower crossmember",
+      "clearance_mm": 9.407451758829453,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_z upright guide column",
+      "clearance_mm": 24.70324136488498,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_z upright guide column.001",
+      "clearance_mm": 101.98161645556851,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_z actuator mounting extension",
+      "clearance_mm": 3.500002622604359,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_z actuator mounting attachment",
+      "clearance_mm": 12.500002622604521,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z spindle reaction tab",
+      "fixed": "stamp_z lift actuator clamp",
+      "clearance_mm": 2.5000154972076305,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "Extrusion beam",
+      "clearance_mm": 43.00000071525574,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "Rail carriage substrate",
+      "clearance_mm": 28.500001132488254,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "Rail carriage margin X",
+      "clearance_mm": 22.500003874301914,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "Rail carriage margin Y",
+      "clearance_mm": 22.500003874301914,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "Rail carriage margin X.001",
+      "clearance_mm": 117.18042216861328,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "Rail carriage margin Y.001",
+      "clearance_mm": 103.768697204329,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "Rail carriage drilled surface",
+      "clearance_mm": 22.499996423721317,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_x fixed sole",
+      "clearance_mm": 18.00000220537186,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_x moving drilled plate substrate",
+      "clearance_mm": 6.519196645153834,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_x moving drilled plate margin X",
+      "clearance_mm": 5.500003695487976,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_x moving drilled plate margin Y",
+      "clearance_mm": 25.89999884366989,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_x moving drilled plate margin X.001",
+      "clearance_mm": 102.10000723600388,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_x moving drilled plate margin Y.001",
+      "clearance_mm": 52.70313227877388,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_x moving drilled plate drilled surface",
+      "clearance_mm": 25.89999884366989,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_x relieved carrier core",
+      "clearance_mm": 22.416287416674404,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_y fixed sole",
+      "clearance_mm": 8.500002324581146,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_y moving drilled plate substrate",
+      "clearance_mm": 12.499995529651642,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_y moving drilled plate margin X",
+      "clearance_mm": 12.500002980232239,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_y moving drilled plate margin Y",
+      "clearance_mm": 25.89999884366989,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_y moving drilled plate margin X.001",
+      "clearance_mm": 102.10000723600388,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_y moving drilled plate margin Y.001",
+      "clearance_mm": 63.88560337413403,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_y moving drilled plate drilled surface",
+      "clearance_mm": 26.9920353134437,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_y relieved carrier core",
+      "clearance_mm": 21.36000556126708,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_z fixed lower crossmember",
+      "clearance_mm": 12.020821294785815,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_z upright guide column",
+      "clearance_mm": 18.01389129548322,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_z upright guide column.001",
+      "clearance_mm": 103.19156923478704,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_z actuator mounting extension",
+      "clearance_mm": 4.949749069886517,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_z actuator mounting attachment",
+      "clearance_mm": 15.402922977137527,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction foot arm",
+      "fixed": "stamp_z lift actuator clamp",
+      "clearance_mm": 2.5000154972076305,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "Extrusion beam",
+      "clearance_mm": 35.50000041723251,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "Rail carriage substrate",
+      "clearance_mm": 21.00000083446503,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "Rail carriage margin X",
+      "clearance_mm": 15.00000357627869,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "Rail carriage margin Y",
+      "clearance_mm": 15.00000357627869,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "Rail carriage margin X.001",
+      "clearance_mm": 116.96581446240376,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "Rail carriage margin Y.001",
+      "clearance_mm": 100.42655197218234,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "Rail carriage drilled surface",
+      "clearance_mm": 14.999996125698093,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_x fixed sole",
+      "clearance_mm": 10.500001907348636,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_x moving drilled plate substrate",
+      "clearance_mm": 6.4999982714653015,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_x moving drilled plate margin X",
+      "clearance_mm": 6.500005722045898,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_x moving drilled plate margin Y",
+      "clearance_mm": 26.900000870227814,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_x moving drilled plate margin X.001",
+      "clearance_mm": 103.1000092625618,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_x moving drilled plate margin Y.001",
+      "clearance_mm": 51.48611677621695,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_x moving drilled plate drilled surface",
+      "clearance_mm": 26.900000870227814,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_x relieved carrier core",
+      "clearance_mm": 23.000001907348633,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_y fixed sole",
+      "clearance_mm": 9.500004351139069,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_y moving drilled plate substrate",
+      "clearance_mm": 13.499997556209564,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_y moving drilled plate margin X",
+      "clearance_mm": 13.500005006790161,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_y moving drilled plate margin Y",
+      "clearance_mm": 26.900000870227814,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_y moving drilled plate margin X.001",
+      "clearance_mm": 103.1000092625618,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_y moving drilled plate margin Y.001",
+      "clearance_mm": 62.486561557318446,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_y moving drilled plate drilled surface",
+      "clearance_mm": 27.476718607641622,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_y relieved carrier core",
+      "clearance_mm": 21.86892605378468,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_z fixed lower crossmember",
+      "clearance_mm": 12.500002980232239,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_z upright guide column",
+      "clearance_mm": 15.18223255848447,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_z upright guide column.001",
+      "clearance_mm": 103.59778094108884,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_z actuator mounting extension",
+      "clearance_mm": 11.500004678964615,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_z actuator mounting attachment",
+      "clearance_mm": 16.00000262260437,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z reaction side strap",
+      "fixed": "stamp_z lift actuator clamp",
+      "clearance_mm": 5.499999970197678,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "Extrusion beam",
+      "clearance_mm": 105.50000882148741,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "Rail carriage substrate",
+      "clearance_mm": 91.00000923871993,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "Rail carriage margin X",
+      "clearance_mm": 85.00001198053359,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "Rail carriage margin Y",
+      "clearance_mm": 85.00001198053359,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "Rail carriage margin X.001",
+      "clearance_mm": 141.00090044977824,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "Rail carriage margin Y.001",
+      "clearance_mm": 143.24487633412417,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "Rail carriage drilled surface",
+      "clearance_mm": 86.09698485784598,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_x fixed sole",
+      "clearance_mm": 80.50001031160353,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_x moving drilled plate substrate",
+      "clearance_mm": 66.06814989256424,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_x moving drilled plate margin X",
+      "clearance_mm": 60.074959547289474,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_x moving drilled plate margin Y",
+      "clearance_mm": 64.40155917758466,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_x moving drilled plate margin X.001",
+      "clearance_mm": 116.27623501267207,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_x moving drilled plate margin Y.001",
+      "clearance_mm": 87.95209516492484,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_x moving drilled plate drilled surface",
+      "clearance_mm": 65.04130112519258,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_x relieved carrier core",
+      "clearance_mm": 69.58800458370543,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_y fixed sole",
+      "clearance_mm": 53.33854874191653,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_y moving drilled plate substrate",
+      "clearance_mm": 40.89621873318795,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_y moving drilled plate margin X",
+      "clearance_mm": 35.13545119759615,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_y moving drilled plate margin Y",
+      "clearance_mm": 41.012923653311795,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_y moving drilled plate margin X.001",
+      "clearance_mm": 105.14115231825545,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_y moving drilled plate margin Y.001",
+      "clearance_mm": 83.13585449404755,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_y moving drilled plate drilled surface",
+      "clearance_mm": 46.22088237823942,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_y relieved carrier core",
+      "clearance_mm": 48.04206309527473,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_z fixed lower crossmember",
+      "clearance_mm": 25.28834471156898,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_z upright guide column",
+      "clearance_mm": 23.35059087294814,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_z upright guide column.001",
+      "clearance_mm": 102.09921840685915,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_z actuator mounting extension",
+      "clearance_mm": 25.499995708465562,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_z actuator mounting attachment",
+      "clearance_mm": 28.398941520406026,
+      "passed": true
+    },
+    {
+      "moving": "stamp_z scalloped lift hand knob",
+      "fixed": "stamp_z lift actuator clamp",
+      "clearance_mm": 18.4999964237213,
+      "passed": true
+    }
+  ],
+  "bore_obstructions": [],
+  "ball_seating": [
+    {
+      "part": "Kinematic polished support ball",
+      "lower_gap_mm": 0.0,
+      "upper_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "part": "Kinematic polished support ball.001",
+      "lower_gap_mm": 0.0,
+      "upper_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "part": "Kinematic polished support ball.002",
+      "lower_gap_mm": 0.0,
+      "upper_gap_mm": 0.0,
+      "passed": true
+    }
+  ],
+  "preload_clearances": [
+    {
+      "ball": "Kinematic polished support ball",
+      "rod": "Kinematic preload thread",
+      "clearance_mm": 17.12401678418166,
+      "passed": true
+    },
+    {
+      "ball": "Kinematic polished support ball",
+      "rod": "Kinematic preload thread.001",
+      "clearance_mm": 17.12403072573366,
+      "passed": true
+    },
+    {
+      "ball": "Kinematic polished support ball",
+      "rod": "Kinematic preload thread.002",
+      "clearance_mm": 38.80000307336464,
+      "passed": true
+    },
+    {
+      "ball": "Kinematic polished support ball.001",
+      "rod": "Kinematic preload thread",
+      "clearance_mm": 16.724296778775685,
+      "passed": true
+    },
+    {
+      "ball": "Kinematic polished support ball.001",
+      "rod": "Kinematic preload thread.001",
+      "clearance_mm": 44.25028837740613,
+      "passed": true
+    },
+    {
+      "ball": "Kinematic polished support ball.001",
+      "rod": "Kinematic preload thread.002",
+      "clearance_mm": 13.80000022226423,
+      "passed": true
+    },
+    {
+      "ball": "Kinematic polished support ball.002",
+      "rod": "Kinematic preload thread",
+      "clearance_mm": 44.25028190764276,
+      "passed": true
+    },
+    {
+      "ball": "Kinematic polished support ball.002",
+      "rod": "Kinematic preload thread.001",
+      "clearance_mm": 16.724298072653408,
+      "passed": true
+    },
+    {
+      "ball": "Kinematic polished support ball.002",
+      "rod": "Kinematic preload thread.002",
+      "clearance_mm": 13.80000022226423,
+      "passed": true
+    }
+  ],
+  "method": "Exact relative translation intervals expanded around evaluated mesh AABBs cancel shared X/Y motion. Z-knob bound covers every angle. Intended reaction-strap/face-plate and spindle/nut interfaces excluded. Bore ray includes the complete rear support, not just the cylinder."
+}

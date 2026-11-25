@@ -1,0 +1,203 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "mode": "current",
+  "source_blend_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "source_build_sha256": "67c4ca614c2a736abbc0854063bea8615902498a5ef13274ed6eac35b574b098",
+  "pairs": {
+    "moving": [
+      "Probe holder tab",
+      "Silicon cantilever chip",
+      "Cantilever beam",
+      "Cantilever clamp machined upper plate",
+      "Cantilever fork nose",
+      "Cantilever fork precision ledge",
+      "Cantilever fork precision ledge.001"
+    ],
+    "fixed": [
+      "Scanner top rolled front lip",
+      "Scanner deck machined plate",
+      "Asymmetric scanner working plate",
+      "Machined sample socket rim",
+      "Sample socket recessed floor"
+    ]
+  },
+  "samples": [
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.0,
+      "intersections": [],
+      "min_beam_height_m": 0.20211251080036163,
+      "min_chip_height_m": 0.20215000212192535
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.05,
+      "intersections": [],
+      "min_beam_height_m": 0.20295825600624084,
+      "min_chip_height_m": 0.20296096801757812
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.1,
+      "intersections": [],
+      "min_beam_height_m": 0.2037966251373291,
+      "min_chip_height_m": 0.20376454293727875
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.15000000000000002,
+      "intersections": [],
+      "min_beam_height_m": 0.20462550222873688,
+      "min_chip_height_m": 0.20455871522426605
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.2,
+      "intersections": [],
+      "min_beam_height_m": 0.20544280111789703,
+      "min_chip_height_m": 0.2053404152393341
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.25,
+      "intersections": [],
+      "min_beam_height_m": 0.2062465101480484,
+      "min_chip_height_m": 0.20610858500003815
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.30000000000000004,
+      "intersections": [],
+      "min_beam_height_m": 0.20703458786010742,
+      "min_chip_height_m": 0.2068614810705185
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.35000000000000003,
+      "intersections": [],
+      "min_beam_height_m": 0.2078051120042801,
+      "min_chip_height_m": 0.20759724080562592
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.4,
+      "intersections": [],
+      "min_beam_height_m": 0.20855611562728882,
+      "min_chip_height_m": 0.20831398665905
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.45,
+      "intersections": [],
+      "min_beam_height_m": 0.20928573608398438,
+      "min_chip_height_m": 0.20900997519493103
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.5,
+      "intersections": [],
+      "min_beam_height_m": 0.20999214053153992,
+      "min_chip_height_m": 0.20968271791934967
+    },
+    {
+      "drawer_travel_m": 0.0,
+      "lift_rad": 0.55,
+      "intersections": [],
+      "min_beam_height_m": 0.21067357063293457,
+      "min_chip_height_m": 0.21033070981502533
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.0,
+      "intersections": [],
+      "min_beam_height_m": 0.20211251080036163,
+      "min_chip_height_m": 0.20215000212192535
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.05,
+      "intersections": [],
+      "min_beam_height_m": 0.20295825600624084,
+      "min_chip_height_m": 0.20296096801757812
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.1,
+      "intersections": [],
+      "min_beam_height_m": 0.2037966251373291,
+      "min_chip_height_m": 0.20376454293727875
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.15000000000000002,
+      "intersections": [],
+      "min_beam_height_m": 0.20462550222873688,
+      "min_chip_height_m": 0.20455871522426605
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.2,
+      "intersections": [],
+      "min_beam_height_m": 0.20544280111789703,
+      "min_chip_height_m": 0.2053404152393341
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.25,
+      "intersections": [],
+      "min_beam_height_m": 0.2062465101480484,
+      "min_chip_height_m": 0.20610858500003815
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.30000000000000004,
+      "intersections": [],
+      "min_beam_height_m": 0.20703458786010742,
+      "min_chip_height_m": 0.2068614810705185
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.35000000000000003,
+      "intersections": [],
+      "min_beam_height_m": 0.2078051120042801,
+      "min_chip_height_m": 0.20759724080562592
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.4,
+      "intersections": [],
+      "min_beam_height_m": 0.20855611562728882,
+      "min_chip_height_m": 0.20831398665905
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.45,
+      "intersections": [],
+      "min_beam_height_m": 0.20928573608398438,
+      "min_chip_height_m": 0.20900997519493103
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.5,
+      "intersections": [],
+      "min_beam_height_m": 0.20999214053153992,
+      "min_chip_height_m": 0.20968271791934967
+    },
+    {
+      "drawer_travel_m": 0.105,
+      "lift_rad": 0.55,
+      "intersections": [],
+      "min_beam_height_m": 0.21067357063293457,
+      "min_chip_height_m": 0.21033070981502533
+    }
+  ],
+  "minimum_chip_deck_plane_clearance_m": 0.007150002121925347,
+  "beam_rises_when_lift_increases": true,
+  "exclusions": [
+    "The intended hinge/pivot and dovetail mating interfaces.",
+    "AFM tip/sample approach contact is a separate instrument task."
+  ],
+  "method": "Triangle intersections between actual source holder/nose meshes and scanner working plates/socket at 12 lift angles and both drawer endpoints. Heights independently verify the positive lift direction. Existing drawer/door/release sweeps are rerun separately.",
+  "passed": true
+}

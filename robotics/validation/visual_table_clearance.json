@@ -1,53 +1,53 @@
 {
-  "revision": "clearance1",
+  "revision": "reference5",
   "passed": true,
   "table_top_m": 0.024,
   "trials": [
     {
       "seed": 0,
-      "trajectory_sha256": "ddf79606468fe7fe95107035cdd1c7ab24b46268b8a4fe4c447d8d1d03be6b30",
+      "trajectory_sha256": "5d3048495ff1cbcfc64ee5b5d06923250a8b013d7901e9dfaffc7dd99524b4dc",
       "frame_count": 600,
       "passed": true,
       "worst": {
         "time_s": 8.500000000000728,
         "body": "panda_left_finger",
-        "minimum_table_gap_m": 0.005805163426482372,
+        "minimum_table_gap_m": 0.005805163425939869,
         "lowest_vertex_m": [
           -0.2172,
-          -0.04863904021383235,
-          0.029805163426482373
+          -0.04863904021585721,
+          0.02980516342593987
         ]
       }
     },
     {
       "seed": 11,
-      "trajectory_sha256": "af6607cd6f934ecd2e0de8d7526a82db3f13af30276dcac4f890013b510c0f61",
+      "trajectory_sha256": "f9485c725c436e09866bca240d61e2c36d315afc2c29786af81cd7376aa01989",
       "frame_count": 600,
       "passed": true,
       "worst": {
         "time_s": 8.500000000000728,
         "body": "panda_left_finger",
-        "minimum_table_gap_m": 0.005896959800119998,
+        "minimum_table_gap_m": 0.005896959800018892,
         "lowest_vertex_m": [
           -0.2172,
-          -0.04884239712427379,
-          0.02989695980012
+          -0.048842397124652985,
+          0.029896959800018892
         ]
       }
     },
     {
       "seed": 37,
-      "trajectory_sha256": "b358e89b0621eef33d1eef29abed75d5787b84bd238ec92576b63714f677035e",
+      "trajectory_sha256": "b31799f7bd2b3614adf4eac2e6ded65f389d7d3a3fae37013bb8ae9a24798f85",
       "frame_count": 600,
       "passed": true,
       "worst": {
         "time_s": 8.500000000000728,
         "body": "panda_left_finger",
-        "minimum_table_gap_m": 0.005961916180267715,
+        "minimum_table_gap_m": 0.005961916180364658,
         "lowest_vertex_m": [
           -0.2172,
-          -0.04861216385977216,
-          0.029961916180267716
+          -0.048612163859422027,
+          0.02996191618036466
         ]
       }
     }

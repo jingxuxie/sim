@@ -63,12 +63,18 @@
       <geom name="base__Head_focus_guide" type="box" pos="-0.105 0.117 0.37" size="0.058 0.0235 0.0995" class="contact" />
       <geom name="base__sample_x_fixed_sole" type="box" pos="-0.105 -0.02 0.0295" size="0.056 0.051 0.0025" class="contact" />
       <geom name="base__sample_x_actuator_mounting_extension" type="box" pos="-0.171 -0.02 0.03" size="0.012 0.0095 0.0025" class="contact" />
-      <geom name="base__sample_x_actuator_split_clamp" type="box" pos="-0.182 -0.02 0.04" size="0.008 0.0085 0.0075" class="contact" />
+      <geom name="base__sample_x_clamp_side" type="box" pos="-0.182 -0.009425000191 0.04" size="0.009 0.001425 0.0115" class="contact" />
+      <geom name="base__sample_x_clamp_cap" type="box" pos="-0.182 -0.02 0.02967499924" size="0.009 0.00915 0.001175" class="contact" />
+      <geom name="base__sample_x_clamp_side_2" type="box" pos="-0.182 -0.03057500076 0.04" size="0.009 0.001425 0.0115" class="contact" />
+      <geom name="base__sample_x_clamp_cap_2" type="box" pos="-0.182 -0.02 0.05032500076" size="0.009 0.00915 0.001175" class="contact" />
       <geom name="base__Extrusion_beam" type="box" pos="0.15 -0.07 0.042" size="0.069 0.1685 0.018" class="contact" />
       <geom name="base__Rail_carriage" type="box" pos="0.15 0.01 0.071" size="0.084 0.0665 0.0095" class="contact" />
       <geom name="base__stamp_x_fixed_sole" type="box" pos="0.15 -0.02 0.0825" size="0.0625 0.0505 0.0025" class="contact" />
       <geom name="base__stamp_x_actuator_mounting_extension" type="box" pos="0.2225 -0.02 0.084" size="0.012 0.0095 0.0025" class="contact" />
-      <geom name="base__stamp_x_actuator_split_clamp" type="box" pos="0.2335 -0.02 0.094" size="0.008 0.0085 0.0075" class="contact" />
+      <geom name="base__stamp_x_clamp_side" type="box" pos="0.2335 -0.03057500076 0.094" size="0.009 0.001425 0.0115" class="contact" />
+      <geom name="base__stamp_x_clamp_cap" type="box" pos="0.2335 -0.02 0.08367500305" size="0.009 0.00915 0.001175" class="contact" />
+      <geom name="base__stamp_x_clamp_side_2" type="box" pos="0.2335 -0.009425000191 0.094" size="0.009 0.001425 0.0115" class="contact" />
+      <geom name="base__stamp_x_clamp_cap_2" type="box" pos="0.2335 -0.02 0.1043249969" size="0.009 0.00915 0.001175" class="contact" />
       <geom name="base__Fiber-Lite_housing_left" type="box" pos="0.3553200073 0.14 0.063" size="0.03167999268 0.1053999939 0.062" class="contact" />
       <geom name="base__Fiber-Lite_housing_right" type="box" pos="0.4496799927 0.14 0.063" size="0.04667999268 0.1053999939 0.062" class="contact" />
       <geom name="base__Fiber-Lite_housing_lower" type="box" pos="0.395 0.14 0.007125" size="0.008 0.1053999939 0.006125" class="contact" />
@@ -141,7 +147,10 @@
         <geom name="sample_x__sample_x_relieved_carrier_core" type="box" pos="0 0 -0.0008" size="0.0355 0.039 0.0055" class="contact" />
         <geom name="sample_x__sample_y_fixed_sole" type="box" pos="0 0 0.012" size="0.051 0.048 0.0025" class="contact" />
         <geom name="sample_x__sample_y_actuator_mounting_extension" type="box" pos="0 -0.058 0.013" size="0.0095 0.012 0.0025" class="contact" />
-        <geom name="sample_x__sample_y_actuator_split_clamp" type="box" pos="0 -0.069 0.023" size="0.008 0.0085 0.0075" class="contact" />
+        <geom name="sample_x__sample_y_clamp_side" type="box" pos="-0.01057499981 -0.069 0.023" size="0.001425 0.009 0.0115" class="contact" />
+        <geom name="sample_x__sample_y_clamp_cap" type="box" pos="0 -0.069 0.01267500019" size="0.00915 0.009 0.001175" class="contact" />
+        <geom name="sample_x__sample_y_clamp_side_2" type="box" pos="0.01057499981 -0.069 0.023" size="0.001425 0.009 0.0115" class="contact" />
+        <geom name="sample_x__sample_y_clamp_cap_2" type="box" pos="0 -0.069 0.03332500076" size="0.00915 0.009 0.001175" class="contact" />
         <body name="sample_y" pos="0 0 0.023" euler="0 0 0" gravcomp="1">
           <joint name="sample_y_travel" type="slide" axis="0 1 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
@@ -162,6 +171,15 @@
               <joint name="sample_theta_angle" type="hinge" axis="0 0 1" damping="0.035" frictionloss="0.02" range="-3.141592654 3.141592654" solimpfriction=".99999 .999999 .000001 .5 2" />
               <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
               <geom name="sample_theta__481-A_rotating_top" type="cylinder" contype="18" conaffinity="9" pos="0 0 0" size="0.0366 0.0032" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Kinematic_polished_support_ball" type="sphere" contype="18" conaffinity="9" pos="0 0.025 0.0116" size="0.0084" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Kinematic_polished_support_ball_2" type="sphere" contype="18" conaffinity="9" pos="0.02165063509 -0.0125 0.0116" size="0.0084" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Kinematic_polished_support_ball_3" type="sphere" contype="18" conaffinity="9" pos="-0.02165063509 -0.0125 0.0116" size="0.0084" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Kinematic_preload_rod_contact" type="cylinder" contype="18" conaffinity="9" pos="0.0265 0.015 0.0186" size="0.0028 0.0154" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Preload_knurled_socket_head" type="cylinder" contype="18" conaffinity="9" pos="0.0265 0.015 0.0377" size="0.0048 0.003" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Kinematic_preload_rod_contact_2" type="cylinder" contype="18" conaffinity="9" pos="-0.0265 0.015 0.0186" size="0.0028 0.0154" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Preload_knurled_socket_head_2" type="cylinder" contype="18" conaffinity="9" pos="-0.0265 0.015 0.0377" size="0.0048 0.003" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Kinematic_preload_rod_contact_3" type="cylinder" contype="18" conaffinity="9" pos="0 -0.025 0.0186" size="0.0028 0.0154" zaxis="0 0 1" class="contact" />
+              <geom name="sample_theta__Preload_knurled_socket_head_3" type="cylinder" contype="18" conaffinity="9" pos="0 -0.025 0.0377" size="0.0048 0.003" zaxis="0 0 1" class="contact" />
               <geom name="sample_theta__Heater_support" type="box" contype="18" conaffinity="9" pos="0 0 0.027" size="0.033 0.029 0.007" class="contact" />
               <geom name="sample_theta__Heated_workholder" type="box" contype="18" conaffinity="9" pos="0 0 0.041" size="0.0215 0.0195 0.007" class="contact" />
               <geom name="sample_theta__device_chip" type="box" contype="18" conaffinity="9" pos="0 0 0.049" size="0.005 0.005 0.00025" class="contact" />
@@ -216,7 +234,10 @@
         <geom name="stamp_x__stamp_x_relieved_carrier_core" type="box" pos="0 0 -0.0008" size="0.042 0.0385 0.0055" class="contact" />
         <geom name="stamp_x__stamp_y_fixed_sole" type="box" pos="0 0 0.016" size="0.0555 0.0475 0.0025" class="contact" />
         <geom name="stamp_x__stamp_y_actuator_mounting_extension" type="box" pos="0 -0.0575 0.017" size="0.0095 0.012 0.0025" class="contact" />
-        <geom name="stamp_x__stamp_y_actuator_split_clamp" type="box" pos="0 -0.0685 0.027" size="0.008 0.0085 0.0075" class="contact" />
+        <geom name="stamp_x__stamp_y_clamp_side" type="box" pos="-0.01057499981 -0.0685 0.027" size="0.001425 0.009 0.0115" class="contact" />
+        <geom name="stamp_x__stamp_y_clamp_cap" type="box" pos="0 -0.0685 0.01667499924" size="0.00915 0.009 0.001175" class="contact" />
+        <geom name="stamp_x__stamp_y_clamp_side_2" type="box" pos="0.01057499981 -0.0685 0.027" size="0.001425 0.009 0.0115" class="contact" />
+        <geom name="stamp_x__stamp_y_clamp_cap_2" type="box" pos="0 -0.0685 0.03732500076" size="0.00915 0.009 0.001175" class="contact" />
         <body name="stamp_y" pos="0 0 0.027" euler="0 0 0" gravcomp="1">
           <joint name="stamp_y_travel" type="slide" axis="0 1 0" damping="10" frictionloss="0.5" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
           <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
@@ -225,16 +246,20 @@
           <geom name="stamp_y__stamp_z_fixed_lower_crossmember" type="box" pos="0 0 0.017" size="0.0525 0.0445 0.004" class="contact" />
           <geom name="stamp_y__stamp_z_upright_guide_column" type="box" pos="-0.0445 0.008 0.031" size="0.006 0.0345 0.0115" class="contact" />
           <geom name="stamp_y__stamp_z_upright_guide_column_2" type="box" pos="0.0445 0.008 0.031" size="0.006 0.0345 0.0115" class="contact" />
-          <geom name="stamp_y__stamp_z_actuator_mounting_extension" type="box" pos="-0.0625 -0.073 0.016" size="0.0155 0.024 0.004" class="contact" />
-          <geom name="stamp_y__stamp_z_actuator_mounting_attachment" type="box" pos="-0.045 -0.0455 0.016" size="0.007 0.0135 0.004" class="contact" />
-          <geom name="stamp_y__stamp_z_fixed_actuator_bracket_upright" type="box" pos="-0.0625 -0.09 0.04275" size="0.012 0.005 0.03075" class="contact" />
-          <geom name="stamp_y__stamp_z_fixed_actuator_bracket_head" type="box" pos="-0.0625 -0.081 0.0695" size="0.012 0.015 0.004" class="contact" />
+          <geom name="stamp_y__stamp_z_actuator_mounting_extension" type="box" pos="-0.054 -0.0585 0.016" size="0.019 0.006 0.003" class="contact" />
+          <geom name="stamp_y__stamp_z_actuator_mounting_attachment" type="box" pos="-0.042 -0.042 0.016" size="0.007 0.0165 0.003" class="contact" />
+          <geom name="stamp_y__stamp_z_lift_actuator_clamp_outer" type="cylinder" pos="-0.073 -0.0585 0.019" size="0.012 0.007" zaxis="0 0 1" class="contact" />
           <body name="stamp_z" pos="0 0 0.051" euler="0 0 0" gravcomp="1">
             <joint name="stamp_z_travel" type="slide" axis="0 0 1" damping="10" frictionloss="0.5" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.35" pos="0 0 0" diaginertia="0.00042875 0.00042875 0.00042875" />
             <geom name="stamp_z__stamp_z_drilled_lift_table" type="box" pos="0 0 0.012" size="0.0525 0.0445 0.004" class="contact" />
             <geom name="stamp_z__stamp_z_internal_lift_carrier" type="box" pos="0 0 -0.003" size="0.037 0.0285 0.011" class="contact" />
-            <geom name="stamp_z__stamp_z_spindle_reaction_tab" type="box" pos="-0.0625 -0.0505 -0.008" size="0.013 0.019 0.0035" class="contact" />
+            <geom name="stamp_z__stamp_z_reaction_foot_side" type="box" pos="-0.081 -0.0585 -0.06" size="0.004 0.008 0.006" class="contact" />
+            <geom name="stamp_z__stamp_z_reaction_foot_side_2" type="box" pos="-0.065 -0.0585 -0.06" size="0.004 0.008 0.006" class="contact" />
+            <geom name="stamp_z__stamp_z_reaction_foot_top" type="box" pos="-0.073 -0.0585 -0.05525" size="0.004 0.008 0.00125" class="contact" />
+            <geom name="stamp_z__stamp_z_reaction_foot_bottom" type="box" pos="-0.073 -0.0585 -0.06525" size="0.004 0.008 0.00075" class="contact" />
+            <geom name="stamp_z__stamp_z_reaction_foot_arm" type="box" pos="-0.073 -0.041 -0.05525" size="0.009 0.008 0.00125" class="contact" />
+            <geom name="stamp_z__stamp_z_reaction_side_strap" type="box" pos="-0.073 -0.036 -0.044" size="0.008 0.005 0.02" class="contact" />
             <geom name="stamp_z__Vertical_face_plate" type="box" pos="-0.06 0 0.011" size="0.007 0.045 0.047" class="contact" />
             <geom name="stamp_z__GON40-L_fixed_block" type="box" pos="-0.0725 0 0.01" size="0.0075 0.02 0.02" class="contact" />
             <geom name="stamp_z__Goniometer_actuator_mounting_pad" type="box" pos="-0.0725 0 0.0325" size="0.005 0.009 0.0025" class="contact" />
@@ -258,13 +283,14 @@
               </body>
             </body>
           </body>
-          <body name="stamp_z_spindle" pos="-0.0625 -0.0585 0.0825" euler="0 0 0">
+          <body name="stamp_z_spindle" pos="-0.073 -0.0585 0.027" euler="0 0 0">
             <joint name="stamp_z_spindle_travel" type="slide" axis="0 0 1" damping="0.03" frictionloss="0.001" range="-0.0125 0.0125" solimpfriction=".99999 .999999 .000001 .5 2" />
             <inertial mass="0.012" pos="0 0 0" diaginertia="1e-07 1e-07 1e-07" />
+            <geom name="stamp_z_spindle__stamp_z_spindle_contact" type="cylinder" pos="0 0 0" size="0.003 0.03" zaxis="0 0 1" class="contact" />
             <body name="stamp_z_knob" pos="0 0 0.034" euler="0 0 0">
               <joint name="stamp_z_angle" type="hinge" axis="0 0 1" damping="1e-05" frictionloss="0.00015" range="-157.0796327 157.0796327" solimpfriction=".99999 .999999 .000001 .5 2" />
               <inertial mass="0.024" pos="0 0 0" diaginertia="1e-06 1e-06 1e-06" />
-              <geom name="stamp_z_knob__stamp_z_grip" type="cylinder" pos="0 0 0.0035" size="0.00815 0.0155" zaxis="0 0 1" class="contact" />
+              <geom name="stamp_z_knob__stamp_z_grip" type="cylinder" pos="0 0 0" size="0.0115 0.004" zaxis="0 0 1" class="contact" />
               <site name="stamp_z_grip_site" pos="0 0 0" size=".0006" group="4" rgba=".1 .8 .4 1" />
             </body>
           </body>

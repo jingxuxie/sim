@@ -1,15 +1,15 @@
 {
   "portable_passed": true,
   "all_metrics_identical": true,
-  "native_summary_sha256": "37b27f33320fbe42cc21495f290edd0186a839bb6db0bfcb18c5e83b98be3124",
-  "portable_summary_sha256": "67034f3db429df58e693cdc286687847294708800ba46cadadc3e3935edbacb8",
-  "package_sha256": "dfdda8bd42852a8c37bb6b992ab3ab356c030ca8ab3b334942ec4c6d569d35b4",
+  "native_summary_sha256": "5ca5e8e8e3058555e1d4cce0ba5c0ec721632625feec6d2c657052241817959a",
+  "portable_summary_sha256": "059d8ae724fa4ef4acfedceeafc5bac885b7ee15bc8cbbc03fd2bd2da9ba8ecb",
+  "package_sha256": "4192758d132280d5a7b193ededd5d059750a6db7e7e49e890119e45433977117",
   "comparisons": [
     {
       "mode": "contact",
       "seed": 0,
-      "native_report_sha256": "a48aeb6a278d8f529835b060dd570c276f5197abae0eb2204e03cbb193b803af",
-      "portable_report_sha256": "e2e5d36d5bfa48bfca7801f482018cce3f956c6887b03dbfd98a0314ace5c1ec",
+      "native_report_sha256": "9320b39a24ef895ea9901169048d6349ea4a0b5ed628bffec71b96a1413b49c4",
+      "portable_report_sha256": "2c39882de2ff071e360f7deb6429a812d6ed99e0773356f0ea24bbe1b4437b01",
       "compared_fields": [
         "bilateral_contact_steps",
         "duration_s",
@@ -58,8 +58,8 @@
     {
       "mode": "contacts_disabled",
       "seed": 0,
-      "native_report_sha256": "cc1ff3639df9c3c86016205bd6a626f38607f672f8b7c79153cfde9262269140",
-      "portable_report_sha256": "4221c7be52f7d8efdb10573f3b31d3827a6e65a4210b6fc2c87cf9975c6c798d",
+      "native_report_sha256": "e8b31c4bd92cb4373ad98a4f1f6fc3082af488ac02a083efa987929e6b761621",
+      "portable_report_sha256": "783468795d65194d27c7cf50b9584737391607efe8300c7b28dceedfedf63513",
       "compared_fields": [
         "bilateral_contact_steps",
         "duration_s",
@@ -108,8 +108,8 @@
     {
       "mode": "missed_grasp",
       "seed": 0,
-      "native_report_sha256": "6535ebaad265d9324bcb4f0cde3d24494ef511a7b7596c01d4a85b2cfcf9355d",
-      "portable_report_sha256": "2a09570f1b336b1181499abf0e68fe490fca39697fdf9a530b0dd5a8b030e709",
+      "native_report_sha256": "a275bac3679520fb9ae250b770573e0eb9c2d62e70c24a1192fc22572d4824e6",
+      "portable_report_sha256": "58a3d8d09f4d3a9f50a0d11e78c2fcbf67091aa51440c72620916d4fb1578ba1",
       "compared_fields": [
         "bilateral_contact_steps",
         "duration_s",
@@ -158,8 +158,8 @@
     {
       "mode": "no_turn",
       "seed": 0,
-      "native_report_sha256": "21b16457f6096798099b520a1a32bd28b3efe406466d0e6c3aad89bca93cc347",
-      "portable_report_sha256": "019d698c6d0af8a96672e19b7bfa6ef2516a7f862fe9a31d38a9ad3f8e8f2dc4",
+      "native_report_sha256": "47e154d99c487f1829df171aef3cd6c0f756b16839e1c98aea1c307d245d1b30",
+      "portable_report_sha256": "e1ccbe51917137ab3db996ac42c51746dec928f1a2ee46accccdaf7cbc11a8bc",
       "compared_fields": [
         "bilateral_contact_steps",
         "duration_s",

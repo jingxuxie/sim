@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "69336dc1f74d6e2ac313f280bf9aca1bc22ac7091ce3aa5d6f1d9d1795cd952a",
+  "physics_sha256": "f3f675f0b935c99edc3ffc75fe50659b8b0da48cb540b716da8ccf3ac1c8815e",
   "shapes": [
     {
       "name": "base__Optical_breadboard",
@@ -178,12 +178,12 @@
       "condim": 4
     },
     {
-      "name": "base__sample_x_actuator_split_clamp",
+      "name": "base__sample_x_clamp_side",
       "body": "base",
       "type": "box",
       "pos": [
         -0.182,
-        -0.02,
+        -0.009425000191,
         0.04
       ],
       "quat": [
@@ -193,9 +193,96 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.0085,
-        0.0075
+        0.009,
+        0.001425,
+        0.0115
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__sample_x_clamp_cap",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.182,
+        -0.02,
+        0.02967499924
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.009,
+        0.00915,
+        0.001175
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__sample_x_clamp_side_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.182,
+        -0.03057500076,
+        0.04
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.009,
+        0.001425,
+        0.0115
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__sample_x_clamp_cap_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.182,
+        -0.02,
+        0.05032500076
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.009,
+        0.00915,
+        0.001175
       ],
       "friction": [
         0.8,
@@ -323,12 +410,12 @@
       "condim": 4
     },
     {
-      "name": "base__stamp_x_actuator_split_clamp",
+      "name": "base__stamp_x_clamp_side",
       "body": "base",
       "type": "box",
       "pos": [
         0.2335,
-        -0.02,
+        -0.03057500076,
         0.094
       ],
       "quat": [
@@ -338,9 +425,96 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.0085,
-        0.0075
+        0.009,
+        0.001425,
+        0.0115
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__stamp_x_clamp_cap",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.2335,
+        -0.02,
+        0.08367500305
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.009,
+        0.00915,
+        0.001175
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__stamp_x_clamp_side_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.2335,
+        -0.009425000191,
+        0.094
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.009,
+        0.001425,
+        0.0115
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__stamp_x_clamp_cap_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.2335,
+        -0.02,
+        0.1043249969
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.009,
+        0.00915,
+        0.001175
       ],
       "friction": [
         0.8,
@@ -1512,11 +1686,11 @@
       "condim": 4
     },
     {
-      "name": "sample_x__sample_y_actuator_split_clamp",
+      "name": "sample_x__sample_y_clamp_side",
       "body": "sample_x",
       "type": "box",
       "pos": [
-        0.0,
+        -0.01057499981,
         -0.069,
         0.023
       ],
@@ -1527,9 +1701,96 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.0085,
-        0.0075
+        0.001425,
+        0.009,
+        0.0115
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_x__sample_y_clamp_cap",
+      "body": "sample_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.069,
+        0.01267500019
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00915,
+        0.009,
+        0.001175
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_x__sample_y_clamp_side_2",
+      "body": "sample_x",
+      "type": "box",
+      "pos": [
+        0.01057499981,
+        -0.069,
+        0.023
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.001425,
+        0.009,
+        0.0115
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "sample_x__sample_y_clamp_cap_2",
+      "body": "sample_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.069,
+        0.03332500076
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00915,
+        0.009,
+        0.001175
       ],
       "friction": [
         0.8,
@@ -1703,6 +1964,267 @@
       "size": [
         0.0366,
         0.0032,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Kinematic_polished_support_ball",
+      "body": "sample_theta",
+      "type": "sphere",
+      "pos": [
+        0.0,
+        0.025,
+        0.0116
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0084,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Kinematic_polished_support_ball_2",
+      "body": "sample_theta",
+      "type": "sphere",
+      "pos": [
+        0.02165063509,
+        -0.0125,
+        0.0116
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0084,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Kinematic_polished_support_ball_3",
+      "body": "sample_theta",
+      "type": "sphere",
+      "pos": [
+        -0.02165063509,
+        -0.0125,
+        0.0116
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0084,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Kinematic_preload_rod_contact",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        0.0265,
+        0.015,
+        0.0186
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0028,
+        0.0154,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Preload_knurled_socket_head",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        0.0265,
+        0.015,
+        0.0377
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0048,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Kinematic_preload_rod_contact_2",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        -0.0265,
+        0.015,
+        0.0186
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0028,
+        0.0154,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Preload_knurled_socket_head_2",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        -0.0265,
+        0.015,
+        0.0377
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0048,
+        0.003,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Kinematic_preload_rod_contact_3",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.025,
+        0.0186
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0028,
+        0.0154,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 18,
+      "conaffinity": 9,
+      "condim": 4
+    },
+    {
+      "name": "sample_theta__Preload_knurled_socket_head_3",
+      "body": "sample_theta",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        -0.025,
+        0.0377
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0048,
+        0.003,
         0.0
       ],
       "friction": [
@@ -2179,11 +2701,11 @@
       "condim": 4
     },
     {
-      "name": "stamp_x__stamp_y_actuator_split_clamp",
+      "name": "stamp_x__stamp_y_clamp_side",
       "body": "stamp_x",
       "type": "box",
       "pos": [
-        0.0,
+        -0.01057499981,
         -0.0685,
         0.027
       ],
@@ -2194,9 +2716,96 @@
         0.0
       ],
       "size": [
-        0.008,
-        0.0085,
-        0.0075
+        0.001425,
+        0.009,
+        0.0115
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_x__stamp_y_clamp_cap",
+      "body": "stamp_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.0685,
+        0.01667499924
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00915,
+        0.009,
+        0.001175
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_x__stamp_y_clamp_side_2",
+      "body": "stamp_x",
+      "type": "box",
+      "pos": [
+        0.01057499981,
+        -0.0685,
+        0.027
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.001425,
+        0.009,
+        0.0115
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_x__stamp_y_clamp_cap_2",
+      "body": "stamp_x",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.0685,
+        0.03732500076
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00915,
+        0.009,
+        0.001175
       ],
       "friction": [
         0.8,
@@ -2357,8 +2966,8 @@
       "body": "stamp_y",
       "type": "box",
       "pos": [
-        -0.0625,
-        -0.073,
+        -0.054,
+        -0.0585,
         0.016
       ],
       "quat": [
@@ -2368,9 +2977,9 @@
         0.0
       ],
       "size": [
-        0.0155,
-        0.024,
-        0.004
+        0.019,
+        0.006,
+        0.003
       ],
       "friction": [
         0.8,
@@ -2386,8 +2995,8 @@
       "body": "stamp_y",
       "type": "box",
       "pos": [
-        -0.045,
-        -0.0455,
+        -0.042,
+        -0.042,
         0.016
       ],
       "quat": [
@@ -2398,8 +3007,8 @@
       ],
       "size": [
         0.007,
-        0.0135,
-        0.004
+        0.0165,
+        0.003
       ],
       "friction": [
         0.8,
@@ -2411,13 +3020,13 @@
       "condim": 4
     },
     {
-      "name": "stamp_y__stamp_z_fixed_actuator_bracket_upright",
+      "name": "stamp_y__stamp_z_lift_actuator_clamp_outer",
       "body": "stamp_y",
-      "type": "box",
+      "type": "cylinder",
       "pos": [
-        -0.0625,
-        -0.09,
-        0.04275
+        -0.073,
+        -0.0585,
+        0.019
       ],
       "quat": [
         1.0,
@@ -2427,37 +3036,8 @@
       ],
       "size": [
         0.012,
-        0.005,
-        0.03075
-      ],
-      "friction": [
-        0.8,
-        0.002,
-        0.0001
-      ],
-      "contype": 2,
-      "conaffinity": 1,
-      "condim": 4
-    },
-    {
-      "name": "stamp_y__stamp_z_fixed_actuator_bracket_head",
-      "body": "stamp_y",
-      "type": "box",
-      "pos": [
-        -0.0625,
-        -0.081,
-        0.0695
-      ],
-      "quat": [
-        1.0,
-        0.0,
-        0.0,
+        0.007,
         0.0
-      ],
-      "size": [
-        0.012,
-        0.015,
-        0.004
       ],
       "friction": [
         0.8,
@@ -2527,13 +3107,13 @@
       "condim": 4
     },
     {
-      "name": "stamp_z__stamp_z_spindle_reaction_tab",
+      "name": "stamp_z__stamp_z_reaction_foot_side",
       "body": "stamp_z",
       "type": "box",
       "pos": [
-        -0.0625,
-        -0.0505,
-        -0.008
+        -0.081,
+        -0.0585,
+        -0.06
       ],
       "quat": [
         1.0,
@@ -2542,9 +3122,154 @@
         0.0
       ],
       "size": [
-        0.013,
-        0.019,
-        0.0035
+        0.004,
+        0.008,
+        0.006
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_z__stamp_z_reaction_foot_side_2",
+      "body": "stamp_z",
+      "type": "box",
+      "pos": [
+        -0.065,
+        -0.0585,
+        -0.06
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.004,
+        0.008,
+        0.006
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_z__stamp_z_reaction_foot_top",
+      "body": "stamp_z",
+      "type": "box",
+      "pos": [
+        -0.073,
+        -0.0585,
+        -0.05525
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.004,
+        0.008,
+        0.00125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_z__stamp_z_reaction_foot_bottom",
+      "body": "stamp_z",
+      "type": "box",
+      "pos": [
+        -0.073,
+        -0.0585,
+        -0.06525
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.004,
+        0.008,
+        0.00075
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_z__stamp_z_reaction_foot_arm",
+      "body": "stamp_z",
+      "type": "box",
+      "pos": [
+        -0.073,
+        -0.041,
+        -0.05525
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.009,
+        0.008,
+        0.00125
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_z__stamp_z_reaction_side_strap",
+      "body": "stamp_z",
+      "type": "box",
+      "pos": [
+        -0.073,
+        -0.036,
+        -0.044
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.008,
+        0.005,
+        0.02
       ],
       "friction": [
         0.8,
@@ -2788,13 +3513,13 @@
       "condim": 4
     },
     {
-      "name": "stamp_z_knob__stamp_z_grip",
-      "body": "stamp_z_knob",
+      "name": "stamp_z_spindle__stamp_z_spindle_contact",
+      "body": "stamp_z_spindle",
       "type": "cylinder",
       "pos": [
         0.0,
         0.0,
-        0.0035
+        0.0
       ],
       "quat": [
         1.0,
@@ -2803,8 +3528,37 @@
         0.0
       ],
       "size": [
-        0.00815,
-        0.0155,
+        0.003,
+        0.03,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "stamp_z_knob__stamp_z_grip",
+      "body": "stamp_z_knob",
+      "type": "cylinder",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0115,
+        0.004,
         0.0
       ],
       "friction": [
@@ -3240,6 +3994,26 @@
         1e-06,
         1e-06,
         1e-06
+      ],
+      "inertia_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchored_to_world": false
+    },
+    "stamp_z_spindle": {
+      "mass_kg": 0.012,
+      "diagonal_inertia_kg_m2": [
+        1e-07,
+        1e-07,
+        1e-07
       ],
       "inertia_position": [
         0.0,

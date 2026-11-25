@@ -1,0 +1,122 @@
+{
+  "revision": "reference5",
+  "asset": "transfer",
+  "changed": true,
+  "passed": true,
+  "frozen": true,
+  "photo_ids": [
+    "transfer_stage_227",
+    "transfer_stage_231",
+    "transfer_stage_236"
+  ],
+  "video": null,
+  "findings": [
+    {
+      "photo_ids": [
+        227,
+        236
+      ],
+      "finding": "The front vertical adjustment is a compact upward-facing scalloped knob, exposed shaft and brass split collar in a cylindrical mount, with a separate bored cylindrical lower foot. The clearance1 tall graduated micrometer and raised rectangular bracket do not reproduce this construction.",
+      "plan": "Reconstruct the compact drive and genuine bored foot, preserving positive full-stroke clearance and the screw coupling."
+    },
+    {
+      "photo_ids": [
+        227,
+        236
+      ],
+      "finding": "Horizontal micrometers use split clamp blocks with actual transverse bores. The current mounting clamp is a solid box visually covering the collar.",
+      "plan": "Machine the visible bore and split without changing the sample-X grip position or its 1 mm table clearance."
+    },
+    {
+      "photo_ids": [
+        231
+      ],
+      "finding": "Photo231 shows balls seated between the rotary top and the workholder, with separate threaded preload rods. The old model had a 6.8 mm gap below each ball and rods through the ball centers.",
+      "plan": "Balls now tangent to the unchanged top/support planes; separate rods and socket heads occupy the photographed surrounding plate. Heater/sample positions and service routes stay fixed."
+    },
+    {
+      "photo_ids": [
+        231
+      ],
+      "finding": "Refreshing the hose audit exposed a previous route/handwheel interference at sample-X -12.5 mm and sample-Y +12.5 mm. Every offending surface was the unchanged sample-Y black handwheel.",
+      "implemented": "The fixed vacuum-routing knee is raised six mm; service endpoints and all instrument/robot target sites stay fixed. The route is a reconstructed safe service envelope, not a measured flexible-cable dynamics model."
+    }
+  ],
+  "changes": [
+    "Replaced tall graduated Z micrometer/bracket with photographed shallow scalloped hand knob, exposed shaft, brass collar, cylindrical mount and genuinely bored lower thrust foot.",
+    "Drilled the four horizontal clamp bores and replaced their solid-box contact proxies with compound open-center supports.",
+    "Seated the three kinematic balls between the rotary top and heater support; separate preload rods and socket heads replace rods through floating ball centers.",
+    "Raised one vacuum-service routing knee by 6 mm to clear the sample-Y handwheel at the XY travel corner. Endpoints and instrument targets remain fixed."
+  ],
+  "builder_hashes": {
+    "001_transfer_stage/build.py": "a3f030d17b973e9d62ef17247b70b11f533f311f4f5f86283e744c1f5f47974d",
+    "001_transfer_stage/geometry_revision4.py": "da0ff028c63075334defabbb700178ad7e8d3e29e4326248748eb7e9346bf50f"
+  },
+  "model_hashes": {
+    "001_transfer_stage/transfer_station.blend": "31d20bd5a4662cb331a6521fccb15e1dcbdefcb05a63bf2195315ed4adb75367",
+    "001_transfer_stage/transfer_station.xml": "88f11e5c08bba05e1c025cdf0b544a386fcfdf592636eeeb98665177b45a7278",
+    "001_transfer_stage/asset.json": "faa88bc3a8bbc7888954f851f60c67c21d75c157f5616a95890ed7022949d9aa",
+    "001_transfer_stage/assets/transfer_station.glb": "6ca3a29255acd2e75ce8b7776b39c1b3e3c9228041c83528e3d41e1770ea124d",
+    "001_transfer_stage/assets/meshes.json": "cb6917a55482bc4f33ac58353771b4dcdec43250c621fd0d5e515066be40ef7e"
+  },
+  "targeted_checks": [
+    {
+      "path": "validation/reference5/transfer/clearances.json",
+      "sha256": "b1c547fb8d797a1ae9cb272379942aee8ca18b3e2bfda2761c40685f3db1d848",
+      "passed": true
+    },
+    {
+      "path": "validation/reference5/transfer/construction.json",
+      "sha256": "c6f7656ffa8eb81308ce464feea3c459fe2bf1558571bafb1ff013412fe2683a",
+      "passed": true
+    },
+    {
+      "path": "validation/reference5/transfer/focus_contact.json",
+      "sha256": "b31bdf5bf19661a50c6dc077d152a468787b899b4295399c3c6e683f4e398a09",
+      "passed": true
+    },
+    {
+      "path": "validation/reference5/transfer/mechanisms.json",
+      "sha256": "0f6cb112e2e95e6de02ca391403dd75b07be8abb22171a8a83f28a28b403ecf3",
+      "passed": true
+    },
+    {
+      "path": "validation/reference5/transfer/hoses.json",
+      "sha256": "6677bee26b9ad46210de217e5aa9a1d30d42a0700e5e1eacc766a5afce85c2f2",
+      "passed": true
+    }
+  ],
+  "current_artifacts_sha256": {
+    "001_transfer_stage/build.py": "a3f030d17b973e9d62ef17247b70b11f533f311f4f5f86283e744c1f5f47974d",
+    "001_transfer_stage/geometry_revision4.py": "da0ff028c63075334defabbb700178ad7e8d3e29e4326248748eb7e9346bf50f",
+    "001_transfer_stage/transfer_station.blend": "31d20bd5a4662cb331a6521fccb15e1dcbdefcb05a63bf2195315ed4adb75367",
+    "001_transfer_stage/transfer_station.xml": "88f11e5c08bba05e1c025cdf0b544a386fcfdf592636eeeb98665177b45a7278",
+    "001_transfer_stage/asset.json": "faa88bc3a8bbc7888954f851f60c67c21d75c157f5616a95890ed7022949d9aa",
+    "001_transfer_stage/assets/transfer_station.glb": "6ca3a29255acd2e75ce8b7776b39c1b3e3c9228041c83528e3d41e1770ea124d",
+    "001_transfer_stage/assets/meshes.json": "cb6917a55482bc4f33ac58353771b4dcdec43250c621fd0d5e515066be40ef7e"
+  },
+  "evidence_sha256": {
+    "validation/reference5/transfer/clearances.json": "b1c547fb8d797a1ae9cb272379942aee8ca18b3e2bfda2761c40685f3db1d848",
+    "validation/reference5/transfer/construction.json": "c6f7656ffa8eb81308ce464feea3c459fe2bf1558571bafb1ff013412fe2683a",
+    "validation/reference5/transfer/focus_contact.json": "b31bdf5bf19661a50c6dc077d152a468787b899b4295399c3c6e683f4e398a09",
+    "validation/reference5/transfer/mechanisms.json": "0f6cb112e2e95e6de02ca391403dd75b07be8abb22171a8a83f28a28b403ecf3",
+    "validation/reference5/transfer/hoses.json": "6677bee26b9ad46210de217e5aa9a1d30d42a0700e5e1eacc766a5afce85c2f2"
+  },
+  "promoted_render_report": "001_transfer_stage/previews/reference5_render_report.json",
+  "promoted_render_report_sha256": "6f3aea4d153968823825056ca9046c518bd826f093347b4de94916b251555b35",
+  "render_count": 9,
+  "metrics": {
+    "sample_x_wheel_table_clearance_mm": 0.9999996836144929,
+    "compact_support_full_xyz_clearance_mm": 2.499997615814209,
+    "hose_pose_count": 567,
+    "hose_minimum_clearance_mm": 0.6655979454517363,
+    "maximum_hose_attachment_error_m": 2.7709781279436945e-08
+  },
+  "limitations": [
+    "Unmarked mount dimensions and 0.5 mm screw pitch remain photo-derived estimates.",
+    "The compact Z drive is an equivalent thrust-screw mechanism; concealed factory internals are not identified.",
+    "Service loops deform visually and are not flexible MuJoCo contact bodies.",
+    "The service pose grid is sampled, with stamp assembly at its rest/retracted configuration; it is not an all-pairs continuous configuration-space proof."
+  ],
+  "private_reference_policy": "Raw laboratory photos and decoded video frames remain local; only rendered model previews are promoted."
+}

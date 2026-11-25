@@ -1,0 +1,386 @@
+[
+  {
+    "link": "base",
+    "material": "black",
+    "file": "base__black.obj",
+    "triangles": 42768
+  },
+  {
+    "link": "base",
+    "material": "brushed",
+    "file": "base__brushed.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "cyan",
+    "file": "base__cyan.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "darkmetal",
+    "file": "base__darkmetal.obj",
+    "triangles": 4532
+  },
+  {
+    "link": "base",
+    "material": "glass",
+    "file": "base__glass.obj",
+    "triangles": 1920
+  },
+  {
+    "link": "base",
+    "material": "graphite",
+    "file": "base__graphite.obj",
+    "triangles": 1956
+  },
+  {
+    "link": "base",
+    "material": "green",
+    "file": "base__green.obj",
+    "triangles": 428
+  },
+  {
+    "link": "base",
+    "material": "ink",
+    "file": "base__ink.obj",
+    "triangles": 24840
+  },
+  {
+    "link": "base",
+    "material": "ivory",
+    "file": "base__ivory.obj",
+    "triangles": 51344
+  },
+  {
+    "link": "base",
+    "material": "optic",
+    "file": "base__optic.obj",
+    "triangles": 5840
+  },
+  {
+    "link": "base",
+    "material": "paper",
+    "file": "base__paper.obj",
+    "triangles": 65420
+  },
+  {
+    "link": "base",
+    "material": "rubber",
+    "file": "base__rubber.obj",
+    "triangles": 12012
+  },
+  {
+    "link": "base",
+    "material": "steel",
+    "file": "base__steel.obj",
+    "triangles": 30240
+  },
+  {
+    "link": "base",
+    "material": "wire",
+    "file": "base__wire.obj",
+    "triangles": 3152
+  },
+  {
+    "link": "focus",
+    "material": "black",
+    "file": "focus__black.obj",
+    "triangles": 4472
+  },
+  {
+    "link": "focus",
+    "material": "bronze",
+    "file": "focus__bronze.obj",
+    "triangles": 1528
+  },
+  {
+    "link": "focus",
+    "material": "brushed",
+    "file": "focus__brushed.obj",
+    "triangles": 764
+  },
+  {
+    "link": "focus",
+    "material": "graphite",
+    "file": "focus__graphite.obj",
+    "triangles": 428
+  },
+  {
+    "link": "focus",
+    "material": "ink",
+    "file": "focus__ink.obj",
+    "triangles": 160
+  },
+  {
+    "link": "focus",
+    "material": "ivory",
+    "file": "focus__ivory.obj",
+    "triangles": 7736
+  },
+  {
+    "link": "focus",
+    "material": "optic",
+    "file": "focus__optic.obj",
+    "triangles": 764
+  },
+  {
+    "link": "focus",
+    "material": "paper",
+    "file": "focus__paper.obj",
+    "triangles": 884
+  },
+  {
+    "link": "focus",
+    "material": "steel",
+    "file": "focus__steel.obj",
+    "triangles": 14204
+  },
+  {
+    "link": "focus_wheel",
+    "material": "black",
+    "file": "focus_wheel__black.obj",
+    "triangles": 7920
+  },
+  {
+    "link": "focus_wheel",
+    "material": "etched",
+    "file": "focus_wheel__etched.obj",
+    "triangles": 17120
+  },
+  {
+    "link": "focus_wheel",
+    "material": "graphite",
+    "file": "focus_wheel__graphite.obj",
+    "triangles": 764
+  },
+  {
+    "link": "focus_wheel",
+    "material": "ink",
+    "file": "focus_wheel__ink.obj",
+    "triangles": 89584
+  },
+  {
+    "link": "focus_wheel",
+    "material": "paper",
+    "file": "focus_wheel__paper.obj",
+    "triangles": 1536
+  },
+  {
+    "link": "light_path_selector",
+    "material": "black",
+    "file": "light_path_selector__black.obj",
+    "triangles": 764
+  },
+  {
+    "link": "light_path_selector",
+    "material": "steel",
+    "file": "light_path_selector__steel.obj",
+    "triangles": 1912
+  },
+  {
+    "link": "stage_x",
+    "material": "black",
+    "file": "stage_x__black.obj",
+    "triangles": 5124
+  },
+  {
+    "link": "stage_x",
+    "material": "brushed",
+    "file": "stage_x__brushed.obj",
+    "triangles": 428
+  },
+  {
+    "link": "stage_x",
+    "material": "glass",
+    "file": "stage_x__glass.obj",
+    "triangles": 428
+  },
+  {
+    "link": "stage_x",
+    "material": "gold",
+    "file": "stage_x__gold.obj",
+    "triangles": 5280
+  },
+  {
+    "link": "stage_x",
+    "material": "graphite",
+    "file": "stage_x__graphite.obj",
+    "triangles": 856
+  },
+  {
+    "link": "stage_x",
+    "material": "ink",
+    "file": "stage_x__ink.obj",
+    "triangles": 40
+  },
+  {
+    "link": "stage_x",
+    "material": "paper",
+    "file": "stage_x__paper.obj",
+    "triangles": 3072
+  },
+  {
+    "link": "stage_x",
+    "material": "steel",
+    "file": "stage_x__steel.obj",
+    "triangles": 8768
+  },
+  {
+    "link": "stage_x",
+    "material": "violet",
+    "file": "stage_x__violet.obj",
+    "triangles": 428
+  },
+  {
+    "link": "stage_x",
+    "material": "wafer",
+    "file": "stage_x__wafer.obj",
+    "triangles": 428
+  },
+  {
+    "link": "stage_x_knob",
+    "material": "black",
+    "file": "stage_x_knob__black.obj",
+    "triangles": 2808
+  },
+  {
+    "link": "stage_x_knob",
+    "material": "etched",
+    "file": "stage_x_knob__etched.obj",
+    "triangles": 17120
+  },
+  {
+    "link": "stage_x_knob",
+    "material": "graphite",
+    "file": "stage_x_knob__graphite.obj",
+    "triangles": 764
+  },
+  {
+    "link": "stage_x_knob",
+    "material": "paper",
+    "file": "stage_x_knob__paper.obj",
+    "triangles": 44
+  },
+  {
+    "link": "stage_y",
+    "material": "black",
+    "file": "stage_y__black.obj",
+    "triangles": 856
+  },
+  {
+    "link": "stage_y",
+    "material": "brushed",
+    "file": "stage_y__brushed.obj",
+    "triangles": 1620
+  },
+  {
+    "link": "stage_y",
+    "material": "graphite",
+    "file": "stage_y__graphite.obj",
+    "triangles": 3840
+  },
+  {
+    "link": "stage_y",
+    "material": "ink",
+    "file": "stage_y__ink.obj",
+    "triangles": 120
+  },
+  {
+    "link": "stage_y",
+    "material": "steel",
+    "file": "stage_y__steel.obj",
+    "triangles": 6112
+  },
+  {
+    "link": "stage_y_knob",
+    "material": "black",
+    "file": "stage_y_knob__black.obj",
+    "triangles": 2808
+  },
+  {
+    "link": "stage_y_knob",
+    "material": "etched",
+    "file": "stage_y_knob__etched.obj",
+    "triangles": 17120
+  },
+  {
+    "link": "stage_y_knob",
+    "material": "graphite",
+    "file": "stage_y_knob__graphite.obj",
+    "triangles": 764
+  },
+  {
+    "link": "stage_y_knob",
+    "material": "paper",
+    "file": "stage_y_knob__paper.obj",
+    "triangles": 32
+  },
+  {
+    "link": "turret",
+    "material": "black",
+    "file": "turret__black.obj",
+    "triangles": 7640
+  },
+  {
+    "link": "turret",
+    "material": "blue",
+    "file": "turret__blue.obj",
+    "triangles": 764
+  },
+  {
+    "link": "turret",
+    "material": "brushed",
+    "file": "turret__brushed.obj",
+    "triangles": 13764
+  },
+  {
+    "link": "turret",
+    "material": "darkmetal",
+    "file": "turret__darkmetal.obj",
+    "triangles": 764
+  },
+  {
+    "link": "turret",
+    "material": "green",
+    "file": "turret__green.obj",
+    "triangles": 764
+  },
+  {
+    "link": "turret",
+    "material": "ink",
+    "file": "turret__ink.obj",
+    "triangles": 13568
+  },
+  {
+    "link": "turret",
+    "material": "optic",
+    "file": "turret__optic.obj",
+    "triangles": 3820
+  },
+  {
+    "link": "turret",
+    "material": "paper",
+    "file": "turret__paper.obj",
+    "triangles": 764
+  },
+  {
+    "link": "turret",
+    "material": "red",
+    "file": "turret__red.obj",
+    "triangles": 764
+  },
+  {
+    "link": "turret",
+    "material": "steel",
+    "file": "turret__steel.obj",
+    "triangles": 19336
+  },
+  {
+    "link": "turret",
+    "material": "yellow",
+    "file": "turret__yellow.obj",
+    "triangles": 764
+  }
+]

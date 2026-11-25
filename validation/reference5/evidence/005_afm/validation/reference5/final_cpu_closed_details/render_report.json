@@ -1,0 +1,69 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "inspection_joint_positions": {
+    "door_latch_angle": 0.0,
+    "door_angle": 0.0
+  },
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "door_handle_stowed",
+    "door_release_detail",
+    "view_cover_opening"
+  ],
+  "renders": [
+    {
+      "file": "door_handle_stowed.png",
+      "camera": "door_handle_stowed",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "25430bfe2bb4bc99983134de0be268d203815315c78396d5510905d098899dde"
+    },
+    {
+      "file": "door_release_detail.png",
+      "camera": "door_release_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "32522372643c6a38805fcd10609624f15fee8886addd16484c177bf89d41d07a"
+    },
+    {
+      "file": "view_cover_opening.png",
+      "camera": "view_cover_opening",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "9d49966ea48270ea0b43d39d3032b446b452e2eaa839340df827651f722615aa"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [
+    {
+      "body": "door_latch",
+      "joint": "door_latch_angle",
+      "angle_rad": 0.0,
+      "maximum_rotation_matrix_error": 0.0
+    },
+    {
+      "body": "door",
+      "joint": "door_angle",
+      "angle_rad": 0.0,
+      "maximum_rotation_matrix_error": 0.0
+    }
+  ],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995"
+}

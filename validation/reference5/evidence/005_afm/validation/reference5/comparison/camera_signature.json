@@ -1,0 +1,96 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "passed": true,
+  "before_report_sha256": "e2a726d1dc284eb701c8fcbb697c08dca89063bbf17b9df4a197b2941ca9d58a",
+  "current_blend_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "before_image_sha256": "97298e54d43545e834c7ece9c1bd05d124cc71180e4c23ff2f3b2859abc2eeb5",
+  "matched_camera_names": [
+    "door_handle_stowed",
+    "door_handle_deployed"
+  ],
+  "cameras": [
+    {
+      "name": "door_handle_stowed",
+      "matched": true,
+      "differences": {},
+      "camera": {
+        "name": "door_handle_stowed",
+        "matrix_world": [
+          [
+            0.6362257599830627,
+            -0.24159866571426392,
+            0.732698380947113,
+            0.49566414952278137
+          ],
+          [
+            0.7715029716491699,
+            0.19923609495162964,
+            -0.6042252779006958,
+            -0.41519153118133545
+          ],
+          [
+            5.36263300432438e-08,
+            0.9497026205062866,
+            0.3131532073020935,
+            0.34677696228027344
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "type": "PERSP",
+        "lens_mm": 60.0,
+        "orthographic_scale_m": 0.20999999344348907,
+        "dof_enabled": true,
+        "focus_distance_m": 0.42399999499320984,
+        "fstop": 11.0
+      }
+    },
+    {
+      "name": "door_handle_deployed",
+      "matched": true,
+      "differences": {},
+      "camera": {
+        "name": "door_handle_deployed",
+        "matrix_world": [
+          [
+            0.6362257599830627,
+            -0.24159866571426392,
+            0.732698380947113,
+            0.49566414952278137
+          ],
+          [
+            0.7715029716491699,
+            0.19923609495162964,
+            -0.6042252779006958,
+            -0.41519153118133545
+          ],
+          [
+            5.36263300432438e-08,
+            0.9497026205062866,
+            0.3131532073020935,
+            0.34677696228027344
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "type": "PERSP",
+        "lens_mm": 60.0,
+        "orthographic_scale_m": 0.20999999344348907,
+        "dof_enabled": true,
+        "focus_distance_m": 0.42399999499320984,
+        "fstop": 11.0
+      }
+    }
+  ],
+  "method": "Exact equality of all captured camera matrix/lens/type/DOF/scale fields except object name. The archived before report and image remain unchanged.",
+  "script_sha256": "48b4b9bfe0409d4235833ce355f4a74cbb461a7ff51591c3fb63d1919401b634"
+}

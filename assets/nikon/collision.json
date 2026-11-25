@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "d86f075a66a013727e753df7515ca604c02d60ff6416c56982113cadfd5bdbc3",
+  "physics_sha256": "c662e6d63aeb29d36c1dd520d63dc34ef53adc6c2831904aa33e5b46b6faba2a",
   "shapes": [
     {
       "name": "shell_base",
@@ -485,6 +485,64 @@
       "size": [
         0.024,
         0.011,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "focus_bearing_boss_-1",
+      "body": "stand",
+      "type": "cylinder",
+      "pos": [
+        -0.07,
+        0.0,
+        0.056
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0265,
+        0.0042,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.003,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "focus_bearing_boss_1",
+      "body": "stand",
+      "type": "cylinder",
+      "pos": [
+        0.07,
+        0.0,
+        0.056
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0265,
+        0.0042,
         0.0
       ],
       "friction": [
@@ -1309,6 +1367,64 @@
       "condim": 4
     },
     {
+      "name": "opposite_coarse_grip",
+      "body": "coarse",
+      "type": "cylinder",
+      "pos": [
+        -0.169,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.024,
+        0.008,
+        0.0
+      ],
+      "friction": [
+        1.05,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "opposite_coarse_end_contact",
+      "body": "coarse",
+      "type": "cylinder",
+      "pos": [
+        -0.1778,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0232,
+        0.0011,
+        0.0
+      ],
+      "friction": [
+        1.05,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
       "name": "fine_grip",
       "body": "fine",
       "type": "cylinder",
@@ -1326,6 +1442,64 @@
       "size": [
         0.0153,
         0.008,
+        0.0
+      ],
+      "friction": [
+        1.05,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "opposite_fine_grip",
+      "body": "fine",
+      "type": "cylinder",
+      "pos": [
+        -0.209,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0153,
+        0.008,
+        0.0
+      ],
+      "friction": [
+        1.05,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "opposite_fine_end_contact",
+      "body": "fine",
+      "type": "cylinder",
+      "pos": [
+        -0.2178,
+        0.0,
+        0.0
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0145,
+        0.0011,
         0.0
       ],
       "friction": [

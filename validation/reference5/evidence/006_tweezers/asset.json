@@ -1,0 +1,2282 @@
+{
+  "name": "spring_tweezers",
+  "title": "Spring tweezers \u00b7 chip handling",
+  "units": "m",
+  "source_units": "mm",
+  "links": {
+    "base": {
+      "parent": null,
+      "pos_mm": [
+        0,
+        0,
+        0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": null,
+      "mass": 0.15,
+      "inertia": null,
+      "collisions": [
+        {
+          "name": "Handling tile",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            2
+          ],
+          "size_mm": [
+            90.0,
+            50.0,
+            2.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Pick-up pedestal",
+          "type": "box",
+          "pos_mm": [
+            59,
+            0,
+            6.5
+          ],
+          "size_mm": [
+            2.5,
+            2.0,
+            2.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Target insert",
+          "type": "box",
+          "pos_mm": [
+            62,
+            24,
+            6.3
+          ],
+          "size_mm": [
+            9.5,
+            8.5,
+            2.3
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Tray locating edge",
+          "type": "box",
+          "pos_mm": [
+            53,
+            24,
+            9.6
+          ],
+          "size_mm": [
+            0.75,
+            8.0,
+            1.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Tray locating edge",
+          "type": "box",
+          "pos_mm": [
+            71,
+            24,
+            9.6
+          ],
+          "size_mm": [
+            0.75,
+            8.0,
+            1.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "sites": {
+        "placement_target": {
+          "pos_mm": [
+            62,
+            24,
+            9.1
+          ]
+        }
+      }
+    },
+    "tool": {
+      "parent": "base",
+      "pos_mm": [
+        0,
+        0,
+        12
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "tool_free",
+        "type": "free"
+      },
+      "mass": 0.008,
+      "inertia": [
+        3e-06,
+        1.5e-05,
+        1.5e-05
+      ],
+      "collisions": [
+        {
+          "name": "Welded spring heel",
+          "type": "box",
+          "pos_mm": [
+            -55,
+            0,
+            0
+          ],
+          "size_mm": [
+            6.0,
+            1.05,
+            3.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 1,
+          "conaffinity": 3
+        }
+      ],
+      "sites": {}
+    },
+    "jaw_left": {
+      "parent": "tool",
+      "pos_mm": [
+        -50,
+        -0.6,
+        0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "jaw_left_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "damping": 1.2e-05,
+        "frictionloss": 5e-07,
+        "range": [
+          -0.052,
+          0.025
+        ],
+        "stiffness": 0.06,
+        "springref": 0
+      },
+      "mass": 0.005,
+      "inertia": [
+        3e-08,
+        5e-06,
+        5e-06
+      ],
+      "collisions": [
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            2.0,
+            -0.35,
+            0
+          ],
+          "size_mm": [
+            2.0577748574514,
+            0.31,
+            3.5716666666666668
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.12435499454676144",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            6.0,
+            -0.85,
+            0
+          ],
+          "size_mm": [
+            2.0577748574514,
+            0.31,
+            3.638333333333333
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.12435499454676144",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            10.0,
+            -1.35,
+            0
+          ],
+          "size_mm": [
+            2.0577748574514,
+            0.31,
+            3.705
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.12435499454676144",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            13.857142857142858,
+            -1.7857142857142858,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.705
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            17.57142857142857,
+            -2.1571428571428575,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.6764285714285716
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            21.285714285714285,
+            -2.5285714285714285,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.6478571428571427
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            25.0,
+            -2.9000000000000004,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.619285714285714
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            28.71428571428571,
+            -3.2714285714285714,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.5907142857142857
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            32.42857142857143,
+            -3.642857142857143,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.5621428571428573
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            36.14285714285714,
+            -4.014285714285714,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.5335714285714284
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            39.8125,
+            -4.2625,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.505
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            43.4375,
+            -4.3875,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.4299999999999997
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            47.0625,
+            -4.5125,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.355
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            50.6875,
+            -4.6375,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.28
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            54.3125,
+            -4.7625,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.205
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            57.9375,
+            -4.8875,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.13
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            61.5625,
+            -5.0125,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.0549999999999997
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            65.1875,
+            -5.1375,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            2.9799999999999995
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            68.75,
+            -5.2250000000000005,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.905
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            72.25,
+            -5.275,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.7716666666666665
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            75.75,
+            -5.325,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.638333333333333
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            79.25,
+            -5.375,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.505
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            82.75,
+            -5.425,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.3716666666666666
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            86.25,
+            -5.475,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.2383333333333333
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            88.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            2.105
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            89.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.9809999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            90.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.857
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            91.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.7329999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            92.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.609
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            93.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.4849999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            94.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.3609999999999998
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            95.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.2369999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            96.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.113
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            97.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.989
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            98.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.8650000000000001
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            99.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.7410000000000002
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            100.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.6169999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            101.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.493
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            102.5,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.3689999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 -0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Flat precision tip",
+          "type": "box",
+          "pos_mm": [
+            103.875,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.88,
+            0.22,
+            0.245
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 2,
+          "conaffinity": 3,
+          "friction": "1.3 .001 .00002",
+          "solref": ".002 1"
+        },
+        {
+          "name": "Flat precision tip",
+          "type": "box",
+          "pos_mm": [
+            105.625,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.88,
+            0.22,
+            0.22999999999999998
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 2,
+          "conaffinity": 3,
+          "friction": "1.3 .001 .00002",
+          "solref": ".002 1"
+        },
+        {
+          "name": "Flat precision tip",
+          "type": "box",
+          "pos_mm": [
+            107.375,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.88,
+            0.22,
+            0.215
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 2,
+          "conaffinity": 3,
+          "friction": "1.3 .001 .00002",
+          "solref": ".002 1"
+        },
+        {
+          "name": "Flat precision tip",
+          "type": "box",
+          "pos_mm": [
+            109.125,
+            -5.5,
+            0
+          ],
+          "size_mm": [
+            0.88,
+            0.22,
+            0.19999999999999998
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 2,
+          "conaffinity": 3,
+          "friction": "1.3 .001 .00002",
+          "solref": ".002 1"
+        }
+      ],
+      "sites": {
+        "jaw_left_tip": {
+          "pos_mm": [
+            110,
+            -5.5,
+            0
+          ]
+        },
+        "jaw_left_squeeze": {
+          "pos_mm": [
+            42,
+            -4.7,
+            0
+          ]
+        }
+      }
+    },
+    "jaw_right": {
+      "parent": "tool",
+      "pos_mm": [
+        -50,
+        0.6,
+        0
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "jaw_right_angle",
+        "type": "hinge",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "damping": 1.2e-05,
+        "frictionloss": 5e-07,
+        "range": [
+          -0.052,
+          0.025
+        ],
+        "stiffness": 0.06,
+        "springref": 0
+      },
+      "mass": 0.005,
+      "inertia": [
+        3e-08,
+        5e-06,
+        5e-06
+      ],
+      "collisions": [
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            2.0,
+            0.35,
+            0
+          ],
+          "size_mm": [
+            2.0577748574514,
+            0.31,
+            3.5716666666666668
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.12435499454676144",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            6.0,
+            0.85,
+            0
+          ],
+          "size_mm": [
+            2.0577748574514,
+            0.31,
+            3.638333333333333
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.12435499454676144",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            10.0,
+            1.35,
+            0
+          ],
+          "size_mm": [
+            2.0577748574514,
+            0.31,
+            3.705
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.12435499454676144",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            13.857142857142858,
+            1.7857142857142858,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.705
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            17.57142857142857,
+            2.1571428571428575,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.6764285714285716
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            21.285714285714285,
+            2.5285714285714285,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.6478571428571427
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            25.0,
+            2.9000000000000004,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.619285714285714
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            28.71428571428571,
+            3.2714285714285714,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.5907142857142857
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            32.42857142857143,
+            3.642857142857143,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.5621428571428573
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            36.14285714285714,
+            4.014285714285714,
+            0
+          ],
+          "size_mm": [
+            1.9012565321749437,
+            0.31,
+            3.5335714285714284
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.09966865725771791",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            39.8125,
+            4.2625,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.505
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            43.4375,
+            4.3875,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.4299999999999997
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            47.0625,
+            4.5125,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.355
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            50.6875,
+            4.6375,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.28
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            54.3125,
+            4.7625,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.205
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            57.9375,
+            4.8875,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.13
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            61.5625,
+            5.0125,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            3.0549999999999997
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            65.1875,
+            5.1375,
+            0
+          ],
+          "size_mm": [
+            1.8289159488202973,
+            0.31,
+            2.9799999999999995
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.034469100999508014",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            68.75,
+            5.2250000000000005,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.905
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            72.25,
+            5.275,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.7716666666666665
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            75.75,
+            5.325,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.638333333333333
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            79.25,
+            5.375,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.505
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            82.75,
+            5.425,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.3716666666666666
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            86.25,
+            5.475,
+            0
+          ],
+          "size_mm": [
+            1.7594638394300495,
+            0.31,
+            2.2383333333333333
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.014284742800226928",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            88.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            2.105
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            89.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.9809999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            90.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.857
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            91.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.7329999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            92.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.609
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            93.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.4849999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            94.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.3609999999999998
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            95.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.2369999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            96.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            1.113
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            97.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.989
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            98.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.8650000000000001
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            99.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.7410000000000002
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            100.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.6169999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            101.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.493
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Spring blade",
+          "type": "box",
+          "pos_mm": [
+            102.5,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.505,
+            0.22,
+            0.3689999999999999
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "euler": "0 0 0.0",
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
+          "name": "Flat precision tip",
+          "type": "box",
+          "pos_mm": [
+            103.875,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.88,
+            0.22,
+            0.245
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 2,
+          "conaffinity": 3,
+          "friction": "1.3 .001 .00002",
+          "solref": ".002 1"
+        },
+        {
+          "name": "Flat precision tip",
+          "type": "box",
+          "pos_mm": [
+            105.625,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.88,
+            0.22,
+            0.22999999999999998
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 2,
+          "conaffinity": 3,
+          "friction": "1.3 .001 .00002",
+          "solref": ".002 1"
+        },
+        {
+          "name": "Flat precision tip",
+          "type": "box",
+          "pos_mm": [
+            107.375,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.88,
+            0.22,
+            0.215
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 2,
+          "conaffinity": 3,
+          "friction": "1.3 .001 .00002",
+          "solref": ".002 1"
+        },
+        {
+          "name": "Flat precision tip",
+          "type": "box",
+          "pos_mm": [
+            109.125,
+            5.5,
+            0
+          ],
+          "size_mm": [
+            0.88,
+            0.22,
+            0.19999999999999998
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 2,
+          "conaffinity": 3,
+          "friction": "1.3 .001 .00002",
+          "solref": ".002 1"
+        }
+      ],
+      "sites": {
+        "jaw_right_tip": {
+          "pos_mm": [
+            110,
+            5.5,
+            0
+          ]
+        },
+        "jaw_right_squeeze": {
+          "pos_mm": [
+            42,
+            4.7,
+            0
+          ]
+        }
+      }
+    },
+    "chip": {
+      "parent": "base",
+      "pos_mm": [
+        59,
+        0,
+        9.25
+      ],
+      "euler": [
+        0,
+        0,
+        0
+      ],
+      "joint": {
+        "name": "chip_free",
+        "type": "free"
+      },
+      "mass": 9e-05,
+      "inertia": [
+        3e-10,
+        5e-10,
+        6e-10
+      ],
+      "collisions": [
+        {
+          "name": "device_chip",
+          "type": "box",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            4.0,
+            3.0,
+            0.25
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 1,
+          "conaffinity": 3,
+          "friction": "1.1 .001 .00001",
+          "solref": ".002 1"
+        }
+      ],
+      "sites": {
+        "device_chip_center": {
+          "pos_mm": [
+            0,
+            0,
+            0.25
+          ]
+        }
+      }
+    }
+  },
+  "controls": [
+    {
+      "name": "Jaw Left",
+      "link": "jaw_left",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "kp": 0.25,
+      "kv": 0.0022,
+      "force": 0.018
+    },
+    {
+      "name": "Jaw Right",
+      "link": "jaw_right",
+      "kind": "position",
+      "limits": null,
+      "units": "rad",
+      "kp": 0.25,
+      "kv": 0.0022,
+      "force": 0.018
+    }
+  ],
+  "reference_group": "tweezer",
+  "identity": "Straight stainless spring tweezers; maker unverified",
+  "geometry_revision": "realism4",
+  "estimated_dimensions_mm": [
+    120,
+    12,
+    7
+  ],
+  "compliance": "Rigid tapered blades with torsional springs at heel; not a measured distributed elastic model.",
+  "fixture": {
+    "body": "tool",
+    "mocap": "tool_fixture"
+  },
+  "task_candidates": [
+    "pick_chip",
+    "transfer_chip",
+    "place_in_tray"
+  ]
+}

@@ -106,12 +106,18 @@
         <inertial pos="0 0 0" mass="0.035" diaginertia=".000004 .000004 .000004" />
         <geom name="coarse_grip" type="cylinder" pos="0 0 0" size="0.024 0.008" class="contact_proxy" zaxis="1 0 0" friction="1.05 .002 .0001" />
         <site name="coarse_center" pos="0 0 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <geom name="opposite_coarse_grip" type="cylinder" pos="-0.169 0 0" size="0.024 0.008" class="contact_proxy" zaxis="-1 0 0" friction="1.05 .002 .0001" />
+        <geom name="opposite_coarse_end_contact" type="cylinder" pos="-0.1778 0 0" size="0.0232 0.0011" class="contact_proxy" zaxis="-1 0 0" friction="1.05 .002 .0001" />
+        <site name="opposite_coarse_center" pos="-0.169 0 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
       </body>
       <body name="fine" pos="0.103 0 0.056" euler="0 0 0">
         <joint name="fine_angle" type="hinge" axis="1 0 0" damping="0.0007" armature="2.3e-05" frictionloss="0.002" />
         <inertial pos="0 0 0" mass="0.035" diaginertia=".000004 .000004 .000004" />
         <geom name="fine_grip" type="cylinder" pos="0 0 0" size="0.0153 0.008" class="contact_proxy" zaxis="1 0 0" friction="1.05 .002 .0001" />
         <site name="fine_center" pos="0 0 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
+        <geom name="opposite_fine_grip" type="cylinder" pos="-0.209 0 0" size="0.0153 0.008" class="contact_proxy" zaxis="-1 0 0" friction="1.05 .002 .0001" />
+        <geom name="opposite_fine_end_contact" type="cylinder" pos="-0.2178 0 0" size="0.0145 0.0011" class="contact_proxy" zaxis="-1 0 0" friction="1.05 .002 .0001" />
+        <site name="opposite_fine_center" pos="-0.209 0 0" size=".0008" group="4" rgba=".1 .8 .4 .6" />
       </body>
       <body name="turret" pos="0 -0.02932468507 0.2325428782" euler="0.3665191429 0 0">
         <joint name="turret_angle" type="hinge" axis="0 0 1" damping="0.002" armature="0.0003" frictionloss="1.2e-05" />
@@ -166,6 +172,8 @@
       <geom name="eyepiece_1" type="cylinder" pos="0.031 -0.1867083196 0.3389967654" size="0.02 0.037" class="contact_proxy" zaxis="0 -0.9396926208 0.3420201433" />
       <geom name="epi_coupler" type="cylinder" pos="0 0.175 0.273" size="0.021 0.03" class="contact_proxy" zaxis="0 1 0" />
       <geom name="field_lens" type="cylinder" pos="0 -0.062 0.062" size="0.024 0.011" class="contact_proxy" zaxis="0 0 1" />
+      <geom name="focus_bearing_boss_-1" type="cylinder" pos="-0.07 0 0.056" size="0.0265 0.0042" class="contact_proxy" zaxis="-1 0 0" />
+      <geom name="focus_bearing_boss_1" type="cylinder" pos="0.07 0 0.056" size="0.0265 0.0042" class="contact_proxy" zaxis="1 0 0" />
       <site name="optical_axis" pos="0 -0.062 0.158" size=".0008" group="4" rgba=".1 .8 .4 .6" />
     </body>
   </worldbody>

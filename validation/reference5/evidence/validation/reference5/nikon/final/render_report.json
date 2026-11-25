@@ -1,0 +1,75 @@
+{
+  "revision": "reference5",
+  "asset": "nikon",
+  "draft": false,
+  "source_sha256": "2b1c792e7a16f61dd2a4b6514b42a5bb0c9aae97db7e7813dd15baf03c0d2b19",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "lab_view",
+    "operator_view",
+    "controls",
+    "optical_head",
+    "construction_focus"
+  ],
+  "renders": [
+    {
+      "file": "lab_view.png",
+      "camera": "01 | Lab side",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "4623abecf28a6edbaebee64067df01209f325359522ef37a98f5fd1b9cbb310f"
+    },
+    {
+      "file": "operator_view.png",
+      "camera": "02 | Operator view",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "ccc0fe1f4e48b5f51eaac1001709b33a3355201650d6c8475bddc33a5816c1a7"
+    },
+    {
+      "file": "controls.png",
+      "camera": "03 | Mechanics",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "4a913ececb0e26f4b53fbab7085af66d3bd37c5aa25f2fc3e8441cacd3e2a95d"
+    },
+    {
+      "file": "optical_head.png",
+      "camera": "04 | Optical head",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "3ae03a22c9613c439ed20297685bc6b07772794373bffee181888372a8731c53"
+    },
+    {
+      "file": "construction_focus.png",
+      "camera": "construction_focus",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "d3dae2d6f7bd1d594c593abaa479d0ca33115ff24716952baab8f06255edf23c"
+    }
+  ],
+  "complete": true
+}

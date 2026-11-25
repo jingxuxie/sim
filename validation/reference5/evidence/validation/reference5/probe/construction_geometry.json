@@ -1,0 +1,387 @@
+{
+  "asset": "probe",
+  "revision": "reference5",
+  "method": "Ray intersections and BVH triangle intersections on Blender evaluated geometry in meters; model dimensions remain photographic estimates.",
+  "versions": {
+    "before": {
+      "source": "validation/reference5/probe/before/probe_station.blend",
+      "sha256": "d9a97c86f9cc9cd809a91207da5ae921452061834ba586021d4b27051349b9c1",
+      "checks": [
+        {
+          "check": "frame_guide_through_slot",
+          "side": -1,
+          "yz_mm": [
+            150.0,
+            196.0
+          ],
+          "hits": [
+            {
+              "object": "Slot dark inner reveal",
+              "distance_mm": 14.49999213218689,
+              "point_mm": [
+                -105.50000762939453,
+                150.0,
+                196.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": -1,
+          "yz_mm": [
+            202.0,
+            196.0
+          ],
+          "hits": [
+            {
+              "object": "Slot dark inner reveal",
+              "distance_mm": 14.49999213218689,
+              "point_mm": [
+                -105.50000762939453,
+                202.0,
+                196.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": -1,
+          "yz_mm": [
+            150.0,
+            399.0
+          ],
+          "hits": [
+            {
+              "object": "Slot dark inner reveal.001",
+              "distance_mm": 14.499993063509464,
+              "point_mm": [
+                -105.50000762939453,
+                150.0,
+                399.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": -1,
+          "yz_mm": [
+            202.0,
+            399.0
+          ],
+          "hits": [
+            {
+              "object": "Slot dark inner reveal.001",
+              "distance_mm": 14.49999213218689,
+              "point_mm": [
+                -105.50000762939453,
+                202.0,
+                399.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": 1,
+          "yz_mm": [
+            150.0,
+            196.0
+          ],
+          "hits": [
+            {
+              "object": "Slot dark inner reveal.002",
+              "distance_mm": 14.49999213218689,
+              "point_mm": [
+                105.50000762939453,
+                150.0,
+                196.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": 1,
+          "yz_mm": [
+            202.0,
+            196.0
+          ],
+          "hits": [
+            {
+              "object": "Slot dark inner reveal.002",
+              "distance_mm": 14.49999213218689,
+              "point_mm": [
+                105.50000762939453,
+                202.0,
+                196.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": 1,
+          "yz_mm": [
+            150.0,
+            399.0
+          ],
+          "hits": [
+            {
+              "object": "Slot dark inner reveal.003",
+              "distance_mm": 14.499993063509464,
+              "point_mm": [
+                105.50000762939453,
+                150.0,
+                399.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": 1,
+          "yz_mm": [
+            202.0,
+            399.0
+          ],
+          "hits": [
+            {
+              "object": "Slot dark inner reveal.003",
+              "distance_mm": 14.49999213218689,
+              "point_mm": [
+                105.50000762939453,
+                202.0,
+                399.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "recessed_optical_cover_slot",
+          "local_y_mm": -60.5,
+          "hits": [
+            {
+              "object": "Optical module access-cover reveal.001",
+              "distance_mm": 8.299991488456726,
+              "point_mm": [
+                56.70000457763672,
+                -31.5,
+                303.5
+              ]
+            },
+            {
+              "object": "Access slot interior",
+              "distance_mm": 8.449994027614594,
+              "point_mm": [
+                56.55000305175781,
+                -31.5,
+                303.5
+              ]
+            },
+            {
+              "object": "Mitutoyo lower optical casting",
+              "distance_mm": 10.303915478289127,
+              "point_mm": [
+                54.696083068847656,
+                -31.5,
+                303.5
+              ]
+            }
+          ],
+          "slot_depth_from_outer_panel_mm": -0.20000457763671875,
+          "recessed": false
+        },
+        {
+          "check": "recessed_optical_cover_slot",
+          "local_y_mm": -33.5,
+          "hits": [
+            {
+              "object": "Optical module access-cover reveal.001",
+              "distance_mm": 8.299991488456726,
+              "point_mm": [
+                56.70000457763672,
+                -4.5,
+                303.5
+              ]
+            },
+            {
+              "object": "Access slot interior.001",
+              "distance_mm": 8.449994958937168,
+              "point_mm": [
+                56.55000305175781,
+                -4.5,
+                303.5
+              ]
+            },
+            {
+              "object": "Mitutoyo lower optical casting",
+              "distance_mm": 10.303914546966553,
+              "point_mm": [
+                54.696083068847656,
+                -4.5,
+                303.5
+              ]
+            }
+          ],
+          "slot_depth_from_outer_panel_mm": -0.20000457763671875,
+          "recessed": false
+        }
+      ]
+    },
+    "after": {
+      "source": "002_probe_station/probe_station.blend",
+      "sha256": "54a639be4c1e90e4d732c38d90d9171b02a2a2d0988a541c65db833ccac47925",
+      "checks": [
+        {
+          "check": "frame_guide_through_slot",
+          "side": -1,
+          "yz_mm": [
+            150.0,
+            196.0
+          ],
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": -1,
+          "yz_mm": [
+            202.0,
+            196.0
+          ],
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": -1,
+          "yz_mm": [
+            150.0,
+            399.0
+          ],
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": -1,
+          "yz_mm": [
+            202.0,
+            399.0
+          ],
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": 1,
+          "yz_mm": [
+            150.0,
+            196.0
+          ],
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": 1,
+          "yz_mm": [
+            202.0,
+            196.0
+          ],
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": 1,
+          "yz_mm": [
+            150.0,
+            399.0
+          ],
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "frame_guide_through_slot",
+          "side": 1,
+          "yz_mm": [
+            202.0,
+            399.0
+          ],
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "recessed_optical_cover_slot",
+          "local_y_mm": -60.5,
+          "hits": [
+            {
+              "object": "Optical side well rear surface",
+              "distance_mm": 21.149998530745506,
+              "point_mm": [
+                43.849998474121094,
+                -31.5,
+                303.5
+              ]
+            },
+            {
+              "object": "Mitutoyo lower optical casting",
+              "distance_mm": 21.4999970048666,
+              "point_mm": [
+                43.5,
+                -31.5,
+                303.5
+              ]
+            }
+          ],
+          "slot_depth_from_outer_panel_mm": 12.650001525878906,
+          "recessed": true
+        },
+        {
+          "check": "recessed_optical_cover_slot",
+          "local_y_mm": -33.5,
+          "hits": [
+            {
+              "object": "Optical side well rear surface",
+              "distance_mm": 21.149998530745506,
+              "point_mm": [
+                43.849998474121094,
+                -4.5,
+                303.5
+              ]
+            },
+            {
+              "object": "Mitutoyo lower optical casting",
+              "distance_mm": 21.4999932795763,
+              "point_mm": [
+                43.50000762939453,
+                -4.5,
+                303.5
+              ]
+            }
+          ],
+          "slot_depth_from_outer_panel_mm": 12.650001525878906,
+          "recessed": true
+        }
+      ]
+    }
+  },
+  "script_sha256": "2283c41a4dd32e1fb3e9a87302efb5d4e148ef11f8ddf537b71e5a12cba1050b",
+  "passed": true,
+  "limitations": [
+    "Checks cover the named construction changes, not every assembly pair.",
+    "Inserted shafts/bearings and screws in their mounting seats are intended fits. Interior optics, dimensions and material mechanics are not calibrated from photographs."
+  ]
+}

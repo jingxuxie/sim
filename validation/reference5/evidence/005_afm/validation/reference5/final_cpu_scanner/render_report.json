@@ -1,0 +1,46 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "inspection_joint_positions": {},
+  "measured_trajectory": {
+    "sha256": "9ff0c7567c6b759019e929e7ab76d2d2d8358771037e6ecace0c1339a7bfeb4b",
+    "frame": 189,
+    "frame_sha256": "c00c39e03000b75479471098240515a219c596d61879f75c4be3bbaea0b114d6",
+    "time_s": 7.6
+  },
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "front",
+    "scanner_release_detail"
+  ],
+  "renders": [
+    {
+      "file": "front.png",
+      "camera": "front",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "7556e1d0607920456caa258dcca7f9e5a2b9d80a6fe2f4fa4468053f0499c74c"
+    },
+    {
+      "file": "scanner_release_detail.png",
+      "camera": "scanner_release_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "8f0cb1055f24f565c11c6599e074577de2b443ac587f6b4fd62a88be52bf37db"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995"
+}

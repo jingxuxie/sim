@@ -1,0 +1,57 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "draft": false,
+  "source_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "inspection_joint_positions": {
+    "door_latch_angle": 1.5707963267948966,
+    "door_angle": -1.5
+  },
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "door_handle_pocket_open",
+    "door_latch_keeper"
+  ],
+  "renders": [
+    {
+      "file": "door_handle_pocket_open.png",
+      "camera": "door_handle_pocket_open",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "4362459d379974f952b796c820c919bbe78794b1632774b9e7974e29e173caa2"
+    },
+    {
+      "file": "door_latch_keeper.png",
+      "camera": "door_latch_keeper",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "b02fdb4f9a35c4aa3b40cd97e4e782bacd305c1f0f641d7ce7f3e45895c22912"
+    }
+  ],
+  "complete": true,
+  "pose_preflight": [
+    {
+      "body": "door_latch",
+      "joint": "door_latch_angle",
+      "angle_rad": 1.5707963267948966,
+      "maximum_rotation_matrix_error": 3.552713678800501e-15
+    },
+    {
+      "body": "door",
+      "joint": "door_angle",
+      "angle_rad": -1.5,
+      "maximum_rotation_matrix_error": 0.0
+    }
+  ],
+  "pose_wrapper_sha256": "5e787783f58d48c2e77b74748403bffcd6e0e5f78f13957c010a53b0eebd8995"
+}

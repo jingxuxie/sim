@@ -1,0 +1,19 @@
+{
+  "revision": "reference5",
+  "frozen": true,
+  "model_files": {
+    "004_wire_bonder/build.py": "8917559c12a8393b95898b20bb20ee948a32ca9814a1497312f6e61f7ed223f1",
+    "004_wire_bonder/hardware_7700.py": "7ebd142e32a94543a03ce661c4e27e222c480308b1e2fb509fa6a6b5ac8fe021",
+    "004_wire_bonder/make_heater_texture.py": "ea916532ffabd344f140e5c533306560c797c9223a99536d01d9077a1f06414a",
+    "004_wire_bonder/wire_bonder.blend": "90c5f7900f3968247434a3421027417c6b63d4b418a5a467b7f3db51524c9bed",
+    "004_wire_bonder/wire_bonder.xml": "f9f20f44ee1d022cf2670e88a2b4de155542208f7cc5baa1d5ec164fa2ee9e1f",
+    "004_wire_bonder/asset.json": "c377e031f755175f827b8d941e33b64842ceb21e00348c4c11c9d3a75de938b3",
+    "004_wire_bonder/assets/wire_bonder.glb": "c43452524ed2d409887fb7cfb05929ba4671b7a357fdf6dc467d2911c7ec4ca6",
+    "004_wire_bonder/assets/meshes.json": "2bd3e6b675a036d4652cef47acf0a0882f3e34a020402e2d283a99f49bc09ccc"
+  },
+  "checks": [
+    "validation/reference5/bonder/current.json",
+    "validation/reference5/bonder/native.json",
+    "validation/reference5/bonder/portable.json"
+  ]
+}

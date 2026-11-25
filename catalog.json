@@ -6,9 +6,9 @@
       "title": "Nikon Eclipse E1000",
       "folder": "000",
       "model": "e1000",
-      "glb": "./assets/nikon/model.glb?v=clearance1",
-      "preview": "./assets/nikon/preview.jpg?v=clearance1",
-      "size": 22951800,
+      "glb": "./assets/nikon/model.glb?v=reference5",
+      "preview": "./assets/nikon/preview.jpg?v=reference5",
+      "size": 23741084,
       "controls": [],
       "links": {},
       "tasks": [
@@ -51,8 +51,8 @@
           "baseline": "image fiducial feedback"
         }
       ],
-      "render": "./assets/nikon/render.png?v=clearance1",
-      "detail_render": "./assets/nikon/detail.png?v=clearance1",
+      "render": "./assets/nikon/render.png?v=reference5",
+      "detail_render": "./assets/nikon/detail.png?v=reference5",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -70,25 +70,29 @@
       "render_views": [
         {
           "label": "Operator view",
-          "url": "./assets/nikon/operator_view.png?v=clearance1"
+          "url": "./assets/nikon/operator_view.png?v=reference5"
         },
         {
           "label": "Optical head",
-          "url": "./assets/nikon/optical_head.png?v=clearance1"
+          "url": "./assets/nikon/optical_head.png?v=reference5"
+        },
+        {
+          "label": "Left focus controls",
+          "url": "./assets/nikon/construction_focus.png?v=reference5"
         }
       ],
-      "physics": "./assets/nikon/physics.xml?v=clearance1",
-      "metadata": "./assets/nikon/metadata.json?v=clearance1",
-      "collision": "./assets/nikon/collision.json?v=clearance1"
+      "physics": "./assets/nikon/physics.xml?v=reference5",
+      "metadata": "./assets/nikon/metadata.json?v=reference5",
+      "collision": "./assets/nikon/collision.json?v=reference5"
     },
     {
       "id": "transfer",
       "title": "Dry-transfer station",
       "folder": "001_transfer_stage",
       "model": "transfer_station",
-      "glb": "./assets/transfer/model.glb?v=clearance1",
-      "preview": "./assets/transfer/preview.jpg?v=clearance1",
-      "size": 53494492,
+      "glb": "./assets/transfer/model.glb?v=reference5",
+      "preview": "./assets/transfer/preview.jpg?v=reference5",
+      "size": 58186880,
       "controls": [
         {
           "name": "Camera / eyepiece split",
@@ -377,17 +381,74 @@
               ]
             },
             {
-              "name": "sample_x actuator split clamp",
+              "name": "sample_x clamp side",
+              "type": "box",
+              "pos_mm": [
+                -182.0,
+                -9.425000190734863,
+                40.0
+              ],
+              "size_mm": [
+                9,
+                1.425,
+                11.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "sample_x clamp cap",
               "type": "box",
               "pos_mm": [
                 -182.0,
                 -20.0,
+                29.674999237060547
+              ],
+              "size_mm": [
+                9,
+                9.15,
+                1.175
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "sample_x clamp side",
+              "type": "box",
+              "pos_mm": [
+                -182.0,
+                -30.575000762939453,
                 40.0
               ],
               "size_mm": [
-                8.0,
-                8.5,
-                7.5
+                9,
+                1.425,
+                11.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "sample_x clamp cap",
+              "type": "box",
+              "pos_mm": [
+                -182.0,
+                -20.0,
+                50.32500076293945
+              ],
+              "size_mm": [
+                9,
+                9.15,
+                1.175
               ],
               "axis": [
                 0,
@@ -472,17 +533,74 @@
               ]
             },
             {
-              "name": "stamp_x actuator split clamp",
+              "name": "stamp_x clamp side",
+              "type": "box",
+              "pos_mm": [
+                233.5,
+                -30.575000762939453,
+                94.0
+              ],
+              "size_mm": [
+                9,
+                1.425,
+                11.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_x clamp cap",
               "type": "box",
               "pos_mm": [
                 233.5,
                 -20.0,
+                83.67500305175781
+              ],
+              "size_mm": [
+                9,
+                9.15,
+                1.175
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_x clamp side",
+              "type": "box",
+              "pos_mm": [
+                233.5,
+                -9.425000190734863,
                 94.0
               ],
               "size_mm": [
-                8.0,
-                8.5,
-                7.5
+                9,
+                1.425,
+                11.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_x clamp cap",
+              "type": "box",
+              "pos_mm": [
+                233.5,
+                -20.0,
+                104.32499694824219
+              ],
+              "size_mm": [
+                9,
+                9.15,
+                1.175
               ],
               "axis": [
                 0,
@@ -1568,17 +1686,74 @@
               ]
             },
             {
-              "name": "sample_y actuator split clamp",
+              "name": "sample_y clamp side",
               "type": "box",
               "pos_mm": [
-                0.0,
+                -10.574999809265137,
                 -69.0,
                 23.0
               ],
               "size_mm": [
-                8.0,
-                8.5,
-                7.5
+                1.425,
+                9,
+                11.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "sample_y clamp cap",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                -69.0,
+                12.675000190734863
+              ],
+              "size_mm": [
+                9.15,
+                9,
+                1.175
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "sample_y clamp side",
+              "type": "box",
+              "pos_mm": [
+                10.574999809265137,
+                -69.0,
+                23.0
+              ],
+              "size_mm": [
+                1.425,
+                9,
+                11.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "sample_y clamp cap",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                -69.0,
+                33.32500076293945
+              ],
+              "size_mm": [
+                9.15,
+                9,
+                1.175
               ],
               "axis": [
                 0,
@@ -2260,6 +2435,183 @@
               "conaffinity": 9
             },
             {
+              "name": "Kinematic polished support ball",
+              "type": "sphere",
+              "pos_mm": [
+                0.0,
+                25.0,
+                11.6
+              ],
+              "size_mm": [
+                8.4
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Kinematic polished support ball",
+              "type": "sphere",
+              "pos_mm": [
+                21.65063509461097,
+                -12.499999999999995,
+                11.6
+              ],
+              "size_mm": [
+                8.4
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Kinematic polished support ball",
+              "type": "sphere",
+              "pos_mm": [
+                -21.65063509461096,
+                -12.50000000000001,
+                11.6
+              ],
+              "size_mm": [
+                8.4
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Kinematic preload rod contact",
+              "type": "cylinder",
+              "pos_mm": [
+                26.5,
+                15,
+                18.6
+              ],
+              "size_mm": [
+                2.8,
+                15.4
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Preload knurled socket head",
+              "type": "cylinder",
+              "pos_mm": [
+                26.5,
+                15,
+                37.7
+              ],
+              "size_mm": [
+                4.8,
+                3.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Kinematic preload rod contact",
+              "type": "cylinder",
+              "pos_mm": [
+                -26.5,
+                15,
+                18.6
+              ],
+              "size_mm": [
+                2.8,
+                15.4
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Preload knurled socket head",
+              "type": "cylinder",
+              "pos_mm": [
+                -26.5,
+                15,
+                37.7
+              ],
+              "size_mm": [
+                4.8,
+                3.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Kinematic preload rod contact",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                -25,
+                18.6
+              ],
+              "size_mm": [
+                2.8,
+                15.4
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Preload knurled socket head",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                -25,
+                37.7
+              ],
+              "size_mm": [
+                4.8,
+                3.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
               "name": "Heater support",
               "type": "box",
               "pos_mm": [
@@ -2462,17 +2814,74 @@
               ]
             },
             {
-              "name": "stamp_y actuator split clamp",
+              "name": "stamp_y clamp side",
               "type": "box",
               "pos_mm": [
-                0.0,
+                -10.574999809265137,
                 -68.5,
                 27.0
               ],
               "size_mm": [
-                8.0,
-                8.5,
-                7.5
+                1.425,
+                9,
+                11.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_y clamp cap",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                -68.5,
+                16.674999237060547
+              ],
+              "size_mm": [
+                9.15,
+                9,
+                1.175
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_y clamp side",
+              "type": "box",
+              "pos_mm": [
+                10.574999809265137,
+                -68.5,
+                27.0
+              ],
+              "size_mm": [
+                1.425,
+                9,
+                11.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_y clamp cap",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                -68.5,
+                37.32500076293945
+              ],
+              "size_mm": [
+                9.15,
+                9,
+                1.175
               ],
               "axis": [
                 0,
@@ -2715,14 +3124,14 @@
               "name": "stamp_z actuator mounting extension",
               "type": "box",
               "pos_mm": [
-                -62.5,
-                -73.0,
+                -54.0,
+                -58.5,
                 16.0
               ],
               "size_mm": [
-                15.5,
-                24.0,
-                4.0
+                19.0,
+                6.0,
+                3.0
               ],
               "axis": [
                 0,
@@ -2734,14 +3143,14 @@
               "name": "stamp_z actuator mounting attachment",
               "type": "box",
               "pos_mm": [
-                -45.0,
-                -45.5,
+                -42.0,
+                -42.0,
                 16.0
               ],
               "size_mm": [
                 7.0,
-                13.5,
-                4.0
+                16.5,
+                3.0
               ],
               "axis": [
                 0,
@@ -2750,36 +3159,16 @@
               ]
             },
             {
-              "name": "stamp_z fixed actuator bracket upright",
-              "type": "box",
+              "name": "stamp_z lift actuator clamp outer",
+              "type": "cylinder",
               "pos_mm": [
-                -62.5,
-                -90.0,
-                42.75
+                -73.0,
+                -58.5,
+                19.0
               ],
               "size_mm": [
-                12.0,
-                5.0,
-                30.75
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ]
-            },
-            {
-              "name": "stamp_z fixed actuator bracket head",
-              "type": "box",
-              "pos_mm": [
-                -62.5,
-                -81.0,
-                69.5
-              ],
-              "size_mm": [
-                12.0,
-                15.0,
-                4.0
+                12,
+                7
               ],
               "axis": [
                 0,
@@ -2962,17 +3351,112 @@
               ]
             },
             {
-              "name": "stamp_z spindle reaction tab",
+              "name": "stamp_z reaction foot side",
               "type": "box",
               "pos_mm": [
-                -62.5,
-                -50.5,
-                -8
+                -81.0,
+                -58.5,
+                -60
               ],
               "size_mm": [
-                13.0,
-                19.0,
-                3.5
+                4,
+                8,
+                6
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_z reaction foot side",
+              "type": "box",
+              "pos_mm": [
+                -65.0,
+                -58.5,
+                -60
+              ],
+              "size_mm": [
+                4,
+                8,
+                6
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_z reaction foot top",
+              "type": "box",
+              "pos_mm": [
+                -73.0,
+                -58.5,
+                -55.25
+              ],
+              "size_mm": [
+                4,
+                8,
+                1.25
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_z reaction foot bottom",
+              "type": "box",
+              "pos_mm": [
+                -73.0,
+                -58.5,
+                -65.25
+              ],
+              "size_mm": [
+                4,
+                8,
+                0.75
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_z reaction foot arm",
+              "type": "box",
+              "pos_mm": [
+                -73.0,
+                -41,
+                -55.25
+              ],
+              "size_mm": [
+                9.0,
+                8.0,
+                1.25
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "stamp_z reaction side strap",
+              "type": "box",
+              "pos_mm": [
+                -73.0,
+                -36,
+                -44
+              ],
+              "size_mm": [
+                8.0,
+                5.0,
+                20.0
               ],
               "axis": [
                 0,
@@ -3044,9 +3528,9 @@
         "stamp_z_spindle": {
           "parent": "stamp_y",
           "pos_mm": [
-            -62.5,
+            -73.0,
             -58.5,
-            82.5
+            27.0
           ],
           "euler": [
             0,
@@ -3057,9 +3541,9 @@
             "name": "stamp_z_spindle_travel",
             "type": "slide",
             "axis": [
-              0.0,
-              0.0,
-              1.0
+              0,
+              0,
+              1
             ],
             "damping": 0.03,
             "frictionloss": 0.001,
@@ -3075,15 +3559,34 @@
             1e-07,
             1e-07
           ],
-          "collisions": [],
+          "collisions": [
+            {
+              "name": "stamp_z_spindle_contact",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                0,
+                0
+              ],
+              "size_mm": [
+                3.0,
+                30
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            }
+          ],
           "sites": {}
         },
         "stamp_z_knob": {
           "parent": "stamp_z_spindle",
           "pos_mm": [
-            0.0,
-            0.0,
-            34.0
+            0,
+            0,
+            34
           ],
           "euler": [
             0,
@@ -3094,9 +3597,9 @@
             "name": "stamp_z_angle",
             "type": "hinge",
             "axis": [
-              0.0,
-              0.0,
-              1.0
+              0,
+              0,
+              1
             ],
             "damping": 1e-05,
             "frictionloss": 0.00015,
@@ -3117,18 +3620,18 @@
               "name": "stamp_z_grip",
               "type": "cylinder",
               "pos_mm": [
-                0.0,
-                0.0,
-                3.5
+                0,
+                0,
+                0
               ],
               "size_mm": [
-                8.15,
-                15.5
+                11.5,
+                4
               ],
               "axis": [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             }
           ],
@@ -3515,8 +4018,8 @@
           "tolerance_m": 0.00015
         }
       ],
-      "render": "./assets/transfer/render.png?v=clearance1",
-      "detail_render": "./assets/transfer/detail.png?v=clearance1",
+      "render": "./assets/transfer/render.png?v=reference5",
+      "detail_render": "./assets/transfer/detail.png?v=reference5",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -3534,45 +4037,45 @@
       "render_views": [
         {
           "label": "Illuminator and fiber",
-          "url": "./assets/transfer/illumination.png?v=clearance1"
+          "url": "./assets/transfer/illumination.png?v=reference5"
         },
         {
           "label": "Rotation stage",
-          "url": "./assets/transfer/rotation_detail.png?v=clearance1"
+          "url": "./assets/transfer/rotation_detail.png?v=reference5"
         },
         {
           "label": "Stamp positioning stages",
-          "url": "./assets/transfer/stamp_stage.png?v=clearance1"
+          "url": "./assets/transfer/stamp_stage.png?v=reference5"
         },
         {
           "label": "Optical head",
-          "url": "./assets/transfer/optical_head.png?v=clearance1"
+          "url": "./assets/transfer/optical_head.png?v=reference5"
         },
         {
           "label": "Sample X handwheel",
-          "url": "./assets/transfer/clearance_sample_x.png?v=clearance1"
+          "url": "./assets/transfer/clearance_sample_x.png?v=reference5"
         },
         {
           "label": "Vertical micrometer",
-          "url": "./assets/transfer/clearance_stamp_z.png?v=clearance1"
+          "url": "./assets/transfer/clearance_stamp_z.png?v=reference5"
         },
         {
           "label": "Camera cable routing",
-          "url": "./assets/transfer/clearance_camera_lead.png?v=clearance1"
+          "url": "./assets/transfer/clearance_camera_lead.png?v=reference5"
         }
       ],
-      "physics": "./assets/transfer/physics.xml?v=clearance1",
-      "metadata": "./assets/transfer/metadata.json?v=clearance1",
-      "collision": "./assets/transfer/collision.json?v=clearance1"
+      "physics": "./assets/transfer/physics.xml?v=reference5",
+      "metadata": "./assets/transfer/metadata.json?v=reference5",
+      "collision": "./assets/transfer/collision.json?v=reference5"
     },
     {
       "id": "probe",
       "title": "Manual probe station",
       "folder": "002_probe_station",
       "model": "probe_station",
-      "glb": "./assets/probe/model.glb?v=clearance1",
-      "preview": "./assets/probe/preview.jpg?v=clearance1",
-      "size": 25599200,
+      "glb": "./assets/probe/model.glb?v=reference5",
+      "preview": "./assets/probe/preview.jpg?v=reference5",
+      "size": 25953212,
       "controls": [
         {
           "name": "Eyepiece / camera path",
@@ -3851,25 +4354,6 @@
               ]
             },
             {
-              "name": "Microscope upright",
-              "type": "box",
-              "pos_mm": [
-                0,
-                152,
-                300
-              ],
-              "size_mm": [
-                108.0,
-                20.0,
-                151.0
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ]
-            },
-            {
               "name": "chuck_x fixed race",
               "type": "box",
               "pos_mm": [
@@ -3925,6 +4409,2868 @@
                 0,
                 1
               ]
+            },
+            {
+              "name": "Optics frame front mounting plate shell contact",
+              "type": "box",
+              "pos_mm": [
+                0,
+                134,
+                300
+              ],
+              "size_mm": [
+                108.0,
+                4.0,
+                151.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optics frame rear skin shell contact",
+              "type": "box",
+              "pos_mm": [
+                0,
+                220,
+                303
+              ],
+              "size_mm": [
+                108.0,
+                2.0,
+                147.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optics frame top deck shell contact",
+              "type": "box",
+              "pos_mm": [
+                0,
+                176,
+                451
+              ],
+              "size_mm": [
+                108.0,
+                48.0,
+                3.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optics frame bottom crossmember shell contact",
+              "type": "box",
+              "pos_mm": [
+                0,
+                176,
+                153
+              ],
+              "size_mm": [
+                108.0,
+                48.0,
+                4.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Guide frame side wall contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                176,
+                169.75
+              ],
+              "size_mm": [
+                2.5,
+                44,
+                18.75
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Guide frame side wall contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                176,
+                297.5
+              ],
+              "size_mm": [
+                2.5,
+                44,
+                94.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Guide frame side wall contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                176,
+                428.75
+              ],
+              "size_mm": [
+                2.5,
+                44,
+                22.25
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Guide frame slot end web contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                136.5,
+                301
+              ],
+              "size_mm": [
+                2.5,
+                4.5,
+                150
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Guide frame slot end web contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                215.5,
+                301
+              ],
+              "size_mm": [
+                2.5,
+                4.5,
+                150
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                147.56883716686917,
+                205.45425490338587
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.671558954847 0.740951125355 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                145.74229556608262,
+                205.090933189456
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.595699304492 0.803207531481 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                144.021731000153,
+                204.37825201130937
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.514102744193 0.85772861 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                142.47326380044538,
+                203.343599306946
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.42755509343 0.903989293123 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                141.156400693054,
+                202.02673619955462
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.336889853392 0.941544065183 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                140.12174798869063,
+                200.478268999847
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.242980179903 0.970031253195 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                139.409066810544,
+                198.75770443391738
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.146730474455 0.989176509965 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                139.04574509661413,
+                196.93116283313083
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.0490676743274 0.998795456205 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                139.04574509661413,
+                195.06883716686917
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.0490676743274 0.998795456205 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                139.409066810544,
+                193.24229556608262
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.146730474455 0.989176509965 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                140.12174798869063,
+                191.521731000153
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.242980179903 0.970031253195 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                141.156400693054,
+                189.97326380044538
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.336889853392 0.941544065183 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                142.47326380044538,
+                188.656400693054
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.42755509343 0.903989293123 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                144.021731000153,
+                187.62174798869063
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.514102744193 0.85772861 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                145.74229556608262,
+                186.909066810544
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.595699304492 0.803207531481 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                147.56883716686917,
+                186.54574509661413
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.671558954847 0.740951125355 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                204.43116283313083,
+                186.54574509661413
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 -0.671558954847 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                206.25770443391738,
+                186.909066810544
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 -0.595699304492 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                207.978268999847,
+                187.62174798869063
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 -0.514102744193 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                209.52673619955462,
+                188.656400693054
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 -0.42755509343 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                210.843599306946,
+                189.97326380044538
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 -0.336889853392 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                211.87825201130937,
+                191.521731000153
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 -0.242980179903 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                212.590933189456,
+                193.24229556608262
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 -0.146730474455 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                212.95425490338587,
+                195.06883716686917
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 -0.0490676743274 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                212.95425490338587,
+                196.93116283313083
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 0.0490676743274 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                212.590933189456,
+                198.75770443391738
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 0.146730474455 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                211.87825201130937,
+                200.478268999847
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 0.242980179903 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                210.843599306946,
+                202.02673619955462
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 0.336889853392 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                209.52673619955462,
+                203.343599306946
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 0.42755509343 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                207.978268999847,
+                204.37825201130937
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 0.514102744193 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                206.25770443391738,
+                205.090933189456
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 0.595699304492 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                204.43116283313083,
+                205.45425490338587
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 0.671558954847 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                147.56883716686917,
+                408.45425490338584
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.671558954847 0.740951125355 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                145.74229556608262,
+                408.090933189456
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.595699304492 0.803207531481 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                144.021731000153,
+                407.37825201130937
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.514102744193 0.85772861 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                142.47326380044538,
+                406.343599306946
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.42755509343 0.903989293123 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                141.156400693054,
+                405.02673619955465
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.336889853392 0.941544065183 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                140.12174798869063,
+                403.478268999847
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.242980179903 0.970031253195 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                139.409066810544,
+                401.7577044339174
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.146730474455 0.989176509965 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                139.04574509661413,
+                399.9311628331308
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.0490676743274 0.998795456205 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                139.04574509661413,
+                398.0688371668692
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.0490676743274 0.998795456205 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                139.409066810544,
+                396.2422955660826
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.146730474455 0.989176509965 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                140.12174798869063,
+                394.521731000153
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.242980179903 0.970031253195 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                141.156400693054,
+                392.97326380044535
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.336889853392 0.941544065183 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                142.47326380044538,
+                391.656400693054
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.42755509343 0.903989293123 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                144.021731000153,
+                390.62174798869063
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.514102744193 0.85772861 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                145.74229556608262,
+                389.909066810544
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.595699304492 0.803207531481 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                147.56883716686917,
+                389.54574509661416
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.671558954847 0.740951125355 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                204.43116283313083,
+                389.54574509661416
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 -0.671558954847 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                206.25770443391738,
+                389.909066810544
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 -0.595699304492 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                207.978268999847,
+                390.62174798869063
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 -0.514102744193 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                209.52673619955462,
+                391.656400693054
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 -0.42755509343 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                210.843599306946,
+                392.97326380044535
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 -0.336889853392 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                211.87825201130937,
+                394.521731000153
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 -0.242980179903 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                212.590933189456,
+                396.2422955660826
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 -0.146730474455 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                212.95425490338587,
+                398.0688371668692
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 -0.0490676743274 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                212.95425490338587,
+                399.9311628331308
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 0.0490676743274 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                212.590933189456,
+                401.7577044339174
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 0.146730474455 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                211.87825201130937,
+                403.478268999847
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 0.242980179903 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                210.843599306946,
+                405.02673619955465
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 0.336889853392 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                209.52673619955462,
+                406.343599306946
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 0.42755509343 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                207.978268999847,
+                407.37825201130937
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 0.514102744193 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                206.25770443391738,
+                408.090933189456
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 0.595699304492 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                -108,
+                204.43116283313083,
+                408.45425490338584
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 0.671558954847 0 0"
+            },
+            {
+              "name": "Guide frame side wall contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                176,
+                169.75
+              ],
+              "size_mm": [
+                2.5,
+                44,
+                18.75
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Guide frame side wall contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                176,
+                297.5
+              ],
+              "size_mm": [
+                2.5,
+                44,
+                94.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Guide frame side wall contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                176,
+                428.75
+              ],
+              "size_mm": [
+                2.5,
+                44,
+                22.25
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Guide frame slot end web contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                136.5,
+                301
+              ],
+              "size_mm": [
+                2.5,
+                4.5,
+                150
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Guide frame slot end web contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                215.5,
+                301
+              ],
+              "size_mm": [
+                2.5,
+                4.5,
+                150
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                147.56883716686917,
+                205.45425490338587
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.671558954847 0.740951125355 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                145.74229556608262,
+                205.090933189456
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.595699304492 0.803207531481 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                144.021731000153,
+                204.37825201130937
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.514102744193 0.85772861 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                142.47326380044538,
+                203.343599306946
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.42755509343 0.903989293123 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                141.156400693054,
+                202.02673619955462
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.336889853392 0.941544065183 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                140.12174798869063,
+                200.478268999847
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.242980179903 0.970031253195 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                139.409066810544,
+                198.75770443391738
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.146730474455 0.989176509965 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                139.04574509661413,
+                196.93116283313083
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.0490676743274 0.998795456205 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                139.04574509661413,
+                195.06883716686917
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.0490676743274 0.998795456205 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                139.409066810544,
+                193.24229556608262
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.146730474455 0.989176509965 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                140.12174798869063,
+                191.521731000153
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.242980179903 0.970031253195 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                141.156400693054,
+                189.97326380044538
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.336889853392 0.941544065183 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                142.47326380044538,
+                188.656400693054
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.42755509343 0.903989293123 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                144.021731000153,
+                187.62174798869063
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.514102744193 0.85772861 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                145.74229556608262,
+                186.909066810544
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.595699304492 0.803207531481 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                147.56883716686917,
+                186.54574509661413
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.671558954847 0.740951125355 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                204.43116283313083,
+                186.54574509661413
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 -0.671558954847 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                206.25770443391738,
+                186.909066810544
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 -0.595699304492 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                207.978268999847,
+                187.62174798869063
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 -0.514102744193 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                209.52673619955462,
+                188.656400693054
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 -0.42755509343 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                210.843599306946,
+                189.97326380044538
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 -0.336889853392 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                211.87825201130937,
+                191.521731000153
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 -0.242980179903 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                212.590933189456,
+                193.24229556608262
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 -0.146730474455 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                212.95425490338587,
+                195.06883716686917
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 -0.0490676743274 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                212.95425490338587,
+                196.93116283313083
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 0.0490676743274 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                212.590933189456,
+                198.75770443391738
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 0.146730474455 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                211.87825201130937,
+                200.478268999847
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 0.242980179903 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                210.843599306946,
+                202.02673619955462
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 0.336889853392 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                209.52673619955462,
+                203.343599306946
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 0.42755509343 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                207.978268999847,
+                204.37825201130937
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 0.514102744193 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                206.25770443391738,
+                205.090933189456
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 0.595699304492 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                204.43116283313083,
+                205.45425490338587
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 0.671558954847 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                147.56883716686917,
+                408.45425490338584
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.671558954847 0.740951125355 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                145.74229556608262,
+                408.090933189456
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.595699304492 0.803207531481 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                144.021731000153,
+                407.37825201130937
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.514102744193 0.85772861 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                142.47326380044538,
+                406.343599306946
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.42755509343 0.903989293123 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                141.156400693054,
+                405.02673619955465
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.336889853392 0.941544065183 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                140.12174798869063,
+                403.478268999847
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.242980179903 0.970031253195 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                139.409066810544,
+                401.7577044339174
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.146730474455 0.989176509965 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                139.04574509661413,
+                399.9311628331308
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.0490676743274 0.998795456205 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                139.04574509661413,
+                398.0688371668692
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.0490676743274 0.998795456205 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                139.409066810544,
+                396.2422955660826
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.146730474455 0.989176509965 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                140.12174798869063,
+                394.521731000153
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.242980179903 0.970031253195 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                141.156400693054,
+                392.97326380044535
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.336889853392 0.941544065183 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                142.47326380044538,
+                391.656400693054
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.42755509343 0.903989293123 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                144.021731000153,
+                390.62174798869063
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.514102744193 0.85772861 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                145.74229556608262,
+                389.909066810544
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.595699304492 0.803207531481 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                147.56883716686917,
+                389.54574509661416
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "-0.671558954847 0.740951125355 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                204.43116283313083,
+                389.54574509661416
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 -0.671558954847 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                206.25770443391738,
+                389.909066810544
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 -0.595699304492 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                207.978268999847,
+                390.62174798869063
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 -0.514102744193 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                209.52673619955462,
+                391.656400693054
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 -0.42755509343 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                210.843599306946,
+                392.97326380044535
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 -0.336889853392 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                211.87825201130937,
+                394.521731000153
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 -0.242980179903 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                212.590933189456,
+                396.2422955660826
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 -0.146730474455 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                212.95425490338587,
+                398.0688371668692
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 -0.0490676743274 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                212.95425490338587,
+                399.9311628331308
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 0.0490676743274 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                212.590933189456,
+                401.7577044339174
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 0.146730474455 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                211.87825201130937,
+                403.478268999847
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 0.242980179903 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                210.843599306946,
+                405.02673619955465
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 0.336889853392 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                209.52673619955462,
+                406.343599306946
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 0.42755509343 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                207.978268999847,
+                407.37825201130937
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 0.514102744193 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                206.25770443391738,
+                408.090933189456
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 0.595699304492 0 0"
+            },
+            {
+              "name": "Rounded guide slot contact",
+              "type": "box",
+              "pos_mm": [
+                108,
+                204.43116283313083,
+                408.45425490338584
+              ],
+              "size_mm": [
+                2.5,
+                2.0,
+                1.1439776499934626
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 0.671558954847 0 0"
+            },
+            {
+              "name": "Exposed transverse guide rod contact",
+              "type": "cylinder",
+              "pos_mm": [
+                132,
+                176,
+                195
+              ],
+              "size_mm": [
+                5.5,
+                35
+              ],
+              "axis": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "Exposed transverse guide rod contact",
+              "type": "cylinder",
+              "pos_mm": [
+                132,
+                176,
+                399
+              ],
+              "size_mm": [
+                5.5,
+                35
+              ],
+              "axis": [
+                1,
+                0,
+                0
+              ]
             }
           ],
           "sites": {}
@@ -3972,25 +7318,6 @@
                 46.0,
                 45.0,
                 54.0
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ]
-            },
-            {
-              "name": "Mitutoyo optical housing envelope",
-              "type": "box",
-              "pos_mm": [
-                0,
-                -35,
-                -13
-              ],
-              "size_mm": [
-                55.5,
-                61,
-                84.5
               ],
               "axis": [
                 0,
@@ -4097,6 +7424,291 @@
               ],
               "contype": 10,
               "conaffinity": 17
+            },
+            {
+              "name": "Optical housing inner core",
+              "type": "box",
+              "pos_mm": [
+                0,
+                -35,
+                -13
+              ],
+              "size_mm": [
+                43.5,
+                61,
+                84.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optical housing side rim",
+              "type": "box",
+              "pos_mm": [
+                -49.5,
+                -35,
+                -95.25
+              ],
+              "size_mm": [
+                6,
+                61,
+                2.25
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optical housing side rim",
+              "type": "box",
+              "pos_mm": [
+                -49.5,
+                -35,
+                18.75
+              ],
+              "size_mm": [
+                6,
+                61,
+                52.75
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optical housing side rim",
+              "type": "box",
+              "pos_mm": [
+                -49.5,
+                -86.0,
+                -63.5
+              ],
+              "size_mm": [
+                6,
+                10.0,
+                29.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optical housing side rim",
+              "type": "box",
+              "pos_mm": [
+                -49.5,
+                22.0,
+                -63.5
+              ],
+              "size_mm": [
+                6,
+                4.0,
+                29.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Blank optical cover contact",
+              "type": "box",
+              "pos_mm": [
+                -55.7,
+                -29,
+                -63
+              ],
+              "size_mm": [
+                0.8,
+                42.3,
+                25.3
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optical housing side rim",
+              "type": "box",
+              "pos_mm": [
+                49.5,
+                -35,
+                -95.25
+              ],
+              "size_mm": [
+                6,
+                61,
+                2.25
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optical housing side rim",
+              "type": "box",
+              "pos_mm": [
+                49.5,
+                -35,
+                18.75
+              ],
+              "size_mm": [
+                6,
+                61,
+                52.75
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optical housing side rim",
+              "type": "box",
+              "pos_mm": [
+                49.5,
+                -86.0,
+                -63.5
+              ],
+              "size_mm": [
+                6,
+                10.0,
+                29.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Optical housing side rim",
+              "type": "box",
+              "pos_mm": [
+                49.5,
+                22.0,
+                -63.5
+              ],
+              "size_mm": [
+                6,
+                4.0,
+                29.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Slotted optical cover contact",
+              "type": "box",
+              "pos_mm": [
+                55.7,
+                -29,
+                -76.65
+              ],
+              "size_mm": [
+                0.8,
+                42.3,
+                11.649999999999999
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Slotted optical cover contact",
+              "type": "box",
+              "pos_mm": [
+                55.7,
+                -29,
+                -48.85
+              ],
+              "size_mm": [
+                0.8,
+                42.3,
+                11.149999999999999
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Slotted optical cover contact",
+              "type": "box",
+              "pos_mm": [
+                55.7,
+                -70.15,
+                -62.5
+              ],
+              "size_mm": [
+                0.8,
+                1.1499999999999986,
+                2.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Slotted optical cover contact",
+              "type": "box",
+              "pos_mm": [
+                55.7,
+                -47.0,
+                -62.5
+              ],
+              "size_mm": [
+                0.8,
+                5.0,
+                2.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Slotted optical cover contact",
+              "type": "box",
+              "pos_mm": [
+                55.7,
+                -5.85,
+                -62.5
+              ],
+              "size_mm": [
+                0.8,
+                19.15,
+                2.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
             }
           ],
           "sites": {
@@ -5710,8 +9322,8 @@
           "tolerance_m": 8e-05
         }
       ],
-      "render": "./assets/probe/render.png?v=clearance1",
-      "detail_render": "./assets/probe/detail.png?v=clearance1",
+      "render": "./assets/probe/render.png?v=reference5",
+      "detail_render": "./assets/probe/detail.png?v=reference5",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -5729,25 +9341,29 @@
       "render_views": [
         {
           "label": "Optical head",
-          "url": "./assets/probe/optical_head.png?v=clearance1"
+          "url": "./assets/probe/optical_head.png?v=reference5"
         },
         {
           "label": "Probe manipulator",
-          "url": "./assets/probe/left_manipulator.png?v=clearance1"
+          "url": "./assets/probe/left_manipulator.png?v=reference5"
+        },
+        {
+          "label": "Guide slots and control recess",
+          "url": "./assets/probe/construction_frame.png?v=reference5"
         }
       ],
-      "physics": "./assets/probe/physics.xml?v=clearance1",
-      "metadata": "./assets/probe/metadata.json?v=clearance1",
-      "collision": "./assets/probe/collision.json?v=clearance1"
+      "physics": "./assets/probe/physics.xml?v=reference5",
+      "metadata": "./assets/probe/metadata.json?v=reference5",
+      "collision": "./assets/probe/collision.json?v=reference5"
     },
     {
       "id": "zeiss",
       "title": "Zeiss Axioskop",
       "folder": "003_zeiss",
       "model": "zeiss_upright",
-      "glb": "./assets/zeiss/model.glb?v=clearance1",
-      "preview": "./assets/zeiss/preview.jpg?v=clearance1",
-      "size": 27154052,
+      "glb": "./assets/zeiss/model.glb?v=reference5",
+      "preview": "./assets/zeiss/preview.jpg?v=reference5",
+      "size": 27486484,
       "controls": [
         {
           "name": "Stage focus",
@@ -5993,25 +9609,6 @@
               ]
             },
             {
-              "name": "Stage support fork",
-              "type": "box",
-              "pos_mm": [
-                0,
-                -37,
-                151
-              ],
-              "size_mm": [
-                63.5,
-                53.5,
-                8.5
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ]
-            },
-            {
               "name": "Condenser carrier",
               "type": "cylinder",
               "pos_mm": [
@@ -6022,6 +9619,63 @@
               "size_mm": [
                 32,
                 15.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Open stage support fork arm",
+              "type": "box",
+              "pos_mm": [
+                -56,
+                -43,
+                151
+              ],
+              "size_mm": [
+                7.5,
+                47.0,
+                8.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Open stage support fork arm",
+              "type": "box",
+              "pos_mm": [
+                56,
+                -43,
+                151
+              ],
+              "size_mm": [
+                7.5,
+                47.0,
+                8.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Open stage support fork rear bridge",
+              "type": "box",
+              "pos_mm": [
+                0,
+                10,
+                151
+              ],
+              "size_mm": [
+                63.5,
+                10.0,
+                8.5
               ],
               "axis": [
                 0,
@@ -6150,90 +9804,6 @@
           "inertia": null,
           "collisions": [
             {
-              "name": "Y runner side -1",
-              "type": "box",
-              "pos_mm": [
-                -60.5,
-                0.0,
-                -3.0
-              ],
-              "size_mm": [
-                24.5,
-                65.0,
-                4.5
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ],
-              "contype": 18,
-              "conaffinity": 9
-            },
-            {
-              "name": "Y runner end -1",
-              "type": "box",
-              "pos_mm": [
-                0.0,
-                -43.5,
-                -3.0
-              ],
-              "size_mm": [
-                36.0,
-                21.5,
-                4.5
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ],
-              "contype": 18,
-              "conaffinity": 9
-            },
-            {
-              "name": "Y runner side 1",
-              "type": "box",
-              "pos_mm": [
-                60.5,
-                0.0,
-                -3.0
-              ],
-              "size_mm": [
-                24.5,
-                65.0,
-                4.5
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ],
-              "contype": 18,
-              "conaffinity": 9
-            },
-            {
-              "name": "Y runner end 1",
-              "type": "box",
-              "pos_mm": [
-                0.0,
-                43.5,
-                -3.0
-              ],
-              "size_mm": [
-                36.0,
-                21.5,
-                4.5
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ],
-              "contype": 18,
-              "conaffinity": 9
-            },
-            {
               "name": "XY control bracket foot",
               "type": "box",
               "pos_mm": [
@@ -6272,6 +9842,794 @@
                 0,
                 1
               ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening side",
+              "type": "box",
+              "pos_mm": [
+                -54.0,
+                0.0,
+                -3.0
+              ],
+              "size_mm": [
+                31.0,
+                65.0,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening end",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                -56.0,
+                -3.0
+              ],
+              "size_mm": [
+                23.0,
+                9.0,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                28.12735939025879,
+                -26.77030372619629,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 0 0 -0.0490676743274",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                27.04644203186035,
+                -32.20444869995117,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 0 0 -0.146730474455",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                24.926143646240234,
+                -37.32330322265625,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 0 0 -0.242980179903",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                21.847946166992188,
+                -41.930145263671875,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 0 0 -0.336889853392",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                17.930147171020508,
+                -45.84794616699219,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 0 0 -0.42755509343",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                13.323301315307617,
+                -48.926143646240234,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 0 0 -0.514102744193",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                8.204447746276855,
+                -51.04644012451172,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 0 0 -0.595699304492",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                2.770303249359131,
+                -52.127357482910156,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 0 0 -0.671558954847",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -2.770303249359131,
+                -52.127357482910156,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.671558954847 0 0 -0.740951125355",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -8.204447746276855,
+                -51.04644012451172,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.595699304492 0 0 -0.803207531481",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -13.323301315307617,
+                -48.926143646240234,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.514102744193 0 0 -0.85772861",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -17.930147171020508,
+                -45.84794616699219,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.42755509343 0 0 -0.903989293123",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -21.847946166992188,
+                -41.930145263671875,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.336889853392 0 0 -0.941544065183",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -24.926143646240234,
+                -37.32330322265625,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.242980179903 0 0 -0.970031253195",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -27.04644203186035,
+                -32.20444869995117,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.146730474455 0 0 -0.989176509965",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -28.12735939025879,
+                -26.77030372619629,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.0490676743274 0 0 -0.998795456205",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening side",
+              "type": "box",
+              "pos_mm": [
+                54.0,
+                0.0,
+                -3.0
+              ],
+              "size_mm": [
+                31.0,
+                65.0,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening end",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                56.0,
+                -3.0
+              ],
+              "size_mm": [
+                23.0,
+                9.0,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                28.12735939025879,
+                26.77030372619629,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 0 0 0.0490676743274",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                27.04644203186035,
+                32.20444869995117,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 0 0 0.146730474455",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                24.926143646240234,
+                37.32330322265625,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 0 0 0.242980179903",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                21.847946166992188,
+                41.930145263671875,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 0 0 0.336889853392",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                17.930147171020508,
+                45.84794616699219,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 0 0 0.42755509343",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                13.323301315307617,
+                48.926143646240234,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 0 0 0.514102744193",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                8.204447746276855,
+                51.04644012451172,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 0 0 0.595699304492",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                2.770303249359131,
+                52.127357482910156,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 0 0 0.671558954847",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -2.770303249359131,
+                52.127357482910156,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.671558954847 0 0 0.740951125355",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -8.204447746276855,
+                51.04644012451172,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.595699304492 0 0 0.803207531481",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -13.323301315307617,
+                48.926143646240234,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.514102744193 0 0 0.85772861",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -17.930147171020508,
+                45.84794616699219,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.42755509343 0 0 0.903989293123",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -21.847946166992188,
+                41.930145263671875,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.336889853392 0 0 0.941544065183",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -24.926143646240234,
+                37.32330322265625,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.242980179903 0 0 0.970031253195",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -27.04644203186035,
+                32.20444869995117,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.146730474455 0 0 0.989176509965",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Y runner with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -28.12735939025879,
+                26.77030372619629,
+                -3.0
+              ],
+              "size_mm": [
+                5.263455967290594,
+                3.3351337327356494,
+                4.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.0490676743274 0 0 0.998795456205",
               "contype": 18,
               "conaffinity": 9
             }
@@ -6317,90 +10675,6 @@
           "mass": 0.5,
           "inertia": null,
           "collisions": [
-            {
-              "name": "Black mechanical stage side -1",
-              "type": "box",
-              "pos_mm": [
-                -67.5,
-                0.0,
-                0.0
-              ],
-              "size_mm": [
-                33.5,
-                77.0,
-                7.0
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ],
-              "contype": 18,
-              "conaffinity": 9
-            },
-            {
-              "name": "Black mechanical stage end -1",
-              "type": "box",
-              "pos_mm": [
-                0.0,
-                -48.75,
-                0.0
-              ],
-              "size_mm": [
-                34.0,
-                28.25,
-                7.0
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ],
-              "contype": 18,
-              "conaffinity": 9
-            },
-            {
-              "name": "Black mechanical stage side 1",
-              "type": "box",
-              "pos_mm": [
-                67.5,
-                0.0,
-                0.0
-              ],
-              "size_mm": [
-                33.5,
-                77.0,
-                7.0
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ],
-              "contype": 18,
-              "conaffinity": 9
-            },
-            {
-              "name": "Black mechanical stage end 1",
-              "type": "box",
-              "pos_mm": [
-                0.0,
-                48.75,
-                0.0
-              ],
-              "size_mm": [
-                34.0,
-                28.25,
-                7.0
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ],
-              "contype": 18,
-              "conaffinity": 9
-            },
             {
               "name": "Metal specimen holder side -1",
               "type": "box",
@@ -6524,6 +10798,794 @@
                 0,
                 1
               ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening side",
+              "type": "box",
+              "pos_mm": [
+                -61.5,
+                0.0,
+                0.0
+              ],
+              "size_mm": [
+                39.5,
+                77.0,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening end",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                -61.5,
+                0.0
+              ],
+              "size_mm": [
+                22.0,
+                15.5,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                26.92606544494629,
+                -26.65198516845703,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 0 0 -0.0490676743274",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                25.891311645507812,
+                -31.854042053222656,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 0 0 -0.146730474455",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                23.861570358276367,
+                -36.7542724609375,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 0 0 -0.242980179903",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                20.914840698242188,
+                -41.16436767578125,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 0 0 -0.336889853392",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                17.164365768432617,
+                -44.91484069824219,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 0 0 -0.42755509343",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                12.754274368286133,
+                -47.861572265625,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 0 0 -0.514102744193",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                7.854043006896973,
+                -49.89131164550781,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 0 0 -0.595699304492",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                2.6519858837127686,
+                -50.926063537597656,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 0 0 -0.671558954847",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -2.6519858837127686,
+                -50.926063537597656,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.671558954847 0 0 -0.740951125355",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -7.854043006896973,
+                -49.89131164550781,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.595699304492 0 0 -0.803207531481",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -12.754274368286133,
+                -47.861572265625,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.514102744193 0 0 -0.85772861",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -17.164365768432617,
+                -44.91484069824219,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.42755509343 0 0 -0.903989293123",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -20.914840698242188,
+                -41.16436767578125,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.336889853392 0 0 -0.941544065183",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -23.861570358276367,
+                -36.7542724609375,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.242980179903 0 0 -0.970031253195",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -25.891311645507812,
+                -31.854042053222656,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.146730474455 0 0 -0.989176509965",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -26.92606544494629,
+                -26.65198516845703,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.0490676743274 0 0 -0.998795456205",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening side",
+              "type": "box",
+              "pos_mm": [
+                61.5,
+                0.0,
+                0.0
+              ],
+              "size_mm": [
+                39.5,
+                77.0,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening end",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                61.5,
+                0.0
+              ],
+              "size_mm": [
+                22.0,
+                15.5,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                26.92606544494629,
+                26.65198516845703,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.998795456205 0 0 0.0490676743274",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                25.891311645507812,
+                31.854042053222656,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.989176509965 0 0 0.146730474455",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                23.861570358276367,
+                36.7542724609375,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.970031253195 0 0 0.242980179903",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                20.914840698242188,
+                41.16436767578125,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.941544065183 0 0 0.336889853392",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                17.164365768432617,
+                44.91484069824219,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.903989293123 0 0 0.42755509343",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                12.754274368286133,
+                47.861572265625,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.85772861 0 0 0.514102744193",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                7.854043006896973,
+                49.89131164550781,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.803207531481 0 0 0.595699304492",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                2.6519858837127686,
+                50.926063537597656,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.740951125355 0 0 0.671558954847",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -2.6519858837127686,
+                50.926063537597656,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.671558954847 0 0 0.740951125355",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -7.854043006896973,
+                49.89131164550781,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.595699304492 0 0 0.803207531481",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -12.754274368286133,
+                47.861572265625,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.514102744193 0 0 0.85772861",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -17.164365768432617,
+                44.91484069824219,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.42755509343 0 0 0.903989293123",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -20.914840698242188,
+                41.16436767578125,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.336889853392 0 0 0.941544065183",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -23.861570358276367,
+                36.7542724609375,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.242980179903 0 0 0.970031253195",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -25.891311645507812,
+                31.854042053222656,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.146730474455 0 0 0.989176509965",
+              "contype": 18,
+              "conaffinity": 9
+            },
+            {
+              "name": "Mechanical stage with longitudinal opening rounded end tangent",
+              "type": "box",
+              "pos_mm": [
+                -26.92606544494629,
+                26.65198516845703,
+                0.0
+              ],
+              "size_mm": [
+                5.056349186104047,
+                3.1944529755467403,
+                7.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "quat": "0.0490676743274 0 0 0.998795456205",
               "contype": 18,
               "conaffinity": 9
             }
@@ -7202,8 +12264,8 @@
           "requires_finish": true
         }
       ],
-      "render": "./assets/zeiss/render.png?v=clearance1",
-      "detail_render": "./assets/zeiss/detail.png?v=clearance1",
+      "render": "./assets/zeiss/render.png?v=reference5",
+      "detail_render": "./assets/zeiss/detail.png?v=reference5",
       "specimen_camera": true,
       "light_path": {
         "positions_m": [
@@ -7221,25 +12283,29 @@
       "render_views": [
         {
           "label": "Optical head",
-          "url": "./assets/zeiss/optical_head.png?v=clearance1"
+          "url": "./assets/zeiss/optical_head.png?v=reference5"
         },
         {
           "label": "Stage and condenser",
-          "url": "./assets/zeiss/condenser.png?v=clearance1"
+          "url": "./assets/zeiss/condenser.png?v=reference5"
+        },
+        {
+          "label": "Stage opening and support",
+          "url": "./assets/zeiss/construction_stage.png?v=reference5"
         }
       ],
-      "physics": "./assets/zeiss/physics.xml?v=clearance1",
-      "metadata": "./assets/zeiss/metadata.json?v=clearance1",
-      "collision": "./assets/zeiss/collision.json?v=clearance1"
+      "physics": "./assets/zeiss/physics.xml?v=reference5",
+      "metadata": "./assets/zeiss/metadata.json?v=reference5",
+      "collision": "./assets/zeiss/collision.json?v=reference5"
     },
     {
       "id": "bonder",
       "title": "West\u00b7Bond 7700",
       "folder": "004_wire_bonder",
       "model": "wire_bonder",
-      "glb": "./assets/bonder/model.glb?v=clearance1",
-      "preview": "./assets/bonder/preview.jpg?v=clearance1",
-      "size": 40666208,
+      "glb": "./assets/bonder/model.glb?v=reference5",
+      "preview": "./assets/bonder/preview.jpg?v=reference5",
+      "size": 41370700,
       "controls": [
         {
           "name": "Stereo focus",
@@ -7443,6 +12509,82 @@
               "size_mm": [
                 26,
                 17.0
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Granular heater insulation side -1",
+              "type": "box",
+              "pos_mm": [
+                -44.0,
+                -109.0,
+                80.0
+              ],
+              "size_mm": [
+                1.0,
+                42.0,
+                12.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Granular heater insulation end -1",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                -150.0,
+                80.0
+              ],
+              "size_mm": [
+                43.0,
+                1.0,
+                12.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Granular heater insulation side 1",
+              "type": "box",
+              "pos_mm": [
+                44.0,
+                -109.0,
+                80.0
+              ],
+              "size_mm": [
+                1.0,
+                42.0,
+                12.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Granular heater insulation end 1",
+              "type": "box",
+              "pos_mm": [
+                0.0,
+                -68.0,
+                80.0
+              ],
+              "size_mm": [
+                43.0,
+                1.0,
+                12.5
               ],
               "axis": [
                 0,
@@ -7753,6 +12895,26 @@
               ]
             },
             {
+              "name": "Bond tool shank contact",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                0,
+                -8.5
+              ],
+              "size_mm": [
+                1.2,
+                3.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ],
+              "contype": 1,
+              "conaffinity": 3
+            },
+            {
               "name": "Bond wedge contact",
               "type": "sphere",
               "pos_mm": [
@@ -7969,39 +13131,39 @@
           "tolerance_m": 0.0002
         }
       ],
-      "render": "./assets/bonder/render.png?v=clearance1",
-      "detail_render": "./assets/bonder/detail.png?v=clearance1",
+      "render": "./assets/bonder/render.png?v=reference5",
+      "detail_render": "./assets/bonder/detail.png?v=reference5",
       "specimen_camera": false,
       "render_views": [
         {
           "label": "Bonding head",
-          "url": "./assets/bonder/head_detail.png?v=clearance1"
+          "url": "./assets/bonder/head_detail.png?v=reference5"
         },
         {
           "label": "Optical head",
-          "url": "./assets/bonder/optical_head.png?v=clearance1"
+          "url": "./assets/bonder/optical_head.png?v=reference5"
         },
         {
           "label": "Heated workholder",
-          "url": "./assets/bonder/heater_detail.png?v=clearance1"
+          "url": "./assets/bonder/heater_detail.png?v=reference5"
         },
         {
           "label": "Rear connections",
-          "url": "./assets/bonder/rear_service.png?v=clearance1"
+          "url": "./assets/bonder/rear_service.png?v=reference5"
         }
       ],
-      "physics": "./assets/bonder/physics.xml?v=clearance1",
-      "metadata": "./assets/bonder/metadata.json?v=clearance1",
-      "collision": "./assets/bonder/collision.json?v=clearance1"
+      "physics": "./assets/bonder/physics.xml?v=reference5",
+      "metadata": "./assets/bonder/metadata.json?v=reference5",
+      "collision": "./assets/bonder/collision.json?v=reference5"
     },
     {
       "id": "afm",
       "title": "Asylum Cypher S",
       "folder": "005_afm",
       "model": "cypher_s",
-      "glb": "./assets/afm/model.glb?v=clearance1",
-      "preview": "./assets/afm/preview.jpg?v=clearance1",
-      "size": 26950380,
+      "glb": "./assets/afm/model.glb?v=reference5",
+      "preview": "./assets/afm/preview.jpg?v=reference5",
+      "size": 27985976,
       "controls": [
         {
           "name": "Door release",
@@ -8517,6 +13679,80 @@
                 0,
                 1
               ]
+            },
+            {
+              "name": "Keeper bracket forward tab",
+              "type": "box",
+              "pos_mm": [
+                135.3,
+                -140.8,
+                254
+              ],
+              "size_mm": [
+                5.3,
+                0.7,
+                13.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Keeper bracket side attachment",
+              "type": "box",
+              "pos_mm": [
+                141.3,
+                -134.25,
+                254
+              ],
+              "size_mm": [
+                0.7,
+                7.25,
+                13.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Enclosure cylindrical keeper",
+              "type": "cylinder",
+              "pos_mm": [
+                137,
+                -147.25,
+                254
+              ],
+              "size_mm": [
+                5.0,
+                5.75
+              ],
+              "axis": [
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "name": "Keeper roller shoulder",
+              "type": "cylinder",
+              "pos_mm": [
+                137,
+                -153.3,
+                254
+              ],
+              "size_mm": [
+                5.5,
+                0.3
+              ],
+              "axis": [
+                0,
+                -1,
+                0
+              ]
             }
           ],
           "sites": {}
@@ -8560,25 +13796,6 @@
               "type": "box",
               "pos_mm": [
                 43,
-                -5,
-                187
-              ],
-              "size_mm": [
-                43.0,
-                13.0,
-                188.0
-              ],
-              "axis": [
-                0,
-                0,
-                1
-              ]
-            },
-            {
-              "name": "Door anodized stile",
-              "type": "box",
-              "pos_mm": [
-                279,
                 -5,
                 187
               ],
@@ -8649,6 +13866,329 @@
                 0,
                 1
               ]
+            },
+            {
+              "name": "Door cheek inboard of receiver",
+              "type": "box",
+              "pos_mm": [
+                263.8,
+                -5,
+                187
+              ],
+              "size_mm": [
+                27.8,
+                13,
+                188
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door cheek outboard of receiver",
+              "type": "box",
+              "pos_mm": [
+                306.45,
+                -5,
+                187
+              ],
+              "size_mm": [
+                2.05,
+                13,
+                188
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door keeper receiver blind front",
+              "type": "box",
+              "pos_mm": [
+                298,
+                -10,
+                187
+              ],
+              "size_mm": [
+                6.4,
+                8,
+                188
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door keeper receiver lower wall",
+              "type": "box",
+              "pos_mm": [
+                298,
+                3,
+                84.3
+              ],
+              "size_mm": [
+                6.4,
+                5,
+                85.3
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door keeper receiver upper wall",
+              "type": "box",
+              "pos_mm": [
+                298,
+                3,
+                278.7
+              ],
+              "size_mm": [
+                6.4,
+                5,
+                96.3
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door pocket front wall",
+              "type": "box",
+              "pos_mm": [
+                315.25,
+                -15.5,
+                187
+              ],
+              "size_mm": [
+                6.75,
+                2.5,
+                188
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door pocket rear wall below shaft",
+              "type": "box",
+              "pos_mm": [
+                315.25,
+                5.5,
+                86.425
+              ],
+              "size_mm": [
+                6.75,
+                2.5,
+                87.425
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door pocket rear wall above shaft",
+              "type": "box",
+              "pos_mm": [
+                315.25,
+                5.5,
+                276.575
+              ],
+              "size_mm": [
+                6.75,
+                2.5,
+                98.425
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door shaft bore inboard wall",
+              "type": "box",
+              "pos_mm": [
+                311.975,
+                5.5,
+                176
+              ],
+              "size_mm": [
+                3.475,
+                2.5,
+                2.15
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door shaft bore outboard wall",
+              "type": "box",
+              "pos_mm": [
+                320.875,
+                5.5,
+                176
+              ],
+              "size_mm": [
+                1.125,
+                2.5,
+                2.15
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door pocket upper wall",
+              "type": "box",
+              "pos_mm": [
+                315.25,
+                -5,
+                281
+              ],
+              "size_mm": [
+                6.75,
+                8,
+                94
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door pocket lower wall",
+              "type": "box",
+              "pos_mm": [
+                315.25,
+                -5,
+                37
+              ],
+              "size_mm": [
+                6.75,
+                8,
+                38
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door release pocket lower stop",
+              "type": "box",
+              "pos_mm": [
+                312.3,
+                -5,
+                78.3
+              ],
+              "size_mm": [
+                3.6,
+                4.6,
+                0.85
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door receiver plate inboard rim",
+              "type": "box",
+              "pos_mm": [
+                291.05,
+                10.7,
+                176
+              ],
+              "size_mm": [
+                0.55,
+                0.6,
+                12.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door receiver plate outboard rim",
+              "type": "box",
+              "pos_mm": [
+                304.95,
+                10.7,
+                176
+              ],
+              "size_mm": [
+                0.55,
+                0.6,
+                12.5
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door receiver plate lower rim",
+              "type": "box",
+              "pos_mm": [
+                298,
+                10.7,
+                166.55
+              ],
+              "size_mm": [
+                6.4,
+                0.6,
+                3.05
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door receiver plate upper rim",
+              "type": "box",
+              "pos_mm": [
+                298,
+                10.7,
+                185.45
+              ],
+              "size_mm": [
+                6.4,
+                0.6,
+                3.05
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
             }
           ],
           "sites": {}
@@ -8656,9 +14196,9 @@
         "door_latch": {
           "parent": "door",
           "pos_mm": [
-            322,
-            -4,
-            145
+            317.6,
+            -5.0,
+            176.0
           ],
           "euler": [
             0,
@@ -8677,41 +14217,131 @@
             "frictionloss": 0.008,
             "range": [
               0,
-              1.35
+              1.5707963267948966
             ]
           },
-          "mass": 0.045,
-          "inertia": null,
+          "mass": 0.035,
+          "inertia": [
+            2.4e-05,
+            2.5e-05,
+            1.2e-06
+          ],
           "collisions": [
             {
-              "name": "Lift paddle grip",
+              "name": "Door folding handle upper grip",
               "type": "box",
               "pos_mm": [
-                27,
-                -3,
-                0
+                1.6,
+                0,
+                -21
               ],
               "size_mm": [
-                17,
-                9.5,
-                5.2
+                1.8,
+                6.0,
+                20
               ],
               "axis": [
                 0,
                 0,
                 1
               ]
+            },
+            {
+              "name": "Door folding handle lower grip",
+              "type": "box",
+              "pos_mm": [
+                1.6,
+                0,
+                -62
+              ],
+              "size_mm": [
+                1.8,
+                6.2,
+                21
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door handle finger lip",
+              "type": "box",
+              "pos_mm": [
+                -0.25,
+                0,
+                -84.1
+              ],
+              "size_mm": [
+                1.3,
+                5.4,
+                3.75
+              ],
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Door release hinge barrel",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                0,
+                0
+              ],
+              "size_mm": [
+                3.2,
+                6.2
+              ],
+              "axis": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "name": "Enclosure latch cam shaft",
+              "type": "cylinder",
+              "pos_mm": [
+                0,
+                10.2,
+                0
+              ],
+              "size_mm": [
+                2.0,
+                5.2
+              ],
+              "axis": [
+                0,
+                1,
+                0
+              ]
             }
           ],
           "sites": {
             "door_release": {
               "pos_mm": [
-                33,
-                -3,
-                2
+                -1.4,
+                0,
+                -85.5
+              ]
+            },
+            "door_release_outer_grip": {
+              "pos_mm": [
+                3.6,
+                0,
+                -77.0
               ]
             }
-          }
+          },
+          "com_m": [
+            0.0014,
+            0,
+            -0.044
+          ]
         },
         "scanner_latch": {
           "parent": "base",
@@ -9206,34 +14836,50 @@
           "seconds": 20
         }
       ],
-      "render": "./assets/afm/render.png?v=clearance1",
-      "detail_render": "./assets/afm/detail.png?v=clearance1",
+      "render": "./assets/afm/render.png?v=reference5",
+      "detail_render": "./assets/afm/detail.png?v=reference5",
       "specimen_camera": false,
       "render_views": [
         {
           "label": "Door release",
-          "url": "./assets/afm/door_release.png?v=clearance1"
+          "url": "./assets/afm/door_release.png?v=reference5"
+        },
+        {
+          "label": "Door handle \u00b7 stowed",
+          "url": "./assets/afm/door_handle_stowed.png?v=reference5"
+        },
+        {
+          "label": "Door handle \u00b7 deployed",
+          "url": "./assets/afm/door_handle_deployed.png?v=reference5"
+        },
+        {
+          "label": "Open door \u00b7 handle recess",
+          "url": "./assets/afm/door_handle_pocket_open.png?v=reference5"
+        },
+        {
+          "label": "Door catch",
+          "url": "./assets/afm/door_latch_keeper.png?v=reference5"
         },
         {
           "label": "Open scanner",
-          "url": "./assets/afm/open_scanner.png?v=clearance1"
+          "url": "./assets/afm/open_scanner.png?v=reference5"
         },
         {
           "label": "Scanner release",
-          "url": "./assets/afm/scanner_release.png?v=clearance1"
+          "url": "./assets/afm/scanner_release.png?v=reference5"
         }
       ],
-      "physics": "./assets/afm/physics.xml?v=clearance1",
-      "metadata": "./assets/afm/metadata.json?v=clearance1",
-      "collision": "./assets/afm/collision.json?v=clearance1"
+      "physics": "./assets/afm/physics.xml?v=reference5",
+      "metadata": "./assets/afm/metadata.json?v=reference5",
+      "collision": "./assets/afm/collision.json?v=reference5"
     },
     {
       "id": "tweezers",
       "title": "Spring tweezers",
       "folder": "006_tweezers",
       "model": "spring_tweezers",
-      "glb": "./assets/tweezers/model.glb?v=clearance1",
-      "preview": "./assets/tweezers/preview.jpg?v=clearance1",
+      "glb": "./assets/tweezers/model.glb?v=reference5",
+      "preview": "./assets/tweezers/preview.jpg?v=reference5",
       "size": 6768524,
       "controls": [
         {
@@ -11509,18 +17155,18 @@
           "tolerance_m": 0.001
         }
       ],
-      "render": "./assets/tweezers/render.png?v=clearance1",
-      "detail_render": "./assets/tweezers/detail.png?v=clearance1",
+      "render": "./assets/tweezers/render.png?v=reference5",
+      "detail_render": "./assets/tweezers/detail.png?v=reference5",
       "specimen_camera": false,
       "render_views": [
         {
           "label": "Measured chip placement",
-          "url": "./assets/tweezers/placement.png?v=clearance1"
+          "url": "./assets/tweezers/placement.png?v=reference5"
         }
       ],
-      "physics": "./assets/tweezers/physics.xml?v=clearance1",
-      "metadata": "./assets/tweezers/metadata.json?v=clearance1",
-      "collision": "./assets/tweezers/collision.json?v=clearance1"
+      "physics": "./assets/tweezers/physics.xml?v=reference5",
+      "metadata": "./assets/tweezers/metadata.json?v=reference5",
+      "collision": "./assets/tweezers/collision.json?v=reference5"
     }
   ]
 }

@@ -35,7 +35,7 @@ Existing task recordings show earlier reconstructions. Use the live viewer and
 current rendered stills to inspect the latest models.
 
 The gallery is lightweight and remains visible without JavaScript. Only the selected
-instrument is downloaded (about 7–54 MB including geometry and textures). The runtime adds about 23 MB when you open an instrument; task policies and optical
+instrument is downloaded (about 7–60 MB including geometry and textures). The runtime adds about 23 MB when you open an instrument; task policies and optical
 imaging load another 20 MB on first use. These files are cached by the browser. Use a current desktop
 Chrome or Edge with WebAssembly and WebGL enabled. Complex optics
 and contacts can run slower than real time; the displayed clock is simulation time.
@@ -111,7 +111,7 @@ The [earlier lighting comparison](validation/lighting2/comparison.jpg) and
 | Dry-transfer station | Screw-driven sample/stamp stages, coarse clamp and fine rotation micrometer, goniometer, external illuminator and light routing; alignment and contact/retraction |
 | Manual probe station | Chuck, two probe manipulators and microscope; pad alignment and measured two-tip contact/retraction |
 | Zeiss Axioskop | XY stage and connected controls, focus, objective turret and light routing; centering and focusing |
-| West·Bond 7700 | Separate hand lever and wedge head with 8:1 motion coupling; alignment and two-pad contact sequence |
+| West·Bond 7700 | Separate hand lever and wedge head with an estimated 8:1 equivalent coupling; alignment and two-pad contact sequence |
 | Asylum Cypher S | Enclosure release, door, scanner release and drawer with interlocks; access and complete open/close cycle |
 | Spring tweezers | Two compliant jaws and a moving fixture; contact-based chip grasp, lift and tray placement |
 
@@ -169,18 +169,57 @@ The transfer vacuum and heater lines terminate in separate fittings and
 follow XY plus rotation. Their declared attached-service envelope is ±90° coarse
 rotation plus ±2.5° fine adjustment, with the stamp retracted. Larger rotations
 require rerouting or disconnecting services, which is outside the current cable
-model. [Current geometry checks](validation/clearance1/geometry.json) and
+model. [Current construction and geometry checks](validation/reference5/assets.json) and
 [current gripper evidence](robotics/README.md) describe the measured coverage.
 The [earlier hose sweep](validation/transfer_hose/summary.json) remains available
 as historical evidence for the earlier model.
 
-## Clearance corrections
+## Construction from laboratory references
 
-[Compare the transfer-stage clearances before and after correction](validation/clearance1/comparison/comparison.jpg).
+The current revision checks construction against the supplied laboratory photos
+and motion videos, including openings and moving parts that surface shading
+cannot reproduce. The original laboratory photographs and videos remain private.
 
-The current models correct visible interference and the associated contact
-coverage. The transfer handwheel mount, horizontal thrust pads, vertical
-micrometer bracket, lift-lid bores and camera cable routing were revised.
+- **Cypher AFM:** the long door-release blade folds downward into a real vertical
+  pocket in the door edge, then lifts outward around its upper pivot. The pocket
+  has recessed walls and a back pan; its compound collision shapes leave room
+  for access. A cylindrical keeper enters real bores through the cheek, liners
+  and receiver plate. The latch interlock remains active.
+- **Nikon:** the photographed left focus controls share the existing focus shafts
+  and have contact shapes, rather than leaving that side of the stand bare.
+- **Zeiss:** the stage has a rounded opening running front to back and an open
+  support fork, preserving the specimen and objective positions.
+- **Probe station:** the guide slots pass through the housing, and the side control
+  cover has recessed wells and matching compound collision coverage.
+- **Transfer station:** a compact scalloped vertical adjuster and separate
+  cylindrical supports replace the incorrect tall micrometer assembly. Horizontal
+  clamp blocks have real bores, while the raised sample-X grip datum is retained.
+  Heater support balls sit on the rotary top with separate preload rods; the
+  vacuum line clears the sample-Y wheel throughout the sampled service envelope.
+- **Bonder:** the spool is opaque metal, the frame and polished rods have distinct
+  finishes, and the silver wedge-shaped tool retains the existing simulated
+  bond-tip position. The heater has a thin granular jacket, folded metal liner
+  and air gap around the unchanged platen. Its surface maps are shared by the
+  still renders and live model.
+
+Choose **More rendered views → Door handle · stowed / deployed** on the AFM
+to inspect the mechanism, or operate the door-release control in the live view.
+[Compare the previous handle with the recessed, stowed and deployed reconstruction](validation/reference5/comparison/afm-handle-comparison.jpg).
+[Current reference review and measured evidence](validation/reference5/assets.json)
+separate observed construction from estimated dimensions and hidden mechanisms.
+The latch uses a finite-force actuator and the existing state interlock. The
+concealed catch mechanism and its force response have not been reconstructed or
+calibrated from the available views.
+
+## Earlier clearance corrections
+
+[Compare the earlier transfer-stage clearance repair](validation/clearance1/comparison/comparison.jpg).
+The vertical-drive construction in that historical comparison has since been
+replaced by the reference-supported assembly described above.
+
+The earlier clearance revision corrected visible interference and the associated
+contact coverage. The transfer handwheel mount, horizontal thrust pads, vertical
+drive support, lift-lid bores and camera cable routing were revised.
 The Nikon camera cables and stage loom stay above the bench, and its stage
 clears the fixed motor blocks. The Zeiss stage clears its gearbox. Probe
 micrometers have barrel graduations and contact shapes covering their grips.
@@ -198,14 +237,15 @@ motion. These fixture settings are simulation estimates, not factory calibration
 
 The bonder handle travel is ±35 mm X, ±15 mm Y and −21…+6 mm Z, coupled to
 one-eighth as much tool travel. These are validated reconstruction limits,
-not claimed manufacturer specifications.
+not claimed manufacturer specifications. The equivalent Cartesian coupling
+approximates the concealed linkage over small motions.
 
 Checks combine detailed mesh clearances, motion endpoints and sampled sweeps,
 compiled collision coverage, and measured native/browser task execution.
 They do not establish collision freedom for every possible combination of
 instrument controls or arbitrary robot approaches. Intended threaded fits,
 bearings and functional tool/sample contact are identified separately.
-[Current delivery audit](validation/clearance1.json) and
+[Current delivery audit](validation/reference5.json) and
 [validation summary](validation/summary.json) identify the exact tested files.
 
 ## Visual revision 4
@@ -230,7 +270,7 @@ Overview images are 3840×3200; new details are 2560×2160. The live GLBs use th
 
 The transfer source power and dimmer affect microscope images. The dimmer represents a 10–100% relative illumination range; its zero setting is the powered minimum. The coarse ring turns with the clamp released; locking it engages the fine micrometer. Fiber and probe cables follow measured joint motion through visual deformation, without cable contact or strain simulation.
 
-[Delivery audit](validation/clearance1.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
+[Delivery audit](validation/reference5.json) records the current model, physics, texture and final-still hashes. [Browser results](validation/summary.json) link current runtime checks. Dimensions not established by readable markings or manufacturer drawings, material properties and hidden mechanics remain estimates. The image model is not a calibrated optical digital twin.
 
 ## Implementation
 
@@ -285,8 +325,9 @@ also passes 54/54 episodes across seeds 0, 11 and 37, with 18 no-action controls
 These are fixture benchmark checks on estimated instrument models, not
 physical-lab calibration results.
 
-Current rendering evidence includes [browser and Photo-mode checks](validation/clearance1/browser/rendering.json)
-and [all-seven-instrument checks](validation/clearance1/browser/all-models.json).
+Current rendering evidence includes [browser and Photo-mode checks](validation/reference5/browser/rendering.json),
+[all-seven-instrument checks](validation/reference5/browser/all-models.json), and
+[AFM handle stow/deploy and door operation](validation/reference5/browser/afm-pocket.json).
 The unchanged renderer also retains its earlier evidence for
 [reflection updates during camera and mechanism motion](validation/reflections3/motion.json),
 [planar reflection controls](validation/reflections3/planar.json),
@@ -296,7 +337,7 @@ Earlier evidence remains available for [pause/cancellation behavior](validation/
 [micrometre-scale ray intersections](validation/photo1/intersection.json),
 [display-transform agreement](validation/lighting2/grade_gpu.json), and
 [cable physics coverage](validation/lighting2/cables.json).
-Physics, model and still inputs changed in the clearance correction. Native and
+Physics, model and still inputs changed in the construction correction. Native and
 browser benchmarks are rerun on the current inputs; earlier rendering experiments
 are historical evidence for the unchanged renderer. Reflections do not add cable
 contact, tension or deformation physics.

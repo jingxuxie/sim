@@ -172,6 +172,82 @@
           ]
         },
         {
+          "name": "Granular heater insulation side -1",
+          "type": "box",
+          "pos_mm": [
+            -44.0,
+            -109.0,
+            80.0
+          ],
+          "size_mm": [
+            1.0,
+            42.0,
+            12.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Granular heater insulation end -1",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -150.0,
+            80.0
+          ],
+          "size_mm": [
+            43.0,
+            1.0,
+            12.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Granular heater insulation side 1",
+          "type": "box",
+          "pos_mm": [
+            44.0,
+            -109.0,
+            80.0
+          ],
+          "size_mm": [
+            1.0,
+            42.0,
+            12.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Granular heater insulation end 1",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -68.0,
+            80.0
+          ],
+          "size_mm": [
+            43.0,
+            1.0,
+            12.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
           "name": "Workholder metal platen",
           "type": "box",
           "pos_mm": [
@@ -474,6 +550,26 @@
           ]
         },
         {
+          "name": "Bond tool shank contact",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            -8.5
+          ],
+          "size_mm": [
+            1.2,
+            3.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 1,
+          "conaffinity": 3
+        },
+        {
           "name": "Bond wedge contact",
           "type": "sphere",
           "pos_mm": [
@@ -738,8 +834,8 @@
     }
   ],
   "identity": "West\u00b7Bond 7700-series architecture; exact installed D/E suffix and convertible head unverified",
-  "reconstruction": "Realism4: photo-specific SZ51 curved optical shell/focus fork, machined head cheeks and asymmetric yoke, wire clamp/feed and threaded flanged spool, slotted heater clamp, rounded access openings, crossed lower linkage detail and service hardware. Lab photos 266, 268, 269, 270 and the manipulation video are primary; 7700D/E references establish architecture.",
-  "geometry_revision": "realism4",
+  "reconstruction": "Reference5: rechecked lab photo268 and the local manipulation video; satin-metal spool rims, distinct satin head frame/polished rods, and silver tapered bonding wedge retain the separate head/handle architecture. Existing photo-specific SZ51 optical shell, open head yoke, wire feed, heater clamp and lower linkage retained.",
+  "geometry_revision": "reference5",
   "clearance_revision": "clearance1",
   "reconstructed_handle_operating_envelope_m": {
     "x": [

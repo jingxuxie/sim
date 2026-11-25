@@ -196,25 +196,6 @@
           ]
         },
         {
-          "name": "Stage support fork",
-          "type": "box",
-          "pos_mm": [
-            0,
-            -37,
-            151
-          ],
-          "size_mm": [
-            63.5,
-            53.5,
-            8.5
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ]
-        },
-        {
           "name": "Condenser carrier",
           "type": "cylinder",
           "pos_mm": [
@@ -225,6 +206,63 @@
           "size_mm": [
             32,
             15.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Open stage support fork arm",
+          "type": "box",
+          "pos_mm": [
+            -56,
+            -43,
+            151
+          ],
+          "size_mm": [
+            7.5,
+            47.0,
+            8.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Open stage support fork arm",
+          "type": "box",
+          "pos_mm": [
+            56,
+            -43,
+            151
+          ],
+          "size_mm": [
+            7.5,
+            47.0,
+            8.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Open stage support fork rear bridge",
+          "type": "box",
+          "pos_mm": [
+            0,
+            10,
+            151
+          ],
+          "size_mm": [
+            63.5,
+            10.0,
+            8.5
           ],
           "axis": [
             0,
@@ -353,90 +391,6 @@
       "inertia": null,
       "collisions": [
         {
-          "name": "Y runner side -1",
-          "type": "box",
-          "pos_mm": [
-            -60.5,
-            0.0,
-            -3.0
-          ],
-          "size_mm": [
-            24.5,
-            65.0,
-            4.5
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
-          "name": "Y runner end -1",
-          "type": "box",
-          "pos_mm": [
-            0.0,
-            -43.5,
-            -3.0
-          ],
-          "size_mm": [
-            36.0,
-            21.5,
-            4.5
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
-          "name": "Y runner side 1",
-          "type": "box",
-          "pos_mm": [
-            60.5,
-            0.0,
-            -3.0
-          ],
-          "size_mm": [
-            24.5,
-            65.0,
-            4.5
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
-          "name": "Y runner end 1",
-          "type": "box",
-          "pos_mm": [
-            0.0,
-            43.5,
-            -3.0
-          ],
-          "size_mm": [
-            36.0,
-            21.5,
-            4.5
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
           "name": "XY control bracket foot",
           "type": "box",
           "pos_mm": [
@@ -475,6 +429,794 @@
             0,
             1
           ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening side",
+          "type": "box",
+          "pos_mm": [
+            -54.0,
+            0.0,
+            -3.0
+          ],
+          "size_mm": [
+            31.0,
+            65.0,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening end",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -56.0,
+            -3.0
+          ],
+          "size_mm": [
+            23.0,
+            9.0,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            28.12735939025879,
+            -26.77030372619629,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.998795456205 0 0 -0.0490676743274",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            27.04644203186035,
+            -32.20444869995117,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.989176509965 0 0 -0.146730474455",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            24.926143646240234,
+            -37.32330322265625,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.970031253195 0 0 -0.242980179903",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            21.847946166992188,
+            -41.930145263671875,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.941544065183 0 0 -0.336889853392",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            17.930147171020508,
+            -45.84794616699219,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.903989293123 0 0 -0.42755509343",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            13.323301315307617,
+            -48.926143646240234,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.85772861 0 0 -0.514102744193",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            8.204447746276855,
+            -51.04644012451172,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.803207531481 0 0 -0.595699304492",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            2.770303249359131,
+            -52.127357482910156,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.740951125355 0 0 -0.671558954847",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -2.770303249359131,
+            -52.127357482910156,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.671558954847 0 0 -0.740951125355",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -8.204447746276855,
+            -51.04644012451172,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.595699304492 0 0 -0.803207531481",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -13.323301315307617,
+            -48.926143646240234,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.514102744193 0 0 -0.85772861",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -17.930147171020508,
+            -45.84794616699219,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.42755509343 0 0 -0.903989293123",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -21.847946166992188,
+            -41.930145263671875,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.336889853392 0 0 -0.941544065183",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -24.926143646240234,
+            -37.32330322265625,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.242980179903 0 0 -0.970031253195",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -27.04644203186035,
+            -32.20444869995117,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.146730474455 0 0 -0.989176509965",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -28.12735939025879,
+            -26.77030372619629,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.0490676743274 0 0 -0.998795456205",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening side",
+          "type": "box",
+          "pos_mm": [
+            54.0,
+            0.0,
+            -3.0
+          ],
+          "size_mm": [
+            31.0,
+            65.0,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening end",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            56.0,
+            -3.0
+          ],
+          "size_mm": [
+            23.0,
+            9.0,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            28.12735939025879,
+            26.77030372619629,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.998795456205 0 0 0.0490676743274",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            27.04644203186035,
+            32.20444869995117,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.989176509965 0 0 0.146730474455",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            24.926143646240234,
+            37.32330322265625,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.970031253195 0 0 0.242980179903",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            21.847946166992188,
+            41.930145263671875,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.941544065183 0 0 0.336889853392",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            17.930147171020508,
+            45.84794616699219,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.903989293123 0 0 0.42755509343",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            13.323301315307617,
+            48.926143646240234,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.85772861 0 0 0.514102744193",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            8.204447746276855,
+            51.04644012451172,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.803207531481 0 0 0.595699304492",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            2.770303249359131,
+            52.127357482910156,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.740951125355 0 0 0.671558954847",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -2.770303249359131,
+            52.127357482910156,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.671558954847 0 0 0.740951125355",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -8.204447746276855,
+            51.04644012451172,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.595699304492 0 0 0.803207531481",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -13.323301315307617,
+            48.926143646240234,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.514102744193 0 0 0.85772861",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -17.930147171020508,
+            45.84794616699219,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.42755509343 0 0 0.903989293123",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -21.847946166992188,
+            41.930145263671875,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.336889853392 0 0 0.941544065183",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -24.926143646240234,
+            37.32330322265625,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.242980179903 0 0 0.970031253195",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -27.04644203186035,
+            32.20444869995117,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.146730474455 0 0 0.989176509965",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Y runner with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -28.12735939025879,
+            26.77030372619629,
+            -3.0
+          ],
+          "size_mm": [
+            5.263455967290594,
+            3.3351337327356494,
+            4.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.0490676743274 0 0 0.998795456205",
           "contype": 18,
           "conaffinity": 9
         }
@@ -520,90 +1262,6 @@
       "mass": 0.5,
       "inertia": null,
       "collisions": [
-        {
-          "name": "Black mechanical stage side -1",
-          "type": "box",
-          "pos_mm": [
-            -67.5,
-            0.0,
-            0.0
-          ],
-          "size_mm": [
-            33.5,
-            77.0,
-            7.0
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
-          "name": "Black mechanical stage end -1",
-          "type": "box",
-          "pos_mm": [
-            0.0,
-            -48.75,
-            0.0
-          ],
-          "size_mm": [
-            34.0,
-            28.25,
-            7.0
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
-          "name": "Black mechanical stage side 1",
-          "type": "box",
-          "pos_mm": [
-            67.5,
-            0.0,
-            0.0
-          ],
-          "size_mm": [
-            33.5,
-            77.0,
-            7.0
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
-        {
-          "name": "Black mechanical stage end 1",
-          "type": "box",
-          "pos_mm": [
-            0.0,
-            48.75,
-            0.0
-          ],
-          "size_mm": [
-            34.0,
-            28.25,
-            7.0
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ],
-          "contype": 18,
-          "conaffinity": 9
-        },
         {
           "name": "Metal specimen holder side -1",
           "type": "box",
@@ -727,6 +1385,794 @@
             0,
             1
           ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening side",
+          "type": "box",
+          "pos_mm": [
+            -61.5,
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            39.5,
+            77.0,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening end",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            -61.5,
+            0.0
+          ],
+          "size_mm": [
+            22.0,
+            15.5,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            26.92606544494629,
+            -26.65198516845703,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.998795456205 0 0 -0.0490676743274",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            25.891311645507812,
+            -31.854042053222656,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.989176509965 0 0 -0.146730474455",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            23.861570358276367,
+            -36.7542724609375,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.970031253195 0 0 -0.242980179903",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            20.914840698242188,
+            -41.16436767578125,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.941544065183 0 0 -0.336889853392",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            17.164365768432617,
+            -44.91484069824219,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.903989293123 0 0 -0.42755509343",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            12.754274368286133,
+            -47.861572265625,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.85772861 0 0 -0.514102744193",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            7.854043006896973,
+            -49.89131164550781,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.803207531481 0 0 -0.595699304492",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            2.6519858837127686,
+            -50.926063537597656,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.740951125355 0 0 -0.671558954847",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -2.6519858837127686,
+            -50.926063537597656,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.671558954847 0 0 -0.740951125355",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -7.854043006896973,
+            -49.89131164550781,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.595699304492 0 0 -0.803207531481",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -12.754274368286133,
+            -47.861572265625,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.514102744193 0 0 -0.85772861",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -17.164365768432617,
+            -44.91484069824219,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.42755509343 0 0 -0.903989293123",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -20.914840698242188,
+            -41.16436767578125,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.336889853392 0 0 -0.941544065183",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -23.861570358276367,
+            -36.7542724609375,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.242980179903 0 0 -0.970031253195",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -25.891311645507812,
+            -31.854042053222656,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.146730474455 0 0 -0.989176509965",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -26.92606544494629,
+            -26.65198516845703,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.0490676743274 0 0 -0.998795456205",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening side",
+          "type": "box",
+          "pos_mm": [
+            61.5,
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            39.5,
+            77.0,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening end",
+          "type": "box",
+          "pos_mm": [
+            0.0,
+            61.5,
+            0.0
+          ],
+          "size_mm": [
+            22.0,
+            15.5,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            26.92606544494629,
+            26.65198516845703,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.998795456205 0 0 0.0490676743274",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            25.891311645507812,
+            31.854042053222656,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.989176509965 0 0 0.146730474455",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            23.861570358276367,
+            36.7542724609375,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.970031253195 0 0 0.242980179903",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            20.914840698242188,
+            41.16436767578125,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.941544065183 0 0 0.336889853392",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            17.164365768432617,
+            44.91484069824219,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.903989293123 0 0 0.42755509343",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            12.754274368286133,
+            47.861572265625,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.85772861 0 0 0.514102744193",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            7.854043006896973,
+            49.89131164550781,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.803207531481 0 0 0.595699304492",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            2.6519858837127686,
+            50.926063537597656,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.740951125355 0 0 0.671558954847",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -2.6519858837127686,
+            50.926063537597656,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.671558954847 0 0 0.740951125355",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -7.854043006896973,
+            49.89131164550781,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.595699304492 0 0 0.803207531481",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -12.754274368286133,
+            47.861572265625,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.514102744193 0 0 0.85772861",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -17.164365768432617,
+            44.91484069824219,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.42755509343 0 0 0.903989293123",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -20.914840698242188,
+            41.16436767578125,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.336889853392 0 0 0.941544065183",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -23.861570358276367,
+            36.7542724609375,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.242980179903 0 0 0.970031253195",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -25.891311645507812,
+            31.854042053222656,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.146730474455 0 0 0.989176509965",
+          "contype": 18,
+          "conaffinity": 9
+        },
+        {
+          "name": "Mechanical stage with longitudinal opening rounded end tangent",
+          "type": "box",
+          "pos_mm": [
+            -26.92606544494629,
+            26.65198516845703,
+            0.0
+          ],
+          "size_mm": [
+            5.056349186104047,
+            3.1944529755467403,
+            7.0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "quat": "0.0490676743274 0 0 0.998795456205",
           "contype": 18,
           "conaffinity": 9
         }
@@ -1460,8 +2906,9 @@
     }
   ],
   "identity": "Zeiss Axioskop marking visible in photo254; head variant, complete objective inventory and socket count partly provisional",
-  "geometry_revision": "realism4",
-  "geometry_basis": "Photo254/255/256/257/261/262: sloping stand, elongated binocular prisms, nosepiece carrier, condenser hardware and ventilated lamp tower; dimensions remain estimates",
+  "geometry_revision": "reference5",
+  "geometry_basis": "Photo254/255/256/257/258/261/262: photographed housings and controls; reference5 corrects the stage aperture to a front-to-back obround and replaces the solid support slab with an open two-arm fork. Dimensions remain estimates; sample/objective/grip datums unchanged.",
+  "reference5_construction": "Top aperture44x92 mm and lower opening46x94 mm are photographic estimates. Native contacts use open strips and tangent boxes with less than0.12 mm circular-edge undercoverage, not convex hulls spanning the light path.",
   "control_geometry_correction": "XY gear housing slimmed; both XY grip links moved+15 mm X/-25 mm Z to clear focus wheel across Y travel. Clearance1 additionally lowers the gearbox roof2 mm and recesses its two fasteners so the moving X deck clears them across full travel; contact envelope moves with it. Couplings and sample/objective sites unchanged. Opposite focus grip contact added on same existing focus-wheel joint.",
   "clearance_revision": "clearance1",
   "optical_contact_model": "Dedicated objective/work-surface contact bits preserve robot contact and exclude mated bearings. Objective front shoulders and existing forward glass surfaces have explicit contacts. Retract the stage before changing objective; high focus commands can legitimately meet the specimen. Focus and XY shaft ranges match the existing linear stops through their unchanged pitches.",

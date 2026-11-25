@@ -1,0 +1,58 @@
+{
+  "revision": "realism4",
+  "asset": "tweezers",
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "dad4e424236b8d8cbcf8675326dd5f7f65f576acd9566aceff16367131f10f7e",
+      "measured_trajectory": null
+    },
+    {
+      "file": "tips.png",
+      "camera": "tips",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "6e82accc152c35fd965a483bf2baf0a4a2bb820b304b761c44945cf6f7ecc7b7",
+      "measured_trajectory": null
+    },
+    {
+      "file": "placement.png",
+      "camera": "tips",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": {
+        "body": "chip",
+        "world_position_m": [
+          0.06200079619884491,
+          0.02399817295372486,
+          0.009459198452532291
+        ],
+        "focus_distance_m": 0.17018906772136688,
+        "method": "Distance projected onto the camera optical axis"
+      },
+      "sha256": "4e9bf3dcfcf5ab120ae6e01ebc9e6da82607cf0be08cdd80555ddb8c45ae641f",
+      "measured_trajectory": {
+        "sha256": "a73fa81dbef6a4085ecf716b38ad6f2cb76dd952a65d3223513e2ad4904cfc14",
+        "frame": 268,
+        "frame_sha256": "075438b33bb12b7aa647e5d3f199c82634589d8550681ca787e28abdd07dd646",
+        "time_s": 10.76
+      }
+    }
+  ],
+  "source_sha256": "b89c238d314123892c30b2617fb4ad10c4eefb656f20b7c2c962993a2a459b12",
+  "web_preview_sha256": "cb218d2a88e582e194461d4116ce0704d029e1d843d30421e16c254248660c83"
+}

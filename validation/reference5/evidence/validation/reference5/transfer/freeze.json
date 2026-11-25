@@ -1,0 +1,20 @@
+{
+  "revision": "reference5",
+  "frozen": true,
+  "model_files": {
+    "001_transfer_stage/build.py": "a3f030d17b973e9d62ef17247b70b11f533f311f4f5f86283e744c1f5f47974d",
+    "001_transfer_stage/geometry_revision4.py": "da0ff028c63075334defabbb700178ad7e8d3e29e4326248748eb7e9346bf50f",
+    "001_transfer_stage/transfer_station.blend": "31d20bd5a4662cb331a6521fccb15e1dcbdefcb05a63bf2195315ed4adb75367",
+    "001_transfer_stage/transfer_station.xml": "88f11e5c08bba05e1c025cdf0b544a386fcfdf592636eeeb98665177b45a7278",
+    "001_transfer_stage/asset.json": "faa88bc3a8bbc7888954f851f60c67c21d75c157f5616a95890ed7022949d9aa",
+    "001_transfer_stage/assets/transfer_station.glb": "6ca3a29255acd2e75ce8b7776b39c1b3e3c9228041c83528e3d41e1770ea124d",
+    "001_transfer_stage/assets/meshes.json": "cb6917a55482bc4f33ac58353771b4dcdec43250c621fd0d5e515066be40ef7e"
+  },
+  "checks": [
+    "validation/reference5/transfer/clearances.json",
+    "validation/reference5/transfer/construction.json",
+    "validation/reference5/transfer/focus_contact.json",
+    "validation/reference5/transfer/mechanisms.json",
+    "validation/reference5/transfer/hoses.json"
+  ]
+}

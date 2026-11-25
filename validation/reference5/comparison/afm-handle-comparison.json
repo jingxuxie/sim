@@ -1,0 +1,159 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "passed": true,
+  "generated_renders_only": true,
+  "raw_reference_media_published": false,
+  "input_files_unchanged": true,
+  "before_report_immutable": true,
+  "before_camera_source_sha256_as_originally_recorded": "7d8b135810498542fe561b49ba417bc360500efc2d9a8ce806c77a55b29de247",
+  "current_scene_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "camera_proof": "005_afm/validation/reference5/comparison/camera_signature.json",
+  "camera_proof_sha256": "9ce38b3975b496b3e01b0f1874d3e8047bea4655b88b46bd4e039756d4c5f819",
+  "inputs": [
+    {
+      "image": "005_afm/validation/reference5/comparison/before/door_handle_before.png",
+      "image_sha256": "97298e54d43545e834c7ece9c1bd05d124cc71180e4c23ff2f3b2859abc2eeb5",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "promoted_report": "005_afm/validation/reference5/comparison/before/render_report.json",
+      "promoted_report_sha256": "e2a726d1dc284eb701c8fcbb697c08dca89063bbf17b9df4a197b2941ca9d58a",
+      "renderer_report": "005_afm/validation/reference5/comparison/before/render_report.json",
+      "renderer_report_sha256": "e2a726d1dc284eb701c8fcbb697c08dca89063bbf17b9df4a197b2941ca9d58a",
+      "source_scene_sha256": "ded0eec018e08015beb88ba7ca0c28e4c1a48c73b4d99e04b5ef7cb1a23d0756",
+      "camera": "door_handle_stowed",
+      "inspection_joint_positions": {},
+      "measured_trajectory": null
+    },
+    {
+      "image": "005_afm/previews/door_handle_stowed.png",
+      "image_sha256": "25430bfe2bb4bc99983134de0be268d203815315c78396d5510905d098899dde",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "promoted_report": "005_afm/previews/reference5_render_report.json",
+      "promoted_report_sha256": "2fbea9f012b0ced5546de7e6eddbdfca53a21e1391c4deab23f2b1faee0f5d14",
+      "renderer_report": "005_afm/validation/reference5/final_cpu_closed_details/render_report.json",
+      "renderer_report_sha256": "c710d427ae5673c5a360775e363345c1a781afbcb196ac400f2545f67ee1733f",
+      "source_scene_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+      "camera": "door_handle_stowed",
+      "inspection_joint_positions": {
+        "door_latch_angle": 0.0,
+        "door_angle": 0.0
+      },
+      "measured_trajectory": null
+    },
+    {
+      "image": "005_afm/previews/door_handle_deployed.png",
+      "image_sha256": "926f90382ebbb809a0166dbcd1127c796679bcfdbefa2f25fe93f856ad9b3a9c",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "promoted_report": "005_afm/previews/reference5_render_report.json",
+      "promoted_report_sha256": "2fbea9f012b0ced5546de7e6eddbdfca53a21e1391c4deab23f2b1faee0f5d14",
+      "renderer_report": "005_afm/validation/reference5/final_cpu_deployed/render_report.json",
+      "renderer_report_sha256": "4130cead6b00b19e32674cd448ed22d81944ddae69f55af00f775c16340bb6f4",
+      "source_scene_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+      "camera": "door_handle_deployed",
+      "inspection_joint_positions": {
+        "door_latch_angle": 1.5707963267948966,
+        "door_angle": 0.0
+      },
+      "measured_trajectory": null
+    }
+  ],
+  "input_sha256": {
+    "005_afm/validation/reference5/comparison/before/door_handle_before.png": "97298e54d43545e834c7ece9c1bd05d124cc71180e4c23ff2f3b2859abc2eeb5",
+    "005_afm/validation/reference5/comparison/before/render_report.json": "e2a726d1dc284eb701c8fcbb697c08dca89063bbf17b9df4a197b2941ca9d58a",
+    "005_afm/previews/door_handle_stowed.png": "25430bfe2bb4bc99983134de0be268d203815315c78396d5510905d098899dde",
+    "005_afm/previews/reference5_render_report.json": "2fbea9f012b0ced5546de7e6eddbdfca53a21e1391c4deab23f2b1faee0f5d14",
+    "005_afm/validation/reference5/final_cpu_closed_details/render_report.json": "c710d427ae5673c5a360775e363345c1a781afbcb196ac400f2545f67ee1733f",
+    "005_afm/previews/door_handle_deployed.png": "926f90382ebbb809a0166dbcd1127c796679bcfdbefa2f25fe93f856ad9b3a9c",
+    "005_afm/validation/reference5/final_cpu_deployed/render_report.json": "4130cead6b00b19e32674cd448ed22d81944ddae69f55af00f775c16340bb6f4",
+    "005_afm/validation/reference5/comparison/camera_signature.json": "9ce38b3975b496b3e01b0f1874d3e8047bea4655b88b46bd4e039756d4c5f819",
+    "005_afm/cypher_s.blend": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+    "005_afm/validation/reference5/before/cypher_s.blend": "ded0eec018e08015beb88ba7ca0c28e4c1a48c73b4d99e04b5ef7cb1a23d0756"
+  },
+  "outputs": [
+    {
+      "file": "validation/reference5/comparison/afm-handle-comparison.png",
+      "sha256": "d97a1cb660178c7ab76ed92c02c630ae042b151a517e08fecb6a4483527f31b1",
+      "size": [
+        3160,
+        1022
+      ]
+    },
+    {
+      "file": "validation/reference5/comparison/afm-handle-comparison.jpg",
+      "sha256": "d3609dd5a12ed4f0d2de8dfb851f813311d248a67dc8ace5ccc2bfe1bee7fd86",
+      "size": [
+        3160,
+        1022
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "label": "Before \u00b7 archived model",
+      "input_image": "005_afm/validation/reference5/comparison/before/door_handle_before.png",
+      "source_size": [
+        2560,
+        2160
+      ],
+      "displayed_size": [
+        1024,
+        864
+      ],
+      "destination_xy": [
+        24,
+        88
+      ],
+      "cropped": false,
+      "aspect_ratio_error": 0.0
+    },
+    {
+      "label": "After \u00b7 handle stowed",
+      "input_image": "005_afm/previews/door_handle_stowed.png",
+      "source_size": [
+        2560,
+        2160
+      ],
+      "displayed_size": [
+        1024,
+        864
+      ],
+      "destination_xy": [
+        1068,
+        88
+      ],
+      "cropped": false,
+      "aspect_ratio_error": 0.0
+    },
+    {
+      "label": "After \u00b7 handle deployed",
+      "input_image": "005_afm/previews/door_handle_deployed.png",
+      "source_size": [
+        2560,
+        2160
+      ],
+      "displayed_size": [
+        1024,
+        864
+      ],
+      "destination_xy": [
+        2112,
+        88
+      ],
+      "cropped": false,
+      "aspect_ratio_error": 0.0
+    }
+  ],
+  "method": "Three complete source frames resized with one aspect-preserving scale per panel; centered padding only, no crop/stretch or photographic retouching.",
+  "limitations": "This compares reconstructed exterior geometry and recorded poses. Matching camera/framing is not a claim of laboratory dimensional or photometric calibration.",
+  "script": "validation/reference5/comparison/compose_afm.py",
+  "script_sha256": "46278bf4f1771120374645be11673c29c050eb3964bd05364fe253e74655a672"
+}

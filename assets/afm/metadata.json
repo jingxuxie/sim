@@ -456,6 +456,80 @@
             0,
             1
           ]
+        },
+        {
+          "name": "Keeper bracket forward tab",
+          "type": "box",
+          "pos_mm": [
+            135.3,
+            -140.8,
+            254
+          ],
+          "size_mm": [
+            5.3,
+            0.7,
+            13.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Keeper bracket side attachment",
+          "type": "box",
+          "pos_mm": [
+            141.3,
+            -134.25,
+            254
+          ],
+          "size_mm": [
+            0.7,
+            7.25,
+            13.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Enclosure cylindrical keeper",
+          "type": "cylinder",
+          "pos_mm": [
+            137,
+            -147.25,
+            254
+          ],
+          "size_mm": [
+            5.0,
+            5.75
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "name": "Keeper roller shoulder",
+          "type": "cylinder",
+          "pos_mm": [
+            137,
+            -153.3,
+            254
+          ],
+          "size_mm": [
+            5.5,
+            0.3
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ]
         }
       ],
       "sites": {}
@@ -499,25 +573,6 @@
           "type": "box",
           "pos_mm": [
             43,
-            -5,
-            187
-          ],
-          "size_mm": [
-            43.0,
-            13.0,
-            188.0
-          ],
-          "axis": [
-            0,
-            0,
-            1
-          ]
-        },
-        {
-          "name": "Door anodized stile",
-          "type": "box",
-          "pos_mm": [
-            279,
             -5,
             187
           ],
@@ -588,6 +643,329 @@
             0,
             1
           ]
+        },
+        {
+          "name": "Door cheek inboard of receiver",
+          "type": "box",
+          "pos_mm": [
+            263.8,
+            -5,
+            187
+          ],
+          "size_mm": [
+            27.8,
+            13,
+            188
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door cheek outboard of receiver",
+          "type": "box",
+          "pos_mm": [
+            306.45,
+            -5,
+            187
+          ],
+          "size_mm": [
+            2.05,
+            13,
+            188
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door keeper receiver blind front",
+          "type": "box",
+          "pos_mm": [
+            298,
+            -10,
+            187
+          ],
+          "size_mm": [
+            6.4,
+            8,
+            188
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door keeper receiver lower wall",
+          "type": "box",
+          "pos_mm": [
+            298,
+            3,
+            84.3
+          ],
+          "size_mm": [
+            6.4,
+            5,
+            85.3
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door keeper receiver upper wall",
+          "type": "box",
+          "pos_mm": [
+            298,
+            3,
+            278.7
+          ],
+          "size_mm": [
+            6.4,
+            5,
+            96.3
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door pocket front wall",
+          "type": "box",
+          "pos_mm": [
+            315.25,
+            -15.5,
+            187
+          ],
+          "size_mm": [
+            6.75,
+            2.5,
+            188
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door pocket rear wall below shaft",
+          "type": "box",
+          "pos_mm": [
+            315.25,
+            5.5,
+            86.425
+          ],
+          "size_mm": [
+            6.75,
+            2.5,
+            87.425
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door pocket rear wall above shaft",
+          "type": "box",
+          "pos_mm": [
+            315.25,
+            5.5,
+            276.575
+          ],
+          "size_mm": [
+            6.75,
+            2.5,
+            98.425
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door shaft bore inboard wall",
+          "type": "box",
+          "pos_mm": [
+            311.975,
+            5.5,
+            176
+          ],
+          "size_mm": [
+            3.475,
+            2.5,
+            2.15
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door shaft bore outboard wall",
+          "type": "box",
+          "pos_mm": [
+            320.875,
+            5.5,
+            176
+          ],
+          "size_mm": [
+            1.125,
+            2.5,
+            2.15
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door pocket upper wall",
+          "type": "box",
+          "pos_mm": [
+            315.25,
+            -5,
+            281
+          ],
+          "size_mm": [
+            6.75,
+            8,
+            94
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door pocket lower wall",
+          "type": "box",
+          "pos_mm": [
+            315.25,
+            -5,
+            37
+          ],
+          "size_mm": [
+            6.75,
+            8,
+            38
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door release pocket lower stop",
+          "type": "box",
+          "pos_mm": [
+            312.3,
+            -5,
+            78.3
+          ],
+          "size_mm": [
+            3.6,
+            4.6,
+            0.85
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door receiver plate inboard rim",
+          "type": "box",
+          "pos_mm": [
+            291.05,
+            10.7,
+            176
+          ],
+          "size_mm": [
+            0.55,
+            0.6,
+            12.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door receiver plate outboard rim",
+          "type": "box",
+          "pos_mm": [
+            304.95,
+            10.7,
+            176
+          ],
+          "size_mm": [
+            0.55,
+            0.6,
+            12.5
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door receiver plate lower rim",
+          "type": "box",
+          "pos_mm": [
+            298,
+            10.7,
+            166.55
+          ],
+          "size_mm": [
+            6.4,
+            0.6,
+            3.05
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door receiver plate upper rim",
+          "type": "box",
+          "pos_mm": [
+            298,
+            10.7,
+            185.45
+          ],
+          "size_mm": [
+            6.4,
+            0.6,
+            3.05
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
         }
       ],
       "sites": {}
@@ -595,9 +973,9 @@
     "door_latch": {
       "parent": "door",
       "pos_mm": [
-        322,
-        -4,
-        145
+        317.6,
+        -5.0,
+        176.0
       ],
       "euler": [
         0,
@@ -616,41 +994,131 @@
         "frictionloss": 0.008,
         "range": [
           0,
-          1.35
+          1.5707963267948966
         ]
       },
-      "mass": 0.045,
-      "inertia": null,
+      "mass": 0.035,
+      "inertia": [
+        2.4e-05,
+        2.5e-05,
+        1.2e-06
+      ],
       "collisions": [
         {
-          "name": "Lift paddle grip",
+          "name": "Door folding handle upper grip",
           "type": "box",
           "pos_mm": [
-            27,
-            -3,
-            0
+            1.6,
+            0,
+            -21
           ],
           "size_mm": [
-            17,
-            9.5,
-            5.2
+            1.8,
+            6.0,
+            20
           ],
           "axis": [
             0,
             0,
             1
           ]
+        },
+        {
+          "name": "Door folding handle lower grip",
+          "type": "box",
+          "pos_mm": [
+            1.6,
+            0,
+            -62
+          ],
+          "size_mm": [
+            1.8,
+            6.2,
+            21
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door handle finger lip",
+          "type": "box",
+          "pos_mm": [
+            -0.25,
+            0,
+            -84.1
+          ],
+          "size_mm": [
+            1.3,
+            5.4,
+            3.75
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Door release hinge barrel",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            0,
+            0
+          ],
+          "size_mm": [
+            3.2,
+            6.2
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "Enclosure latch cam shaft",
+          "type": "cylinder",
+          "pos_mm": [
+            0,
+            10.2,
+            0
+          ],
+          "size_mm": [
+            2.0,
+            5.2
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ]
         }
       ],
       "sites": {
         "door_release": {
           "pos_mm": [
-            33,
-            -3,
-            2
+            -1.4,
+            0,
+            -85.5
+          ]
+        },
+        "door_release_outer_grip": {
+          "pos_mm": [
+            3.6,
+            0,
+            -77.0
           ]
         }
-      }
+      },
+      "com_m": [
+        0.0014,
+        0,
+        -0.044
+      ]
     },
     "scanner_latch": {
       "parent": "base",
@@ -1195,7 +1663,7 @@
   ],
   "reference_group": "oxford_afm",
   "identity": "Cypher S visible on scanner in user video",
-  "geometry_revision": "realism4",
+  "geometry_revision": "reference5",
   "clearance_revision": "clearance1",
   "cantilever_lift_direction": "Positive angle about local -X lifts the front nose clear of the scanner socket.",
   "estimated_dimensions_mm": [
@@ -1241,14 +1709,43 @@
   ],
   "sample_diameter_m": 0.015,
   "release_evidence": {
-    "door": "c9434d428539e41606a5fb75a9cd14c8.mp4 at 2.5 s; bd351619ddd06a52c2a4103d389febf2.mp4 at 22 s",
+    "door": "Photo272; c9434d428539e41606a5fb75a9cd14c8.mp4 at 1.50\u20132.25 s; bd351619ddd06a52c2a4103d389febf2.mp4 at 23.0\u201324.5 s",
     "scanner": "c9434d428539e41606a5fb75a9cd14c8.mp4 at 11\u201314 s",
     "manual": "Cypher Instrument User Guide 13A, printed p19 and pp185\u2013187"
   },
   "release_geometry": {
-    "door_paddle_length_mm": 45,
+    "door_paddle_length_mm": 91,
+    "door_pocket_height_mm": 112,
+    "door_pocket_width_mm": 16,
+    "door_handle_pivot_door_local_mm": [
+      317.6,
+      -5,
+      176
+    ],
+    "door_pocket_door_local_bounds_mm": {
+      "x": [
+        308.5,
+        322
+      ],
+      "y": [
+        -13,
+        3
+      ],
+      "z": [
+        75,
+        187
+      ]
+    },
+    "door_handle_visual_nodes": [
+      "door_latch__alloy",
+      "door_latch__brushed"
+    ],
+    "door_nominal_exterior_plane_door_local_x_mm": 322,
+    "internal_latch_model": "Visible spindle and cylindrical keeper receiver; the hidden catch is unresolved and locking retains the existing state interlock.",
+    "door_stowed": "Downward inside the door side pocket, below the enclosing exterior surface.",
+    "door_deployed_angle_rad": 1.5707963267948966,
     "scanner_lever_length_mm": 71,
-    "positive_release_motion": "Door paddle lifts about -Y; scanner lever lifts toward operator about -X. Dimensions are photo estimates."
+    "positive_release_motion": "Door handle lifts outward/up about -Y from a downward flush stowed pose; scanner lever lifts toward operator about -X. Dimensions are photo estimates."
   },
   "task_candidates": [
     "unlock_open_drawer",

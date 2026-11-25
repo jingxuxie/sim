@@ -1,0 +1,15 @@
+{
+  "source": "images/wire_bonder/37bd654f58ba94c1c96ac230a7252aca.mp4",
+  "sampling": "fps=1; first output frame represents approximately t=0.5 s",
+  "frames": [
+    "second_001.jpg",
+    "second_002.jpg",
+    "second_003.jpg",
+    "second_004.jpg",
+    "second_005.jpg",
+    "second_006.jpg",
+    "second_007.jpg",
+    "second_008.jpg"
+  ],
+  "private_reference_only": true
+}

@@ -1,0 +1,117 @@
+{
+  "asset": "nikon",
+  "revision": "reference5",
+  "method": "Ray intersections and BVH triangle intersections on Blender evaluated geometry in meters; model dimensions remain photographic estimates.",
+  "versions": {
+    "before": {
+      "source": "validation/reference5/nikon/before/e1000.blend",
+      "sha256": "d58e5043ab7c9e09f3d1ccf0fdc6308a0bc4cbd17e45d0486e93a75572413c7b",
+      "checks": [],
+      "opposite_grip_mesh_count": 0
+    },
+    "after": {
+      "source": "000/e1000.blend",
+      "sha256": "2b1c792e7a16f61dd2a4b6514b42a5bb0c9aae97db7e7813dd15baf03c0d2b19",
+      "checks": [
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 0,
+          "minimum_z_mm": 32.00000151991844,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 30,
+          "minimum_z_mm": 32.00071305036545,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 60,
+          "minimum_z_mm": 32.01138228178024,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 90,
+          "minimum_z_mm": 32.00000151991844,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 120,
+          "minimum_z_mm": 32.00070932507515,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 150,
+          "minimum_z_mm": 32.01138228178024,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 180,
+          "minimum_z_mm": 32.00000151991844,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 210,
+          "minimum_z_mm": 32.00071305036545,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 240,
+          "minimum_z_mm": 32.01138228178024,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 270,
+          "minimum_z_mm": 32.00000151991844,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 300,
+          "minimum_z_mm": 32.00070932507515,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 330,
+          "minimum_z_mm": 32.01138228178024,
+          "intersections": [],
+          "clear": true
+        },
+        {
+          "check": "opposite_focus_exterior_rotation",
+          "angle_deg": 360,
+          "minimum_z_mm": 32.00000151991844,
+          "intersections": [],
+          "clear": true
+        }
+      ],
+      "opposite_grip_mesh_count": 6
+    }
+  },
+  "script_sha256": "2283c41a4dd32e1fb3e9a87302efb5d4e148ef11f8ddf537b71e5a12cba1050b",
+  "passed": true,
+  "limitations": [
+    "Checks cover the named construction changes, not every assembly pair.",
+    "Inserted shafts/bearings and screws in their mounting seats are intended fits. Interior optics, dimensions and material mechanics are not calibrated from photographs."
+  ]
+}

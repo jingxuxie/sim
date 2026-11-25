@@ -1,0 +1,1014 @@
+{
+  "url": "http://127.0.0.1:18945/",
+  "passed": true,
+  "cases": [
+    {
+      "asset": "transfer",
+      "case": "stamp",
+      "rate_declared": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 2.4197437805256308,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 6099,
+        "maximum_penetration_m": 0.00002168945835602672,
+        "peak_normal_force_N": 77.49096718214744,
+        "peak_total_optical_normal_force_N": 77.49096718214744,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 80,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 2.208,
+          "focus_m": -0.010762858715868817,
+          "actuator_control_m": -0.011039999999999635,
+          "focus_velocity_m_s": -0.0033820492025188713,
+          "pair": [
+            "objective_turret__Objective_front_optic_contact",
+            "stamp_tilt__Glass_stamp_slide"
+          ],
+          "penetration_m": 1.7447136529008605e-7,
+          "normal_force_N": 5.058387361953793
+        },
+        "pairs": [
+          "objective_turret__Objective_barrel | stamp_tilt__Glass_stamp_slide",
+          "objective_turret__Objective_front_optic_contact | stamp_tilt__Glass_stamp_slide"
+        ]
+      },
+      "release": {
+        "contact_samples": 2515,
+        "maximum_penetration_m": 0.000021057792666336146,
+        "peak_normal_force_N": 76.99198862005713,
+        "peak_total_optical_normal_force_N": 76.99198862005713,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 80,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": -0.017554514516826963,
+          "actuator_control_m": -0.024995,
+          "focus_velocity_m_s": -0.000011044489026762027,
+          "pair": [
+            "objective_turret__Objective_barrel",
+            "stamp_tilt__Glass_stamp_slide"
+          ],
+          "penetration_m": 0.000019931261560211464,
+          "normal_force_N": 76.28456997578297
+        },
+        "pairs": [
+          "objective_turret__Objective_barrel | stamp_tilt__Glass_stamp_slide",
+          "objective_turret__Objective_front_optic_contact | stamp_tilt__Glass_stamp_slide"
+        ]
+      },
+      "stopped_focus_m": -0.017554503472337935,
+      "retracted_focus_m": 0.009363703676218093,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "transfer",
+      "case": "sample",
+      "rate_declared": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 2.4197437805256308,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        },
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 25,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        },
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 25,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 15508,
+        "maximum_penetration_m": 0.000004622672127668758,
+        "peak_normal_force_N": 30.201525615508217,
+        "peak_total_optical_normal_force_N": 80.95770827558182,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 80,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 4.124,
+          "focus_m": -0.020340798313641113,
+          "actuator_control_m": -0.020620000000000978,
+          "focus_velocity_m_s": -0.001321646973491246,
+          "pair": [
+            "objective_turret__Objective_barrel",
+            "sample_theta__device_chip"
+          ],
+          "penetration_m": 5.821542228279242e-7,
+          "normal_force_N": 7.345347501056223
+        },
+        "pairs": [
+          "objective_turret__Objective_barrel | sample_theta__device_chip"
+        ]
+      },
+      "release": {
+        "contact_samples": 3341,
+        "maximum_penetration_m": 0.0000046427879894228585,
+        "peak_normal_force_N": 30.323166727307793,
+        "peak_total_optical_normal_force_N": 80.96446228436864,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 80,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": -0.020345974638721596,
+          "actuator_control_m": -0.024995,
+          "focus_velocity_m_s": -9.198824442351022e-7,
+          "pair": [
+            "objective_turret__Objective_barrel",
+            "sample_theta__device_chip"
+          ],
+          "penetration_m": 0.0000013941073589707198,
+          "normal_force_N": 9.057642223554804
+        },
+        "pairs": [
+          "objective_turret__Objective_barrel | sample_theta__device_chip"
+        ]
+      },
+      "stopped_focus_m": -0.02034597371883915,
+      "retracted_focus_m": 0.009363702438714714,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "zeiss",
+      "station": 0,
+      "magnification": 20,
+      "expected_contact": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 45,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        },
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 4.861333215220057,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 69300,
+        "maximum_penetration_m": 0.000006353923465485245,
+        "peak_normal_force_N": 11.621732194391585,
+        "peak_total_optical_normal_force_N": 46.48669448336757,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 12.676,
+          "focus_m": 0.0023890320099179186,
+          "actuator_control_m": 0.007,
+          "focus_velocity_m_s": 0.0005256977581853684,
+          "pair": [
+            "stage_x__device_chip",
+            "turret__Objective_front_glass_20"
+          ],
+          "penetration_m": 4.4721945438586097e-7,
+          "normal_force_N": 6.4679792911283664
+        },
+        "pairs": [
+          "stage_x__device_chip | turret__Objective_front_glass_20"
+        ]
+      },
+      "release": {
+        "contact_samples": 36,
+        "maximum_penetration_m": 0.0000056582946441063875,
+        "peak_normal_force_N": 5.747204210545036,
+        "peak_total_optical_normal_force_N": 22.988538298530056,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": 0.0023934533442006014,
+          "actuator_control_m": -0.01,
+          "focus_velocity_m_s": -0.0002640030070031692,
+          "pair": [
+            "stage_x__device_chip",
+            "turret__Objective_front_glass_20"
+          ],
+          "penetration_m": 0.000005658228644012109,
+          "normal_force_N": 5.7470693953639325
+        },
+        "pairs": [
+          "stage_x__device_chip | turret__Objective_front_glass_20"
+        ]
+      },
+      "stopped_focus_m": 0.0023937173472076047,
+      "retracted_focus_m": -0.004999928238118917,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "zeiss",
+      "station": 1,
+      "magnification": 50,
+      "expected_contact": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 45,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        },
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 4.861333215220057,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 62445,
+        "maximum_penetration_m": 0.00000674980997583674,
+        "peak_normal_force_N": 12.357496250005983,
+        "peak_total_optical_normal_force_N": 45.44285843392269,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 14.389000000000001,
+          "focus_m": 0.003388138358078557,
+          "actuator_control_m": 0.007,
+          "focus_velocity_m_s": 0.000583215896102053,
+          "pair": [
+            "stage_x__device_chip",
+            "turret__Objective_front_glass_50"
+          ],
+          "penetration_m": 1.6289167158354146e-7,
+          "normal_force_N": 0
+        },
+        "pairs": [
+          "stage_x__device_chip | turret__Objective_front_glass_50"
+        ]
+      },
+      "release": {
+        "contact_samples": 37,
+        "maximum_penetration_m": 0.000005953272066511195,
+        "peak_normal_force_N": 9.961093826820473,
+        "peak_total_optical_normal_force_N": 22.71902479032729,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": 0.0033934080197616933,
+          "actuator_control_m": -0.01,
+          "focus_velocity_m_s": -0.00026291379343252756,
+          "pair": [
+            "stage_x__device_chip",
+            "turret__Objective_front_glass_50"
+          ],
+          "penetration_m": 0.000005953272066511195,
+          "normal_force_N": 6.309080278915864
+        },
+        "pairs": [
+          "stage_x__device_chip | turret__Objective_front_glass_50"
+        ]
+      },
+      "stopped_focus_m": 0.0033936709335551257,
+      "retracted_focus_m": -0.004999910194001315,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "zeiss",
+      "station": 2,
+      "magnification": 5,
+      "expected_contact": false,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 45,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        },
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 4.861333215220057,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 0,
+        "maximum_penetration_m": 0,
+        "peak_normal_force_N": 0,
+        "peak_total_optical_normal_force_N": 0,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": null,
+        "pairs": []
+      },
+      "release": {
+        "contact_samples": 0,
+        "maximum_penetration_m": 0,
+        "peak_normal_force_N": 0,
+        "peak_total_optical_normal_force_N": 0,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": null,
+        "pairs": []
+      },
+      "stopped_focus_m": 0.006025984904739452,
+      "retracted_focus_m": -0.004999844167170605,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "zeiss",
+      "station": 3,
+      "magnification": 10,
+      "expected_contact": false,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 45,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        },
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 4.861333215220057,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 0,
+        "maximum_penetration_m": 0,
+        "peak_normal_force_N": 0,
+        "peak_total_optical_normal_force_N": 0,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": null,
+        "pairs": []
+      },
+      "release": {
+        "contact_samples": 0,
+        "maximum_penetration_m": 0,
+        "peak_normal_force_N": 0,
+        "peak_total_optical_normal_force_N": 0,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": null,
+        "pairs": []
+      },
+      "stopped_focus_m": 0.006025984904739452,
+      "retracted_focus_m": -0.004999844167170605,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "zeiss",
+      "station": 4,
+      "magnification": 100,
+      "expected_contact": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 45,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        },
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 4.861333215220057,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 76164,
+        "maximum_penetration_m": 0.000006417800090058323,
+        "peak_normal_force_N": 11.739213174774775,
+        "peak_total_optical_normal_force_N": 42.25627098377491,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 10.96,
+          "focus_m": 0.001388233533753753,
+          "actuator_control_m": 0.007,
+          "focus_velocity_m_s": 0.0005256993050747407,
+          "pair": [
+            "stage_x__device_chip",
+            "turret__Objective_front_glass_100"
+          ],
+          "penetration_m": 1.3114140964831655e-7,
+          "normal_force_N": 5.893039587089523
+        },
+        "pairs": [
+          "stage_x__device_chip | turret__Objective_front_glass_100"
+        ]
+      },
+      "release": {
+        "contact_samples": 37,
+        "maximum_penetration_m": 0.000005903704337506532,
+        "peak_normal_force_N": 10.017964723222056,
+        "peak_total_optical_normal_force_N": 21.401764333967453,
+        "maximum_slew_per_s": 0,
+        "maximum_actuator_force": 45,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": 0.0013931850014751864,
+          "actuator_control_m": -0.01,
+          "focus_velocity_m_s": -0.00025753833321389455,
+          "pair": [
+            "stage_x__device_chip",
+            "turret__Objective_front_glass_100"
+          ],
+          "penetration_m": 0.0000053402631604304585,
+          "normal_force_N": 5.273997892508647
+        },
+        "pairs": [
+          "stage_x__device_chip | turret__Objective_front_glass_100"
+        ]
+      },
+      "stopped_focus_m": 0.0013934425398084004,
+      "retracted_focus_m": -0.004999942674632099,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "probe",
+      "chuck_x_y_m": [
+        0,
+        0
+      ],
+      "theta_rad": 0,
+      "rate_declared": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 0.0036020549379325636,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 8438,
+        "maximum_penetration_m": 0.00000991080256484831,
+        "peak_normal_force_N": 11.096022593685374,
+        "peak_total_optical_normal_force_N": 22.192045180198726,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 19.656927161840827,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 3.782,
+          "focus_m": -0.01875818344828744,
+          "actuator_control_m": -0.018910000000000454,
+          "focus_velocity_m_s": -0.0022623371758943717,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.0000018246254523914722,
+          "normal_force_N": 5.758589518803601
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "release": {
+        "contact_samples": 476,
+        "maximum_penetration_m": 0.000008089669163622757,
+        "peak_normal_force_N": 9.0115058118276,
+        "peak_total_optical_normal_force_N": 18.023011086591456,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 18.972175481239788,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": -0.018940984559995863,
+          "actuator_control_m": -0.019995,
+          "focus_velocity_m_s": -7.711916248302115e-7,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.000008089669163596194,
+          "normal_force_N": 9.011411795512595
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "stopped_focus_m": -0.01894098378880424,
+      "retracted_focus_m": -0.0000837794338749775,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "probe",
+      "chuck_x_y_m": [
+        -0.0125,
+        0.0125
+      ],
+      "theta_rad": -0.35,
+      "rate_declared": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 25,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 8438,
+        "maximum_penetration_m": 0.000007428380321562028,
+        "peak_normal_force_N": 8.314478050769004,
+        "peak_total_optical_normal_force_N": 16.62895610151378,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 18.372786375657086,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 3.782,
+          "focus_m": -0.018758183448286964,
+          "actuator_control_m": -0.018910000000000454,
+          "focus_velocity_m_s": -0.0022623371754191056,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.0000018246254483703832,
+          "normal_force_N": 5.758589510572807
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "release": {
+        "contact_samples": 392,
+        "maximum_penetration_m": 0.0000057866244235404095,
+        "peak_normal_force_N": 6.404994807729623,
+        "peak_total_optical_normal_force_N": 12.809989615432228,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 13.201453163458552,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": -0.019261582533952385,
+          "actuator_control_m": -0.019995,
+          "focus_velocity_m_s": -4.601156598198081e-7,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.000005786307594235864,
+          "normal_force_N": 6.4049556071661335
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "stopped_focus_m": -0.019261582073836724,
+      "retracted_focus_m": -0.0000837794338749775,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "probe",
+      "chuck_x_y_m": [
+        -0.0125,
+        0.0125
+      ],
+      "theta_rad": 0,
+      "rate_declared": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 25,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 8438,
+        "maximum_penetration_m": 0.0000074283803215760146,
+        "peak_normal_force_N": 8.31447805078929,
+        "peak_total_optical_normal_force_N": 16.62895610154385,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 18.372786375669932,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 3.782,
+          "focus_m": -0.018758183448286867,
+          "actuator_control_m": -0.018910000000000454,
+          "focus_velocity_m_s": -0.0022623371753214996,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.0000018246254417066598,
+          "normal_force_N": 5.758589503844566
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "release": {
+        "contact_samples": 392,
+        "maximum_penetration_m": 0.000005786624423551143,
+        "peak_normal_force_N": 6.404994807732795,
+        "peak_total_optical_normal_force_N": 12.809989615428211,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 13.2014531634494,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": -0.019261582533952895,
+          "actuator_control_m": -0.019995,
+          "focus_velocity_m_s": -4.601156598112453e-7,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.00000578630759420117,
+          "normal_force_N": 6.404955607127198
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "stopped_focus_m": -0.019261582073837234,
+      "retracted_focus_m": -0.0000837794338749775,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "probe",
+      "chuck_x_y_m": [
+        0.0125,
+        0.0125
+      ],
+      "theta_rad": 0,
+      "rate_declared": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 25,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 8438,
+        "maximum_penetration_m": 0.000007428380321562028,
+        "peak_normal_force_N": 8.31447805074798,
+        "peak_total_optical_normal_force_N": 16.628956101493007,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 18.37278637565447,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 3.782,
+          "focus_m": -0.018758183448287013,
+          "actuator_control_m": -0.018910000000000454,
+          "focus_velocity_m_s": -0.002262337175468809,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.0000018246254481005253,
+          "normal_force_N": 5.75858951083374
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "release": {
+        "contact_samples": 392,
+        "maximum_penetration_m": 0.000005786624423526369,
+        "peak_normal_force_N": 6.4049948077667915,
+        "peak_total_optical_normal_force_N": 12.80998961550669,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 13.20145316346128,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": -0.019261582533952236,
+          "actuator_control_m": -0.019995,
+          "focus_velocity_m_s": -4.6011565982687906e-7,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.00000578630759421521,
+          "normal_force_N": 6.404955607143339
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "stopped_focus_m": -0.019261582073836575,
+      "retracted_focus_m": -0.0000837794338749775,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "probe",
+      "chuck_x_y_m": [
+        0.0125,
+        0.0125
+      ],
+      "theta_rad": 0.35,
+      "rate_declared": true,
+      "setup": [
+        {
+          "contact_samples": 0,
+          "maximum_penetration_m": 0,
+          "peak_normal_force_N": 0,
+          "peak_total_optical_normal_force_N": 0,
+          "maximum_slew_per_s": 0,
+          "maximum_actuator_force": 25,
+          "actuator_force_limits_respected": true,
+          "first_contact": null,
+          "pairs": []
+        }
+      ],
+      "approach": {
+        "contact_samples": 8438,
+        "maximum_penetration_m": 0.000007428380321593416,
+        "peak_normal_force_N": 8.314478050806573,
+        "peak_total_optical_normal_force_N": 16.628956101563784,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 18.372786375678686,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 3.782,
+          "focus_m": -0.01875818344828673,
+          "actuator_control_m": -0.018910000000000454,
+          "focus_velocity_m_s": -0.0022623371751813153,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.0000018246254437863222,
+          "normal_force_N": 5.758589504250649
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "release": {
+        "contact_samples": 392,
+        "maximum_penetration_m": 0.000005786624423571038,
+        "peak_normal_force_N": 6.40499480775583,
+        "peak_total_optical_normal_force_N": 12.809989615477644,
+        "maximum_slew_per_s": 0.005000000000001531,
+        "maximum_actuator_force": 13.201453163439623,
+        "actuator_force_limits_respected": true,
+        "first_contact": {
+          "phase_time_s": 0.001,
+          "focus_m": -0.019261582533953436,
+          "actuator_control_m": -0.019995,
+          "focus_velocity_m_s": -4.6011565980495584e-7,
+          "pair": [
+            "left_z__Probe_shank",
+            "optic_focus__Objective_forebody"
+          ],
+          "penetration_m": 0.0000057863075942300095,
+          "normal_force_N": 6.404955607160145
+        },
+        "pairs": [
+          "left_z__Probe_shank | optic_focus__Objective_forebody",
+          "optic_focus__Objective_forebody | right_z__Probe_shank"
+        ]
+      },
+      "stopped_focus_m": -0.019261582073837775,
+      "retracted_focus_m": -0.0000837794338749775,
+      "passed": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "sources": {
+    "/physics.js": "8c7dda2dec86f692a1e2c6b79591a7478cf7877435581276846b97756f85a680",
+    "/assets/transfer/physics.xml": "f3f675f0b935c99edc3ffc75fe50659b8b0da48cb540b716da8ccf3ac1c8815e",
+    "/assets/transfer/metadata.json": "faa88bc3a8bbc7888954f851f60c67c21d75c157f5616a95890ed7022949d9aa",
+    "/assets/zeiss/physics.xml": "837ad61dc38fe15946ef49a7ec35827838bfa903c276a65d848c84dde92e0c98",
+    "/assets/zeiss/metadata.json": "c30a2f1ea38c66097e64063afa256054689135a7e19828eb4ae02b76b8dbd652",
+    "/assets/probe/physics.xml": "8afe1227aca92525e349da3d7207624e22737a526c78c2f7e8411abd5da36c92",
+    "/assets/probe/metadata.json": "5dfc29659edb71efefb3cf8347950f77030e4060884deee1d6a08ae24377290e"
+  },
+  "harness_sha256": "cb782998ba3dce3cf88efbba3c404dc193f393a3093571bb38bd2af824f69175"
+}

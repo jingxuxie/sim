@@ -1,0 +1,65 @@
+{
+  "status": "final construction and portable-map validation passed; final stills finishing",
+  "private_reference_only": true,
+  "photos": [
+    "wire_bonder_266",
+    "wire_bonder_268",
+    "wire_bonder_269",
+    "wire_bonder_270"
+  ],
+  "findings": [
+    {
+      "photo_ids": [
+        268
+      ],
+      "finding": "The separate upper tool head and lower-right handle cavity, open yoke, parallel rods, flanged spool and cream feed sleeve are already represented. Their independent architecture and 8:1 equivalent coupling must be preserved."
+    },
+    {
+      "photo_ids": [
+        268
+      ],
+      "finding": "The spool rims appear opaque satin metal, whereas current stills show dark refractive glass rims. The front head frame is satin grey with polished shafts, but the model uses the same bright brushed metal on the large frame and rods.",
+      "plan": "Check video and other views, then correct supported material/construction distinctions without changing tool sites or contact geometry."
+    },
+    {
+      "photo_ids": [
+        268
+      ],
+      "finding": "The photographed descending tool is a silver taper/blade, whereas current model is a bronze lathed needle. Its small tip location is benchmark-critical.",
+      "plan": "Use further local evidence to refine only the supported visible shank/taper while preserving the contact tip and task coordinates."
+    },
+    {
+      "photo_ids": [
+        268,
+        270
+      ],
+      "video_frames": [
+        "second_001.jpg"
+      ],
+      "finding": "The gold/black granular heater jacket is thin, with a separate folded metal liner and an air gap around the raised platen. The former six-mm wall filled the gap and the uniform brown grain obscured the photo-specific material structure.",
+      "implemented": "Two-mm insulating wall, folded metal liner and rolled lip, visible air gap; synthetic photo-scaled mineral-flake PBR maps are embedded in the native scene and GLB. Platen and chip contacts are unchanged."
+    }
+  ],
+  "preserve": [
+    "distinct upper head and lower handle",
+    "8:1 coupling",
+    "clearance1 handle ranges",
+    "bond_tip and bond_pad sites",
+    "heater lead clearance above deck"
+  ],
+  "video": {
+    "path": "images/wire_bonder/37bd654f58ba94c1c96ac230a7252aca.mp4",
+    "slurm_job": 46937568,
+    "inspected_frames": [
+      "second_001.jpg",
+      "second_002.jpg",
+      "second_003.jpg",
+      "second_004.jpg",
+      "second_005.jpg",
+      "second_006.jpg",
+      "second_007.jpg",
+      "second_008.jpg"
+    ],
+    "finding": "Independent lower-right lever, rail and crossed straps remain separate from the upper reduced-motion head throughout manipulation. The video supports the existing architecture; it does not establish an exact manufacturer linkage or factory travel."
+  }
+}

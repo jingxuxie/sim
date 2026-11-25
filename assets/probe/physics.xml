@@ -65,20 +65,177 @@
       <geom name="base__Round_platen_support_4" type="cylinder" pos="0.184 0.115 0.081" size="0.03 0.041" zaxis="0 0 1" class="contact" />
       <geom name="base__Ground_steel_side_platen_2" type="box" pos="0.181 -0.003 0.138" size="0.052 0.168 0.0075" class="contact" />
       <geom name="base__Rear_bridge" type="box" pos="0 0.144 0.138" size="0.139 0.028 0.0075" class="contact" />
-      <geom name="base__Microscope_upright" type="box" pos="0 0.152 0.3" size="0.108 0.02 0.151" class="contact" />
       <geom name="base__chuck_x_fixed_race" type="box" pos="0 -0.028 0.048" size="0.065 0.0755 0.0025" class="contact" />
       <geom name="base__left_x_fixed_race" type="box" pos="-0.163 -0.028 0.1485" size="0.038 0.038 0.0025" class="contact" />
       <geom name="base__right_x_fixed_race" type="box" pos="0.163 -0.028 0.1485" size="0.038 0.038 0.0025" class="contact" />
+      <geom name="base__Optics_frame_front_mounting_plate_shell_contact" type="box" pos="0 0.134 0.3" size="0.108 0.004 0.151" class="contact" />
+      <geom name="base__Optics_frame_rear_skin_shell_contact" type="box" pos="0 0.22 0.303" size="0.108 0.002 0.147" class="contact" />
+      <geom name="base__Optics_frame_top_deck_shell_contact" type="box" pos="0 0.176 0.451" size="0.108 0.048 0.0035" class="contact" />
+      <geom name="base__Optics_frame_bottom_crossmember_shell_contact" type="box" pos="0 0.176 0.153" size="0.108 0.048 0.004" class="contact" />
+      <geom name="base__Guide_frame_side_wall_contact" type="box" pos="-0.108 0.176 0.16975" size="0.0025 0.044 0.01875" class="contact" />
+      <geom name="base__Guide_frame_side_wall_contact_2" type="box" pos="-0.108 0.176 0.2975" size="0.0025 0.044 0.094" class="contact" />
+      <geom name="base__Guide_frame_side_wall_contact_3" type="box" pos="-0.108 0.176 0.42875" size="0.0025 0.044 0.02225" class="contact" />
+      <geom name="base__Guide_frame_slot_end_web_contact" type="box" pos="-0.108 0.1365 0.301" size="0.0025 0.0045 0.15" class="contact" />
+      <geom name="base__Guide_frame_slot_end_web_contact_2" type="box" pos="-0.108 0.2155 0.301" size="0.0025 0.0045 0.15" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact" type="box" quat="0.671558954847 0.740951125355 0 0" pos="-0.108 0.1475688372 0.2054542549" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_2" type="box" quat="0.595699304492 0.803207531481 0 0" pos="-0.108 0.1457422956 0.2050909332" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_3" type="box" quat="0.514102744193 0.85772861 0 0" pos="-0.108 0.144021731 0.204378252" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_4" type="box" quat="0.42755509343 0.903989293123 0 0" pos="-0.108 0.1424732638 0.2033435993" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_5" type="box" quat="0.336889853392 0.941544065183 0 0" pos="-0.108 0.1411564007 0.2020267362" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_6" type="box" quat="0.242980179903 0.970031253195 0 0" pos="-0.108 0.140121748 0.200478269" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_7" type="box" quat="0.146730474455 0.989176509965 0 0" pos="-0.108 0.1394090668 0.1987577044" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_8" type="box" quat="0.0490676743274 0.998795456205 0 0" pos="-0.108 0.1390457451 0.1969311628" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_9" type="box" quat="-0.0490676743274 0.998795456205 0 0" pos="-0.108 0.1390457451 0.1950688372" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_10" type="box" quat="-0.146730474455 0.989176509965 0 0" pos="-0.108 0.1394090668 0.1932422956" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_11" type="box" quat="-0.242980179903 0.970031253195 0 0" pos="-0.108 0.140121748 0.191521731" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_12" type="box" quat="-0.336889853392 0.941544065183 0 0" pos="-0.108 0.1411564007 0.1899732638" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_13" type="box" quat="-0.42755509343 0.903989293123 0 0" pos="-0.108 0.1424732638 0.1886564007" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_14" type="box" quat="-0.514102744193 0.85772861 0 0" pos="-0.108 0.144021731 0.187621748" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_15" type="box" quat="-0.595699304492 0.803207531481 0 0" pos="-0.108 0.1457422956 0.1869090668" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_16" type="box" quat="-0.671558954847 0.740951125355 0 0" pos="-0.108 0.1475688372 0.1865457451" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_17" type="box" quat="0.740951125355 -0.671558954847 0 0" pos="-0.108 0.2044311628 0.1865457451" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_18" type="box" quat="0.803207531481 -0.595699304492 0 0" pos="-0.108 0.2062577044 0.1869090668" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_19" type="box" quat="0.85772861 -0.514102744193 0 0" pos="-0.108 0.207978269 0.187621748" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_20" type="box" quat="0.903989293123 -0.42755509343 0 0" pos="-0.108 0.2095267362 0.1886564007" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_21" type="box" quat="0.941544065183 -0.336889853392 0 0" pos="-0.108 0.2108435993 0.1899732638" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_22" type="box" quat="0.970031253195 -0.242980179903 0 0" pos="-0.108 0.211878252 0.191521731" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_23" type="box" quat="0.989176509965 -0.146730474455 0 0" pos="-0.108 0.2125909332 0.1932422956" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_24" type="box" quat="0.998795456205 -0.0490676743274 0 0" pos="-0.108 0.2129542549 0.1950688372" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_25" type="box" quat="0.998795456205 0.0490676743274 0 0" pos="-0.108 0.2129542549 0.1969311628" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_26" type="box" quat="0.989176509965 0.146730474455 0 0" pos="-0.108 0.2125909332 0.1987577044" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_27" type="box" quat="0.970031253195 0.242980179903 0 0" pos="-0.108 0.211878252 0.200478269" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_28" type="box" quat="0.941544065183 0.336889853392 0 0" pos="-0.108 0.2108435993 0.2020267362" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_29" type="box" quat="0.903989293123 0.42755509343 0 0" pos="-0.108 0.2095267362 0.2033435993" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_30" type="box" quat="0.85772861 0.514102744193 0 0" pos="-0.108 0.207978269 0.204378252" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_31" type="box" quat="0.803207531481 0.595699304492 0 0" pos="-0.108 0.2062577044 0.2050909332" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_32" type="box" quat="0.740951125355 0.671558954847 0 0" pos="-0.108 0.2044311628 0.2054542549" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_33" type="box" quat="0.671558954847 0.740951125355 0 0" pos="-0.108 0.1475688372 0.4084542549" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_34" type="box" quat="0.595699304492 0.803207531481 0 0" pos="-0.108 0.1457422956 0.4080909332" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_35" type="box" quat="0.514102744193 0.85772861 0 0" pos="-0.108 0.144021731 0.407378252" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_36" type="box" quat="0.42755509343 0.903989293123 0 0" pos="-0.108 0.1424732638 0.4063435993" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_37" type="box" quat="0.336889853392 0.941544065183 0 0" pos="-0.108 0.1411564007 0.4050267362" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_38" type="box" quat="0.242980179903 0.970031253195 0 0" pos="-0.108 0.140121748 0.403478269" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_39" type="box" quat="0.146730474455 0.989176509965 0 0" pos="-0.108 0.1394090668 0.4017577044" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_40" type="box" quat="0.0490676743274 0.998795456205 0 0" pos="-0.108 0.1390457451 0.3999311628" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_41" type="box" quat="-0.0490676743274 0.998795456205 0 0" pos="-0.108 0.1390457451 0.3980688372" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_42" type="box" quat="-0.146730474455 0.989176509965 0 0" pos="-0.108 0.1394090668 0.3962422956" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_43" type="box" quat="-0.242980179903 0.970031253195 0 0" pos="-0.108 0.140121748 0.394521731" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_44" type="box" quat="-0.336889853392 0.941544065183 0 0" pos="-0.108 0.1411564007 0.3929732638" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_45" type="box" quat="-0.42755509343 0.903989293123 0 0" pos="-0.108 0.1424732638 0.3916564007" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_46" type="box" quat="-0.514102744193 0.85772861 0 0" pos="-0.108 0.144021731 0.390621748" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_47" type="box" quat="-0.595699304492 0.803207531481 0 0" pos="-0.108 0.1457422956 0.3899090668" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_48" type="box" quat="-0.671558954847 0.740951125355 0 0" pos="-0.108 0.1475688372 0.3895457451" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_49" type="box" quat="0.740951125355 -0.671558954847 0 0" pos="-0.108 0.2044311628 0.3895457451" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_50" type="box" quat="0.803207531481 -0.595699304492 0 0" pos="-0.108 0.2062577044 0.3899090668" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_51" type="box" quat="0.85772861 -0.514102744193 0 0" pos="-0.108 0.207978269 0.390621748" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_52" type="box" quat="0.903989293123 -0.42755509343 0 0" pos="-0.108 0.2095267362 0.3916564007" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_53" type="box" quat="0.941544065183 -0.336889853392 0 0" pos="-0.108 0.2108435993 0.3929732638" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_54" type="box" quat="0.970031253195 -0.242980179903 0 0" pos="-0.108 0.211878252 0.394521731" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_55" type="box" quat="0.989176509965 -0.146730474455 0 0" pos="-0.108 0.2125909332 0.3962422956" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_56" type="box" quat="0.998795456205 -0.0490676743274 0 0" pos="-0.108 0.2129542549 0.3980688372" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_57" type="box" quat="0.998795456205 0.0490676743274 0 0" pos="-0.108 0.2129542549 0.3999311628" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_58" type="box" quat="0.989176509965 0.146730474455 0 0" pos="-0.108 0.2125909332 0.4017577044" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_59" type="box" quat="0.970031253195 0.242980179903 0 0" pos="-0.108 0.211878252 0.403478269" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_60" type="box" quat="0.941544065183 0.336889853392 0 0" pos="-0.108 0.2108435993 0.4050267362" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_61" type="box" quat="0.903989293123 0.42755509343 0 0" pos="-0.108 0.2095267362 0.4063435993" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_62" type="box" quat="0.85772861 0.514102744193 0 0" pos="-0.108 0.207978269 0.407378252" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_63" type="box" quat="0.803207531481 0.595699304492 0 0" pos="-0.108 0.2062577044 0.4080909332" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_64" type="box" quat="0.740951125355 0.671558954847 0 0" pos="-0.108 0.2044311628 0.4084542549" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Guide_frame_side_wall_contact_4" type="box" pos="0.108 0.176 0.16975" size="0.0025 0.044 0.01875" class="contact" />
+      <geom name="base__Guide_frame_side_wall_contact_5" type="box" pos="0.108 0.176 0.2975" size="0.0025 0.044 0.094" class="contact" />
+      <geom name="base__Guide_frame_side_wall_contact_6" type="box" pos="0.108 0.176 0.42875" size="0.0025 0.044 0.02225" class="contact" />
+      <geom name="base__Guide_frame_slot_end_web_contact_3" type="box" pos="0.108 0.1365 0.301" size="0.0025 0.0045 0.15" class="contact" />
+      <geom name="base__Guide_frame_slot_end_web_contact_4" type="box" pos="0.108 0.2155 0.301" size="0.0025 0.0045 0.15" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_65" type="box" quat="0.671558954847 0.740951125355 0 0" pos="0.108 0.1475688372 0.2054542549" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_66" type="box" quat="0.595699304492 0.803207531481 0 0" pos="0.108 0.1457422956 0.2050909332" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_67" type="box" quat="0.514102744193 0.85772861 0 0" pos="0.108 0.144021731 0.204378252" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_68" type="box" quat="0.42755509343 0.903989293123 0 0" pos="0.108 0.1424732638 0.2033435993" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_69" type="box" quat="0.336889853392 0.941544065183 0 0" pos="0.108 0.1411564007 0.2020267362" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_70" type="box" quat="0.242980179903 0.970031253195 0 0" pos="0.108 0.140121748 0.200478269" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_71" type="box" quat="0.146730474455 0.989176509965 0 0" pos="0.108 0.1394090668 0.1987577044" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_72" type="box" quat="0.0490676743274 0.998795456205 0 0" pos="0.108 0.1390457451 0.1969311628" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_73" type="box" quat="-0.0490676743274 0.998795456205 0 0" pos="0.108 0.1390457451 0.1950688372" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_74" type="box" quat="-0.146730474455 0.989176509965 0 0" pos="0.108 0.1394090668 0.1932422956" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_75" type="box" quat="-0.242980179903 0.970031253195 0 0" pos="0.108 0.140121748 0.191521731" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_76" type="box" quat="-0.336889853392 0.941544065183 0 0" pos="0.108 0.1411564007 0.1899732638" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_77" type="box" quat="-0.42755509343 0.903989293123 0 0" pos="0.108 0.1424732638 0.1886564007" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_78" type="box" quat="-0.514102744193 0.85772861 0 0" pos="0.108 0.144021731 0.187621748" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_79" type="box" quat="-0.595699304492 0.803207531481 0 0" pos="0.108 0.1457422956 0.1869090668" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_80" type="box" quat="-0.671558954847 0.740951125355 0 0" pos="0.108 0.1475688372 0.1865457451" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_81" type="box" quat="0.740951125355 -0.671558954847 0 0" pos="0.108 0.2044311628 0.1865457451" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_82" type="box" quat="0.803207531481 -0.595699304492 0 0" pos="0.108 0.2062577044 0.1869090668" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_83" type="box" quat="0.85772861 -0.514102744193 0 0" pos="0.108 0.207978269 0.187621748" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_84" type="box" quat="0.903989293123 -0.42755509343 0 0" pos="0.108 0.2095267362 0.1886564007" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_85" type="box" quat="0.941544065183 -0.336889853392 0 0" pos="0.108 0.2108435993 0.1899732638" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_86" type="box" quat="0.970031253195 -0.242980179903 0 0" pos="0.108 0.211878252 0.191521731" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_87" type="box" quat="0.989176509965 -0.146730474455 0 0" pos="0.108 0.2125909332 0.1932422956" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_88" type="box" quat="0.998795456205 -0.0490676743274 0 0" pos="0.108 0.2129542549 0.1950688372" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_89" type="box" quat="0.998795456205 0.0490676743274 0 0" pos="0.108 0.2129542549 0.1969311628" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_90" type="box" quat="0.989176509965 0.146730474455 0 0" pos="0.108 0.2125909332 0.1987577044" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_91" type="box" quat="0.970031253195 0.242980179903 0 0" pos="0.108 0.211878252 0.200478269" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_92" type="box" quat="0.941544065183 0.336889853392 0 0" pos="0.108 0.2108435993 0.2020267362" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_93" type="box" quat="0.903989293123 0.42755509343 0 0" pos="0.108 0.2095267362 0.2033435993" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_94" type="box" quat="0.85772861 0.514102744193 0 0" pos="0.108 0.207978269 0.204378252" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_95" type="box" quat="0.803207531481 0.595699304492 0 0" pos="0.108 0.2062577044 0.2050909332" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_96" type="box" quat="0.740951125355 0.671558954847 0 0" pos="0.108 0.2044311628 0.2054542549" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_97" type="box" quat="0.671558954847 0.740951125355 0 0" pos="0.108 0.1475688372 0.4084542549" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_98" type="box" quat="0.595699304492 0.803207531481 0 0" pos="0.108 0.1457422956 0.4080909332" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_99" type="box" quat="0.514102744193 0.85772861 0 0" pos="0.108 0.144021731 0.407378252" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_100" type="box" quat="0.42755509343 0.903989293123 0 0" pos="0.108 0.1424732638 0.4063435993" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_101" type="box" quat="0.336889853392 0.941544065183 0 0" pos="0.108 0.1411564007 0.4050267362" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_102" type="box" quat="0.242980179903 0.970031253195 0 0" pos="0.108 0.140121748 0.403478269" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_103" type="box" quat="0.146730474455 0.989176509965 0 0" pos="0.108 0.1394090668 0.4017577044" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_104" type="box" quat="0.0490676743274 0.998795456205 0 0" pos="0.108 0.1390457451 0.3999311628" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_105" type="box" quat="-0.0490676743274 0.998795456205 0 0" pos="0.108 0.1390457451 0.3980688372" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_106" type="box" quat="-0.146730474455 0.989176509965 0 0" pos="0.108 0.1394090668 0.3962422956" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_107" type="box" quat="-0.242980179903 0.970031253195 0 0" pos="0.108 0.140121748 0.394521731" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_108" type="box" quat="-0.336889853392 0.941544065183 0 0" pos="0.108 0.1411564007 0.3929732638" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_109" type="box" quat="-0.42755509343 0.903989293123 0 0" pos="0.108 0.1424732638 0.3916564007" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_110" type="box" quat="-0.514102744193 0.85772861 0 0" pos="0.108 0.144021731 0.390621748" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_111" type="box" quat="-0.595699304492 0.803207531481 0 0" pos="0.108 0.1457422956 0.3899090668" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_112" type="box" quat="-0.671558954847 0.740951125355 0 0" pos="0.108 0.1475688372 0.3895457451" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_113" type="box" quat="0.740951125355 -0.671558954847 0 0" pos="0.108 0.2044311628 0.3895457451" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_114" type="box" quat="0.803207531481 -0.595699304492 0 0" pos="0.108 0.2062577044 0.3899090668" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_115" type="box" quat="0.85772861 -0.514102744193 0 0" pos="0.108 0.207978269 0.390621748" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_116" type="box" quat="0.903989293123 -0.42755509343 0 0" pos="0.108 0.2095267362 0.3916564007" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_117" type="box" quat="0.941544065183 -0.336889853392 0 0" pos="0.108 0.2108435993 0.3929732638" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_118" type="box" quat="0.970031253195 -0.242980179903 0 0" pos="0.108 0.211878252 0.394521731" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_119" type="box" quat="0.989176509965 -0.146730474455 0 0" pos="0.108 0.2125909332 0.3962422956" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_120" type="box" quat="0.998795456205 -0.0490676743274 0 0" pos="0.108 0.2129542549 0.3980688372" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_121" type="box" quat="0.998795456205 0.0490676743274 0 0" pos="0.108 0.2129542549 0.3999311628" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_122" type="box" quat="0.989176509965 0.146730474455 0 0" pos="0.108 0.2125909332 0.4017577044" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_123" type="box" quat="0.970031253195 0.242980179903 0 0" pos="0.108 0.211878252 0.403478269" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_124" type="box" quat="0.941544065183 0.336889853392 0 0" pos="0.108 0.2108435993 0.4050267362" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_125" type="box" quat="0.903989293123 0.42755509343 0 0" pos="0.108 0.2095267362 0.4063435993" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_126" type="box" quat="0.85772861 0.514102744193 0 0" pos="0.108 0.207978269 0.407378252" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_127" type="box" quat="0.803207531481 0.595699304492 0 0" pos="0.108 0.2062577044 0.4080909332" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Rounded_guide_slot_contact_128" type="box" quat="0.740951125355 0.671558954847 0 0" pos="0.108 0.2044311628 0.4084542549" size="0.0025 0.002 0.00114397765" class="contact" />
+      <geom name="base__Exposed_transverse_guide_rod_contact" type="cylinder" pos="0.132 0.176 0.195" size="0.0055 0.035" zaxis="1 0 0" class="contact" />
+      <geom name="base__Exposed_transverse_guide_rod_contact_2" type="cylinder" pos="0.132 0.176 0.399" size="0.0055 0.035" zaxis="1 0 0" class="contact" />
       <body name="optic_focus" pos="0 0.029 0.366" euler="0 0 0" gravcomp="1">
         <joint name="optic_focus_travel" type="slide" axis="0 0 1" damping="40" frictionloss="2" range="-0.02 0.02" solimpfriction=".99999 .999999 .000001 .5 2" />
         <inertial mass="2.6" pos="0 0 0" diaginertia="0.003185 0.003185 0.003185" />
         <geom name="optic_focus__Focus_carriage_bridge" type="box" pos="0 0.07 -0.012" size="0.046 0.045 0.054" class="contact" />
-        <geom name="optic_focus__Mitutoyo_optical_housing_envelope" type="box" pos="0 -0.035 -0.013" size="0.0555 0.061 0.0845" class="contact" />
         <geom name="optic_focus__Objective_barrel" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.131325" size="0.01303 0.019325" zaxis="0 0 -1" class="contact" />
         <geom name="optic_focus__Objective_forebody" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.162075" size="0.0122 0.011425" zaxis="0 0 -1" class="contact" />
         <geom name="optic_focus__Objective_end_shoulder" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.17375" size="0.0105 0.00025" zaxis="0 0 -1" class="contact" />
         <geom name="optic_focus__Objective_front_aperture" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.174" size="0.007 0.00025" zaxis="0 0 -1" class="contact" />
         <geom name="optic_focus__Objective_front_glass" type="cylinder" contype="10" conaffinity="17" pos="0 -0.057 -0.1743" size="0.004 0.00015" zaxis="0 0 -1" class="contact" />
+        <geom name="optic_focus__Optical_housing_inner_core" type="box" pos="0 -0.035 -0.013" size="0.0435 0.061 0.0845" class="contact" />
+        <geom name="optic_focus__Optical_housing_side_rim" type="box" pos="-0.0495 -0.035 -0.09525" size="0.006 0.061 0.00225" class="contact" />
+        <geom name="optic_focus__Optical_housing_side_rim_2" type="box" pos="-0.0495 -0.035 0.01875" size="0.006 0.061 0.05275" class="contact" />
+        <geom name="optic_focus__Optical_housing_side_rim_3" type="box" pos="-0.0495 -0.086 -0.0635" size="0.006 0.01 0.0295" class="contact" />
+        <geom name="optic_focus__Optical_housing_side_rim_4" type="box" pos="-0.0495 0.022 -0.0635" size="0.006 0.004 0.0295" class="contact" />
+        <geom name="optic_focus__Blank_optical_cover_contact" type="box" pos="-0.0557 -0.029 -0.063" size="0.0008 0.0423 0.0253" class="contact" />
+        <geom name="optic_focus__Optical_housing_side_rim_5" type="box" pos="0.0495 -0.035 -0.09525" size="0.006 0.061 0.00225" class="contact" />
+        <geom name="optic_focus__Optical_housing_side_rim_6" type="box" pos="0.0495 -0.035 0.01875" size="0.006 0.061 0.05275" class="contact" />
+        <geom name="optic_focus__Optical_housing_side_rim_7" type="box" pos="0.0495 -0.086 -0.0635" size="0.006 0.01 0.0295" class="contact" />
+        <geom name="optic_focus__Optical_housing_side_rim_8" type="box" pos="0.0495 0.022 -0.0635" size="0.006 0.004 0.0295" class="contact" />
+        <geom name="optic_focus__Slotted_optical_cover_contact" type="box" pos="0.0557 -0.029 -0.07665" size="0.0008 0.0423 0.01165" class="contact" />
+        <geom name="optic_focus__Slotted_optical_cover_contact_2" type="box" pos="0.0557 -0.029 -0.04885" size="0.0008 0.0423 0.01115" class="contact" />
+        <geom name="optic_focus__Slotted_optical_cover_contact_3" type="box" pos="0.0557 -0.07015 -0.0625" size="0.0008 0.00115 0.0025" class="contact" />
+        <geom name="optic_focus__Slotted_optical_cover_contact_4" type="box" pos="0.0557 -0.047 -0.0625" size="0.0008 0.005 0.0025" class="contact" />
+        <geom name="optic_focus__Slotted_optical_cover_contact_5" type="box" pos="0.0557 -0.00585 -0.0625" size="0.0008 0.01915 0.0025" class="contact" />
         <site name="inspection_axis" pos="0 -0.057 -0.174" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <site name="objective_seat_0" pos="0 -0.057 -0.112" size=".0006" group="4" rgba=".1 .8 .4 1" />
         <site name="objective_tip_0" pos="0 -0.057 -0.174" size=".0006" group="4" rgba=".1 .8 .4 1" />

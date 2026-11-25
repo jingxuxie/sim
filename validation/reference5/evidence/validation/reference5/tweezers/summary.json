@@ -1,0 +1,30 @@
+{
+  "revision": "reference5",
+  "asset": "tweezers",
+  "changed": false,
+  "reviewed": true,
+  "references": [
+    {
+      "file": "images/tweezer/Weixin Image_20261123002137_241_2.jpg",
+      "sha256": "b4257e4a323fdb0521dfc5ce2baedcaa0881494db95d3e21b2871b7a03f85d02"
+    },
+    {
+      "file": "images/tweezer/Weixin Image_20261123002137_242_2.jpg",
+      "sha256": "0057ee2cb6e91c095af9417c75fa21a201f28054a6dbf052599e4ee1dd4987d8"
+    }
+  ],
+  "observations": [
+    "Both photographs show smooth formed spring strips with fine tapered tips, a rounded joined heel and a small ownership label. Those features are already present in the current continuous-blade reconstruction.",
+    "The receiving tray and pickup seat are benchmark fixtures; neither appears in the reference photographs. They remain labeled as fixtures, without claiming a photographic match."
+  ],
+  "decision": "Keep the currently matching tweezer geometry. Include this unchanged source in the new integration/task and all-model rendering checks; do not alter tested tip contact planes without supporting reference evidence.",
+  "current_artifacts_sha256": {
+    "006_tweezers/spring_tweezers.blend": "b89c238d314123892c30b2617fb4ad10c4eefb656f20b7c2c962993a2a459b12",
+    "006_tweezers/spring_tweezers.xml": "c35d760566844f3c53827904d4bf373ad6f08e803c5c972a84f8d876a011d35b",
+    "006_tweezers/geometry_revision4.py": "b7978b3ce88cd9646e922dabb7728258abe894e9c68264bd24e217a60bd4c811",
+    "006_tweezers/build.py": "0283593ea91f983469c7fb4a39c1165625cf2bde67730576533216903117a4f5",
+    "006_tweezers/asset.json": "1bd0fd55e1d9efc74b9dcb71c2d62cf6d81fc75f25a1a3e6a8ea7a4bbffac7c8",
+    "006_tweezers/assets/spring_tweezers.glb": "2c79f0f4df2e8a547597144156b3e4ef368cecb295bdf31ce03d6e5ca9525e6e"
+  },
+  "validation_status": "Reference review complete; current integration tests pending."
+}

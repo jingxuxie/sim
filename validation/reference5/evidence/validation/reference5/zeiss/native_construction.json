@@ -1,0 +1,148 @@
+{
+  "asset": "zeiss",
+  "revision": "reference5",
+  "xml_sha256": "273df4cf8b5db833087101c298b11db2ef01e03a3bd6ece653f59f6d769d0d3e",
+  "baseline_xml_sha256": "dd2965859c037631fd072ee2d70ea80c86fc192d60300927018105dfae323912",
+  "script_sha256": "8ad0150607265cf89a530582311a45b7bdf6c0c0b0aa358961babd8b70323ff6",
+  "checks": [
+    {
+      "check": "existing_joint_and_site_datums",
+      "joint_max_delta_SI": 0.0,
+      "site_max_delta_m": 0.0,
+      "nq_before_after": [
+        8,
+        8
+      ],
+      "nv_before_after": [
+        8,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "check": "native_longitudinal_aperture",
+      "y_mm": -105.0,
+      "before": {
+        "distance_mm": 11.99999999999999,
+        "geom": "stage_x__Black_mechanical_stage_end_-1"
+      },
+      "after": {
+        "distance_mm": 153.00000000000003,
+        "geom": "base__Foot_contact"
+      },
+      "passed": true
+    },
+    {
+      "check": "native_longitudinal_aperture",
+      "y_mm": -35.0,
+      "before": {
+        "distance_mm": 11.99999999999999,
+        "geom": "stage_x__Black_mechanical_stage_end_1"
+      },
+      "after": {
+        "distance_mm": 153.00000000000003,
+        "geom": "base__Foot_contact"
+      },
+      "passed": true
+    }
+  ],
+  "task_cases": [
+    {
+      "task": "zeiss.center",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.74,
+      "wall_s": 0.095,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.2209695727150956e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.98,
+      "wall_s": 0.127,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.2010513534791074e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.center",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.78,
+      "wall_s": 0.096,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "error_m": 2.165867887940416e-05
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 0,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.92,
+      "wall_s": 0.116,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 5.138643419647006e-07
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 11,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.58,
+      "wall_s": 0.071,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 5.194277567353872e-07
+      },
+      "events": [],
+      "controller": "bench fixture"
+    },
+    {
+      "task": "zeiss.focus",
+      "seed": 37,
+      "success": true,
+      "failure": null,
+      "duration_s": 0.88,
+      "wall_s": 0.116,
+      "metrics": {
+        "success": true,
+        "failure": null,
+        "peak_contact_N": 0,
+        "defocus_m": 5.378440583503384e-07
+      },
+      "events": [],
+      "controller": "bench fixture"
+    }
+  ],
+  "passed": true
+}

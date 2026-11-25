@@ -1,0 +1,28 @@
+{
+  "initial_job": 46945447,
+  "reason": "Chromium evicted the large AFM GLB response from its inspector cache before response.body() could record the source hash. Replace only that harness capture with byte-preserving route forwarding; rerun the full AFM check.",
+  "initial_inputs_sha256": "9607d483c2d53c68c3a114a7a3d23431d6129be5770a8581939d036524d636cd",
+  "original_passed_reports": {
+    "physics.json": "10303ca5fb2a7b527a121ef8939b963ae911cce791ecaa6c5c8ce3bd5b56104e",
+    "mechanisms.json": "65e6869810dfdc679bb3ee8efc41afb0d8de1f4a38e9ef456665c1cf66979fe9",
+    "flexible.json": "53e0e13fb1945f3e17262599ee97a216c28ec81ea80ce830d2854debd0a5492f",
+    "contact-shapes.json": "3bc8a3fd2488ec9f264e88100dd96e5176d82cdd33d2d01fca869b152b974840",
+    "focus-contact.json": "cc3cd398878de2d9dd78f2be5a064a6d52c4ddea87357020919ff04a69d25e72",
+    "browser.json": "d49ec49eb73a58b56d01f458571504855986a80a7b58fc6f915cb4166a69dd3a",
+    "rendering.json": "cbcabaa3f8f4a208c9f7f50837cacda0ae131021f6ff7225427a0a3f0c20129a",
+    "all-models.json": "7ccb18054e7df3c737f7a995039062ea8a05bc491c06283fd45e779f7886b7f9",
+    "closeups.json": "ecec047dce2c160a639dc4ec68b34c1d9ad5453c058d2ce7c997d74349934703"
+  },
+  "allowed_changed_inputs": [
+    "tests/afm-pocket.cjs"
+  ],
+  "passed": true,
+  "retest_job": 46946810,
+  "observed_changed_inputs": [
+    "tests/afm-pocket.cjs"
+  ],
+  "current_inputs_sha256": "9f242f0e51d9d1a56da3fbb805ca765714b4d116c8c081c087cc3edcd108bd26",
+  "unchanged_input_count": 59,
+  "afm_report_sha256": "6f7bd70378639688163869bc7b2436f17be1861c53daeb4850427085874588a4",
+  "conclusion": "Only the AFM test source-capture code changed. All model, runtime, optical module, catalog, contact and other harness inputs stayed byte-identical across the complete suite and AFM retest."
+}

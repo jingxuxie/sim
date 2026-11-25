@@ -1,0 +1,89 @@
+{
+  "revision": "reference5",
+  "asset": "bonder",
+  "draft": false,
+  "source_sha256": "90c5f7900f3968247434a3421027417c6b63d4b418a5a467b7f3db51524c9bed",
+  "inspection_joint_positions": {},
+  "measured_trajectory": null,
+  "focus_body": null,
+  "render_script_sha256": "8f1e9d88ffe5244cce0322a17d15a8b6fee8fb5bf210fe58c4ab029483709453",
+  "requested_views": [
+    "overview",
+    "tool",
+    "head_detail",
+    "optical_head",
+    "heater_detail",
+    "rear_service"
+  ],
+  "renders": [
+    {
+      "file": "overview.png",
+      "camera": "overview",
+      "resolution": [
+        3840,
+        3200
+      ],
+      "samples": 256,
+      "focus_override": null,
+      "sha256": "d42e97eb210fca6a99dc378c42da8ed8ed4826bcfd1fc7cfb37bfeb562afbb0a"
+    },
+    {
+      "file": "tool.png",
+      "camera": "tool",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "658e82aa52dcc46ea8695aaed98760ca915f463759030c0217123395f1b9946d"
+    },
+    {
+      "file": "head_detail.png",
+      "camera": "head_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "1641f2f87c6cea0d233684d3c7934be1258c07349e8219e61ab769f780fc6088"
+    },
+    {
+      "file": "optical_head.png",
+      "camera": "optical_head",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "1f02dd2d3907d608e9895172fe3af4cc61bdecfda3b3c0357be32f6bfa126d9f"
+    },
+    {
+      "file": "heater_detail.png",
+      "camera": "heater_detail",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "6ecbf29de5aec4546b254d00175da706634a5225933a042930dc456cda22de39"
+    },
+    {
+      "file": "rear_service.png",
+      "camera": "rear_service",
+      "resolution": [
+        2560,
+        2160
+      ],
+      "samples": 192,
+      "focus_override": null,
+      "sha256": "f20383718e03000d5f56a8e82ba2c0c26dcfc40e3e61dc2b6d0ffcf21c441713"
+    }
+  ],
+  "complete": true,
+  "source_report": "validation/reference5/bonder/renders/render_report.json",
+  "web_preview_sha256": "7c866201dac66a6ffa374ce5b047ca497a99463f9b365497e54310338ad67c52"
+}

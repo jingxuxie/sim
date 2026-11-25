@@ -1,0 +1,365 @@
+{
+  "revision": "reference5",
+  "asset": "probe",
+  "changed": true,
+  "passed": true,
+  "reference_photos": [
+    {
+      "photo_id": 243,
+      "private_reference": true,
+      "path": "images/probe_station/Weixin Image_20261123002137_243_2.jpg",
+      "sha256": "0c3eb4b23dcb069c34edbcad17cdbe83b7248f948b91e29f9f7c7d8e70530d82",
+      "bytes": 225669
+    },
+    {
+      "photo_id": 245,
+      "private_reference": true,
+      "path": "images/probe_station/Weixin Image_20261123002137_245_2.jpg",
+      "sha256": "644b16929c90166b65c1951571b709b32b1728d7fd9e68f9732dfc3bfb4162ed",
+      "bytes": 288034
+    },
+    {
+      "photo_id": 246,
+      "private_reference": true,
+      "path": "images/probe_station/Weixin Image_20261123002137_246_2.jpg",
+      "sha256": "f89ede9fe1f436744f5b71fcc1087302f8b63bba90ee4f15dacd9236be7e9470",
+      "bytes": 249075
+    },
+    {
+      "photo_id": 247,
+      "private_reference": true,
+      "path": "images/probe_station/Weixin Image_20261123002137_247_2.jpg",
+      "sha256": "58ceac1ec3707183a573a682ee0b7353fa4321b0d27be62b5d90bf8cd3f736da",
+      "bytes": 261316
+    }
+  ],
+  "reference_findings": [
+    {
+      "photos": [
+        245,
+        247
+      ],
+      "region": "Right-hand wall of the optical support enclosure",
+      "observed": "Two elongated guide slots have rounded ends and visible interior depth.",
+      "prior_error": "Rectangular openings had shallow backing strips; the native upright was a solid box across both openings.",
+      "correction": "Rebuilt side shells with through-cut rounded slots, removed the backing strips, and replaced the monolithic contact hull with open compound shell contacts."
+    },
+    {
+      "photos": [
+        245,
+        247
+      ],
+      "region": "Lower optical-head side cover below the magnification selector",
+      "observed": "A framed removable cover has two horizontal access slots and recessed faces.",
+      "prior_error": "The apparent slots were immediately backed by a solid casing and a full-size collision hull.",
+      "correction": "Cut bounded service wells into the casing, rebuilt the recessed cover/perimeter and real plate slots, and split contact pieces around the openings."
+    },
+    {
+      "photos": [
+        245,
+        247
+      ],
+      "region": "Exposed lower guide-rod end",
+      "observed": "The rod has a visible hollow end.",
+      "correction": "Replaced the painted end mark with a short actual recessed bore."
+    }
+  ],
+  "source_models": [
+    {
+      "path": "002_probe_station/probe_station.blend",
+      "sha256": "54a639be4c1e90e4d732c38d90d9171b02a2a2d0988a541c65db833ccac47925",
+      "bytes": 56202291
+    },
+    {
+      "path": "002_probe_station/probe_station.xml",
+      "sha256": "c1c2fcdbe89655cb44a9ca773d429a8441fc136e888d4ff4acc3a5910fc4906a",
+      "bytes": 75324
+    },
+    {
+      "path": "002_probe_station/assets/probe_station.glb",
+      "sha256": "b51d8ce9289c3f6d3f1be2b45f9a3a7b717a7ea00af1655d97b8efe72c2ad134",
+      "bytes": 25953212
+    },
+    {
+      "path": "002_probe_station/assets/meshes.json",
+      "sha256": "66de046698359467f1ff1679fc66b4cf61e621c6a24e75b907c48cc87fa74c8f",
+      "bytes": 13029
+    },
+    {
+      "path": "002_probe_station/asset.json",
+      "sha256": "5dfc29659edb71efefb3cf8347950f77030e4060884deee1d6a08ae24377290e",
+      "bytes": 110023
+    }
+  ],
+  "builder_files": [
+    {
+      "path": "002_probe_station/build.py",
+      "sha256": "7fe838746b2437aaef233619da54c6ec73a20c8b801b652f4e19821df7100e4f",
+      "bytes": 9771
+    },
+    {
+      "path": "002_probe_station/reference_geometry.py",
+      "sha256": "92b516c75a5ff50a45dbf8f013ed0ba217167ba720c2a7573a58c56c38999db2",
+      "bytes": 17759
+    },
+    {
+      "path": "002_probe_station/reference_construction.py",
+      "sha256": "7c3984ace6d541fff59b32529aa8f86e9bce6d436379f6278273003bee249286",
+      "bytes": 7095
+    },
+    {
+      "path": "002_probe_station/geometry_support.py",
+      "sha256": "f6d33ea5e3c2c389b7022df7467499d059e7427fb42c82838cf381218c216db4",
+      "bytes": 3701
+    },
+    {
+      "path": "tools/photography.py",
+      "sha256": "d72172b252587871c73257f39379abb642ec17eb1e7a472dd637395ec77a60e7",
+      "bytes": 7224
+    },
+    {
+      "path": "tools/realism_materials.py",
+      "sha256": "ceebc444f75b93866c4bedd9bcf22239518d5ed56cfa079468eb51dbb68c4700",
+      "bytes": 24000
+    },
+    {
+      "path": "tools/assetkit.py",
+      "sha256": "4a4e85a00c924bfcfb5b7d68ee6e4c24839c72c34017c8f03bbe7444d50c8ba2",
+      "bytes": 23609
+    },
+    {
+      "path": "tools/hardware.py",
+      "sha256": "17670ec29e9256d1c3a33d6618ff86b173370700e59213274916abcac5d351c0",
+      "bytes": 10238
+    },
+    {
+      "path": "tools/contact_mechanics.py",
+      "sha256": "734ee0dd0ba3a3642ad3f47ef3bbeebd53a430677dac1249261c5b23673abdca",
+      "bytes": 7432
+    }
+  ],
+  "baseline_manifest": {
+    "path": "validation/reference5/probe/baseline_files.json",
+    "sha256": "d2ab957d05de3bfead8169e9b3e1abf9d16e4327c70973f6ea67d9b7cd248d1b",
+    "bytes": 27233
+  },
+  "baseline_model": {
+    "path": "validation/reference5/probe/before/probe_station.blend",
+    "sha256": "d9a97c86f9cc9cd809a91207da5ae921452061834ba586021d4b27051349b9c1",
+    "bytes": 56222027
+  },
+  "targeted_validation": {
+    "construction_geometry": {
+      "passed": true,
+      "path": "validation/reference5/probe/construction_geometry.json",
+      "sha256": "9a1de589154b2cda46d452cad8025067a108b72c64f5fc9a5d4e46516ba83054",
+      "bytes": 9919
+    },
+    "clearance_regression": {
+      "passed": true,
+      "path": "validation/reference5/probe/clearance_regression.json",
+      "sha256": "0c200896a3112856c664e19c1fcb0ef303e565ee756e473cdfce240732aee5d9",
+      "bytes": 95824
+    },
+    "native_construction": {
+      "passed": true,
+      "path": "validation/reference5/probe/native_construction.json",
+      "sha256": "d93326b19ee6658b94f6eb0a3e663048bc3e8fea822f921fe220e9c0a7613408",
+      "bytes": 1922
+    },
+    "optical_contact": {
+      "passed": true,
+      "path": "validation/reference5/probe/optical_contact.json",
+      "sha256": "b9a2dd8d073efaf0082e73c5ed3dbf774c8cd39f1fc46d1413d5bf2d3fe86cb9",
+      "bytes": 7600
+    }
+  },
+  "validation_scripts": [
+    {
+      "path": "validation/reference5/microscopes/construction_geometry.py",
+      "sha256": "2283c41a4dd32e1fb3e9a87302efb5d4e148ef11f8ddf537b71e5a12cba1050b",
+      "bytes": 6115
+    },
+    {
+      "path": "validation/reference5/microscopes/clearance_regression.py",
+      "sha256": "7bcf7f175be993e6263ad9a1672d003b789c58618da4ba14a2709720b6cf313e",
+      "bytes": 19089
+    },
+    {
+      "path": "validation/reference5/microscopes/native_construction.py",
+      "sha256": "8ad0150607265cf89a530582311a45b7bdf6c0c0b0aa358961babd8b70323ff6",
+      "bytes": 6801
+    },
+    {
+      "path": "validation/reference5/microscopes/probe_contact_regression.py",
+      "sha256": "fa6ee0c58451ca5538438a6936f6e40724a987f462e43924c5815c56ee4d7ae4",
+      "bytes": 4370
+    }
+  ],
+  "preserved_interfaces": {
+    "check": "existing_joint_and_site_datums",
+    "joint_max_delta_SI": 0.0,
+    "site_max_delta_m": 0.0,
+    "nq_before_after": [
+      19,
+      19
+    ],
+    "nv_before_after": [
+      19,
+      19
+    ],
+    "passed": true
+  },
+  "task_cases": [
+    {
+      "task": "probe.align",
+      "seed": 0,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "probe.align",
+      "seed": 11,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "probe.align",
+      "seed": 37,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "probe.touch",
+      "seed": 0,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "probe.touch",
+      "seed": 11,
+      "success": true,
+      "failure": null
+    },
+    {
+      "task": "probe.touch",
+      "seed": 37,
+      "success": true,
+      "failure": null
+    }
+  ],
+  "current_promoted_render_report": {
+    "path": "002_probe_station/previews/render_report.json",
+    "sha256": "9cc1aabe57dea8cd07075906a7e643b11f6ffbeb34c9493d4642dd2e57e1d74e",
+    "bytes": 1868
+  },
+  "promoted_views": [
+    {
+      "path": "002_probe_station/previews/overview.png",
+      "sha256": "7898992c6975f3e8bc3e9fc28a62ae96c14ff525ed8d8bf0e01fb47b47fde3e5",
+      "bytes": 11440841
+    },
+    {
+      "path": "002_probe_station/previews/probing.png",
+      "sha256": "db5729d20eb0d15e438b9f4eaf36cfaa2db7806d6df1bbf292afe87af75f0a8b",
+      "bytes": 5842231
+    },
+    {
+      "path": "002_probe_station/previews/optical_head.png",
+      "sha256": "e5fe394d10bd061fabcf8bf441766f483613932d1f93b44d2d1d78ef2285e73e",
+      "bytes": 5141438
+    },
+    {
+      "path": "002_probe_station/previews/left_manipulator.png",
+      "sha256": "484eb2d00e2b9060c23d92318c2fca4b7a63b2f06b6bb57ff5d69fd79b992f83",
+      "bytes": 5775865
+    },
+    {
+      "path": "002_probe_station/previews/construction_frame.png",
+      "sha256": "e9e5e29dfc99a050a5693b583e5ee25a601432bd2137143a47602c938a062f56",
+      "bytes": 4992441
+    }
+  ],
+  "extra_inspection_view": {
+    "path": "002_probe_station/previews/construction_frame.png",
+    "sha256": "e9e5e29dfc99a050a5693b583e5ee25a601432bd2137143a47602c938a062f56",
+    "bytes": 4992441
+  },
+  "thumbnail": {
+    "path": "002_probe_station/previews/web_preview.jpg",
+    "sha256": "9b40c68a4496005c75ff7ff42e5f2be624f9209dfa6cbc3a6af77ff2d45ab8b9",
+    "bytes": 122926,
+    "jpeg_quality": 92,
+    "maximum_resolution": [
+      1200,
+      1000
+    ]
+  },
+  "estimates_and_limits": [
+    "Guide openings70x15 mm, plate slots17x5 mm, approximately12.65 mm visual service-well depth and guide-bore depth are photo estimates.",
+    "The small guide-rod bore remains within a conservative cylinder contact envelope; the principal guide/cover openings are open in both visual and native geometry.",
+    "No unseen optical mechanism, inserted probe/tool or new control degree of freedom was inferred.",
+    "No geometry dimensions, masses, friction, torque, compliance or control ratios were measured on the real hardware in this revision.",
+    "These renders depict reconstructed models. Original lab photographs remain private and are not copied into public model textures.",
+    "Targeted opening/contact/clearance checks are not a certification of all object pairs or arbitrary robot motions.",
+    "Existing visual cable deformation is retained; no new cable contact, elasticity or strain dynamics are claimed."
+  ],
+  "source_frozen": true,
+  "summary_generator": {
+    "path": "validation/reference5/microscopes/promote_and_summarize.py",
+    "sha256": "b9c65d1b69bc196816976937a67b7b891b63cce680f0ee8eb43ddd0c1f1e8796",
+    "bytes": 11040
+  },
+  "optical_contact_cases": [
+    {
+      "commanded_chuck_x_y_mm": [
+        0,
+        0
+      ],
+      "commanded_theta_rad": 0,
+      "maximum_contact_penetration_mm": 0.009910802562901626,
+      "peak_normal_force_N": 11.09602259010699,
+      "passed": true
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        -12.5,
+        12.5
+      ],
+      "commanded_theta_rad": -0.35,
+      "maximum_contact_penetration_mm": 0.007428380321498223,
+      "peak_normal_force_N": 8.31447805070931,
+      "passed": true
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        -12.5,
+        12.5
+      ],
+      "commanded_theta_rad": 0,
+      "maximum_contact_penetration_mm": 0.007428380321498223,
+      "peak_normal_force_N": 8.314478050708866,
+      "passed": true
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        12.5,
+        12.5
+      ],
+      "commanded_theta_rad": 0,
+      "maximum_contact_penetration_mm": 0.007428380321498223,
+      "peak_normal_force_N": 8.314478050709111,
+      "passed": true
+    },
+    {
+      "commanded_chuck_x_y_mm": [
+        12.5,
+        12.5
+      ],
+      "commanded_theta_rad": 0.35,
+      "maximum_contact_penetration_mm": 0.007428380321498223,
+      "peak_normal_force_N": 8.314478050708825,
+      "passed": true
+    }
+  ]
+}

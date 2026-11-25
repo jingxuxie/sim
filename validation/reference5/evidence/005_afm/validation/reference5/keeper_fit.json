@@ -1,0 +1,1497 @@
+{
+  "revision": "reference5",
+  "asset": "afm",
+  "blend_sha256": "5f0856d5d620d1f7d51209554be460a7c6821ac81c218b04a80c175483ecd77b",
+  "script_sha256": "759824484d1eeffa1dbfaf6fbbc75236e16505194212bfb83cdd2f20c2624ee5",
+  "samples": [
+    {
+      "angle_rad": 0.0,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.05235987755982988,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.10471975511965977,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.15707963267948966,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.20943951023931953,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.2617993877991494,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.3141592653589793,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.3665191429188092,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.41887902047863906,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.47123889803846897,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.5235987755982988,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.5759586531581287,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.6283185307179586,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.6806784082777886,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.7330382858376184,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.7853981633974482,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.8377580409572781,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.8901179185171081,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.9424777960769379,
+      "intersections": []
+    },
+    {
+      "angle_rad": 0.9948376736367678,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.0471975511965976,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.0995574287564276,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.1519173063162573,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.2042771838760873,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.2566370614359172,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.3089969389957472,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.3613568165555772,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.413716694115407,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.4660765716752369,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.5184364492350668,
+      "intersections": []
+    },
+    {
+      "angle_rad": 1.5707963267948963,
+      "intersections": []
+    }
+  ],
+  "checks": {
+    "fixed_mount": {
+      "intersections": [],
+      "flush_seams_within_tolerance": [
+        {
+          "moving": "Enclosure keeper mounting shoe",
+          "fixed": "Formed acoustic side skin.001",
+          "nominal_mount_x_m": 0.142,
+          "evaluated_x_overlap_m": 1.2218952178955078e-06,
+          "tolerance_m": 2e-06,
+          "triangle_pairs": 8,
+          "moving_bounds_m": [
+            [
+              0.1300000101327896,
+              0.1420000046491623
+            ],
+            [
+              -0.14150001108646393,
+              -0.12700000405311584
+            ],
+            [
+              0.24050000309944153,
+              0.26750001311302185
+            ]
+          ],
+          "fixed_bounds_m": [
+            [
+              0.1419987827539444,
+              0.1640000194311142
+            ],
+            [
+              -0.14250001311302185,
+              0.14250001311302185
+            ],
+            [
+              0.07100000977516174,
+              0.4530000388622284
+            ]
+          ],
+          "strictly_separated": false,
+          "reason": "Boolean/bevel evaluation overshoots the nominal side-face plane at this fixed flush mounting/tangent interface."
+        },
+        {
+          "moving": "Enclosure cylindrical keeper",
+          "fixed": "Formed acoustic side skin.001",
+          "nominal_mount_x_m": 0.142,
+          "evaluated_x_overlap_m": 1.2218952178955078e-06,
+          "tolerance_m": 2e-06,
+          "triangle_pairs": 8,
+          "moving_bounds_m": [
+            [
+              0.13200001418590546,
+              0.1420000046491623
+            ],
+            [
+              -0.15300001204013824,
+              -0.14150001108646393
+            ],
+            [
+              0.24900001287460327,
+              0.2590000033378601
+            ]
+          ],
+          "fixed_bounds_m": [
+            [
+              0.1419987827539444,
+              0.1640000194311142
+            ],
+            [
+              -0.14250001311302185,
+              0.14250001311302185
+            ],
+            [
+              0.07100000977516174,
+              0.4530000388622284
+            ]
+          ],
+          "strictly_separated": false,
+          "reason": "Boolean/bevel evaluation overshoots the nominal side-face plane at this fixed flush mounting/tangent interface."
+        }
+      ],
+      "passed": true
+    },
+    "spindle_clearance": {
+      "passed": true
+    },
+    "initial_opening_and_full_door_sweep": {
+      "samples": [
+        {
+          "door_angle_rad": -0.0,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.002,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.003,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.004,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.005,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.006,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.007,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.008,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.009000000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.01,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.011,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.012,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.013000000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.014,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.015,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.016,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.017,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.018000000000000002,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.019,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.02,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.021,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.022,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.023,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.024,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.025,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.026000000000000002,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.027,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.028,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.029,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.03,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.031,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.032,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.033,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.034,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.035,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.036000000000000004,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.037,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.038,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.039,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.04,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.041,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.042,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.043000000000000003,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.044,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.045,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.046,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.047,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.048,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.049,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.05,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.051000000000000004,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.052000000000000005,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.053,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.054,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.055,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.056,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.057,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.058,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.059000000000000004,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.06,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.061,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.062,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.063,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.064,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.065,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.066,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.067,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.068,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.069,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.07,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.07100000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.07200000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.073,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.074,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.075,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.076,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.077,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.078,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.079,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.08,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.1,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.15000000000000002,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.2,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.25,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.30000000000000004,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.35000000000000003,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.4,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.45,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.5,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.55,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.6000000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.65,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.7000000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.75,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.8,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.8500000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.9,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.9500000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.0,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.05,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.1,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.1500000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.2000000000000002,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.25,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.3,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.35,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.4000000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.4500000000000002,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.5,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.55,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.6,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.6500000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.7000000000000002,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.75,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.8,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.85,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.9000000000000001,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.9500000000000002,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -2.0,
+          "handle_angle_rad": 0,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.0,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.002,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.003,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.004,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.005,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.006,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.007,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.008,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.009000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.01,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.011,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.012,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.013000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.014,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.015,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.016,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.017,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.018000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.019,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.02,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.021,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.022,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.023,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.024,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.025,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.026000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.027,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.028,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.029,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.03,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.031,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.032,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.033,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.034,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.035,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.036000000000000004,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.037,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.038,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.039,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.04,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.041,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.042,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.043000000000000003,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.044,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.045,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.046,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.047,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.048,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.049,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.05,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.051000000000000004,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.052000000000000005,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.053,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.054,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.055,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.056,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.057,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.058,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.059000000000000004,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.06,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.061,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.062,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.063,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.064,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.065,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.066,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.067,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.068,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.069,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.07,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.07100000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.07200000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.073,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.074,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.075,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.076,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.077,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.078,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.079,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.08,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.1,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.15000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.2,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.25,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.30000000000000004,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.35000000000000003,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.4,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.45,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.5,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.55,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.6000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.65,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.7000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.75,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.8,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.8500000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.9,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -0.9500000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.0,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.05,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.1,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.1500000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.2000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.25,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.3,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.35,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.4000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.4500000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.5,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.55,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.6,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.6500000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.7000000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.75,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.8,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.85,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.9000000000000001,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -1.9500000000000002,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        },
+        {
+          "door_angle_rad": -2.0,
+          "handle_angle_rad": 1.5707963267948966,
+          "intersections": []
+        }
+      ],
+      "passed": true
+    },
+    "blind_receiver_rays": {
+      "expected_distance_m": 0.022,
+      "samples": [
+        {
+          "local_xz_mm": [
+            298,
+            176
+          ],
+          "hits": [
+            {
+              "object": "Formed door cheek with recessed handle",
+              "distance_m": 0.02200000174343586
+            }
+          ],
+          "passed": true
+        },
+        {
+          "local_xz_mm": [
+            294,
+            176
+          ],
+          "hits": [
+            {
+              "object": "Formed door cheek with recessed handle",
+              "distance_m": 0.02200000174343586
+            }
+          ],
+          "passed": true
+        },
+        {
+          "local_xz_mm": [
+            302,
+            176
+          ],
+          "hits": [
+            {
+              "object": "Formed door cheek with recessed handle",
+              "distance_m": 0.02200000174343586
+            }
+          ],
+          "passed": true
+        },
+        {
+          "local_xz_mm": [
+            298,
+            172
+          ],
+          "hits": [
+            {
+              "object": "Formed door cheek with recessed handle",
+              "distance_m": 0.02200000174343586
+            }
+          ],
+          "passed": true
+        },
+        {
+          "local_xz_mm": [
+            298,
+            180
+          ],
+          "hits": [
+            {
+              "object": "Formed door cheek with recessed handle",
+              "distance_m": 0.02200000174343586
+            }
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  },
+  "passed": true,
+  "method": "Evaluated triangles plus multi-ray containment witnesses. Checks the complete keeper mounting against fixed shell/seal, spindle/boss against cheek/liners, and keeper entry through the bored receiver. Door opening uses 1 mrad increments over the initial 80 mrad and 50 mrad over the full range at two handle poses. Blind-hole rays verify that each liner is actually pierced. The two named fixed mounting/tangent interfaces at X142 mm allow up to 2 micrometers of Boolean/bevel surface error, with measured intersections and bounds retained; all moving fits retain the 10 nm intersection tolerance."
+}

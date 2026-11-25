@@ -1,0 +1,165 @@
+{
+  "asset": "zeiss",
+  "revision": "reference5",
+  "method": "Ray intersections and BVH triangle intersections on Blender evaluated geometry in meters; model dimensions remain photographic estimates.",
+  "versions": {
+    "before": {
+      "source": "validation/reference5/zeiss/before/zeiss_upright.blend",
+      "sha256": "9e3cd2b96321143ac728299675aaa64ca9ec46f2d009f51bcee142f300619f5b",
+      "checks": [
+        {
+          "check": "longitudinal_top_aperture",
+          "local_y_mm": -35.0,
+          "hits": [
+            {
+              "object": "Black mechanical stage",
+              "distance_mm": 11.999993585050106,
+              "point_mm": [
+                0.0,
+                -105.0,
+                183.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "longitudinal_top_aperture",
+          "local_y_mm": 0,
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "longitudinal_top_aperture",
+          "local_y_mm": 35.0,
+          "hits": [
+            {
+              "object": "Black mechanical stage",
+              "distance_mm": 11.999995447695255,
+              "point_mm": [
+                0.0,
+                -35.0,
+                183.0
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "aperture_side_wall",
+          "x_mm": -22.5,
+          "hits": [],
+          "solid": false
+        },
+        {
+          "check": "aperture_side_wall",
+          "x_mm": 22.5,
+          "hits": [],
+          "solid": false
+        },
+        {
+          "check": "open_light_path_lower_runner",
+          "hits": [
+            {
+              "object": "Y runner",
+              "distance_mm": 8.500008843839169,
+              "point_mm": [
+                0.0,
+                -105.0,
+                171.5
+              ]
+            }
+          ],
+          "clear": false
+        },
+        {
+          "check": "open_light_path_support_fork",
+          "hits": [
+            {
+              "object": "Stage support fork",
+              "distance_mm": 5.500004626810551,
+              "point_mm": [
+                0.0,
+                -70.0,
+                159.5
+              ]
+            }
+          ],
+          "clear": false
+        }
+      ]
+    },
+    "after": {
+      "source": "003_zeiss/zeiss_upright.blend",
+      "sha256": "f32057dd1c36cf69b831997e6ee79679f3824b0344e378474d3a69d1177cf0dd",
+      "checks": [
+        {
+          "check": "longitudinal_top_aperture",
+          "local_y_mm": -35.0,
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "longitudinal_top_aperture",
+          "local_y_mm": 0,
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "longitudinal_top_aperture",
+          "local_y_mm": 35.0,
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "aperture_side_wall",
+          "x_mm": -22.5,
+          "hits": [
+            {
+              "object": "Mechanical stage with longitudinal opening",
+              "distance_mm": 11.999993585050106,
+              "point_mm": [
+                -22.5,
+                -70.0,
+                183.0
+              ]
+            }
+          ],
+          "solid": true
+        },
+        {
+          "check": "aperture_side_wall",
+          "x_mm": 22.5,
+          "hits": [
+            {
+              "object": "Mechanical stage with longitudinal opening",
+              "distance_mm": 11.99999451637268,
+              "point_mm": [
+                22.5,
+                -70.0,
+                183.0
+              ]
+            }
+          ],
+          "solid": true
+        },
+        {
+          "check": "open_light_path_lower_runner",
+          "hits": [],
+          "clear": true
+        },
+        {
+          "check": "open_light_path_support_fork",
+          "hits": [],
+          "clear": true
+        }
+      ]
+    }
+  },
+  "script_sha256": "2283c41a4dd32e1fb3e9a87302efb5d4e148ef11f8ddf537b71e5a12cba1050b",
+  "passed": true,
+  "limitations": [
+    "Checks cover the named construction changes, not every assembly pair.",
+    "Inserted shafts/bearings and screws in their mounting seats are intended fits. Interior optics, dimensions and material mechanics are not calibrated from photographs."
+  ]
+}

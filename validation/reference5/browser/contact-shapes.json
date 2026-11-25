@@ -1,0 +1,176 @@
+{
+  "url": "http://127.0.0.1:18945/",
+  "started_utc": "2026-11-25T06:51:01.080Z",
+  "checks": [
+    {
+      "check": "nikon compiled collision properties and XML fingerprint",
+      "passed": true,
+      "shapes": 65,
+      "max_property_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "nikon contact overlay transforms at pose 0",
+      "passed": true,
+      "max_center_error_m": 6.938893903907228e-18,
+      "max_surface_error_m": 2.3245811525685056e-9
+    },
+    {
+      "check": "nikon contact overlay transforms at pose -0.8",
+      "passed": true,
+      "max_center_error_m": 2.943923360032078e-17,
+      "max_surface_error_m": 2.3245811525685056e-9
+    },
+    {
+      "check": "nikon contact overlay transforms at pose 0.8",
+      "passed": true,
+      "max_center_error_m": 3.122502256758253e-17,
+      "max_surface_error_m": 2.3245811525685056e-9
+    },
+    {
+      "check": "transfer compiled collision properties and XML fingerprint",
+      "passed": true,
+      "shapes": 127,
+      "max_property_error": 2.7755575615628914e-17
+    },
+    {
+      "check": "transfer contact overlay transforms at pose 0",
+      "passed": true,
+      "max_center_error_m": 2.7755575615628914e-17,
+      "max_surface_error_m": 7.152557379708213e-9
+    },
+    {
+      "check": "transfer contact overlay transforms at pose -0.8",
+      "passed": true,
+      "max_center_error_m": 4.108768631691174e-17,
+      "max_surface_error_m": 7.152557379708213e-9
+    },
+    {
+      "check": "transfer contact overlay transforms at pose 0.8",
+      "passed": true,
+      "max_center_error_m": 5.594315114139762e-17,
+      "max_surface_error_m": 7.152557379708213e-9
+    },
+    {
+      "check": "probe compiled collision properties and XML fingerprint",
+      "passed": true,
+      "shapes": 218,
+      "max_property_error": 0
+    },
+    {
+      "check": "probe contact overlay transforms at pose 0",
+      "passed": true,
+      "max_center_error_m": 0,
+      "max_surface_error_m": 5.960464483090178e-9
+    },
+    {
+      "check": "probe contact overlay transforms at pose -0.8",
+      "passed": true,
+      "max_center_error_m": 2.7809732887839817e-17,
+      "max_surface_error_m": 5.960464483090178e-9
+    },
+    {
+      "check": "probe contact overlay transforms at pose 0.8",
+      "passed": true,
+      "max_center_error_m": 2.7809732887839817e-17,
+      "max_surface_error_m": 5.960464483090178e-9
+    },
+    {
+      "check": "zeiss compiled collision properties and XML fingerprint",
+      "passed": true,
+      "shapes": 112,
+      "max_property_error": 0
+    },
+    {
+      "check": "zeiss contact overlay transforms at pose 0",
+      "passed": true,
+      "max_center_error_m": 3.1031676915590914e-17,
+      "max_surface_error_m": 5.72204589266434e-9
+    },
+    {
+      "check": "zeiss contact overlay transforms at pose -0.8",
+      "passed": true,
+      "max_center_error_m": 3.98609107286759e-17,
+      "max_surface_error_m": 5.72204589266434e-9
+    },
+    {
+      "check": "zeiss contact overlay transforms at pose 0.8",
+      "passed": true,
+      "max_center_error_m": 3.98609107286759e-17,
+      "max_surface_error_m": 5.72204589266434e-9
+    },
+    {
+      "check": "bonder compiled collision properties and XML fingerprint",
+      "passed": true,
+      "shapes": 23,
+      "max_property_error": 0
+    },
+    {
+      "check": "bonder contact overlay transforms at pose 0",
+      "passed": true,
+      "max_center_error_m": 0,
+      "max_surface_error_m": 1.3113021835042815e-8
+    },
+    {
+      "check": "bonder contact overlay transforms at pose -0.8",
+      "passed": true,
+      "max_center_error_m": 0,
+      "max_surface_error_m": 1.3113021835042815e-8
+    },
+    {
+      "check": "bonder contact overlay transforms at pose 0.8",
+      "passed": true,
+      "max_center_error_m": 0,
+      "max_surface_error_m": 1.3113021835042815e-8
+    },
+    {
+      "check": "afm compiled collision properties and XML fingerprint",
+      "passed": true,
+      "shapes": 67,
+      "max_property_error": 0
+    },
+    {
+      "check": "afm contact overlay transforms at pose 0",
+      "passed": true,
+      "max_center_error_m": 0,
+      "max_surface_error_m": 5.364418020903372e-9
+    },
+    {
+      "check": "afm contact overlay transforms at pose -0.8",
+      "passed": true,
+      "max_center_error_m": 1.7554167342883506e-16,
+      "max_surface_error_m": 5.364418020903372e-9
+    },
+    {
+      "check": "afm contact overlay transforms at pose 0.8",
+      "passed": true,
+      "max_center_error_m": 6.798699777552591e-17,
+      "max_surface_error_m": 5.364418020903372e-9
+    },
+    {
+      "check": "tweezers compiled collision properties and XML fingerprint",
+      "passed": true,
+      "shapes": 93,
+      "max_property_error": 0
+    },
+    {
+      "check": "tweezers contact overlay transforms at pose 0",
+      "passed": true,
+      "max_center_error_m": 0,
+      "max_surface_error_m": 3.5762786898541066e-9
+    },
+    {
+      "check": "tweezers contact overlay transforms at pose -0.8",
+      "passed": true,
+      "max_center_error_m": 1.734723475976807e-18,
+      "max_surface_error_m": 3.5762786898541066e-9
+    },
+    {
+      "check": "tweezers contact overlay transforms at pose 0.8",
+      "passed": true,
+      "max_center_error_m": 1.3877787807814457e-17,
+      "max_surface_error_m": 3.5762786898541066e-9
+    }
+  ],
+  "passed": true,
+  "checked_utc": "2026-11-25T06:51:01.892Z"
+}

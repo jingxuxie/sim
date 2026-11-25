@@ -1,0 +1,702 @@
+[
+  {
+    "path": "validation/reference5/probe/before/asset.json",
+    "sha256": "8d97913e118313152fc1618d4b600905d90bde18703a8d548964fb4c53e9dedc",
+    "bytes": 43143
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__black.obj",
+    "sha256": "ce9bc5763f0d54f4ba8d2246c90d4e3b25e86d1e940d5ab63fa60165327ae4fe",
+    "bytes": 2024263
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__bronze.obj",
+    "sha256": "2122f90de1d9eb4ae33357e80c521b6684fdd400dc78077a8c5733d78ebeed0a",
+    "bytes": 201167
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__brushed.obj",
+    "sha256": "fb5a62470a4f504d20df86c1bb13ba4177126a08d2b26af573a9526fc51932c7",
+    "bytes": 608638
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__darkmetal.obj",
+    "sha256": "8c924057f30c9e6f96cd6673c53eb1bad4b19962e3748dd5a69353c32fcfde06",
+    "bytes": 101972
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__graphite.obj",
+    "sha256": "a9fa8337c2b856a3021515fe5e354095ed46f25dcee146e9b116fda9e8b4268c",
+    "bytes": 718438
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__green.obj",
+    "sha256": "77c2585966ef6001f67495be7cd6b31749226c59337a5e8128e85d88d73c25ee",
+    "bytes": 82247
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__ink.obj",
+    "sha256": "ad8725a3a486c3840780946d412f557684af5c06b534ed2f02869774b11a5373",
+    "bytes": 5153355
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__orange.obj",
+    "sha256": "e6ede502086fce2c678431eba0f3be37c4bcb4ab1ddb59cbb4cfa4f282bc2ea4",
+    "bytes": 493318
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__paper.obj",
+    "sha256": "ee44c2a5b6a82a6a3f3093228a7a42e54703eacf50a7cf1a8ac522502899bfae",
+    "bytes": 50441
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__red.obj",
+    "sha256": "7be0e56982e84d9bce5495ec05329dc01a278068f5579392ebf3c98d7b525cc6",
+    "bytes": 82627
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__rubber.obj",
+    "sha256": "6e8eee4010218d8c83f635041698efb51bb2ebbd95c1fcccc322374aceb63ec6",
+    "bytes": 425576
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__steel.obj",
+    "sha256": "61e269d6d4e2cc63b66b86cae2558dbb2a4779e93f59b9433ab11570659a164b",
+    "bytes": 5007025
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__tape.obj",
+    "sha256": "db5b1560b0314773fbf7651d2ed9987991ebf900087c7090ebcaeefcf9697494",
+    "bytes": 4580216
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__violet.obj",
+    "sha256": "29d66a024e47ca9d57858b999ee9d979f34ed47d9b5a4c8774d9eea26f3696d3",
+    "bytes": 137107
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/base__yellow.obj",
+    "sha256": "643a26c022fd599e312a7a59a08e382dd81aad142a279c09764d5049ef09d93c",
+    "bytes": 82633
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_theta__black.obj",
+    "sha256": "8216390b3d26c7dcc586ecb862d022a0fc6025a37de953f8260df5ec0bb8e909",
+    "bytes": 208463
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_theta__gold.obj",
+    "sha256": "6c5ea37c4a7127298221cd6c0e0ce68188df78afe179a9084f8de603694d753a",
+    "bytes": 765533
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_theta__graphite.obj",
+    "sha256": "f5f9c37f3a87aa534b138ed37dcf715c1e10656f63229a50386f9745188ae5e6",
+    "bytes": 83893
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_theta__ink.obj",
+    "sha256": "cacc844d18a2a5092d2412ebd460be51608d9d467b65b20f2c527c2fd6abf4f7",
+    "bytes": 391601
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_theta__steel.obj",
+    "sha256": "4a49e203239b57d1b6400ebf3e38d976c07c06114505d5ef7b0faa60d703f9b1",
+    "bytes": 981330
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_theta__violet.obj",
+    "sha256": "9946033efa4859dd048b74e5f7e6724e40c5432c5968f3e838036ab4d3239ef7",
+    "bytes": 50755
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_theta__wafer.obj",
+    "sha256": "a14858ea5e0b3b8efc092c29aa5214098ea9dec5f36c66da0fece8d564c6f672",
+    "bytes": 51193
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_x__black.obj",
+    "sha256": "ed53815a65efbe4975265207a6f606f29367b349c2fe75827220ecb1e69635cd",
+    "bytes": 275578
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_x__brushed.obj",
+    "sha256": "69aa0f3bf2d425ba22b57be8632ac30e80ccff39a45e40637974f8dbaa50c709",
+    "bytes": 189555
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_x__darkmetal.obj",
+    "sha256": "d79b5e61f7a15b31a66a95e0e578bdb2cfbe414a6df07d23a9cca2cd494613b6",
+    "bytes": 345577
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_x__ink.obj",
+    "sha256": "1f258f063b6ef86d367eedd1ae929e105a8b533519c3b5500d63ee2c52bf28b1",
+    "bytes": 1643445
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_x__steel.obj",
+    "sha256": "8e4adea30b292ad0298db786a2df3710f781a1bab1c2880d632829de5a603447",
+    "bytes": 520229
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_x_knob__brushed.obj",
+    "sha256": "fd811cae6445ac19c0a96c25825401b9a1756e9542b4d1baee80a8c282544583",
+    "bytes": 84795
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_x_knob__darkmetal.obj",
+    "sha256": "d81ebdb659324404259616b50b854ae0c42f0eabc2ca83de7f91251425ca9e06",
+    "bytes": 113828
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_x_knob__ink.obj",
+    "sha256": "c7df1fd36de4b74c7790a922093a6dbd17ee28b854528e8ba197e557bbc7f6f8",
+    "bytes": 2785306
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_x_knob__steel.obj",
+    "sha256": "fc57353d49a6936d77354977ebd4499fc9b147bfea3d5d1130e072ab6f26f799",
+    "bytes": 219134
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_y__black.obj",
+    "sha256": "c53cf0e56b73d41dfe3152ea40d1c88614b45347243fdc4f32fcb7e0b77e5107",
+    "bytes": 83829
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_y__brushed.obj",
+    "sha256": "cb585b0313b3cd991e4f24714bcb2e88fa9bbcc51a6af921e3755e0a0095c93f",
+    "bytes": 50859
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_y__darkmetal.obj",
+    "sha256": "2f4c6bfad4f7d05562c41368e1382af3ae0a83dad6537358a0f631764941f945",
+    "bytes": 796348
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_y__ink.obj",
+    "sha256": "ede7f6331b43cbff0694781a5046ef1f0434549783f9c1682ef29cfe5afcc1c3",
+    "bytes": 104218
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_y__steel.obj",
+    "sha256": "ef913942a5eea2e564610e0123499b8dea33b364c4ec8ef4e23a7ddbad299ec6",
+    "bytes": 346209
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_y_knob__brushed.obj",
+    "sha256": "5eb1658899af0fc91fea596ba4da04e44e60768a6dd87a701c21dae72c629be8",
+    "bytes": 84777
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_y_knob__darkmetal.obj",
+    "sha256": "9442f653852c08b1f2323ba1ce7cd20b41e3cb7e01ae6f8a8040cc66837ca720",
+    "bytes": 115019
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_y_knob__ink.obj",
+    "sha256": "7b5417ca8b43a130b98b24ccf91a1ab4fd66f07c0298b59000aaf21b7265b626",
+    "bytes": 2782590
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/chuck_y_knob__steel.obj",
+    "sha256": "f10e5f845362549d1505a3a09aaa9f10f28b02a6690a87ee0062e23b28b6d744",
+    "bytes": 218449
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_x__black.obj",
+    "sha256": "2fdc33d95ee96cb6d4d4d2b48ca9e8bb91c0ccca8c358fd53d6c40de3abcdaa1",
+    "bytes": 50935
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_x__brushed.obj",
+    "sha256": "253d227e027083978662b6bfe1aa3af55e90c03442f55ab992ede07c20c5f625",
+    "bytes": 242537
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_x__darkmetal.obj",
+    "sha256": "dc1ff56d12760f406d29d651219d97a39cb151069bdcb05823e589883684bf24",
+    "bytes": 906790
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_x__ink.obj",
+    "sha256": "820eb0b8eaf8b495097a76b8feb8c9c9386cc430054a8349993a2fdcb581e202",
+    "bytes": 1281033
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_x__steel.obj",
+    "sha256": "88c29236f8b9d4ced8f0fade6435451b4f9c35a706cd17fe9db10d5c301722d5",
+    "bytes": 433477
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_x_knob__brushed.obj",
+    "sha256": "1aa974c8581609e1158160d892bfe7326ea88079782ac0285dcbe380b27c3cae",
+    "bytes": 84815
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_x_knob__darkmetal.obj",
+    "sha256": "d8ae7971e283fad8dba8614260152c9c25091331fd7ede3ad925334d075b7418",
+    "bytes": 115019
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_x_knob__ink.obj",
+    "sha256": "c1f8810ba1c3d6188e7085954655881c76d13c72e14960e09c5ca923260ba744",
+    "bytes": 2782716
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_x_knob__steel.obj",
+    "sha256": "f10e5f845362549d1505a3a09aaa9f10f28b02a6690a87ee0062e23b28b6d744",
+    "bytes": 218449
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_y__black.obj",
+    "sha256": "1e0e45b40ca0e809e20bc3a3338265c1509c1a5dc4ac9aeb35fe3aa46a857bd4",
+    "bytes": 50869
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_y__brushed.obj",
+    "sha256": "44a663269c25e326d89c9bdbdbe130ea40de45ec80136142d9b6d730cb8383db",
+    "bytes": 242721
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_y__darkmetal.obj",
+    "sha256": "4a8a0796eef067c9dce84920a03d3df8689a51416084dd2e5c0e424cbc4d2826",
+    "bytes": 909948
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_y__ink.obj",
+    "sha256": "30c2e9682b5607912388799d117f3eb4f9308f00ceefb511ec6f9346f2c3a864",
+    "bytes": 1283214
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_y__steel.obj",
+    "sha256": "f9f9af1a48258a24c5dd1714f737f3b86d7204bd37c99cb3b031570ccccf25d8",
+    "bytes": 433607
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_y_knob__brushed.obj",
+    "sha256": "53439c3cbc2e947640698f19362f00ee20635a27ab8ea751e6ce056a0285b24a",
+    "bytes": 84778
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_y_knob__darkmetal.obj",
+    "sha256": "bcf300f39b556055236964315c8a19ff7a5c45b1a05cdbd5e7df8594008e28b1",
+    "bytes": 113893
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_y_knob__ink.obj",
+    "sha256": "a05c4eed0a21a693edd6481b0bb67a6fde48b60ebec6278d174a2843b6591911",
+    "bytes": 2785510
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_y_knob__steel.obj",
+    "sha256": "fc57353d49a6936d77354977ebd4499fc9b147bfea3d5d1130e072ab6f26f799",
+    "bytes": 219134
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__black.obj",
+    "sha256": "361f638ad47d705ff609af4ba7a93b8f7bf0261817a8b56cbdf856f7d7555d93",
+    "bytes": 169281
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__bronze.obj",
+    "sha256": "84214e692e365c1c3ec7936f81b8300801abb33317bee84d30d972b8ec92fbfc",
+    "bytes": 176008
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__brushed.obj",
+    "sha256": "d29a1b95b1b3cac1edcce8f46ef1043a4ebebf4a2fdbb0b199014ef7c2af11b5",
+    "bytes": 316153
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__ceramic.obj",
+    "sha256": "87d9f4af00c6deb8c1e9267963d35104c307cbf1c441ea6b2b6482651030cf31",
+    "bytes": 83985
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__darkmetal.obj",
+    "sha256": "b8f24f1bbc0aa83644b9b00a3d370a5fd78bd48e514d1e2b1acb6cc6822a9d80",
+    "bytes": 258359
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__gold.obj",
+    "sha256": "af9052673cdf6712cdedc2214f65e57722aa7357d6886d9b0653d64a3b48cf36",
+    "bytes": 56423
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__green.obj",
+    "sha256": "5183dff57466df7bce06909ef34d4bf7f3e0a883c1d2d5330fd8e6b1b8f0b14f",
+    "bytes": 100771
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__ink.obj",
+    "sha256": "f1bbcd87d3a23a6b2cc158ed733b024062c6f912eb5ca0c61ad295f29451a6ba",
+    "bytes": 378934
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__ivory.obj",
+    "sha256": "ee1c92ad4b8b0cadc4e341837defbb3e0ca2543d69abfbb3764142dcf01a4c62",
+    "bytes": 89504
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__paper.obj",
+    "sha256": "afba8cb8f6ae6ddb5d5ac3b79c35c67fd692d848ce34774e7736133182414845",
+    "bytes": 437733
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__steel.obj",
+    "sha256": "c9184e3979f688351ee53bfe26c44bb132e196c37b6f8176f02a8dcd2798908f",
+    "bytes": 694794
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z__tape.obj",
+    "sha256": "47468b3b3f8c21326f81e817ffe6794214273ca3ddc28564860441bcb97b3c0f",
+    "bytes": 83897
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z_knob__brushed.obj",
+    "sha256": "6ae98e109d4bf314886d918ff8c7275d617bfdb4e8fcb14fc303aecc8d598b07",
+    "bytes": 85205
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z_knob__darkmetal.obj",
+    "sha256": "6182ec44807afc71ba372b84e260c25fe422fb1294e398d80e46f4feb0c9b900",
+    "bytes": 106311
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z_knob__ink.obj",
+    "sha256": "1faf64cc6d77f0daf44ff8a514a27d0285ff9adeb03ed9ba8f1e3ce65ea8781c",
+    "bytes": 2795612
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/left_z_knob__steel.obj",
+    "sha256": "9deb3074b42f823858db18832aefa92f47234193e94d63810195776899dde05d",
+    "bytes": 207671
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/light_path_selector__black.obj",
+    "sha256": "6ebf9d72239a07a81ecf6c18325b40c3445012af3394457f3c840f97587d00e7",
+    "bytes": 173486
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/light_path_selector__steel.obj",
+    "sha256": "dfb16125db0880cbe62579de3660e2aecee5c28ab6f926f8d699f1ef4934f480",
+    "bytes": 84780
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__black.obj",
+    "sha256": "28021507dbea6fb253a91c11a3ae8c6dd64d0315ec6ce079ca7ba3a1f1b6aa7d",
+    "bytes": 3720548
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__brushed.obj",
+    "sha256": "549b0b0e08f39335caa26e2ebfe9732147387f24f4e1d781beea5bfb1c66aaa5",
+    "bytes": 261136
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__darkmetal.obj",
+    "sha256": "894627e49e3acee414f72d692dea798e465aa95542f76bf3edca74cee0db0a47",
+    "bytes": 656628
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__graphite.obj",
+    "sha256": "b9597d681403f5c2b7cee2e0f0bf0016378b97f741106fbb7082fe1f110ca721",
+    "bytes": 189028
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__ink.obj",
+    "sha256": "8f2f9e59b57347f800fb699ef07da8a615a8884c57377a9336d75d8a906f0b4e",
+    "bytes": 836754
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__optic.obj",
+    "sha256": "0fc148530d66d50ddfa6e5b640f13f8530d92b00702bceda9bc68ab18487871e",
+    "bytes": 267372
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__paper.obj",
+    "sha256": "5d85f4a64cae66bf0eb7ec9ced3519f7dcf768045c5e31ca0ae14c2b23360a54",
+    "bytes": 4003012
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__red.obj",
+    "sha256": "377a606d03a85876ffc3f1566e69b4651601e3c5a8af414d231f29fa60dae374",
+    "bytes": 170163
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__rubber.obj",
+    "sha256": "e33068bfef203a0fd59ba3e7f66fdaac0d3e461702bc0f0b2a133babba574933",
+    "bytes": 756513
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__steel.obj",
+    "sha256": "ce34cd704693bbbdbefff6df9940330a7eef7fa4a224a50bf4309ba98ec73356",
+    "bytes": 2719843
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/optic_focus__tape.obj",
+    "sha256": "f1b9047fb93d2b6f33ba5b56ccf7c12e4c0629d6219279e5748b1c24f382bf79",
+    "bytes": 222210
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x__black.obj",
+    "sha256": "565366ae2e00ee54bd2a8a3d11ba95660bc5209c47162d88fe1120dec3d1d22e",
+    "bytes": 208848
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x__brushed.obj",
+    "sha256": "b4ce443d640cb8a42b5c60d2102c1d6a0642b4759486a77684787bda6d030ef9",
+    "bytes": 84227
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x__darkmetal.obj",
+    "sha256": "dc1ff56d12760f406d29d651219d97a39cb151069bdcb05823e589883684bf24",
+    "bytes": 906790
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x__ink.obj",
+    "sha256": "820eb0b8eaf8b495097a76b8feb8c9c9386cc430054a8349993a2fdcb581e202",
+    "bytes": 1281033
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x__steel.obj",
+    "sha256": "88c29236f8b9d4ced8f0fade6435451b4f9c35a706cd17fe9db10d5c301722d5",
+    "bytes": 433477
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x_knob__blue.obj",
+    "sha256": "2c6a7c552ead3d1503b0a05091b7b8f705ebc0579fcfdabab55c50a193d122d2",
+    "bytes": 239277
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x_knob__brushed.obj",
+    "sha256": "b54277b04d1c220bb9e26a35b4ff49eb942d9a561487510aa5e43b4713e260f9",
+    "bytes": 85213
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x_knob__darkmetal.obj",
+    "sha256": "648506dc061f7634215bad2851c5e87a7595afab58cc849c2ddf2289283793bc",
+    "bytes": 114439
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x_knob__ink.obj",
+    "sha256": "97d23987b373d25ff25af0a3aab97d695e3ae7f0a4a4b9b6c96205f9b3d6ecf5",
+    "bytes": 2793609
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_x_knob__steel.obj",
+    "sha256": "7c552036285aeaaa1e96b090ee4e0ab01652886dce91d978195797ef365f50c8",
+    "bytes": 218489
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y__black.obj",
+    "sha256": "7a9b3c13b0561e9589e63b8add5a97e9902c7ddc18f7cd4a1871cea373c23ae4",
+    "bytes": 208928
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y__brushed.obj",
+    "sha256": "3003af02e06774db42decdf35301e19178f332eef1480088eccb9844d32b191f",
+    "bytes": 83881
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y__darkmetal.obj",
+    "sha256": "4a8a0796eef067c9dce84920a03d3df8689a51416084dd2e5c0e424cbc4d2826",
+    "bytes": 909948
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y__ink.obj",
+    "sha256": "ad8a80ce8c3c7255dad05a07bbc9116f8be6633d3885d9c0429b8bc6976077e5",
+    "bytes": 1278222
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y__steel.obj",
+    "sha256": "27c49a738df5b04c0ee5d80bc59604cc334510dee0ec95a5e24c33648a7c0f0c",
+    "bytes": 433223
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y_knob__blue.obj",
+    "sha256": "8e3eeb68cc081fa09f8c6fbdf00983e5f38c079390c31d990d37713b876bd39a",
+    "bytes": 240556
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y_knob__brushed.obj",
+    "sha256": "53439c3cbc2e947640698f19362f00ee20635a27ab8ea751e6ce056a0285b24a",
+    "bytes": 84778
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y_knob__darkmetal.obj",
+    "sha256": "bcf300f39b556055236964315c8a19ff7a5c45b1a05cdbd5e7df8594008e28b1",
+    "bytes": 113893
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y_knob__ink.obj",
+    "sha256": "a05c4eed0a21a693edd6481b0bb67a6fde48b60ebec6278d174a2843b6591911",
+    "bytes": 2785510
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_y_knob__steel.obj",
+    "sha256": "fc57353d49a6936d77354977ebd4499fc9b147bfea3d5d1130e072ab6f26f799",
+    "bytes": 219134
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__black.obj",
+    "sha256": "33246afe5d6085e7980d52dce94df9973c3020b928d53a0b58f5e9b87a5f5e81",
+    "bytes": 156490
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__blue.obj",
+    "sha256": "22649c88ed809de01446bca947f1dd4e58d07c05952b4eb1234915dda01fdcf8",
+    "bytes": 171593
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__bronze.obj",
+    "sha256": "60c4155a3bd218225b5a36fb860e5fa21be87f14e8ee201b00e6bc8644741f52",
+    "bytes": 83599
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__brushed.obj",
+    "sha256": "383113a397e468d2aba8beaa2a22dd0c332a11916de314303ff3ba3048d5f974",
+    "bytes": 50479
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__ceramic.obj",
+    "sha256": "63c1967d57dad2c70ea4e415b68d2e17836b846e3d3cb05a16f0c344d3c4a5e9",
+    "bytes": 84369
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__darkmetal.obj",
+    "sha256": "9f37c5efef3911be685459ba37cd2d6694f9a75a4f0fa0fbf427a0b57c2d471d",
+    "bytes": 799876
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__gold.obj",
+    "sha256": "13c32a0ba6a9ee407389d0270659500ce6c1e259d665fb3c4a39e103d0175507",
+    "bytes": 56674
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__ink.obj",
+    "sha256": "be2923fe77df6759917d56ec16d55bcb0bbc8cbe1b3446f86ea724e88b16ba52",
+    "bytes": 108362
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__ivory.obj",
+    "sha256": "fb8a262c81948125f06c7d90004085efa00dd44f1065b6d6696427f529e77429",
+    "bytes": 88962
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__steel.obj",
+    "sha256": "726fce882ac3aeb48db039db90cb90346532192c445fb8026c9a22f0a95aee30",
+    "bytes": 260384
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__tape.obj",
+    "sha256": "653e0964876146785676f92a105ba75095f065aac33d461f0d55f4810bcd7e28",
+    "bytes": 83513
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z__yellow.obj",
+    "sha256": "9a032c9a2eb209c559c6bd99b96576ec20baa52eb423010c20f2eb2a95fdf9de",
+    "bytes": 50931
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z_knob__blue.obj",
+    "sha256": "de1db85c6a71a99709585aa763b3cf2892d15906faea401a97b449743abb23a7",
+    "bytes": 232515
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z_knob__brushed.obj",
+    "sha256": "6ae98e109d4bf314886d918ff8c7275d617bfdb4e8fcb14fc303aecc8d598b07",
+    "bytes": 85205
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z_knob__darkmetal.obj",
+    "sha256": "6182ec44807afc71ba372b84e260c25fe422fb1294e398d80e46f4feb0c9b900",
+    "bytes": 106311
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z_knob__ink.obj",
+    "sha256": "1faf64cc6d77f0daf44ff8a514a27d0285ff9adeb03ed9ba8f1e3ce65ea8781c",
+    "bytes": 2795612
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes/right_z_knob__steel.obj",
+    "sha256": "9deb3074b42f823858db18832aefa92f47234193e94d63810195776899dde05d",
+    "bytes": 207671
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/meshes.json",
+    "sha256": "db3f6fcc86da58b0d11fb7ae4f99c11346ad6f3705a26b748900db4240c6ba79",
+    "bytes": 13029
+  },
+  {
+    "path": "validation/reference5/probe/before/assets/probe_station.glb",
+    "sha256": "a4f17a0d8db4323f3fb5dbac3acc9c56917ac80768ec001c57dd8368121cf6ff",
+    "bytes": 25599200
+  },
+  {
+    "path": "validation/reference5/probe/before/build.py",
+    "sha256": "0836b5c8c53f0cfda13877b365c37f6f5cd9432ab4299930a32f2e9c5821e29f",
+    "bytes": 9172
+  },
+  {
+    "path": "validation/reference5/probe/before/geometry_support.py",
+    "sha256": "f6d33ea5e3c2c389b7022df7467499d059e7427fb42c82838cf381218c216db4",
+    "bytes": 3701
+  },
+  {
+    "path": "validation/reference5/probe/before/previews/details.log",
+    "sha256": "24ad7001fa6e476fc2017b0aed483b50f8cc7db0dc8103de38558f47b6c97225",
+    "bytes": 540505
+  },
+  {
+    "path": "validation/reference5/probe/before/previews/final_still.log",
+    "sha256": "4d7056de58f4f9e536fb0f605258fba2de486df58bebf250736f8ebbcaecfdef",
+    "bytes": 442633
+  },
+  {
+    "path": "validation/reference5/probe/before/previews/left_manipulator.png",
+    "sha256": "a9062b945c9773ab86b2117633182fba3a02a65171fb19455ce22ae9fe3eda5b",
+    "bytes": 5779700
+  },
+  {
+    "path": "validation/reference5/probe/before/previews/optical_head.png",
+    "sha256": "157fbfe35628d68eb6789e529fca39b38324d0a055b0c68b31ba0d73e32a6a44",
+    "bytes": 5140529
+  },
+  {
+    "path": "validation/reference5/probe/before/previews/overview.png",
+    "sha256": "4cd17f7da38a7f5380570d1dddda05c99fa00337b9c6ec32fd35e89a7722af95",
+    "bytes": 11449418
+  },
+  {
+    "path": "validation/reference5/probe/before/previews/probing.png",
+    "sha256": "7c4ee5408e3c2ce8f23c2869f0e9ff43f2aabdc07189c6e1abca6f436577ed2f",
+    "bytes": 5848512
+  },
+  {
+    "path": "validation/reference5/probe/before/previews/render_report.json",
+    "sha256": "41dd87467e2f82516052c3eac59d1403576c1be6ac76987cebff2c6aa6878a5f",
+    "bytes": 1342
+  },
+  {
+    "path": "validation/reference5/probe/before/previews/web_preview.jpg",
+    "sha256": "778905be39299d5d543c46b36d482e1cb655ecaaaeaf1bc965a0ad2e94fa5a75",
+    "bytes": 127005
+  },
+  {
+    "path": "validation/reference5/probe/before/probe_station.blend",
+    "sha256": "d9a97c86f9cc9cd809a91207da5ae921452061834ba586021d4b27051349b9c1",
+    "bytes": 56222027
+  },
+  {
+    "path": "validation/reference5/probe/before/probe_station.xml",
+    "sha256": "4457612b67f147caef36b30c8f741c2cd4c65cfe5eac5144159c4756152c8ff0",
+    "bytes": 45724
+  },
+  {
+    "path": "validation/reference5/probe/before/reference_geometry.py",
+    "sha256": "92b516c75a5ff50a45dbf8f013ed0ba217167ba720c2a7573a58c56c38999db2",
+    "bytes": 17759
+  }
+]

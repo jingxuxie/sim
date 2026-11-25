@@ -1,7 +1,7 @@
 {
   "units": "SI",
   "coordinates": "MuJoCo Z-up; local to named body",
-  "physics_sha256": "48e838a211b1dd91b7b87631d21b365473352fad82d9f1e2410cb183c8e43368",
+  "physics_sha256": "8afe1227aca92525e349da3d7207624e22737a526c78c2f7e8411abd5da36c92",
   "shapes": [
     {
       "name": "base__Orange_cast_foundation",
@@ -236,35 +236,6 @@
       "condim": 4
     },
     {
-      "name": "base__Microscope_upright",
-      "body": "base",
-      "type": "box",
-      "pos": [
-        0.0,
-        0.152,
-        0.3
-      ],
-      "quat": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "size": [
-        0.108,
-        0.02,
-        0.151
-      ],
-      "friction": [
-        0.8,
-        0.002,
-        0.0001
-      ],
-      "contype": 2,
-      "conaffinity": 1,
-      "condim": 4
-    },
-    {
       "name": "base__chuck_x_fixed_race",
       "body": "base",
       "type": "box",
@@ -352,6 +323,4182 @@
       "condim": 4
     },
     {
+      "name": "base__Optics_frame_front_mounting_plate_shell_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.134,
+        0.3
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.108,
+        0.004,
+        0.151
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Optics_frame_rear_skin_shell_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.22,
+        0.303
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.108,
+        0.002,
+        0.147
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Optics_frame_top_deck_shell_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.176,
+        0.451
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.108,
+        0.048,
+        0.0035
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Optics_frame_bottom_crossmember_shell_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.0,
+        0.176,
+        0.153
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.108,
+        0.048,
+        0.004
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_side_wall_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.176,
+        0.16975
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.044,
+        0.01875
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_side_wall_contact_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.176,
+        0.2975
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.044,
+        0.094
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_side_wall_contact_3",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.176,
+        0.42875
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.044,
+        0.02225
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_slot_end_web_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1365,
+        0.301
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.0045,
+        0.15
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_slot_end_web_contact_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2155,
+        0.301
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.0045,
+        0.15
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1475688372,
+        0.2054542549
+      ],
+      "quat": [
+        0.6715589548469879,
+        0.7409511253549866,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_2",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1457422956,
+        0.2050909332
+      ],
+      "quat": [
+        0.5956993044919839,
+        0.8032075314809782,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_3",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.144021731,
+        0.204378252
+      ],
+      "quat": [
+        0.5141027441931786,
+        0.857728610000298,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_4",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1424732638,
+        0.2033435993
+      ],
+      "quat": [
+        0.4275550934302229,
+        0.9039892931234713,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_5",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1411564007,
+        0.2020267362
+      ],
+      "quat": [
+        0.3368898533920316,
+        0.9415440651830883,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_6",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.140121748,
+        0.200478269
+      ],
+      "quat": [
+        0.24298017990290813,
+        0.9700312531946332,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_7",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1394090668,
+        0.1987577044
+      ],
+      "quat": [
+        0.14673047445497603,
+        0.9891765099648383,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_8",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1390457451,
+        0.1969311628
+      ],
+      "quat": [
+        0.049067674327408495,
+        0.9987954562051728,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_9",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1390457451,
+        0.1950688372
+      ],
+      "quat": [
+        -0.049067674327408495,
+        0.9987954562051728,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_10",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1394090668,
+        0.1932422956
+      ],
+      "quat": [
+        -0.14673047445497603,
+        0.9891765099648383,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_11",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.140121748,
+        0.191521731
+      ],
+      "quat": [
+        -0.24298017990290813,
+        0.9700312531946332,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_12",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1411564007,
+        0.1899732638
+      ],
+      "quat": [
+        -0.3368898533920316,
+        0.9415440651830883,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_13",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1424732638,
+        0.1886564007
+      ],
+      "quat": [
+        -0.4275550934302229,
+        0.9039892931234713,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_14",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.144021731,
+        0.187621748
+      ],
+      "quat": [
+        -0.5141027441931786,
+        0.857728610000298,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_15",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1457422956,
+        0.1869090668
+      ],
+      "quat": [
+        -0.5956993044919839,
+        0.8032075314809782,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_16",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1475688372,
+        0.1865457451
+      ],
+      "quat": [
+        -0.6715589548469879,
+        0.7409511253549866,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_17",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2044311628,
+        0.1865457451
+      ],
+      "quat": [
+        0.7409511253549866,
+        -0.6715589548469879,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_18",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2062577044,
+        0.1869090668
+      ],
+      "quat": [
+        0.8032075314809782,
+        -0.5956993044919839,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_19",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.207978269,
+        0.187621748
+      ],
+      "quat": [
+        0.857728610000298,
+        -0.5141027441931786,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_20",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2095267362,
+        0.1886564007
+      ],
+      "quat": [
+        0.9039892931234713,
+        -0.4275550934302229,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_21",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2108435993,
+        0.1899732638
+      ],
+      "quat": [
+        0.9415440651830883,
+        -0.3368898533920316,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_22",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.211878252,
+        0.191521731
+      ],
+      "quat": [
+        0.9700312531946332,
+        -0.24298017990290813,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_23",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2125909332,
+        0.1932422956
+      ],
+      "quat": [
+        0.9891765099648383,
+        -0.14673047445497603,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_24",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2129542549,
+        0.1950688372
+      ],
+      "quat": [
+        0.9987954562051728,
+        -0.049067674327408495,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_25",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2129542549,
+        0.1969311628
+      ],
+      "quat": [
+        0.9987954562051728,
+        0.049067674327408495,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_26",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2125909332,
+        0.1987577044
+      ],
+      "quat": [
+        0.9891765099648383,
+        0.14673047445497603,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_27",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.211878252,
+        0.200478269
+      ],
+      "quat": [
+        0.9700312531946332,
+        0.24298017990290813,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_28",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2108435993,
+        0.2020267362
+      ],
+      "quat": [
+        0.9415440651830883,
+        0.3368898533920316,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_29",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2095267362,
+        0.2033435993
+      ],
+      "quat": [
+        0.9039892931234713,
+        0.4275550934302229,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_30",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.207978269,
+        0.204378252
+      ],
+      "quat": [
+        0.857728610000298,
+        0.5141027441931786,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_31",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2062577044,
+        0.2050909332
+      ],
+      "quat": [
+        0.8032075314809782,
+        0.5956993044919839,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_32",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2044311628,
+        0.2054542549
+      ],
+      "quat": [
+        0.7409511253549866,
+        0.6715589548469879,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_33",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1475688372,
+        0.4084542549
+      ],
+      "quat": [
+        0.6715589548469879,
+        0.7409511253549866,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_34",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1457422956,
+        0.4080909332
+      ],
+      "quat": [
+        0.5956993044919839,
+        0.8032075314809782,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_35",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.144021731,
+        0.407378252
+      ],
+      "quat": [
+        0.5141027441931786,
+        0.857728610000298,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_36",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1424732638,
+        0.4063435993
+      ],
+      "quat": [
+        0.4275550934302229,
+        0.9039892931234713,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_37",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1411564007,
+        0.4050267362
+      ],
+      "quat": [
+        0.3368898533920316,
+        0.9415440651830883,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_38",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.140121748,
+        0.403478269
+      ],
+      "quat": [
+        0.24298017990290813,
+        0.9700312531946332,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_39",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1394090668,
+        0.4017577044
+      ],
+      "quat": [
+        0.14673047445497603,
+        0.9891765099648383,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_40",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1390457451,
+        0.3999311628
+      ],
+      "quat": [
+        0.049067674327408495,
+        0.9987954562051728,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_41",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1390457451,
+        0.3980688372
+      ],
+      "quat": [
+        -0.049067674327408495,
+        0.9987954562051728,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_42",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1394090668,
+        0.3962422956
+      ],
+      "quat": [
+        -0.14673047445497603,
+        0.9891765099648383,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_43",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.140121748,
+        0.394521731
+      ],
+      "quat": [
+        -0.24298017990290813,
+        0.9700312531946332,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_44",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1411564007,
+        0.3929732638
+      ],
+      "quat": [
+        -0.3368898533920316,
+        0.9415440651830883,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_45",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1424732638,
+        0.3916564007
+      ],
+      "quat": [
+        -0.4275550934302229,
+        0.9039892931234713,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_46",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.144021731,
+        0.390621748
+      ],
+      "quat": [
+        -0.5141027441931786,
+        0.857728610000298,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_47",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1457422956,
+        0.3899090668
+      ],
+      "quat": [
+        -0.5956993044919839,
+        0.8032075314809782,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_48",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.1475688372,
+        0.3895457451
+      ],
+      "quat": [
+        -0.6715589548469879,
+        0.7409511253549866,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_49",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2044311628,
+        0.3895457451
+      ],
+      "quat": [
+        0.7409511253549866,
+        -0.6715589548469879,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_50",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2062577044,
+        0.3899090668
+      ],
+      "quat": [
+        0.8032075314809782,
+        -0.5956993044919839,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_51",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.207978269,
+        0.390621748
+      ],
+      "quat": [
+        0.857728610000298,
+        -0.5141027441931786,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_52",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2095267362,
+        0.3916564007
+      ],
+      "quat": [
+        0.9039892931234713,
+        -0.4275550934302229,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_53",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2108435993,
+        0.3929732638
+      ],
+      "quat": [
+        0.9415440651830883,
+        -0.3368898533920316,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_54",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.211878252,
+        0.394521731
+      ],
+      "quat": [
+        0.9700312531946332,
+        -0.24298017990290813,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_55",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2125909332,
+        0.3962422956
+      ],
+      "quat": [
+        0.9891765099648383,
+        -0.14673047445497603,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_56",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2129542549,
+        0.3980688372
+      ],
+      "quat": [
+        0.9987954562051728,
+        -0.049067674327408495,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_57",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2129542549,
+        0.3999311628
+      ],
+      "quat": [
+        0.9987954562051728,
+        0.049067674327408495,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_58",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2125909332,
+        0.4017577044
+      ],
+      "quat": [
+        0.9891765099648383,
+        0.14673047445497603,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_59",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.211878252,
+        0.403478269
+      ],
+      "quat": [
+        0.9700312531946332,
+        0.24298017990290813,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_60",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2108435993,
+        0.4050267362
+      ],
+      "quat": [
+        0.9415440651830883,
+        0.3368898533920316,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_61",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2095267362,
+        0.4063435993
+      ],
+      "quat": [
+        0.9039892931234713,
+        0.4275550934302229,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_62",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.207978269,
+        0.407378252
+      ],
+      "quat": [
+        0.857728610000298,
+        0.5141027441931786,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_63",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2062577044,
+        0.4080909332
+      ],
+      "quat": [
+        0.8032075314809782,
+        0.5956993044919839,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_64",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        -0.108,
+        0.2044311628,
+        0.4084542549
+      ],
+      "quat": [
+        0.7409511253549866,
+        0.6715589548469879,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_side_wall_contact_4",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.176,
+        0.16975
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.044,
+        0.01875
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_side_wall_contact_5",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.176,
+        0.2975
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.044,
+        0.094
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_side_wall_contact_6",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.176,
+        0.42875
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.044,
+        0.02225
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_slot_end_web_contact_3",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1365,
+        0.301
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.0045,
+        0.15
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Guide_frame_slot_end_web_contact_4",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2155,
+        0.301
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.0045,
+        0.15
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_65",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1475688372,
+        0.2054542549
+      ],
+      "quat": [
+        0.6715589548469879,
+        0.7409511253549866,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_66",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1457422956,
+        0.2050909332
+      ],
+      "quat": [
+        0.5956993044919839,
+        0.8032075314809782,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_67",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.144021731,
+        0.204378252
+      ],
+      "quat": [
+        0.5141027441931786,
+        0.857728610000298,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_68",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1424732638,
+        0.2033435993
+      ],
+      "quat": [
+        0.4275550934302229,
+        0.9039892931234713,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_69",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1411564007,
+        0.2020267362
+      ],
+      "quat": [
+        0.3368898533920316,
+        0.9415440651830883,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_70",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.140121748,
+        0.200478269
+      ],
+      "quat": [
+        0.24298017990290813,
+        0.9700312531946332,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_71",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1394090668,
+        0.1987577044
+      ],
+      "quat": [
+        0.14673047445497603,
+        0.9891765099648383,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_72",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1390457451,
+        0.1969311628
+      ],
+      "quat": [
+        0.049067674327408495,
+        0.9987954562051728,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_73",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1390457451,
+        0.1950688372
+      ],
+      "quat": [
+        -0.049067674327408495,
+        0.9987954562051728,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_74",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1394090668,
+        0.1932422956
+      ],
+      "quat": [
+        -0.14673047445497603,
+        0.9891765099648383,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_75",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.140121748,
+        0.191521731
+      ],
+      "quat": [
+        -0.24298017990290813,
+        0.9700312531946332,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_76",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1411564007,
+        0.1899732638
+      ],
+      "quat": [
+        -0.3368898533920316,
+        0.9415440651830883,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_77",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1424732638,
+        0.1886564007
+      ],
+      "quat": [
+        -0.4275550934302229,
+        0.9039892931234713,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_78",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.144021731,
+        0.187621748
+      ],
+      "quat": [
+        -0.5141027441931786,
+        0.857728610000298,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_79",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1457422956,
+        0.1869090668
+      ],
+      "quat": [
+        -0.5956993044919839,
+        0.8032075314809782,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_80",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1475688372,
+        0.1865457451
+      ],
+      "quat": [
+        -0.6715589548469879,
+        0.7409511253549866,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_81",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2044311628,
+        0.1865457451
+      ],
+      "quat": [
+        0.7409511253549866,
+        -0.6715589548469879,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_82",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2062577044,
+        0.1869090668
+      ],
+      "quat": [
+        0.8032075314809782,
+        -0.5956993044919839,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_83",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.207978269,
+        0.187621748
+      ],
+      "quat": [
+        0.857728610000298,
+        -0.5141027441931786,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_84",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2095267362,
+        0.1886564007
+      ],
+      "quat": [
+        0.9039892931234713,
+        -0.4275550934302229,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_85",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2108435993,
+        0.1899732638
+      ],
+      "quat": [
+        0.9415440651830883,
+        -0.3368898533920316,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_86",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.211878252,
+        0.191521731
+      ],
+      "quat": [
+        0.9700312531946332,
+        -0.24298017990290813,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_87",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2125909332,
+        0.1932422956
+      ],
+      "quat": [
+        0.9891765099648383,
+        -0.14673047445497603,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_88",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2129542549,
+        0.1950688372
+      ],
+      "quat": [
+        0.9987954562051728,
+        -0.049067674327408495,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_89",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2129542549,
+        0.1969311628
+      ],
+      "quat": [
+        0.9987954562051728,
+        0.049067674327408495,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_90",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2125909332,
+        0.1987577044
+      ],
+      "quat": [
+        0.9891765099648383,
+        0.14673047445497603,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_91",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.211878252,
+        0.200478269
+      ],
+      "quat": [
+        0.9700312531946332,
+        0.24298017990290813,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_92",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2108435993,
+        0.2020267362
+      ],
+      "quat": [
+        0.9415440651830883,
+        0.3368898533920316,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_93",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2095267362,
+        0.2033435993
+      ],
+      "quat": [
+        0.9039892931234713,
+        0.4275550934302229,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_94",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.207978269,
+        0.204378252
+      ],
+      "quat": [
+        0.857728610000298,
+        0.5141027441931786,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_95",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2062577044,
+        0.2050909332
+      ],
+      "quat": [
+        0.8032075314809782,
+        0.5956993044919839,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_96",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2044311628,
+        0.2054542549
+      ],
+      "quat": [
+        0.7409511253549866,
+        0.6715589548469879,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_97",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1475688372,
+        0.4084542549
+      ],
+      "quat": [
+        0.6715589548469879,
+        0.7409511253549866,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_98",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1457422956,
+        0.4080909332
+      ],
+      "quat": [
+        0.5956993044919839,
+        0.8032075314809782,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_99",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.144021731,
+        0.407378252
+      ],
+      "quat": [
+        0.5141027441931786,
+        0.857728610000298,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_100",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1424732638,
+        0.4063435993
+      ],
+      "quat": [
+        0.4275550934302229,
+        0.9039892931234713,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_101",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1411564007,
+        0.4050267362
+      ],
+      "quat": [
+        0.3368898533920316,
+        0.9415440651830883,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_102",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.140121748,
+        0.403478269
+      ],
+      "quat": [
+        0.24298017990290813,
+        0.9700312531946332,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_103",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1394090668,
+        0.4017577044
+      ],
+      "quat": [
+        0.14673047445497603,
+        0.9891765099648383,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_104",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1390457451,
+        0.3999311628
+      ],
+      "quat": [
+        0.049067674327408495,
+        0.9987954562051728,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_105",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1390457451,
+        0.3980688372
+      ],
+      "quat": [
+        -0.049067674327408495,
+        0.9987954562051728,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_106",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1394090668,
+        0.3962422956
+      ],
+      "quat": [
+        -0.14673047445497603,
+        0.9891765099648383,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_107",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.140121748,
+        0.394521731
+      ],
+      "quat": [
+        -0.24298017990290813,
+        0.9700312531946332,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_108",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1411564007,
+        0.3929732638
+      ],
+      "quat": [
+        -0.3368898533920316,
+        0.9415440651830883,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_109",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1424732638,
+        0.3916564007
+      ],
+      "quat": [
+        -0.4275550934302229,
+        0.9039892931234713,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_110",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.144021731,
+        0.390621748
+      ],
+      "quat": [
+        -0.5141027441931786,
+        0.857728610000298,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_111",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1457422956,
+        0.3899090668
+      ],
+      "quat": [
+        -0.5956993044919839,
+        0.8032075314809782,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_112",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.1475688372,
+        0.3895457451
+      ],
+      "quat": [
+        -0.6715589548469879,
+        0.7409511253549866,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_113",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2044311628,
+        0.3895457451
+      ],
+      "quat": [
+        0.7409511253549866,
+        -0.6715589548469879,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_114",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2062577044,
+        0.3899090668
+      ],
+      "quat": [
+        0.8032075314809782,
+        -0.5956993044919839,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_115",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.207978269,
+        0.390621748
+      ],
+      "quat": [
+        0.857728610000298,
+        -0.5141027441931786,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_116",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2095267362,
+        0.3916564007
+      ],
+      "quat": [
+        0.9039892931234713,
+        -0.4275550934302229,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_117",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2108435993,
+        0.3929732638
+      ],
+      "quat": [
+        0.9415440651830883,
+        -0.3368898533920316,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_118",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.211878252,
+        0.394521731
+      ],
+      "quat": [
+        0.9700312531946332,
+        -0.24298017990290813,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_119",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2125909332,
+        0.3962422956
+      ],
+      "quat": [
+        0.9891765099648383,
+        -0.14673047445497603,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_120",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2129542549,
+        0.3980688372
+      ],
+      "quat": [
+        0.9987954562051728,
+        -0.049067674327408495,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_121",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2129542549,
+        0.3999311628
+      ],
+      "quat": [
+        0.9987954562051728,
+        0.049067674327408495,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_122",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2125909332,
+        0.4017577044
+      ],
+      "quat": [
+        0.9891765099648383,
+        0.14673047445497603,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_123",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.211878252,
+        0.403478269
+      ],
+      "quat": [
+        0.9700312531946332,
+        0.24298017990290813,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_124",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2108435993,
+        0.4050267362
+      ],
+      "quat": [
+        0.9415440651830883,
+        0.3368898533920316,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_125",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2095267362,
+        0.4063435993
+      ],
+      "quat": [
+        0.9039892931234713,
+        0.4275550934302229,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_126",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.207978269,
+        0.407378252
+      ],
+      "quat": [
+        0.857728610000298,
+        0.5141027441931786,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_127",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2062577044,
+        0.4080909332
+      ],
+      "quat": [
+        0.8032075314809782,
+        0.5956993044919839,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Rounded_guide_slot_contact_128",
+      "body": "base",
+      "type": "box",
+      "pos": [
+        0.108,
+        0.2044311628,
+        0.4084542549
+      ],
+      "quat": [
+        0.7409511253549866,
+        0.6715589548469879,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0025,
+        0.002,
+        0.00114397765
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Exposed_transverse_guide_rod_contact",
+      "body": "base",
+      "type": "cylinder",
+      "pos": [
+        0.132,
+        0.176,
+        0.195
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0055,
+        0.035,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "base__Exposed_transverse_guide_rod_contact_2",
+      "body": "base",
+      "type": "cylinder",
+      "pos": [
+        0.132,
+        0.176,
+        0.399
+      ],
+      "quat": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "size": [
+        0.0055,
+        0.035,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
       "name": "optic_focus__Focus_carriage_bridge",
       "body": "optic_focus",
       "type": "box",
@@ -370,35 +4517,6 @@
         0.046,
         0.045,
         0.054
-      ],
-      "friction": [
-        0.8,
-        0.002,
-        0.0001
-      ],
-      "contype": 2,
-      "conaffinity": 1,
-      "condim": 4
-    },
-    {
-      "name": "optic_focus__Mitutoyo_optical_housing_envelope",
-      "body": "optic_focus",
-      "type": "box",
-      "pos": [
-        0.0,
-        -0.035,
-        -0.013
-      ],
-      "quat": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "size": [
-        0.0555,
-        0.061,
-        0.0845
       ],
       "friction": [
         0.8,
@@ -552,6 +4670,441 @@
       ],
       "contype": 10,
       "conaffinity": 17,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Optical_housing_inner_core",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0,
+        -0.035,
+        -0.013
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0435,
+        0.061,
+        0.0845
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Optical_housing_side_rim",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        -0.0495,
+        -0.035,
+        -0.09525
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.061,
+        0.00225
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Optical_housing_side_rim_2",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        -0.0495,
+        -0.035,
+        0.01875
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.061,
+        0.05275
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Optical_housing_side_rim_3",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        -0.0495,
+        -0.086,
+        -0.0635
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.01,
+        0.0295
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Optical_housing_side_rim_4",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        -0.0495,
+        0.022,
+        -0.0635
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.004,
+        0.0295
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Blank_optical_cover_contact",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        -0.0557,
+        -0.029,
+        -0.063
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0008,
+        0.0423,
+        0.0253
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Optical_housing_side_rim_5",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0495,
+        -0.035,
+        -0.09525
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.061,
+        0.00225
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Optical_housing_side_rim_6",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0495,
+        -0.035,
+        0.01875
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.061,
+        0.05275
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Optical_housing_side_rim_7",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0495,
+        -0.086,
+        -0.0635
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.01,
+        0.0295
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Optical_housing_side_rim_8",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0495,
+        0.022,
+        -0.0635
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.006,
+        0.004,
+        0.0295
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Slotted_optical_cover_contact",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0557,
+        -0.029,
+        -0.07665
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0008,
+        0.0423,
+        0.01165
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Slotted_optical_cover_contact_2",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0557,
+        -0.029,
+        -0.04885
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0008,
+        0.0423,
+        0.01115
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Slotted_optical_cover_contact_3",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0557,
+        -0.07015,
+        -0.0625
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0008,
+        0.00115,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Slotted_optical_cover_contact_4",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0557,
+        -0.047,
+        -0.0625
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0008,
+        0.005,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
+      "condim": 4
+    },
+    {
+      "name": "optic_focus__Slotted_optical_cover_contact_5",
+      "body": "optic_focus",
+      "type": "box",
+      "pos": [
+        0.0557,
+        -0.00585,
+        -0.0625
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0008,
+        0.01915,
+        0.0025
+      ],
+      "friction": [
+        0.8,
+        0.002,
+        0.0001
+      ],
+      "contype": 2,
+      "conaffinity": 1,
       "condim": 4
     },
     {
